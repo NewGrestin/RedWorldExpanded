@@ -1,0 +1,212 @@
+scripted_gui = {
+
+	PAN_Super_Event_Window = {
+		context_type = player_context
+		window_name = "Super_Event_Window"
+
+		visible = {
+			has_global_flag = Super_Event_Visible
+		}
+
+		triggers = {
+			Super_Event_Image_American_Reunification_Democracy_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Republic_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Sanders_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Sanders_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Duke_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Duke_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Klan_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Klan_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_COC_visible = {
+				has_global_flag = GLOBAL_American_Reunification_COC_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Monarchy_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Monarchy_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Military_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Military_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Communist_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Communist_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Communist_Davis_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Communist_Davis_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Communist_Foster_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Communist_Foster_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Socialist_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Socialist_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Fundamentalists_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Fundamentalists_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Pence_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
+			}
+
+			Super_Event_Image_Fall_of_the_USSR_visible = {
+				has_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
+			}
+
+			Super_Event_Image_Fall_of_the_UAR_visible = {
+				has_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
+			}
+
+			Super_Event_Image_Midwestern_War_visible = {
+				has_global_flag = GLOBAL_Midwestern_War_VISIBLE
+			}
+		}
+
+		properties = {
+			Super_Event_Image_Default = {
+				image = "[get_my_superevent_texture]"
+			}
+		}
+
+		effects = {
+			Super_Event_Close_click = {
+				clr_global_flag = Super_Event_Visible
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Sanders_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Sanders_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Klan_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Klan_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Duke_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Duke_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_COC_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_COC_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Monarchy_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Monarchy_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Military_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Military_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Communist_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Communist_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Communist_Davis_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Communist_Davis_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Communist_Foster_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Communist_Foster_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Socialist_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Socialist_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Fundamentalists_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Fundamentalists_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Midwestern_War_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Midwestern_War_VISIBLE
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+sound = {
+	name = "super_American_Reunification_Republic"
+	file = "menu/super_American_Republic_Sound_Effect.wav"
+	volume = 1
+	always_load = yes
+}

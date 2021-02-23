@@ -1,0 +1,31 @@
+﻿l_english:
+
+  get_super_event_title:0 "-"
+  GFX_SPEVNT_American_Reunification_TITLE:0 "AMERICAN REUNIFICATION"
+
+  GFX_SPEVNT_American_Reunification_Democracy_QUOTE:0 "The price of democracy is the ongoing pursuit of the common good by all of the people.\n§Y-Saul Alinsky-§!"
+
+  GFX_SPEVNT_American_Reunification_Sanders_QUOTE:0 "There are no human oppressors. Oppressors have lost their humanity.\n\n§Y-Bernard Sanders-§!"
+  GFX_SPEVNT_American_Reunification_Socialist_QUOTE:0 "Let the people everywhere take heart of hope, for the cross is bending, the midnight is passing, and joy cometh with the morning.\n§Y-Eugene V. Debs-§!"
+  GFX_SPEVNT_American_Reunification_Fundamentalists_QUOTE:0 "The framers of our Constitution meant we were to have freedom of religion, not freedom from religion.\n§Y-Billy Graham-§!"
+  GFX_SPEVNT_American_Reunification_Pence_QUOTE:0 "I just know in my heart of hearts that this will be the generation that restores life in America.\n§Y-Mike Pence-§!"
+
+  GFX_SPEVNT_American_Reunification_Republic_QUOTE:0 "The American way of life is not up for negotiation. Period.\n\n§Y-George H.W. Bush-§!"
+  GFX_SPEVNT_American_Reunification_Klan_QUOTE:0 "Hanging from a single overpass only about a mile from here is a group of about 30, each with an identical placard around its neck bearing the printed legend, \"I betrayed my race.\"\n§Y-The Turner Diaries-§!"
+  GFX_SPEVNT_American_Reunification_Duke_QUOTE:0 "When fascism comes to America, it will be wrapped in the flag and carrying a cross.\n\n§Y-James Waterman Wise-§!"
+  GFX_SPEVNT_American_Reunification_COC_QUOTE:0 "The historical debate is over. The answer is free-market capitalism.\n\n§Y-Thomas Friedman-§!"
+  GFX_SPEVNT_American_Reunification_Monarchy_QUOTE:0 "Posterity will talk of Washington as the founder of a great empire, when my name shall be lost in the vortex of revolution.\n§Y-Napoléon Bonaparte-§!"
+  GFX_SPEVNT_American_Reunification_Military_QUOTE:0 "Today the guns are silent. A great tragedy has ended. A great victory has been won.\n\n§Y-Douglas MacArthur-§!"
+
+  GFX_SPEVNT_American_Reunification_Communist_QUOTE:0 "The revolutionary tradition is the heart of Americanism.\n\n§Y-Earl Browder-§!"
+  GFX_SPEVNT_American_Reunification_Communist_Davis_QUOTE:0 "All around the world people are saying that we want to struggle to continue as global communities, to create a world free of xenophobia and racism.\n§Y-Angela Davis-§!"
+  GFX_SPEVNT_American_Reunification_Communist_Foster_QUOTE:0 "No, you won't accept communism outright; but, we will keep feeding you small doses of socialism until you will finally wake up and find you already have Communism.\n§Y-Nikita Khrushchev-§!"
+
+  GFX_SPEVNT_Fall_of_the_USSR_TITLE:0 "FALL OF THE USSR"
+  GFX_SPEVNT_Fall_of_the_USSR_QUOTE:0 "If what you have done yesterday still looks big to you, you haven't done much today.\n\n§Y-Mikhail Gorbachev-§!"
+
+  GFX_SPEVNT_Fall_of_the_UAR_TITLE:0 "END OF THE UAR"
+  GFX_SPEVNT_Fall_of_the_UAR_QUOTE:0 "We must fight our way to victory on a sea of blood and a horizon of fire.\n\n§Y-Gamal Abdel Nasser-§!"
+
+  GFX_SPEVNT_Midwestern_War_TITLE:0 "THE MIDWESTERN WAR"
+  GFX_SPEVNT_Midwestern_War_QUOTE:0 "I don't care how precise your bombs and your weapons are, when you set them off, innocent people will die.\n\n§Y-Bill Blythe-§!"

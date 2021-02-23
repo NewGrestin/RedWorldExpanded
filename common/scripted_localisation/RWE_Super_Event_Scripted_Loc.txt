@@ -1,0 +1,170 @@
+defined_text = { #SUPER EVENT TITLES
+    name = get_super_event_title
+    
+    text = { 
+        trigger = {
+            OR = {
+                has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Sanders_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Klan_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Duke_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_COC_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Monarchy_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Military_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Communist_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Socialist_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Fundamentalists_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Communist_Davis_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Communist_Foster_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
+            }
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Fall_of_the_USSR_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Fall_of_the_UAR_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Midwestern_War_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Midwestern_War_TITLE"
+    }
+}
+
+defined_text = { #SUPER EVENT QUOTES
+    name = get_superevent_quote
+    
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Democracy_QUOTE"
+    }
+
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Republic_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Sanders_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Sanders_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Klan_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Klan_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Duke_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Duke_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_COC_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_COC_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Monarchy_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Monarchy_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Military_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Military_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Communist_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Communist_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Communist_Davis_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Communist_Davis_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Communist_Foster_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Communist_Foster_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Socialist_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Socialist_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Fundamentalists_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Fundamentalists_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Pence_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Fall_of_the_USSR_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Fall_of_the_UAR_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Midwestern_War_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Midwestern_War_QUOTE"
+    }
+}

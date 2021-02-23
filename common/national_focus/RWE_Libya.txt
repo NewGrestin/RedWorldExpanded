@@ -1,0 +1,2092 @@
+focus_tree = {
+	id = libya_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = LBA
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+
+	focus = {
+		id = LBA_Initial_Focus
+		icon = GFX_goal_LBA_Initial_Focus
+		x = 8
+		y = 0
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Placate_Military
+		icon = GFX_goal_Generic_Paternal_Autocracy
+		x = 6
+		y = 1
+
+		cost = 2
+
+		prerequisite = {
+			focus = LBA_Initial_Focus
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Placate_Islamists
+			focus = LBA_Placate_Socialists
+		}
+
+		completion_reward = {
+			army_experience = 25
+
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Placate_Islamists
+		icon = GFX_goal_Generic_Islamic_Government
+		x = 8
+		y = 1
+
+		cost = 2
+
+		prerequisite = {
+			focus = LBA_Initial_Focus
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Placate_Military
+			focus = LBA_Placate_Socialists
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Placate_Socialists
+		icon = GFX_goal_Generic_Revolutionary_Anarchism
+		x = 10
+		y = 1
+
+		cost = 2
+
+		prerequisite = {
+			focus = LBA_Initial_Focus
+		}
+	
+		mutually_exclusive = {
+			focus = LBA_Placate_Military
+			focus = LBA_Placate_Islamists
+		}
+
+		completion_reward = {
+			add_political_power = 50
+
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Reassure_Tunisia
+		icon = GFX_Focus_goal_FRA_exceptional
+		x = 7
+		y = 2
+
+		cost = 2
+
+		available = {
+			always = no
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Purge_Tunisia
+		}
+
+		prerequisite = {
+			focus = LBA_Placate_Military
+			focus = LBA_Placate_Islamists
+			focus = LBA_Placate_Socialists
+		}
+
+		completion_reward = {
+			add_political_power = -50
+
+		}
+	}
+
+	focus = {
+		id = LBA_Purge_Tunisia
+		icon = GFX_Focus_Bloody_Purge
+		x = 9
+		y = 2
+
+		cost = 2
+
+		available = {
+			always = no
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Reassure_Tunisia
+		}
+
+		prerequisite = {
+			focus = LBA_Placate_Military
+			focus = LBA_Placate_Islamists
+			focus = LBA_Placate_Socialists
+		}
+
+		completion_reward = {
+			add_political_power = -50
+
+		}
+	}
+
+	focus = {
+		id = LBA_Civil_War
+		icon = GFX_goal_Generic_Violent_Coup
+		x = 8
+		y = 3
+
+		cost = 2
+
+		bypass = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Reassure_Tunisia
+			focus = LBA_Purge_Tunisia
+		}
+
+		completion_reward = {
+			add_political_power = -50
+
+		}
+	}
+
+	focus = {
+		id = LBA_Open_Stockpiles
+		icon = GFX_Focus_Machinegun
+		x = 6
+		y = 4
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Civil_War
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = LBA
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Mobilization
+		icon = GFX_goal_Focus_Mass_Assault_Doctrine
+		x = 8
+		y = 4
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Civil_War
+		}
+
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+	}
+
+	focus = {
+		id = LBA_Control_Economy
+		icon = GFX_goal_Focus_GER_German_Empire_Adapt_Constitution
+		x = 10
+		y = 4
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Civil_War
+		}
+
+		completion_reward = {
+			add_ideas = war_economy
+		}
+	}
+
+	focus = {
+		id = LBA_Toyota_War
+		icon = GFX_goal_LBA_Toyota_War
+		x = 5
+		y = 5
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Open_Stockpiles
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 1000
+				producer = LBA
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Taureg_Support
+		icon = GFX_goal_LBA_Taureg_Support
+		x = 7
+		y = 5
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Mobilization
+		}
+
+		completion_reward = {
+			add_ideas = RWE_LBA_Taureg_Support
+		}
+	}
+
+	focus = {
+		id = LBA_Nationalize_Oil
+		icon = GFX_goal_Generic_Oil_Concern
+		x = 9
+		y = 5
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Mobilization
+		}
+
+		completion_reward = {
+			add_ideas = RWE_LBA_Oil_Reserves
+		}
+	}
+
+	focus = {
+		id = LBA_Nationalize_Foreign_Interests
+		icon = GFX_goal_generic_infrastructure_control
+		x = 11
+		y = 5
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Control_Economy
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Amnesty_for_Service
+		icon = GFX_goal_generic_gun_capture
+		x = 6
+		y = 6
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Toyota_War
+		}
+
+		completion_reward = {
+			add_manpower = 10000
+		}
+	}
+
+	focus = {
+		id = LBA_Autarky
+		icon = GFX_Goal_no_gambol
+		x = 8
+		y = 6
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Taureg_Support
+		}
+
+		prerequisite = {
+			focus = LBA_Nationalize_Oil
+		}
+
+		completion_reward = {
+			add_ideas = closed_economy
+		}
+	}
+
+	focus = {
+		id = LBA_Further_Centralization
+		icon = GFX_Focus_Central_Planned_Economy
+		x = 10
+		y = 6
+
+		cost = 2
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+		}
+
+		prerequisite = {
+			focus = LBA_Nationalize_Foreign_Interests
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Civil_War_Victory
+		icon = GFX_goal_LBA_Civil_War_Victory
+		x = 18
+		y = 0
+
+		cost = 2
+
+		available = {
+			LBA = {
+				NOT = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
+				has_idea = RWE_LBA_Civil_War_Recovery
+			}
+		}
+
+		bypass = {
+			LBA = {
+				NOT = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
+				has_idea = RWE_LBA_Civil_War_Recovery
+			}
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Reinstate_the_General_Peoples_Committee
+		icon = GFX_Focus_Sign_Constitution
+		x = 16
+		y = 1
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Civil_War_Victory
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = LBA_Reinstate_the_General_Secretariat
+		icon = GFX_Focus_Government_Bureaucracy
+		x = 18
+		y = 1
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Civil_War_Victory
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = LBA_Economic_Recovery
+		icon = GFX_goal_Generic_Economic_Stuff
+		x = 20
+		y = 1
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Civil_War_Victory
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RWE_LBA_Civil_War_Recovery
+				add_idea = RWE_LBA_Civil_War_Recovery1
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Reaffirm_Third_International_Theory
+		icon = GFX_Focus_Improve_Literacy
+		x = 17
+		y = 2
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Reinstate_the_General_Secretariat
+		}
+
+		prerequisite = {
+			focus = LBA_Reinstate_the_General_Peoples_Committee
+		}
+
+		prerequisite = {
+			focus = LBA_Economic_Recovery
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = LBA_Purge_Military
+		icon = GFX_goal_Generic_Helmet_Knife
+		x = 19
+		y = 2
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Reinstate_the_General_Secretariat
+		}
+
+		prerequisite = {
+			focus = LBA_Reinstate_the_General_Peoples_Committee
+		}
+
+		prerequisite = {
+			focus = LBA_Economic_Recovery
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = RWE_LBA_Military_Purged
+				days = 180
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Establish_the_Jamahiriya
+		icon = GFX_goal_LBA_Establish_the_Jamahiriya
+		x = 18
+		y = 3
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Purge_Military
+		}
+
+		prerequisite = {
+			focus = LBA_Reaffirm_Third_International_Theory
+		}
+
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			set_cosmetic_tag = LBA_Jamahiriya
+
+			add_ideas = RWE_LBA_Jamahiriya_Constitution
+
+			add_stability = 0.1
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = LBA_Mandatory_Green_Books
+		icon = GFX_goal_LBA_Mandatory_Green_Books
+		x = 15
+		y = 4
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Establish_the_Jamahiriya
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RWE_LBA_Jamahiriya_Constitution
+				add_idea = RWE_LBA_Jamahiriya_Constitution2
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_Arab_Rapproachment
+		icon = GFX_goal_LBA_Pan_Arab_Rapproachment
+		x = 17
+		y = 4
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Establish_the_Jamahiriya
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Maintain_Pan_Africanism
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		    UAR = {
+			    add_opinion_modifier = {
+				    target = LBA
+				    modifier = declaration_of_friendship
+			    }
+		    }
+		}
+	}
+
+	focus = {
+		id = LBA_Maintain_Pan_Africanism
+		icon = GFX_goal_LBA_Maintain_Pan_Africanism
+		x = 19
+		y = 4
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Establish_the_Jamahiriya
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Pan_Arab_Rapproachment
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+			    add_opinion_modifier = {
+				    target = LBA
+				    modifier = declaration_of_friendship
+			    }
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Economic_Recovery2
+		icon = GFX_goal_Generic_Economic_Stuff
+		x = 21
+		y = 4
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Establish_the_Jamahiriya
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RWE_LBA_Civil_War_Recovery1
+				add_idea = RWE_LBA_Civil_War_Recovery2
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Combat_Traditionalism
+		icon = GFX_goal_Generic_Outside_Aid
+		x = 15
+		y = 5
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Mandatory_Green_Books
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RWE_LBA_Jamahiriya_Constitution2
+				add_idea = RWE_LBA_Jamahiriya_Constitution3
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Tunisian_Approach
+		icon = tunisia
+		x = 17
+		y = 5
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Pan_Arab_Rapproachment
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			TUN = {
+				country_event = { days = 5 id = arab_islamic_republic.22 } 
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Promote_Gaffadism
+		icon = GFX_goal_LBA_Promote_Gaffadism
+		x = 19
+		y = 5
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Maintain_Pan_Africanism
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+				add_popularity = {
+					ideology = national_bolshevik
+					popularity = 0.05
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Economic_Recovery3
+		icon = GFX_goal_Generic_Economic_Stuff
+		x = 21
+		y = 5
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Establish_the_Jamahiriya
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RWE_LBA_Civil_War_Recovery2
+				add_idea = RWE_LBA_Civil_War_Recovery3
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_State_Economy
+		icon = GFX_Focus_goal_state_economy
+		x = 16
+		y = 6
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Combat_Traditionalism
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Allow_Foreign_Policy
+		icon = ethiopia_unite_africa
+		x = 18
+		y = 6
+
+		cost = 9
+
+		prerequisite = {
+			focus = LBA_Tunisian_Approach
+			focus = LBA_Promote_Gaffadism
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = RWE_LBA_Foreign_Policy_allowed_tt
+		}
+	}
+
+	focus = {
+		id = LBA_Economic_Recovery4
+		icon = GFX_Focus_goal_generic_econ_5
+		x = 20
+		y = 6
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Economic_Recovery3
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			remove_ideas = RWE_LBA_Civil_War_Recovery3
+
+			add_timed_idea = {
+				idea = RWE_LBA_Five_Year_Plan
+				days = 1825
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Foreign_Policy
+		icon = GFX_goal_Focus_Roll_the_Dice
+		x = 29
+		y = 0
+
+		cost = 8
+
+		available = {
+			has_completed_focus = LBA_Allow_Foreign_Policy
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Greater_Maghreb_Claims
+		icon = GFX_goal_LBA_Greater_Maghreb_Claims
+		x = 25
+		y = 1
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Foreign_Policy
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			LBA = {
+				add_state_claim = 514
+				add_state_claim = 513
+				add_state_claim = 460
+				add_state_claim = 459
+				add_state_claim = 290
+				add_state_claim = 461
+				add_state_claim = 462
+				add_state_claim = 882
+				add_state_claim = 699
+				add_state_claim = 773
+				add_state_claim = 557
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_Arabist_Expansion
+		icon = GFX_goal_LBA_Pan_Arabist_Expansion
+		x = 27
+		y = 1
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Foreign_Policy
+		}
+
+		available = {
+			has_completed_focus = LBA_Pan_Arab_Rapproachment
+
+			has_war = no
+
+			is_subject = no
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Pan_African_Beginning
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_war_support = 0.2
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_African_Beginning
+		icon = GFX_goal_LBA_Pan_African_Beginning
+		x = 31
+		y = 1
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Foreign_Policy
+		}
+
+		available = {
+			has_completed_focus = LBA_Maintain_Pan_Africanism
+
+			has_war = no
+
+			is_subject = no
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Pan_Arabist_Expansion
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+				country_event = { days = 5 id = arab_islamic_republic.23 } 
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Popular_Revolutionary_Alliance
+		icon = focus_emergency_party_convention
+		x = 33
+		y = 1
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Foreign_Policy
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			create_faction = "Popular Revolutionary Alliance"
+		}
+	}
+
+	focus = {
+		id = LBA_Strike_Algeria
+		icon = GFX_goal_LBA_Strike_Algeria
+		x = 24
+		y = 2
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Greater_Maghreb_Claims
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			LBA = {
+				create_wargoal = {
+					type = annex_everything
+					target = ALG
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Attack_UAR
+		icon = focus_arab_civil_war
+		x = 26
+		y = 2
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Pan_Arabist_Expansion
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					UAR = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = UAR
+					}
+				}
+				else = {
+					LBA = {
+						create_wargoal = {
+							type = annex_everything
+							target = EGY
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Integrate_UAR
+		icon = GFX_goal_Generic_Redraw_Borders
+		x = 28
+		y = 2
+
+		cost = 12
+
+		prerequisite = {
+			focus = LBA_Pan_Arabist_Expansion
+		}
+
+		available = {
+			UAR = {
+				exists = no
+			}
+
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		    every_state = {
+			    limit = {
+				    is_core_of = UAR
+				}
+				add_core_of = LBA
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_African_Unified_Passports
+		icon = GFX_goal_LBA_Pan_African_Unified_Passports
+		x = 30
+		y = 2
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Pan_African_Beginning
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_ideas = RWE_LBA_African_Passports
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+				country_event = { days = 5 id = arab_islamic_republic.24 } 
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_African_Unified_Monetary_Fund
+		icon = GFX_goal_LBA_Pan_African_Unified_Monetary_Fund
+		x = 32
+		y = 2
+
+		cost = 10
+
+		prerequisite = {
+			focus = LBA_Pan_African_Beginning
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_ideas = RWE_LBA_African_Monetary_Fund
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+				country_event = { days = 5 id = arab_islamic_republic.25 } 
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Strike_Morocco
+		icon = GFX_goal_LBA_Strike_Morocco
+		x = 24
+		y = 3
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Strike_Algeria
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			LBA = {
+				create_wargoal = {
+					type = annex_everything
+					target = MOR
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Attack_Levant
+		icon = palestine_attack
+		x = 26
+		y = 3
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Attack_UAR
+		}
+
+		available = {
+			UAR = {
+				exists = no
+			}
+
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					SYR = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = SYR
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					PAL = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = PAL
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					JOR = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = JOR
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					LEB = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = LEB
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Integrate_Levant
+		icon = GFX_goal_LBA_Integrate_Levant
+		x = 28
+		y = 3
+
+		cost = 15
+
+		prerequisite = {
+			focus = LBA_Integrate_UAR
+		}
+
+		available = {
+			UAR = {
+				exists = no
+			}
+
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		    every_state = {
+			    limit = {
+					OR = {
+						is_core_of = SYR
+						is_core_of = PAL
+						is_core_of = LEB
+						is_core_of = JOR
+					}
+				}
+				add_core_of = LBA
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_African_Unified_Military
+		icon = GFX_goal_LBA_Pan_African_Unified_Military
+		x = 30
+		y = 3
+
+		cost = 15
+
+		prerequisite = {
+			focus = LBA_Pan_African_Beginning
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_ideas = RWE_LBA_African_Military
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+				country_event = { days = 5 id = arab_islamic_republic.25 } 
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_African_Unified_Currency
+		icon = GFX_goal_LBA_Pan_African_Unified_Currency
+		x = 32
+		y = 3
+
+		cost = 15
+
+		prerequisite = {
+			focus = LBA_Pan_African_Unified_Monetary_Fund
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			add_ideas = RWE_LBA_African_Currency
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+				country_event = { days = 5 id = arab_islamic_republic.27 } 
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Unify_Maghreb
+		icon = GFX_goal_LBA_Unify_Maghreb
+		x = 25
+		y = 4
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Strike_Morocco
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Unify_Arabia
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			set_cosmetic_tag = LBA_Unified_Maghreb
+
+			if = {
+				limit = {
+					TUN = {
+						is_subject_of = LBA
+					}
+				}
+				annex_country = {
+					target = TUN
+					transfer_troops = yes
+				}
+			}
+
+		    every_state = {
+			    limit = {
+					OR = {
+						is_core_of = ALG
+						is_core_of = MOR
+					}
+				}
+				add_core_of = LBA
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Unify_Arabia
+		icon = GFX_goal_LBA_Unify_Arabia
+		x = 27
+		y = 4
+
+		cost = 15
+
+		prerequisite = {
+			focus = LBA_Integrate_Levant
+		}
+
+		mutually_exclusive = {
+			focus = LBA_Unify_Maghreb
+		}
+
+		available = {
+			PAL = {
+				exists = no
+			}
+
+			LEB = {
+				exists = no
+			}
+
+			JOR = {
+				exists = no
+			}
+
+			SYR = {
+				exists = no
+			}
+
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			set_cosmetic_tag = LBA_Unified_Arabia
+
+			if = {
+				limit = {
+					IRQ = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = IRQ
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					SAU = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = SAU
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					YEM = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = YEM
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					SUD = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = SUD
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					OMA = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = OMA
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					UAE = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = UAE
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					QAT = {
+						exists = yes
+					}
+				}
+				LBA = {
+					create_wargoal = {
+						type = annex_everything
+						target = QAT
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Pan_African_Unite
+		icon = workers_of_africa_unite
+		x = 31
+		y = 4
+
+		cost = 20
+
+		prerequisite = {
+			focus = LBA_Pan_African_Unified_Military
+		}
+
+		prerequisite = {
+			focus = LBA_Pan_African_Unified_Currency
+		}
+
+		available = {
+			has_war = no
+
+			is_subject = no
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			set_cosmetic_tag = LBA_Unified_Africa
+
+			every_state = {
+			    limit = {
+				    is_on_continent = africa
+				}
+				add_core_of = ETH
+			}
+
+			every_country = {
+				limit = {
+					is_in_africa = yes
+				}
+				country_event = { days = 5 id = arab_islamic_republic.28 } 
+			}
+		}
+	}
+
+	focus = {
+		id = LBA_Gadaffi_Death
+		icon = GFX_goal_LBA_Gadaffi_Death
+		x = 18
+		y = 7
+
+		cost = 8
+
+		available = {
+			has_completed_focus = LBA_Allow_Foreign_Policy
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Saif_Gadaffi
+		icon = GFX_goal_LBA_Saif_Gadaffi
+		x = 16
+		y = 8
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Gadaffi_Death
+		}
+
+		available = {
+			has_completed_focus = LBA_Allow_Foreign_Policy
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Ayesha_Gaddafi
+		icon = GFX_goal_LBA_Ayesha_Gaddafi
+		x = 18
+		y = 8
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Gadaffi_Death
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_LBA_Saadi_Gadaffi
+		icon = GFX_goal_LBA_Saadi_Gadaffi
+		x = 20
+		y = 8
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Gadaffi_Death
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Expand_Mukhabarat
+		icon = GFX_goal_inquisitor
+		x = 16
+		y = 9
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Saif_Gadaffi
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Foundations
+		icon = GFX_goal_bricks
+		x = 16
+		y = 10
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Expand_Mukhabarat
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Press_Liberalization
+		icon = GFX_goal_Focus_Generic_Press_Liberalization
+		x = 18
+		y = 9
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Ayesha_Gaddafi
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Democratic_Revolution
+		icon = GFX_Focus_Generic_Democratic_Election
+		x = 18
+		y = 10
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Press_Liberalization
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Liberalize_Economy
+		icon = GFX_Generic_Market_Economy
+		x = 20
+		y = 9
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_LBA_Saadi_Gadaffi
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LBA_Embrace_Corruption
+		icon = GFX_Goal_generic_aristocracy
+		x = 20
+		y = 10
+
+		cost = 8
+
+		prerequisite = {
+			focus = LBA_Liberalize_Economy
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+
+		}
+	}

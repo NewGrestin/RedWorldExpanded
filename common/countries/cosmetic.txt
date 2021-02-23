@@ -1,0 +1,89 @@
+LBA_Unified_Maghreb = {
+    color = rgb { 0 149 48 }
+    color_ui = rgb { 0 149 48 }
+}
+
+LBA_Unified_Arabia = {
+    color = rgb { 0 149 48 }
+    color_ui = rgb { 0 149 48 }
+}
+
+LBA_Unified_Africa = {
+    color = rgb { 0 149 48 }
+    color_ui = rgb { 0 149 48 }
+}
+
+USS_Democratic = {
+    color = rgb { 58 168 202 }
+    color_ui = rgb { 58 168 202 }
+}
+
+USS_Socialist_Generic = {
+    color = rgb { 202 58 82 }
+    color_ui = rgb { 202 58 82 }
+}
+
+USS_Far_Right_Generic = {
+    color = rgb { 112 139 148 }
+    color_ui = rgb { 112 139 148 }
+}
+
+USS_Monarchy = {
+    color = rgb { 58 82 202 }
+    color_ui = rgb { 58 82 202 }
+}
+
+USS_Duke = {
+    color = rgb { 44 126 152 }
+    color_ui = rgb { 44 126 152 }
+}
+
+USS_Klan = {
+    color = rgb { 33 95 114 }
+    color_ui = rgb { 33 95 114 }
+}
+
+USS_Communist_Davis = {
+    color = rgb { 202 58 82 }
+    color_ui = rgb { 202 58 82 }
+}
+
+USS_Communist_Tyner = {
+    color = rgb { 215 107 125 }
+    color_ui = rgb { 215 107 125 }
+}
+
+USS_Communist_Foster = {
+    color = rgb { 108 54 63 }
+    color_ui = rgb { 108 54 63 }
+}
+
+USS_RevSoc_Syndicates = {
+	color = rgb { 135 2 2 }
+	color_ui = rgb { 142 2 2 }
+}
+
+USS_RevSoc_Technate = {
+	color = rgb { 150 12 22 }
+	color_ui = rgb { 156 12 22 }
+}
+
+USS_Junta = {
+    color = rgb { 52 72 78 }
+    color_ui = rgb { 52 72 78 }
+}
+
+USS_Phelps = {
+    color = rgb { 38 57 84 }
+    color_ui = rgb { 38 57 84 }
+}
+
+USS_HRE = {
+	color = rgb { 67 38 68 }
+	color_ui = rgb { 67 38 68 }
+}
+
+USS_GAU = {
+	color = rgb { 142 209 177 }
+	color_ui = rgb { 115 115 115 }
+}

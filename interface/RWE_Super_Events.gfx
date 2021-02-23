@@ -1,0 +1,113 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Democracy"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Democracy.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Republic"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Republic.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Sanders"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Sanders.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Duke"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Duke.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Klan"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Klan.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_COC"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_COC.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Monarchy"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Monarchy.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Military"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Military.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Communist"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Communist.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Communist_Davis"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Communist_Davis.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Communist_Foster"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Communist_Foster.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Socialist"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Socialist.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Fundamentalists"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Fundamentalists.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Pence"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Pence.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Fall_of_the_USSR"
+		texturefile = "gfx/super_events/SPEVNT_Fall_of_the_USSR.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Fall_of_the_UAR"
+		texturefile = "gfx/super_events/SPEVNT_Fall_of_the_UAR.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Midwestern_War"
+		texturefile = "gfx/super_events/SPEVNT_Midwestern_War.dds"
+		legacy_lazy_load = no
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_thin_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_thin_border.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		}
+	}
+}

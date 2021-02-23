@@ -1,0 +1,146 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Initial_Focus"
+		texturefile = "gfx/interface/goals/LBA_Initial_Focus.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Toyota_War"
+		texturefile = "gfx/interface/goals/LBA_Toyota_War.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Taureg_Support"
+		texturefile = "gfx/interface/goals/LBA_Taureg_Support.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Civil_War_Victory"
+		texturefile = "gfx/interface/goals/LBA_Civil_War_Victory.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Establish_the_Jamahiriya"
+		texturefile = "gfx/interface/goals/LBA_Establish_the_Jamahiriya.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Mandatory_Green_Books"
+		texturefile = "gfx/interface/goals/LBA_Mandatory_Green_Books.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Pan_Arab_Rapproachment"
+		texturefile = "gfx/interface/goals/LBA_Pan_Arab_Rapproachment.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Maintain_Pan_Africanism"
+		texturefile = "gfx/interface/goals/LBA_Maintain_Pan_Africanism.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Promote_Gaffadism"
+		texturefile = "gfx/interface/goals/LBA_Promote_Gaffadism.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Greater_Maghreb_Claims"
+		texturefile = "gfx/interface/goals/LBA_Greater_Maghreb_Claims.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Pan_Arabist_Expansion"
+		texturefile = "gfx/interface/goals/LBA_Pan_Arabist_Expansion.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Pan_African_Beginning"
+		texturefile = "gfx/interface/goals/LBA_Pan_African_Beginning.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Strike_Algeria"
+		texturefile = "gfx/interface/goals/LBA_Strike_Algeria.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Strike_Morocco"
+		texturefile = "gfx/interface/goals/LBA_Strike_Morocco.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Pan_African_Unified_Passports"
+		texturefile = "gfx/interface/goals/LBA_Pan_African_Unified_Passports.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Pan_African_Unified_Monetary_Fund"
+		texturefile = "gfx/interface/goals/LBA_Pan_African_Unified_Monetary_Fund.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Integrate_Levant"
+		texturefile = "gfx/interface/goals/LBA_Integrate_Levant.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Pan_African_Unified_Military"
+		texturefile = "gfx/interface/goals/LBA_Pan_African_Unified_Military.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Pan_African_Unified_Currency"
+		texturefile = "gfx/interface/goals/LBA_Pan_African_Unified_Currency.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Unify_Maghreb"
+		texturefile = "gfx/interface/goals/LBA_Unify_Maghreb.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Unify_Arabia"
+		texturefile = "gfx/interface/goals/LBA_Unify_Arabia.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Gadaffi_Death"
+		texturefile = "gfx/interface/goals/LBA_Gadaffi_Death.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Saif_Gadaffi"
+		texturefile = "gfx/interface/goals/LBA_Saif_Gadaffi.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Saadi_Gadaffi"
+		texturefile = "gfx/interface/goals/LBA_Saadi_Gadaffi.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LBA_Ayesha_Gaddafi"
+		texturefile = "gfx/interface/goals/LBA_Ayesha_Gaddafi.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GNS_Initial_Focus"
+		texturefile = "gfx/interface/goals/GNS_Initial_Focus.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GNS_Civil_War_Victory"
+		texturefile = "gfx/interface/goals/GNS_Civil_War_Victory.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GNS_Decentralized_Government"
+		texturefile = "gfx/interface/goals/GNS_Decentralized_Government.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GNS_Unitary_Government"
+		texturefile = "gfx/interface/goals/GNS_Unitary_Government.dds"			
+	}

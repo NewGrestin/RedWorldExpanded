@@ -1,0 +1,71 @@
+﻿l_english:
+
+  ##########################
+  # FOCUSES
+  ##########################
+  GNS_Initial_Focus:0 "The Second Libyan Revolution"
+  GNS_Organize_Defectors:0 "Organize the Defectors"
+  GNS_Seize_Stockpiles:0 "Seize the Weapon Stockpiles"
+  GNS_Economic_Mobilization:0 "Mobilize the War Economy"
+  GNS_Lobby_for_Support:0 "Lobby for International Support"
+  GNS_Purge_Old_Administrators:0 "Purge the Old Administrators"
+  GNS_Maintain_Old_Administrators:0 "Cut a Deal with the Loyalists"
+  GNS_National_Unity_Government:0 "Organize a National Unity Coalition"
+  GNS_Destroy_Gadaffi_Cult:0 "Destroy the Gadaffi Cult"
+  GNS_Fighting_for_Democracy:0 "Fighting for Democracy"
+  GNS_New_Army:0 "Formalize the New Army"
+  GNS_Wartime_Rationing:0 "Institute Rationing"
+  GNS_Socialist_Concessions:0 "Concessions to the Socialists"
+  GNS_Grant_Autonomy:0 "Military Decentralization"
+  GNS_Early_Reconstruction:0 "Provisional Reconstruction Committee"
+
+  GNS_Civil_War_Victory:0 "Tripoli Constitutional Convention"
+  GNS_Reconstruction_Authority:0 "National Reconstruction Authority"
+  GNS_Decentralized_Government:0 "A Federal Libya"
+  GNS_Unitary_Government:0 "A Unitary Libya"
+  GNS_Tackle_Insurgency:0 "The Unfinished Conflict"
+  GNS_Reconstruction_Authority2:0 "Get the People Back to Work"
+  GNS_Taureg_Autonomy:0 "Tribal Autonomous Councils"
+  GNS_Truth_and_Reconciliation:0 "Truth and Reconciliation Committee"
+  GNS_Reduce_Provincial_Autonomy:0 "Reduce Provincial Autonomy"
+  GNS_Tackle_Insurgency1:0 "Crush the Islamist Remnants"
+  GNS_Reconstruction_Authority3:0 "Liberalize the Economy"
+  GNS_Healthcare:0 "Rewire the Gadaffist Healthcare System"
+  GNS_Trade_Unions:0 "Allow Trade Unions"
+  GNS_Economic_Confidence:0 "Restore Confidence in the Dinar"
+  GNS_Tackle_Insurgency2:0 "Modernize the Security Forces"
+  GNS_Reconstruction_Authority3:0 "Return to Normalcy"
+  GNS_Elections:0 "Begin Free Elections"
+  GNS_Tackle_Insurgency3:0 "A Libya Safe for Democracy"
+
+  ##########################
+  # IDEAS
+  ##########################
+  RWE_GNS_Fighting_Democracy:0 "Fighting for Democracy"
+  RWE_GNS_Decentralization:0 "Decentralization"
+  RWE_GNS_Libyan_Constitution1:0 "New Libyan Provisional Constitution - Federative Policy"
+  RWE_GNS_Libyan_Constitution2:0 "New Libyan Provisional Constitution - Unitary Policy"
+  RWE_GNS_Libyan_Constitution3:0 "New Libyan Provisional Constitution - Federative Policy"
+  RWE_GNS_Libyan_Constitution4:0 "New Libyan Provisional Constitution - Unitary Policy"
+
+  RWE_LBA_Civil_War_Insurgency:0 "Post Civil War Insurgencies"
+  RWE_LBA_Civil_War_Insurgency1:0 "Post Civil War Insurgencies"
+  RWE_LBA_Civil_War_Insurgency2:0 "Post Civil War Insurgencies"
+  RWE_LBA_Civil_War_Insurgency3:0 "Post Civil War Insurgencies"
+
+  ##########################
+  # EVENTS
+  ##########################
+  arab_islamic_republic.29.t:0 "Libyan Truth and Reconciliation Committee"
+  arab_islamic_republic.29.d:0 "The fall of the Gadaffi regime and the ensuing civil war tore Libya apart, exacerbating political divides across our entire society and decimating the country. As the Libyan Provisional Government continues to rebuild, the issue of what to do with the Loyalists has been brought up. In an effort to appear humane, the Government of National Accord established a Truth and Reconciliation Committee to prosecute elements of Gadaffi's regime. The crimes involved have been heavily publicized, ranging from extrajudicial mass murder to embezzlement.\n\nWhile the most obvious solution would be to simply execute all those involved, as there is more than enough evidence to hand out thousands of convictions, doing so might be too extreme. The alternative is to simply imprison those involved, allowing them to work for the new democratic government in a way most suiting Gadaffi's cronies. Offering amnesty to some of the convicted would do well to earn us the support of the pro-Gadaffi western provinces, but the wounds of the civil war may be too raw for the public to support such an action."
+  arab_islamic_republic.29.a:0 "Execute the captured Loyalists"
+  arab_islamic_republic.29.b:0 "Life in prison is more than enough"
+  arab_islamic_republic.29.c:0 "Amnesty is the first pillar of reconstruction"
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

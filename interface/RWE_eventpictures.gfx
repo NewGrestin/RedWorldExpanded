@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GNS_Truth_and_Reconciliation"
+		texturefile = "gfx/event_pictures/report_event/russia_man_crying.dds"
+	}
+	

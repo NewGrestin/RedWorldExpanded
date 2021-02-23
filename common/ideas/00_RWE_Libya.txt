@@ -1,0 +1,565 @@
+##################
+# AMERICA IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_LBA_Taureg_Support = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				weekly_manpower = 100
+			}
+		}
+
+		RWE_LBA_Oil_Reserves = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		RWE_LBA_Military_Purged = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				military_leader_cost_factor = 1.0
+				mobilization_speed = -0.5
+				training_time_factor = 0.25
+			}
+		}
+
+		RWE_LBA_Islamic_Legion = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				non_core_manpower = 0.02
+			}
+		}
+
+		RWE_LBA_Five_Year_Plan = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_infrastructure_factor = 0.2
+				production_speed_dockyard_factor = 0.2
+			}
+		}
+
+		RWE_LBA_African_Passports = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = 0.10
+			}
+		}
+
+		RWE_LBA_African_Monetary_Fund = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		RWE_LBA_African_Currency = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		RWE_LBA_African_Military = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				army_org_factor = 0.05
+				send_volunteer_size = 10
+			}
+		}
+
+		RWE_LBA_Jamahiriya_Constitution = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				national_bolshevik_drift = 0.10
+				economy_cost_factor = -0.10
+				stability_factor = 0.10
+			}
+		}
+
+		RWE_LBA_Jamahiriya_Constitution2 = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				national_bolshevik_drift = 0.2
+				economy_cost_factor = -0.10
+				stability_factor = 0.10
+			}
+		}
+
+		RWE_LBA_Jamahiriya_Constitution3 = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				national_bolshevik_drift = 0.2
+				economy_cost_factor = -0.10
+				stability_factor = 0.10
+				conscription = 0.01
+			}
+		}
+
+		RWE_LBA_Civil_War_Insurgency = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				conscription_factor = -0.1
+				drift_defence_factor = -0.25
+				ai_get_ally_desire_factor = -200
+				ai_join_ally_desire_factor = -200
+				join_faction_tension = 0.8
+			}
+		}
+
+		RWE_LBA_Civil_War_Insurgency1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				conscription_factor = -0.05
+				drift_defence_factor = -0.15
+				ai_get_ally_desire_factor = -200
+				ai_join_ally_desire_factor = -200
+				join_faction_tension = 0.8
+			}
+		}
+
+		RWE_LBA_Civil_War_Insurgency2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				conscription_factor = -0.02
+				drift_defence_factor = -0.10
+				ai_get_ally_desire_factor = -200
+				ai_join_ally_desire_factor = -200
+				join_faction_tension = 0.8
+			}
+		}
+
+		RWE_LBA_Civil_War_Insurgency3 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				conscription_factor = -0.01
+				drift_defence_factor = -0.05
+				ai_get_ally_desire_factor = -200
+				ai_join_ally_desire_factor = -200
+				join_faction_tension = 0.8
+			}
+		}
+
+		RWE_LBA_Civil_War_Recovery = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				industry_repair_factor = -0.2
+				production_factory_max_efficiency_factor = -0.2
+				consumer_goods_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.2
+				conscription_factor = -0.5
+			}
+		}
+
+		RWE_LBA_Civil_War_Recovery1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				industry_repair_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				consumer_goods_factor = 0.15
+				production_factory_efficiency_gain_factor = -0.15
+				conscription_factor = -0.4
+			}
+		}
+
+		RWE_LBA_Civil_War_Recovery2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				industry_repair_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				consumer_goods_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.1
+				conscription_factor = -0.3
+			}
+		}
+
+		RWE_LBA_Civil_War_Recovery3 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				industry_repair_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.05
+				conscription_factor = -0.2
+			}
+		}
+
+		RWE_GNS_Fighting_Democracy = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				weekly_manpower = 100
+				army_core_attack_factor = 0.1
+			}
+		}
+
+		RWE_GNS_Decentralization = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				planning_speed = -0.10
+				army_speed_factor = 0.1
+			}
+		}
+
+		RWE_GNS_Libyan_Constitution1 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_weekly = 0.01
+			}
+		}
+
+		RWE_GNS_Libyan_Constitution2 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = 0.2
+			}
+		}
+
+		RWE_GNS_Libyan_Constitution3 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_weekly = 0.01
+				compliance_gain = 0.1
+			}
+		}
+
+		RWE_GNS_Libyan_Constitution4 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = 0.2
+				resistance_target = -0.1
+			}
+		}
+
+
+	}
+}
