@@ -1,0 +1,9 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_LIN_Civil_War"
+		texturefile = "gfx/interface/ideas/LIN_Civil_War.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_LIN_Ideological_Enigma"
+		texturefile = "gfx/interface/ideas/LIN_Ideological_Engima.tga"			
+	}

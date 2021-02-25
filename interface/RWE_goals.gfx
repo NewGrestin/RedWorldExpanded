@@ -1,4 +1,40 @@
 spriteTypes = {	
+	SpriteType = {
+		name = "GFX_goal_LIN_Unite_the_American_Right"
+		texturefile = "gfx/interface/goals/LIN_Unite_the_American_right.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Arm_the_Militias"
+		texturefile = "gfx/interface/goals/LIN_arm_the_militias.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Underground_Ties"
+		texturefile = "gfx/interface/goals/LIN_Underground_Ties.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Right_to_bear_Arms"
+		texturefile = "gfx/interface/goals/LIN_Right_to_bear_Arms.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_West_Coast"
+		texturefile = "gfx/interface/goals/LIN_West_Coast.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Rockies"
+		texturefile = "gfx/interface/goals/LIN_Rockies.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Funding"
+		texturefile = "gfx/interface/goals/LIN_Funding.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Throne_of_Needles"
+		texturefile = "gfx/interface/goals/LIN_Throne_of_Needles.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Enemies"
+		texturefile = "gfx/interface/goals/LIN_Enemies.tga"			
+	}
 
 	SpriteType = {
 		name = "GFX_goal_LBA_Initial_Focus"

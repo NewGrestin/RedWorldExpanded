@@ -87,3 +87,24 @@ country_event = { #Super Event Test
         set_global_flag = GLOBAL_Midwestern_War_VISIBLE
     }
 }
+
+country_event = { #Super Event Test
+	id = debug.5
+	title = debug.5.t
+	desc = debug.5.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = debug.5.o1
+		ai_chance = {
+			factor = 100
+		}
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
+    }
+}

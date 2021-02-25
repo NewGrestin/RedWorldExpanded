@@ -1,0 +1,52 @@
+##################
+# AMERICA IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_LIN_Fractured_Right_Wing = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Civil_War
+			
+			removal_cost = -1
+	
+			modifier = {
+			war_support_factor = 0.15
+			conscription = 0.05
+			stability_factor = -0.15
+			political_power_factor = -0.2
+			}
+		}
+
+		RWE_LIN_Ideological_Enigma = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.15
+			war_support_factor = -0.05
+			army_morale_factor = - 0.05
+			}
+		}

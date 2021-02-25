@@ -106,6 +106,12 @@ guiTypes = {
 		}
 
 		iconType = {
+			name ="Super_Event_Image_American_Reunification_Nazbol"
+			spriteType = "GFX_SPEVNT_American_Reunification_Nazbol"
+			position = { x = -10 y = 10 }
+		}
+
+		iconType = {
 			name ="Super_Event_Image_Midwestern_War"
 			spriteType = "GFX_SPEVNT_Midwestern_War"
 			position = { x = -10 y = 10 }

@@ -1,0 +1,91 @@
+﻿add_namespace = lincoln
+
+
+country_event = { #Lincoln victory against Montana
+	id = lincoln.1
+	title = lincoln.1.t
+	desc = lincoln.1.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = LIN
+        OR = {
+            NOT = {
+                country_exists = MOT
+            }
+            MOT = {
+                is_puppet_of = LIN
+            }
+        }
+        OR = {
+            NOT = {
+                country_exists = LAK
+            }
+            LAK = {
+                is_puppet_of = LBA
+            }
+        }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.1
+		ai_chance = {
+			factor = 100
+		}
+        LIN = {
+            annex_country = {
+                target = MOT
+                transfer_troops = no
+            }
+            annex_country = {
+                target = LAK
+                transfer_troops = no
+            }
+		add_stability = 0.15
+		every_state = {
+		    limit = {
+			    is_core_of = MOT
+			}
+			add_state_core = LIN
+		}
+		every_state = {
+		    limit = {
+			    is_core_of = LAK
+			}
+			add_state_core = LIN
+		}
+		}
+ 
+	}
+
+}
+
+country_event = { #Unification of the US Under Richard B. Spenser
+	id = lincoln.2
+	title = lincoln.2.t
+	desc = lincoln.2.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = LIN
+
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.2
+		set_cosmetic_tag = LIN_SPENSER_UNIFIED
+
+}
+}

@@ -1,0 +1,479 @@
+focus_tree = {
+	id = lincoln_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = LIN
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+
+	focus = {
+		id = LIN_Resolve_the_Conflict
+		icon = GFX_goal_LIN_Unite_the_American_Right
+		available = { MOT = { exists = yes } LIN = { has_war = no } }
+		x = 5
+		y = 0
+
+		cost = 5
+
+
+		completion_reward = {
+		add_war_support = 0.05
+		add_ideas = { limited_conscription }
+		declare_war_on = {
+   		target = MOT
+    		type = annex_everything
+		}
+		}
+	}
+
+	focus = {
+		id = LIN_Income_from_Drugs
+		icon = GFX_goal_LIN_Funding
+		prerequisite = { focus = LIN_Resolve_the_Conflict }
+		x = 7
+		y = 1
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Sell_Narcotics_in_California
+		icon = GFX_goal_LIN_West_Coast
+		prerequisite = { focus = LIN_Income_from_Drugs }
+		x = 6
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Smuggling_is_our_Business
+		icon = GFX_goal_LIN_Rockies
+		prerequisite = { focus = LIN_Income_from_Drugs }
+		x = 8
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Empire_of_Needles
+		icon = GFX_goal_LIN_Throne_of_Needles
+		prerequisite = { focus = LIN_Smuggling_is_our_Business }
+		prerequisite = { focus = LIN_Sell_Narcotics_in_California }
+		x = 7
+		y = 3
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Surrounded_by_Enemies
+		icon = GFX_goal_LIN_Enemies
+		prerequisite = { focus = LIN_Expand_Training_Ranges }
+		prerequisite = { focus = LIN_Empire_of_Needles }
+		x = 5
+		y = 4
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Arm_the_Militias
+		icon = GFX_goal_LIN_Arm_the_Militias
+		prerequisite = { focus = LIN_Resolve_the_Conflict }
+		available = { has_full_control_of_state = 890 }
+		x = 3
+		y = 1
+
+		cost = 5
+
+
+		completion_reward = {
+		custom_effect_tooltip = LIN_MILITIA
+		hidden_effect = { load_oob = "LIN_MILITIA" }
+
+		}
+	}
+
+	focus = {
+		id = LIN_Ties_to_the_Black_Market
+		icon = GFX_goal_LIN_Underground_Ties
+		prerequisite = { focus = LIN_Arm_the_Militias }
+		x = 2
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Glorify_our_Gun_Rights
+		icon = GFX_goal_LIN_Right_to_bear_Arms
+		prerequisite = { focus = LIN_Arm_the_Militias }
+		x = 4
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Expand_Training_Ranges
+		icon = GFX_goal_Generic_Noose
+		prerequisite = { focus = LIN_Glorify_our_Gun_Rights }
+		prerequisite = { focus = LIN_Ties_to_the_Black_Market }
+		x = 3
+		y = 3
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Cement_the_Leadership_Principle
+		icon = GFX_goal_Generic_Propaganda_Axis
+		available = { MOT = { exists = no } }
+		x = 15
+		y = 0
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Introduce_National_Bolshevism
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Cement_the_Leadership_Principle }
+		available = { }
+		x = 15
+		y = 1
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Strict_Government_Education
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Introduce_National_Bolshevism }
+		available = { }
+		x = 15
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Ban_Anti_Revolutionary_Literature
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Strict_Government_Education }
+		available = { }
+		x = 15
+		y = 3
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Embrace_Horseshoe_Theory
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Introduce_National_Bolshevism }
+		available = { }
+		x = 12
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_The_Visionary_Marx
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Embrace_Horseshoe_Theory }
+		available = { }
+		x = 11
+		y = 3
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_The_Messiah_Mussolini
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Embrace_Horseshoe_Theory }
+		available = { }
+		x = 13
+		y = 3
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Crush_the_Peoples_Opium
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_The_Visionary_Marx }
+		prerequisite = { focus = LIN_The_Messiah_Mussolini }
+		available = { }
+		x = 11
+		y = 4
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Persecute_All_Faiths
+		icon = GFX_goal_Focus_FRA_Anti_Semetism
+		prerequisite = { focus = LIN_Crush_the_Peoples_Opium }
+		available = { }
+		x = 12
+		y = 5
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_No_References_to_God
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Crush_the_Peoples_Opium }
+		available = { }
+		x = 10
+		y = 5
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Ban_Holy_Scriptures
+		icon = GFX_goal_Focus_Generic_Press_Censorship
+		prerequisite = { focus = LIN_No_References_to_God }
+		prerequisite = { focus = LIN_Persecute_All_Faiths }
+		available = { }
+		x = 11
+		y = 6
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Enshrine_the_Words
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_The_Visionary_Marx focus = LIN_The_Messiah_Mussolini focus = LIN_Ban_Anti_Revolutionary_Literature }
+		available = { }
+		x = 14
+		y = 4
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_White_Social_Security
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Introduce_National_Bolshevism }
+		available = { }
+		x = 17
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Party_for_the_All_American_Worker
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_White_Social_Security }
+		available = { }
+		x = 17
+		y = 3
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Vanguard_of_the_American_Revolution
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Party_for_the_All_American_Worker }
+		prerequisite = { focus = LIN_Ban_Anti_Revolutionary_Literature }
+		available = { }
+		x = 16
+		y = 4
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Cult_of_the_Constitution
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Vanguard_of_the_American_Revolution }
+		available = { }
+		x = 17
+		y = 5
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_The_Revolutionary_Founders
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Vanguard_of_the_American_Revolution }
+		available = { }
+		x = 16
+		y = 6
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_The_Father_Lincoln
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_Enshrine_the_Words }
+		available = { }
+		x = 14
+		y = 5
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Proclaim_Revolution_Abroad
+		icon = GFX_goal_Generic_Propaganda_Axis
+		prerequisite = { focus = LIN_The_Father_Lincoln }
+		available = { }
+		x = 14
+		y = 6
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}

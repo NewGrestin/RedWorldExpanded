@@ -87,3 +87,8 @@ USS_GAU = {
 	color = rgb { 142 209 177 }
 	color_ui = rgb { 115 115 115 }
 }
+
+LIN_SPENSER_UNIFIED = {
+	color = rgb { 168 0 0 }
+	color_ui = rgb { 168 0 0 }
+}

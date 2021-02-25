@@ -12,6 +12,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Nazbol"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Nazbol.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_SPEVNT_American_Reunification_Sanders"
 		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Sanders.dds"
 		legacy_lazy_load = no

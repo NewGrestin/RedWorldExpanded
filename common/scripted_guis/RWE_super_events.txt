@@ -9,6 +9,10 @@ scripted_gui = {
 		}
 
 		triggers = {
+			Super_Event_Image_American_Reunification_Nazbol_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
+			}
+
 			Super_Event_Image_American_Reunification_Democracy_visible = {
 				has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
 			}
@@ -93,6 +97,13 @@ scripted_gui = {
 						has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
 					}
 					clr_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
 				}
 
 				if = {

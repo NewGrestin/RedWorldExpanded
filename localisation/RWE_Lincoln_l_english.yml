@@ -1,0 +1,64 @@
+﻿l_english:
+
+  ##########################
+  # FOCUSES
+  ##########################
+  LIN_Resolve_the_Conflict:0 "Unite the American Right"
+  LIN_Income_from_Drugs:0 "Elusive War Funding"
+  LIN_Sell_Narcotics_in_California:0 "Contacts on the West Coast"
+  LIN_Smuggling_is_our_Business:0 "Network in the Rockies"
+  LIN_Empire_of_Needles:0 "A Throne of Needles"
+  LIN_Arm_the_Militias:0 "Arm the Militias"
+  LIN_Glorify_our_Gun_Rights:0 "The Right to Bear Arms"
+  LIN_Ties_to_the_Black_Market:0 "Underground Gun Trading"
+  LIN_Expand_Training_Ranges:0 "Against the Old Right"
+  LIN_Surrounded_by_Enemies:0 "Surrounded by Enemies"
+
+  LIN_Cement_the_Leadership_Principle:0 "Cement Spenser's Leadership Principle"
+  LIN_Introduce_National_Bolshevism:0 "Introduce National Bolshevism"
+  LIN_Embrace_Horseshoe_Theory:0 "Embrace the Horseshoe"
+  LIN_The_Visionary_Marx:0 "Our Visionary Marx"
+  LIN_The_Messiah_Mussolini:0 "Our Messiah Mussolini"
+  LIN_Crush_the_Peoples_Opium:0 "Collapse the Big Church"
+  LIN_Strict_Government_Education:0 "Revolutionary Youth Education"
+  LIN_Ban_Anti_Revolutionary_Literature:0 "Establish \"Summer Camps\""
+  LIN_White_Social_Security:0 "White Socialism" 
+  LIN_Party_for_the_All_American_Worker:0 "Define the All-American Worker"
+  LIN_Enshrine_the_Words:0 "True American Revolution"
+  LIN_Vanguard_of_the_American_Revolution:0 "The Successor of the Founders"
+  LIN_The_Father_Lincoln:0 "Lincoln, Father of the Union"
+  LIN_Proclaim_Revolution_Abroad:0 "The Revolutionary Union State"
+  LIN_Cult_of_the_Constitution:0 "Crush the Constitutionalist Cult"
+  LIN_The_Revolutionary_Founders:0 "Renew the Founding Fathers"
+  LIN_Persecute_All_Faiths:0 "Persecute all Faiths"
+  LIN_No_References_to_God:0 "No References to God"
+  LIN_Ban_Holy_Scriptures:0 "Ban any Holy Scripture"
+
+  ##########################
+  # IDEAS
+  ##########################
+  RWE_LIN_Fractured_Right_Wing:0 "Fractured Alt-Right"
+  RWE_LIN_Fractured_Right_Wing_desc:0 "The American Alt-Right has, ironically, always been quite a diverse bunch of characters. Ranging from white-supremacists and neo-fascists to pagans and conspiracy theorists, the Alt-Right has never truely been unified behind one ideology. Despite the differences, however, many of these people did unify shortly after the failure of the American experiment, leaving their hometowns to support the creation of a white ethnostate in the north. \n\nThose memories have long been gone. The seccession of Montana from the Midwestern Union was a shortlived victory for the American Alt-Right, as factionalism fractioned the state. Many of the younger men that had rebuild in Montana weren't attracted by the old fascist rethoric of Covington, instead supporting new ideas imported from Europe and Canada, such as national bolshevism and its main proponent in Montana, Richard B. Spencer. Espousing a strictly American version of national bolshevism, Spencer was able to entice much of these younger alt-righters, leading to the fracturing of the Montana ethnostate. Allied to his left and right-wing allies, Spencer formed the Workers' Party and proclaimed a new dawn for the American alt-right, kickstarting the civil war in Montana."
+  RWE_LIN_Ideological_Enigma:0 "An Ideological Enigma"
+  RWE_LIN_Ideological_Enigma_desc:0 "Mixing Marxist theory, the teachings of Hitler, the philosophy of Mussolini and the government-style of Stalin, Richard Spencer's national bolshevism is an ideological enigma to most of America. \n\nThe introduction of a new, revolutionary ideology is never easy and Spencer's national bolshevism is the first of its ideological type to touch the shores of the former United States. However, unlike ideologies before it that ignited revolution after revolution, national bolshevism has many gaps in its theory, often leading to incoherent ideology and politics. That's not even mentioning the issue of allegiance to national bolshevism found in the Union of Lincoln, as the alt-right looks at it with paranoid disdain and the radical left denounces it as filthy nazism. With an incoherent ideology and few people actually aligned to the teachings preached by Richard Spencer, it's not an enigma why national bolshevism has yet to gain traction among the American populace."
+
+  ##########################
+  # EVENTS
+  ##########################
+  lincoln.1.t:0 "Unification of the American Right"
+  lincoln.1.d:0 "After a gruesome civil war that split the American right, our leader Richard Spencer has been able to unify the region under the new, alternative right-wing of national bolshevism, ending the split of the American right and crushing the traditional fascist order that led Montana. Under the Worker's Party, the Union of Lincoln will maintain the order in Montana and do away with any mention of the old traditionalists and fascists, replacing them with new and fresh ideas of revolutionary nationalism and national bolshevism."
+  lincoln.1.a:0 "Lincoln would be proud!"
+	
+  ##########################
+  # TOOLTIPS
+  ##########################
+  LIN_MILITIA:0 "§YTwo divisions consisting of 4 infantry and an engineer company will be mobilized in Spokane§!."
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################
+  LIN_SPENSER_UNIFIED:0 "National Union of America"
+  LIN_SPENSER_UNIFIED_DEF:0 "The National Union of America"
+  LIN_SPENSER_UNIFIED_ADJ:0 "American"
+
+  POLITICS_RICHARD_SPENCER_D:0 "Born in 1978 Boston, Massaschusetts, to ophthalmologists, few would have bet that Richard B. Spencer would become the face of the alternative right in Post-American politics. His introduction to the alt-right would begin early however, as contacts during his studying years would influence Spencer's views swiftly. Becoming a common face in anti-government extremist protests, Spencer choose to move to Illinois in 2001 before completing his PhD in Modern European intellectual history. \n\nOnce in Illinois, Spencer established connections with the underground alternative right, such as the National Alliance, which pointed him to Montana and the new ethnostate experiment led by Covington. Although intrigued by the concept, Spencer opposed Covington's old-style fascism, believing it to be unusable in the United States due to its Europeanism. Instead, he and allies formed an opposing party, named the Workers' Party of the Glorious Union, and seized control over Idaho. With the establishment of the new Union of Lincoln, Spencer became the figure of this new state and the new movement it represented, which Spencer has lovingly called American national bolshevism."
