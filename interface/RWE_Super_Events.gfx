@@ -12,8 +12,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Coffee"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Coffee.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_SPEVNT_American_Reunification_Nazbol"
 		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Nazbol.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Wotansvolk"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Wotansvolk.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Shaman"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Shaman.tga"
 		legacy_lazy_load = no
 	}
 

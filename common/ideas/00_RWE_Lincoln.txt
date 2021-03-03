@@ -47,6 +47,114 @@ ideas = {
 			modifier = {
 			political_power_cost = 0.15
 			war_support_factor = -0.05
-			army_morale_factor = - 0.05
+			army_morale_factor = -0.05
+			}
+		}
+
+		RWE_LIN_Ideological_Enigma_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.1
+			war_support_factor = -0.05
+			army_morale_factor = -0.05
+			}
+		}
+
+		RWE_LIN_Ideological_Enigma_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.1
+			war_support_factor = -0.02
+			army_morale_factor = -0.02
+			}
+		}
+
+		RWE_LIN_Elusive_War_Funding = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Elusive_Funding
+			
+			removal_cost = -1
+	
+			modifier = {
+			consumer_goods_factor = -0.2
+			}
+		}
+
+		RWE_LIN_Elusive_War_Funding_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Elusive_Funding
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = 0.05
+			consumer_goods_factor = -0.25
+			stability_factor = -0.05
+			}
+		}
+
+		RWE_LIN_Enemies_on_all_Sides = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_defence_factor = 0.05
+			army_attack_factor = 0.05
+			supply_consumption_factor = -0.1
 			}
 		}

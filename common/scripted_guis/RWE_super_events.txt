@@ -9,8 +9,17 @@ scripted_gui = {
 		}
 
 		triggers = {
+			Super_Event_Image_American_Reunification_Coffee_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
+			}
+			Super_Event_Image_American_Reunification_Wotansvolk_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Wotansvolk_VISIBLE
+			}
 			Super_Event_Image_American_Reunification_Nazbol_visible = {
 				has_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
+			}
+			Super_Event_Image_American_Reunification_Shaman_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Shaman_VISIBLE
 			}
 
 			Super_Event_Image_American_Reunification_Democracy_visible = {
@@ -101,9 +110,30 @@ scripted_gui = {
 
 				if = {
 					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Wotansvolk_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Wotansvolk_VISIBLE
+				}
+
+				if = {
+					limit = {	
 						has_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
 					}
 					clr_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Shaman_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Shaman_VISIBLE
 				}
 
 				if = {

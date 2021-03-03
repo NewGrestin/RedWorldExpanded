@@ -108,3 +108,66 @@ country_event = { #Super Event Test
         set_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
     }
 }
+
+country_event = { #Super Event Test
+	id = debug.6
+	title = debug.6.t
+	desc = debug.6.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = debug.6.o1
+		ai_chance = {
+			factor = 100
+		}
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = GLOBAL_American_Reunification_Shaman_VISIBLE
+    }
+}
+
+country_event = { #Super Event Test
+	id = debug.7
+	title = debug.7.t
+	desc = debug.7.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = debug.7.o1
+		ai_chance = {
+			factor = 100
+		}
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = GLOBAL_American_Reunification_Wotansvolk_VISIBLE
+    }
+}
+
+country_event = { #Super Event Test
+	id = debug.8
+	title = debug.8.t
+	desc = debug.8.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = debug.8.o1
+		ai_chance = {
+			factor = 100
+		}
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
+    }
+}

@@ -2,14 +2,16 @@
 
   get_super_event_title:0 "-"
   GFX_SPEVNT_American_Reunification_TITLE:0 "AMERICAN REUNIFICATION"
-
+  
   GFX_SPEVNT_American_Reunification_Democracy_QUOTE:0 "The price of democracy is the ongoing pursuit of the common good by all of the people.\n§Y-Saul Alinsky-§!"
+  GFX_SPEVNT_American_Reunification_Shaman_QUOTE:0 "People find conspiracy theories fantastically comforting not because they're more frightening than reality, but because they're less frightening than reality. \n§Y-William Gibson-§!"
   GFX_SPEVNT_American_Reunification_Nazbol_QUOTE:0 "We are against the political bourgeoisie, and for genuine nationalism. We are against Marxism, but for true socialism. \n\n§Y-Joseph Goebbels-§!"
+  GFX_SPEVNT_American_Reunification_Wotansvolk_QUOTE:0 "We must secure the existence of our people and a future for white children. \n\n§Y-David Lane-§!"
   GFX_SPEVNT_American_Reunification_Sanders_QUOTE:0 "There are no human oppressors. Oppressors have lost their humanity.\n\n§Y-Bernard Sanders-§!"
   GFX_SPEVNT_American_Reunification_Socialist_QUOTE:0 "Let the people everywhere take heart of hope, for the cross is bending, the midnight is passing, and joy cometh with the morning.\n§Y-Eugene V. Debs-§!"
   GFX_SPEVNT_American_Reunification_Fundamentalists_QUOTE:0 "The framers of our Constitution meant we were to have freedom of religion, not freedom from religion.\n§Y-Billy Graham-§!"
   GFX_SPEVNT_American_Reunification_Pence_QUOTE:0 "I just know in my heart of hearts that this will be the generation that restores life in America.\n§Y-Mike Pence-§!"
-
+  GFX_SPEVNT_American_Reunification_Coffee_QUOTE:0 "Coffee, which makes the politician wise \nAnd see through all things with his half-shut eyes. \n\n§Y-Alexander Pope-§!"
   GFX_SPEVNT_American_Reunification_Republic_QUOTE:0 "The American way of life is not up for negotiation. Period.\n\n§Y-George H.W. Bush-§!"
   GFX_SPEVNT_American_Reunification_Klan_QUOTE:0 "Hanging from a single overpass only about a mile from here is a group of about 30, each with an identical placard around its neck bearing the printed legend, \"I betrayed my race.\"\n§Y-The Turner Diaries-§!"
   GFX_SPEVNT_American_Reunification_Duke_QUOTE:0 "When fascism comes to America, it will be wrapped in the flag and carrying a cross.\n\n§Y-James Waterman Wise-§!"

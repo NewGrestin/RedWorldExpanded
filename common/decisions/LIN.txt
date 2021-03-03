@@ -1,0 +1,254 @@
+LIN_american_unification_wars = {
+	
+	LIN_Utah_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = UTA }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = UTA
+		}
+		}
+	}
+
+	LIN_Arizona_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = ARI }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = ARI
+		}
+		}
+	}
+
+	LIN_Midwest_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = MWA }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = MWA
+		}
+		}
+	}
+
+	LIN_Texas_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = TEX }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = TEX
+		}
+		}
+	}
+
+	LIN_Illinois_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = ILL }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = ILL
+		}
+		}
+	}
+
+	LIN_Great_Lakes_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = GRL }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = GRL
+		}
+		}
+	}
+
+	LIN_Pacific_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = PCA }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = PCA 
+		}
+		}
+	}
+
+	LIN_Southern_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = USA }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = USA
+		}
+		}
+	}
+
+	LIN_APC_War = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			OR = {
+			    original_tag = LIN
+			}
+		}
+
+		available = {
+		LIN = { is_neighbor_of = NEA }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+		create_wargoal = {
+		    type = annex_everything
+		    target = NEA
+		}
+		}
+	}
+}

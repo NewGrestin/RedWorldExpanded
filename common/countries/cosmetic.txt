@@ -92,3 +92,8 @@ LIN_SPENSER_UNIFIED = {
 	color = rgb { 168 0 0 }
 	color_ui = rgb { 168 0 0 }
 }
+
+LIN_Roman = {
+	color = rgb { 216 0 0 }
+	color_ui = rgb { 216 0 0 }
+}

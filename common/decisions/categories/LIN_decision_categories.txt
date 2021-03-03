@@ -1,0 +1,5 @@
+LIN_american_unification_wars = {
+    icon = generic_independence
+
+available = { tag = LIN }
+}

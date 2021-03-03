@@ -1,0 +1,546 @@
+﻿capital = 16
+
+oob = "FRA_2000"
+
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "FRA_2000_naval_mtg"
+#	else = {
+		set_naval_oob = "FRA_2000_naval_legacy"
+#	}
+#}
+
+add_ideas = {
+    idea_eu_member
+}
+
+set_research_slots = 4
+set_convoys = 1000
+set_stability = 0.3
+set_war_support = 0.1
+
+set_country_flag = catholic_nation
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 1 
+	tech_field_hospital = 1 
+	tech_engineers = 1 
+	gwtank = 1 
+	basic_light_tank = 1 
+	gw_artillery = 1 
+	tech_mountaineers = 1
+	early_light_cruiser = 1
+	early_fighter = 1 
+	early_bomber = 1 
+	early_submarine = 1
+    transport = 1 
+	paratroopers = 1 
+	marines = 1
+	early_destroyer = 1 
+	early_carrier = 1 
+	basic_heavy_tank = 1 
+	atomic_research = 1 
+	nuclear_reactor = 1 
+	nukes = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+set_politics = {
+	ruling_party = communist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 2
+		nationalist = 6
+		monarchist = 0
+		national_bolshevik = 8
+		national_conservative = 15
+		centrist = 4
+		liberal = 0
+		new_democrat = 7
+		moderate_socialist = 0
+		revolutionary_socialist = 0
+		communist = 58
+}
+
+create_country_leader = {
+	name = "Jean-Luc Mélenchon"
+	desc = "POLITICS_JEAN_LUC_MELENCHON_DESC"
+	picture = "gfx/leaders/FRA/FRA_Melechon.tga"
+	ideology = neocommunist
+}
+
+create_country_leader = {
+	name = "Alain Soral"
+	picture = "Portrait_FRA_Alain_Soral.dds"
+	ideology = fascist_ideology
+}
+
+create_country_leader = {
+	name = "Marine Le Pen"
+	picture = "gfx/leaders/FRA/FRA_Le_Pen.tga"
+	ideology = nationalist_ideology
+}
+
+create_country_leader = {
+	name = "Henry VII"
+	picture = "Portrait_FRA_Henery_Seventh.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Guillaume Faye"
+	picture = "gfx/leaders/FRA/FRA_Guillaume_Faye.tga"
+	ideology = national_bolshevik_ideology
+}
+
+create_country_leader = {
+	name = "Alain Juppé"
+	picture = "Portrait_FRA_Alan_Juppe.dds"
+	ideology = european_conservative
+}
+
+create_country_leader = {
+	name = "Emmanuel Macron"
+	picture = "gfx/leaders/FRA/FRA_Macron.tga"
+	ideology = centrist_ideology
+}
+
+create_country_leader = {
+	name = "François Bayrou"
+	picture = "Portrait_FRA_Francois_Bayrou.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Eric Coquerel"
+	picture = "Portrait_FRA_Eric_Coquerel.dds"
+	ideology = new_democrat_ideology
+}
+
+create_country_leader = {
+	name = "Lionel Jospin"
+	picture = "gfx/leaders/FRA/FRA_Lionel_Jospin.tga"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+	name = "Patrick Le Hyaric"
+	picture = "gfx/leaders/FRA/FRA_Hyaric.tga"
+	ideology = democratic_confederalist 
+}
+
+create_field_marshal = {
+	name = "Pierre de Villiers"
+	picture = "Portrait_Pierre_de_Villiers.dds"
+	traits = { old_guard organisational_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Jean-Pierre Bosser"
+	picture = "Portrait_Jean-Pierre_Bosser.dds"
+	traits = { old_guard offensive_doctrine }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Arnaud Sainte-Claire Deville"
+	picture = "Portrait_Arnaud_Sainte-Claire_Deville.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "François Labuze"
+	picture = "Portrait_Francois_Labuze.dds"
+	traits = { panzer_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Franck Boudet"
+	picture = "Portrait_Franck_Boudet.dds"
+	traits = { ranger }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Christophe Bizien"
+	picture = "Portrait_Christophe_Bizien.dds"
+	traits = { trait_engineer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Loïc Girard"
+	picture = "Portrait_Loic_Girard.dds"
+	traits = { naval_invader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pascal Ianni"
+	picture = "Portrait_Pascal_Ianni.dds"
+	traits = { naval_invader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Thomas Mollard"
+	picture = "Portrait_Thomas_Mollard.dds"
+	traits = { hill_fighter }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Etienne du Peyroux"
+	picture = "Portrait_Etienne_du_Peyroux.dds"
+	traits = { naval_invader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "François Régis Jaminet"
+	picture = "Portrait_Francois_Regis_Jaminet.dds"
+	traits = { naval_invader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hervé Bizeul"
+	picture = "Portrait_Herve_Bizeul.dds"
+	traits = { hill_fighter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jean-Jacques Fatinet"
+	picture = "Portrait_Jean-Jacques_Fatinet.dds"
+	traits = { trait_mountaineer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Guillaume de Sercey"
+	picture = "Portrait_Guillaume_de_Sercey.dds"
+	traits = { trait_engineer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Guillaume Venard"
+	picture = "Portrait_Guillaume_Venard.dds"
+	traits = { trait_engineer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Nicolas Casanova"
+	picture = "Portrait_Nicolas_Casanova.dds"
+	traits = { panzer_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Benoit Durieux"
+	picture = "Portrait_Benoit_Durieux.dds"
+	traits = { panzer_leader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Éric Bellot des Minières"
+	picture = "Portrait_Eric_Bellot_des_Minieres.dds"
+	traits = { commando urban_assault_specialist }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jean-Frédéric Lenoble"
+	picture = "Portrait_Jean-Frederic_Lenoble.dds"
+	traits = { trait_engineer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Eric Maury"
+	picture = "Portrait_Eric_Maury.dds"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jean-François Lafont Rapnouil"
+	picture = "Portrait_Jean-Francois_Lafont_Rapnouil.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pierre Liot de Nortbecourt"
+	picture = "Portrait_Pierre_Liot_de_Nortbecourt.dds"
+	traits = { commando winter_specialist }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jean Maurin"
+	picture = "Portrait_Jean_Maurin.dds"
+	traits = { commando desert_fox jungle_rat }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Christophe Prazuck"
+	picture = "Portrait_Christophe_Prazuck.dds"
+	traits = { old_guard_navy superior_tactician }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	coordination_skill = 4
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Marc de Briancon"
+	picture = "Portrait_Marc_de_Briancon.dds"
+	traits = { ironside }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	coordination_skill = 2
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Denis Beraud"
+	picture = "Portrait_Denis_Beraud.dds"
+	traits = { fly_swatter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	coordination_skill = 3
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Bruno Thouvenin"
+	picture = "Portrait_Bruno_Thouvenin.dds"
+	traits = { spotter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	coordination_skill = 2
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "François Rebourd"
+	picture = "Portrait_Francois_Rebourd.dds"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 1
+}
+
+create_navy_leader = {
+	name = "Louis-Michel Guillaume"
+	picture = "Portrait_Louis-Michel_Guillaume.dds"
+	traits = { blockade_runner }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Charles-Henri du Ché"
+	picture = "Portrait_Charles-Henri_du_Che.dds"
+	traits = { air_controller }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	coordination_skill = 4
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Pascal Ausseur"
+	picture = "Portrait_Pascal_Ausseurs.dds"
+	traits = { seawolf }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	coordination_skill = 2
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Emmanuel de Oliveira"
+	picture = "Portrait_Emmanuel_de_Oliveira.dds"
+	traits = { spotter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	coordination_skill = 3
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Jean-Baptiste Dupuis"
+	picture = "Portrait_Jean-Baptiste_Dupuis.dds"
+	traits = { blockade_runner }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 3
+}
+

@@ -5,6 +5,9 @@ defined_text = { #SUPER EVENT TITLES
         trigger = {
             OR = {
                 has_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Wotansvolk_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Shaman_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
                 has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
                 has_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
                 has_global_flag = GLOBAL_American_Reunification_Sanders_VISIBLE
@@ -51,9 +54,30 @@ defined_text = { #SUPER EVENT QUOTES
 
     text = { 
         trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Coffee_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Shaman_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Shaman_QUOTE"
+    }
+
+    text = { 
+        trigger = {
             has_global_flag = GLOBAL_American_Reunification_Nazbol_VISIBLE
         }
         localization_key = "GFX_SPEVNT_American_Reunification_Nazbol_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Wotansvolk_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Wotansvolk_QUOTE"
     }
 
     text = { 

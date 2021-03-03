@@ -76,7 +76,11 @@ country_event = { #Unification of the US Under Richard B. Spenser
 	
 	trigger = {
         tag = LIN
-
+	MOT = { exists = no }
+	UTA = { exists = no }
+	ARI = { exists = no }
+	PCA = { exists = no }
+	MWA = { exists = no }
 	}
 	
 	mean_time_to_happen = {
@@ -86,6 +90,57 @@ country_event = { #Unification of the US Under Richard B. Spenser
 	option = { 
 		name = lincoln.2
 		set_cosmetic_tag = LIN_SPENSER_UNIFIED
+
+}
+}
+
+country_event = { #The Divide
+	id = lincoln.3
+	title = lincoln.3.t
+	desc = lincoln.3.d
+	picture = american_funded_rebels
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = LIN
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.3
+	
+
+}
+}
+
+country_event = { #Unification of the US Under Richard B. Spenser
+	id = lincoln.4
+	title = lincoln.4.t
+	desc = lincoln.4.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = LIN
+	MOT = { exists = no }
+	UTA = { exists = no }
+	ARI = { exists = no }
+	PCA = { exists = no }
+	MWA = { exists = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.4
+		set_cosmetic_tag = LIN_Roman
 
 }
 }
