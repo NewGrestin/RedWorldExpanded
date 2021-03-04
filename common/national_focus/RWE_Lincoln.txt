@@ -35,6 +35,7 @@ focus_tree = {
 		id = LIN_Income_from_Drugs
 		icon = GFX_goal_LIN_Funding
 		prerequisite = { focus = LIN_Resolve_the_Conflict }
+		available = { has_war_with = MOT }
 		x = 7
 		y = 1
 
@@ -50,6 +51,7 @@ focus_tree = {
 		id = LIN_Sell_Narcotics_in_California
 		icon = GFX_goal_LIN_West_Coast
 		prerequisite = { focus = LIN_Income_from_Drugs }
+		available = { has_war_with = MOT }
 		x = 6
 		y = 2
 
@@ -67,6 +69,7 @@ focus_tree = {
 		id = LIN_Smuggling_is_our_Business
 		icon = GFX_goal_LIN_Rockies
 		prerequisite = { focus = LIN_Income_from_Drugs }
+		available = { has_war_with = MOT }
 		x = 8
 		y = 2
 
@@ -83,6 +86,7 @@ focus_tree = {
 		icon = GFX_goal_LIN_Throne_of_Needles
 		prerequisite = { focus = LIN_Smuggling_is_our_Business }
 		prerequisite = { focus = LIN_Sell_Narcotics_in_California }
+		available = { has_war_with = MOT }
 		x = 7
 		y = 3
 
@@ -99,6 +103,7 @@ focus_tree = {
 		icon = GFX_goal_LIN_Enemies
 		prerequisite = { focus = LIN_Expand_Training_Ranges }
 		prerequisite = { focus = LIN_Empire_of_Needles }
+		available = { has_war_with = MOT }
 		x = 5
 		y = 4
 
@@ -114,7 +119,7 @@ focus_tree = {
 		id = LIN_Arm_the_Militias
 		icon = GFX_goal_LIN_Arm_the_Militias
 		prerequisite = { focus = LIN_Resolve_the_Conflict }
-		available = { has_full_control_of_state = 890 }
+		available = { has_full_control_of_state = 890 has_war_with = MOT }
 		x = 3
 		y = 1
 
@@ -132,6 +137,7 @@ focus_tree = {
 		id = LIN_Ties_to_the_Black_Market
 		icon = GFX_goal_LIN_Underground_Ties
 		prerequisite = { focus = LIN_Arm_the_Militias }
+		available = { has_war_with = MOT }
 		x = 2
 		y = 2
 
@@ -152,6 +158,7 @@ add_equipment_to_stockpile = {
 		id = LIN_Glorify_our_Gun_Rights
 		icon = GFX_goal_LIN_Right_to_bear_Arms
 		prerequisite = { focus = LIN_Arm_the_Militias }
+		available = { has_war_with = MOT }
 		x = 4
 		y = 2
 
@@ -172,6 +179,7 @@ add_equipment_to_stockpile = {
 		prerequisite = { focus = LIN_Glorify_our_Gun_Rights }
 		prerequisite = { focus = LIN_Ties_to_the_Black_Market }
 		bypass = { has_idea = extensive_conscription }
+		available = { has_war_with = MOT }
 		x = 3
 		y = 3
 
@@ -196,7 +204,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+			add_country_leader_trait = supreme_chief
 		}
 	}
 
@@ -218,7 +226,7 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_Strict_Government_Education
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Education
 		prerequisite = { focus = LIN_Introduce_National_Bolshevism }
 		available = { }
 		x = 15
@@ -228,7 +236,9 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = national_bolshevik popularity = 0.05 }
+		add_political_power = 25
+		add_ideas = { RWE_LIN_Surpressing_Creativity }
 		}
 	}
 
@@ -244,7 +254,13 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_stability = -0.05
+		add_manpower = -15000
+		add_popularity = { ideology = national_conservative popularity = -0.05 }
+		add_popularity = { ideology = liberal popularity = -0.05 }
+		add_popularity = { ideology = centrist popularity = -0.05 }
+		add_popularity = { ideology = new_democrat popularity = -0.05 }
+		add_popularity = { ideology = moderate_socialist popularity = -0.05 }
 		}
 	}
 
@@ -277,7 +293,8 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = communist popularity = 0.05 }
+		add_timed_idea = { idea = RWE_LIN_Inspired_by_Marx days = 150 }
 		}
 	}
 
@@ -293,6 +310,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
+		add_popularity = { ideology = fascist popularity = 0.05 }
 		swap_ideas = { remove_idea = RWE_LIN_Ideological_Enigma_1 add_idea = RWE_LIN_Ideological_Enigma_2 }
 		}
 	}
@@ -310,7 +328,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_LIN_Religious_Crackdown }
 		}
 	}
 
@@ -368,7 +386,7 @@ add_equipment_to_stockpile = {
 		icon = focus_ideology_national_bolshevik
 		prerequisite = { focus = LIN_The_Visionary_Marx focus = LIN_The_Messiah_Mussolini }
 		prerequisite = { focus = LIN_Ban_Anti_Revolutionary_Literature }
-		available = { }
+		available = { has_idea = RWE_LIN_Ideological_Enigma_2 }
 		x = 14
 		y = 4
 
@@ -376,7 +394,14 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-		
+		custom_effect_tooltip = LIN_FUSE
+		hidden_effect = {
+		set_temp_variable = { LIN_total_popularity = 0 }
+		add_to_temp_variable = { LIN_total_popularity = party_popularity@communist }
+		add_to_temp_variable = { LIN_total_popularity = party_popularity@fascist }
+		}
+		add_popularity = { ideology = national_bolshevik popularity = LIN_total_popularity }		
+		swap_ideas = { remove_idea = RWE_LIN_Ideological_Enigma_2 add_idea = RWE_LIN_Ideological_Enigma_3 }
 		}
 	}
 
@@ -473,13 +498,14 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_political_power = 100
+		country_event = { id = lincoln.5 days = 0 }
 		}
 	}
 
 	focus = {
 		id = LIN_Proclaim_Revolution_Abroad
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Nazbol
 		prerequisite = { focus = LIN_The_Father_Lincoln }
 		available = { }
 		x = 14
@@ -489,7 +515,8 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = national_bolshevik popularity = 0.05 }
+		swap_ideas = { remove_idea = RWE_LIN_Ideological_Enigma_3 add_idea = RWE_LIN_Ideological_Enigma_4 }
 		}
 	}
 

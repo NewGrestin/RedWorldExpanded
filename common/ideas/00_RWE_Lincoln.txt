@@ -95,6 +95,136 @@ ideas = {
 			}
 		}
 
+		RWE_LIN_Ideological_Enigma_3 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.1
+			conscription_factor = 0.05
+			}
+		}
+
+		RWE_LIN_Ideological_Enigma_4 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.05
+			conscription_factor = 0.05
+			national_bolshevik_drift = 0.01
+			}
+		}
+
+		RWE_LIN_Statue_Costs = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			consumer_goods_factor = 0.03
+			}
+		}
+
+		RWE_LIN_Religious_Crackdown = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Anti_Religion
+			
+			removal_cost = -1
+	
+			modifier = {
+			war_support_factor = 0.05
+			political_power_factor = 0.05
+			stability_factor = -0.05
+			}
+		}
+
+		RWE_LIN_Inspired_by_Marx = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Twisting_Marx
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = 0.1
+			political_power_factor = 0.1
+			consumer_goods_factor = 0.05
+			conscription_factor = -0.05
+			}
+		}
+
+		RWE_LIN_Surpressing_Creativity = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Anti_Academics
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = 0.05
+			research_speed_factor = -0.05
+			line_change_production_efficiency_factor = -0.1
+			}
+		}
+
 		RWE_LIN_Elusive_War_Funding = {
 			
 			

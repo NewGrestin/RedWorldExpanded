@@ -38,6 +38,11 @@ country_event = { #Lincoln victory against Montana
 		ai_chance = {
 			factor = 100
 		}
+	remove_ideas = { RWE_LIN_Fractured_Right_Wing }
+	remove_ideas = { RWE_LIN_Elusive_War_Funding }
+	remove_ideas = { RWE_LIN_Elusive_War_Funding_1 }
+	remove_ideas = { RWE_LIN_Enemies_on_all_Sides }
+
         LIN = {
             annex_country = {
                 target = MOT
@@ -141,6 +146,26 @@ country_event = { #Unification of the US Under Richard B. Spenser
 	option = { 
 		name = lincoln.4
 		set_cosmetic_tag = LIN_Roman
+
+}
+}
+
+country_event = { #The New Lincoln Statue
+	id = lincoln.5
+	title = lincoln.5.t
+	desc = lincoln.5.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.5
+add_popularity = { ideology = national_bolshevik popularity = 0.01 }
+add_timed_idea = { idea = RWE_LIN_Statue_Costs days = 90 }
 
 }
 }

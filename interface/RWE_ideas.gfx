@@ -11,3 +11,15 @@ spriteTypes = {
 		name = "GFX_idea_LIN_Elusive_Funding"
 		texturefile = "gfx/interface/ideas/LIN_Elusive_Funding.tga"			
 	}
+	SpriteType = {
+		name = "GFX_idea_LIN_Twisting_Marx"
+		texturefile = "gfx/interface/ideas/LIN_Twisting_Marx.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_LIN_Anti_Academics"
+		texturefile = "gfx/interface/ideas/LIN_Anti_Academics.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_LIN_Anti_Religion"
+		texturefile = "gfx/interface/ideas/LIN_Religion.tga"			
+	}

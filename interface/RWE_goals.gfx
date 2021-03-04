@@ -28,12 +28,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/LIN_Rockies.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_LIN_Education"
+		texturefile = "gfx/interface/goals/LIN_Education.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_LIN_Funding"
 		texturefile = "gfx/interface/goals/LIN_Funding.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_LIN_Throne_of_Needles"
 		texturefile = "gfx/interface/goals/LIN_Throne_of_Needles.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Nazbol"
+		texturefile = "gfx/interface/goals/LIN_Nazbol.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_LIN_Mary"
