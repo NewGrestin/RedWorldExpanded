@@ -83,7 +83,14 @@ spriteTypes = {
 		name = "GFX_goal_LIN_Mussolini"
 		texturefile = "gfx/interface/goals/LIN_Mussolini.tga"			
 	}
-
+	SpriteType = {
+		name = "GFX_goal_LIN_Rushmore"
+		texturefile = "gfx/interface/goals/LIN_Rushmore.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_White_Socialism"
+		texturefile = "gfx/interface/goals/LIN_White_Socialism.tga"			
+	}
 
 	SpriteType = {
 		name = "GFX_goal_LBA_Initial_Focus"

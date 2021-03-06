@@ -200,7 +200,7 @@ add_equipment_to_stockpile = {
 		x = 15
 		y = 0
 
-		cost = 5
+		cost = 2
 
 
 		completion_reward = {
@@ -216,11 +216,13 @@ add_equipment_to_stockpile = {
 		x = 15
 		y = 1
 
-		cost = 5
+		cost = 2
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = national_bolshevik popularity = 0.02 }
+		add_stability = -0.01
+		country_event = { id = lincoln.10 days = 0 }
 		}
 	}
 
@@ -295,6 +297,7 @@ add_equipment_to_stockpile = {
 		completion_reward = {
 		add_popularity = { ideology = communist popularity = 0.05 }
 		add_timed_idea = { idea = RWE_LIN_Inspired_by_Marx days = 150 }
+		hidden_effect = { country_event = { id = lincoln.7 days = 5 } }
 		}
 	}
 
@@ -360,7 +363,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_LIN_Religious_Crackdown add_idea = RWE_LIN_Religious_Crackdown_1 }
 		}
 	}
 
@@ -377,7 +380,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		hidden_effect = { country_event = { id = lincoln.8 days = 0 } }
 		}
 	}
 
@@ -407,7 +410,7 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_White_Social_Security
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_White_Socialism
 		prerequisite = { focus = LIN_Introduce_National_Bolshevism }
 		available = { }
 		x = 17
@@ -417,7 +420,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_LIN_White_Socialism }
 		}
 	}
 
@@ -433,7 +436,9 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = national_bolshevik popularity = 0.03 }
+		add_political_power = 25
+		country_event = { id = lincoln.6 days = 0 }
 		}
 	}
 
@@ -450,7 +455,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_LIN_Revolutionary_Determinism }
 		}
 	}
 
@@ -472,7 +477,7 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_The_Revolutionary_Founders
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Rushmore
 		prerequisite = { focus = LIN_Vanguard_of_the_American_Revolution }
 		available = { }
 		x = 16

@@ -34,7 +34,7 @@ country_event = { #Lincoln victory against Montana
 	}
 	
 	option = { 
-		name = lincoln.1
+		name = lincoln.1.a
 		ai_chance = {
 			factor = 100
 		}
@@ -52,20 +52,11 @@ country_event = { #Lincoln victory against Montana
                 target = LAK
                 transfer_troops = no
             }
-		add_stability = 0.15
-		every_state = {
-		    limit = {
-			    is_core_of = MOT
-			}
-			add_state_core = LIN
-		}
-		every_state = {
-		    limit = {
-			    is_core_of = LAK
-			}
-			add_state_core = LIN
-		}
-		}
+	    add_stability = 0.15
+	add_state_core = 388
+	add_state_core = 381
+	add_state_core = 389
+	}
  
 	}
 
@@ -83,9 +74,14 @@ country_event = { #Unification of the US Under Richard B. Spenser
         tag = LIN
 	MOT = { exists = no }
 	UTA = { exists = no }
+	USA = { exists = no }
 	ARI = { exists = no }
 	PCA = { exists = no }
 	MWA = { exists = no }
+	ILL = { exists = no }
+	GRL = { exists = no }
+	NEA = { exists = no }
+	TEX = { exists = no }
 	}
 	
 	mean_time_to_happen = {
@@ -93,7 +89,7 @@ country_event = { #Unification of the US Under Richard B. Spenser
 	}
 	
 	option = { 
-		name = lincoln.2
+		name = lincoln.2.a
 		set_cosmetic_tag = LIN_SPENSER_UNIFIED
 
 }
@@ -116,7 +112,7 @@ country_event = { #The Divide
 	}
 	
 	option = { 
-		name = lincoln.3
+		name = lincoln.3.a
 	
 
 }
@@ -144,7 +140,7 @@ country_event = { #Unification of the US Under Richard B. Spenser
 	}
 	
 	option = { 
-		name = lincoln.4
+		name = lincoln.4.a
 		set_cosmetic_tag = LIN_Roman
 
 }
@@ -163,9 +159,105 @@ country_event = { #The New Lincoln Statue
 	}
 	
 	option = { 
-		name = lincoln.5
+		name = lincoln.5.a
 add_popularity = { ideology = national_bolshevik popularity = 0.01 }
 add_timed_idea = { idea = RWE_LIN_Statue_Costs days = 90 }
+
+}
+}
+
+country_event = { #Defining the New American Worker
+	id = lincoln.6
+	title = lincoln.6.t
+	desc = lincoln.6.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.6.a
+
+}
+}
+
+country_event = { #The People;s Commonwealth denounces our interpretation
+	id = lincoln.7
+	title = lincoln.7.t
+	desc = lincoln.7.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.7.a
+add_popularity = { ideology = communist popularity = -0.02 }
+add_popularity = { ideology = national_bolshevik popularity = -0.01 }
+
+}
+}
+
+country_event = { #Christians flee
+	id = lincoln.8
+	title = lincoln.8.t
+	desc = lincoln.8.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.8.a
+add_timed_idea = { idea = RWE_LIN_Christian_Exodus days = 140 }
+every_country = {
+limit = { is_neighbor_of = LIN }
+add_timed_idea = { idea = RWE_LIN_Christian_Refugee_Camps days = 140 }
+}
+}
+}
+
+country_event = { #The Big Church Speech
+	id = lincoln.9
+	title = lincoln.9.t
+	desc = lincoln.9.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.9.a
+
+}
+}
+
+country_event = { #A History of Revolution
+	id = lincoln.10
+	title = lincoln.10.t
+	desc = lincoln.10.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.10.a
 
 }
 }

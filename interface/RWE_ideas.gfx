@@ -23,3 +23,7 @@ spriteTypes = {
 		name = "GFX_idea_LIN_Anti_Religion"
 		texturefile = "gfx/interface/ideas/LIN_Religion.tga"			
 	}
+	SpriteType = {
+		name = "GFX_idea_LIN_Determinism"
+		texturefile = "gfx/interface/ideas/LIN_Determinism.tga"			
+	}
