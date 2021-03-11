@@ -1,5 +1,21 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_LIN_Nazbol_Pic"
+		texturefile = "gfx/interface/LIN_Nazbol_Pic.tga"			
+	}
+	SpriteType = {
+		name = "GFX_LIN_Nazbol_Icon"
+		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_idea_LIN_Culture_of_Conspiracy"
+		texturefile = "gfx/interface/ideas/LIN_Culture_of_Conspiracy.tga"			
+	}
+
+
+	SpriteType = {
 		name = "GFX_idea_LIN_Civil_War"
 		texturefile = "gfx/interface/ideas/LIN_Civil_War.tga"			
 	}
@@ -24,6 +40,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/LIN_Religion.tga"			
 	}
 	SpriteType = {
+		name = "GFX_idea_LIN_On_Edge"
+		texturefile = "gfx/interface/ideas/LIN_On_Edge.tga"			
+	}
+	SpriteType = {
 		name = "GFX_idea_LIN_Determinism"
 		texturefile = "gfx/interface/ideas/LIN_Determinism.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_LIN_White_Socialism"
+		texturefile = "gfx/interface/ideas/LIN_White_Socialism.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_idea_USA_One_Last_Gamble"
+		texturefile = "gfx/interface/ideas/USA_One_Last_Gamble.tga"			
 	}

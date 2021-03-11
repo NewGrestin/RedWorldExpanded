@@ -1,0 +1,30 @@
+##################
+# AMERICA IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_USA_One_Last_Gamble = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = USA_One_Last_Gamble
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_morale_factor = 0.15
+			war_support_factor = 0.3
+			conscription_factor = 0.2
+			national_bolshevik_drift = -1
+			}
+		}

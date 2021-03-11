@@ -1,11 +1,33 @@
 leader_traits = {
 
+	mad_dog = {
+		random = no
+		stability_factor = -0.15
+		political_power_factor = -0.1
+		army_morale_factor = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	supreme_chief = {
 		random = no
 		army_morale_factor = 0.03
 		surrender_limit = 0.1
 		consumer_goods_factor = 0.05
 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	no_government = {
+		random = no
+		political_power_factor = -1
+		war_support_factor = -0.2
+		stability_factor = -0.2
+		consumer_goods_factor = 0.2
 		ai_will_do = {
 			factor = 1
 		}

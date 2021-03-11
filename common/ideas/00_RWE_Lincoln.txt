@@ -5,6 +5,113 @@
 ideas = {
 
 	country = {
+		RWE_LIN_Culture_of_Conspiracy = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Culture_of_Conspiracy
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.05
+			political_power_factor = 0.15
+			}
+		}
+
+		RWE_LIN_Culture_of_Conspiracy_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Culture_of_Conspiracy
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.05
+			war_support_factor = 0.05
+			political_power_factor = 0.3
+			}
+		}
+
+		RWE_LIN_Culture_of_Conspiracy_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Culture_of_Conspiracy
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.1
+			war_support_factor = 0.1
+			army_morale_factor = 0.05
+			political_power_factor = 0.3
+			}
+		}
+
+		RWE_LIN_Seized_Church_Property = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Anti_Religion
+			
+			removal_cost = -1
+	
+			modifier = {
+			consumer_goods_factor = -0.15
+			political_power_cost = -0.15
+			}
+		}
+
+		RWE_LIN_Nation_on_the_Edge = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_On_Edge
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.1
+			stability_weekly = -0.03
+			}
+		}
 
 		RWE_LIN_Revolutionary_Determinism = {
 			
@@ -24,6 +131,29 @@ ideas = {
 			modifier = {
 			war_support_factor = 0.05
 			army_morale_factor = 0.03
+			political_power_cost = 0.05
+			}
+		}
+
+		RWE_LIN_Revolutionary_Determinism_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Determinism
+			
+			removal_cost = -1
+	
+			modifier = {
+			war_support_factor = 0.1
+			army_morale_factor = 0.05
+			conscription_factor = 0.1
 			political_power_cost = 0.05
 			}
 		}
@@ -51,28 +181,6 @@ ideas = {
 			}
 		}
 
-		RWE_LIN_Ideological_Enigma = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-            picture = LIN_Ideological_Enigma
-			
-			removal_cost = -1
-	
-			modifier = {
-			political_power_cost = 0.15
-			war_support_factor = -0.05
-			army_morale_factor = -0.05
-			}
-		}
-
 		RWE_LIN_White_Socialism = {
 			
 			
@@ -84,7 +192,7 @@ ideas = {
 				always = yes
 			}
 
-            picture = LIN_Ideological_Enigma
+            picture = LIN_White_Socialism
 			
 			removal_cost = -1
 	
@@ -137,6 +245,28 @@ ideas = {
 			weekly_manpower = 100
 			stability_factor = -0.05
 			consumer_goods_factor = 0.02
+			}
+		}
+
+		RWE_LIN_Ideological_Enigma = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.15
+			war_support_factor = -0.05
+			army_morale_factor = -0.05
 			}
 		}
 
@@ -289,6 +419,31 @@ ideas = {
 			war_support_factor = 0.1
 			political_power_factor = 0.1
 			stability_factor = -0.15
+			construction_speed_building = -0.05
+			}
+		}
+
+		RWE_LIN_Religious_Crackdown_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Anti_Religion
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_morale_factor = 0.05
+			war_support_factor = 0.2
+			political_power_factor = 0.35
+			stability_factor = -0.25
+			industrial_capacity_factory = -0.02
 			construction_speed_building = -0.05
 			}
 		}

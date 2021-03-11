@@ -37,7 +37,7 @@
   LIN_The_Father_Lincoln:0 "Lincoln, Father of the Union"
   LIN_Proclaim_Revolution_Abroad:0 "The Revolutionary Union State"
   LIN_Cult_of_the_Constitution:0 "Crush the Constitutionalist Cult"
-  LIN_The_Revolutionary_Founders:0 "Renew the Founding Fathers"
+  LIN_The_Revolutionary_Founders:0 "Abandon their Mainstream Depiction"
   LIN_Persecute_All_Faiths:0 "Persecute all Faiths"
   LIN_No_References_to_God:0 "No References to God"
   LIN_No_References_to_God_desc:0 "Supreme Chief Spencer has come to the conclusion that it's not enough for the big church to be removed from the United States of America. The threat of religion will remain if it's allowed to even be mentioned among our people. Thus, new laws will be put in place that criminalizes the spreading of religion, starting with mentioning the concept of God."
@@ -74,6 +74,38 @@
   LIN_Green_Free_Market:0 "Green, Free Market"
   LIN_Proclaim_the_Roman_Republic:0 "Unleash the Great War"
 
+  LIN_Kickstart_the_Grand_Collectivization:0 "Kickstart the Grand Collectivization"
+  LIN_Crush_Ruralism:0 "Crush Post-American Ruralism"
+  LIN_Seize_Corn_Production:0 "Seize the Corn"
+  LIN_Corner_Agricultural_Barons:0 "Make Rich Farmers Dissapear"
+  LIN_Burn_Farmland:0 "Burn Farmland"
+  LIN_Reject_Agriculture:0 "Reject Agricultural Nostalgia"
+  LIN_Self_Sufficiency_is_Enough:0 "Enough to not Starve"
+  LIN_Accelerate_Farming:0 "The Future of Farming"
+  LIN_Revolutionary_Methods:0 "Agricultural Eugenics Studies"
+  LIN_Increase_the_Numbers:0 "Fudge the Numbers"
+  LIN_Bring_Industry_to_the_Great_Plains:0 "Bring Industry to the Interior"
+  LIN_Migration_from_the_Coasts:0 "From the City to the Farms"
+  LIN_Fill_the_Gaps_with_Forced_Labor:0 "Paying off their Debt"
+  LIN_Infrastructural_Wonders:0 "Construct the Path to Victory"
+  LIN_For_their_Community:0 "Minimal Communalism"
+  LIN_Industrial_Towns:0 "Birth of the Industrial Town"
+  LIN_Against_Nature:0 "Against Nature"
+  LIN_Fight_against_the_Desert:0 "Push against the Great Basin" 
+  LIN_Changing_the_Climate:0 "Support Climate Change"
+  LIN_Manmade_Lakes_in_Nevada:0 "Make Lakes in Nevada"
+  LIN_To_Learn_is_to_Succeed:0 "\"To Learn is Glorious\""
+  LIN_Schooling_across_the_Country:0 "Schooling across the Union"
+  LIN_Break_the_Banks:0 "Break the Banks"
+  LIN_Redistribute_their_Wealth:0 "Persecute the Rich"
+  LIN_Invest_in_American_Culture:0 "Invest in All-American Culture"
+  LIN_Lessen_Teachers_Autonomy:0 "The Youth as Vanguard"
+  LIN_Revolutionary_Avant_Gard:0 "Revolutionary Avant-Garde"
+  LIN_Restrict_Art:0 "Restrict Liberal Arts"
+  LIN_Scientists_not_Artists:0 "\"Smash Decadent Art\" Campaign"
+  LIN_Reclaim_Land_from_the_Seas:0 "Drain the Southern Swamps"
+  LIN_Support_State_Friendly_Artists:0 "Subsidize Correct Art"
+
   ##########################
   # IDEAS
   ##########################
@@ -97,6 +129,8 @@
 
   RWE_LIN_Revolutionary_Determinism:0 "Spencerite Determinism"
   RWE_LIN_Revolutionary_Determinism_desc:0 "People seem to think that history is simply a series of events that happened by chance. History, to them, is nothing more than a gamble, a game of luck. They fail to understand that this simply isn't the case, as history has always walked the same, determined path towards revolution. Convinced that history is determined in favour of revolution, the Union has proclaimed Spencer the successor of the original founding fathers and his revolution the spiritual follow-up of the American Revolution."
+  RWE_LIN_Revolutionary_Determinism_1:0 "Spencerite Determinism"
+  RWE_LIN_Revolutionary_Determinism_1_desc:0 "People seem to think that history is simply a series of events that happened by chance. History, to them, is nothing more than a gamble, a game of luck. They fail to understand that this simply isn't the case, as history has always walked the same, determined path towards revolution. Convinced that history is determined in favour of revolution, the Union has proclaimed Spencer the successor of the original founding fathers and his revolution the spiritual follow-up of the American Revolution."
   RWE_LIN_White_Socialism:0 "White Socialism"
   RWE_LIN_White_Socialism_desc:0 "The meaning of socialism has been hijacked by the Soviets, the American Communist Party and many other entities across the globe to mean something that supports the equality of races. Their use of the word is rejected by our wise supreme chief, who has chosen to introduce true socialism to America as part of the larger national bolshevik revolution. Socialism, but only for the white man."
   RWE_LIN_Statue_Costs:0 "Costs of the New Lincoln Memorial"
@@ -109,6 +143,8 @@
   RWE_LIN_Religious_Crackdown_desc:0 "Once something that unified the white American people against non-whites, christianity has turned into something despicable according to supreme chief Spencer. A religion that tries to push its moral code as an universalizing code cannot be tolerated by this new political wave and, according to Spencer, is a potential threat. Thus, the big church has to crack and collapse before the revolution's spirit is broken by this anti-white conspiracy named religion."
   RWE_LIN_Religious_Crackdown_1:0 "Criminalize Public Religion"
   RWE_LIN_Religious_Crackdown_1_desc:0 "Once something that unified the white American people against non-whites, christianity has turned into something despicable according to supreme chief Spencer. A religion that tries to push its moral code as an universalizing code cannot be tolerated by this new political wave and, according to Spencer, is a potential threat. Thus, the big church has to crack and collapse before the revolution's spirit is broken by this anti-white conspiracy named religion."
+  RWE_LIN_Religious_Crackdown_2:0 "State-Mandated Anti-Theism"
+  RWE_LIN_Religious_Crackdown_2_desc:0 "Once something that unified the white American people against non-whites, christianity has turned into something despicable according to supreme chief Spencer. A religion that tries to push its moral code as an universalizing code cannot be tolerated by this new political wave and, according to Spencer, is a potential threat. Thus, the big church has to crack and collapse before the revolution's spirit is broken by this anti-white conspiracy named religion."
   RWE_LIN_Elusive_War_Funding:0 "Unorthodox Funding"
   RWE_LIN_Elusive_War_Funding_desc:0 "The American alt-right has a long history with its involvement in organized crime, having its fingers in the old prison clans and the narcotics trade as a way to fund larger operations aiming to recruit people and destabilize the old Union. Those connections never went away and are now a potential avenue for Spencer and the Union of Lincoln to fund the war effort. By selling opioids in the Rockies and weed in California, the militias will be able to finally have their guns."
   RWE_LIN_Elusive_War_Funding_1:0 "Empire of Needles"
@@ -116,6 +152,20 @@
   RWE_LIN_Enemies_on_all_Sides:0 "Union under Siege"
   RWE_LIN_Enemies_on_all_Sides_desc:0 "We're surrounded by enemies on all sides: in the west the old alt-right reigns, not willing to change to the reality of 2010, foolishly holding onto the ideas of the 1930s. In the east, communists have cemented themselves on American soil, a product of Soviet imperialism in our fair nation. In the south, statelets of liberals continue to hold out, unwilling to realize that democracy has died with the Union. Up north, the Canadian menace breathes down America's neck, waiting to claim their spot from the old superpower. \n\nIf we do not win today, we won't survive tomorrow." 
 
+  RWE_LIN_Culture_of_Conspiracy:0 "Culture of Conspiracy"
+  RWE_LIN_Culture_of_Conspiracy_desc:0 "Reality is only an illusion, one that has been broken by the great American shaman. He sees the world for what it is and knows the bad people that want to do bad stuff. From the Bilderbergs to the pedophilic deepstate, our shaman knows the truth and shall enlighten all with the truth. \n\nThe current reality isn't exactly as described by the shaman and his followers, however. Many Americans still consider the ideas of the shaman as conspiracy theories and seem to believe that the shaman is a drug-crazed lunatic. While their ignorance is worrying, they'll soon be enlightened by the shaman."
+  RWE_LIN_Culture_of_Conspiracy_1:0 "Culture of Conspiracy"
+  RWE_LIN_Culture_of_Conspiracy_1_desc:0 "Reality is only an illusion, one that has been broken by the great American shaman. He sees the world for what it is and knows the bad people that want to do bad stuff. From the Bilderbergs to the pedophilic deepstate, our shaman knows the truth and shall enlighten all with the truth. \n\nThe current reality isn't exactly as described by the shaman and his followers, however. Many Americans still consider the ideas of the shaman as conspiracy theories and seem to believe that the shaman is a drug-crazed lunatic. While their ignorance is worrying, they'll soon be enlightened by the shaman."
+  RWE_LIN_Culture_of_Conspiracy_2:0 "Culture of Conspiracy"
+  RWE_LIN_Culture_of_Conspiracy_2_desc:0 "Reality is only an illusion, one that has been broken by the great American shaman. He sees the world for what it is and knows the bad people that want to do bad stuff. From the Bilderbergs to the pedophilic deepstate, our shaman knows the truth and shall enlighten all with the truth. \n\nThe current reality isn't exactly as described by the shaman and his followers, however. Many Americans still consider the ideas of the shaman as conspiracy theories and seem to believe that the shaman is a drug-crazed lunatic. While their ignorance is worrying, they'll soon be enlightened by the shaman."
+  RWE_LIN_Seized_Church_Property:0 "Seized Church Wealth"
+  RWE_LIN_Seized_Church_Property_desc:0 "The christian conspiracy out to destroy America cannot be tolerated in this union. Thus, the state has made the decision to seize the wealth of the big church and use its value to fund the introduction of pagan ideology across the United States."
+
+  RWE_LIN_Nation_on_the_Edge:0 "An Union on Edge"
+  RWE_LIN_Nation_on_the_Edge_desc:0 "The American Union State is currently walking on a tight rope above the abyss. Spencer's post-unification speech has been the lit match to start a chain reaction across the country, as many old supporters have turned their back against the increasingly tyrannical regime he has founded. Cooperating with those they once hated and fought against, this new opposition has pushed the union on the brink of collapse. While the streets of NYC are overrun by protestors and the streets of Atlanta have become a battleground, Spencer has turned inwards with the task of purifying the Workers' Party, forging something that will never oppose him again. \n\n§RWe're starting to stare into the dark abyss. Is it truly staring back?§!"
+
+  RWE_USA_One_Last_Gamble:0 "Democracy's Last Gamble"
+  RWE_USA_One_Last_Gamble_desc:0 "With the national bolshevik revolution at our doors and the potential for the old USA to become a dicatorship under the boot of Spencer, Americans from across the spectrum have united for a last, big and brazen attempt to overthrow the great dictator of Spokane and reunite the old United States under democracy. Socialists fight alongside fascists while new democrats tend to the wounds of conservatives in this war, as we only have one shot to save democracy. \n\n§GLet's make that shot count!§!"
 
   ##########################
   # EVENTS
@@ -143,7 +193,13 @@
   lincoln.10.t:0 "A History of Revolutions"
   lincoln.10.d:0 "In his most recently published book, Supreme Chief Spencer tries to explain the fundamental concepts of national bolshevism. In this book, titled \"A History of Revolutions\", the Supreme Chief tries to break the basic concepts down in a way the common people can understand. Concepts such as historical determinism, racial realism, eugenics, socialism, marxism and fascism are explained. \n\nThe book has garnered incredible praise from the party, but critics outside of the Union have flamed Spencer's attempt at introducing national bolshevik concepts as \"too complex despite its audience\" and \"nothing more than a way to inflate Spencer's academic ego\". These critics don't matter however, as their opinions have already been silenced by the party's media team and the critics themselves have been put on a list of undesireable people."
   lincoln.10.a:0 "Everyone's a critic these days!" 
+  lincoln.11.t:0 "Revisionism against the Mainstream"
+  lincoln.11.d:0 "New schoolbooks have recently been distributed across large parts of the Union of Lincoln, replacing the old schoolbooks from the Reagan era that were still in use. These new schoolbooks on history have taken quite the different approach to the subject compared to the older books, with the books painting clear emotional and political opinions on many big American figures. Men like FDR and Wilson, once glorified by the mainstream, are depicted as war criminals in these new books, involving themselves with European affairs and sacrificing innocent Americans for their own legacy. Presidents after Vietnam are often vilified by the books, depicting them as weak imperialists, unable to truely realize the tides of history leading to their failure and the eventual collapse of the United States. \n\nInternational organizations tasked with keeping tabs on the quality of global education have voiced serious concerns about the new textbooks, calling them pieces of propaganda not unlike the schoolbooks used in Korea. Their interpretation of events have been denied by the Workers' Party and pieces of media about the textbooks are currently being monitored by the party's media team."
+  lincoln.11.a:0 "Books are great tools"
 
+  lincolnpost.1.t:0 "An End of the Old"
+  lincolnpost.1.d:0 "Adressing the entire nation of America for the first time in decades, Supreme Chief and First Among Equals Richard B. Spencer would become the first man to \"represent\" all Americans since president Reagan. While he would personally adress just a small crowd at the capital of [Root.Capital.GetName] in the grand unification celebration, TV crews friendly to the state would ensure that millions of Americans with acces to the luxury of television would experience the same speech, may they be in Florida or Oregon. \n\nIn his speech, the Supreme Chief celebrated the unification of America as the first step of the new national bolshevik revolution. Praising the revolution as an end to the old and a start of the new, Spencer's speech would swiftly take a turn. Celebration made place for paranoia as the Supreme Chief started to go through every percieved enemy of the revolution: the religious, the ex-Republicans, the old fascists, the members of the KKK, the ex-Communists, the progressives, the old Democrats, the African-American community, the Asian-American community, the Hispanic community, those that previously worked for the other states and more. As he continued to go down his list, excluding any reasoning for why he had chosen these people, Americans across the nation started to realize the potential implications. As Spencer finally finished with his list of enemies of the revolution, the nation was already up in arms. Protestors in the Black belt, the Rust belt and the Bible belt were already on the streets before the speech had ended, while the urban populace was also preparing for the worst. \n\nAt the end of his speech, Spencer would face the small crowd of people that were still celebrating, with many of the previous men and women present in the crowd having gone home. He would later be informed by the Union's secret police that the speech had led to an inflamatory reaction across the Union, as many old supporters and those that had remained silent had turned against the Union. \n\n\"Just like I said in my speech\", the Supreme Chief mumbled."
+  lincolnpost.1.a:0 "The status quo is breaking"
 
   ##########################
   # DECISIONS
@@ -159,12 +215,16 @@
   LIN_Southern_War:0 "War with the American Republic"
   LIN_APC_War:0 "War with the American People's Commonwealth"
 	
+  LIN_Extremist_Unity:0 "Unity of the Revolution"
+  LIN_Extremist_Unity_desc:0 "\n\n\n\n\n\n\nThe revolution that supreme chief Spencer has brought to the United States transcends the old concept of left-right politics. Instead of pitting these against eachother, causing polarization and stagnation, Spencer has united them for a common goal, namely bringing the revolution to the rest of America. \n\nWhile the propaganda machine tells this story to the people, the reality of the situation is far less glorious. The Workers' Party remains bitterly divided in factions between the right and the left due to irrational tribalism. Spencer's job is to keep the party as united as possible or face the potential consequences of §Rdefection§!, §Rbetrayal§! and §Rcivil conflict§!. \n\n§RLeft-wing Unrest§!: [?LIN.LeftWingUnrest] \n\n§gRight-wing Unrest§!: [?LIN.RightWingUnrest]\n"
+
   ##########################
   # TOOLTIPS
   ##########################
-  LIN_MILITIA:0 "§YTwo divisions consisting of 4 infantry and an engineer company will be mobilized in Spokane§!."
+  LIN_MILITIA_1:0 "§YTwo divisions consisting of 4 infantry and an engineer company will be mobilized in Spokane§!."
   LIN_FUSE:0 "After this decision, §RCommunist§! and §gFascist§! popularity will be added to §YNational Bolshevik§! popularity."
   supreme_chief:0 "First Supreme Chief of the Union"
+  LIN_WAR_DECISIONS:0 "Opens up £decision_icon_small §Ywar decisions§! "
 
   ##########################
   # COSMETIC TAGS
@@ -172,9 +232,21 @@
   LIN_SPENSER_UNIFIED:0 "American National Union"
   LIN_SPENSER_UNIFIED_DEF:0 "The National Union of America"
   LIN_SPENSER_UNIFIED_ADJ:0 "American"
-
+  LIN_MILITIA:0 "Lincoln"
+  LIN_MILITIA_DEF:0 "Lincoln"
+  LIN_MILITIA_ADJ:0 "Lincolnian"
   LIN_Roman:0 "New Roman Republic"
   LIN_Roman_DEF:0 "The New Roman Republic"
   LIN_Roman_ADJ:0 "Roman"
+  LCN:0 "American Revolutionary Front"
+  LCN_DEF:0 "The American Revolutionary Front"
+  LCN_ADJ:0 "American"
+
+  USA_CIVIL_WAR:0 "United States of America"
+  USA_CIVIL_WAR_DEF:0 "The United States of America"
+  USA_CIVIL_WAR_ADJ:0 "American"
+
+  no_government:0 "No Functioning Government"
+  mad_dog:0 "The Mad Dog of Florida"
 
   POLITICS_RICHARD_SPENCER_D:0 "Born in 1978 Boston, Massaschusetts, to ophthalmologists, few would have bet that Richard B. Spencer would become the face of the alternative right in Post-American politics. His introduction to the alt-right would begin early however, as contacts during his studying years would influence Spencer's views swiftly. Becoming a common face in anti-government extremist protests, Spencer choose to move to Illinois in 2001 before completing his PhD in Modern European intellectual history. \n\nOnce in Illinois, Spencer established connections with the underground alternative right, such as the National Alliance, which pointed him to Montana and the new ethnostate experiment led by Covington. Although intrigued by the concept, Spencer opposed Covington's old-style fascism, believing it to be unusable in the United States due to its Europeanism. Instead, he and allies formed an opposing party, named the Workers' Party of the Glorious Union, and seized control over Idaho. With the establishment of the new Union of Lincoln, Spencer became the figure of this new state and the new movement it represented, which Spencer has lovingly called American national bolshevism."

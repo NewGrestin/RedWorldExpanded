@@ -15,10 +15,10 @@ focus_tree = {
 		id = LIN_Resolve_the_Conflict
 		icon = GFX_goal_LIN_Unite_the_American_Right
 		available = { MOT = { exists = yes } LIN = { has_war = no } }
-		x = 5
+		x = 6
 		y = 0
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -36,10 +36,10 @@ focus_tree = {
 		icon = GFX_goal_LIN_Funding
 		prerequisite = { focus = LIN_Resolve_the_Conflict }
 		available = { has_war_with = MOT }
-		x = 7
+		x = 8
 		y = 1
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -52,10 +52,10 @@ focus_tree = {
 		icon = GFX_goal_LIN_West_Coast
 		prerequisite = { focus = LIN_Income_from_Drugs }
 		available = { has_war_with = MOT }
-		x = 6
+		x = 7
 		y = 2
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -70,10 +70,10 @@ focus_tree = {
 		icon = GFX_goal_LIN_Rockies
 		prerequisite = { focus = LIN_Income_from_Drugs }
 		available = { has_war_with = MOT }
-		x = 8
+		x = 9
 		y = 2
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -87,10 +87,10 @@ focus_tree = {
 		prerequisite = { focus = LIN_Smuggling_is_our_Business }
 		prerequisite = { focus = LIN_Sell_Narcotics_in_California }
 		available = { has_war_with = MOT }
-		x = 7
+		x = 8
 		y = 3
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -104,10 +104,10 @@ focus_tree = {
 		prerequisite = { focus = LIN_Expand_Training_Ranges }
 		prerequisite = { focus = LIN_Empire_of_Needles }
 		available = { has_war_with = MOT }
-		x = 5
+		x = 6
 		y = 4
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -120,14 +120,14 @@ focus_tree = {
 		icon = GFX_goal_LIN_Arm_the_Militias
 		prerequisite = { focus = LIN_Resolve_the_Conflict }
 		available = { has_full_control_of_state = 890 has_war_with = MOT }
-		x = 3
+		x = 4
 		y = 1
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
-		custom_effect_tooltip = LIN_MILITIA
+		custom_effect_tooltip = LIN_MILITIA_1
 		hidden_effect = { load_oob = "LIN_MILITIA" }
 
 		}
@@ -138,10 +138,10 @@ focus_tree = {
 		icon = GFX_goal_LIN_Underground_Ties
 		prerequisite = { focus = LIN_Arm_the_Militias }
 		available = { has_war_with = MOT }
-		x = 2
+		x = 3
 		y = 2
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -159,10 +159,10 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_LIN_Right_to_bear_Arms
 		prerequisite = { focus = LIN_Arm_the_Militias }
 		available = { has_war_with = MOT }
-		x = 4
+		x = 5
 		y = 2
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -180,10 +180,10 @@ add_equipment_to_stockpile = {
 		prerequisite = { focus = LIN_Ties_to_the_Black_Market }
 		bypass = { has_idea = extensive_conscription }
 		available = { has_war_with = MOT }
-		x = 3
+		x = 4
 		y = 3
 
-		cost = 5
+		cost = 3
 
 
 		completion_reward = {
@@ -347,7 +347,9 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = national_conservative popularity = -0.1 }
+		add_popularity = { ideology = liberal popularity = -0.05 }
+		add_political_power = 75
 		}
 	}
 
@@ -381,6 +383,7 @@ add_equipment_to_stockpile = {
 
 		completion_reward = {
 		hidden_effect = { country_event = { id = lincoln.8 days = 0 } }
+		swap_ideas = { remove_idea = RWE_LIN_Religious_Crackdown_1 add_idea = RWE_LIN_Religious_Crackdown_2 }
 		}
 	}
 
@@ -461,7 +464,7 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_Cult_of_the_Constitution
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_Focus_Bloody_Purge
 		prerequisite = { focus = LIN_Vanguard_of_the_American_Revolution }
 		available = { }
 		x = 17
@@ -471,7 +474,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_LIN_Revolutionary_Determinism add_idea = RWE_LIN_Revolutionary_Determinism_1 }
 		}
 	}
 
@@ -487,7 +490,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		country_event = { id = lincoln.11 days = 0 }
 		}
 	}
 
@@ -520,7 +523,8 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-		add_popularity = { ideology = national_bolshevik popularity = 0.05 }
+		custom_effect_tooltip = LIN_WAR_DECISIONS
+		set_country_flag = LIN_WAR
 		swap_ideas = { remove_idea = RWE_LIN_Ideological_Enigma_3 add_idea = RWE_LIN_Ideological_Enigma_4 }
 		}
 	}
@@ -537,62 +541,41 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_stability = -0.1
+		add_popularity = { ideology = national_bolshevik popularity = -0.2 }
+		remove_ideas = { RWE_LIN_Ideological_Enigma }
 		}
 	}
 
 	focus = {
-		id = LIN_The_Pagan_Path
-		icon = GFX_goal_Generic_Propaganda_Axis
+		id = LIN_The_Soul_of_Wotansvolk
+		icon = GFX_goal_LIN_Wotansvolk
 		prerequisite = { focus = LIN_End_to_Revolution }
-		x = 23
+		mutually_exclusive = { focus = LIN_The_New_Age_Shaman focus = LIN_New_Moon_of_May }
+		x = 22
 		y = 1
 
 		cost = 5
 
 
 		completion_reward = {
-
+		create_country_leader = {
+		name = "David Lane"
+		picture = "gfx/leaders/LIN/RW_Wotan_Guy.tga"
+		ideology = fascist_ideology 
 		}
-	}
-
-	focus = {
-		id = LIN_The_Soul_of_Wotansvolk
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_The_Pagan_Path }
-		mutually_exclusive = { focus = LIN_The_New_Age_Shaman }
-		x = 22
-		y = 2
-
-		cost = 5
-
-
-		completion_reward = {
-
+		set_party_name = { ideology = fascist long_name = "New Folk Party" name = "NFP" }
+		set_politics = { ruling_party = fascist }
+		add_popularity = { ideology = fascist popularity = 0.2 }
 		}
 	}
 
 	focus = {
 		id = LIN_Freedom_of_Paganist_Thought
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Pagan
 		prerequisite = { focus = LIN_Seize_Church_Property }
 		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk }
 		x = 22
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_The_Folk_Consciousness
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk }
-		x = 20
 		y = 3
 
 		cost = 5
@@ -604,12 +587,27 @@ add_equipment_to_stockpile = {
 	}
 
 	focus = {
+		id = LIN_The_Folk_Consciousness
+		icon = GFX_goal_LIN_Folk
+		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk }
+		x = 20
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
 		id = LIN_War_against_Americanism
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_War_against_America
 		prerequisite = { focus = LIN_The_Folk_Consciousness }
 		prerequisite = { focus = LIN_Freedom_of_Paganist_Thought }
 		x = 21
-		y = 5
+		y = 4
 
 		cost = 5
 
@@ -624,7 +622,7 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_Generic_Propaganda_Axis
 		prerequisite = { focus = LIN_The_Folk_Consciousness }
 		x = 19
-		y = 4
+		y = 3
 
 		cost = 5
 
@@ -639,7 +637,7 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_Generic_Propaganda_Axis
 		prerequisite = { focus = LIN_Embrace_Prison_Paramilitaries }
 		x = 19
-		y = 5
+		y = 4
 
 		cost = 5
 
@@ -655,7 +653,7 @@ add_equipment_to_stockpile = {
 		prerequisite = { focus = LIN_Criminal_Paganism }
 		prerequisite = { focus = LIN_War_against_Americanism }
 		x = 20
-		y = 6
+		y = 5
 
 		cost = 5
 
@@ -667,116 +665,135 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_The_New_Age_Shaman 
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_The_Pagan_Path }
-		mutually_exclusive = { focus = LIN_The_Soul_of_Wotansvolk }
+		icon = GFX_goal_LIN_Shaman
+		prerequisite = { focus = LIN_End_to_Revolution }
+		mutually_exclusive = { focus = LIN_The_Soul_of_Wotansvolk focus = LIN_New_Moon_of_May }
 		x = 24
+		y = 1
+
+		cost = 5
+
+
+		completion_reward = {
+		create_country_leader = {
+		name = "The Awakened Shaman"
+		picture = "gfx/leaders/LIN/Qanon_Shaman.tga"
+		ideology = ultranationalist 
+		}
+		set_party_name = { ideology = nationalist long_name = "Society for Awakened Americans" name = "The Society" }
+		set_politics = { ruling_party = nationalist }
+		add_popularity = { ideology = nationalist popularity = 0.3 }
+		}
+	}
+
+	focus = {
+		id = LIN_Seize_Church_Property
+		icon = GFX_goal_Generic_Seize_Church
+		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk focus = LIN_The_New_Age_Shaman }
+		x = 23
 		y = 2
 
 		cost = 5
 
 
 		completion_reward = {
-
+		add_timed_idea = { idea = RWE_LIN_Seized_Church_Property days = 160 }
+		add_popularity = { ideology = national_conservative popularity = -0.2 }
+		add_stability = -0.1
 		}
 	}
 
 	focus = {
-		id = LIN_Seize_Church_Property
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk focus = LIN_The_New_Age_Shaman }
-		x = 23
+		id = LIN_Broadcast_Woke_Teachings
+		icon = GFX_goal_LIN_Broadcast
+		prerequisite = { focus = LIN_The_New_Age_Shaman }
+		prerequisite = { focus = LIN_Seize_Church_Property }
+		x = 24
 		y = 3
 
 		cost = 5
 
 
 		completion_reward = {
-
+		add_war_support = 0.05
+		add_stability = 0.05
+		add_popularity = { ideology = nationalist popularity = 0.15 }
 		}
 	}
 
 	focus = {
-		id = LIN_Broadcast_Woke_Teachings
-		icon = GFX_goal_Generic_Propaganda_Axis
+		id = LIN_Against_the_Bilderberg_Clique
+		icon = GFX_goal_LIN_Globalism
 		prerequisite = { focus = LIN_The_New_Age_Shaman }
-		prerequisite = { focus = LIN_Seize_Church_Property }
-		x = 24
+		x = 25
+		y = 2
+
+		cost = 5
+
+
+		completion_reward = {
+		add_ideas = { RWE_LIN_Culture_of_Conspiracy }
+		add_popularity = { ideology = liberal popularity = -0.2 }
+		add_popularity = { ideology = centrist popularity = -0.1 }
+		add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = LIN_Silencing_Freemasons
+		icon = GFX_goal_LIN_Freemasons
+		prerequisite = { focus = LIN_Against_the_Bilderberg_Clique }
+		prerequisite = { focus = LIN_Broadcast_Woke_Teachings }
+		x = 25
 		y = 4
 
 		cost = 5
 
 
 		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Against_the_Bilderberg_Clique
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_The_New_Age_Shaman }
-		x = 25
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Silencing_Freemasons
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Against_the_Bilderberg_Clique }
-		prerequisite = { focus = LIN_Broadcast_Woke_Teachings }
-		x = 25
-		y = 5
-
-		cost = 5
-
-
-		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_LIN_Culture_of_Conspiracy add_idea = RWE_LIN_Culture_of_Conspiracy_1 }
+		add_popularity = { ideology = moderate_socialist popularity = -0.1 }
+		add_popularity = { ideology = new_democrat popularity = -0.05 }
 		}
 	}
 
 	focus = {
 		id = LIN_Demolish_the_Ley_Lines
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Lines
 		prerequisite = { focus = LIN_Broadcast_Woke_Teachings }
 		x = 23
+		y = 4
+
+		cost = 5
+
+
+		completion_reward = {
+		add_stability = 0.1
+		add_popularity = { ideology = nationalist popularity = 0.1 }
+		}
+	}
+
+	focus = {
+		id = LIN_Crusade_against_Deep_Stateism
+		icon = GFX_goal_LIN_Deep_State
+		prerequisite = { focus = LIN_Demolish_the_Ley_Lines }
+		prerequisite = { focus = LIN_Silencing_Freemasons }
+		x = 24
 		y = 5
 
 		cost = 5
 
 
 		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Crusade_against_Deep_Stateism
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Demolish_the_Ley_Lines }
-		prerequisite = { focus = LIN_Silencing_Freemasons }
-		x = 24
-		y = 6
-
-		cost = 5
-
-
-		completion_reward = {
-
+		custom_effect_tooltip = LIN_WAR_DECISIONS
+		set_country_flag = LIN_WAR
+		swap_ideas = { remove_idea = RWE_LIN_Culture_of_Conspiracy_1 add_idea = RWE_LIN_Culture_of_Conspiracy_2 }
 		}
 	}
 
 	focus = {
 		id = LIN_New_Moon_of_May
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_New_Moon
 		prerequisite = { focus = LIN_End_to_Revolution }
 		x = 28
 		y = 1
@@ -785,14 +802,23 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		create_country_leader = {
+		name = "Augustus Sol Invictus"
+		picture = "gfx/leaders/LIN/RW_Agustus_Sol_Invictus.tga"
+		ideology = fascist_ideology 
+		traits = { mad_dog }
+		}
+		set_party_name = { ideology = fascist long_name = "Roman-Libertarian Front" name = "R-LF" }
+		set_politics = { ruling_party = fascist }
+		add_popularity = { ideology = fascist popularity = 0.1 }
 		}
 	}
 
 	focus = {
 		id = LIN_Roots_in_Libertarianism
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Libertarianism
 		prerequisite = { focus = LIN_New_Moon_of_May }
+		mutually_exclusive = { focus = LIN_The_New_Age_Shaman focus = LIN_The_Soul_of_Wotansvolk }
 		x = 27
 		y = 2
 
@@ -806,7 +832,7 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_Romanize_the_Revolution
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Romanized_Revolution
 		prerequisite = { focus = LIN_New_Moon_of_May }
 		x = 30
 		y = 2
@@ -820,23 +846,8 @@ add_equipment_to_stockpile = {
 	}
 
 	focus = {
-		id = LIN_Less_Taxes_Less_Regulation
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Roots_in_Libertarianism }
-		x = 26
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
 		id = LIN_Free_the_Substances_Market
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Substances
 		prerequisite = { focus = LIN_Roots_in_Libertarianism }
 		x = 27
 		y = 3
@@ -851,7 +862,7 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_Culture_of_Nature
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Nature_Culture
 		prerequisite = { focus = LIN_Romanize_the_Revolution }
 		x = 29
 		y = 3
@@ -866,7 +877,7 @@ add_equipment_to_stockpile = {
 
 	focus = {
 		id = LIN_Decentralized_Imperialism
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Decentralization
 		prerequisite = { focus = LIN_Romanize_the_Revolution }
 		x = 31
 		y = 3
@@ -897,7 +908,7 @@ add_equipment_to_stockpile = {
 	focus = {
 		id = LIN_Green_Free_Market
 		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Less_Taxes_Less_Regulation focus = LIN_Embrace_the_Wilderness }
+		prerequisite = { focus = LIN_Embrace_the_Wilderness }
 		x = 28
 		y = 5
 

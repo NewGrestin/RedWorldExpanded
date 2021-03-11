@@ -1,5 +1,17 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_Generic_Seize_Church"
+		texturefile = "gfx/interface/goals/Generic_Seize_Church.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Deep_State"
+		texturefile = "gfx/interface/goals/LIN_Deep_State.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Freemasons"
+		texturefile = "gfx/interface/goals/LIN_Freemasons.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_LIN_Unite_the_American_Right"
 		texturefile = "gfx/interface/goals/LIN_Unite_the_American_right.tga"			
 	}
@@ -24,6 +36,50 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/LIN_West_Coast.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_LIN_Pagan"
+		texturefile = "gfx/interface/goals/LIN_Pagan.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_War_against_America"
+		texturefile = "gfx/interface/goals/LIN_War_against_America.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_New_Moon"
+		texturefile = "gfx/interface/goals/LIN_New_Moon.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Romanized_Revolution"
+		texturefile = "gfx/interface/goals/LIN_Romanized_Revolution.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Libertarianism"
+		texturefile = "gfx/interface/goals/LIN_Libertarianism.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Nature_Culture"
+		texturefile = "gfx/interface/goals/LIN_Nature_Culture.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Decentralization"
+		texturefile = "gfx/interface/goals/LIN_Decentralization.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Substances"
+		texturefile = "gfx/interface/goals/LIN_Substances.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Folk"
+		texturefile = "gfx/interface/goals/LIN_Folk.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Broadcast"
+		texturefile = "gfx/interface/goals/LIN_Broadcast.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Lines"
+		texturefile = "gfx/interface/goals/LIN_Lines.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_LIN_Rockies"
 		texturefile = "gfx/interface/goals/LIN_Rockies.tga"			
 	}
@@ -42,6 +98,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_LIN_Nazbol"
 		texturefile = "gfx/interface/goals/LIN_Nazbol.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Shaman"
+		texturefile = "gfx/interface/goals/LIN_Shaman.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Wotansvolk"
+		texturefile = "gfx/interface/goals/LIN_Wotansvolk.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Globalism"
+		texturefile = "gfx/interface/goals/LIN_Globalism.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_LIN_Mary"

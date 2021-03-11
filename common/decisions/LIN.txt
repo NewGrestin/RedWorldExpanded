@@ -1,3 +1,30 @@
+LIN_Extremist_Unity = {
+	
+	LIN_Horseshoe_Theory = {
+
+		icon = generic_scorched_earth
+
+		allowed = {
+			    original_tag = LIN
+			    has_government = national_bolshevik
+		}
+
+		available = {
+
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+
+		}
+	}
+}
+
 LIN_american_unification_wars = {
 	
 	LIN_Utah_War = {

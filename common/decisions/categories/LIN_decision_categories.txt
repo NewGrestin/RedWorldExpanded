@@ -1,5 +1,11 @@
 LIN_american_unification_wars = {
     icon = generic_independence
 
-available = { tag = LIN }
+available = { tag = LIN has_country_flag = LIN_WAR}
+}
+
+LIN_Extremist_Unity = {
+	icon = GFX_LIN_Nazbol_Icon
+	picture = GFX_LIN_Nazbol_Pic
+	available = { tag = LIN }
 }

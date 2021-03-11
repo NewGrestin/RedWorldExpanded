@@ -1,5 +1,5 @@
 ﻿add_namespace = lincoln
-
+add_namespace = lincolnpost
 
 country_event = { #Lincoln victory against Montana
 	id = lincoln.1
@@ -38,11 +38,10 @@ country_event = { #Lincoln victory against Montana
 		ai_chance = {
 			factor = 100
 		}
-	remove_ideas = { RWE_LIN_Fractured_Right_Wing }
-	remove_ideas = { RWE_LIN_Elusive_War_Funding }
-	remove_ideas = { RWE_LIN_Elusive_War_Funding_1 }
-	remove_ideas = { RWE_LIN_Enemies_on_all_Sides }
-
+	remove_ideas = RWE_LIN_Fractured_Right_Wing 
+	remove_ideas = RWE_LIN_Elusive_War_Funding 
+	remove_ideas = RWE_LIN_Elusive_War_Funding_1
+	remove_ideas = RWE_LIN_Enemies_on_all_Sides 
         LIN = {
             annex_country = {
                 target = MOT
@@ -57,7 +56,11 @@ country_event = { #Lincoln victory against Montana
 	add_state_core = 381
 	add_state_core = 389
 	}
- 
+ 	set_party_name = {
+ideology = fascist
+long_name = "Militias"
+name = "Militias"
+}
 	}
 
 }
@@ -259,5 +262,230 @@ country_event = { #A History of Revolution
 	option = { 
 		name = lincoln.10.a
 
+}
+}
+
+country_event = { #Historical Revisionism takes hold
+	id = lincoln.11
+	title = lincoln.11.t
+	desc = lincoln.11.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.11.a
+political_power = 50
+add_war_support = 0.05
+add_stability = -0.05
+}
+}
+
+country_event = { #Spokane held by Militias
+	id = lincoln.12
+	title = lincoln.12.t
+	desc = lincoln.12.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.12.a
+set_politics = { ruling_party = fascist }
+create_country_leader = {
+	name = "Various Militias"
+	desc = ""
+	picture = "gfx/leaders/LIN/Militias.tga"
+	expire = "2100.1.1"
+	ideology = fascist_ideology 
+	traits = { no_government }
+}
+set_cosmetic_tag = LIN_MILITIA
+add_popularity = { ideology = national_bolshevik popularity = -0.2 }
+890 = { damage_building = { type = arms_factory damage = 1 } }
+890 = { damage_building = { type = industrial_complex damage = 1 } }
+890 = { damage_building = { type = infrastructure damage = 1 } }
+political_power = -100
+add_stability = -0.2
+}
+}
+
+country_event = { #Right-Wing rises
+	id = lincoln.13
+	title = lincoln.13.t
+	desc = lincoln.13.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.13.a
+if = { 
+limit = { LIN = { num_of_controlled_states = 2 } }
+random_owned_state = {
+LCN = { transfer_state = PREV }
+}
+}
+
+}
+}
+
+#############################
+
+country_event = { #End of the old Union
+	id = lincolnpost.1
+	title = lincolnpost.1.t
+	desc = lincolnpost.1.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincolnpost.1.a
+add_ideas = { RWE_LIN_Nation_on_the_Edge }
+
+}
+}
+
+country_event = { #Drawing the Lines
+	id = lincolnpost.10
+	title = lincolnpost.10.t
+	desc = lincolnpost.10.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincolnpost.10.a
+NEA = { set_cosmetic_tag = USA_CIVIL_WAR }
+NEA = {
+add_ideas = { RWE_USA_One_Last_Gamble }
+set_politics = { ruling_party = centrist }
+set_political_party = {
+ideology = fascist
+popularity = 2
+}
+set_political_party = {
+ideology = nationalist
+popularity = 3
+}
+set_political_party = {
+ideology = national_conservative
+popularity = 30
+}
+set_political_party = {
+ideology = centrist 
+popularity = 20
+}
+set_political_party = {
+ideology = liberal
+popularity = 24
+}
+set_political_party = {
+ideology = new_democrat
+popularity = 7
+}
+set_political_party = {
+ideology = revolutionary_socialist
+popularity = 10
+}
+remove_ideas = idea_standing_firm_commonwealth 
+remove_ideas = idea_apc_political_deadlock
+remove_ideas = idea_apc_western_corruption
+remove_ideas = idea_apc_appalling_recognition
+
+set_party_name = { ideology = national_bolshevik long_name = "Spencerite Remnants" name = "Spencerite Remnants" }
+
+set_party_name = { ideology = fascist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = nationalist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = moderate_socialist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = national_conservative long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = centrist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = liberal long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = new_democrat long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = revolutionary_socialist long_name = "New Coalition Party" name = "NCP" }
+
+set_party_name = { ideology = communist long_name = "Communist Party of the United States" name = "CPUS" }
+}
+
+NEA = { transfer_state = 358 }
+NEA = { transfer_state = 795 }
+NEA = { transfer_state = 357 }
+NEA = { transfer_state = 793 }
+NEA = { transfer_state = 794 }
+NEA = { transfer_state = 792 }
+NEA = { transfer_state = 359 }
+NEA = { transfer_state = 360 }
+NEA = { transfer_state = 261 }
+NEA = { transfer_state = 396 }
+NEA = { transfer_state = 393 }
+NEA = { transfer_state = 891 }
+NEA = { transfer_state = 395 }
+NEA = { transfer_state = 892 }
+NEA = { transfer_state = 394 }
+NEA = { transfer_state = 361 }
+NEA = { transfer_state = 893 }
+NEA = { transfer_state = 366 }
+NEA = { transfer_state = 365 }
+NEA = { transfer_state = 364 }
+NEA = { transfer_state = 902 }
+NEA = { transfer_state = 900 }
+NEA = { transfer_state = 371 }
+NEA = { transfer_state = 370 }
+NEA = { transfer_state = 367 }
+NEA = { transfer_state = 901 }
+NEA = { transfer_state = 362 }
+NEA = { transfer_state = 363 }
+NEA = { transfer_state = 369 }
+NEA = { transfer_state = 368 }
+NEA = { transfer_state = 372 }
+NEA = { transfer_state = 373 }
+NEA = {
+create_country_leader = {
+	name = "Bernie Sanders"
+	picture = "gfx/leaders/LIN_2/USA_Punished_Bernie.tga"
+	ideology = progressive 
+}
+create_country_leader = {
+	name = "United States Senate"
+	picture = "gfx/leaders/LIN_2/USA_Senate.tga"
+	ideology = centrist_ideology 
+}
+create_country_leader = {
+	name = "Danny K. Davis"
+	picture = "gfx/leaders/LIN_2/USA_Danny_Davis.tga"
+	ideology = new_democrat_ideology
+}
+create_country_leader = {
+	name = "Colin Powell"
+	picture = "gfx/leaders/LIN_2/USA_Colin_Powell.tga"
+	ideology = fiscal_conservative 
+}
+create_country_leader = {
+	name = "Pete Buttigieg"
+	picture = "gfx/leaders/LIN_2/USA_Buttigieg.tga"
+	ideology = social_liberal 
+}
+}
 }
 }
