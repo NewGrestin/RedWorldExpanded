@@ -304,3 +304,138 @@ spriteTypes = {
 		name = "GFX_goal_GNS_Unitary_Government"
 		texturefile = "gfx/interface/goals/GNS_Unitary_Government.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_initial"
+		texturefile = "gfx/interface/goals/MOT_initial.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Support"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Support.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Weaver_Support"
+		texturefile = "gfx/interface/goals/MOT_Weaver_Support.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_McVeigh_Support"
+		texturefile = "gfx/interface/goals/MOT_McVeigh_Support.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Reintegration"
+		texturefile = "gfx/interface/goals/MOT_Reintegration.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Constitutional_Convention"
+		texturefile = "gfx/interface/goals/MOT_Constitutional_Convention.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_New_Capital"
+		texturefile = "gfx/interface/goals/MOT_New_Capital.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Status_of_Militias"
+		texturefile = "gfx/interface/goals/MOT_Status_of_Militias.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Purge_Revisionists"
+		texturefile = "gfx/interface/goals/MOT_Purge_Revisionists.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Cascadian_Claims"
+		texturefile = "gfx/interface/goals/MOT_Cascadian_Claims.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_Generic_Barbed_Wire"
+		texturefile = "gfx/interface/goals/Generic_Barbed_Wire.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Canadian_Border_Treaty"
+		texturefile = "gfx/interface/goals/MOT_Canadian_Border_Treaty.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Cascadian_Integration"
+		texturefile = "gfx/interface/goals/MOT_Cascadian_Integration.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_American_Purity"
+		texturefile = "gfx/interface/goals/MOT_American_Purity.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_American_Safety"
+		texturefile = "gfx/interface/goals/MOT_American_Safety.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_American_Unity"
+		texturefile = "gfx/interface/goals/MOT_American_Unity.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison"
+		texturefile = "gfx/interface/goals/MOT_Garrison.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Corruption"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Corruption.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Purge"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Purge.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Expand_Militias"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Expand_Militias.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Purge_McVeigh"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Purge_McVeigh.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Relax_Purity_Laws"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Relax_Purity_Laws.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Local_Production"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Local_Production.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Reject_Unification"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Reject_Unification.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Decentralize_Rule"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Decentralize_Rule.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Centralize_Rule"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Centralize_Rule.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Guns_and_Beer"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Guns_and_Beer.dds"			
+	}

@@ -164,17 +164,6 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Randy Weaver"
-	picture = "Portrait_Randy_Weaver.dds"
-	traits = { trait_reckless }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_field_marshal = {
 	name = "Richard Spencer"
 	picture = "Portrait_LIN_Army_Richard_Spencer.dds"
 	traits = { politically_connected }
@@ -218,15 +207,4 @@ create_corps_commander = {
     defense_skill = 1
     planning_skill = 2
     logistics_skill = 1
-}
-
-create_corps_commander = {
-    name = "Timothy McVeigh"
-    picture = "Portrait_Timothy_McVeigh.dds"
-    traits = {  }
-    skill = 1
-    attack_skill = 1
-    defense_skill = 1
-    planning_skill = 2
-    logistics_skill = 3
 }

@@ -1,0 +1,793 @@
+﻿add_namespace = montana
+
+country_event = {		#Initial Montana Event
+	id = montana.1
+	title = montana.1.t
+	desc = montana.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = montana.1.a
+	}
+}
+
+country_event = {		#Victory over the Spencerites
+	id = montana.2
+	title = montana.2.t
+	desc = montana.2.d
+	picture = cascadian_rebels_forest
+
+	trigger = {
+        tag = MOT
+        OR = {
+            NOT = {
+                country_exists = LIC
+            }
+            LIC = {
+                is_puppet_of = MOT
+            }
+        }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = montana.2.a
+
+		set_cosmetic_tag = MOT_Northwest_United
+
+		hidden_effect = {
+			country_event = {
+				id = montana.3
+				days = 3
+			}		 
+		}
+
+		if = {
+			limit = {
+				LIC = {
+					is_puppet_of = MOT
+				}
+			}
+			MOT = {
+				annex_country = {
+					target = LIC
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {		#Spencer caught and executed
+	id = montana.3
+	title = montana.3.t
+	desc = montana.3.d
+	picture = MOT_Spencer_Yeeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = montana.3.a
+
+		add_political_power = 150
+
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = -1.0
+		}
+	}
+}
+
+country_event = {		#New Capital
+	id = montana.4
+	title = montana.4.t
+	desc = montana.4.d
+	picture = portland_election
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Maintain the Old Capital
+		name = montana.4.a
+
+		add_political_power = 50
+	}
+
+	option = { #Move the Capital to Idaho - REALLY GOOD IDEA
+		name = montana.4.b
+
+		add_political_power = 25
+
+		set_capital = 387
+
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = 0.03
+		}
+
+
+		hidden_effect = {
+			country_event = {
+				id = montana.15
+				days = 7
+			}		 
+		}
+	}
+}
+
+country_event = {		#Constitutional Convention
+	id = montana.5
+	title = montana.5.t
+	desc = montana.5.d
+	picture = texan_senate
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Focus on Expanding Executive Power
+		name = montana.5.a
+
+		add_political_power = 150
+
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.1
+		}
+
+		add_ideas = RWE_MOT_Strong_Executive_Constitution
+	}
+
+	option = { #Focus on Devolving Executive Power
+		name = montana.5.b
+
+		add_political_power = 100
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.1
+		}
+
+		add_ideas = RWE_MOT_Weak_Executive_Constitution
+	}
+}
+
+country_event = {		#Status of Militias
+	id = montana.6
+	title = montana.6.t
+	desc = montana.6.d
+	picture = workers_brigades
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Focus on curtailing Militias for a formal army
+		name = montana.6.a
+
+		add_political_power = -150
+
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.1
+		}
+
+		remove_ideas = RWE_MOT_Militia_Army
+
+		add_timed_idea = {
+			idea = RWE_MOT_Army_Reform_Timeout
+			days = 60
+		}
+	}
+
+	option = { #Maintain the militia model
+		name = montana.6.b
+
+		add_political_power = 50
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.1
+		}
+	}
+}
+
+country_event = {		#Covington Purges
+	id = montana.7
+	title = montana.7.t
+	desc = montana.7.d
+	picture = MOT_Militias2
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.7.a
+
+		add_political_power = -50
+
+		add_manpower = -1500
+
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.1
+		}
+	}
+}
+
+country_event = {		#Northwest Bantustans
+	id = montana.8
+	title = montana.8.t
+	desc = montana.8.d
+	picture = british_concentration_camps
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.8.a
+
+		add_political_power = -50
+
+		add_manpower = -1500
+	}
+}
+
+country_event = {		#Montana Diplomatic Corps
+	id = montana.9
+	title = montana.9.t
+	desc = montana.9.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.9.a
+
+		add_political_power = 50
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed
+	id = montana.10
+	title = montana.10.t
+	desc = montana.10.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.10.a
+
+		CAN = {
+			country_event = {
+				id = montana.11
+			}			
+		}
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed - Canadian Response
+	id = montana.11
+	title = montana.11.t
+	desc = montana.11.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Agree
+		name = montana.11.a
+
+		ai_chance = {
+			factor = 50
+		}
+
+		give_military_access = MOT
+
+		MOT = {
+			country_event = {
+				id = montana.12
+			}			
+		}
+	}
+
+	option = { #Refuse
+		name = montana.11.b
+
+		ai_chance = {
+			factor = 50
+		}
+
+		MOT = {
+			country_event = {
+				id = montana.13
+			}			
+		}
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed - Canada Agrees
+	id = montana.12
+	title = montana.12.t
+	desc = montana.12.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.12.a
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed - Canada Refuses
+	id = montana.13
+	title = montana.13.t
+	desc = montana.13.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.13.a
+	}
+}
+
+country_event = {		#Cascadia - Support from Montana
+	id = montana.14
+	title = montana.14.t
+	desc = montana.14.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.14.a
+	}
+}
+
+
+country_event = {		#New Capital - Covington Assassinated
+	id = montana.15
+	title = montana.15.t
+	desc = montana.15.d
+	picture = conflict_in_the_north
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.15.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Northwest Territorial Emergency Council"
+			picture = "Portrait_MOT_Council.dds"
+			desc = "NO_DESC"
+			ideology = fascist_ideology
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = montana.16
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#New Capital - Covington Assassinated - Garrison Mobilizes
+	id = montana.16
+	title = montana.16.t
+	desc = montana.16.d
+	picture = india_dem_pol_anti_insurgency
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.16.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+
+		389 = {
+			set_demilitarized_zone = yes
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = montana.17
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#New Capital - Covington Assassinated - McVeigh Mobilizes
+	id = montana.17
+	title = montana.17.t
+	desc = montana.17.d
+	picture = india_dem_for_kashmir_revolt
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.17.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+
+		381 = {
+			set_demilitarized_zone = yes
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = montana.18
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Purists
+	id = montana.18
+	title = montana.18.t
+	desc = montana.18.d
+	picture = norwegian_monarchist_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Align with Weaver
+		name = montana.18.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+	}
+
+	option = { #Align with Garrison
+		name = montana.18.a
+
+		add_political_power = -50
+
+		add_stability = -0.1
+	}
+
+	option = { #Align with Nobody
+		name = montana.18.c
+
+		add_political_power = -200
+
+		add_stability = -0.1
+
+		hidden_effect = {
+			country_event = {
+				id = montana.19
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Purists - McVeigh Overthrows the Council
+	id = montana.19
+	title = montana.19.t
+	desc = montana.19.d
+	picture = norwegian_monarchist_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.19.a
+
+		add_political_power = -200
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Timothy McVeigh"
+			picture = "Portrait_MOT_Timothy_McVeigh.dds"
+			desc = "NO_DESC"
+			ideology = fascist_ideology
+		}
+
+		set_party_name = { 
+			ideology = fascist 
+			long_name = "New American National Purification Committee" 
+			name = "National Purists" 
+		}
+
+		drop_cosmetic_tag = yes
+
+		set_cosmetic_tag = MOT_Purification
+	}
+}
+
+country_event = {		#Garrison in Power - McVeigh gets purged
+	id = montana.30
+	title = montana.30.t
+	desc = montana.30.d
+	picture = american_funded_rebels
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.30.a
+
+		add_political_power = 150
+
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.25
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Covington Race Purity Laws relaxed
+	id = montana.31
+	title = montana.31.t
+	desc = montana.31.d
+	picture = pius_youth
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.31.a
+
+		add_political_power = 15
+	}
+}
+
+country_event = {		#Garrison in Power - Montana Dollar Introduced
+	id = montana.32
+	title = montana.32.t
+	desc = montana.32.d
+	picture = commonwealth_economy_collapses
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.32.a
+
+		add_political_power = 15
+	}
+}
+
+country_event = {		#Garrison in Power - Garrison Coup Fails, Hilarity Ensues
+	id = montana.33
+	title = montana.33.t
+	desc = montana.33.d
+	picture = american_military_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.33.a
+
+		add_political_power = -150
+
+		hidden_effect = {
+			country_event = {
+				id = montana.34
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Garrison Coup Fails - Militias overthrow Garrison
+	id = montana.34
+	title = montana.34.t
+	desc = montana.34.d
+	picture = rub_ethnic_violence2
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.34.a
+
+		add_political_power = -150
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Total Anarchy"
+			picture = "Portrait_MOT_Anarchy.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		add_ideas = RWE_MOT_Garrison_Anarchy
+
+		hidden_effect = {
+			country_event = {
+				id = montana.35
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Militia Civil War
+	id = montana.35
+	title = montana.35.t
+	desc = montana.35.d
+	picture = rub_street_fighting
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.35.a
+
+		add_political_power = -150
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Total Anarchy"
+			picture = "Portrait_MOT_Anarchy.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		add_ideas = RWE_MOT_Garrison_Anarchy
+
+		hidden_effect = {
+			country_event = {
+				id = montana.35
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Militia Civil War - Outcome
+	id = montana.36
+	title = montana.36.t
+	desc = montana.36.d
+	picture = rub_street_fighting
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Biafra
+		name = montana.36.a
+
+		ai_chance = {
+			factor = 25
+		}
+
+		add_political_power = 50
+
+		kill_country_leader = yes
+
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
+
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.35
+		}
+
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = MOT_PostGarrison
+
+		remove_ideas = RWE_MOT_Garrison_Anarchy
+	}
+
+	option = { #Cascadians
+		name = montana.36.b
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = -50
+
+		kill_country_leader = yes
+
+		set_party_name = { 
+			ideology = nationalist 
+			long_name = "Military Administration for the Restoration of the Cascadian Republic" 
+			name = "Cascadian Exiles" 
+		}
+
+		create_country_leader = {
+			name = "Carter Ham"
+			picture = "Portrait_MOT_Ham.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = MOT_Cascadian_Exiles
+
+		remove_ideas = RWE_MOT_Garrison_Anarchy
+	}
+
+	option = { #Americaboos
+		name = montana.36.c
+
+		ai_chance = {
+			factor = 65
+		}
+
+		add_political_power = -100
+
+		kill_country_leader = yes
+
+		set_party_name = { 
+			ideology = nationalist 
+			long_name = "Forces for the Restoration of American Dignity" 
+			name = "New Minutemen" 
+		}
+
+		create_country_leader = {
+			name = "Erik Prince"
+			picture = "Portrait_MOT_Ham.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = MOT_American_Autonomy
+
+		remove_ideas = RWE_MOT_Garrison_Anarchy
+	}
+}

@@ -20,7 +20,7 @@ country_event = { #Super Event Test
         set_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
 
 		hidden_effect = {
-			sound_effect = "super_American_Reunification_Republic"
+			play_song = "SPEVENT_American_Reunification_Nationalists"
 		}
     }
 }
@@ -125,8 +125,509 @@ country_event = { #Super Event Test
 			factor = 100
 		}
 
-        set_global_flag = Super_Event_Visible
-        set_global_flag = GLOBAL_American_Reunification_Shaman_VISIBLE
+		MOT = {
+			set_cosmetic_tag = MOT_Anarchy
+
+			create_country_leader = {
+				name = "Disorganized Survivor Communities"
+				picture = "Portrait_MOT_American_Anarchy.dds"
+				expire = "1965.1.1"
+				ideology = national_socialist
+				traits = {
+					
+				}
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition			
+		}
+
+		CSD = {
+			transfer_state = 970
+			transfer_state = 386
+			transfer_state = 971
+			transfer_state = 385
+
+			set_politics = {
+				ruling_party = fascist
+			}
+
+			set_cosmetic_tag = CSD_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		PCA = {
+			set_politics = {
+				ruling_party = nationalist
+			}
+
+			load_focus_tree = generic_focus
+
+			set_cosmetic_tag = PCA_Anarchy	
+
+			add_ideas = RWE_America_Shattered_Ambition		
+		}
+
+		SPC = {
+			transfer_state = 890
+			890 = {
+				add_core_of = SPC
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		NVG = {
+			transfer_state = 897
+
+			transfer_state = 889
+
+			897 = {
+				add_core_of = NVG
+			}
+
+			889 = {
+				add_core_of = NVG
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		LIN = {
+			set_cosmetic_tag = LIN_Anarchy
+
+			set_capital = 387
+
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.5
+			}
+
+			set_politics = {
+				ruling_party = nationalist
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		UTA = {
+			set_cosmetic_tag = UTA_Anarchy
+
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.5
+			}
+
+			set_politics = {
+				ruling_party = fascist
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		ARI = {
+			set_cosmetic_tag = ARI_Anarchy
+
+			set_politics = {
+				ruling_party = fascist
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		RSP = {
+			transfer_state = 896
+
+			896 = {
+				add_core_of = RSP
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		LAK = {
+			set_cosmetic_tag = LAK_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition
+
+			add_popularity = {
+				ideology = communist
+				popularity = 0.6
+			}
+
+			set_politics = {
+				ruling_party = communist
+			}
+
+			transfer_state = 381
+		}
+
+		BSM = {
+			transfer_state = 389
+
+			388 = {
+				add_core_of = BSM
+			}			
+		}
+
+		MWA = {
+			set_cosmetic_tag = MWA_Anarchy
+
+			set_politics = {
+				ruling_party = fascist
+			}
+
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.7
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition			
+		}
+
+		TEX = {
+			set_cosmetic_tag = TEX_Anarchy
+
+			set_politics = {
+				ruling_party = centrist
+			}
+
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.5
+			}
+
+			transfer_state = 376
+			transfer_state = 899
+			transfer_state = 375
+			transfer_state = 900
+			transfer_state = 374
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		GRL = {
+			create_country_leader = {
+				name = "LeRoy Schweitzer"
+				picture = "Portrait_LeRoy_Schweitzer.dds"
+				ideology = fascist_ideology
+			}
+
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.5
+			}
+
+			set_cosmetic_tag = GRL_Anarchy
+
+			set_politics = {
+				ruling_party = fascist
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		ILL = {
+			create_country_leader = {
+				name = "Louis Beam"
+				picture = "Portrait_Louis_Beam.dds"
+				ideology = fascist_ideology
+			}
+
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.7
+			}
+
+			set_cosmetic_tag = ILL_Anarchy
+
+			set_politics = {
+				ruling_party = fascist
+			}
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		CHC = {
+			transfer_state = 395
+
+			395 = {
+				add_core_of = CHC
+			}
+
+			set_cosmetic_tag = CHC_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		LOU = {
+			transfer_state = 371
+
+			371 = {
+				add_core_of = LOU
+			}
+
+			set_cosmetic_tag = CHC_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		CSA = {
+			transfer_state = 367
+			transfer_state = 370
+			transfer_state = 372
+
+			367 = {
+				add_core_of = CSA
+			}
+
+			370 = {
+				add_core_of = CSA
+			}
+
+			372 = {
+				add_core_of = CSA
+			}
+
+			set_cosmetic_tag = CSA_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition		
+		}
+
+		USA = {
+			create_country_leader = {
+				name = "Charles Q. Brown Jr."
+				picture = "Portrait_Charles_Brown.dds"
+				ideology = centrist_populist
+			}
+
+			set_popularities = {
+				fascist = 0
+				nationalist = 24
+				monarchist = 0
+				national_bolshevik = 0
+				national_conservative = 0
+				centrist = 50
+				liberal = 12
+				new_democrat = 0
+				moderate_socialist = 0
+				revolutionary_socialist = 4
+				communist = 10
+			}
+
+			set_cosmetic_tag = USA_Anarchy
+
+			set_politics = {
+				ruling_party = centrist
+			}
+
+			load_focus_tree = generic_focus
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		ATM = {
+			transfer_state = 366
+
+			366 = {
+				add_core_of = ATM
+			}
+			
+			set_cosmetic_tag = ATM_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition
+		}
+
+		KKK = {
+			transfer_state = 364
+			transfer_state = 363
+
+			364 = {
+				add_core_of = KKK
+			}
+
+			363 = {
+				add_core_of = KKK
+			}
+
+			set_cosmetic_tag = KKK_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition						
+		}
+
+		AMS = {
+			create_country_leader = {
+				name = "Power Vaccum"
+				picture = "Portrait_AMS_Power_Collapse.dds"
+				ideology = falangist
+			}
+
+			set_popularities = {
+				fascist = 90
+				nationalist = 10
+				monarchist = 0
+				national_bolshevik = 0
+				national_conservative = 0
+				centrist = 0
+				liberal = 0
+				new_democrat = 0
+				moderate_socialist = 0
+				revolutionary_socialist = 0
+				communist = 0
+			}
+
+			transfer_state = 369
+			transfer_state = 362
+
+			369 = {
+				add_core_of = AMS
+			}
+
+			362 = {
+				add_core_of = AMS
+			}
+
+			load_focus_tree = generic_focus		
+
+			set_cosmetic_tag = AMS_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		IND = {
+			transfer_state = 396
+			transfer_state = 261
+			transfer_state = 393
+
+			396 = {
+				add_core_of = IND
+			}
+			261 = {
+				add_core_of = IND
+			}
+			393 = {
+				add_core_of = IND
+			}
+
+			set_cosmetic_tag = IND_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		APP = {
+			transfer_state = 902
+			transfer_state = 893
+
+			902 = {
+				add_core_of = APP
+			}
+			893 = {
+				add_core_of = APP
+			}
+
+			set_cosmetic_tag = IND_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		CLM = {
+			transfer_state = 901
+
+			901 = {
+				add_core_of = CLM
+			}
+
+			set_cosmetic_tag = CLM_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		NEA = {
+			set_popularities = {
+				fascist = 0
+				nationalist = 0
+				monarchist = 0
+				national_bolshevik = 0
+				national_conservative = 0
+				centrist = 0
+				liberal = 0
+				new_democrat = 0
+				moderate_socialist = 10
+				revolutionary_socialist = 10
+				communist = 80
+			}
+
+			set_politics = {
+				ruling_party = communist
+			}
+
+			create_country_leader = {
+				name = "Carl Dix"
+				picture = "Portrait_NEA_Dix.dds"
+				ideology = maoist
+			}
+
+			load_focus_tree = generic_focus		
+
+			set_cosmetic_tag = NEA_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition				
+		}
+
+		NYS = {
+			transfer_state = 358
+
+			358 = {
+				add_core_of = NYS
+			}
+
+			set_cosmetic_tag = NYS_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		BSA = {
+			transfer_state = 357
+			transfer_state = 795
+
+			795 = {
+				add_core_of = BSA
+			}
+
+			357 = {
+				add_core_of = BSA
+			}
+
+			set_cosmetic_tag = BSA_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
+
+		NGE = {
+			transfer_state = 792
+			transfer_state = 794
+
+			792 = {
+				add_core_of = NGE
+			}
+
+			794 = {
+				add_core_of = NGE
+			}
+
+			set_cosmetic_tag = NGE_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition		
+		}
+
+		VER = {
+			transfer_state = 793
+			add_state_core = 793
+		
+			set_cosmetic_tag = VER_Anarchy
+
+			add_ideas = RWE_America_Shattered_Ambition	
+		}
     }
 }
 

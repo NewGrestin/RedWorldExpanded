@@ -1628,3 +1628,82 @@ LCN = {
 	color = { 104 104 104 }
 	color_ui = { 104 104 104 }
 }
+SPC = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+NVG = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+RSP = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+BSM = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+CHC = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+LOU = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+CSA = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+ATM = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+KKK = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+IND = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+APP = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+CLM = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+NYS = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+BSA = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+NGE = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+VER = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}

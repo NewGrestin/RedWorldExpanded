@@ -102,3 +102,158 @@ USA_CIVIL_WAR = {
 	color = rgb { 0 98 168 }
 	color_ui = rgb { 0 98 168 }
 }
+
+MOT_Northwest_United = {
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
+
+MOT_Purification = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+MOT_Free_Territory = {
+	color = rgb { 245 198 60 }
+	color_ui = rgb { 245 198 60 }
+}
+
+MOT_Free_American_Republic = {
+	color = rgb { 0 88 37 }
+	color_ui = rgb { 0 88 37 }
+}
+
+MOT_Purification_Unified = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+MOT_Anarchy = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+CSD_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+PCA_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+LIN_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+UTA_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+ARI_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+LAK_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+MWA_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+TEX_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+GRL_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+ILL_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+CHC_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+LOU_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+CSA_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+USA_Anarchy = {
+	color = rgb { 74 95 122 }
+	color_ui = rgb { 74 95 122 }
+}
+
+ATM_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+KKK_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+AMS_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+IND_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+APP_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+CLM_Anarchy = {
+	color = rgb { 103 78 82 }
+	color_ui = rgb { 103 78 82 }
+}
+
+NEA_Anarchy = {
+	color = rgb { 130 55 67 }
+	color_ui = rgb { 130 55 67 }
+}
+
+NYS_Anarchy = {
+	color = rgb { 103 78 82 }
+	color_ui = rgb { 103 78 82 }
+}
+
+BSA_Anarchy = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+NGE_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}
+
+VER_Anarchy = {
+	color = rgb { 95 101 95 }
+	color_ui = rgb { 95 101 95 }
+}

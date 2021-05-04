@@ -5,3 +5,17 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/russia_man_crying.dds"
 	}
 	
+	spriteType = {
+		name = "MOT_Militias"
+		texturefile = "gfx/event_pictures/report_event/MOT_Militias.dds"
+	}
+
+	spriteType = {
+		name = "MOT_Spencer_Yeeted"
+		texturefile = "gfx/event_pictures/report_event/MOT_Spencer_Yeeted.dds"
+	}
+
+	spriteType = {
+		name = "MOT_Militias2"
+		texturefile = "gfx/event_pictures/report_event/MOT_Militias2.dds"
+	}

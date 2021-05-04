@@ -56,3 +56,19 @@ spriteTypes = {
 		name = "GFX_idea_USA_One_Last_Gamble"
 		texturefile = "gfx/interface/ideas/USA_One_Last_Gamble.tga"			
 	}
+		name = "GFX_idea_RWE_MOT_Militia_Army"
+		texturefile = "gfx/interface/ideas/RWE_MOT_Militia_Army.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_MOT_Memories_of_the_Civil_War"
+		texturefile = "gfx/interface/ideas/RWE_MOT_Memories_of_the_Civil_War.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_MOT_Imperative_Heirs"
+		texturefile = "gfx/interface/ideas/RWE_MOT_Imperative_Heirs.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_America_Shattered_Ambition"
+		texturefile = "gfx/interface/ideas/RWE_America_Shattered_Ambition.tga"			
+	}
+}

@@ -1,0 +1,99 @@
+music = {
+	song = "SPEVENT_American_Reunification_Nationalists"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Democratic"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Sanders"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Klan"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Duke"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Monarchy"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Military"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Communist"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Communist_Foster"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Fundies"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}

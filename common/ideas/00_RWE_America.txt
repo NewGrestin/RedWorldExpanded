@@ -1,0 +1,34 @@
+##################
+# AMERICA IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_America_Shattered_Ambition = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_America_Shattered_Ambition
+			
+			removal_cost = -1
+	
+			modifier = {
+				war_support_weekly = -0.05
+				stability_factor = -0.5
+				industrial_capacity_factory = -0.5
+				production_speed_buildings_factor = -0.5
+				ai_focus_aggressive_factor = -1.0
+				ai_call_ally_desire_factor = -1.0
+			}
+		}
+	}
+}

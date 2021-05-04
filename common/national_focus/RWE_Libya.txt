@@ -211,11 +211,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -242,11 +244,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -269,11 +273,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -296,11 +302,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -327,11 +335,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -354,11 +364,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -381,11 +393,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -437,11 +451,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -464,11 +480,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 
@@ -495,11 +513,13 @@ focus_tree = {
 
 		available = {
 			LBA = {
-				has_war_with = GNS
-				has_war_with = FAL
-				has_war_with = ISL
-				has_war_with = RAL
-				has_war_with = ACS
+				OR = {
+					has_war_with = GNS
+					has_war_with = FAL
+					has_war_with = ISL
+					has_war_with = RAL
+					has_war_with = ACS
+				}
 			}
 		}
 

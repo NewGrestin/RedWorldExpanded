@@ -1,0 +1,73 @@
+# Super Events:
+
+music = {
+	name = "SPEVENT_American_Reunification_Nationalists"
+	file = "SPEVENT_American_Reunification_Nationalists.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Democratic"
+	file = "SPEVENT_American_Reunification_Democratic.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Sanders"
+	file = "SPEVENT_American_Reunification_Sanders.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Klan"
+	file = "SPEVENT_American_Reunification_Klan.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Duke"
+	file = "SPEVENT_American_Reunification_Duke.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_COC"
+	file = "SPEVENT_American_Reunification_COC.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Monarchy"
+	file = "SPEVENT_American_Reunification_Monarchy.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Military"
+	file = "SPEVENT_American_Reunification_Military.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Communist"
+	file = "SPEVENT_American_Reunification_Communist.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Communist_Foster"
+	file = "SPEVENT_American_Reunification_Communist_Foster.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_Fundies"
+	file = "SPEVENT_American_Reunification_Fundies.ogg"
+	volume = 0.95
+}
+
+music = {
+	name = "SPEVENT_American_Reunification_HRE"
+	file = "SPEVENT_American_Reunification_HRE.ogg"
+	volume = 0.95
+}

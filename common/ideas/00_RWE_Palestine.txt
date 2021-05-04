@@ -1,0 +1,29 @@
+##################
+# PALESTINE IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_LBA_Taureg_Support = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_morale_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				weekly_manpower = 100
+			}
+		}
+	}
+}
