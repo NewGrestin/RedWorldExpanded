@@ -439,3 +439,48 @@ spriteTypes = {
 		name = "GFX_goal_MOT_Garrison_Guns_and_Beer"
 		texturefile = "gfx/interface/goals/MOT_Garrison_Guns_and_Beer.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Cool_it_with_the_anti_semetic_remarks"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Cool_it_with_the_anti_semetic_remarks.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Militia_Arrest_Power"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Militia_Arrest_Power.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Introduce_Training_Standards"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Introduce_Training_Standards.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Cross_Border_Raids"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Cross_Border_Raids.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Printing_Money"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Printing_Money.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Militia_Confederacy"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Militia_Confederacy.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Dictatorship"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Dictatorship.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Outside_Contacts"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Outside_Contacts.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Garrison_Taxes"
+		texturefile = "gfx/interface/goals/MOT_Garrison_Taxes.dds"			
+	}

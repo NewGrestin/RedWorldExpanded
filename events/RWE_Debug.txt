@@ -17,11 +17,8 @@ country_event = { #Super Event Test
 		}
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = GLOBAL_American_Reunification_Republic_VISIBLE
-
-		hidden_effect = {
-			play_song = "SPEVENT_American_Reunification_Nationalists"
-		}
+		set_global_flag = Super_Event_Frame_Visible
+        set_global_flag = GLOBAL_American_Reunification_Red_Guards_VISIBLE
     }
 }
 
@@ -669,6 +666,6 @@ country_event = { #Super Event Test
 		}
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
+        set_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
     }
 }

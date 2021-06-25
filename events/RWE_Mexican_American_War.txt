@@ -1,0 +1,168 @@
+﻿add_namespace = AmMexWar
+
+country_event = { #American Victory
+	id = AmMexWar.1
+	title = AmMexWar.1.t
+	desc = AmMexWar.1.d
+	picture = recruitment_campaign
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = AmMexWar.1.a
+		ai_chance = {
+			factor = 100
+		}
+
+		white_peace = MEX
+
+		transfer_state = 376
+		transfer_state = 894
+
+		clr_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
+
+    }
+}
+
+country_event = { #Mexican Victory
+	id = AmMexWar.2
+	title = AmMexWar.2.t
+	desc = AmMexWar.2.d
+	picture = india_rss_sena_continued_violence
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = AmMexWar.2.a
+		ai_chance = {
+			factor = 100
+		}
+
+		white_peace = MEX
+
+		add_political_power = -200
+
+		376 = {
+			set_demilitarized_zone = yes
+		}
+
+		894 = {
+			set_demilitarized_zone = yes
+		}
+
+		375 = {
+			set_demilitarized_zone = yes
+		}
+
+		377 = {
+			set_demilitarized_zone = yes
+		}
+
+		899 = {
+			set_demilitarized_zone = yes
+		}
+
+		clr_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
+
+    }
+}
+
+country_event = { #Total American Victory
+	id = AmMexWar.3
+	title = AmMexWar.3.t
+	desc = AmMexWar.3.d
+	picture = india_rss_sena_continued_violence
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = AmMexWar.3.a
+		ai_chance = {
+			factor = 100
+		}
+
+		white_peace = MEX
+
+		transfer_state = 376
+		transfer_state = 894
+		transfer_state = 484
+
+		MEX = {
+			release = SON
+			release = RIO
+			release = YUC
+
+			start_civil_war = {
+				ruling_party = nationalist
+				ideology = national_conservative
+				size = 0.5
+				only_own_territory = yes
+				capital = 478
+				keep_political_leader = yes
+			}
+
+			set_cosmetic_tag = MEX_Emergency
+		}
+
+		add_political_power = 200
+
+		clr_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
+
+    }
+}
+
+country_event = { #Total Mexican Victory
+	id = AmMexWar.4
+	title = AmMexWar.4.t
+	desc = AmMexWar.4.d
+	picture = india_rss_sena_continued_violence
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = AmMexWar.4.a
+		ai_chance = {
+			factor = 100
+		}
+
+		white_peace = MEX
+
+		if = {
+			limit = {
+				TEX = {
+					exists = no
+				}
+			}
+			TEX = {
+				transfer_state = 375
+				transfer_state = 899
+
+				set_cosmetic_tag = MEX_TEX_Autonomy
+			}
+		}
+
+		if = {
+			limit = {
+				ARI = {
+					exists = no
+				}
+			}
+			ARI = {
+				transfer_state = 895
+				transfer_state = 377
+
+				set_cosmetic_tag = MEX_ARI_Autonomy
+			}
+		}
+
+		MEX = {
+			puppet = TEX
+			puppet = ARI
+		}
+
+		add_political_power = -200
+
+		clr_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
+
+    }
+}

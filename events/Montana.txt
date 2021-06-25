@@ -25,9 +25,9 @@ country_event = {		#Victory over the Spencerites
         tag = MOT
         OR = {
             NOT = {
-                country_exists = LIC
+                country_exists = LIN
             }
-            LIC = {
+            LIN = {
                 is_puppet_of = MOT
             }
         }
@@ -53,13 +53,13 @@ country_event = {		#Victory over the Spencerites
 
 		if = {
 			limit = {
-				LIC = {
+				LIN = {
 					is_puppet_of = MOT
 				}
 			}
 			MOT = {
 				annex_country = {
-					target = LIC
+					target = LIN
 					transfer_troops = yes
 				}
 			}

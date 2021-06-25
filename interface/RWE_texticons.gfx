@@ -1,0 +1,38 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_MOT_Money"
+		texturefile = "gfx/texticons/MOT_Money.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MOT_Money_Income"
+		texturefile = "gfx/texticons/MOT_Money_Income.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MOT_Bullets"
+		texturefile = "gfx/texticons/MOT_Bullets.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MOT_Beaker"
+		texturefile = "gfx/texticons/MOT_Beaker.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MOT_House"
+		texturefile = "gfx/texticons/MOT_House.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MOT_Open_Box"
+		texturefile = "gfx/texticons/MOT_Open_Box.dds"
+		legacy_lazy_load = no
+	}
+}

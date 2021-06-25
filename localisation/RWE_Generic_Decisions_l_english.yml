@@ -1,0 +1,45 @@
+﻿l_english:
+
+RWE_Disunifier:0 "Dividing the House"
+RWE_Disunifier_desc:0 "\n\n\n\n\n\nThe Great Collapse shattered the United States into a chaotic mess. As our government has no interest in restoring the former Union, we must decide what to do with the land we currently occupy, if anything."
+
+PB_Unify_American_Puppets:0 "Unify the American Protectorates"
+RWE_American_Disunification_New_England:0 "[AMC.GetFlag] The Fate of New England"
+RWE_American_Disunification_Commonwealth:0 "[NEA.GetFlag] The Fate of Northeast America"
+RWE_American_Disunification_Illinois:0 "[ILL.GetFlag] The Fate of Illinois"
+RWE_American_Disunification_Republic:0 "[USA.GetFlag] The Fate of the Southern Remnants"
+RWE_American_Disunification_Great_Lakes:0 "[GRL.GetFlag] The Fate of the Great Lakes"
+RWE_American_Disunification_Midwest:0 "[MWA.GetFlag] The Fate of the Midwest"
+RWE_American_Disunification_Texas:0 "[TEX.GetFlag] The Fate of Texas"
+RWE_American_Disunification_Utah:0 "[UTA.GetFlag] The Fate of Utah"
+RWE_American_Disunification_Montana:0 "[MOT.GetFlag] The Fate of the Montana Free State"
+RWE_American_Disunification_Lincoln:0 "[LIN.GetFlag] The Fate of the Lincolnites"
+RWE_American_Disunification_Cascadia:0 "[CSD.GetFlag] The Fate of Cascadia"
+RWE_American_Disunification_California:0 "[PCA.GetFlag] The Fate of the West Coast"
+RWE_American_Disunification_Arizona:0 "[ARI.GetFlag] The Fate of Arizona"
+RWE_American_Disunification_New_Mexico:0 "The Fate of the New Mexico Strip"
+RWE_American_Disunification_Washington_DC:0 "The Fate of Washington DC"
+
+generic_america.1.t:0 "The Fate of Occupied New Mexico"
+generic_america.1.d:0 "With us gaining control of the Mexican controlled territories in former American New Mexico, we need to decide what to do with the land."
+generic_america.1.a:0 "Grant the Land to our Texan Protectorate"
+generic_america.1.b:0 "Grant the Land to our American Protectorate"
+
+generic_america.2.t:0 "The Fate of Washington DC"
+generic_america.2.d:0 "With us gaining control of the former American Capital, we need to decide what to do with the land."
+generic_america.2.a:0 "Grant the land to our Southern Protectorate"
+generic_america.2.b:0 "Grant the land to our Northeast Protectorate"
+generic_america.2.c:0 "Grant the land to our American Protectorate"
+
+RWE_2nd_Mexican_American_War:0 "The Second Mexican-American War"
+RWE_2nd_Mexican_American_War_desc:0 "\n\n\n\n\n\n\nDiplomacy between a reunified America and the United Mexican States has failed. Seeing no other option to reclaim their core territories, American troops have begun to march South to reclaim New Mexico and Southern Texas. America must regain control of these integral territories, or face the humiliation of a Mexican enforced negotiated peace deal.\n\n§YAmerican Victory requires the full occupation of New Mexico and Mexican Texas until a formal peace treaty can be signed.§!\n\n§YMexican Victory requires holding off the Americans and preventing full occupation of these states until a formal peace treaty is signed.§!\n"
+
+RWE_Mex_America_War_White_Peace_Timeout:0 "The Second Treaty of Guadalupe Hidalgo"
+
+AmMexWar.1.t:0 "American Victory"
+AmMexWar.1.d:0 ""
+AmMexWar.1.a:0 "And don't even think about coming back!"
+
+AmMexWar.2.t:0 "Mexican Victory"
+AmMexWar.2.d:0 ""
+AmMexWar.2.a:0 "What's one more humiliation?"

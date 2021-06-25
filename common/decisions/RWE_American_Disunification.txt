@@ -1,0 +1,1450 @@
+RWE_Disunifier = {
+
+	PB_Unify_American_Puppets = {
+
+		icon = generic_decision
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+				}
+			}
+			AND = {
+				USA = {
+					is_subject_of = ROOT
+				}
+				NEA = {
+					is_subject_of = ROOT
+				}
+				PCA = {
+					is_subject_of = ROOT
+				}
+				GRL = {
+					is_subject_of = ROOT
+				}
+				ILL = {
+					is_subject_of = ROOT
+				}
+				ARI = {
+					is_subject_of = ROOT
+				}
+				TEX = {
+					is_subject_of = ROOT
+				}
+				MOT = {
+					is_subject_of = ROOT
+				}
+				UTA = {
+					is_subject_of = ROOT
+				}
+				CSD = {
+					is_subject_of = ROOT
+				}
+				LIN = {
+					is_subject_of = ROOT
+				}
+			}	
+		}
+
+		available = {
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+				}
+			}
+			AND = {
+				USA = {
+					is_subject_of = ROOT
+				}
+				NEA = {
+					is_subject_of = ROOT
+				}
+				PCA = {
+					is_subject_of = ROOT
+				}
+				GRL = {
+					is_subject_of = ROOT
+				}
+				ILL = {
+					is_subject_of = ROOT
+				}
+				ARI = {
+					is_subject_of = ROOT
+				}
+				TEX = {
+					is_subject_of = ROOT
+				}
+				MOT = {
+					is_subject_of = ROOT
+				}
+				UTA = {
+					is_subject_of = ROOT
+				}
+				CSD = {
+					is_subject_of = ROOT
+				}
+				LIN = {
+					is_subject_of = ROOT
+				}
+			}	
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+			USA = {
+				load_focus_tree = generic_focus
+				annex_country = {
+					target = MWA
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = NEA
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = PCA
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = GRL
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ILL
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ARI
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = TEX
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = MOT
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = UTA
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = CSD
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = LIN
+					transfer_troops = yes
+				}
+				set_country_flag = USA_Forced_Unification_Foreign
+			}
+
+			if = {
+				limit = {
+					AMC = {
+						is_subject_of = ROOT
+					}
+				}
+				annex_country = {
+					target = AMC
+					transfer_troops = yes
+				}
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = NEA
+						is_core_of = PCA
+						is_core_of = GRL
+						is_core_of = ILL
+						is_core_of = TEX
+						is_core_of = MWA
+						is_core_of = MOT
+						is_core_of = LIN
+						is_core_of = UTA
+						is_core_of = ARI
+						is_core_of = CSD
+						is_core_of = AMC
+					}
+				}
+			}
+
+			USA = {
+				add_state_core = PREV
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_New_England = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 793
+			NOT = {
+				OR = {
+					original_tag = AMC
+					original_tag = NEA
+					original_tag = NGE
+				}
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 793
+				NOT = {
+					OR = {
+						original_tag = AMC
+						original_tag = NEA
+						original_tag = NGE
+					}
+				}
+			}   
+			AMC = {
+				exists = no
+				has_country_flag = treaty_of_columbus
+			}           
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 793
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			AMC = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 792
+				transfer_state = 794
+				transfer_state = 793
+				transfer_state = 357
+				transfer_state = 795
+			}
+
+			ROOT = {
+				puppet = AMC
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			AMC = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 792
+				transfer_state = 794
+				transfer_state = 793
+				transfer_state = 357
+				transfer_state = 795
+			}
+
+			ROOT = {
+				puppet = AMC
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Commonwealth = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 360
+			NOT = {
+				OR = {
+					original_tag = AMC
+					original_tag = AMS
+					original_tag = NEA
+				}
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 360
+				NOT = {
+					OR = {
+						original_tag = AMC
+						original_tag = AMS
+						original_tag = NEA
+					}
+				}
+			}   
+			NEA = {
+				exists = no
+			}   
+			AMS = {
+				exists = no
+			}   
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 360
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			NEA = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 358
+				transfer_state = 360
+				transfer_state = 359
+				transfer_state = 361
+				transfer_state = 902
+				transfer_state = 893
+				transfer_state = 261
+				transfer_state = 393
+				transfer_state = 396
+				transfer_state = 395
+			}
+
+			if = {
+				limit ={
+					AMC = {
+						exists = no
+						NOT = {
+							has_country_flag = treaty_of_columbus
+						}
+					}
+				}
+				NEA = {
+					transfer_state = 792
+					transfer_state = 794
+					transfer_state = 793
+					transfer_state = 357
+					transfer_state = 795					
+				}
+			}
+
+			ROOT = {
+				puppet = NEA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			NEA = {
+				load_focus_tree = generic_focus
+
+				remove_ideas = idea_standing_firm_commonwealth
+
+				transfer_state = 358
+				transfer_state = 360
+				transfer_state = 359
+				transfer_state = 361
+				transfer_state = 902
+				transfer_state = 893
+				transfer_state = 261
+				transfer_state = 393
+				transfer_state = 396
+				transfer_state = 395
+			}
+
+			if = {
+				limit ={
+					AMC = {
+						exists = no
+						NOT = {
+							has_country_flag = treaty_of_columbus
+						}
+					}
+				}
+				NEA = {
+					transfer_state = 792
+					transfer_state = 794
+					transfer_state = 793
+					transfer_state = 357
+					transfer_state = 795					
+				}
+			}
+
+			ROOT = {
+				puppet = NEA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Illinois = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 373
+			NOT = {
+				original_tag = ILL
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 373
+				NOT = {
+					original_tag = ILL
+				}
+				ILL = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 373
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			ILL = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 373
+				transfer_state = 892
+			}
+
+			ROOT = {
+				puppet = ILL
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			ILL = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 373
+				transfer_state = 892
+			}
+
+			ROOT = {
+				puppet = ILL
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Republic = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 365
+			NOT = {
+				original_tag = USA
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 365
+				NOT = {
+					original_tag = USA
+				}
+				USA = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 365
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			USA = {
+				load_focus_tree = generic_focus
+
+				remove_ideas = idea_standing_firm_remnants
+
+				transfer_state = 362
+				transfer_state = 363
+				transfer_state = 364
+				transfer_state = 368
+				transfer_state = 369
+				transfer_state = 374
+				transfer_state = 365
+				transfer_state = 367
+				transfer_state = 366
+				transfer_state = 370
+				transfer_state = 372
+				transfer_state = 900
+				transfer_state = 371
+			}
+
+			ROOT = {
+				puppet = USA
+			}
+
+			if = {
+				limit = {
+					has_country_flag = USA_Forced_Unification_Foreign
+				}
+				clr_country_flag = USA_Forced_Unification_Foreign
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			USA = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 362
+				transfer_state = 363
+				transfer_state = 364
+				transfer_state = 368
+				transfer_state = 369
+				transfer_state = 374
+				transfer_state = 365
+				transfer_state = 367
+				transfer_state = 366
+				transfer_state = 370
+				transfer_state = 372
+				transfer_state = 900
+				transfer_state = 371
+			}
+
+			ROOT = {
+				puppet = USA
+			}
+
+			if = {
+				limit = {
+					has_country_flag = USA_Forced_Unification_Foreign
+				}
+				clr_country_flag = USA_Forced_Unification_Foreign
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Great_Lakes= {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 394
+			NOT = {
+				original_tag = GRL
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 394
+				NOT = {
+					original_tag = GRL
+				}
+				GRL = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 394
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			GRL = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 394
+				transfer_state = 891
+				transfer_state = 391
+				transfer_state = 392
+			}
+
+			ROOT = {
+				puppet = GRL
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			GRL = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 394
+				transfer_state = 891
+				transfer_state = 391
+				transfer_state = 392
+			}
+
+			ROOT = {
+				puppet = GRL
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Midwest = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 382
+			NOT = {
+				original_tag = MWA
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 382
+				NOT = {
+					original_tag = MWA
+				}
+				MWA = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 382
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			MWA = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 383
+				transfer_state = 382
+				transfer_state = 384
+				transfer_state = 390
+				transfer_state = 898
+			}
+
+			ROOT = {
+				puppet = MWA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			MWA = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 383
+				transfer_state = 382
+				transfer_state = 384
+				transfer_state = 390
+				transfer_state = 898
+			}
+
+			ROOT = {
+				puppet = MWA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+	
+	RWE_American_Disunification_Texas = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 375
+			NOT = {
+				original_tag = TEX
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 375
+				NOT = {
+					original_tag = TEX
+				}
+				TEX = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 375
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			TEX = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 375
+				transfer_state = 899
+			}
+
+			ROOT = {
+				puppet = TEX
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			TEX = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 375
+				transfer_state = 899
+			}
+
+			ROOT = {
+				puppet = TEX
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Utah = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 380
+			NOT = {
+				original_tag = UTA
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 380
+				NOT = {
+					original_tag = UTA
+				}
+				UTA = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 380
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			UTA = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 380
+				transfer_state = 896
+				transfer_state = 379
+			}
+
+			ROOT = {
+				puppet = UTA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			UTA = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 380
+				transfer_state = 896
+				transfer_state = 379
+			}
+
+			ROOT = {
+				puppet = UTA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Montana = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 388
+			NOT = {
+				original_tag = MOT
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 388
+				NOT = {
+					original_tag = MOT
+				}
+				MOT = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 388
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			MOT = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 388
+				transfer_state = 389
+				transfer_state = 1018
+				transfer_state = 1016
+				transfer_state = 1017
+				transfer_state = 381
+			}
+
+			ROOT = {
+				puppet = MOT
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			MOT = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 388
+				transfer_state = 389
+				transfer_state = 1018
+				transfer_state = 1016
+				transfer_state = 1017
+				transfer_state = 381
+			}
+
+			ROOT = {
+				puppet = MOT
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Lincoln = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 890
+			NOT = {
+				original_tag = LIN
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 890
+				NOT = {
+					original_tag = LIN
+				}
+				LIN = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 890
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			LIN = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 890
+				transfer_state = 387
+			}
+
+			ROOT = {
+				puppet = LIN
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			LIN = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 890
+				transfer_state = 387
+			}
+
+			ROOT = {
+				puppet = LIN
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Cascadia = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 386
+			NOT = {
+				original_tag = CSD
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 386
+				NOT = {
+					original_tag = CSD
+				}
+				CSD = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 386
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			CSD = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 386
+				transfer_state = 970
+				transfer_state = 971
+				transfer_state = 385
+			}
+
+			ROOT = {
+				puppet = CSD
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			CSD = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 386
+				transfer_state = 970
+				transfer_state = 971
+				transfer_state = 385
+			}
+
+			ROOT = {
+				puppet = CSD
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_Arizona = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 377
+			NOT = {
+				original_tag = ARI
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 377
+				NOT = {
+					original_tag = ARI
+				}
+				ARI = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 377
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			ARI = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 377
+				transfer_state = 895
+			}
+
+			ROOT = {
+				puppet = ARI
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			ARI = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 377
+				transfer_state = 895
+			}
+
+			ROOT = {
+				puppet = ARI
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_California = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 378
+			NOT = {
+				original_tag = PCA
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 378
+				NOT = {
+					original_tag = PCA
+				}
+				PCA = {
+					exists = no
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 378
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			PCA = {
+				load_focus_tree = generic_focus
+
+				remove_ideas = idea_standing_firm_union
+
+				transfer_state = 1015
+				transfer_state = 378
+				transfer_state = 897
+				transfer_state = 889
+			}
+
+			ROOT = {
+				puppet = PCA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+
+		timeout_effect = {
+			PCA = {
+				load_focus_tree = generic_focus
+
+				transfer_state = 1015
+				transfer_state = 378
+				transfer_state = 897
+				transfer_state = 889
+			}
+
+			ROOT = {
+				puppet = PCA
+			}
+
+			RWE_Generic_Apply_Overlord_Cosmetic = yes
+		}
+	}
+
+	RWE_American_Disunification_New_Mexico = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 376
+			NOT = {
+				original_tag = MEX
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 376
+				NOT = {
+					original_tag = MEX
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 376
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			country_event = {
+				id = generic_america.1
+			}
+		}
+
+		timeout_effect = {
+			country_event = {
+				id = generic_america.1
+			}
+		}
+	}
+
+	RWE_American_Disunification_Washington_DC = {
+		icon = generic_operation
+
+		available = {    
+			owns_state = 901
+			NOT = {
+				original_tag = USA
+			}
+        }
+
+		activation = {                         
+			ROOT = {
+				OR = {
+					is_not_American_tag = yes
+					is_non_unifier = yes
+				}
+				owns_state = 901
+				NOT = {
+					original_tag = USA
+				}
+			}    
+		}
+
+		cancel_trigger = {
+			NOT = {
+				owns_state = 901
+			}
+		}
+
+		is_good = yes
+
+		selectable_mission = yes
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 7
+
+		complete_effect = {
+			country_event = {
+				id = generic_america.2
+			}
+		}
+
+		timeout_effect = {
+			country_event = {
+				id = generic_america.2
+			}
+		}
+	}
+}

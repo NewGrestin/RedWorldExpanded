@@ -1,0 +1,566 @@
+MOT_Raids_and_Illegal_Shit = {
+
+	MOT_Monthly_Income = {
+		icon = generic_operation
+
+		available = {
+			MOT = {
+				has_capitulated = yes
+			}
+		}
+
+		activation = {
+			NOT = {
+				MOT = {
+					has_capitulated = yes
+				}
+			}
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				MOT = {
+					has_capitulated = yes
+				}
+			}
+		}
+
+		is_good = yes
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 30
+
+		timeout_effect = {
+			custom_effect_tooltip = RWE_Monthly_Finance_Increase
+
+			RWE_MOT_Check_Passive_Income = yes
+
+			hidden_effect = {
+				add_to_variable = {
+					var = Spendable_Money
+					value = Monthly_Income
+				}
+
+				activate_mission = MOT_Monthly_Income			
+			}
+		}
+	}
+
+	MOT_Build_Drug_Lab = {
+
+		icon = generic_research
+
+		custom_cost_trigger = { 
+			check_variable = { Spendable_Money > 1 }
+		}
+		custom_cost_text = decision_cost_2_money
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			MOT = {
+				check_variable = { Spendable_Money > 1 }
+			}  
+			MOT = {
+				check_variable = { Drug_Labs < 3 }
+			}  
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 14
+		days_re_enable = 60
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Drug_Lab_Increase
+
+			add_offsite_building = { type = industrial_complex level = 1 }
+
+			add_to_variable = {
+				var = Drug_Labs
+				value = 1
+			}
+		}
+	}
+
+	MOT_Build_Moonshinery = {
+
+		icon = generic_research
+
+		custom_cost_trigger = { 
+			check_variable = { Spendable_Money > 1 }
+		}
+		custom_cost_text = decision_cost_2_money
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			MOT = {
+				check_variable = { Spendable_Money > 1 }
+			}  
+			MOT = {
+				check_variable = { Moonshineries < 3 }
+			}  
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 14
+		days_re_enable = 60
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Moonshinery_Increase
+
+			add_offsite_building = { type = industrial_complex level = 1 }
+
+			add_to_variable = {
+				var = Moonshineries
+				value = 1
+			}
+		}
+	}
+
+	MOT_Industrial_Investments = {
+
+		icon = generic_construction
+
+		custom_cost_trigger = { 
+			check_variable = { Spendable_Money > 4 }
+		}
+		custom_cost_text = decision_cost_5_money
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			MOT = {
+				check_variable = { Spendable_Money = 5 }
+			}  
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 30
+		days_re_enable = 60
+
+		remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	MOT_Military_Industrial_Investments = {
+
+		icon = generic_construction
+
+		custom_cost_trigger = { 
+			check_variable = { Spendable_Money > 4 }
+		}
+		custom_cost_text = decision_cost_5_money
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			MOT = {
+				check_variable = { Spendable_Money = 5 }
+			}  
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 30
+		days_re_enable = 60
+
+		remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	MOT_Prepare_Weapons_Shipment = {
+
+		icon = ger_military_buildup
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			MOT = {
+				check_variable = { Spendable_Money > 1 }
+				has_equipment = {
+					infantry_equipment_0 > 5000
+				}
+			}  
+		}
+
+		days_remove = 14
+		days_re_enable = 30
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Prepare_Weapons_Shipment
+			set_country_flag = RWE_MOT_Weapons_Shipment_Prepared
+
+			add_to_variable = {
+				var = Weapons_Shipments_Available
+				value = 1
+			}
+		}
+	}
+
+	MOT_shipment_UAPR_Cascadia = {
+
+		icon = ger_military_buildup
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			PCA = {
+				has_war_with = CSD
+			}
+			custom_trigger_tooltip = {
+				tooltip = RWE_MOT_Weapons_Shipment_Prepared_tt
+				MOT = {
+					check_variable = { Weapons_Shipments_Available > 0 }
+				}  
+			} 
+		}
+
+		days_remove = 14
+		days_re_enable = 30
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Base_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 3
+					value = Spendable_Money
+				}	
+			}
+
+			hidden_effect = {
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = PCA
+				}
+
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = CSD
+				}
+			}
+
+			add_to_variable = {
+				var = Weapons_Shipments_Available
+				value = -1
+			}
+		}
+	}
+
+	MOT_shipment_Libya = {
+
+		icon = ger_military_buildup
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			LBA = {
+				has_war_with = GNS
+				has_war_with = FAL
+				has_war_with = ISL
+				has_war_with = RAL
+				has_war_with = ACS
+			}
+			custom_trigger_tooltip = {
+				tooltip = RWE_MOT_Weapons_Shipment_Prepared_tt
+				MOT = {
+					check_variable = { Weapons_Shipments_Available > 0 }
+				}  
+			} 
+		}
+
+		days_remove = 14
+		days_re_enable = 30
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Base_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 3
+					value = Spendable_Money
+				}	
+			}
+
+			hidden_effect = {
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = LBA
+				}
+
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = GNS
+				}
+
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = ISL
+				}
+
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = RAL
+				}
+
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = ACS
+				}
+			}
+
+			add_to_variable = {
+				var = Weapons_Shipments_Available
+				value = -1
+			}
+		}
+	}
+
+	MOT_shipment_UAR = {
+
+		icon = ger_military_buildup
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			UAR = {
+				has_war_with = SYR
+			}
+			custom_trigger_tooltip = {
+				tooltip = RWE_MOT_Weapons_Shipment_Prepared_tt
+				MOT = {
+					check_variable = { Weapons_Shipments_Available > 0 }
+				}  
+			} 
+		}
+
+		days_remove = 14
+		days_re_enable = 30
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Base_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 3
+					value = Spendable_Money
+				}	
+			}
+
+			hidden_effect = {
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = UAR
+				}
+
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = SYR
+				}
+			}
+
+			add_to_variable = {
+				var = Weapons_Shipments_Available
+				value = -1
+			}
+		}
+	}
+
+	MOT_shipment_Burma = {
+
+		icon = ger_military_buildup
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			MYR = {
+				has_civil_war = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = RWE_MOT_Weapons_Shipment_Prepared_tt
+				MOT = {
+					check_variable = { Weapons_Shipments_Available > 0 }
+				}  
+			} 
+		}
+
+		days_remove = 14
+		days_re_enable = 30
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Base_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 3
+					value = Spendable_Money
+				}	
+			}
+
+			hidden_effect = {
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = MYR
+				}
+			}
+
+			add_to_variable = {
+				var = Weapons_Shipments_Available
+				value = -1
+			}
+		}
+	}
+
+	MOT_shipment_India = {
+
+		icon = ger_military_buildup
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			RAJ = {
+				has_war = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = RWE_MOT_Weapons_Shipment_Prepared_tt
+				MOT = {
+					check_variable = { Weapons_Shipments_Available > 0 }
+				}  
+			} 
+		}
+
+		days_remove = 14
+		days_re_enable = 30
+
+		remove_effect = {
+			custom_effect_tooltip = RWE_Base_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 3
+					value = Spendable_Money
+				}	
+			}
+
+			hidden_effect = {
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 5000
+					target = RAJ
+				}
+			}
+
+			add_to_variable = {
+				var = Weapons_Shipments_Available
+				value = -1
+			}
+		}
+	}
+}

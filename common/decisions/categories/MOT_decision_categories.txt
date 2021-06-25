@@ -1,0 +1,12 @@
+MOT_Raids_and_Illegal_Shit = {
+    icon = generic_independence
+
+	picture = GFX_decision_cat_MOT_Illegal_Shit
+
+	allowed = { 
+		original_tag = MOT
+	}
+
+	priority = 250
+}
+

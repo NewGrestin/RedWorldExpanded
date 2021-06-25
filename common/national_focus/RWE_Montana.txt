@@ -840,6 +840,17 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = RWE_MOT_Corruption
+
+			custom_effect_tooltip = RWE_Black_Market_Unlocked_TT
+
+			custom_effect_tooltip = RWE_Monthly_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 1
+					value = Monthly_Income
+				}	
+			}
 		}
 	}
 
@@ -919,9 +930,15 @@ focus_tree = {
 
 		prerequisite = {
 			focus = MOT_Garrison_Purge
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Corruption
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Expand_Militias
-		}		
+		}			
 
 		bypass = { 
 		}
@@ -952,7 +969,13 @@ focus_tree = {
 
 		prerequisite = {
 			focus = MOT_Garrison_Purge
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Corruption
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Expand_Militias
 		}		
 
@@ -985,7 +1008,13 @@ focus_tree = {
 
 		prerequisite = {
 			focus = MOT_Garrison_Purge
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Corruption
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Expand_Militias
 		}		
 
@@ -1036,9 +1065,15 @@ focus_tree = {
 
 		prerequisite = {
 			focus = MOT_Garrison_Purge
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Corruption
+		}	
+
+		prerequisite = {
 			focus = MOT_Garrison_Expand_Militias
-		}		
+		}	
 
 		bypass = { 
 		}
@@ -1163,6 +1198,10 @@ focus_tree = {
 
 
 		completion_reward = {
+			custom_effect_tooltip = RWE_Drug_Lab_Increase
+
+			custom_effect_tooltip = RWE_Moonshinery_Increase
+
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = 5000
@@ -1201,7 +1240,7 @@ focus_tree = {
 
 	focus = {
 		id = MOT_Garrison_Cool_it_with_the_anti_semetic_remarks
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Cool_it_with_the_anti_semetic_remarks
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1233,7 +1272,7 @@ focus_tree = {
 
 	focus = {
 		id = MOT_Garrison_Militia_Arrest_Power
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Militia_Arrest_Power
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1265,7 +1304,7 @@ focus_tree = {
 
 	focus = {
 		id = MOT_Garrison_Introduce_Training_Standards
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Introduce_Training_Standards
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1292,12 +1331,21 @@ focus_tree = {
 				remove_idea = RWE_MOT_Centralization
 				add_idea = RWE_MOT_Centralization1
 			}
+
+			custom_effect_tooltip = RWE_Monthly_Income_Decrease
+
+			hidden_effect = {
+				add_to_variable = {
+					var = -1
+					value = Monthly_Income
+				}	
+			}
 		}
 	}
 
 	focus = {
 		id = MOT_Garrison_Cross_Border_Raids
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Cross_Border_Raids
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1321,13 +1369,13 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			custom_effect_tooltip = RWE_Border_Raids_Unlocked_TT
 		}
 	}
 
 	focus = {
 		id = MOT_Garrison_Printing_Money
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Printing_Money
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1351,6 +1399,15 @@ focus_tree = {
 
 
 		completion_reward = {
+			custom_effect_tooltip = RWE_Monthly_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 1
+					value = Monthly_Income
+				}	
+			}
+
 			add_stability = 0.1
 
 			country_event = {
@@ -1361,7 +1418,7 @@ focus_tree = {
 
 	focus = {
 		id = MOT_Garrison_Militia_Confederacy
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Militia_Confederacy
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1391,12 +1448,14 @@ focus_tree = {
 		completion_reward = {
 			drop_cosmetic_tag = yes
 			set_cosmetic_tag = MOT_Confederacy
+
+			custom_effect_tooltip = RWE_Black_Market_Locked_TT
 		}
 	}
 
 	focus = {
 		id = MOT_Garrison_Dictatorship
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Dictatorship
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1438,13 +1497,21 @@ focus_tree = {
 						id = montana.33
 					}
 				}
+
+				else = {
+					create_country_leader = {
+						name = "Ben Garrison"
+						picture = "Portrait_MOT_Ben_Garrison2.dds"
+						ideology = nationalist_ideology
+					}
+				}
 			}
 		}
 	}
 
 	focus = {
 		id = MOT_Garrison_Outside_Contacts
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Outside_Contacts
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1467,13 +1534,13 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			custom_effect_tooltip = RWE_Gun_Sales_Unlocked_TT
 		}
 	}
 
 	focus = {
 		id = MOT_Garrison_Taxes
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_MOT_Garrison_Taxes
 		available = { 
 			has_country_leader = {
 				name = "Ben Garrison"
@@ -1497,5 +1564,22 @@ focus_tree = {
 
 
 		completion_reward = {
+			custom_effect_tooltip = RWE_Monthly_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 1
+					value = Monthly_Income
+				}	
+			}
+
+			custom_effect_tooltip = RWE_Base_Income_Increase
+
+			hidden_effect = {
+				add_to_variable = {
+					var = 3
+					value = Spendable_Money
+				}	
+			}
 		}
 	}

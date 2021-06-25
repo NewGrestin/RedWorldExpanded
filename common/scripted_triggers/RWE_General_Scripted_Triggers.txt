@@ -43,3 +43,69 @@ is_in_australia = {
 		is_on_continent = australia
 	}
 }
+
+is_not_American_tag = {
+	hidden_trigger = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = NEA
+				original_tag = AMC
+				original_tag = AMS
+				original_tag = MWA
+				original_tag = TEX
+				original_tag = MOT
+				original_tag = CSD
+				original_tag = PCA
+				original_tag = UTA
+				original_tag = ARI
+				original_tag = LIN
+				original_tag = ALA
+				original_tag = LCN
+				original_tag = SPC
+				original_tag = NVG
+				original_tag = RSP
+				original_tag = BSM
+				original_tag = CHC
+				original_tag = LOU
+				original_tag = CSA
+				original_tag = ATM
+				original_tag = KKK
+				original_tag = IND
+				original_tag = APP
+				original_tag = CLM
+				original_tag = NYS
+				original_tag = BSA
+				original_tag = NGE
+				original_tag = VER
+				original_tag = LAK
+			}
+		}
+	}
+}
+
+is_non_unifier = {
+	hidden_trigger = {
+		OR = {
+			has_completed_focus = USA_i_wish_i_was_in_dixie
+			has_completed_focus = NEA_philadelphia_constitution
+			has_completed_focus = PCA_humiliating_defeat
+			original_tag = AMS
+			original_tag = CSD
+			original_tag = ALA
+			original_tag = HAW
+			original_tag = LAK
+			has_idea = idea_america_neutrality_statelet
+			has_idea = RWE_America_Shattered_Ambition
+			has_country_flag = treaty_of_columbus
+			has_country_leader = {
+				name = "Harold Covington"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Ben Garrison"
+				ruling_only = yes
+			}
+		}
+	}
+}

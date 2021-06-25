@@ -1,0 +1,1126 @@
+RWE_MOT_Check_Passive_Income = {
+	hidden_effect = {
+		if = {
+			limit = {
+				check_variable = { Drug_Labs = 1 }
+			}
+			add_to_variable = {
+				var = MOT_Drug_Lab_Passive_Income_Tick
+				value = 1
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { Drug_Labs = 2 }
+			}
+			add_to_variable = {
+				var = MOT_Drug_Lab_Passive_Income_Tick
+				value = 2
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { Drug_Labs = 3 }
+			}
+			add_to_variable = {
+				var = MOT_Drug_Lab_Passive_Income_Tick
+				value = 3
+			}
+		}
+
+		add_to_variable = {
+			var = Spendable_Money
+			value = MOT_Drug_Lab_Passive_Income_Tick
+		}	
+
+		set_variable = { var = MOT_Drug_Lab_Passive_Income_Tick value = 0 }
+
+		if = {
+			limit = {
+				check_variable = { Moonshineries = 1 }
+			}
+			add_to_variable = {
+				var = MOT_Moonshineries_Income_Tick
+				value = 1
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { Moonshineries = 2 }
+			}
+			add_to_variable = {
+				var = MOT_Moonshineries_Income_Tick
+				value = 2
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { Moonshineries = 3 }
+			}
+			add_to_variable = {
+				var = MOT_Moonshineries_Income_Tick
+				value = 3
+			}
+		}
+
+		add_to_variable = {
+			var = Spendable_Money
+			value = MOT_Moonshineries_Income_Tick
+		}	
+
+		set_variable = { var = MOT_Moonshineries_Income_Tick value = 0 }
+	}
+}
+
+RWE_Generic_Apply_Overlord_Cosmetic = {
+	hidden_effect = {
+		if = {
+			limit = {
+				AMC = {
+					is_subject_of = CAN
+					has_country_flag = treaty_of_columbus
+				}
+			}
+			AMC = {
+				set_cosmetic_tag = AMC_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Occupied New England" 
+					name = "DLAOEN" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Rick J. Hillier"
+					picture = "AMC_CAN_Hillier.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				NEA = {
+					is_subject_of = CAN
+				}
+			}
+			NEA = {
+				set_cosmetic_tag = NEA_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Occupied Northeast America" 
+					name = "DLAONA" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "NEA_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				ILL = {
+					is_subject_of = CAN
+				}
+			}
+			ILL = {
+				set_cosmetic_tag = ILL_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Occupied Illinois" 
+					name = "DLAOI" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "ILL_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				USA = {
+					is_subject_of = CAN
+				}
+			}
+			USA = {
+				set_cosmetic_tag = USA_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of the Occupied South" 
+					name = "DLAOS" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "USA_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				GRL = {
+					is_subject_of = CAN
+				}
+			}
+			GRL = {
+				set_cosmetic_tag = GRL_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of the Occupied Great Lakes" 
+					name = "DLAOGL" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "GRL_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				MWA = {
+					is_subject_of = CAN
+				}
+			}
+			MWA = {
+				set_cosmetic_tag = MWA_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of the Midwest States" 
+					name = "DLAMS" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "MWA_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				TEX = {
+					is_subject_of = CAN
+				}
+			}
+			TEX = {
+				set_cosmetic_tag = TEX_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Texas" 
+					name = "DLAT" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "TEX_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				UTA = {
+					is_subject_of = CAN
+				}
+			}
+			UTA = {
+				set_cosmetic_tag = UTA_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Utah" 
+					name = "DLAU" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "UTA_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				MOT = {
+					is_subject_of = CAN
+				}
+			}
+			MOT = {
+				set_cosmetic_tag = MOT_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Montana" 
+					name = "DLAM" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "MOT_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				LIN = {
+					is_subject_of = CAN
+				}
+			}
+			LIN = {
+				set_cosmetic_tag = LIN_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Idaho" 
+					name = "DLAI" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "LIN_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+	
+		if = {
+			limit = {
+				CSD = {
+					is_subject_of = CAN
+				}
+			}
+			CSD = {
+				set_cosmetic_tag = CSD_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Cascadia" 
+					name = "DLAC" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "CSD_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				PCA = {
+					is_subject_of = CAN
+				}
+			}
+			PCA = {
+				set_cosmetic_tag = PCA_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of California" 
+					name = "DLAC" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "PCA_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				ARI = {
+					is_subject_of = CAN
+				}
+			}
+			ARI = {
+				set_cosmetic_tag = ARI_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Democratic League Administration of Arizona" 
+					name = "DLAA" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "ARI_Canadian_Occupation.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				AMC = {
+					is_subject_of = SOV
+					has_country_flag = treaty_of_columbus
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			AMC = {
+				set_cosmetic_tag = AMC_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "AMC_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				NEA = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			NEA = {
+				set_cosmetic_tag = NEA_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "NEA_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+		if = {
+			limit = {
+				ILL = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			ILL = {
+				set_cosmetic_tag = ILL_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "ILL_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				USA = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			USA = {
+				set_cosmetic_tag = USA_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "USA_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				GRL = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			GRL = {
+				set_cosmetic_tag = GRL_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "GRL_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				MWA = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			MWA = {
+				set_cosmetic_tag = MWA_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "MWA_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				TEX = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			TEX = {
+				set_cosmetic_tag = TEX_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "TEX_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				UTA = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			UTA = {
+				set_cosmetic_tag = UTA_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "UTA_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				MOT = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			MOT = {
+				set_cosmetic_tag = MOT_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "MOT_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				LIN = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			LIN = {
+				set_cosmetic_tag = LIN_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "LIN_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				CSD = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			CSD = {
+				set_cosmetic_tag = CSD_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "CSD_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				PCA = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			PCA = {
+				set_cosmetic_tag = PCA_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "PCA_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				ARI = {
+					is_subject_of = SOV
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			ARI = {
+				set_cosmetic_tag = ARI_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "ARI_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				USA = {
+					is_subject_of = CAN
+					has_country_flag = USA_Forced_Unification_Foreign
+				}
+			}
+			USA = {
+				set_cosmetic_tag = USA_Forced_CAN
+
+				set_party_name = { 
+					ideology = nationalist 
+					long_name = "Military Administration" 
+					name = "Military Administration" 
+				}
+
+				set_politics = {
+					ruling_party = nationalist
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Democratic League Administration"
+					picture = "USA_Canadian_Occupation_Unified.dds"
+					ideology = nationalist_ideology
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				USA = {
+					is_subject_of = SOV
+					has_country_flag = USA_Forced_Unification_Foreign
+				}
+				SOV = {
+					has_government = communist
+				}
+			}
+			USA = {
+				set_cosmetic_tag = USA_Forced_SOV
+
+				set_party_name = { 
+					ideology = communist 
+					long_name = "Warsaw Pact Military Administration" 
+					name = "WPMA" 
+				}
+
+				set_politics = {
+					ruling_party = communist
+				}
+
+				add_popularity = {
+					ideology = communist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Warsaw Pact Occupation Force"
+					picture = "USA_SOV_WPMA.dds"
+					ideology = leninist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				AMC = {
+					is_subject_of = ENG
+					has_country_flag = treaty_of_columbus
+				}
+				ENG = {
+					has_government = monarchist
+				}
+			}
+			AMC = {
+				set_cosmetic_tag = AMC_ENG
+
+				set_party_name = { 
+					ideology = monarchist 
+					long_name = "House of Windsor" 
+					name = "House of Windsor" 
+				}
+
+				set_politics = {
+					ruling_party = monarchist
+				}
+
+				add_popularity = {
+					ideology = monarchist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Zara I"
+					picture = "Portrait_AMC_Zara_I.dds"
+					ideology = absolute_monarchist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				NEA = {
+					is_subject_of = ENG
+				}
+				ENG = {
+					has_government = monarchist
+				}
+			}
+			NEA = {
+				set_cosmetic_tag = NEA_ENG
+
+				set_party_name = { 
+					ideology = monarchist 
+					long_name = "House of Windsor" 
+					name = "House of Windsor" 
+				}
+
+				set_politics = {
+					ruling_party = monarchist
+				}
+
+				add_popularity = {
+					ideology = monarchist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "William I"
+					picture = "Portrait_NEA_William_I.dds"
+					ideology = absolute_monarchist
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				USA = {
+					is_subject_of = ENG
+					has_country_flag = USA_Forced_Unification_Foreign
+				}
+				ENG = {
+					has_government = monarchist
+				}
+			}
+			USA = {
+				set_cosmetic_tag = USA_Forced_Monarchist_ENG
+
+				set_party_name = { 
+					ideology = monarchist 
+					long_name = "House of Windsor" 
+					name = "House of Windsor" 
+				}
+
+				set_politics = {
+					ruling_party = monarchist
+				}
+
+				add_popularity = {
+					ideology = monarchist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "Council of Princes"
+					picture = "USA_ENG_Council.dds"
+					ideology = absolute_monarchist
+				}
+			}
+		}
+	}
+}

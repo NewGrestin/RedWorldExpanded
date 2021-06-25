@@ -1,0 +1,111 @@
+﻿add_namespace = generic_america
+
+country_event = { #Fate of the New Mexico Border Strip
+	id = generic_america.1
+	title = generic_america.1.t
+	desc = generic_america.1.d
+	picture = second_syndicates_convention
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { #Grant the Land to Texas
+		name = generic_america.1.a
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			USA = {
+				is_subject_of = ROOT
+				has_country_flag = USA_Forced_Unification_Foreign
+			}
+		}
+
+		USA = {
+			transfer_state = 376
+			add_state_core = 376
+		}
+    }
+
+	option = { #Grant the Land to Texas
+		name = generic_america.1.b
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			TEX = {
+				is_subject_of = ROOT
+			}
+		}
+
+		TEX = {
+			transfer_state = 376
+			add_state_core = 376
+		}
+    }
+}
+
+country_event = { #Fate of the Washington DC
+	id = generic_america.2
+	title = generic_america.2.t
+	desc = generic_america.2.d
+	picture = second_syndicates_convention
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { #Grant the Land to the Southern Remnants
+		name = generic_america.2.a
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			USA = {
+				is_subject_of = ROOT
+				NOT = {
+					has_country_flag = USA_Forced_Unification_Foreign
+				}
+			}
+		}
+
+		USA = {
+			transfer_state = 901
+		}
+    }
+
+	option = { #Grant the land to the Commonwealth
+		name = generic_america.2.b
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			NEA = {
+				is_subject_of = ROOT
+			}
+		}
+
+		NEA = {
+			transfer_state = 901
+			add_state_core = 901
+		}
+    }
+
+	option = { #Grant the land to the a unified puppet America
+		name = generic_america.2.c
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			USA = {
+				is_subject_of = ROOT
+				has_country_flag = USA_Forced_Unification_Foreign
+			}
+		}
+		
+		USA = {
+			transfer_state = 901
+		}
+    }
+}

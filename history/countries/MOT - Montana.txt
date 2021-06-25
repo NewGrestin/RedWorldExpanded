@@ -2,6 +2,16 @@
 
 oob = "MOT_2000"
 
+set_variable = { var = Spendable_Money value = 5 }
+set_variable = { var = Monthly_Income value = 1 }
+set_variable = { var = Raids_Available value = 2 }
+set_variable = { var = Drug_Labs value = 0 }
+set_variable = { var = Moonshineries value = 0 }
+set_variable = { var = Weapons_Shipments_Available value = 0 }
+
+set_variable = { var = MOT_Drug_Lab_Passive_Income_Tick value = 0 }
+set_variable = { var = MOT_Moonshineries_Income_Tick value = 0 }
+
 set_research_slots = 2
 set_convoys = 500
 set_stability = 0.7

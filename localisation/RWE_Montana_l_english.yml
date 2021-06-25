@@ -79,6 +79,42 @@
   RWE_America_Shattered_Ambition:0 "Post-Nuclear Warlordism"
 
   ##########################
+  # DECISIONS
+  ##########################
+  MOT_Raids_and_Illegal_Shit:0 "The Secret Empire"
+  MOT_Raids_and_Illegal_Shit_desc:0 "\n\n\n\n\n\nFor all of Covington's talk about purity of race, he wasn't exactly pure in the legal sense. Montana's heavy decentralization has allowed it to become a hotbed of illegal activity, from moonshining to methlabs, from gunsmiths to ganja farms. Covington, the fat useless idiot that he was, refused to tap into this market. Garrison is far less scrupulous. Montana must become wealthy and prosper if it's to remain independent, but more importantly Ben Garrison and his cadres must become wealthy and prosper. It's inevitable that America is going to turn into a war-torn hellscape, so might as well make enough money to pad the retirement fund before it all goes to hell.\n\nWe currently have £MOT_Money §Y[?MOT.Spendable_Money]§! million in Liquid Currency\n\nOur Current Monthly Income is £MOT_Money_Income §Y[?MOT.Monthly_Income]§! Million in Liquid Currency\n\nWe can conduct £MOT_Bullets §Y[?MOT.Raids_Available]§! supply raids this month.\n\nWe currently have:\n\n £MOT_Beaker §Y[?MOT.Drug_Labs]§! Active Drug Labs\n £MOT_House §Y[?MOT.Moonshineries]§! Active Moonshine Distilleries\n £MOT_Open_Box §Y[?MOT.Weapons_Shipments_Available]§! Weapons Shipments Ready for Sale\n"
+  MOT_Monthly_Income:0 "§YMonthly Financial Report§!"
+  MOT_Build_Drug_Lab:0 "£MOT_Beaker Construct a Drug Lab"
+  MOT_Build_Moonshinery:0 "£MOT_House Construct a Moonshine Distillery"
+  MOT_Industrial_Investments:0 "Reinvest in the Economy"
+  MOT_Military_Industrial_Investments:0 "Expand Military Industries"
+  MOT_Prepare_Weapons_Shipment:0 "Prepare a Weapons Shipment"
+  MOT_shipment_Libya:0 "[LBA.GetFlag][GNS.GetFlag][ISL.GetFlag][RAL.GetFlag][ACS.GetFlag] §GContacts in Libya§!"
+  MOT_shipment_UAR:0 "[UAR.GetFlag][SYR.GetFlag] §GSales in the Former UAR§!"
+  MOT_shipment_Burma:0 "[MYA.GetFlag] §GThe Burmese Connection§!"
+  MOT_shipment_India:0 "[RAJ.GetFlag] §GExpand Operations in India§!"
+  MOT_shipment_UAPR_Cascadia:0 "[PCA.GetFlag][CSD.GetFlag] §GCalifornia Dreamin'§!"
+
+  decision_cost_2_money:0 "§G2§! £MOT_Money"
+  decision_cost_5_money:0 "§G5§! £MOT_Money"
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+  RWE_Black_Market_Unlocked_TT:0 "\n§YUnlocks§! £decision_icon_small Decisions to begin working with the §YBlack Market§!\n"
+  RWE_Black_Market_Locked_TT:0 "\nWe will be §Runable§! to interact with the Black Market upon completing this focus\n"
+  RWE_Monthly_Finance_Increase:0 "§YOur monthly financial growth in Liquid Currency will be added to the current stockpile§!"
+  RWE_Border_Raids_Unlocked_TT:0 "\n§YUnlocks§! £decision_icon_small Decisions to begin conducting £MOT_Bullets §YBorder Supply Raids§!\n"
+  RWE_Gun_Sales_Unlocked_TT:0 "\n§YUnlocks§! £decision_icon_small Decisions to begin conducting £MOT_Open_Box §YInternational Arms Sales and Shipments§!\n"
+  RWE_Drug_Lab_Increase:0 "\nThis will construct an £MOT_Beaker §YActive Drug Lab§!\n"
+  RWE_Moonshinery_Increase:0 "\nThis will construct an £MOT_House §YActive Moonshine Distillery§!\n\n"
+  RWE_Monthly_Income_Increase:0 "\nThis will §Gincrease§! our £MOT_Money_Income §YMonthly Liquid Currency Income§!\n"
+  RWE_Monthly_Income_Decrease:0 "\nThis will §Rdecrease§! our £MOT_Money_Income §YMonthly Liquid Currency Income§!\n"
+  RWE_Base_Income_Increase:0 "\nThis will §Gincrease§! our £MOT_Money §YCurrent Liquid Currency§!\n"
+  RWE_Prepare_Weapons_Shipment:0 "We will begin preparing an £MOT_Open_Box §YArms Shipment§! for sale to an international buyer"
+  RWE_MOT_Weapons_Shipment_Prepared_tt:0 "We have at least §Y1§! prepared £MOT_Open_Box §YArms Shipment§!"
+
+  ##########################
   # EVENTS
   ##########################
   montana.1.t:0 "The North Awakens"

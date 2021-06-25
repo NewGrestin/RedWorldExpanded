@@ -30,5 +30,71 @@ ideas = {
 				ai_call_ally_desire_factor = -1.0
 			}
 		}
+
+		RWE_America_Overwhelming_Nationalist_Resistance = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_America_Shattered_Ambition
+			
+			removal_cost = -1
+	
+			modifier = {
+				war_support_factor = -0.25
+				stability_factor = -0.25
+				resistance_decay_on_our_occupied_states = 0.25
+			}
+		}
+
+		RWE_America_Overwhelming_Socialist_Resistance = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_America_Shattered_Ambition
+			
+			removal_cost = -1
+	
+			modifier = {
+				war_support_factor = -0.25
+				stability_factor = -0.25
+				resistance_decay_on_our_occupied_states = 0.25
+			}
+		}
+
+		RWE_America_Overwhelming_Communist_Resistance = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_America_Shattered_Ambition
+			
+			removal_cost = -1
+	
+			modifier = {
+				war_support_factor = -0.25
+				stability_factor = -0.25
+				resistance_decay_on_our_occupied_states = 0.25
+			}
+		}
 	}
 }

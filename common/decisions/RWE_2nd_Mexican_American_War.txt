@@ -1,0 +1,70 @@
+RWE_2nd_Mexican_American_War = {
+
+	RWE_Mex_America_War_White_Peace_Timeout = {
+		icon = generic_operation
+
+		available = {                         
+			MEX = {
+				NOT = {
+					owns_state = 376
+					owns_state = 894
+				}
+			}
+		}
+
+		is_good = no
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		days_mission_timeout = 3
+
+		timeout_effect = {
+			if = {
+				limit = {
+					376 = {
+						NOT = {
+							is_fully_controlled_by = MEX
+						}
+					}
+					894 = {
+						NOT = {
+							is_fully_controlled_by = MEX
+						}
+					}
+					ROOT = {
+						has_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
+					}
+				}
+				ROOT = {
+					country_event = {
+						id = AmMexWar.1
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					376 = {
+						is_fully_controlled_by = MEX
+					}
+					894 = {
+						is_fully_controlled_by = MEX
+					}
+					ROOT = {
+						has_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
+					}
+				}
+				ROOT = {
+					country_event = {
+						id = AmMexWar.2
+					}
+				}
+			}
+		}
+	}

@@ -1,0 +1,23 @@
+RWE_Disunifier = {
+    icon = RWE_Generic_American_Breakup
+
+	picture = GFX_decision_cat_RWE_Generic_American_Breakup
+
+	allowed = { 
+		always = yes
+	}
+
+	priority = 250
+}
+
+RWE_2nd_Mexican_American_War = {
+    icon = Mex_America_War
+
+	picture = GFX_decision_cat_Mex_America_War_Picture
+
+	allowed = { 
+		always = yes
+	}
+
+	priority = 250
+}

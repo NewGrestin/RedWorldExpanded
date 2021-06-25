@@ -22,9 +22,29 @@ defined_text = { #SUPER EVENT TITLES
                 has_global_flag = GLOBAL_American_Reunification_Communist_Davis_VISIBLE
                 has_global_flag = GLOBAL_American_Reunification_Communist_Foster_VISIBLE
                 has_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Weaver_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Unabomber_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_McVeigh_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Koresh_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Ufologists_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Blackwater_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Terry_Davis_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Thompson_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Perot_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_NASA_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Arpaio_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Sinema_VISIBLE
+                has_global_flag = GLOBAL_American_Reunification_Red_Guards_VISIBLE
             }
         }
         localization_key = "GFX_SPEVNT_American_Reunification_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Disunification_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Disunification_TITLE"
     }
 
     text = { 
@@ -36,6 +56,76 @@ defined_text = { #SUPER EVENT TITLES
 
     text = { 
         trigger = {
+            has_global_flag = GLOBAL_RadSoc_USS_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_RadSoc_USS_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Democratic_USS_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Democratic_USS_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Eurasia_Declared_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Eurasia_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Tsar_Putin_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Tsar_Putin_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Fascist_Putin_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Fascist_Putin_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Nationalist_Putin_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Nationalist_Putin_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_World_War_3_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_World_War_3_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_World_War_3_Russian_Victory_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_World_War_3_Russian_Victory_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_World_War_3_Russian_Defeat_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_World_War_3_Russian_Defeat_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_EU_Unification_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_EU_Unification_TITLE"
+    }
+
+    text = { 
+        trigger = {
             has_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
         }
         localization_key = "GFX_SPEVNT_Fall_of_the_UAR_TITLE"
@@ -43,9 +133,30 @@ defined_text = { #SUPER EVENT TITLES
 
     text = { 
         trigger = {
+            has_global_flag = GLOBAL_Indian_Collapse_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Indian_Collapse_TITLE"
+    }
+
+    text = { 
+        trigger = {
             has_global_flag = GLOBAL_Midwestern_War_VISIBLE
         }
         localization_key = "GFX_SPEVNT_Midwestern_War_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Nuclear_Winter_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Nuclear_Winter_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Disunification_Peaceful_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Disunification_Peaceful_TITLE"
     }
 }
 
@@ -174,9 +285,100 @@ defined_text = { #SUPER EVENT QUOTES
 
     text = { 
         trigger = {
-            has_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
+            has_global_flag = GLOBAL_American_Reunification_Weaver_VISIBLE
         }
-        localization_key = "GFX_SPEVNT_American_Reunification_Pence_QUOTE"
+        localization_key = "GFX_SPEVNT_American_Reunification_Weaver_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Unabomber_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Unabomber_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_McVeigh_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_McVeigh_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Koresh_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Koresh_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Ufologists_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Ufologists_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Blackwater_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Blackwater_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Terry_Davis_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Terry_Davis_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Thompson_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Thompson_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Perot_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Perot_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_NASA_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_NASA_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Arpaio_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Arpaio_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Sinema_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Sinema_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Reunification_Red_Guards_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Reunification_Red_Guards_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Disunification_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Disunification_QUOTE"
     }
 
     text = { 
@@ -184,6 +386,84 @@ defined_text = { #SUPER EVENT QUOTES
             has_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
         }
         localization_key = "GFX_SPEVNT_Fall_of_the_USSR_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_RadSoc_USS_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_RadSoc_USS_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Democratic_USS_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Democratic_USS_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Eurasia_Declared_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Eurasia_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Tsar_Putin_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Tsar_Putin_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Fascist_Putin_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Fascist_Putin_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Nationalist_Putin_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Nationalist_Putin_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_World_War_3_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_World_War_3_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_World_War_3_Russian_Victory_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_World_War_3_Russian_Victory_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_World_War_3_Russian_Defeat_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_World_War_3_Russian_Defeat_QUOTE"
+    }
+
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_EU_Unification_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_EU_Unification_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Indian_Collapse_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Indian_Collapse_QUOTE"
     }
 
     text = { 
@@ -198,5 +478,19 @@ defined_text = { #SUPER EVENT QUOTES
             has_global_flag = GLOBAL_Midwestern_War_VISIBLE
         }
         localization_key = "GFX_SPEVNT_Midwestern_War_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_Nuclear_Winter_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_Nuclear_Winter_QUOTE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = GLOBAL_American_Disunification_Peaceful_VISIBLE
+        }
+        localization_key = "GFX_SPEVNT_American_Disunification_Peaceful_QUOTE"
     }
 }

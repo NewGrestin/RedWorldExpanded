@@ -1,5 +1,17 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_RWE_Super_Event_Window_Frame"
+		texturefile = "gfx/super_events/RWE_Super_Event_Window_Frame.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_RWE_Super_Event_Window_Close_Button"
+		texturefile = "gfx/super_events/RWE_Super_Event_Window_Close_Button.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_SPEVNT_American_Reunification_Democracy"
 		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Democracy.dds"
 		legacy_lazy_load = no
@@ -108,14 +120,176 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Weaver"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Weaver.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Unabomber"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Unabomber.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_McVeigh"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_McVeigh.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Koresh"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Koresh.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Ufologists"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Ufologists.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Blackwater"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Blackwater.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Terry_Davis"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Terry_Davis.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Thompson"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Thompson.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Perot"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Perot.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_NASA"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_NASA.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Arpaio"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Arpaio.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Sinema"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Sinema.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Reunification_Red_Guards"
+		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Red_Guards.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Disunification"
+		texturefile = "gfx/super_events/SPEVNT_American_Disunification.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_American_Disunification_Peaceful"
+		texturefile = "gfx/super_events/SPEVNT_American_Disunification_Peaceful.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_SPEVNT_Fall_of_the_USSR"
 		texturefile = "gfx/super_events/SPEVNT_Fall_of_the_USSR.dds"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
+		name = "GFX_SPEVNT_RadSoc_USS"
+		texturefile = "gfx/super_events/SPEVNT_RadSoc_USS.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Democratic_USS"
+		texturefile = "gfx/super_events/SPEVNT_Democratic_USS.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Eurasia"
+		texturefile = "gfx/super_events/PEVNT_Eurasia.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Tsar_Putin"
+		texturefile = "gfx/super_events/SPEVNT_Tsar_Putin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Fascist_Putin"
+		texturefile = "gfx/super_events/SPEVNT_Fascist_Putin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Nationalist_Putin"
+		texturefile = "gfx/super_events/SPEVNT_Nationalist_Putin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_World_War_3"
+		texturefile = "gfx/super_events/SPEVNT_World_War_3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_World_War_3_Russian_Victory"
+		texturefile = "gfx/super_events/SPEVNT_World_War_3_Russian_Victory.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_World_War_3_Russian_Defeat"
+		texturefile = "gfx/super_events/SPEVNT_World_War_3_Russian_Defeat.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Nuclear_Winter"
+		texturefile = "gfx/super_events/SPEVNT_Nuclear_Winter.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_EU_Unification"
+		texturefile = "gfx/super_events/SPEVNT_EU_Unification.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_SPEVNT_Fall_of_the_UAR"
 		texturefile = "gfx/super_events/SPEVNT_Fall_of_the_UAR.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Indian_Collapse"
+		texturefile = "gfx/super_events/SPEVNT_Indian_Collapse.dds"
 		legacy_lazy_load = no
 	}
 

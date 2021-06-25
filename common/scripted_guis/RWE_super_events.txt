@@ -9,6 +9,12 @@ scripted_gui = {
 		}
 
 		triggers = {
+			Super_Event_Image_Frame_visible = {
+				has_global_flag = Super_Event_Frame_Visible
+			}
+		}
+
+		triggers = {
 			Super_Event_Image_American_Reunification_Coffee_visible = {
 				has_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
 			}
@@ -78,6 +84,106 @@ scripted_gui = {
 				has_global_flag = GLOBAL_American_Reunification_Pence_VISIBLE
 			}
 
+			Super_Event_Image_American_Reunification_Weaver_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Weaver_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Unabomber_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Unabomber_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_McVeigh_visible = {
+				has_global_flag = GLOBAL_American_Reunification_McVeigh_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Koresh_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Koresh_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Ufologists_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Ufologists_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Blackwater_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Blackwater_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Terry_Davis_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Terry_Davis_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Thompson_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Thompson_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Perot_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Perot_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_NASA_visible = {
+				has_global_flag = GLOBAL_American_Reunification_NASA_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Arpaio_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Arpaio_VISIBLE
+			}
+
+			Super_Event_Image_American_Reunification_Sinema_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Sinema_VISIBLE
+			}
+
+			GFX_SPEVNT_American_Reunification_Red_Guards_visible = {
+				has_global_flag = GLOBAL_American_Reunification_Red_Guards_VISIBLE
+			}
+
+			Super_Event_Image_American_Disunification_visible = {
+				has_global_flag = GLOBAL_American_Disunification_VISIBLE
+			}
+
+			Super_Event_Image_RadSoc_USS_visible = {
+				has_global_flag = GLOBAL_RadSoc_USS_VISIBLE
+			}
+
+			Super_Event_Image_Democratic_USS_visible = {
+				has_global_flag = GLOBAL_Democratic_USS_VISIBLE
+			}
+
+			Super_Event_Image_Eurasia_visible = {
+				has_global_flag = GLOBAL_Eurasia_Declared_VISIBLE
+			}
+
+			Super_Event_Image_Tsar_Putin_visible = {
+				has_global_flag = GLOBAL_Tsar_Putin_VISIBLE
+			}
+
+			Super_Event_Image_Fascist_Putin_visible = {
+				has_global_flag = GLOBAL_Fascist_Putin_VISIBLE
+			}
+
+			Super_Event_Image_Nationalist_Putin_visible = {
+				has_global_flag = GLOBAL_Nationalist_Putin_VISIBLE
+			}
+
+			Super_Event_Image_World_War_3_visible = {
+				has_global_flag = GLOBAL_World_War_3_VISIBLE
+			}
+
+			Super_Event_Image_World_War_3_Russian_Victory_visible = {
+				has_global_flag = GLOBAL_World_War_3_Russian_Victory_VISIBLE
+			}
+
+			Super_Event_Image_World_War_3_Russian_Defeat_visible = {
+				has_global_flag = GLOBAL_World_War_3_Russian_Defeat_VISIBLE
+			}
+
+			Super_Event_Image_EU_Unification_visible = {
+				has_global_flag = GLOBAL_EU_Unification_VISIBLE
+			}
+
+			Super_Event_Image_Indian_Collapse_visible = {
+				has_global_flag = GLOBAL_Indian_Collapse_VISIBLE
+			}
+
 			Super_Event_Image_Fall_of_the_USSR_visible = {
 				has_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
 			}
@@ -88,6 +194,14 @@ scripted_gui = {
 
 			Super_Event_Image_Midwestern_War_visible = {
 				has_global_flag = GLOBAL_Midwestern_War_VISIBLE
+			}
+
+			Super_Event_Image_Nuclear_Winter_visible = {
+				has_global_flag = GLOBAL_Nuclear_Winter_VISIBLE
+			}
+
+			Super_Event_Image_American_Disunification_Peaceful_visible = {
+				has_global_flag = GLOBAL_American_Disunification_Peaceful_VISIBLE
 			}
 		}
 
@@ -229,6 +343,132 @@ scripted_gui = {
 
 				if = {
 					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Weaver_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Weaver_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Unabomber_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Unabomber_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_McVeigh_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_McVeigh_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Koresh_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Koresh_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Ufologists_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Ufologists_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Blackwater_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Blackwater_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Disunification_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Disunification_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_RadSoc_USS_VISIBLE
+					}
+					clr_global_flag = GLOBAL_RadSoc_USS_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Democratic_USS_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Democratic_USS_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Eurasia_Declared_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Eurasia_Declared_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Tsar_Putin_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Tsar_Putin_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Fascist_Putin_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Fascist_Putin_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Nationalist_Putin_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Nationalist_Putin_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_World_War_3_VISIBLE
+					}
+					clr_global_flag = GLOBAL_World_War_3_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_World_War_3_Russian_Victory_VISIBLE
+					}
+					clr_global_flag = GLOBAL_World_War_3_Russian_Victory_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_World_War_3_Russian_Defeat_VISIBLE
+					}
+					clr_global_flag = GLOBAL_World_War_3_Russian_Defeat_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_EU_Unification_VISIBLE
+					}
+					clr_global_flag = GLOBAL_EU_Unification_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Indian_Collapse_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Indian_Collapse_VISIBLE
+				}
+
+				if = {
+					limit = {	
 						has_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
 					}
 					clr_global_flag = GLOBAL_Fall_of_the_USSR_VISIBLE
@@ -246,6 +486,69 @@ scripted_gui = {
 						has_global_flag = GLOBAL_Midwestern_War_VISIBLE
 					}
 					clr_global_flag = GLOBAL_Midwestern_War_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_Nuclear_Winter_VISIBLE
+					}
+					clr_global_flag = GLOBAL_Nuclear_Winter_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Disunification_Peaceful_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Disunification_Peaceful_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Terry_Davis_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Terry_Davis_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Thompson_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Thompson_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Perot_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Perot_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_NASA_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_NASA_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Arpaio_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Arpaio_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Sinema_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Sinema_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_Red_Guards_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_Red_Guards_VISIBLE
 				}
 			}
 		}

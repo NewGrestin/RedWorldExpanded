@@ -97,3 +97,153 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "SPEVENT_American_Reunification_Socialists"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Davis"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Weaver"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Unabomber"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_McVeigh"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Koresh"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Ufologists"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVENT_American_Reunification_Blackwater"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVNT_American_Reunification_Terry_Davis"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVNT_American_Reunification_Thompson"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVNT_American_Reunification_Perot"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVNT_American_Reunification_NASA"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVNT_American_Reunification_Arpaio"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVNT_American_Reunification_Sinema"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
+
+music = {
+	song = "SPEVNT_American_Reunification_Red_Guards"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}

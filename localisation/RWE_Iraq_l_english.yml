@@ -1,0 +1,43 @@
+﻿l_english:
+
+  ##########################
+  # FOCUSES
+  ##########################
+ 
+  ##########################
+  # PARTIES
+  ##########################
+
+  ##########################
+  # IDEAS
+  ##########################
+  RWE_IRQ_Kurdish_Unrest_Low:0 "Kurdish Unrest: §GManageable§!"
+  RWE_IRQ_Kurdish_Unrest_Low_desc:0 "Northern Iraq is host of a significant minority of Kurds, a Middle Eastern ethnic minority spread across Iran, Iraq, Syria and Turkey. In recent years, the independnece of a Kurdish state has gradually increased agitation for unification, which the Hussein regime has characteristically crushed brutally. Left unattended, however, the Kurdish resistance will continue to agitate for at least autonomy, and at most full independence."
+  RWE_IRQ_Kurdish_Unrest_Moderate:0 "Kurdish Unrest: §YNoticeable§!"
+  RWE_IRQ_Kurdish_Unrest_Moderate_desc:0 "Northern Iraq is host of a significant minority of Kurds, a Middle Eastern ethnic minority spread across Iran, Iraq, Syria and Turkey. In recent years, the independnece of a Kurdish state has gradually increased agitation for unification, which the Hussein regime has characteristically crushed brutally. Left unattended, however, the Kurdish resistance will continue to agitate for at least autonomy, and at most full independence."
+  RWE_IRQ_Kurdish_Unrest_High:0 "Kurdish Unrest: §ROverwhelming§!"
+  RWE_IRQ_Kurdish_Unrest_High_desc:0 "Northern Iraq is host of a significant minority of Kurds, a Middle Eastern ethnic minority spread across Iran, Iraq, Syria and Turkey. In recent years, the independnece of a Kurdish state has gradually increased agitation for unification, which the Hussein regime has characteristically crushed brutally. Left unattended, however, the Kurdish resistance will continue to agitate for at least autonomy, and at most full independence."
+
+  RWE_IRQ_Iraqi_Army:0 "The Eagle of the Middle East"
+  RWE_IRQ_Iraqi_Army_desc:0 "The Army of the Arab Republic of Iraq is one of, if not the largest army in the Arab World, for better or for worse. Though massive compared to their neighbors, it suffers from corruption and widespread inefficiency, coupled with the complete nonexistence of local arms production.\n\nThe Iraqi Army is a glass cannon as it stands currently, and is heavily reliant on the support of the Soviet Union to remain competetive against their smaller neighbors."
+  RWE_IRQ_Soviet_Partnership:0 "Iraqi-Soviet Treaty of Friendship and Cooperation"
+  RWE_IRQ_Soviet_Partnership_desc:0 "Iraq has historically maintained strong relations with the USSR since the fall of the monarchy, though the Ba'athist regime has alternated between mild dislike and strong support of Moscow, with the USSR's support waxing and waning in kind. Still, Iraq serves an important role as Moscow's outpost in the Arab world, and that outpost is backed by powerful, albeit somewhat outdated Cold War era equipment. New leadership in the USSR might see this relationship flourish or sour."
+  RWE_IRQ_Kuwaiti_Occupation:0 "Occupation of Kuwait"
+  RWE_IRQ_Kuwaiti_Occupation_desc:0 "The Invasion and Occupation of Kuwait in the 1970s was a turning point for Iraq. The Kuwaiti Army was easily crushed, and not long after the wayward petromonarchy was integrated at gunpoint into Iraq. Even decades later, the invasion proved traumatizing for the Gulf states, and proved pivotal in Riyadh's moves to formalize mutual defense treaties.\n\nIraq, in the meantime, has benefited hugely from this state of affairs. Kuwaiti oil revenue powers Saddam's militaristic fantasies, and few countries are scrupulous enough to care how much blood comes with their petrol. In spite of this, the Kuwaiti resistance carries on, fighting a losing battle against overwhelming odds, kept on life support by the Gulf monarchies."
+
+  ##########################
+  # EVENTS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+	
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

@@ -1,0 +1,24 @@
+on_actions = {
+   on_declare_war = {
+      effect = {
+         if = {
+            limit = {
+               ROOT = {
+                  original_tag = USA
+               }
+               FROM = {
+                  original_tag = MEX
+               }
+               NOT = {
+                  has_global_flag = RWE_2nd_Mexican_American_War
+               }
+            }
+            ROOT = {
+               activate_mission = RWE_Mex_America_War_White_Peace_Timeout
+
+               set_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
+            }
+         }
+      }
+   }
+}

@@ -77,6 +77,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	RWE_PAL_Only_Sane_Man
+}
+
 set_politics = {
 	ruling_party = moderate_socialist
 	last_election = "1997.1.1"

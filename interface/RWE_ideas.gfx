@@ -56,6 +56,7 @@ spriteTypes = {
 		name = "GFX_idea_USA_One_Last_Gamble"
 		texturefile = "gfx/interface/ideas/USA_One_Last_Gamble.tga"			
 	}
+	SpriteType = {
 		name = "GFX_idea_RWE_MOT_Militia_Army"
 		texturefile = "gfx/interface/ideas/RWE_MOT_Militia_Army.tga"			
 	}
@@ -70,5 +71,33 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_RWE_America_Shattered_Ambition"
 		texturefile = "gfx/interface/ideas/RWE_America_Shattered_Ambition.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_IRQ_Kurdish_Unrest_Low"
+		texturefile = "gfx/interface/ideas/RWE_IRQ_Kurdish_Unrest_Low.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_IRQ_Kurdish_Unrest_Moderate"
+		texturefile = "gfx/interface/ideas/RWE_IRQ_Kurdish_Unrest_Moderate.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_IRQ_Kurdish_Unrest_High"
+		texturefile = "gfx/interface/ideas/RWE_IRQ_Kurdish_Unrest_High.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_IRQ_Iraqi_Army"
+		texturefile = "gfx/interface/ideas/RWE_IRQ_Iraqi_Army.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_IRQ_Soviet_Partnership"
+		texturefile = "gfx/interface/ideas/RWE_IRQ_Soviet_Partnership.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_IRQ_Kuwaiti_Occupation"
+		texturefile = "gfx/interface/ideas/RWE_IRQ_Kuwaiti_Occupation.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_PAL_Only_Sane_Man"
+		texturefile = "gfx/interface/ideas/RWE_PAL_Only_Sane_Man.dds"			
 	}
 }

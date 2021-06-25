@@ -3,31 +3,115 @@
   get_super_event_title:0 "-"
   GFX_SPEVNT_American_Reunification_TITLE:0 "AMERICAN REUNIFICATION"
   
-  GFX_SPEVNT_American_Reunification_Democracy_QUOTE:0 "The price of democracy is the ongoing pursuit of the common good by all of the people.\n§Y-Saul Alinsky-§!"
+  GFX_SPEVNT_American_Reunification_Democracy_QUOTE:0 "The price of democracy is the ongoing pursuit of the common good by all of the people.\n\n§Y-Saul Alinsky-§!"
+  
   GFX_SPEVNT_American_Reunification_Shaman_QUOTE:0 "People find conspiracy theories fantastically comforting not because they're more frightening than reality, but because they're less frightening than reality. \n§Y-William Gibson-§!"
+  
   GFX_SPEVNT_American_Reunification_Nazbol_QUOTE:0 "We are against the political bourgeoisie, and for genuine nationalism. We are against Marxism, but for true socialism. \n\n§Y-Joseph Goebbels-§!"
+  
   GFX_SPEVNT_American_Reunification_Wotansvolk_QUOTE:0 "We must secure the existence of our people and a future for white children. \n\n§Y-David Lane-§!"
-  GFX_SPEVNT_American_Reunification_Sanders_QUOTE:0 "There are no human oppressors. Oppressors have lost their humanity.\n\n§Y-Bernard Sanders-§!"
-  GFX_SPEVNT_American_Reunification_Socialist_QUOTE:0 "Let the people everywhere take heart of hope, for the cross is bending, the midnight is passing, and joy cometh with the morning.\n§Y-Eugene V. Debs-§!"
-  GFX_SPEVNT_American_Reunification_Fundamentalists_QUOTE:0 "The framers of our Constitution meant we were to have freedom of religion, not freedom from religion.\n§Y-Billy Graham-§!"
+  
+  GFX_SPEVNT_American_Reunification_Sanders_QUOTE:0 "Revenge is a dead thing, reaching out from the past to grasp you.\n\n§Y-Lois McMaster Bujold-§!"
+  
+  GFX_SPEVNT_American_Reunification_Socialist_QUOTE:0 "Let the people everywhere take heart of hope, for the cross is bending, the midnight is passing, and joy cometh with the morning.\n\n§Y-Eugene V. Debs-§!"
+  
+  GFX_SPEVNT_American_Reunification_Fundamentalists_QUOTE:0 "The framers of our Constitution meant we were to have freedom of religion, not freedom from religion.\n\n§Y-Billy Graham-§!"
+  
   GFX_SPEVNT_American_Reunification_Pence_QUOTE:0 "I just know in my heart of hearts that this will be the generation that restores life in America.\n§Y-Mike Pence-§!"
-  GFX_SPEVNT_American_Reunification_Coffee_QUOTE:0 "Coffee, which makes the politician wise \nAnd see through all things with his half-shut eyes. \n\n§Y-Alexander Pope-§!"
+  
+  GFX_SPEVNT_American_Reunification_Coffee_QUOTE:0 "Coffee, which makes the politician wise \nAnd see through all things with his half-shut eyes.\n\n§Y-Alexander Pope-§!"
+  
   GFX_SPEVNT_American_Reunification_Republic_QUOTE:0 "The American way of life is not up for negotiation. Period.\n\n§Y-George H.W. Bush-§!"
-  GFX_SPEVNT_American_Reunification_Klan_QUOTE:0 "Hanging from a single overpass only about a mile from here is a group of about 30, each with an identical placard around its neck bearing the printed legend, \"I betrayed my race.\"\n§Y-The Turner Diaries-§!"
+  
+  GFX_SPEVNT_American_Reunification_Klan_QUOTE:0 "We recognize the fact of the inferiority stamped upon that race of men by the Creator.\n\n§Y-Jefferson Davis-§!"
+  
   GFX_SPEVNT_American_Reunification_Duke_QUOTE:0 "When fascism comes to America, it will be wrapped in the flag and carrying a cross.\n\n§Y-James Waterman Wise-§!"
+  
   GFX_SPEVNT_American_Reunification_COC_QUOTE:0 "The historical debate is over. The answer is free-market capitalism.\n\n§Y-Thomas Friedman-§!"
-  GFX_SPEVNT_American_Reunification_Monarchy_QUOTE:0 "Posterity will talk of Washington as the founder of a great empire, when my name shall be lost in the vortex of revolution.\n§Y-Napoléon Bonaparte-§!"
-  GFX_SPEVNT_American_Reunification_Military_QUOTE:0 "Today the guns are silent. A great tragedy has ended. A great victory has been won.\n\n§Y-Douglas MacArthur-§!"
+  
+  GFX_SPEVNT_American_Reunification_Monarchy_QUOTE:0 "Posterity will talk of Washington as the founder of a great empire, when my name shall be lost in the vortex of revolution.\n\n§Y-Napoléon Bonaparte-§!"
+  
+  GFX_SPEVNT_American_Reunification_Military_QUOTE:0 "A soldier accepts personal responsibility for the safety of the body politic of which he is a member, defending it, if need be, with his life. The civilian does not.\n§Y-Starship Troopers-§!"
+  
+  GFX_SPEVNT_American_Reunification_Weaver_QUOTE:0 "Let your gun therefore be the constant companion of your walks. Never think of taking a book with you.\n\n§Y-Thomas Jefferson-§!"
+  
+  GFX_SPEVNT_American_Reunification_Unabomber_QUOTE:0 "But what first motivated me wasn't anything I read. I just got mad seeing the machines ripping up the woods.\n\n§Y-Theodore Kaczynski-§!"
+  
+  GFX_SPEVNT_American_Reunification_McVeigh_QUOTE:0 "And the reason that they fear us is that deep inside them they know that what we say is true.\n\n§Y-William Luther Pierce-§!"
+  
+  GFX_SPEVNT_American_Reunification_Koresh_QUOTE:0 "Do not listen to the words of the prophets who prophesy to you, filling you with vain hopes. They speak visions of their own minds, not from the mouth of the Lord.\n§Y-Jeremiah 23:16-§!"
+  
+  GFX_SPEVNT_American_Reunification_Ufologists_QUOTE:0 "Two possibilities exist, Either we are alone in the Universe or we are not. Both are equally terrifying.\n\n§Y-Arthur C. Clarke-§!"
+  
+  GFX_SPEVNT_American_Reunification_Blackwater_QUOTE:0 "When a pirate grows rich enough, they make him a prince.\n\n§Y-George R.R. Martin-§!"
 
+  GFX_SPEVNT_American_Reunification_Terry_Davis_QUOTE:0 "Jesus said I will rebuild this temple in three days. I could make a compiler in 3 days.\n\n§Y-Terry A. Davis-§!"
+
+  GFX_SPEVNT_American_Reunification_Thompson_QUOTE:0 "All political power comes from the barrel of either guns, pussy, or opium pipes, and people seem to like it that way.\n\n§Y-Hunter S. Thompson-§!"
+
+  GFX_SPEVNT_American_Reunification_Perot_QUOTE:0 "As I've said before, it is time to clean out the barn — join us — pick up a shovel. Get to work!\n\n§Y-Ross Perot-§!"
+
+  GFX_SPEVNT_American_Reunification_NASA_QUOTE:0 "We began as wanderers, and we are wanderers still. We have lingered long enough on the shores of the cosmic ocean. We are ready at last to set sail for the stars.\n§Y-Carl Sagan-§!"
+  
+  GFX_SPEVNT_American_Reunification_Arpaio_QUOTE:0 "And if necessary we will fill the jail full and we don't care whose toes we step on.\n\n§Y-Bull Connor-§!"
+
+  GFX_SPEVNT_American_Reunification_Sinema_QUOTE:0 "You should never take military intervention off the table. When you do so, you give an out to a rogue nation or rogue actors.\n\n§Y-Kyrsten Sinema-§!"
+
+  GFX_SPEVNT_American_Reunification_Red_Guards_QUOTE:0 "Communism is not love. Communism is a hammer which we use to crush the enemy.\n\n§Y-Mao Zedong-§!"
+  
   GFX_SPEVNT_American_Reunification_Communist_QUOTE:0 "The revolutionary tradition is the heart of Americanism.\n\n§Y-Earl Browder-§!"
+  
   GFX_SPEVNT_American_Reunification_Communist_Davis_QUOTE:0 "All around the world people are saying that we want to struggle to continue as global communities, to create a world free of xenophobia and racism.\n§Y-Angela Davis-§!"
+  
   GFX_SPEVNT_American_Reunification_Communist_Foster_QUOTE:0 "No, you won't accept communism outright; but, we will keep feeding you small doses of socialism until you will finally wake up and find you already have Communism.\n§Y-Nikita Khrushchev-§!"
+
+  GFX_SPEVNT_American_Disunification_TITLE:0 "A HOUSE DIVIDED"
+  GFX_SPEVNT_American_Disunification_QUOTE:0 "The American Dream has run out of gas. The car has stopped. It no longer supplies the world with its images, its dreams, its fantasies. No more. It's over. It supplies the world with its nightmares now\n§Y-J. G. Ballard-§!"
+
+  GFX_SPEVNT_American_Disunification_Peaceful_TITLE:0 "A HOUSE DIVIDED"
+  GFX_SPEVNT_American_Disunification_Peaceful_QUOTE:0 ""
 
   GFX_SPEVNT_Fall_of_the_USSR_TITLE:0 "FALL OF THE USSR"
   GFX_SPEVNT_Fall_of_the_USSR_QUOTE:0 "If what you have done yesterday still looks big to you, you haven't done much today.\n\n§Y-Mikhail Gorbachev-§!"
 
+  GFX_SPEVNT_RadSoc_USS_TITLE:0 "A UNION RENEWED"
+  GFX_SPEVNT_RadSoc_USS_QUOTE:0 "Lenin walks around the world. The sun sets like a scar. Between the darkness and the dawn. There rises a red star.\n\n§Y-Langston Hughes-§!"
+
+  GFX_SPEVNT_Democratic_USS_TITLE:0 "A UNION REBORN"
+  GFX_SPEVNT_Democratic_USS_QUOTE:0 "There is no people on this earth who could be harmed by the air of freedom. There are no exceptions to that rule.\n\n§Y-Boris Yeltsin-§!"
+
+  GFX_SPEVNT_Eurasia_TITLE:0 "EURASIA RISES"
+  GFX_SPEVNT_Eurasia_QUOTE:0 "A decisive hour has come in the struggle for the Motherland.\n\n§Y-Aleksandr Rutskoi-§!"
+
+  GFX_SPEVNT_Tsar_Putin_TITLE:0 "THE EMPIRE REBORN"
+  GFX_SPEVNT_Tsar_Putin_QUOTE:0 "We will not allow the past to drag us down and stop us from moving ahead. We understand where we should move.\n\n§Y-Vladimir Putin-§!"
+
+  GFX_SPEVNT_Fascist_Putin_TITLE:0 "A GREATER RUSSIA RISES"
+  GFX_SPEVNT_Fascist_Putin_QUOTE:0 "It is extremely dangerous to encourage people to see themselves as exceptional, whatever the motivation.\n\n§Y-Vladimir Putin-§!"
+
+  GFX_SPEVNT_Nationalist_Putin_TITLE:0 "A NATIONAL UNION"
+  GFX_SPEVNT_Nationalist_Putin_QUOTE:0 "The Comrade Wolf knows whom to eat, as the saying goes. It knows whom to eat and is not about to listen to anyone\n\n§Y-Vladimir Putin-§!"
+
+  GFX_SPEVNT_World_War_3_TITLE:0 "THE THIRD WORLD WAR"
+  GFX_SPEVNT_World_War_3_QUOTE:0 "I'll tell you what war is about, you've got to kill people, and when you've killed enough they stop fighting.\n\n§Y-Curtis LeMay-§!"
+
+  GFX_SPEVNT_World_War_3_Russian_Victory_TITLE:0 "A RED DAWN"
+  GFX_SPEVNT_World_War_3_Russian_Victory_QUOTE:0 "Whether you like it or not, history is on our side. We will bury you.\n\n\§Y-Nikita Khrushchev-§!"
+
+  GFX_SPEVNT_World_War_3_Russian_Defeat_TITLE:0 "A RED DUSK"
+  GFX_SPEVNT_World_War_3_Russian_Defeat_QUOTE:0 "The flames of Moscow were the aurora of the liberty of the world.\n\n\§Y-Benjamin Constant-§!"
+
   GFX_SPEVNT_Fall_of_the_UAR_TITLE:0 "END OF THE UAR"
   GFX_SPEVNT_Fall_of_the_UAR_QUOTE:0 "We must fight our way to victory on a sea of blood and a horizon of fire.\n\n§Y-Gamal Abdel Nasser-§!"
 
+  GFX_SPEVNT_EU_Unification_TITLE:0 "EUROPEAN UNIFICATION"
+  GFX_SPEVNT_EU_Unification_QUOTE:0 "In varietate concordia\n\n§Y-Motto of the European Union-§!"
+
+  GFX_SPEVNT_Indian_Collapse_TITLE:0 "THE INDIAN COLLAPSE"
+  GFX_SPEVNT_Indian_Collapse_QUOTE:0 "A moment comes, which comes but rarely in history, when we step out from the old to the new, when an age ends, and when the soul of a nation, long suppressed, finds utterance.\n§Y-Jawaharlal Nehru-§!"
+
   GFX_SPEVNT_Midwestern_War_TITLE:0 "THE MIDWESTERN WAR"
   GFX_SPEVNT_Midwestern_War_QUOTE:0 "I don't care how precise your bombs and your weapons are, when you set them off, innocent people will die.\n\n§Y-Bill Blythe-§!"
+
+  GFX_SPEVNT_Nuclear_Winter_TITLE:0 "NUCLEAR WINTER BEGINS"
+  GFX_SPEVNT_Nuclear_Winter_QUOTE:0 "In an urban society, everything connects. Each person's needs are fed by the skills of many others. Our lives are woven together in a fabric. But the connections that make society strong also make it vulnerable."
