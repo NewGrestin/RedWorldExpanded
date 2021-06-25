@@ -6,6 +6,30 @@ ideas = {
 
 	country = {
 
+		RWE_USA_Corporate_Allies = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = USA_Corporate_Influence
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_morale_factor = 0.02
+			consumer_goods_factoor = -0.05
+			stability_factor = 0.05
+			monthly_population = 0.02
+			political_power_cost = 0.01
+			}
+		}
+
 		RWE_USA_One_Last_Gamble = {
 			
 			

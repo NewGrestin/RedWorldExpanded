@@ -9,6 +9,9 @@ scripted_gui = {
 		}
 
 		triggers = {
+			Super_Event_Image_American_Reunification_McDonalds_visible = {
+				has_global_flag = GLOBAL_American_Reunification_McDonalds_VISIBLE
+			}
 			Super_Event_Image_American_Reunification_Coffee_visible = {
 				has_global_flag = GLOBAL_American_Reunification_Coffee_VISIBLE
 			}
@@ -106,6 +109,13 @@ scripted_gui = {
 						has_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
 					}
 					clr_global_flag = GLOBAL_American_Reunification_Democracy_VISIBLE
+				}
+
+				if = {
+					limit = {	
+						has_global_flag = GLOBAL_American_Reunification_McDonalds_VISIBLE
+					}
+					clr_global_flag = GLOBAL_American_Reunification_McDonalds_VISIBLE
 				}
 
 				if = {

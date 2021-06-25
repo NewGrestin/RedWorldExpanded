@@ -556,3 +556,162 @@ ideas = {
 			supply_consumption_factor = -0.1
 			}
 		}
+
+		RWE_LIN_Folk_Consciousness = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			conscription_factor = -0.05
+			army_morale_factor = 0.02
+			war_support_factor = 0.1
+			}
+		}
+
+		RWE_LIN_Folk_Consciousness_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_morale_factor = 0.05
+			army_speed_factor = 0.1
+			war_support_factor = 0.1
+			consumer_goods_factor = 0.05
+			}
+		}
+
+		RWE_LIN_Prison_Paramilitaries = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			conscription_factor = 0.15
+			army_attack_factor = 0.03
+			army_organization_factor = -0.05
+			political_power_factor = -0.1
+			}
+		}
+
+		RWE_LIN_Free_to_be_High = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.2
+			stability_factor = 0.05
+			army_morale_factor = -0.03
+			army_speed_factor = -0.05
+			}
+		}
+
+		RWE_LIN_Latin_Libertarianism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			consumer_goods_factor = -0.25
+			conscription_factor = -0.1
+			war_support_factor = -0.1
+			}
+		}
+
+		RWE_LIN_Latin_Libertarianism_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			consumer_goods_factor = -0.4
+			conscription_factor = -0.15
+			war_support_factor = -0.1
+			political_power_cost = -0.1
+			}
+		}
+
+		RWE_LIN_Latin_Libertarianism_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = LIN_Ideological_Enigma
+			
+			removal_cost = -1
+	
+			modifier = {
+			consumer_goods_factor = -0.4
+			conscription_factor = -0.1
+			non_core_manpower = 0.25
+			political_power_cost = -0.1
+			}
+		}

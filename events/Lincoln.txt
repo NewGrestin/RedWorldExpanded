@@ -94,7 +94,12 @@ country_event = { #Unification of the US Under Richard B. Spenser
 	option = { 
 		name = lincoln.2.a
 		set_cosmetic_tag = LIN_SPENSER_UNIFIED
-
+		create_country_leader = {
+		name = "Richard B. Spencer"
+		desc = "POLITICS_RICHARD_SPENCER_D_II"
+		picture = "gfx/leaders/LIN/RW_Richard_S.tga"
+		ideology = national_bolshevik_ideology
+		}
 }
 }
 
@@ -342,6 +347,79 @@ LCN = { transfer_state = PREV }
 }
 }
 
+
+country_event = { #Our Crusade against the Deep State
+	id = lincoln.14
+	title = lincoln.14.t
+	desc = lincoln.14.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.14.a
+add_war_support = 0.15
+}
+}
+
+country_event = { #Hour of the Dawn
+	id = lincoln.15
+	title = lincoln.15.t
+	desc = lincoln.15.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.15.a
+
+}
+}
+
+country_event = { #The Shaman seizes power
+	id = lincoln.16
+	title = lincoln.16.t
+	desc = lincoln.16.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.16.a
+set_country_flag = LIN_SHAMAN_POWER
+}
+}
+
+
+country_event = { #The place to be
+	id = lincoln.17
+	title = lincoln.17.t
+	desc = lincoln.17.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.17.a
+
+}
+}
 #############################
 
 country_event = { #End of the old Union
@@ -379,7 +457,7 @@ country_event = { #Drawing the Lines
 		name = lincolnpost.10.a
 NEA = { set_cosmetic_tag = USA_CIVIL_WAR }
 NEA = {
-add_ideas = { RWE_USA_One_Last_Gamble }
+add_ideas = { RWE_USA_One_Last_Gamble RWE_USA_Corporate_Allies }
 set_politics = { ruling_party = centrist }
 set_political_party = {
 ideology = fascist
@@ -487,5 +565,130 @@ create_country_leader = {
 	ideology = social_liberal 
 }
 }
+}
+}
+
+country_event = { #The McImperium
+	id = lincolnpost.100
+	title = lincolnpost.100.t
+	desc = lincolnpost.100.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincolnpost.100.a
+
+        set_global_flag = Super_Event_Visible
+	set_global_flag = GLOBAL_American_Reunification_McDonalds_VISIBLE
+
+}
+}
+
+country_event = { #The McImperium - Working debug
+	id = lincolnpost.101
+	title = lincolnpost.101.t
+	desc = lincolnpost.101.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincolnpost.101.a
+NEA = { 
+set_cosmetic_tag = USA_CIVIL_WAR 
+add_ideas = { RWE_USA_One_Last_Gamble RWE_USA_Corporate_Allies }
+set_politics = { ruling_party = centrist }
+set_political_party = {
+ideology = fascist
+popularity = 2
+}
+set_political_party = {
+ideology = nationalist
+popularity = 3
+}
+set_political_party = {
+ideology = national_conservative
+popularity = 30
+}
+set_political_party = {
+ideology = centrist 
+popularity = 20
+}
+set_political_party = {
+ideology = liberal
+popularity = 24
+}
+set_political_party = {
+ideology = new_democrat
+popularity = 7
+}
+set_political_party = {
+ideology = revolutionary_socialist
+popularity = 10
+}
+remove_ideas = { idea_standing_firm_commonwealth }
+remove_ideas = { idea_apc_political_deadlock }
+remove_ideas = { idea_apc_western_corruption }
+remove_ideas = { idea_apc_appalling_recognition }
+
+set_party_name = { ideology = national_bolshevik long_name = "Spencerite Remnants" name = "Spencerite Remnants" }
+
+set_party_name = { ideology = fascist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = nationalist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = moderate_socialist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = national_conservative long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = centrist long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = liberal long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = new_democrat long_name = "New Coalition Party" name = "NCP" }
+set_party_name = { ideology = revolutionary_socialist long_name = "New Coalition Party" name = "NCP" }
+
+set_party_name = { ideology = communist long_name = "Communist Party of the United States" name = "CPUS" }
+
+annex_country = { target = USA }
+annex_country = { target = TEX }
+annex_country = { target = ILL }
+annex_country = { target = GRL }
+annex_country = { target = MWA }
+ annex_country = { target = LIN } 
+annex_country = { target = MOT }
+annex_country = { target = UTA }
+annex_country = { target = ARI }
+annex_country = { target = PCA }
+
+create_country_leader = {
+	name = "Bernie Sanders"
+	picture = "gfx/leaders/LIN_2/USA_Punished_Bernie.tga"
+	ideology = progressive 
+}
+create_country_leader = {
+	name = "United States Senate"
+	picture = "gfx/leaders/LIN_2/USA_Senate.tga"
+	ideology = centrist_ideology 
+}
+create_country_leader = {
+	name = "Danny K. Davis"
+	picture = "gfx/leaders/LIN_2/USA_Danny_Davis.tga"
+	ideology = new_democrat_ideology
+}
+create_country_leader = {
+	name = "Colin Powell"
+	picture = "gfx/leaders/LIN_2/USA_Colin_Powell.tga"
+	ideology = fiscal_conservative 
+}
+create_country_leader = {
+	name = "Pete Buttigieg"
+	picture = "gfx/leaders/LIN_2/USA_Buttigieg.tga"
+	ideology = social_liberal 
+}
+
 }
 }

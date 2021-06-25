@@ -257,3 +257,13 @@ VER_Anarchy = {
 	color = rgb { 95 101 95 }
 	color_ui = rgb { 95 101 95 }
 }
+
+LIN_FREE_ROME = {
+	color = rgb { 183 153 0 }
+	color_ui = rgb { 183 153 0 }
+}
+
+LIN_WOTANSVOLK_COSMETIC = {
+	color = rgb { 39 112 0 }
+	color_ui = rgb { 39 112 0 }
+}

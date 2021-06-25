@@ -1,5 +1,18 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_LIN_Prison"
+		texturefile = "gfx/interface/goals/LIN_Prison.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Violence"
+		texturefile = "gfx/interface/goals/LIN_Violence.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_LIN_Subvert"
+		texturefile = "gfx/interface/goals/LIN_Subvert.tga"			
+	}
+
+	SpriteType = {
 		name = "GFX_goal_Generic_Seize_Church"
 		texturefile = "gfx/interface/goals/Generic_Seize_Church.tga"			
 	}

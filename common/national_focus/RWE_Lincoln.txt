@@ -36,6 +36,7 @@ focus_tree = {
 		icon = GFX_goal_LIN_Funding
 		prerequisite = { focus = LIN_Resolve_the_Conflict }
 		available = { has_war_with = MOT }
+		mutually_exclusive = { focus = LIN_Arm_the_Militias }
 		x = 8
 		y = 1
 
@@ -101,8 +102,7 @@ focus_tree = {
 	focus = {
 		id = LIN_Surrounded_by_Enemies
 		icon = GFX_goal_LIN_Enemies
-		prerequisite = { focus = LIN_Expand_Training_Ranges }
-		prerequisite = { focus = LIN_Empire_of_Needles }
+		prerequisite = { focus = LIN_Expand_Training_Ranges focus = LIN_Empire_of_Needles }
 		available = { has_war_with = MOT }
 		x = 6
 		y = 4
@@ -120,6 +120,7 @@ focus_tree = {
 		icon = GFX_goal_LIN_Arm_the_Militias
 		prerequisite = { focus = LIN_Resolve_the_Conflict }
 		available = { has_full_control_of_state = 890 has_war_with = MOT }
+		mutually_exclusive = { focus = LIN_Income_from_Drugs }
 		x = 4
 		y = 1
 
@@ -567,6 +568,7 @@ add_equipment_to_stockpile = {
 		set_party_name = { ideology = fascist long_name = "New Folk Party" name = "NFP" }
 		set_politics = { ruling_party = fascist }
 		add_popularity = { ideology = fascist popularity = 0.2 }
+		set_cosmetic_tag = LIN_WOTANSVOLK_COSMETIC
 		}
 	}
 
@@ -582,7 +584,8 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = fascist popularity = 0.1 }
+		add_war_support = 0.1
 		}
 	}
 
@@ -597,7 +600,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_LIN_Folk_Consciousness }
 		}
 	}
 
@@ -613,13 +616,15 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = nationalist popularity = -0.1 }
+		add_popularity = { ideology = liberal popularity = -0.2 }
+		add_political_power = 50
 		}
 	}
 
 	focus = {
 		id = LIN_Embrace_Prison_Paramilitaries
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Prison
 		prerequisite = { focus = LIN_The_Folk_Consciousness }
 		x = 19
 		y = 3
@@ -628,13 +633,14 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_LIN_Prison_Paramilitaries }
+		add_popularity = { ideology = fascist popularity = -0.05 }
 		}
 	}
 
 	focus = {
 		id = LIN_Criminal_Paganism
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Violence
 		prerequisite = { focus = LIN_Embrace_Prison_Paramilitaries }
 		x = 19
 		y = 4
@@ -643,13 +649,14 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_LIN_Folk_Consciousness add_idea = RWE_LIN_Folk_Consciousness_1 }
+		add_popularity = { ideology = fascist popularity = -0.05 }
 		}
 	}
 
 	focus = {
 		id = LIN_Subvert_Spencers_Revolution
-		icon = GFX_goal_Generic_Propaganda_Axis
+		icon = GFX_goal_LIN_Subvert
 		prerequisite = { focus = LIN_Criminal_Paganism }
 		prerequisite = { focus = LIN_War_against_Americanism }
 		x = 20
@@ -659,7 +666,8 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		custom_effect_tooltip = LIN_WAR_DECISIONS
+		set_country_flag = LIN_WAR
 		}
 	}
 
@@ -670,7 +678,7 @@ add_equipment_to_stockpile = {
 		mutually_exclusive = { focus = LIN_The_Soul_of_Wotansvolk focus = LIN_New_Moon_of_May }
 		x = 24
 		y = 1
-
+		available = { has_country_flag = LIN_SHAMAN_POWER }
 		cost = 5
 
 
@@ -716,8 +724,8 @@ add_equipment_to_stockpile = {
 
 		completion_reward = {
 		add_war_support = 0.05
-		add_stability = 0.05
 		add_popularity = { ideology = nationalist popularity = 0.15 }
+		country_event = { id = lincoln.15 days = 1 }
 		}
 	}
 
@@ -788,6 +796,7 @@ add_equipment_to_stockpile = {
 		custom_effect_tooltip = LIN_WAR_DECISIONS
 		set_country_flag = LIN_WAR
 		swap_ideas = { remove_idea = RWE_LIN_Culture_of_Conspiracy_1 add_idea = RWE_LIN_Culture_of_Conspiracy_2 }
+		country_event = { id = lincoln.14 days = 1 }
 		}
 	}
 
@@ -804,13 +813,14 @@ add_equipment_to_stockpile = {
 		completion_reward = {
 		create_country_leader = {
 		name = "Augustus Sol Invictus"
-		picture = "gfx/leaders/LIN/RW_Agustus_Sol_Invictus.tga"
+		picture = "gfx/leaders/LIN/RW_Augustus_Sol_Invictus.tga"
 		ideology = fascist_ideology 
 		traits = { mad_dog }
 		}
 		set_party_name = { ideology = fascist long_name = "Roman-Libertarian Front" name = "R-LF" }
 		set_politics = { ruling_party = fascist }
 		add_popularity = { ideology = fascist popularity = 0.1 }
+		set_cosmetic_tag = LIN_FREE_ROME
 		}
 	}
 
@@ -826,7 +836,9 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_stability = 0.05
+		add_political_power = 25
+		add_war_support = -0.05
 		}
 	}
 
@@ -841,7 +853,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_LIN_Latin_Libertarianism }
 		}
 	}
 
@@ -856,7 +868,8 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_LIN_Free_to_be_High }
+		country_event = { id = lincoln.17 days = 0 }
 		}
 	}
 
@@ -886,7 +899,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_LIN_Latin_Libertarianism add_idea = RWE_LIN_Latin_Libertarianism_1 }
 		}
 	}
 
@@ -916,7 +929,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
+		add_ideas = free_trade
 		}
 	}
 
@@ -948,7 +961,6 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-
 		}
 	}
 
@@ -964,6 +976,7 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
+		swap_ideas = { remove_idea = RWE_LIN_Latin_Libertarianism_1 add_idea = RWE_LIN_Latin_Libertarianism_2 }
 
 		}
 	}
