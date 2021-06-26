@@ -5,10 +5,8 @@ RWE_2nd_Mexican_American_War = {
 
 		available = {                         
 			MEX = {
-				NOT = {
-					owns_state = 376
-					owns_state = 894
-				}
+				owns_state = 376
+				owns_state = 894
 			}
 		}
 
