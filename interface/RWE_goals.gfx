@@ -11,6 +11,16 @@ spriteTypes = {
 		name = "GFX_goal_LIN_Subvert"
 		texturefile = "gfx/interface/goals/LIN_Subvert.tga"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_generic_major_war"
+	texturefile = "gfx/interface/goals/goal_generic_major_war.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_generic_manpower"
+	texturefile = "gfx/interface/goals/focus_generic_manpower.dds"			
+	}	
 
 	SpriteType = {
 		name = "GFX_goal_Generic_Seize_Church"

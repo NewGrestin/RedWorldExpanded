@@ -1,0 +1,785 @@
+focus_tree = {
+	id = libya_tree_shared
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = GNS
+				tag = FAL
+				tag = ISL
+				tag = RAL
+				tag = ACS
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = LBA_shared_Civil_War
+	default = no
+}
+
+shared_focus = {
+	id = LBA_shared_Civil_War
+	icon = GFX_goal_Generic_Violent_Coup
+	x = 5
+	y = 0
+
+	cost = 2
+
+	available = {
+		has_war = yes
+		has_global_flag = libyan_civil_war
+	}
+
+	completion_reward = {
+		add_war_support = 0.15
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_last_stand
+	icon = GFX_goal_Generic_Barricade
+	x = 6
+	y = 1
+
+	cost = 10
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	mutually_exclusive = {
+		focus = LBA_shared_glorious_offensive
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Civil_War
+	}
+	
+	select_effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = libya_took_defensive
+				}
+			}
+			add_timed_idea = {
+				idea = RWE_LBA_defensive
+				days = 70
+			}
+		}
+		set_country_flag = libya_took_defensive
+	}
+
+	completion_reward = {
+		effect_tooltip = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = libya_took_defensive
+					}
+				}
+				add_timed_idea = {
+					idea = RWE_LBA_defensive
+					days = 70
+				}
+			}
+			set_country_flag = libya_took_defensive
+		}
+		custom_effect_tooltip = effect_applied_selected_tt
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_glorious_offensive
+	icon = GFX_goal_Generic_Army_Focus_Red02
+	x = 4
+	y = 1
+
+	cost = 10
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	mutually_exclusive = {
+		focus = LBA_shared_last_stand
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Civil_War
+	}
+	
+	select_effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = libya_took_offensive
+				}
+			}
+			add_timed_idea = {
+				idea = RWE_LBA_offensive
+				days = 70
+			}
+		}
+		set_country_flag = libya_took_offensive
+	}
+
+	completion_reward = {
+		effect_tooltip = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = libya_took_offensive
+					}
+				}
+				add_timed_idea = {
+					idea = RWE_LBA_offensive
+					days = 70
+				}
+			}
+			set_country_flag = libya_took_offensive
+		}
+		custom_effect_tooltip = effect_applied_selected_tt
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Open_Stockpiles
+	icon = GFX_Focus_Machinegun
+	x = 2
+	y = 1
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Civil_War
+	}
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 2000
+			producer = ROOT
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Mobilization
+	icon = GFX_goal_Focus_Mass_Assault_Doctrine
+	x = 5
+	y = 2
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Civil_War
+	}
+
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = service_by_requirement
+			}
+			swap_ideas = {
+				remove_idea = service_by_requirement
+				add_idea = all_adults_serve
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_raid_oil_depots
+	icon = GFX_goal_Generic_Oil_Production
+	x = 7
+	y = 2
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Civil_War
+	}
+
+	completion_reward = {
+		add_fuel = 40000
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Control_Economy
+	icon = GFX_goal_Focus_GER_German_Empire_Adapt_Constitution
+	x = 8
+	y = 1
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Civil_War
+	}
+
+	completion_reward = {
+		add_ideas = war_economy
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Toyota_War
+	icon = GFX_goal_LBA_Toyota_War
+	x = 1
+	y = 2
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Open_Stockpiles
+	}
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 1000
+			producer = ROOT
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Taureg_Support
+	icon = GFX_goal_LBA_Taureg_Support
+	x = 4
+	y = 3
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Mobilization
+	}
+
+	completion_reward = {
+		add_ideas = RWE_LBA_Taureg_Support
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Nationalize_Oil
+	icon = GFX_goal_Generic_Oil_Concern
+	x = 6
+	y = 3
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Mobilization
+	}
+
+	completion_reward = {
+		add_ideas = RWE_LBA_Oil_Reserves
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Nationalize_Foreign_Interests
+	icon = GFX_goal_generic_infrastructure_control
+	x = 9
+	y = 2
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Control_Economy
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Amnesty_for_Service
+	icon = GFX_goal_generic_gun_capture
+	x = 2
+	y = 3
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Toyota_War
+	}
+
+	completion_reward = {
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id = LBA_censor_third_positionism
+	icon = GFX_goal_Focus_Generic_Press_Censorship
+	x = 3
+	y = 2
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	available = {
+		NOT = {
+			has_government = national_bolshevik
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Civil_War
+	}
+
+	completion_reward = {
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = -0.2
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Further_Centralization
+	icon = GFX_Focus_Central_Planned_Economy
+	x = 8
+	y = 3
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Nationalize_Foreign_Interests
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Autarky
+	icon = GFX_Goal_no_gambol
+	x = 5
+	y = 4
+
+	cost = 2
+
+	bypass = {
+		NOT = {
+			AND = {
+				has_global_flag = libyan_civil_war
+				has_war = yes
+			}
+		}
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Taureg_Support
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Nationalize_Oil
+	}
+
+	completion_reward = {
+		add_ideas = closed_economy
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_victorious
+	icon = GFX_goal_GNS_Unitary_Government
+	x = 5
+	y = 5
+
+	cost = 2
+
+	bypass = {
+		has_global_flag = libyan_civil_war
+		has_war = no
+	}
+
+	available = {
+		always = no
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Autarky
+	}
+
+	prerequisite = {
+		focus = LBA_shared_Nationalize_Oil
+	}
+
+	completion_reward = {
+		custom_effect_tooltip = LBA_united_tt
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_No_Going_Home
+	icon = GFX_goal_Generic_Construction
+	x = 0
+	y = 6
+
+	cost = 8
+
+	prerequisite = {
+		focus = LBA_shared_victorious
+	}
+
+	available = {
+	}
+
+	bypass = {
+	}
+
+	mutually_exclusive = {
+		focus = LBA_shared_Economic_Recovery
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = RWE_LBA_Civil_War_Recovery
+			add_idea = RWE_LBA_Civil_War_Recovery1
+		}
+		add_stability = -0.1
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Economic_Recovery
+	icon = GFX_goal_generic_demobilisation
+	x = 2
+	y = 6
+
+	cost = 8
+
+	prerequisite = {
+		focus = LBA_shared_victorious
+	}
+
+	available = {
+	}
+
+	bypass = {
+	}
+
+	mutually_exclusive = {
+		focus = LBA_shared_No_Going_Home
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = RWE_LBA_Civil_War_Recovery
+			add_idea = RWE_LBA_Civil_War_Recovery1
+		}
+		if = {
+			limit = {
+				OR = {
+					has_idea = extensive_conscription
+					has_idea = service_by_requirement
+					has_idea = all_adults_serve
+					has_idea = scraping_the_barrel
+				}
+			}
+			add_ideas = limited_conscription
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Economic_Recovery_2
+	icon = GFX_goal_Focus_Export_Economy
+	x = 2
+	y = 7
+
+	cost = 8
+
+	prerequisite = {
+		focus = LBA_shared_Economic_Recovery
+	}
+
+	available = {
+	}
+
+	bypass = {
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = RWE_LBA_Civil_War_Recovery1
+			add_idea = RWE_LBA_Civil_War_Recovery2
+		}
+		if = {
+			limit = {
+				has_idea = export_focus
+			}
+			add_ideas = free_trade
+			else = {
+				add_ideas = export_focus
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Economic_Recovery_3
+	icon = GFX_goal_Generic_Economic_Control_Red
+	x = 2
+	y = 8
+
+	cost = 8
+
+	prerequisite = {
+		focus = LBA_shared_Economic_Recovery_2
+	}
+
+	available = {
+	}
+
+	bypass = {
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = RWE_LBA_Civil_War_Recovery2
+			add_idea = RWE_LBA_Civil_War_Recovery3
+		}
+		if = {
+			limit = {
+				OR = {
+					has_idea = partial_economic_mobilisation
+					has_idea = war_economy
+					has_idea = tot_economic_mobilisation
+				}
+			}
+			add_ideas = low_economic_mobilisation
+		}
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Economic_Recovery_4
+	icon = GFX_goal_Generic_Economic_Stuff
+	x = 2
+	y = 9
+
+	cost = 8
+
+	prerequisite = {
+		focus = LBA_shared_Economic_Recovery_3
+	}
+
+	available = {
+	}
+
+	bypass = {
+	}
+
+	mutually_exclusive = {
+		focus = LBA_shared_Unrelenting_Progress
+	}
+
+	completion_reward = {
+		remove_ideas = RWE_LBA_Civil_War_Recovery3
+	}
+}
+
+shared_focus = {
+	id = LBA_shared_Unrelenting_Progress
+	icon = GFX_goal_Generic_Factory_Planning
+	x = 0
+	y = 9
+
+	cost = 8
+
+	prerequisite = {
+		focus = LBA_shared_Economic_Recovery_3
+	}
+
+	available = {
+	}
+
+	bypass = {
+	}
+
+	mutually_exclusive = {
+		focus = LBA_shared_Economic_Recovery_4
+	}
+
+	completion_reward = {
+		add_timed_idea = {
+			idea = RWE_LBA_Five_Year_Plan
+			days = 1825
+		}
+	}
+}

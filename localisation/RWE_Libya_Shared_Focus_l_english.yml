@@ -1,0 +1,85 @@
+﻿l_english:
+
+  ### Focuses
+
+  libyan_civil_war:0 "Libyan Civil War ongoing!"
+
+  LBA_shared_Civil_War:0 "Weathering the Storm"
+  LBA_shared_Civil_War_desc:0 ""
+
+  LBA_shared_Open_Stockpiles:0 "All Arms for Libyans"
+  LBA_shared_Open_Stockpiles_desc:0 ""
+
+  LBA_shared_Mobilization:0 "Mobilize Libya"
+  LBA_shared_Mobilization_desc:0 ""
+
+  LBA_shared_Control_Economy:0 "Consolidate Our Assets"
+  LBA_shared_Control_Economy_desc:0 ""
+
+  LBA_shared_Toyota_War:0 "Motorize Our Army"
+  LBA_shared_Toyota_War_desc:0 ""
+
+  LBA_shared_Taureg_Support:0 "Hire Tuareg Mercenaries"
+  LBA_shared_Taureg_Support_desc:0 ""
+
+  LBA_shared_Nationalize_Oil:0 "Ration Black Gold"
+  LBA_shared_Nationalize_Oil_desc:0 ""
+
+  LBA_shared_Nationalize_Foreign_Interests:0 "Seize Foreign Assets"
+  LBA_shared_Nationalize_Foreign_Interests_desc:0 ""
+
+  LBA_shared_Amnesty_for_Service:0 "Expand National Conscription"
+  LBA_shared_Amnesty_for_Service_desc:0 ""
+
+  LBA_shared_Autarky:0 "Limit Foreign Trades"
+  LBA_shared_Autarky_desc:0 ""
+
+  LBA_shared_Further_Centralization:0 "Centralize the War Effort"
+  LBA_shared_Further_Centralization_desc:0 ""
+
+  LBA_shared_glorious_offensive:0 "The Glorious Offensive"
+  LBA_shared_glorious_offensive_desc:0 ""
+
+  LBA_shared_last_stand:0 "Our Final Stand"
+  LBA_shared_last_stand_desc:0 ""
+
+  LBA_censor_third_positionism:0 "Censor Third Positionism"
+  LBA_censor_third_positionism_desc:0 ""
+
+  LBA_raid_oil_depots:0 "Raid Oil Depots"
+  LBA_raid_oil_depots_desc:0 ""
+
+  LBA_shared_victorious:0 "[ROOT.GetLeader] Victorious!"
+  LBA_shared_victorious_desc:0 ""
+
+  LBA_shared_Economic_Recovery:0 "Healing The Nation"
+  LBA_shared_Economic_Recovery_desc:0 ""
+
+  LBA_shared_Economic_Recovery_2:0 "Reopening Oil Exports"
+  LBA_shared_Economic_Recovery_2_desc:0 ""
+
+  LBA_shared_Economic_Recovery_3:0 "Demobilizing Libya"
+  LBA_shared_Economic_Recovery_3_desc:0 ""
+
+  LBA_shared_Economic_Recovery_4:0 "Return to Normalcy"
+  LBA_shared_Economic_Recovery_4_desc:0 ""
+
+  LBA_shared_Unrelenting_Progress:0 "Unrelenting Progress"
+  LBA_shared_Unrelenting_Progress_desc:0 ""
+
+  LBA_shared_No_Going_Home:0 "No Going Home"
+  LBA_shared_No_Going_Home_desc:0 ""
+
+  ### Ideas
+
+  RWE_LBA_offensive:0 "Offensive For Libya"
+  RWE_LBA_defensive:0 "Last Stand For Libya"
+
+  #arab_islamic_republic.22.t:0 "Libyan Rapproachment"
+  #arab_islamic_republic.22.d:0 ""
+  #arab_islamic_republic.22.a:0 "We're amenable to the idea"
+  #arab_islamic_republic.22.b:0 "Absolutely not"
+
+  #RWE_LBA_Foreign_Policy_allowed_tt:0 "§YUnlocks§! £decision_icon_small Foreign Policy Branch"
+  effect_applied_selected_tt:0 "§YEffect applied upon selection!§!"
+  LBA_united_tt:0 "This focus is §Yunlocked§! when Libya is united once more."

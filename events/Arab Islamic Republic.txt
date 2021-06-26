@@ -496,6 +496,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -563,6 +564,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -643,6 +645,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -710,6 +713,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -788,6 +792,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -853,6 +858,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -923,7 +929,7 @@ country_event = {
 			transfer_state = 940
 			transfer_state = 916
 			transfer_state = 915
-			transfer_state = 662
+			transfer_state = 273
 		}
 		hidden_effect = {
 		    RAL = {
@@ -931,6 +937,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -988,7 +995,7 @@ country_event = {
 			transfer_state = 940
 			transfer_state = 916
 			transfer_state = 915
-			transfer_state = 662
+			transfer_state = 273
 		}
 		hidden_effect = {
 		    RAL = {
@@ -996,6 +1003,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -1054,6 +1062,12 @@ country_event = {
 	picture = libyan_revsocs
 	
 	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = libyan_civil_war
+		}
+	}
 	
 	option = {  
 		name = arab_islamic_republic.20.o1
@@ -1072,6 +1086,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -1192,6 +1207,7 @@ country_event = {
 				remove_ideas = limited_conscription
 				remove_ideas = extensive_conscription
 				add_ideas = service_by_requirement
+				add_manpower = 10000
 			}
 		}
 		hidden_effect = {
@@ -1298,6 +1314,7 @@ country_event = {
 	
 	option = {
 		add_ideas = idea_libyan_civil_war
+		set_global_flag = libyan_civil_war
 	}
 }
 
@@ -1404,7 +1421,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				ROOT = {
-					has_ideology = fascist
+					has_government = fascist
 				}
 			}
 		}
@@ -1447,7 +1464,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				ROOT = {
-					has_ideology = fascist
+					has_government = fascist
 				}
 			}
 		}
@@ -1490,7 +1507,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				ROOT = {
-					has_ideology = fascist
+					has_government = fascist
 				}
 			}
 		}
@@ -1533,7 +1550,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				ROOT = {
-					has_ideology = fascist
+					has_government = fascist
 				}
 			}
 		}
@@ -1582,7 +1599,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				ROOT = {
-					has_ideology = fascist
+					has_government = fascist
 				}
 			}
 		}
