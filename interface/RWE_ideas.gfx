@@ -51,10 +51,13 @@ spriteTypes = {
 		name = "GFX_idea_LIN_White_Socialism"
 		texturefile = "gfx/interface/ideas/LIN_White_Socialism.tga"			
 	}
-
 	SpriteType = {
 		name = "GFX_idea_USA_One_Last_Gamble"
 		texturefile = "gfx/interface/ideas/USA_One_Last_Gamble.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_Corporate_Influence"
+		texturefile = "gfx/interface/ideas/USA_Corporate_Influence.tga"			
 	}
 	SpriteType = {
 		name = "GFX_idea_RWE_MOT_Militia_Army"

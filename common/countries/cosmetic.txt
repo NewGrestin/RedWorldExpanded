@@ -258,6 +258,7 @@ VER_Anarchy = {
 	color_ui = rgb { 95 101 95 }
 }
 
+<<<<<<< HEAD
 AMC_CAN = {
 	color = rgb { 187 69 47 }
 	color_ui = rgb { 187 69 47 }
@@ -422,4 +423,3 @@ MEX_TEX_Autonomy = {
 	color = rgb { 0 104 7 }
 	color_ui = rgb { 115 115 115 }
 }
-

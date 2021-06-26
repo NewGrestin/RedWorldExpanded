@@ -8,7 +8,11 @@ guiTypes = {
 		Origo = center
 		clipping = no	
 		moveable = yes
-
+		iconType = {
+			name ="Super_Event_Image_American_Reunification_McDonalds"
+			spriteType = "GFX_SPEVNT_American_Reunification_McDonalds"
+			position = { x = -10 y = 10 }
+		}
 		iconType = {
 			name ="Super_Event_Image_American_Reunification_Coffee"
 			spriteType = "GFX_SPEVNT_American_Reunification_Coffee"
