@@ -1707,3 +1707,8 @@ VER = {
 	color = rgb { 43 50 43 }
 	color_ui = rgb { 43 50 43 }
 }
+
+OKL = {
+	color = rgb { 82 88 124 }
+	color_ui = rgb { 82 88 124 }
+}
