@@ -1,0 +1,73 @@
+##################
+# OKLAHOMA IDEAS
+##################
+
+ideas = {
+
+	country = {
+		RWE_OKL_Future_of_Oklahoma = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Future_of_Oklahoma
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.2
+			war_support_factor = -0.2
+			}
+		}
+
+		RWE_OKL_Rural_Poverty = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = -0.25
+			consumer_goods_factor = 0.2
+			monthly_population = -0.2
+			}
+		}
+
+		RWE_OKL_KKK_Terrorism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_KKK
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_weekly = -0.01
+			conscription_factor = -0.05
+			fascist_drift = 0.01
+			}
+		}
+	}
+}

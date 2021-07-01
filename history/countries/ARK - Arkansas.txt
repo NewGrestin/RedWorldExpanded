@@ -1,6 +1,6 @@
-﻿capital = 374
+﻿capital = 372
 
-oob = "OKL_2000"
+oob = "ARK_2000"
 
 #if = {
 #	limit = { has_dlc = "Man the Guns" }
@@ -10,9 +10,7 @@ oob = "OKL_2000"
 #	}
 #}
 add_ideas = {
-RWE_OKL_Future_of_Oklahoma 
-RWE_OKL_Rural_Poverty 
-RWE_OKL_KKK_Terrorism 
+
 }
 
 set_research_slots = 2
@@ -93,7 +91,7 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = centrist
+	ruling_party = national_conservative
 	last_election = "1997.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -101,56 +99,20 @@ set_politics = {
 
 set_popularities = { #90
         fascist = 8
-		nationalist = 2
+		nationalist = 0
 		monarchist = 0
 		national_bolshevik = 0
-		national_conservative = 32
-		centrist = 8
-		liberal = 30
-		new_democrat = 17
-		moderate_socialist = 3
+		national_conservative = 100
+		centrist = 0
+		liberal = 0
+		new_democrat = 0
+		moderate_socialist = 0
 		revolutionary_socialist = 0
 		communist = 0
 }
 
 create_country_leader = {
-	name = "Joseph A. Schreibvogel"
-	picture = "gfx/leaders/OKL/portrait_OKL_Joe.tga"
-	ideology = left_libertarian 
-}
-
-create_country_leader = {
-	name = "Rick Saccone"
-	picture = "gfx/leaders/OKL/portrait_OKL_Saccone.tga"
-	ideology = american_nationalist 
-}
-
-create_country_leader = {
-	name = "Mary Fallin"
-	picture = "gfx/leaders/OKL/portrait_OKL_Fallin.tga"
+	name = "Tom Cotton"
+	picture = "gfx/leaders/OKL/portrait_ARK_Tom_Cotton.tga"
 	ideology = american_conservative 
-}
-
-create_country_leader = {
-	name = "Oklahoma House of Representatives"
-	picture = "gfx/leaders/OKL/portrait_OKL_Parliament.tga"
-	ideology = centrist_populist 
-}
-
-create_country_leader = {
-	name = "Cornel West"
-	picture = "gfx/leaders/OKL/portrait_OKL_West.tga"
-	ideology = democratic_socialist 
-}
-
-create_country_leader = {
-	name = "Constance N. Johnson"
-	picture = "gfx/leaders/OKL/portrait_OKL_Johnson.tga"
-	ideology = new_democrat_ideology 
-}
-
-create_country_leader = {
-	name = "Johny Lee Clary"
-	picture = "gfx/leaders/OKL/portrait_OKL_Clary.tga"
-	ideology = fascist_ideology 
 }

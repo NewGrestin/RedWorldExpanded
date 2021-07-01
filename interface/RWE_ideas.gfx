@@ -7,14 +7,22 @@ spriteTypes = {
 		name = "GFX_LIN_Nazbol_Icon"
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
-
-
+	SpriteType = {
+		name = "GFX_idea_OKL_Future_of_Oklahoma"
+		texturefile = "gfx/interface/ideas/OKL_Future_of_Oklahoma.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_OKL_Rural_Poverty"
+		texturefile = "gfx/interface/ideas/OKL_Rural_Poverty.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_OKL_KKK"
+		texturefile = "gfx/interface/ideas/OKL_KKK.tga"			
+	}
 	SpriteType = {
 		name = "GFX_idea_LIN_Culture_of_Conspiracy"
 		texturefile = "gfx/interface/ideas/LIN_Culture_of_Conspiracy.tga"			
 	}
-
-
 	SpriteType = {
 		name = "GFX_idea_LIN_Civil_War"
 		texturefile = "gfx/interface/ideas/LIN_Civil_War.tga"			

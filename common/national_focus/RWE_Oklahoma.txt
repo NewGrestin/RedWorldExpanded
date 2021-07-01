@@ -13,7 +13,7 @@ focus_tree = {
 
 	focus = {
 		id = OKL_The_Libertarian_Tiger
-		icon = GFX_goal
+		icon = GFX_goal_OKL_Joe_Exotic
 		available = { }
 		x = 3
 		y = 0
@@ -43,7 +43,7 @@ focus_tree = {
 
 	focus = {
 		id = OKL_Decriminalize_Homosexuality
-		icon = GFX_goal
+		icon = GFX_goal_generic_Rainbow
 		available = { }
 		x = 4
 		y = 1
@@ -58,7 +58,7 @@ focus_tree = {
 
 	focus = {
 		id = OKL_Stick_it_with_Animal_Rights
-		icon = GFX_goal
+		icon = GFX_goal_generic_Animal_Rights
 		available = { }
 		x = 3
 		y = 2
@@ -88,7 +88,7 @@ focus_tree = {
 
 	focus = {
 		id = OKL_Right_to_Bears_and_Arms
-		icon = GFX_goal
+		icon = GFX_goal_OKL_Bears_and_Arms
 		available = { }
 		x = 1
 		y = 2
@@ -116,3 +116,107 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = OKL_Bringing_a_Pink_Wave
+		icon = GFX_goal_OKL_Rose
+		available = { }
+		x = 9
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Oklahoma_Literacy_Program
+		icon = GFX_goal_OKL_Literacy
+		available = { }
+		x = 8
+		y = 1
+		prerequisite = { focus = OKL_Bringing_a_Pink_Wave }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Expand_Child_Care
+		icon = GFX_goal_generic_Child_Care
+		available = { }
+		x = 7
+		y = 2
+		prerequisite = { focus = OKL_Oklahoma_Literacy_Program }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Copy_the_Scandinavian_Model
+		icon = increase_healthcare_coverage
+		available = { }
+		x = 9
+		y = 2
+		prerequisite = { focus = OKL_Reform_Drug_Legislation focus = OKL_Oklahoma_Literacy_Program }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Limit_Oklahoma_Xenophobia
+		icon = GFX_goal_generic_Racism_Bill
+		available = { }
+		x = 11
+		y = 2
+		prerequisite = { focus = OKL_Reform_Drug_Legislation }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Reform_Drug_Legislation
+		icon = GFX_goal_LIN_Substances
+		available = { }
+		x = 10
+		y = 1
+		prerequisite = { focus = OKL_Bringing_a_Pink_Wave }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Red_Buffalo_of_Oklahoma
+		icon = GFX_goal_OKL_Pink_Oklahoma
+		available = { }
+		x = 9
+		y = 3
+		prerequisite = { focus = OKL_Expand_Child_Care focus = OKL_Copy_the_Scandinavian_Model focus = OKL_Limit_Oklahoma_Xenophobia }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}

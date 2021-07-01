@@ -1737,3 +1737,8 @@ NAF = {
 	color = rgb { 186 28 28 }
 	color_ui = rgb { 186 28 28 }
 }
+
+ARK = {
+	color = rgb { 204 142 102 }
+	color_ui = rgb { 204 142 102 }
+}

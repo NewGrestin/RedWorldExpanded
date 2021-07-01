@@ -1,8 +1,45 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_OKL_Pink_Oklahoma"
+		texturefile = "gfx/interface/goals/OKL_Pink_Oklahoma.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_OKL_Rose"
+		texturefile = "gfx/interface/goals/OKL_Rose.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_OKL_Literacy"
+		texturefile = "gfx/interface/goals/OKL_Literacy.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_OKL_Bears_and_Arms"
+		texturefile = "gfx/interface/goals/OKL_Bears_and_Arms.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Child_Care"
+		texturefile = "gfx/interface/goals/Generic_Child_Care.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Racism_Bill"
+		texturefile = "gfx/interface/goals/Generic_Racism_Bill.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Animal_Rights"
+		texturefile = "gfx/interface/goals/Generic_Animal_Rights.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Rainbow"
+		texturefile = "gfx/interface/goals/Generic_Rainbow.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_OKL_Exotic_Oklahoma"
 		texturefile = "gfx/interface/goals/OKL_Exotic_Oklahoma.tga"			
 	}
+	SpriteType = {
+		name = "GFX_goal_OKL_Joe_Exotic"
+		texturefile = "gfx/interface/goals/OKL_Joe_Exotic.tga"			
+	}
+
 	SpriteType = {
 		name = "GFX_goal_LIN_Prison"
 		texturefile = "gfx/interface/goals/LIN_Prison.tga"			
