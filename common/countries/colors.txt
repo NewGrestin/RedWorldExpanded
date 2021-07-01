@@ -1658,7 +1658,7 @@ LOU = {
 	color_ui = rgb { 43 50 43 }
 }
 
-CSA = {
+TSC = {
 	color = rgb { 43 50 43 }
 	color_ui = rgb { 43 50 43 }
 }
@@ -1711,4 +1711,29 @@ VER = {
 OKL = {
 	color = rgb { 82 88 124 }
 	color_ui = rgb { 82 88 124 }
+}
+
+CAR = {
+	color = rgb { 101 156 118 }
+	color_ui = rgb { 101 156 118 }
+}
+
+FLO = {
+	color = rgb { 186 144 102 }
+	color_ui = rgb { 186 144 102 }
+}
+
+VIR = {
+	color = rgb { 113 186 102 }
+	color_ui = rgb { 113 186 102 }
+}
+
+TEN = {
+	color = rgb { 131 102 186 }
+	color_ui = rgb { 131 102 186 }
+}
+
+NAF = {
+	color = rgb { 186 28 28 }
+	color_ui = rgb { 186 28 28 }
 }

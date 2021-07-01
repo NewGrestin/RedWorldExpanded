@@ -23,6 +23,9 @@ country_event = {		#Victory over the Spencerites
 
 	trigger = {
         tag = MOT
+		MOT = {
+			is_subject = no
+		}
         OR = {
             NOT = {
                 country_exists = LIN

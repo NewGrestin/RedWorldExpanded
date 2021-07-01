@@ -1,4 +1,4 @@
-﻿capital = 367
+﻿capital = 366
 
 oob = "NA"
 
@@ -77,20 +77,20 @@ set_politics = {
 
 set_popularities = {
 	fascist = 0
-	nationalist = 39
+	nationalist = 43
 	monarchist = 0
 	national_bolshevik = 0
-	national_conservative = 24
-	centrist = 17
-	liberal = 10
-	new_democrat = 10
+	national_conservative = 9
+	centrist = 0
+	liberal = 0
+	new_democrat = 0
 	moderate_socialist = 0
-	revolutionary_socialist = 0
-	communist = 0
+	revolutionary_socialist = 8
+	communist = 40
 }
 
 create_country_leader = {
-	name = "Lynn Fitch"
-	picture = "Portrait_CSA_Fitch.dds"
+	name = "Lori Robinson"
+	picture = "Portrait_APP_Robinson.dds"
 	ideology = american_nationalist
 }

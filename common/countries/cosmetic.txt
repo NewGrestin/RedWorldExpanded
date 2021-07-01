@@ -423,3 +423,13 @@ MEX_TEX_Autonomy = {
 	color = rgb { 0 104 7 }
 	color_ui = rgb { 115 115 115 }
 }
+
+CSA_AR_Collapse = {
+	color = rgb { 50 114 173 }
+	color_ui = rgb { 50 114 173 }
+}
+
+LOU_AR_Collapse = {
+	color = rgb { 173 88 88 }
+	color_ui = rgb { 173 88 88 }
+}

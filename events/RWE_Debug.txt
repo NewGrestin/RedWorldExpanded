@@ -649,7 +649,7 @@ country_event = { #Super Event Test
     }
 }
 
-country_event = { #Super Event Test
+country_event = { #American Republic Collapse Test
 	id = debug.8
 	title = debug.8.t
 	desc = debug.8.d
@@ -665,7 +665,97 @@ country_event = { #Super Event Test
 			factor = 100
 		}
 
-        set_global_flag = Super_Event_Visible
-        set_global_flag = GLOBAL_Fall_of_the_UAR_VISIBLE
+		USA = {
+			remove_state_core = 900
+			remove_state_core = 374
+			remove_state_core = 371
+			remove_state_core = 372
+			remove_state_core = 370
+			remove_state_core = 367
+			remove_state_core = 364
+			remove_state_core = 363
+			remove_state_core = 366
+			remove_state_core = 901
+			remove_state_core = 368
+			remove_state_core = 369
+			remove_state_core = 362
+			remove_state_core = 1021
+
+			set_cosmetic_tag = USA_AR_Collapse
+
+			load_focus_tree = generic_focus
+		}
+
+		TEX = {
+			transfer_state = 900
+		}
+
+		OKL = {
+			transfer_state = 374
+		}
+
+		LOU = {
+			transfer_state = 371
+			add_state_core = 371
+
+			set_cosmetic_tag = LOU_AR_Collapse
+		}
+
+		TSC = {
+			transfer_state = 372
+			transfer_state = 370
+			transfer_state = 367
+
+			add_state_core = 372
+			add_state_core = 370
+			add_state_core = 367
+
+			set_cosmetic_tag = CSA_AR_Collapse
+		}
+
+		CAR = {
+			transfer_state = 364
+			transfer_state = 363
+
+			add_state_core = 364
+			add_state_core = 363
+
+			set_cosmetic_tag = CAR_AR_Collapse
+		}
+
+		FLO = {
+			transfer_state = 366
+
+			add_state_core = 366
+
+			set_cosmetic_tag = FLO_AR_Collapse
+		}
+
+		CLM = {
+			transfer_state = 901
+
+			add_state_core = 901
+		}
+
+		TEN = {
+			transfer_state = 368
+			transfer_state = 369
+
+			add_state_core = 368
+			add_state_core = 369
+
+			set_cosmetic_tag = TEN_AR_Collapse
+		}
+
+		VIR = {
+			transfer_state = 362
+
+			add_state_core = 362
+		}
+
+		NAF = {
+			transfer_state = 1021
+			add_state_core = 1021
+		}
     }
 }

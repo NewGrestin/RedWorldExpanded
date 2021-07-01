@@ -10188,39 +10188,39 @@
  LOU_revolutionary_socialist_ADJ:0 "Louisianan"
  LOU_communist_ADJ:0 "Louisianan"
 
- CSA_fascist:0 "United Tri-State Confederacy"
- CSA_fascist_DEF:0 "United Tri-State Confederacy"
- CSA_nationalist:0 "United Tri-State Confederacy"
- CSA_nationalist_DEF:0 "United Tri-State Confederacy"
- CSA_monarchist:0 "United Tri-State Confederacy"
- CSA_monarchist_DEF:0 "United Tri-State Confederacy"
- CSA_national_bolshevik:0 "United Tri-State Confederacy"
- CSA_national_bolshevik_DEF:0 "United Tri-State Confederacy"
- CSA_national_conservative:0 "United Tri-State Confederacy"
- CSA_national_conservative_DEF:0 "United Tri-State Confederacy"
- CSA_centrist:0 "United Tri-State Confederacy"
- CSA_centrist_DEF:0 "United Tri-State Confederacy"
- CSA_liberal:0 "United Tri-State Confederacy"
- CSA_liberal_DEF:0 "United Tri-State Confederacy"
- CSA_new_democrat:0 "United Tri-State Confederacy"
- CSA_new_democrat_DEF:0 "United Tri-State Confederacy"
- CSA_moderate_socialist:0 "United Tri-State Confederacy"
- CSA_moderate_socialist_DEF:0 "United Tri-State Confederacy"
- CSA_revolutionary_socialist:0 "United Tri-State Confederacy"
- CSA_revolutionary_socialist_DEF:0 "United Tri-State Confederacy"
- CSA_communist:0 "United Tri-State Confederacy"
- CSA_communist_DEF:0 "United Tri-State Confederacy"
- CSA_fascist_ADJ:0 "Confederate"
- CSA_nationalist_ADJ:0 "Confederate"
- CSA_monarchist_ADJ:0 "Confederate"
- CSA_national_bolshevik_ADJ:0 "Confederate"
- CSA_national_conservative_ADJ:0 "Confederate"
- CSA_centrist_ADJ:0 "Confederate"
- CSA_liberal_ADJ:0 "Confederate"
- CSA_new_democrat_ADJ:0 "Confederate"
- CSA_moderate_socialist_ADJ:0 "Confederate"
- CSA_revolutionary_socialist_ADJ:0 "Confederate"
- CSA_communist_ADJ:0 "Confederate"
+ TSC_fascist:0 "United Tri-State Confederacy"
+ TSC_fascist_DEF:0 "United Tri-State Confederacy"
+ TSC_nationalist:0 "United Tri-State Confederacy"
+ TSC_nationalist_DEF:0 "United Tri-State Confederacy"
+ TSC_monarchist:0 "United Tri-State Confederacy"
+ TSC_monarchist_DEF:0 "United Tri-State Confederacy"
+ TSC_national_bolshevik:0 "United Tri-State Confederacy"
+ TSC_national_bolshevik_DEF:0 "United Tri-State Confederacy"
+ TSC_national_conservative:0 "United Tri-State Confederacy"
+ TSC_national_conservative_DEF:0 "United Tri-State Confederacy"
+ TSC_centrist:0 "United Tri-State Confederacy"
+ TSC_centrist_DEF:0 "United Tri-State Confederacy"
+ TSC_liberal:0 "United Tri-State Confederacy"
+ TSC_liberal_DEF:0 "United Tri-State Confederacy"
+ TSC_new_democrat:0 "United Tri-State Confederacy"
+ TSC_new_democrat_DEF:0 "United Tri-State Confederacy"
+ TSC_moderate_socialist:0 "United Tri-State Confederacy"
+ TSC_moderate_socialist_DEF:0 "United Tri-State Confederacy"
+ TSC_revolutionary_socialist:0 "United Tri-State Confederacy"
+ TSC_revolutionary_socialist_DEF:0 "United Tri-State Confederacy"
+ TSC_communist:0 "United Tri-State Confederacy"
+ TSC_communist_DEF:0 "United Tri-State Confederacy"
+ TSC_fascist_ADJ:0 "Confederate"
+ TSC_nationalist_ADJ:0 "Confederate"
+ TSC_monarchist_ADJ:0 "Confederate"
+ TSC_national_bolshevik_ADJ:0 "Confederate"
+ TSC_national_conservative_ADJ:0 "Confederate"
+ TSC_centrist_ADJ:0 "Confederate"
+ TSC_liberal_ADJ:0 "Confederate"
+ TSC_new_democrat_ADJ:0 "Confederate"
+ TSC_moderate_socialist_ADJ:0 "Confederate"
+ TSC_revolutionary_socialist_ADJ:0 "Confederate"
+ TSC_communist_ADJ:0 "Confederate"
 
  ATM_fascist:0 "Southern Aryan Vanguard"
  ATM_fascist_DEF:0 "Southern Aryan Vanguard"
@@ -10561,3 +10561,229 @@
  OKL_communist:0 "Oklahoma"
  OKL_communist_DEF:0 "Oklahoma"
  OKL_communist_ADJ:0 "Oklahoman"
+
+ CAR_fascist:0 "United Carolina Republic"
+ CAR_fascist_DEF:0 "United Carolina Republic"
+
+ CAR_nationalist:0 "United Carolina Republic"
+ CAR_nationalist_DEF:0 "United Carolina Republic"
+
+ CAR_monarchist:0 "United Carolina Republic"
+ CAR_monarchist_DEF:0 "United Carolina Republic"
+
+ CAR_national_bolshevik:0 "United Carolina Republic"
+ CAR_national_bolshevik_DEF:0 "United Carolina Republic"
+
+ CAR_national_conservative:0 "United Carolina Republic"
+ CAR_national_conservative_DEF:0 "United Carolina Republic"
+
+ CAR_centrist:0 "United Carolina Republic"
+ CAR_centrist_DEF:0 "United Carolina Republic"
+
+ CAR_liberal:0 "United Carolina Republic"
+ CAR_liberal_DEF:0 "United Carolina Republic"
+
+ CAR_new_democrat:0 "United Carolina Republic"
+ CAR_new_democrat_DEF:0 "United Carolina Republic"
+
+ CAR_moderate_socialist:0 "United Carolina Republic"
+ CAR_moderate_socialist_DEF:0 "United Carolina Republic"
+
+ CAR_revolutionary_socialist:0 "United Carolina Republic"
+ CAR_revolutionary_socialist_DEF:0 "United Carolina Republic"
+
+ CAR_communist:0 "United Carolina Republic"
+ CAR_communist_DEF:0 "United Carolina Republic"
+ 
+ CAR_fascist_ADJ:0 "Carolinan"
+ CAR_nationalist_ADJ:0 "Carolinan"
+ CAR_monarchist_ADJ:0 "Carolinan"
+ CAR_national_bolshevik_ADJ:0 "Carolinan"
+ CAR_national_conservative_ADJ:0 "Carolinan"
+ CAR_centrist_ADJ:0 "Carolinan"
+ CAR_liberal_ADJ:0 "Carolinan"
+ CAR_new_democrat_ADJ:0 "Carolinan"
+ CAR_moderate_socialist_ADJ:0 "Carolinan"
+ CAR_revolutionary_socialist_ADJ:0 "Carolinan"
+ CAR_communist_ADJ:0 "Carolinan"
+
+
+ FLO_fascist:0 "Florida Republic"
+ FLO_fascist_DEF:0 "Florida Republic"
+
+ FLO_nationalist:0 "Florida Republic"
+ FLO_nationalist_DEF:0 "Florida Republic"
+
+ FLO_monarchist:0 "Florida Republic"
+ FLO_monarchist_DEF:0 "Florida Republic"
+
+ FLO_national_bolshevik:0 "Florida Republic"
+ FLO_national_bolshevik_DEF:0 "Florida Republic"
+
+ FLO_national_conservative:0 "Florida Republic"
+ FLO_national_conservative_DEF:0 "Florida Republic"
+
+ FLO_centrist:0 "Florida Republic"
+ FLO_centrist_DEF:0 "Florida Republic"
+
+ FLO_liberal:0 "Florida Republic"
+ FLO_liberal_DEF:0 "Florida Republic"
+
+ FLO_new_democrat:0 "Florida Republic"
+ FLO_new_democrat_DEF:0 "Florida Republic"
+
+ FLO_moderate_socialist:0 "Florida Republic"
+ FLO_moderate_socialist_DEF:0 "Florida Republic"
+
+ FLO_revolutionary_socialist:0 "Florida Republic"
+ FLO_revolutionary_socialist_DEF:0 "Florida Republic"
+
+ FLO_communist:0 "Florida Republic"
+ FLO_communist_DEF:0 "Florida Republic"
+
+ FLO_fascist_ADJ:0 "Floridian"
+ FLO_nationalist_ADJ:0 "Floridian"
+ FLO_monarchist_ADJ:0 "Floridian"
+ FLO_national_bolshevik_ADJ:0 "Floridian"
+ FLO_national_conservative_ADJ:0 "Floridian"
+ FLO_centrist_ADJ:0 "Floridian"
+ FLO_liberal_ADJ:0 "Floridian"
+ FLO_new_democrat_ADJ:0 "Floridian"
+ FLO_moderate_socialist_ADJ:0 "Floridian"
+ FLO_revolutionary_socialist_ADJ:0 "Floridian"
+ FLO_communist_ADJ:0 "Floridian"
+
+ VIR_fascist:0 "Virginia Provisional Congress"
+ VIR_fascist_DEF:0 "Virginia Provisional Congress"
+
+ VIR_nationalist:0 "Virginia Provisional Congress"
+ VIR_nationalist_DEF:0 "Virginia Provisional Congress"
+
+ VIR_monarchist:0 "Virginia Provisional Congress"
+ VIR_monarchist_DEF:0 "Virginia Provisional Congress"
+
+ VIR_national_bolshevik:0 "Virginia Provisional Congress"
+ VIR_national_bolshevik_DEF:0 "Virginia Provisional Congress"
+
+ VIR_national_conservative:0 "Virginia Provisional Congress"
+ VIR_national_conservative_DEF:0 "Virginia Provisional Congress"
+
+ VIR_centrist:0 "Virginia Provisional Congress"
+ VIR_centrist_DEF:0 "Virginia Provisional Congress"
+
+ VIR_liberal:0 "Virginia Provisional Congress"
+ VIR_liberal_DEF:0 "Virginia Provisional Congress"
+
+ VIR_new_democrat:0 "Virginia Provisional Congress"
+ VIR_new_democrat_DEF:0 "Virginia Provisional Congress"
+
+ VIR_moderate_socialist:0 "Virginia Provisional Congress"
+ VIR_moderate_socialist_DEF:0 "Virginia Provisional Congress"
+
+ VIR_revolutionary_socialist:0 "Virginia Provisional Congress"
+ VIR_revolutionary_socialist_DEF:0 "Virginia Provisional Congress"
+
+ VIR_communist:0 "Virginia Provisional Congress"
+ VIR_communist_DEF:0 "Virginia Provisional Congress"
+
+ VIR_fascist_ADJ:0 "Virginian"
+ VIR_nationalist_ADJ:0 "Virginian"
+ VIR_monarchist_ADJ:0 "Virginian"
+ VIR_national_bolshevik_ADJ:0 "Virginian"
+ VIR_national_conservative_ADJ:0 "Virginian"
+ VIR_centrist_ADJ:0 "Virginian"
+ VIR_liberal_ADJ:0 "Virginian"
+ VIR_new_democrat_ADJ:0 "Virginian"
+ VIR_moderate_socialist_ADJ:0 "Virginian"
+ VIR_revolutionary_socialist_ADJ:0 "Virginian"
+ VIR_communist_ADJ:0 "Virginian"
+
+ TEN_fascist:0 "Tennessee River Republic"
+ TEN_fascist_DEF:0 "Tennessee River Republic"
+
+ TEN_nationalist:0 "Tennessee River Republic"
+ TEN_nationalist_DEF:0 "Tennessee River Republic"
+
+ TEN_monarchist:0 "Tennessee River Republic"
+ TEN_monarchist_DEF:0 "Tennessee River Republic"
+
+ TEN_national_bolshevik:0 "Tennessee River Republic"
+ TEN_national_bolshevik_DEF:0 "Tennessee River Republic"
+
+ TEN_national_conservative:0 "Tennessee River Republic"
+ TEN_national_conservative_DEF:0 "Tennessee River Republic"
+
+ TEN_centrist:0 "Tennessee River Republic"
+ TEN_centrist_DEF:0 "Tennessee River Republic"
+
+ TEN_liberal:0 "Tennessee River Republic"
+ TEN_liberal_DEF:0 "Tennessee River Republic"
+
+ TEN_new_democrat:0 "Tennessee River Republic"
+ TEN_new_democrat_DEF:0 "Tennessee River Republic"
+
+ TEN_moderate_socialist:0 "Tennessee River Republic"
+ TEN_moderate_socialist_DEF:0 "Tennessee River Republic"
+
+ TEN_revolutionary_socialist:0 "Tennessee River Republic"
+ TEN_revolutionary_socialist_DEF:0 "Tennessee River Republic"
+
+ TEN_communist:0 "Tennessee River Republic"
+ TEN_communist_DEF:0 "Tennessee River Republic"
+
+ TEN_fascist_ADJ:0 "Tenekentuckian"
+ TEN_nationalist_ADJ:0 "Tenekentuckian"
+ TEN_monarchist_ADJ:0 "Tenekentuckian"
+ TEN_national_bolshevik_ADJ:0 "Tenekentuckian"
+ TEN_national_conservative_ADJ:0 "Tenekentuckian"
+ TEN_centrist_ADJ:0 "Tenekentuckian"
+ TEN_liberal_ADJ:0 "Tenekentuckian"
+ TEN_new_democrat_ADJ:0 "Tenekentuckian"
+ TEN_moderate_socialist_ADJ:0 "Tenekentuckian"
+ TEN_revolutionary_socialist_ADJ:0 "Tenekentuckian"
+ TEN_communist_ADJ:0 "Tenekentuckian"
+
+ NAF_fascist:0 "New Afrika"
+ NAF_fascist_DEF:0 "New Afrika"
+
+ NAF_nationalist:0 "New Afrika"
+ NAF_nationalist_DEF:0 "New Afrika"
+
+ NAF_monarchist:0 "New Afrika"
+ NAF_monarchist_DEF:0 "New Afrika"
+
+ NAF_national_bolshevik:0 "New Afrika"
+ NAF_national_bolshevik_DEF:0 "New Afrika"
+
+ NAF_national_conservative:0 "New Afrika"
+ NAF_national_conservative_DEF:0 "New Afrika"
+
+ NAF_centrist:0 "New Afrika"
+ NAF_centrist_DEF:0 "New Afrika"
+
+ NAF_liberal:0 "New Afrika"
+ NAF_liberal_DEF:0 "New Afrika"
+
+ NAF_new_democrat:0 "New Afrika"
+ NAF_new_democrat_DEF:0 "New Afrika"
+
+ NAF_moderate_socialist:0 "New Afrika"
+ NAF_moderate_socialist_DEF:0 "New Afrika"
+
+ NAF_revolutionary_socialist:0 "New Afrika"
+ NAF_revolutionary_socialist_DEF:0 "New Afrika"
+
+ NAF_communist:0 "New Afrika"
+ NAF_communist_DEF:0 "New Afrika"
+
+ NAF_fascist_ADJ:0 "New Afrikan"
+ NAF_nationalist_ADJ:0 "New Afrikan"
+ NAF_monarchist_ADJ:0 "New Afrikan"
+ NAF_national_bolshevik_ADJ:0 "New Afrikan"
+ NAF_national_conservative_ADJ:0 "New Afrikan"
+ NAF_centrist_ADJ:0 "New Afrikan"
+ NAF_liberal_ADJ:0 "New Afrikan"
+ NAF_new_democrat_ADJ:0 "New Afrikan"
+ NAF_moderate_socialist_ADJ:0 "New Afrikan"
+ NAF_revolutionary_socialist_ADJ:0 "New Afrikan"
+ NAF_communist_ADJ:0 "New Afrikan"
