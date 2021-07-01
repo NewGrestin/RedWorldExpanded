@@ -16,7 +16,20 @@ RWE_2nd_Mexican_American_War = {
 	picture = GFX_decision_cat_Mex_America_War_Picture
 
 	allowed = { 
-		always = yes
+		OR = { 
+		tag = USA
+		tag = LIN
+		tag = MOT
+		tag = ILL
+		tag = PCA
+		tag = UTA
+		tag = ARI
+		tag = GRL
+		tag = TEX
+		tag = MWA
+		tag = NEA
+		tag = OKL
+		}
 	}
 
 	priority = 250

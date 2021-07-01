@@ -3,16 +3,20 @@ RWE_2nd_Mexican_American_War = {
 	RWE_Mex_America_War_White_Peace_Timeout = {
 		icon = generic_operation
 
-		available = {                         
-			MEX = {
-				owns_state = 376
-				owns_state = 894
-			}
+		activation = {  
+		has_country_flag = RWE_2nd_Mexican_American_War_Fired_for_Tag
 		}
 
+		allowed = { 
+		always = no 
+		}
+
+		available = { 
+		always = no 
+		}
 		is_good = no
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		cost = 0
 

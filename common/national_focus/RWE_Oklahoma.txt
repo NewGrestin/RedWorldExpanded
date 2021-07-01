@@ -1,0 +1,118 @@
+focus_tree = {
+	id = oklahoma_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = OKL
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+
+	focus = {
+		id = OKL_The_Libertarian_Tiger
+		icon = GFX_goal
+		available = { }
+		x = 3
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Selective_Gun_Ownership
+		icon = GFX_goal_LIN_Arm_the_Militias
+		available = { }
+		x = 2
+		y = 1
+		prerequisite = { focus = OKL_The_Libertarian_Tiger }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Decriminalize_Homosexuality
+		icon = GFX_goal
+		available = { }
+		x = 4
+		y = 1
+		prerequisite = { focus = OKL_The_Libertarian_Tiger }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Stick_it_with_Animal_Rights
+		icon = GFX_goal
+		available = { }
+		x = 3
+		y = 2
+		prerequisite = { focus = OKL_Decriminalize_Homosexuality focus = OKL_Selective_Gun_Ownership }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Right_to_Healthy_Living
+		icon = pill_testing
+		available = { }
+		x = 5
+		y = 2
+		prerequisite = { focus = OKL_Decriminalize_Homosexuality }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Right_to_Bears_and_Arms
+		icon = GFX_goal
+		available = { }
+		x = 1
+		y = 2
+		prerequisite = { focus = OKL_Selective_Gun_Ownership }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_An_Exotic_Oklahoma
+		icon = GFX_goal_OKL_Exotic_Oklahoma
+		available = { }
+		x = 3
+		y = 3
+		prerequisite = { focus = OKL_Right_to_Bears_and_Arms focus = OKL_Stick_it_with_Animal_Rights focus = OKL_Right_to_Healthy_Living }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
