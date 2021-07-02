@@ -22,7 +22,8 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = liberal popularity = 0.05 }
+		add_stability = 0.05 
 		}
 	}
 
@@ -37,7 +38,8 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_OKL_Rifle_by_your_Side }
+		add_popularity = { ideology = liberal popularity = 0.05 }
 		}
 	}
 
@@ -52,7 +54,10 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = fascist popularity = -0.05 }
+		remove_ideas = { RWE_OKL_KKK_Terrorism }
+		add_timed_idea = { idea = RWE_OKL_KKK_Terrorism_1 days = 300 }
+		
 		}
 	}
 
@@ -67,7 +72,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = new_democrat popularity = -0.1 }
+		add_stability = 0.05
+		add_political_power = 50
 		}
 	}
 
@@ -82,7 +89,8 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_OKL_Libertarian_Healthcare }
+		swap_ideas = { remove_idea = RWE_OKL_Rural_Poverty add_idea = RWE_OKL_Rural_Poverty_1 }
 		}
 	}
 
@@ -97,7 +105,7 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_OKL_Expanded_Civil_Rights }
 		}
 	}
 
@@ -112,7 +120,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		remove_ideas = { RWE_OKL_Future_of_Oklahoma }
+		add_popularity = { ideology = liberal popularity = 0.1 }
+		add_political_power = 150
 		}
 	}
 
@@ -127,7 +137,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = new_democrat popularity = 0.05 }
+		add_stability = 0.07
+		add_war_support = -0.05
 		}
 	}
 
@@ -142,7 +154,8 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_OKL_Rural_Poverty add_idea = RWE_OKL_Rural_Poverty_2 }
+		add_popularity = { ideology = new_democrat popularity = 0.03 }
 		}
 	}
 
@@ -157,7 +170,7 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_OKL_Rural_Poverty_2 add_idea = RWE_OKL_Rural_Poverty_3 }
 		}
 	}
 
@@ -187,7 +200,8 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		remove_ideas = { RWE_OKL_KKK_Terrorism }
+		add_timed_idea = { idea = RWE_OKL_KKK_Terrorism_2 days = 100 }
 		}
 	}
 
@@ -202,7 +216,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = new_democrat popularity = 0.1 }
+		add_stability = -0.02
+		374 = { add_manpower = 15000 }
 		}
 	}
 
@@ -213,6 +229,111 @@ focus_tree = {
 		x = 9
 		y = 3
 		prerequisite = { focus = OKL_Expand_Child_Care focus = OKL_Copy_the_Scandinavian_Model focus = OKL_Limit_Oklahoma_Xenophobia }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Hoisting_the_Patriot_Flag
+		icon = GFX_goal_OKL_Nationalists
+		available = { }
+		x = 15
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Nation_under_God
+		icon = GFX_goal_Generic_Seize_Church
+		available = { }
+		x = 14
+		y = 1
+		prerequisite = { focus = OKL_Hoisting_the_Patriot_Flag }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_In_God_We_Trust
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		x = 13
+		y = 2
+		prerequisite = { focus = OKL_Nation_under_God }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Support_Americanist_Sentiment
+		icon = usa_shaking_hands
+		available = { }
+		x = 15
+		y = 2
+		prerequisite = { focus = OKL_Nation_under_God focus = OKL_Crush_Organized_Labor }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Allow_Judicial_Torture
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		x = 17
+		y = 2
+		prerequisite = { focus = OKL_Crush_Organized_Labor }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Crush_Organized_Labor
+		icon = focus_abolish_wages
+		available = { }
+		x = 16
+		y = 1
+		prerequisite = { focus = OKL_Hoisting_the_Patriot_Flag }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = OKL_Thank_God_for_Oklahoma
+		icon = GFX_goal_OKL_God_Loves_Oklahoma
+		available = { }
+		x = 15
+		y = 3
+		prerequisite = { focus = OKL_In_God_We_Trust focus = OKL_Support_Americanist_Sentiment focus = OKL_Allow_Judicial_Torture }
 		cost = 3
 
 

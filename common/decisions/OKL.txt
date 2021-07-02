@@ -1,0 +1,173 @@
+OKL_Foreign_Policy = {
+
+	OKL_Reject_Unification_Principle = {
+
+		icon = generic_break_treaty
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		OKL = { 
+		has_government = new_democrat
+		}
+		}
+		complete_effect = {
+		add_popularity = { ideology = nationalist popularity = -0.05 }
+		add_popularity = { ideology = fascist popularity = -0.05 }
+		add_stability = 0.1
+		add_war_support = -0.1
+		add_political_power = 150
+		set_country_flag = OKL_REJECT_UNIFICATION
+	}
+	}
+
+	OKL_Midwestern_Security_Pact = {
+
+		icon = generic_nationalism
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		OKL = { 
+		has_government = new_democrat
+		}
+		}
+		visible = { has_country_flag = OKL_REJECT_UNIFICATION }
+
+		complete_effect = {
+		create_faction = "Tulsa Protection Pact"
+	}
+	}
+
+	OKL_Reach_out_to_Texas = {
+
+		icon = generic_nationalism
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		OKL = { 
+		has_government = new_democrat
+		is_faction_leader = yes
+		}
+		TEX = { exists = yes is_in_faction = no NOT = { has_war_with = OKL } }
+		}
+		visible = { has_country_flag = OKL_REJECT_UNIFICATION }
+
+		complete_effect = {
+		
+	}
+	}
+
+	OKL_Reach_out_to_Illinois = {
+
+		icon = generic_nationalism
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		OKL = { 
+		has_government = new_democrat
+		is_faction_leader = yes
+		}
+		ILL = { exists = yes is_in_faction = no NOT = { has_war_with = OKL } }
+		}
+		visible = { has_country_flag = OKL_REJECT_UNIFICATION }
+
+		complete_effect = {
+		
+	}
+	}
+
+	OKL_Reach_out_to_the_Midwestern_Union = {
+
+		icon = generic_nationalism
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		OKL = { 
+		has_government = new_democrat
+		is_faction_leader = yes
+		}
+		MWA = { exists = yes is_in_faction = no NOT = { has_war_with = OKL has_government = nationalist } }
+		}
+		visible = { has_country_flag = OKL_REJECT_UNIFICATION }
+
+		complete_effect = {
+		
+	}
+	}
+
+	OKL_Embrace_Unification_Spirit = {
+
+		icon = generic_nationalism
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		OKL = { 
+		OR = {
+		has_government = liberal
+		has_government = nationalist
+		}
+		NOT = { has_decision = OKL_Reject_Unification_Principle }
+		}
+		}
+		complete_effect = {
+		add_stability = -0.05
+		add_war_support = 0.15
+		set_country_flag = OKL_EMBRACE_UNIFICATION
+	}
+	}
+
+	OKL_Seek_Texan_Protection = {
+
+		icon = generic_political_discourse
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+		OKL = { 
+		NOT = { has_war_with = TEX is_in_faction_with = TEX OR = { has_government = fascist has_government = nationalist } }
+		}
+		}
+
+		complete_effect = {
+		TEX = { country_event = { id = oklahoma.1 days = 1 } }
+	}
+	}
+
+	OKL_Apply_for_League_Membership = {
+
+		icon = generic_political_discourse
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		OKL = { 
+		NOT = { has_war_with = CAN is_in_faction_with = CAN OR = { has_government = fascist has_government = nationalist } }
+		}
+		CAN = { is_faction_leader = yes }
+		}
+
+		complete_effect = {
+		CAN = { country_event = { id = oklahoma.3 days = 1 } }
+	}
+	}

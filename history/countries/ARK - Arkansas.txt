@@ -97,8 +97,8 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = { #90
-        fascist = 8
+set_popularities = { 
+        fascist = 0
 		nationalist = 0
 		monarchist = 0
 		national_bolshevik = 0
@@ -113,6 +113,6 @@ set_popularities = { #90
 
 create_country_leader = {
 	name = "Tom Cotton"
-	picture = "gfx/leaders/OKL/portrait_ARK_Tom_Cotton.tga"
+	picture = "gfx/leaders/ARK/portrait_ARK_Tom_Cotton.tga"
 	ideology = american_conservative 
 }

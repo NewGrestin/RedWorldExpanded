@@ -1,11 +1,16 @@
 ﻿capital = 1021
 
-oob = "NA"
+oob = "NAF_2010"
 
 set_research_slots = 2
 set_convoys = 500
 set_stability = 0.7
 set_war_support = 0.4
+
+add_ideas = { 
+RWE_NAF_Decentralized_Movement 
+RWE_NAF_Flight_to_New_Afrika 
+}
 
 set_technology = {
 	support_weapons = 1
@@ -69,28 +74,70 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = nationalist
+	ruling_party = centrist
 	last_election = "1997.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
-set_popularities = {
-	fascist = 0
-	nationalist = 43
+set_popularities = { #83
+	fascist = 3
+	nationalist = 8
 	monarchist = 0
 	national_bolshevik = 0
-	national_conservative = 9
-	centrist = 0
+	national_conservative = 20
+	centrist = 2
 	liberal = 0
-	new_democrat = 0
-	moderate_socialist = 0
-	revolutionary_socialist = 8
-	communist = 40
+	new_democrat = 24
+	moderate_socialist = 5
+	revolutionary_socialist = 21
+	communist = 17
 }
 
 create_country_leader = {
-	name = "Lori Robinson"
-	picture = "Portrait_APP_Robinson.dds"
-	ideology = american_nationalist
+	name = "No Central Authority"
+	picture = "gfx/leaders/NAF/portrait_NAF_temporary.tga"
+	ideology = centrist_ideology 
+}
+
+create_country_leader = {
+	name = "Shaka Zulu"
+	picture = "gfx/leaders/NAF/portrait_NAF_Shaka_Zulu.tga"
+	ideology = revolutionary_socialist_ideology 
+}
+
+create_country_leader = {
+	name = "Louis Farrakhan"
+	picture = "gfx/leaders/NAF/portrait_NAF_Louis_Farrakhan.tga"
+	ideology = nation_of_islam_thought 
+}
+
+create_country_leader = {
+	name = "John F. Johnson"
+	picture = "gfx/leaders/NAF/portrait_NAF_John_F_Johnson.tga"
+	ideology = nationalist_ideology 
+}
+
+create_country_leader = {
+	name = "Herman Cain"
+	picture = "gfx/leaders/NAF/portrait_NAF_Herman_Cain.tga"
+	ideology = fiscal_conservative 
+}
+
+create_country_leader = {
+	name = "Alli Muhammad"
+	picture = "gfx/leaders/NAF/portrait_NAF_Alli_Muhammad.tga"
+	ideology = marxist 
+}
+
+create_country_leader = {
+	name = "Barbara Lee"
+	picture = "gfx/leaders/NAF/portrait_NAF_Barbara_Lee.tga"
+	ideology = progressive 
+}
+
+create_country_leader = {
+	name = "Cori Bush"
+	picture = "gfx/leaders/NAF/portrait_NAF_Cori_Bush.tga"
+	ideology = new_democrat_ideology 
 }

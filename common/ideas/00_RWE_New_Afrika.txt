@@ -1,0 +1,53 @@
+##################
+# NEW AFRIKA IDEAS
+##################
+
+ideas = {
+
+	country = {
+		RWE_NAF_Decentralized_Movement = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = NAF_Decentralized_Movement
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.1
+			political_power_factor = -0.25
+			army_org_factor = -0.05
+			conscription_factor = 0.15
+			army_morale_factor = 0.05
+			war_support_factor = 0.1
+			}
+		}
+
+		RWE_NAF_Flight_to_New_Afrika = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = NAF_Volunteers
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.05
+			weekly_manpower = 250
+			war_support_factor = 0.1
+			}
+		}

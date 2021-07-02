@@ -8,6 +8,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
 	SpriteType = {
+		name = "GFX_idea_NAF_Decentralized_Movement"
+		texturefile = "gfx/interface/ideas/NAF_Decentralized_Movement.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_NAF_Volunteers"
+		texturefile = "gfx/interface/ideas/NAF_Volunteers.tga"			
+	}
+	SpriteType = {
 		name = "GFX_idea_OKL_Future_of_Oklahoma"
 		texturefile = "gfx/interface/ideas/OKL_Future_of_Oklahoma.tga"			
 	}

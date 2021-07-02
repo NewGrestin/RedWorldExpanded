@@ -759,3 +759,102 @@ country_event = { #American Republic Collapse Test
 		}
     }
 }
+
+country_event = { #American Republic Collapse Test
+	id = debug.9
+	title = debug.9.t
+	desc = debug.9.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = fascist }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = monarchist }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = nationalist }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = national_bolshevik }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = liberal }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = new_democrat }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = national_conservative }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = centrist }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = moderate_socialist }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = revolutionary_socialist }
+    }
+
+	option = { #fascist
+		name = debug.9.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = communist }
+    }
+}

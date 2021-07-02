@@ -1,0 +1,85 @@
+﻿add_namespace = oklahoma
+
+#Oklahoma seeks our protection
+country_event = {		
+	id = oklahoma.1
+	title = oklahoma.1.t
+	desc = oklahoma.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #give it
+		name = oklahoma.1.a
+		give_guarantee = OKL
+	}
+
+	option = { #nah
+		name = oklahoma.1.b
+		OKL = { country_event = { id = oklahoma.2 days = 0 } }
+	}
+}
+
+#Texas didn't give us protection
+country_event = {		
+	id = oklahoma.2
+	title = oklahoma.2.t
+	desc = oklahoma.2.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #give it
+		name = oklahoma.2.a
+
+	}
+}
+
+#Oklahoma petitions for League membership
+country_event = {		
+	id = oklahoma.3
+	title = oklahoma.3.t
+	desc = oklahoma.3.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #give it
+		name = oklahoma.3.a
+		CAN = {
+		    add_to_faction = OKL
+		}
+		add_ai_strategy = {
+		    type = alliance
+		    id = "CAN"
+		    value = 150
+	    	}
+	}
+
+	option = { #nah
+		name = oklahoma.3.a
+		OKL = { country_event = { id = oklahoma.4 days = 0 }
+	}
+}
+
+#Oklahoma petitions for League membership - denied
+country_event = {		
+	id = oklahoma.4
+	title = oklahoma.4.t
+	desc = oklahoma.4.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #give it
+		name = oklahoma.4.a
+	}
+}

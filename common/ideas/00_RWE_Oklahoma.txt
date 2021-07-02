@@ -5,6 +5,69 @@
 ideas = {
 
 	country = {
+		RWE_OKL_Rifle_by_your_Side = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Future_of_Oklahoma
+			
+			removal_cost = -1
+	
+			modifier = {
+			conscription_factor = 0.05
+			army_morale_factor = 0.05
+			}
+		}
+
+		RWE_OKL_Expanded_Civil_Rights = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Future_of_Oklahoma
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.15
+			liberal_drift = 0.02
+			}
+		}
+
+		RWE_OKL_Libertarian_Healthcare = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Future_of_Oklahoma
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = 0.05
+			monthly_population = 0.1
+			}
+		}
+
 		RWE_OKL_Future_of_Oklahoma = {
 			
 			
@@ -48,6 +111,74 @@ ideas = {
 			}
 		}
 
+		RWE_OKL_Rural_Poverty_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			research_speed_factor = 0.03
+			industrial_capacity_factory = -0.15
+			consumer_goods_factor = 0.2
+			monthly_population = -0.15
+			}
+		}
+
+		RWE_OKL_Rural_Poverty_3 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			research_speed_factor = 0.03
+			political_power_factor = 0.05
+			industrial_capacity_factory = -0.1
+			consumer_goods_factor = 0.15
+			}
+		}
+
+		RWE_OKL_Rural_Poverty_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = -0.15
+			consumer_goods_factor = 0.1
+			monthly_population = -0.2
+			}
+		}
+
 		RWE_OKL_KKK_Terrorism = {
 			
 			
@@ -67,6 +198,49 @@ ideas = {
 			stability_weekly = -0.01
 			conscription_factor = -0.05
 			fascist_drift = 0.01
+			}
+		}
+
+		RWE_OKL_KKK_Terrorism_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_KKK
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_weekly = -0.03
+			conscription_factor = -0.1
+			}
+		}
+
+		RWE_OKL_KKK_Terrorism_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_KKK
+			
+			removal_cost = -1
+	
+			modifier = {
+			conscription_factor = -0.05
+			national_conservative_drift = 0.02
+			nationalist_drift = 0.02
 			}
 		}
 	}

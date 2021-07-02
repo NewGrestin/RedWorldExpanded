@@ -4,6 +4,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/OKL_Pink_Oklahoma.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_OKL_God_Loves_Oklahoma"
+		texturefile = "gfx/interface/goals/OKL_God_Loves_Oklahoma.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_OKL_Nationalists"
+		texturefile = "gfx/interface/goals/OKL_Nationalists.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_OKL_Rose"
 		texturefile = "gfx/interface/goals/OKL_Rose.tga"			
 	}

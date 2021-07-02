@@ -17,6 +17,13 @@
   OKL_Reform_Drug_Legislation:0 "Reform Drug Legislation"
   OKL_Limit_Oklahoma_Xenophobia:0 "Anti-Racism Bill"
   OKL_Red_Buffalo_of_Oklahoma:0 "Red Buffalo of Oklahoma" 
+  OKL_Hoisting_the_Patriot_Flag:0 "Hoisting the Patriot Flag"
+  OKL_Nation_under_God:0 "Our Nation under God"
+  OKL_Crush_Organized_Labor:0 "Against Organized Labor"
+  OKL_Allow_Judicial_Torture:0 "Allow Judicial Torture"
+  OKL_Support_Americanist_Sentiment:0 "Advocate for American Unification"
+  OKL_In_God_We_Trust:0 "\"In God We Trust\""
+  OKL_Thank_God_for_Oklahoma:0 "Thank God for Oklahoma" 
 
   ##########################
   # PARTIES
@@ -30,19 +37,56 @@
   RWE_OKL_Future_of_Oklahoma_desc:0 "The disunification of the American Republic has left Oklahoma in a delicate position. A small, rural and impoverished state in the middle of the former US, Oklahoma has to pull itself up if it wants to survive the new geopolitical situation. As the marxists of the East and West Coast consolidate and the alt-right in Idaho and Montana start to unify, Oklahoma has to look abroad to find peace and prosperity. Untill then, our future remains uncertain at best." 
   RWE_OKL_Rural_Poverty:0 "Sweeping Rural Poverty"
   RWE_OKL_Rural_Poverty_desc:0 "As the corner of the deep South, Oklahoma has never been the center of attention, either economically or politically speaking. The 1980s decimated our local economy and the following dissolution of the United States under Ronald Reagan worsened the situation to a point of sweeping rural poverty. Small farmers have to work to live day by day, while only a few are wealthy enough to sustain the big farms. \n\nEven under the South-oriented American Republic, Oklahoma remained a backwater with many of its young minds fleeing to Atlanta, New Orleans and Dallas. With more and more people leaving this small state of ours, it is no wonder that our crippling poverty continues to dominate local affairs, as finding a job is now like finding a diamond."
+  RWE_OKL_Rural_Poverty_1:0 "Sweeping Rural Poverty" 
+  RWE_OKL_Rural_Poverty_1_desc:0 "As the corner of the deep South, Oklahoma has never been the center of attention, either economically or politically speaking. The 1980s decimated our local economy and the following dissolution of the United States under Ronald Reagan worsened the situation to a point of sweeping rural poverty. Small farmers have to work to live day by day, while only a few are wealthy enough to sustain the big farms. \n\nEven under the South-oriented American Republic, Oklahoma remained a backwater with many of its young minds fleeing to Atlanta, New Orleans and Dallas. With more and more people leaving this small state of ours, it is no wonder that our crippling poverty continues to dominate local affairs, as finding a job is now like finding a diamond."
+  RWE_OKL_Rural_Poverty_2:0 "Sweeping Rural Poverty"  
+  RWE_OKL_Rural_Poverty_2_desc:0 "As the corner of the deep South, Oklahoma has never been the center of attention, either economically or politically speaking. The 1980s decimated our local economy and the following dissolution of the United States under Ronald Reagan worsened the situation to a point of sweeping rural poverty. Small farmers have to work to live day by day, while only a few are wealthy enough to sustain the big farms. \n\nEven under the South-oriented American Republic, Oklahoma remained a backwater with many of its young minds fleeing to Atlanta, New Orleans and Dallas. With more and more people leaving this small state of ours, it is no wonder that our crippling poverty continues to dominate local affairs, as finding a job is now like finding a diamond."
+  RWE_OKL_Rural_Poverty_3:0 "Recovering Economy"
+
   RWE_OKL_KKK_Terrorism:0 "White Supremacist Terrorism"
   RWE_OKL_KKK_Terrorism_desc:0 "As the conservative corner that Oklahoma is, the little statelet has become a prime target for the widespread menace that is white supremacy in the former United States. Organizations, such as the Ku Klux Klan, have organized campaigns of terror, trying to infect the people of Oklahoma with fear and using false flag attacks to provoke a race war in this little nation of ours. \n\nAs the influence of the KKK grows in Oklahoma, our government has to act against this immoral clan of racists and preserve the liberal democracy that shines in Oklahoma City, Tulsa and any other Oklahoman city. For the American way of life is not something up for debate." 
+  RWE_OKL_KKK_Terrorism_1:0 "Angered the Klan"
+  RWE_OKL_KKK_Terrorism_1_desc:0 "Recent government policy has substantially angered the KKK, leading to an expansion of the already big terrorist campaign it has held since the inception of Oklahoma. One silver line: the expansion of the terror campaign has destroyed any public good will the KKK previously had."
+  RWE_OKL_KKK_Terrorism_2:0 "KKK Exodus" 
+  RWE_OKL_KKK_Terrorism_2_desc:0 "With the recent anti-racism bill pushed through the house, the KKK has been officialy branded a hate group and has been forced to disband the organization. While some white nationalists continue to operate in the shadows, many of the former KKK members now flee to the Proud Patriots and the conservatives."
 
+  RWE_OKL_Libertarian_Healthcare:0 "Libertarian Healthcare"
+  RWE_OKL_Expanded_Civil_Rights:0 "Increased Individual Rights"
+  RWE_OKL_Rifle_by_your_Side:0 "Oklahoma Rifle Clubs"
 
   ##########################
   # EVENTS
   ##########################
+  oklahoma.1.t:0 "Oklahoma seeks our Protection"
+  oklahoma.1.d:0 "The recent dissolution of the American Republic has left the former republican territory scarred by small statelets. Oklahoma, being one of the most impoverished statelets on the American continent, has also been birthed out of this event and now seeks our protection, fearing the march of the communists, fascists and national bolsheviks across the nation. They now seek our protection, as Texas will always be the bigger brother of Oklahoma."
+  oklahoma.1.a:0 "Give them our blessings"
+  oklahoma.1.b:0 "Nah, we don't care about Oklahoma"
+  oklahoma.2.t:0 "Texas doesn't Care"
+  oklahoma.2.d:0 "Our message to Texas made zero impression on the Texan leadership and a swift response confirmed that Texas wouldn't invest in protecting Oklahoma in the coming years. Alas, perhaps we have to look elsewhere?"
+  oklahoma.2.a:0 "Dissapointing"
+  oklahoma.3.t:0 "The Oklahoma Petition"
+  oklahoma.3.d:0 "Recent affairs in the United States has left the people of the former American Republic without protection against the communist threat. Where the Republicans once held the nation together, now only little statelets fight amongst eachother. One of these new states is Oklahoma, a little democracy that shines above the rest. Despite its crippling poverty, Oklahoma seeks to join the Democratic League, hoping to be protected against the threats of extremism across the former United States."
+  oklahoma.3.a:0 "Oklahoma is our little budy!"
+  oklahoma.3.b:0 "Sorry, but we have bigger fish to fry"
+  oklahoma.4.t:0 "Our Application Denied"
+  oklahoma.4.d:0 "Our petition to Canada has come with a quick response, as Canada informs us that it has no intention of allowing Oklahoma to become a part of the democratic league, citing the fear of instability in the Oklahoma system and other major problems in our state."
+  oklahoma.4.a:0 "Dissapointing"
 
   ##########################
   # DECISIONS
   ##########################
+  OKL_Foreign_Policy:0 "Oklahoma in the World"
+  OKL_Foreign_Policy_desc:0 "\n\n\n\n\n\n\nThe dissolution of the American Republic has left Oklahoma in a tough spot, in the middle of a wartorn America without any ally. Thus, in the next few months, Oklahoma will have to make tough decisions, potentially even having to contemplate with the idea of war and conflict. But we must remember that all is in the best interest of Oklahoma and its people."
+  OKL_Reject_Unification_Principle:0 "Reject the Unification Principle"
+  OKL_Midwestern_Security_Pact:0 "Found the Tulsa Protection Pact"
+  OKL_Reach_out_to_Texas:0 "Reach out to Texas"
+  OKL_Reach_out_to_Illinois:0 "Reach out to Illinois"
+  OKL_Reach_out_to_the_Midwestern_Union:0 "Reach out to the Midwest Union" 
+  OKL_Embrace_Unification_Spirit:0 "Embrace the Unification Spirit"
+  OKL_Seek_Texan_Protection:0 "Seek Texan Protection"
+  OKL_Apply_for_League_Membership:0 "Apply for League Membership"
+  
 
-	
   ##########################
   # TOOLTIPS
   ##########################
