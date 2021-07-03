@@ -858,3 +858,25 @@ country_event = { #American Republic Collapse Test
 		set_politics = { ruling_party = communist }
     }
 }
+
+country_event = { #Super Event Test
+	id = debug.10
+	title = debug.10.t
+	desc = debug.10.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = debug.10.o1
+		ai_chance = {
+			factor = 100
+		}
+
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Super_Event_Frame_Visible
+        set_global_flag = GLOBAL_Mexican_Cartel_Unification_VISIBLE
+    }
+}

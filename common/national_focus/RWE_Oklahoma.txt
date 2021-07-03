@@ -1,17 +1,6 @@
-focus_tree = {
-	id = oklahoma_tree
-	country = {
-		factor = 0
-		modifier = {
-			add = 20
-			tag = OKL
-		}
-	}
 
-	continuous_focus_position = { x = 50 y = 2200 }
-	default = no
 
-	focus = {
+	shared_focus = {
 		id = OKL_The_Libertarian_Tiger
 		icon = GFX_goal_OKL_Joe_Exotic
 		available = { }
@@ -27,7 +16,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Selective_Gun_Ownership
 		icon = GFX_goal_LIN_Arm_the_Militias
 		available = { }
@@ -43,7 +32,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Decriminalize_Homosexuality
 		icon = GFX_goal_generic_Rainbow
 		available = { }
@@ -61,7 +50,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Stick_it_with_Animal_Rights
 		icon = GFX_goal_generic_Animal_Rights
 		available = { }
@@ -78,7 +67,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Right_to_Healthy_Living
 		icon = pill_testing
 		available = { }
@@ -94,7 +83,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Right_to_Bears_and_Arms
 		icon = GFX_goal_OKL_Bears_and_Arms
 		available = { }
@@ -109,7 +98,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_An_Exotic_Oklahoma
 		icon = GFX_goal_OKL_Exotic_Oklahoma
 		available = { }
@@ -126,7 +115,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Bringing_a_Pink_Wave
 		icon = GFX_goal_OKL_Rose
 		available = { }
@@ -143,7 +132,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Oklahoma_Literacy_Program
 		icon = GFX_goal_OKL_Literacy
 		available = { }
@@ -159,7 +148,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Expand_Child_Care
 		icon = GFX_goal_generic_Child_Care
 		available = { }
@@ -174,7 +163,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Copy_the_Scandinavian_Model
 		icon = increase_healthcare_coverage
 		available = { }
@@ -189,7 +178,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Limit_Oklahoma_Xenophobia
 		icon = GFX_goal_generic_Racism_Bill
 		available = { }
@@ -205,7 +194,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Reform_Drug_Legislation
 		icon = GFX_goal_LIN_Substances
 		available = { }
@@ -222,7 +211,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Red_Buffalo_of_Oklahoma
 		icon = GFX_goal_OKL_Pink_Oklahoma
 		available = { }
@@ -237,7 +226,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Hoisting_the_Patriot_Flag
 		icon = GFX_goal_OKL_Nationalists
 		available = { }
@@ -252,7 +241,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Nation_under_God
 		icon = GFX_goal_Generic_Seize_Church
 		available = { }
@@ -267,9 +256,9 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_In_God_We_Trust
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_POR_catholic_education
 		available = { }
 		x = 13
 		y = 2
@@ -282,7 +271,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Support_Americanist_Sentiment
 		icon = usa_shaking_hands
 		available = { }
@@ -297,7 +286,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Allow_Judicial_Torture
 		icon = GFX_goal_OKL_Joe_Exotic
 		available = { }
@@ -312,7 +301,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Crush_Organized_Labor
 		icon = focus_abolish_wages
 		available = { }
@@ -327,7 +316,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = OKL_Thank_God_for_Oklahoma
 		icon = GFX_goal_OKL_God_Loves_Oklahoma
 		available = { }

@@ -1,0 +1,603 @@
+focus_tree = {
+	id = oklahoma_tree_shared
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = OKL
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = USA_Recovery_Progress
+	shared_focus = OKL_The_Libertarian_Tiger
+	shared_focus = OKL_Bringing_a_Pink_Wave
+	shared_focus = OKL_Hoisting_the_Patriot_Flag
+	default = no
+}
+
+focus_tree = {
+	id = south_usa_tree_shared
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = ARK
+				tag = TSC
+				tag = NAF
+				tag = LOU
+				tag = CAR
+				tag = FLO
+				tag = TEN
+				tag = VIR
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = USA_Recovery_Progress
+	default = no
+}
+
+shared_focus = {
+	id = USA_Recovery_Progress
+	icon = GFX_goal_ENG_Path_to_Recovery
+	x = 25
+	y = 0
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_political_power = 50
+	add_offsite_building = { type = industrial_complex level = 1 }
+	}
+}
+
+shared_focus = {
+	id = USA_Rural_Urban_Connection
+	icon = GFX_goal_Generic_Industry_Question
+	x = 21
+	y = 1
+
+	cost = 5
+
+	prerequisite = { focus = USA_Recovery_Progress }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = industry
+}
+	}
+}
+
+shared_focus = {
+	id = USA_Industrialize_the_Cities
+	icon = GFX_Focus_goal_generic_industrial_towns2
+	mutually_exclusive = { focus = USA_Protect_Small_Farmers }
+	x = 20
+	y = 2
+
+	cost = 5
+
+	prerequisite = { focus = USA_Rural_Urban_Connection }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 	
+	add_extra_state_shared_building_slots = 2
+	add_building_construction = {
+   	 type = industrial_complex
+   	 level = 1
+  	 instant_build = yes
+	}
+	add_building_construction = {
+   	 type = arms_factory
+   	 level = 1
+  	 instant_build = yes
+	}	
+	}
+	}
+}
+
+shared_focus = {
+	id = USA_Subsidize_Small_Businesses
+	icon = GFX_goal_Generic_Increase_Profits
+	x = 19
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = USA_Industrialize_the_Cities  }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 	
+	add_extra_state_shared_building_slots = 1
+	add_building_construction = {
+   	 type = industrial_complex
+   	 level = 1
+  	 instant_build = yes
+	}	
+	}
+	add_stability = 0.05	
+	}
+}
+
+shared_focus = {
+	id = USA_Expand_Infrastructure 
+	icon = GFX_Focus_goal_generic_road_development
+	x = 21
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = USA_Industrialize_the_Cities focus = USA_Protect_Small_Farmers }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 	
+	add_building_construction = {
+   	 type = infrastructure 
+   	 level = 3
+  	 instant_build = yes
+	}	
+	}
+	add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = USA_Modernize_the_Sector
+	icon = GFX_goal_Focus_GER_Agriculture_Mechanization
+	x = 23
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = USA_Protect_Small_Farmers }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 	
+	add_extra_state_shared_building_slots = 1
+	}	
+	random_owned_state = { 	
+	add_extra_state_shared_building_slots = 1
+	}
+	swap_ideas = { add_idea = RWE_USA_Flourishing_Farmers_1 remove_idea = RWE_USA_Flourishing_Farmers }
+	}
+}
+
+shared_focus = {
+	id = USA_Rural_Prospecting_Missions
+	icon = GFX_goal_dirt_road
+	x = 24
+	y = 4
+
+	cost = 5
+
+	prerequisite = { focus = USA_Protect_Small_Farmers }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 
+	add_resource = {
+  	  type = oil
+ 	  amount = 10
+	}
+	add_resource = {
+  	  type = steel
+ 	  amount = 14
+	}
+	}
+	}
+}
+
+shared_focus = {
+	id = USA_Protect_Small_Farmers 
+	icon = GFX_AME_subsidize_agriculture_in_the_west
+	mutually_exclusive = { focus = USA_Industrialize_the_Cities }
+	x = 23
+	y = 2
+
+	cost = 5
+
+	prerequisite = { focus = USA_Rural_Urban_Connection }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 	
+	add_extra_state_shared_building_slots = 2
+	}	
+	random_owned_state = { 	
+	add_extra_state_shared_building_slots = 2
+	}
+	add_ideas = { RWE_USA_Flourishing_Farmers }
+	}
+}
+
+shared_focus = {
+	id = USA_Adress_the_Food_Shortages
+	icon = GFX_goal_Generic_Land_Reform
+	x = 22
+	y = 4
+
+	cost = 5
+
+	prerequisite = { focus = USA_Modernize_the_Sector }
+	prerequisite = { focus = USA_Expand_Infrastructure }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 
+	add_manpower = 1500
+	}
+	random_owned_state = { 
+	add_manpower = 1500
+	}
+	random_owned_state = { 
+	add_manpower = 1500
+	}
+	add_stability = 0.1
+	}
+}
+
+shared_focus = {
+	id = USA_Idealic_Farming
+	icon = GFX_Focus_Wheat_Field
+	x = 22
+	y = 5
+
+	cost = 5
+
+	prerequisite = { focus = USA_Modernize_the_Sector }
+	mutually_exclusive = { focus = USA_Uncover_Natural_Bounty }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	swap_ideas = { remove_idea = RWE_USA_Flourishing_Farmers_1 add_idea = RWE_USA_Flourishing_Farmers_2 }
+	}
+}
+
+shared_focus = {
+	id = USA_Uncover_Natural_Bounty 
+	icon = GFX_goal_Generic_Barrels
+	x = 24
+	y = 5
+
+	cost = 5
+
+	prerequisite = { focus = USA_Rural_Prospecting_Missions }
+	mutually_exclusive = { focus = USA_Uncover_Natural_Bounty }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	swap_ideas = { remove_idea = RWE_USA_Flourishing_Farmers_1 add_idea = RWE_USA_Flourishing_Farmers_3 }
+	}
+}
+
+
+shared_focus = {
+	id = USA_Attract_Labor_Immigrants
+	icon = GFX_goal_Generic_Construction
+	x = 19
+	y = 4
+
+	cost = 10
+
+	prerequisite = { focus = USA_Subsidize_Small_Businesses }
+	prerequisite = { focus = USA_Expand_Infrastructure }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_timed_idea = { idea = RWE_USA_Heavy_Investment days = 90 }
+	add_ideas = { RWE_USA_Labor_Immigrants }
+	}
+}
+
+shared_focus = {
+	id = USA_Reverse_the_Brain_Drain
+	icon = GFX_goal_Generic_Science
+	x = 20
+	y = 5
+
+	cost = 5
+
+	prerequisite = { focus = USA_Subsidize_Small_Businesses }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_ideas = { RWE_USA_Reversed_Brain_Drain }
+	add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = USA_Dockyard_Expansion
+	icon = GFX_goal_Generic_Coastal_Focus_Navy
+	x = 25
+	y = 2
+
+	cost = 5
+	available = { any_owned_state = { is_coastal = yes } }
+	prerequisite = { focus = USA_Recovery_Progress }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 
+	add_extra_state_shared_building_slots = 2
+	add_building_construction = {
+   	type = dockyard
+    	level = 2
+   	instant_build = yes
+	}
+	}
+	}
+}
+
+shared_focus = {
+	id = USA_Standing_Military
+	icon = GFX_goal_Generic_Defensive_Army
+	x = 29
+	y = 1
+
+	cost = 5
+
+	prerequisite = { focus = USA_Recovery_Progress }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_ideas = { RWE_USA_Building_up_the_Army }
+	army_experience = 25
+	}
+}
+
+shared_focus = {
+	id = USA_Establish_an_Airforce
+	icon = GFX_goal_Generic_Air_Force
+	x = 27
+	y = 2
+
+	cost = 5
+
+	prerequisite = { focus = USA_Standing_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+		add_tech_bonus = {
+    bonus = 0.5
+    uses = 2
+    category = air_doctrine
+}	
+	}
+}
+
+shared_focus = {
+	id = USA_Recruit_Civilian_Pilots
+	icon = GFX_goal_Generic_Pilots
+	x = 27
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = USA_Establish_an_Airforce }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_ideas = { RWE_USA_Civilian_Pilots }
+	air_experience = 25
+	}
+}
+
+shared_focus = {
+	id = USA_Dont_Tread_on_Us
+	icon = GFX_goal_Fortification_Effort
+	x = 28
+	y = 4
+
+	cost = 7
+
+	prerequisite = { focus = USA_Recruit_Civilian_Pilots focus = USA_Modern_Artillery }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_ideas = { RWE_USA_Defensive_Focus }
+
+	}
+}
+
+shared_focus = {
+	id = USA_Expand_Local_Airfields
+	icon = GFX_goal_Generic_Industry_Planes
+	x = 26
+	y = 4
+
+	cost = 5
+
+	prerequisite = { focus = USA_Recruit_Civilian_Pilots }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	random_owned_state = { 
+	add_building_construction = {
+   	 type = air_base
+   	 level = 3
+  	 instant_build = yes
+	}	
+	}
+	air_experience = 25
+	}
+}
+
+shared_focus = {
+	id = USA_Southern_Foot_Soldiers
+	icon = GFX_goal_Generic_Military_Planning
+	x = 30
+	y = 2
+
+	cost = 5
+
+	prerequisite = { focus = USA_Standing_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+		add_tech_bonus = {
+    bonus = 0.5
+    uses = 2
+    category = land_doctrine
+}
+	}
+}
+
+shared_focus = {
+	id = USA_Civil_Military_Training
+	icon = GFX_Generic_Lend_Lease
+	x = 31
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = USA_Southern_Foot_Soldiers }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	swap_ideas = { add_idea = RWE_USA_Civilian_Training remove_idea = RWE_USA_Building_up_the_Army }
+	}
+}
+
+shared_focus = {
+	id = USA_Standardize_Gun_Production
+	icon = GFX_Focus_Rifle_Production
+	x = 31
+	y = 4
+
+	cost = 5
+
+	prerequisite = { focus = USA_Civil_Military_Training }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	swap_ideas = { add_idea = RWE_USA_Civilian_Training_1 remove_idea = RWE_USA_Civilian_Training }
+	}
+}
+
+shared_focus = {
+	id = USA_Modern_Artillery
+	icon = GFX_goal_Generic_Artillery_Shells
+	x = 29
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = USA_Southern_Foot_Soldiers }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = artillery
+}
+	}
+}
+
+shared_focus = {
+	id = USA_Mobile_Infantry_Tactics
+	icon = GFX_goal_Generic_Draw_Up_Plans
+	x = 29
+	y = 5
+
+	cost = 5
+
+	prerequisite = { focus = USA_Modern_Artillery }
+	available = {
+
+	}
+
+
+	completion_reward = {
+add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = armor
+}	
+	}
+}

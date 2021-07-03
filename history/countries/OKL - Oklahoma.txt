@@ -41,9 +41,6 @@ set_technology = {
 	early_destroyer = 1 
 	early_carrier = 1 
 	basic_heavy_tank = 1 
-	atomic_research = 1 
-	nuclear_reactor = 1 
-	nukes = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
 }

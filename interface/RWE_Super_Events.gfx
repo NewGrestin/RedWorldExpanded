@@ -12,6 +12,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_SPEVNT_Mexican_Cartels"
+		texturefile = "gfx/super_events/SPEVNT_Mexican_Cartels.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_SPEVNT_American_Reunification_Democracy"
 		texturefile = "gfx/super_events/SPEVNT_American_Reunification_Democracy.dds"
 		legacy_lazy_load = no
