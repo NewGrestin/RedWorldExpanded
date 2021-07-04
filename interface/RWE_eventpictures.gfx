@@ -19,3 +19,23 @@ spriteTypes = {
 		name = "MOT_Militias2"
 		texturefile = "gfx/event_pictures/report_event/MOT_Militias2.dds"
 	}
+
+	spriteType = {
+		name = "OKL_KKK"
+		texturefile = "gfx/event_pictures/report_event/OKL_KKK.tga"
+	}
+
+	spriteType = {
+		name = "OKL_Patriots"
+		texturefile = "gfx/event_pictures/report_event/OKL_Patriots.tga"
+	}
+
+	spriteType = {
+		name = "OKL_Voter_Fraud"
+		texturefile = "gfx/event_pictures/report_event/OKL_Voter_Fraud.tga"
+	}
+
+	spriteType = {
+		name = "OKL_Election"
+		texturefile = "gfx/event_pictures/report_event/OKL_Election.tga"
+	}

@@ -53,6 +53,12 @@
   RWE_OKL_Libertarian_Healthcare:0 "Libertarian Healthcare"
   RWE_OKL_Expanded_Civil_Rights:0 "Increased Individual Rights"
   RWE_OKL_Rifle_by_your_Side:0 "Oklahoma Rifle Clubs"
+  RWE_OKL_Red_Gem_of_the_SouthWest:0 "Red Gem of the Southwest" 
+  RWE_OKL_Undoing_Secularism:0 "Undoing Secularism" 
+  RWE_OKL_Undoing_Secularism_1:0 "Undoing Secularism" 
+  RWE_OKL_Against_Organized_Labor:0 "Hunting Labor Unions" 
+  RWE_OKL_Oklahoman_Patriot_Police:0 "Oklahoma Patriot Police" 
+  RWE_OKL_Undoing_Secularism_2:0 "God is with Oklahoma" 
 
   ##########################
   # EVENTS
@@ -71,6 +77,24 @@
   oklahoma.4.t:0 "Our Application Denied"
   oklahoma.4.d:0 "Our petition to Canada has come with a quick response, as Canada informs us that it has no intention of allowing Oklahoma to become a part of the democratic league, citing the fear of instability in the Oklahoma system and other major problems in our state."
   oklahoma.4.a:0 "Dissapointing"
+  oklahoma.5.t:0 "Oklahoma Elections"
+  oklahoma.5.d:0 "The exciting race for the House of Representatives is finally coming to a close in Oklahoma, as the people now decide who to elect as the leader of the nation for the next 5 years. The main contenders in this election are Joseph \"Exotic\" Schreibvogel of the Libertarians and Constance N. Johnson of the Young Democrats of Oklahoma, a splinter from the previously minor Democratic Party of the American Republic. While most don't expect them to win, the Proud Patriots of Rick Saccone remain a wildcard in this race, syphoning votes from the national conservatives and their supposedly lousy leader. Saccone's personality has dominated Oklahoma televisions for months now, captivating many Americans with his promises of reunification and a return to a \"Greater America\". For his part, Joseph Schreibvogel has responded to the Proud Patriots with similair promises, while Johnson has remained adament about Oklahoma sovereignty and doing away with the \"Americanist fever\"."
+  oklahoma.5.a:0 "Joseph Schreibvogel and his Libertarians"
+  oklahoma.5.b:0 "Constance N. Johnson and her Democrats" 
+  oklahoma.6.t:0 "Proud Patriots Grow"
+  oklahoma.6.d:0 "It's been mere days since the collapse of the old American Republic, yet the Oklahoma political scene has shifted immediately as a response to this new situation of sovereignty. Namely, Rick Saccone's Proud Patriots has made a surprising comeback after a few years of relative obscurity in Republican politics, syphoning votes from the meak and timid Oklahoma Unity Party, a splinter of the previous Independence Union. \n\nSaccone's loud personality has supposedly captivated many Oklahomans, seeing Saccone as a next Bush or Rumsfeld, here to save American democracy and restore the nation to greatness. While others have been far more sceptical about the bombastic ex-governor of Oklahoma, Saccone has refound his following these past couple days and has yet to see the end of his growing momentum."
+  oklahoma.6.a:0 "A dangerous man for Oklahoman politics" 
+  oklahoma.7.t:0 "Saccone claims Electoral Fraud"
+  oklahoma.7.d:0 "It's been a few days since the results of the election have become public, but Rick Saccone has already gone on the offensive again. Dismayed about the results, Saccone has claimed that the election was flooded by electoral fraud by the ruling parties. \n\nWhile his claims have mostly been met with ridicule as they lack substantial evidence, Saccone has been able to mobilize a significant proportion of his voters on this electoral fraud issue. We may need to respond to this before it becomes a problem." 
+  oklahoma.7.a:0 "Saccone is delirious, ignore him!"
+  oklahoma.7.b:0 "We can investigate his claims if he really wants that" 
+  oklahoma.8.t:0 "Saccone occupies the House"
+  oklahoma.8.d:0 "Angered by the ridicule given to him, Saccone has taken drastic measures, with him and his supporters have stormed and occupied the House of Representatives. Reports remain unclear, but we believe that a few representatives were hurt and/or killed during the struggle. The temporary military forces are currently holding on stand-by, awaiting orders from the legitimate president. It's unclear if they are completely neutral on the issue, so only time can tell how this attack on our democracy will continue."
+  oklahoma.8.a:0 "The army defects to the Patriots"
+  oklahoma.8.b:0 "The army ends the House Occupation" 
+  oklahoma.9.t:0 "KKK Coup"
+  oklahoma.9.d:0 "It seems that the influence of the KKK was like a parasite, slowly poisoning Oklahoma from the inside. Today, the acting government has been caught with their pants down as the KKK marches through Oklahoma city. The sheer terror of this event is undescribeable, as the few international media outlets interested in the event refrain from filming the KKK and the destruction and death left behind by them. Occupying the House of Representatives while politicians are forced outside, Johny Lee Clary, leader of the Oklahoma Chapter, has declared himself the paramount leader of a new, white oklahoma. \n\nDemocracy is dead, the KKK now rules." 
+  oklahoma.9.a:0 "The light of democracy has died down in Oklahoma" 
 
   ##########################
   # DECISIONS
@@ -85,12 +109,33 @@
   OKL_Embrace_Unification_Spirit:0 "Embrace the Unification Spirit"
   OKL_Seek_Texan_Protection:0 "Seek Texan Protection"
   OKL_Apply_for_League_Membership:0 "Apply for League Membership"
-  
+  OKL_Unify_the_United_States:0 "Unify the United States" 
+  OKL_Unify_Dixie:0 "Unify Dixie" 
+  OKL_Embrace_the_Golden_Circle_Idea:0 "Embrace the Golden Circle" 
+  OKL_All_of_Mexico_Movement:0 "\"All of Mexico\" Movement" 
+  OKL_Remember_the_Fillibuster:0 "Remember the Fillibuster" 
+  OKL_Move_into_the_Carribean:0 "Move into the Caribbean"
+  OKL_South_American_States:0 "Our South American Provinces" 
+  OKL_Unify_the_Golden_Circle:0 "Unify the Golden Circle" 
 
   ##########################
   # TOOLTIPS
   ##########################
+  OKL_EMBRACE_UNIFICATION:0 "Embrace Unification Spirit"
+  OKL_REJECT_UNIFICATION:0 "Reject Unification Spirit" 
+
 
   ##########################
   # COSMETIC TAGS
   ##########################
+  OKL_KKK:0 "White Oklahoma"
+  OKL_KKK_DEF:0 "The White Klan-State of Oklahoma"
+  OKL_KKK_ADJ:0 "Oklahoman" 
+
+  OKL_KKK_Dixie:0 "Dixie Republic"
+  OKL_KKK_Dixie_DEF:0 "The Confederate States of America"
+  OKL_KKK_Dixie_ADJ:0 "Dixie" 
+
+  OKL_KKK_Golden_Circle:0 "Golden Circle"
+  OKL_KKK_Golden_Circle_DEF:0 "The Dixie Republic of the Golden Circle"
+  OKL_KKK_Golden_Circle_ADJ:0 "Golden Circle" 

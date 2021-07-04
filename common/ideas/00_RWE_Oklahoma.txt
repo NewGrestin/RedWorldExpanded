@@ -179,6 +179,103 @@ ideas = {
 			}
 		}
 
+		RWE_OKL_Red_Gem_of_the_SouthWest = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = 0.1
+			production_speed_buildings_factor = 0.2
+			political_power_factor = 0.15
+			new_democrat_drift = 0.02
+			moderate_socialist_drift = 0.01
+			revolutionary_socialist_drift = 0.01
+			}
+		}
+
+		RWE_OKL_Undoing_Secularism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.1
+			war_support_factor = 0.1
+			nationalist_drift = 0.02
+			stability_factor = -0.05
+			}
+		}
+
+		RWE_OKL_Undoing_Secularism_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.25
+			war_support_factor = 0.2
+			army_morale_factor = 0.05
+			nationalist_drift = 0.02
+			stability_factor = -0.1
+			}
+		}
+
+		RWE_OKL_Undoing_Secularism_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.3
+			war_support_factor = 0.4
+			army_morale_factor = 0.05
+			conscription_factor = 0.15
+			nationalist_drift = 0.02
+			stability_factor = -0.1
+			}
+		}
+
 		RWE_OKL_KKK_Terrorism = {
 			
 			
@@ -241,6 +338,54 @@ ideas = {
 			conscription_factor = -0.05
 			national_conservative_drift = 0.02
 			nationalist_drift = 0.02
+			}
+		}
+
+		RWE_OKL_Against_Organized_Labor = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = -0.1
+			consumer_goods_factor = 0.05
+			stability_factor = -0.1
+			revolutionary_socialist_drift = 0.02
+			communist_drift = 0.02
+			monthly_population = -0.2
+			}
+		}
+
+		RWE_OKL_Oklahoman_Patriot_Police = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+			drift_defence_factor = 0.5
+			fascist_drift = -0.01
+			communist_drift = -0.02
+			political_power_cost = 0.1
 			}
 		}
 	}

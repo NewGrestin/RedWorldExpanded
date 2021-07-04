@@ -8,6 +8,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
 	SpriteType = {
+		name = "GFX_idea_GRL_Socialist_Dominance"
+		texturefile = "gfx/interface/ideas/GRL_Socialist_Dominance.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GRL_Corn_Belt"
+		texturefile = "gfx/interface/ideas/GRL_Corn_Belt.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GRL_Iowa_Republicanism"
+		texturefile = "gfx/interface/ideas/GRL_Iowa_Republicanism.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GRL_Stability_Threatened"
+		texturefile = "gfx/interface/ideas/GRL_Stability_Threatened.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GRL_Stability_Questionable"
+		texturefile = "gfx/interface/ideas/GRL_Stability_Questionable.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GRL_Stability_Okay"
+		texturefile = "gfx/interface/ideas/GRL_Stability_Okay.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GRL_Stability_Grand"
+		texturefile = "gfx/interface/ideas/GRL_Stability_Grand.tga"			
+	}
+	SpriteType = {
 		name = "GFX_idea_NAF_Decentralized_Movement"
 		texturefile = "gfx/interface/ideas/NAF_Decentralized_Movement.tga"			
 	}

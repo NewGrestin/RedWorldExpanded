@@ -1,0 +1,153 @@
+##################
+# GREAT LAKES IDEAS
+##################
+
+ideas = {
+
+	country = {
+		RWE_GRL_Hawkeye_Problems = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.5
+			stability_factor = -0.1
+			}
+		}
+
+		GRL_Corn_Belt = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Corn_Belt
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = 0.15
+			consumer_goods_factor = -0.15
+			monthly_population = 0.25
+			industrial_capacity_factory = -0.05
+			}
+		}
+
+		GRL_Democratic_Alliance_Dominance = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Socialist_Dominance
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.1
+			stability_factor = 0.05
+			war_support_factor = -0.2
+			}
+		}
+
+		GRL_Stability_Grand = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Stability_Grand 
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = 0.1
+			}
+		}
+
+		GRL_Stability_Okay = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Stability_Okay
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = 0.05
+			}
+		}
+
+		GRL_Stability_Questionable = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Stability_Okay
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.05
+			}
+		}
+
+		GRL_Stability_Threatened = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Stability_Okay
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.1
+			stability_weekly = -0.01
+			}
+		}

@@ -13,6 +13,21 @@ LBA_Unified_Africa = {
     color_ui = rgb { 0 149 48 }
 }
 
+OKL_KKK_Golden_Circle = {
+    color = rgb { 196 177 84 }
+    color_ui = rgb { 196 177 84 }
+}
+
+OKL_KKK = {
+    color = rgb { 80 85 114 }
+    color_ui = rgb { 80 85 114 }
+}
+
+OKL_KKK_Dixie = {
+    color = rgb { 196 196 196 }
+    color_ui = rgb { 196 196 196 }
+}
+
 USS_Democratic = {
     color = rgb { 58 168 202 }
     color_ui = rgb { 58 168 202 }

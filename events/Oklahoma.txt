@@ -9,8 +9,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	fire_only_once = yes
-
 	option = { #give it
 		name = oklahoma.1.a
 		give_guarantee = OKL
@@ -31,8 +29,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	fire_only_once = yes
-
 	option = { #give it
 		name = oklahoma.2.a
 
@@ -48,8 +44,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	fire_only_once = yes
-
 	option = { #give it
 		name = oklahoma.3.a
 		CAN = {
@@ -64,7 +58,7 @@ country_event = {
 
 	option = { #nah
 		name = oklahoma.3.a
-		OKL = { country_event = { id = oklahoma.4 days = 0 }
+		OKL = { country_event = { id = oklahoma.4 days = 0 } }
 	}
 }
 
@@ -77,9 +71,156 @@ country_event = {
 
 	is_triggered_only = yes
 
-	fire_only_once = yes
-
 	option = { #give it
 		name = oklahoma.4.a
 	}
+}
+
+#Temporary Election
+country_event = {		
+	id = oklahoma.5
+	title = oklahoma.5.t
+	desc = oklahoma.5.d
+	picture = OKL_Election
+	
+	trigger = { 
+	tag = OKL
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}	
+
+	fire_only_once = yes
+
+	option = { #Joseph and the Libertarians win
+		name = oklahoma.5.a
+		add_popularity = { ideology = liberal popularity = 0.1 }
+		set_politics = { ruling_party = liberal }
+		hidden_effect = { country_event = { id = oklahoma.7 days = 5 } }
+	}
+
+	option = { #Johnson's Young Democrats take victory
+		name = oklahoma.5.b
+		add_popularity = { ideology = new_democrat popularity = 0.1 }
+		set_politics = { ruling_party = new_democrat }
+		hidden_effect = { country_event = { id = oklahoma.7 days = 5 } }
+	}
+}
+
+#Proud Patriots grow
+country_event = {		
+	id = oklahoma.6
+	title = oklahoma.6.t
+	desc = oklahoma.6.d
+	picture = OKL_Patriots
+	
+	trigger = { 
+	tag = OKL
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}	
+
+	fire_only_once = yes
+
+
+	option = { #Saccone's Proud Patriots take the house
+		name = oklahoma.6.a
+		add_popularity = { ideology = nationalist popularity = 0.1 }
+
+	}
+}
+
+#Saccone complains about voting fraud
+country_event = {		
+	id = oklahoma.7
+	title = oklahoma.7.t
+	desc = oklahoma.7.d
+	picture = OKL_Voter_Fraud
+
+	is_triggered_only = yes
+
+
+	option = { #
+		name = oklahoma.7.a
+		add_popularity = { ideology = nationalist popularity = 0.05 }
+		add_popularity = { ideology = fascist popularity = 0.05 }
+		country_event = { id = oklahoma.8 days = 5 }
+	}
+
+	option = { #
+		name = oklahoma.7.b
+		add_popularity = { ideology = nationalist popularity = 0.05 }
+		add_popularity = { ideology = fascist popularity = 0.05 }
+		country_event = { id = oklahoma.9 days = 15 }
+	}
+}
+
+#Saccone occupies the House
+country_event = {		
+	id = oklahoma.8
+	title = oklahoma.8.t
+	desc = oklahoma.8.d
+	picture = MOT_Militias	
+
+	is_triggered_only = yes
+
+
+	option = { #
+		name = oklahoma.8.a
+		add_popularity = { ideology = nationalist popularity = 0.2 }
+		add_popularity = { ideology = fascist popularity = 0.1 }
+		add_stability = -0.3
+		add_war_support = 0.2
+		set_politics = { ruling_party = nationalist }
+	}
+
+	option = { #
+		name = oklahoma.8.b
+		add_popularity = { ideology = nationalist popularity = -0.1 }
+		add_popularity = { ideology = fascist popularity = 0.02 }
+		add_stability = -0.1
+		add_war_support = -0.1
+	}
+}
+
+#The KKK Coup
+country_event = {		
+	id = oklahoma.9
+	title = oklahoma.9.t
+	desc = oklahoma.9.d
+	picture = OKL_KKK
+
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = OKL
+	OR = { 
+	AND = { 
+	has_government = new_democrat
+	fascist > new_democrat
+	}
+	AND = { 
+	has_government = nationalist
+	fascist > nationalist
+	}
+	AND = { 
+	has_government = liberal
+	fascist > liberal
+	}
+	}
+	}
+
+	option = { #
+		name = oklahoma.9.a
+		add_stability = -0.2
+		set_politics = { ruling_party = fascist }
+		set_cosmetic_tag = OKL_KKK 
+		remove_ideas = { RWE_OKL_KKK_Terrorism }
+		remove_ideas = { RWE_OKL_KKK_Terrorism_1 }
+		remove_ideas = { RWE_OKL_KKK_Terrorism_2 }
+	}
+
 }

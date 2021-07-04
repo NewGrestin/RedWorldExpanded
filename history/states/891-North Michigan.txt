@@ -1,0 +1,25 @@
+
+state={
+	id=891
+	name="STATE_891"
+
+	history={
+		owner = GRL
+		add_core_of = GRL
+		victory_points = {
+			7420 1 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		3766 6782 7420 9747 10233 10303 11714 11731 13155 
+	}
+	manpower=1318465
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

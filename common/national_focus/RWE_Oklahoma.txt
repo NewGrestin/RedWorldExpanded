@@ -3,7 +3,7 @@
 	shared_focus = {
 		id = OKL_The_Libertarian_Tiger
 		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		available = { has_government = liberal }
 		x = 3
 		y = 0
 
@@ -19,7 +19,7 @@
 	shared_focus = {
 		id = OKL_Selective_Gun_Ownership
 		icon = GFX_goal_LIN_Arm_the_Militias
-		available = { }
+		available = { has_government = liberal }
 		x = 2
 		y = 1
 		prerequisite = { focus = OKL_The_Libertarian_Tiger }
@@ -35,7 +35,7 @@
 	shared_focus = {
 		id = OKL_Decriminalize_Homosexuality
 		icon = GFX_goal_generic_Rainbow
-		available = { }
+		available = { has_government = liberal }
 		x = 4
 		y = 1
 		prerequisite = { focus = OKL_The_Libertarian_Tiger }
@@ -53,7 +53,7 @@
 	shared_focus = {
 		id = OKL_Stick_it_with_Animal_Rights
 		icon = GFX_goal_generic_Animal_Rights
-		available = { }
+		available = { has_government = liberal }
 		x = 3
 		y = 2
 		prerequisite = { focus = OKL_Decriminalize_Homosexuality focus = OKL_Selective_Gun_Ownership }
@@ -70,7 +70,7 @@
 	shared_focus = {
 		id = OKL_Right_to_Healthy_Living
 		icon = pill_testing
-		available = { }
+		available = { has_government = liberal }
 		x = 5
 		y = 2
 		prerequisite = { focus = OKL_Decriminalize_Homosexuality }
@@ -86,7 +86,7 @@
 	shared_focus = {
 		id = OKL_Right_to_Bears_and_Arms
 		icon = GFX_goal_OKL_Bears_and_Arms
-		available = { }
+		available = { has_government = liberal }
 		x = 1
 		y = 2
 		prerequisite = { focus = OKL_Selective_Gun_Ownership }
@@ -101,7 +101,7 @@
 	shared_focus = {
 		id = OKL_An_Exotic_Oklahoma
 		icon = GFX_goal_OKL_Exotic_Oklahoma
-		available = { }
+		available = { has_government = liberal }
 		x = 3
 		y = 3
 		prerequisite = { focus = OKL_Right_to_Bears_and_Arms focus = OKL_Stick_it_with_Animal_Rights focus = OKL_Right_to_Healthy_Living }
@@ -112,13 +112,24 @@
 		remove_ideas = { RWE_OKL_Future_of_Oklahoma }
 		add_popularity = { ideology = liberal popularity = 0.1 }
 		add_political_power = 150
+            core_NEA = yes
+            core_ILL = yes
+            core_GRL = yes
+            core_MWA = yes
+            core_MOT = yes
+            core_LIN = yes
+            core_UTA = yes
+            core_ARI = yes
+            core_PCA = yes
+            core_TEX = yes
+            core_USA = yes
 		}
 	}
 
 	shared_focus = {
 		id = OKL_Bringing_a_Pink_Wave
 		icon = GFX_goal_OKL_Rose
-		available = { }
+		available = { has_government = new_democrat }
 		x = 9
 		y = 0
 
@@ -135,7 +146,7 @@
 	shared_focus = {
 		id = OKL_Oklahoma_Literacy_Program
 		icon = GFX_goal_OKL_Literacy
-		available = { }
+		available = { has_government = new_democrat }
 		x = 8
 		y = 1
 		prerequisite = { focus = OKL_Bringing_a_Pink_Wave }
@@ -151,7 +162,7 @@
 	shared_focus = {
 		id = OKL_Expand_Child_Care
 		icon = GFX_goal_generic_Child_Care
-		available = { }
+		available = { has_government = new_democrat }
 		x = 7
 		y = 2
 		prerequisite = { focus = OKL_Oklahoma_Literacy_Program }
@@ -166,7 +177,7 @@
 	shared_focus = {
 		id = OKL_Copy_the_Scandinavian_Model
 		icon = increase_healthcare_coverage
-		available = { }
+		available = { has_political_power > 99 has_government = new_democrat }
 		x = 9
 		y = 2
 		prerequisite = { focus = OKL_Reform_Drug_Legislation focus = OKL_Oklahoma_Literacy_Program }
@@ -174,14 +185,16 @@
 
 
 		completion_reward = {
-
+				remove_ideas = { RWE_OKL_Future_of_Oklahoma }
+		add_stability = 0.15
+		add_political_power = -100
 		}
 	}
 
 	shared_focus = {
 		id = OKL_Limit_Oklahoma_Xenophobia
 		icon = GFX_goal_generic_Racism_Bill
-		available = { }
+		available = { has_government = new_democrat }
 		x = 11
 		y = 2
 		prerequisite = { focus = OKL_Reform_Drug_Legislation }
@@ -197,7 +210,7 @@
 	shared_focus = {
 		id = OKL_Reform_Drug_Legislation
 		icon = GFX_goal_LIN_Substances
-		available = { }
+		available = { has_government = new_democrat }
 		x = 10
 		y = 1
 		prerequisite = { focus = OKL_Bringing_a_Pink_Wave }
@@ -214,7 +227,7 @@
 	shared_focus = {
 		id = OKL_Red_Buffalo_of_Oklahoma
 		icon = GFX_goal_OKL_Pink_Oklahoma
-		available = { }
+		available = { has_government = new_democrat }
 		x = 9
 		y = 3
 		prerequisite = { focus = OKL_Expand_Child_Care focus = OKL_Copy_the_Scandinavian_Model focus = OKL_Limit_Oklahoma_Xenophobia }
@@ -222,14 +235,16 @@
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_OKL_Red_Gem_of_the_SouthWest }
+		add_popularity = { ideology = new_democrat popularity = 0.1 }
+		add_stability = 0.1
 		}
 	}
 
 	shared_focus = {
 		id = OKL_Hoisting_the_Patriot_Flag
 		icon = GFX_goal_OKL_Nationalists
-		available = { }
+		available = { has_government = nationalist }
 		x = 15
 		y = 0
 
@@ -237,14 +252,16 @@
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = nationalist popularity = 0.05 }
+		add_war_support = 0.07
+		add_stability = -0.05
 		}
 	}
 
 	shared_focus = {
 		id = OKL_Nation_under_God
 		icon = GFX_goal_Generic_Seize_Church
-		available = { }
+		available = { has_government = nationalist }
 		x = 14
 		y = 1
 		prerequisite = { focus = OKL_Hoisting_the_Patriot_Flag }
@@ -252,14 +269,14 @@
 
 
 		completion_reward = {
-
+		add_ideas = { RWE_OKL_Undoing_Secularism }
 		}
 	}
 
 	shared_focus = {
 		id = OKL_In_God_We_Trust
 		icon = GFX_goal_POR_catholic_education
-		available = { }
+		available = { has_government = nationalist }
 		x = 13
 		y = 2
 		prerequisite = { focus = OKL_Nation_under_God }
@@ -267,14 +284,14 @@
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_OKL_Undoing_Secularism add_idea = RWE_OKL_Undoing_Secularism_1 }
 		}
 	}
 
 	shared_focus = {
 		id = OKL_Support_Americanist_Sentiment
 		icon = usa_shaking_hands
-		available = { }
+		available = { has_government = nationalist }
 		x = 15
 		y = 2
 		prerequisite = { focus = OKL_Nation_under_God focus = OKL_Crush_Organized_Labor }
@@ -282,14 +299,26 @@
 
 
 		completion_reward = {
-
+	    add_war_support = 0.1
+	    add_popularity = { ideology = nationalist popularity = 0.05 }
+            core_NEA = yes
+            core_ILL = yes
+            core_GRL = yes
+            core_MWA = yes
+            core_MOT = yes
+            core_LIN = yes
+            core_UTA = yes
+            core_ARI = yes
+            core_PCA = yes
+            core_TEX = yes
+            core_USA = yes
 		}
 	}
 
 	shared_focus = {
 		id = OKL_Allow_Judicial_Torture
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = GFX_goal_Generic_Backstab
+		available = { has_government = nationalist }
 		x = 17
 		y = 2
 		prerequisite = { focus = OKL_Crush_Organized_Labor }
@@ -297,6 +326,10 @@
 
 
 		completion_reward = {
+		add_ideas = { RWE_OKL_Oklahoman_Patriot_Police }
+		add_popularity = { ideology = fascist popularity = -0.05 }
+		add_popularity = { ideology = communist popularity = -0.1 }
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.1 }
 
 		}
 	}
@@ -304,7 +337,7 @@
 	shared_focus = {
 		id = OKL_Crush_Organized_Labor
 		icon = focus_abolish_wages
-		available = { }
+		available = { has_government = nationalist }
 		x = 16
 		y = 1
 		prerequisite = { focus = OKL_Hoisting_the_Patriot_Flag }
@@ -312,6 +345,7 @@
 
 
 		completion_reward = {
+		swap_ideas = { remove_idea = RWE_OKL_Rural_Poverty add_idea = RWE_OKL_Against_Organized_Labor }
 
 		}
 	}
@@ -319,14 +353,16 @@
 	shared_focus = {
 		id = OKL_Thank_God_for_Oklahoma
 		icon = GFX_goal_OKL_God_Loves_Oklahoma
-		available = { }
+		available = { has_government = nationalist }
 		x = 15
 		y = 3
-		prerequisite = { focus = OKL_In_God_We_Trust focus = OKL_Support_Americanist_Sentiment focus = OKL_Allow_Judicial_Torture }
+		prerequisite = { focus = OKL_In_God_We_Trust }
+		prerequisite = { focus = OKL_Support_Americanist_Sentiment focus = OKL_Allow_Judicial_Torture }
 		cost = 3
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = RWE_OKL_Undoing_Secularism_1 add_idea = RWE_OKL_Undoing_Secularism_2 }
+		add_popularity = { ideology = nationalist popularity = 0.05 }
 		}
 	}

@@ -1,0 +1,44 @@
+﻿l_english:
+
+  ##########################
+  # FOCUSES
+  ##########################
+ 
+  ##########################
+  # PARTIES
+  ##########################
+
+  ##########################
+  # IDEAS
+  ##########################
+  RWE_GRL_Hawkeye_Problems:0 "Thorns on the Rose"
+  RWE_GRL_Hawkeye_Problems_desc:0 "Iowa was a founding member of the Great Lakes Federation, which was founded in the aftermath of the American collapse as a way to secure the existence of the Midwestern style of life. One of the main members of the Federation, Iowa has always been considered one of the four cornerstones, alongside Michigan, Minnesota and Wisconsin. However, it has been decades since the initial foundation of the federation and the situation has changed drastically. \n\nThe once moderately liberal and progressive Farmer-Labor Party of Paul Wellstone has become the Democratic Alliance and the popular progressive populist has now been replaced with Melissa Hortman, a far less moderate figure than Wellstone. Especially in Iowa, Hortman has been rather unpopular for her centralization effort, her focus on more socialist policies and her environmentalist stance. \n\nFor many in Iowa, the federation is seeming to turn rotten. Progressive liberalism has now made way for socialism and the stable federation is turning into a centralized republic. Iowa, however, holds onto the special power it holds in the federation: its veto. A thorn in the side of the Hortman administration, Iowa has consistently vetoed Hortman's motions in parliament and continues to do so untill a less left-wing figure becomes president of the federation, which currently seems unlikely. As the power of the socialists in the Democratic Alliance and the influence of the IWW grow, Iowa has started seriously reconsidering their position in the federation. Perhaps it is time to make amends and leave, as nations like Illinois and the Midwest Union show more promise than Hortman's social authoritarianism." 
+  GRL_Corn_Belt:0 "Our Lovely Corn Belt"
+  GRL_Corn_Belt_desc:0 "As one of the many successor states of the old United States, the Great Lakes Federation inherited half of the famous Corn Belt: a region rich in agricultural produce and, due to technological advancement in the field of agriculture, one of the most fertile regions in the world. While fewer than 10% of the people are employed in the agricultural sector, wheat, corn and soy still bring tons to the treasury every year. Exporting to many other American states, the Great Lakes can be considered the beating heart of this new America, selling their corn to the hungry while living in agricultural luxury." 
+  GRL_Democratic_Alliance_Dominance:0 "Democratic Alliance Dominance"
+  GRL_Democratic_Alliance_Dominance_desc:0 "The House of Peers in Milwaukee shines in a bright pink for over 10 years now, as the Democratic Alliance continues to hold the clear majority of seats in the House. While the 2009 presidential election was only won by a slim margin for Hortman, the House was won with ease. \n\nThis situation is relatively new for the federation, as the 10 years of DA dominance followed over 20 years of Farmer-Labor Party government. However, under Wellstone, the F-LP united with the remnants of the Democrats and the Social Democrats, formalizing the new Democratic Alliance that would win in a landslide with Wellstone in 2001. Since then, the party has shifted between progressive and socialist views, with Hortman being the most recent shift towards the left. \n\nWhile the party dominates the House, inner stability must be maintained. The Wellstone-progressives remain sceptical of Hortman's more socialist policies, while supportive of her centralization effort. While the Alliance remains dominant in our political landscape, a series of missteps could weaken its position, giving the old Republican Party of DeVos and the Libertarians their chance to potentially break the pink hegemony of the House." 
+
+  GRL_Stability_Grand:0 "Federal Stability: §GGrand!§!"
+  GRL_Stability_Grand_Desc:0 "The Great Lakes Federation is currently an utopia on earth, enjoying great stability. The people are allowed to pursue their dreams and ambitions in this great country and political woes are solved with compromise. The stability of our nation has never been better."
+  GRL_Stability_Okay:0 "Federal Stability: §BOkay§!"
+  GRL_Stability_Okay_desc:0 "The Great Lakes Federation is currently relatively stable. The people enjoy their lives as domestic terrorism, civil unrest and more are relatively unheard of in our great federation. While we may have some political troubles here and there and while some people are still born with less opportunity than others, our federation is at the very least stable and functioning" 
+  GRL_Stability_Questionable:0 "Federal Stability: §YQuestionable§!"
+  GRL_Stability_Questionable_desc:0 "The Great Lakes Federation has started to wobble on its foundations. While people can still go outside and enjoy life, the nation currently experiences a serious case of violence and unrest. Domestic terrorism has started to plague our cities again as the far-right and other extremists seek to end our little nation and political problems have gridlocked the federation."
+  GRL_Stability_Threatened:0 "Federal Stability: §GThreatened§!" 
+  GRL_Stability_Threatened_desc:0 "The Great Lakes Federation is weeping, as stability is now a historic luxury we cannot afford any longer. Domestic terrorism, civil unrest, riots and seccesionist sentiment are all a plague on our nation and we'll have to deal with it sooner than later if we want our little nation at the Great Lakes to survive this decade." 
+
+  ##########################
+  # EVENTS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+	
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

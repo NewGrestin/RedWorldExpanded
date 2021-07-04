@@ -79,6 +79,7 @@ is_not_American_tag = {
 				original_tag = NGE
 				original_tag = VER
 				original_tag = LAK
+				original_tag = OKL
 			}
 		}
 	}
