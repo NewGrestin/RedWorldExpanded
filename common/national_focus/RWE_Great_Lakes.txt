@@ -1,0 +1,65 @@
+focus_tree = {
+	id = great_lakes_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = GRL
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = GRL_The_DA_Holds_Together
+	shared_focus = GRL_The_DA_Fractures 
+	default = no
+}
+
+	shared_focus = {
+		id = GRL_The_DA_Holds_Together
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_The_DA_Fractures }
+		x = 3
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_The_DA_Fractures 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_The_DA_Holds_Together }
+		x = 5
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_The_Third_Hortman_Government
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_The_DA_Fractures focus = GRL_The_DA_Holds_Together }
+		x = 2
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
