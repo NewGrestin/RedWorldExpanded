@@ -1,0 +1,23 @@
+LIN_Civil_War = {
+    icon = generic_fascism
+	picture = GFX_decision_cat_MOT_Illegal_Shit
+	visible_when_empty = yes	
+	allowed = { 
+		original_tag = LIN
+		has_country_flag = LIN_CIVIL_WAR_STARTS
+	}
+
+	priority = 250
+}
+
+LIN_american_unification_wars = {
+    icon = generic_border_war
+	picture = GFX_decision_cat_MOT_Illegal_Shit
+	visible_when_empty = yes	
+	allowed = { 
+		original_tag = LIN
+		has_country_flag = LIN_WAR
+	}
+
+	priority = 100
+}

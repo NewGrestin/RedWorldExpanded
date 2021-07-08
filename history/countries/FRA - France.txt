@@ -12,6 +12,8 @@ oob = "FRA_2000"
 
 add_ideas = {
     idea_eu_member
+    FRA_Politicized_Army 
+    FRA_Factionalism 
 }
 
 set_research_slots = 4
@@ -100,25 +102,47 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = {
+set_popularities = { #
         fascist = 2
 		nationalist = 6
 		monarchist = 0
-		national_bolshevik = 8
-		national_conservative = 15
+		national_bolshevik = 28
+		national_conservative = 10
 		centrist = 4
 		liberal = 0
-		new_democrat = 7
-		moderate_socialist = 0
+		new_democrat = 0
+		moderate_socialist = 15
 		revolutionary_socialist = 0
-		communist = 58
+		communist = 35
 }
 
 create_country_leader = {
-	name = "Jean-Luc Mélenchon"
-	desc = "POLITICS_JEAN_LUC_MELENCHON_DESC"
-	picture = "gfx/leaders/FRA/FRA_Melechon.tga"
+	name = "Alain Bocquet"
+	desc = "POLITICS_BOCQUET_DESC"
+	picture = "gfx/leaders/FRA/FRA_Alain_Bocquet.tga"
+	traits = { tired_secretary_general } 
 	ideology = neocommunist
+}
+
+create_country_leader = {
+	name = "Alain Bocquet"
+	desc = "POLITICS_BOCQUET_DESC"
+	picture = "gfx/leaders/FRA/FRA_Alain_Bocquet.tga"
+	ideology = national_bolshevik_ideology
+}
+
+create_country_leader = {
+	name = "Alain Bocquet"
+	desc = "POLITICS_BOCQUET_DESC"
+	picture = "gfx/leaders/FRA/FRA_Alain_Bocquet.tga"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+	name = "Alain Bocquet"
+	desc = "POLITICS_BOCQUET_DESC"
+	picture = "gfx/leaders/FRA/FRA_Alain_Bocquet.tga"
+	ideology = democratic_confederalist 
 }
 
 create_country_leader = {
@@ -127,22 +151,11 @@ create_country_leader = {
 	ideology = fascist_ideology
 }
 
-create_country_leader = {
-	name = "Marine Le Pen"
-	picture = "gfx/leaders/FRA/FRA_Le_Pen.tga"
-	ideology = nationalist_ideology
-}
 
 create_country_leader = {
 	name = "Henry VII"
 	picture = "Portrait_FRA_Henery_Seventh.dds"
 	ideology = absolute_monarchist
-}
-
-create_country_leader = {
-	name = "Guillaume Faye"
-	picture = "gfx/leaders/FRA/FRA_Guillaume_Faye.tga"
-	ideology = national_bolshevik_ideology
 }
 
 create_country_leader = {
@@ -167,18 +180,6 @@ create_country_leader = {
 	name = "Eric Coquerel"
 	picture = "Portrait_FRA_Eric_Coquerel.dds"
 	ideology = new_democrat_ideology
-}
-
-create_country_leader = {
-	name = "Lionel Jospin"
-	picture = "gfx/leaders/FRA/FRA_Lionel_Jospin.tga"
-	ideology = democratic_socialist
-}
-
-create_country_leader = {
-	name = "Patrick Le Hyaric"
-	picture = "gfx/leaders/FRA/FRA_Hyaric.tga"
-	ideology = democratic_confederalist 
 }
 
 create_field_marshal = {

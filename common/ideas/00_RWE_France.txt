@@ -1,0 +1,74 @@
+##################
+# FRANCE IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		FRA_Factionalism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = FRA_Factionalism 
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.25
+			}
+		}
+
+
+		FRA_Politicized_Army = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = FRA_Politicized_Army
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.15
+			stability_factor = -0.05
+			drift_defence_factor = 0.25
+			war_support_factor = 0.05
+			}
+		}
+
+		FRA_Refugee_Crisis = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = open_borders
+			
+			removal_cost = -1
+	
+			modifier = {
+			monthly_population = 0.05
+			stability_weekly = -0.01
+			political_power_factor = -0.15
+			national_bolshevik_drift = 0.01
+			}
+		}

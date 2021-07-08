@@ -13,8 +13,157 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 2200 }
 	shared_focus = GRL_The_DA_Holds_Together
 	shared_focus = GRL_The_DA_Fractures 
+	shared_focus = GRL_The_Iowa_Crisis
 	default = no
 }
+
+	shared_focus = {
+		id = GRL_The_Iowa_Crisis
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		x = 15
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+		remove_ideas = { RWE_GRL_Hawkeye_Problems }
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Disband_the_House
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_country_flag = GRL_DISBAND_HOUSE_PATH }
+		prerequisite = { focus = GRL_The_Iowa_Crisis }
+		mutually_exclusive = { focus = GRL_Try_Compromise }
+		x = 14
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Try_Compromise
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_country_flag = GRL_TALKS_PATH }
+		prerequisite = { focus = GRL_The_Iowa_Crisis }
+		mutually_exclusive = { focus = GRL_Disband_the_House }
+		x = 16
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Deal_with_the_Republicans
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Try_Compromise }
+		mutually_exclusive = { focus = GRL_Talks_Fail }
+		x = 18
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Talks_Fail 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Try_Compromise }
+		mutually_exclusive = { focus = GRL_Deal_with_the_Republicans }
+		x = 16
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Adress_the_Nation
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Disband_the_House focus = GRL_Talks_Fail }
+		x = 15
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Mobilize_the_Army
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Adress_the_Nation }
+		x = 14
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Contact_Paramilitaries
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Adress_the_Nation }
+		x = 16
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_March_to_Iowa
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_war = no owns_state = 392 }
+		prerequisite = { focus = GRL_Mobilize_the_Army }
+		prerequisite = { focus = GRL_Contact_Paramilitaries }
+		x = 15
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
 
 	shared_focus = {
 		id = GRL_The_DA_Holds_Together
@@ -44,7 +193,7 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		remove_ideas = { GRL_Democratic_Alliance_Dominance }
 		}
 	}
 
@@ -52,9 +201,454 @@ focus_tree = {
 		id = GRL_The_Third_Hortman_Government
 		icon = GFX_goal_OKL_Joe_Exotic
 		available = { }
+		mutually_exclusive = { focus = GRL_Ken_Martin_and_the_Old_Democrats focus = GRL_DeVos_Republican_Rise }
 		prerequisite = { focus = GRL_The_DA_Fractures focus = GRL_The_DA_Holds_Together }
 		x = 2
 		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Environmental_Policy
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_The_Third_Hortman_Government }
+		x = 0
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Green_Farming
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Environmental_Policy }
+		x = 1
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Ban_Deadly_Pesticides 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Environmental_Policy }
+		x = -1
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Centralize_Conservation_Efforts
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Green_Farming }
+		prerequisite = { focus = GRL_Ban_Deadly_Pesticides }
+		x = 1
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Green_Heart_of_America
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Centralize_Conservation_Efforts }
+		prerequisite = { focus = GRL_Free_Market_Welfareism focus = GRL_Equal_Opportunity_Act }
+		x = 2
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Military_Funding_Act
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Green_Heart_of_America }
+		x = 1
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_In_Defense_of_the_Great_Lakes
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Green_Heart_of_America }
+		x = 3
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Establishment_Progressivism
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_The_Third_Hortman_Government }
+		x = 3
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Fund_Science
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_More_Public_Schools }
+		prerequisite = { focus = GRL_Establishment_Progressivism focus = GRL_Pragmatism_and_Progressive_Ideas }
+		x = 5
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_More_Public_Schools 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_Fund_Science }
+		prerequisite = { focus = GRL_Establishment_Progressivism focus = GRL_Pragmatism_and_Progressive_Ideas }
+		x = 3
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Equal_Opportunity_Act
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_Free_Market_Welfareism }
+		prerequisite = { focus = GRL_More_Public_Schools focus = GRL_Fund_Science }
+		x = 3
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Free_Market_Welfareism 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_Equal_Opportunity_Act }
+		prerequisite = { focus = GRL_More_Public_Schools focus = GRL_Fund_Science }
+		x = 5
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+
+	shared_focus = {
+		id = GRL_Ken_Martin_and_the_Old_Democrats
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_The_Third_Hortman_Government focus = GRL_DeVos_Republican_Rise }
+		prerequisite = { focus = GRL_The_DA_Fractures focus = GRL_The_DA_Holds_Together }
+		x = 6
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Pragmatism_and_Progressive_Ideas
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Ken_Martin_and_the_Old_Democrats }
+		x = 5
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_DeVos_Republican_Rise
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		mutually_exclusive = { focus = GRL_The_Third_Hortman_Government focus = GRL_Ken_Martin_and_the_Old_Democrats }
+		prerequisite = { focus = GRL_The_DA_Fractures focus = GRL_The_DA_Holds_Together }
+		x = 10
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Adress_Extremism
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_DeVos_Republican_Rise }
+		x = 11
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Crush_the_Marxists
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Adress_Extremism }
+		x = 11
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Christian_Morals_in_School
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Crush_the_Marxists }
+		x = 11
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Favour_the_Republicans
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Christian_Morals_in_School }
+		prerequisite = { focus = GRL_Reinforce_the_Two_Party_System }
+		x = 10
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Against_the_Red_Conspiracy
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Christian_Morals_in_School }
+		x = 11
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Return_to_Tradition
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_DeVos_Republican_Rise focus = GRL_Ken_Martin_and_the_Old_Democrats }
+		x = 8
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Gerrymandering_is_an_Art
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Return_to_Tradition }
+		x = 7
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Federalize_the_System
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Return_to_Tradition }
+		x = 9
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Reinforce_the_Two_Party_System
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Federalize_the_System }
+		prerequisite = { focus = GRL_Gerrymandering_is_an_Art }
+		x = 8
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Establish_a_Grand_Republic
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Reinforce_the_Two_Party_System }
+		x = 8
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_In_Defense_of_Regionalism
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Establish_a_Grand_Republic }
+		x = 8
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Favour_the_Democrats
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Equal_Opportunity_Act focus = GRL_Free_Market_Welfareism }
+		prerequisite = { focus = GRL_Reinforce_the_Two_Party_System }
+		x = 6
+		y = 5
 
 		cost = 3
 

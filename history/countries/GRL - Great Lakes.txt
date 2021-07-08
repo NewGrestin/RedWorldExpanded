@@ -84,18 +84,18 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = { #83
+set_popularities = { 
         fascist = 0
 		nationalist = 8
 		monarchist = 0
 		national_bolshevik = 0
-		national_conservative = 9
-		centrist = 14
-		liberal = 0
+		national_conservative = 14
+		centrist = 0
+		liberal = 11
 		new_democrat = 9
-		moderate_socialist = 36
+		moderate_socialist = 35
 		revolutionary_socialist = 5
-		communist = 19
+		communist = 18
 }
 
 create_country_leader = {
@@ -133,8 +133,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Martha Laning"
-	picture = "Portrait_GRL_Martha_Laning.dds"
+	name = "Ken Martin"
+	picture = "gfx/leaders/GRL/portrait_GRL_Ken_Martin.tga"
 	ideology = old_american_democrats
 }
 
@@ -163,101 +163,3 @@ create_country_leader = {
 	ideology = marxist
 }
 
-create_field_marshal = {
-	name = "Joseph Votel"
-	picture = "Portrait_Joseph_Votel.dds"
-	traits = {  }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Donald E. Jackson, Jr"
-	picture = "Portrait_Donald_E_Jackson_Jr.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "John Troxell"
-	picture = "Portrait_John_Troxell.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 4
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Paul Nakasone"
-	picture = "Portrait_Paul_Nakasone.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Robert L. Van Antwerp Jr."
-	picture = "Portrait_Robert_L_Van_Antwerp_Jr.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Thomas D. Waldhauser"
-	picture = "Portrait_Thomas_D_Waldhauser.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Tracy A. Thompson"
-	picture = "Portrait_Tracy_A_Thompson.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Edmund P. Giambastiani Jr."
-	picture = "Portrait_Edmund_P_Giambastiani_Jr.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	coordination_skill = 1
-	maneuvering_skill = 2
-}
-
-create_navy_leader = {
-	name = "Jonathan Greenert"
-	picture = "Portrait_Jonathan_Greenert.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	coordination_skill = 2
-	maneuvering_skill = 1
-}

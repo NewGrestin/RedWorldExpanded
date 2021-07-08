@@ -21,6 +21,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "FRA_HQ"
+		texturefile = "gfx/event_pictures/report_event/FRA_HQ.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Refugees"
+		texturefile = "gfx/event_pictures/report_event/FRA_Refugees.tga"
+	}
+
+	spriteType = {
 		name = "OKL_KKK"
 		texturefile = "gfx/event_pictures/report_event/OKL_KKK.tga"
 	}

@@ -196,7 +196,7 @@ add_equipment_to_stockpile = {
 	focus = {
 		id = LIN_Cement_the_Leadership_Principle
 		icon = GFX_goal_LIN_Leadership
-		available = { MOT = { exists = no } }
+		available = { MOT = { exists = no } has_country_flag = LIN_CIVIL_WAR_SPENCER_WIN }
 		mutually_exclusive = { focus = LIN_End_to_Revolution }
 		x = 15
 		y = 0
@@ -533,7 +533,7 @@ add_equipment_to_stockpile = {
 	focus = {
 		id = LIN_End_to_Revolution
 		icon = GFX_goal_Generic_Propaganda_Axis
-		available = { MOT = { exists = no } }
+		available = { MOT = { exists = no } has_country_flag = LIN_CIVIL_WAR_MILITIA_WIN }
 		mutually_exclusive = { focus = LIN_Cement_the_Leadership_Principle }
 		x = 25
 		y = 0
@@ -542,7 +542,6 @@ add_equipment_to_stockpile = {
 
 
 		completion_reward = {
-		add_stability = -0.1
 		add_popularity = { ideology = national_bolshevik popularity = -0.2 }
 		remove_ideas = { RWE_LIN_Ideological_Enigma }
 		}

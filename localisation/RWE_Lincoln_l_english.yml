@@ -214,6 +214,7 @@
   lincoln.11.t:0 "Revisionism against the Mainstream"
   lincoln.11.d:0 "New schoolbooks have recently been distributed across large parts of the Union of Lincoln, replacing the old schoolbooks from the Reagan era that were still in use. These new schoolbooks on history have taken quite the different approach to the subject compared to the older books, with the books painting clear emotional and political opinions on many big American figures. Men like FDR and Wilson, once glorified by the mainstream, are depicted as war criminals in these new books, involving themselves with European affairs and sacrificing innocent Americans for their own legacy. Presidents after Vietnam are often vilified by the books, depicting them as weak imperialists, unable to truely realize the tides of history leading to their failure and the eventual collapse of the United States. \n\nInternational organizations tasked with keeping tabs on the quality of global education have voiced serious concerns about the new textbooks, calling them pieces of propaganda not unlike the schoolbooks used in Korea. Their interpretation of events have been denied by the Workers' Party and pieces of media about the textbooks are currently being monitored by the party's media team."
   lincoln.11.a:0 "Books are great tools"
+
   lincoln.14.t:0 "The War against the Deep State"
   lincoln.14.d:0 "\"We've been mere tools to the people that formerly governed the United States of America. Tools for the socialist elite, trying to surpress the freedom-lovers and gun-owners since the inception of America. Today, we stand against these people and declare a holy war, for America wills it\". \n\nLive broadcasts of our awakened shaman were seen across the disunited states. While many have signed him off as a lunatic, more powerfull people have started to notice and have quietly come to the same conclusion: this man, instilling fear and paranoia into the American people, is nothing more or less than a domestic terrorist, willing to lie and create scapegoats as long as he stays in power."
   lincoln.14.a:0 "And so, the American crusaders awaken!"
@@ -226,6 +227,18 @@
   lincoln.17.t:0 "The Place to Be"
   lincoln.17.d:0 "Our recent liberalization of the old substance laws has had some interesting consequences, mainly turning the Free Roman Territory into a drug tourist heaven. People from across the United States and Canada dare to cross the border into our lawless territories for that sweet relief given to them by our locally produced weeth, meth, LSD, shrooms and much, much more. Some people are even brave enough to stay, living their high life (quite literally) in a rural house in the mountains of the territory, blowing away and teaching their children the great values of their rights, mainly their right to be high and blow whatever they want. \n\nWhile a great boost to the local economy, due to our lack of a tax system, Augustus won't see a dime in taxes from this new reputation."
   lincoln.17.a:0 "A place to be, a place to blow"
+  lincoln.18.t:0 "David Lane's Milita"
+  lincoln.18.d:0 "A previously prominent member of the Workers' Party, David Lane has split with the party line and the state by forming his very own militia near the Utah border. Known as the People of the Temple, this militia doesn't poses a serious threat to the government at this point, but their existence isn't the problem. The main problem is the formation of this militia without the expressed permission of the government, something that hadn't been done previously. While voices are raised about detaining Lane for his crime against state order, these are not taken seriously, as Lane and his militia are not on the grid and thus impossible to find."
+  lincoln.18.a:0 "A damn shame..." 
+  lincoln.19.t:0 "The Augustus Opposition"
+  lincoln.19.d:0 "In a manifesto delivered to Spokane this weekend, a former member of the party known only as Augustus Sol Invictus has declared the Spokane regime an illegal occupation movement of sovereign Americans. In the manifesto, he has informed us about the formation of a new rebel movement, which he himself has called the \"Grand Liberation Movement of Free, Sovereign Citizens\". While the Ministry of State Security has been unable to compile a complete list of information about this new organisation, they have tracked down Augustus Invictus to his last known position, namely a barn in the middle of Montana. It has been assumed that Augustus has the support of previous Covington-loyalists and libertarian-minded comrades, allowing the formation of a small coalition of white supremacist libertarians unhappy with the Spencerite government."
+  lincoln.19.a:0 "Quite the story..." 
+  lincoln.20.t:0 "The Spokane Bombing"
+  lincoln.20.d:0 "As the situation has become increasingly unstable in the Union of Lincoln, a bombing has taken place in the heart of our pure nation. Our parliament has been damaged by libertarian suicide-bombers, injuring hundreds and killing a handfull, which include a member of the House. Spencer himself has fled the capital during the chaos that followed, as the previously loyal militias now seemed to get tense and demanded reassurance from the Lincoln government. While they're waving their guns around the House of the People, Spencer is preparing for the civil war to come."
+  lincoln.20.a:0 "It's inevitable at this point..." 
+  lincoln.21.t:0 "Start of the Militia Wars"
+  lincoln.21.d:0 "As Spencer and the government have rallied the troops after hours of radio silence, the damage done to our ever stronger union has been shown. The periphery of our nation is occupied by anti-government forces and cultists, espousing ideas of libertarianism, wotansvolk and conspiracy-ism. While our boots march to Spokane once again, we are reminded of what our great task is in this war: the cleansing of our union from those that cannot understand the necessity of the revolution."
+  lincoln.21.a:0 "May the revolution prevail" 
 
   lincolnpost.1.t:0 "An End of the Old"
   lincolnpost.1.d:0 "Adressing the entire nation of America for the first time in decades, Supreme Chief and First Among Equals Richard B. Spencer would become the first man to \"represent\" all Americans since president Reagan. While he would personally adress just a small crowd at the capital of [Root.Capital.GetName] in the grand unification celebration, TV crews friendly to the state would ensure that millions of Americans with acces to the luxury of television would experience the same speech, may they be in Florida or Oregon. \n\nIn his speech, the Supreme Chief celebrated the unification of America as the first step of the new national bolshevik revolution. Praising the revolution as an end to the old and a start of the new, Spencer's speech would swiftly take a turn. Celebration made place for paranoia as the Supreme Chief started to go through every percieved enemy of the revolution: the religious, the ex-Republicans, the old fascists, the members of the KKK, the ex-Communists, the progressives, the old Democrats, the African-American community, the Asian-American community, the Hispanic community, those that previously worked for the other states and more. As he continued to go down his list, excluding any reasoning for why he had chosen these people, Americans across the nation started to realize the potential implications. As Spencer finally finished with his list of enemies of the revolution, the nation was already up in arms. Protestors in the Black belt, the Rust belt and the Bible belt were already on the streets before the speech had ended, while the urban populace was also preparing for the worst. \n\nAt the end of his speech, Spencer would face the small crowd of people that were still celebrating, with many of the previous men and women present in the crowd having gone home. He would later be informed by the Union's secret police that the speech had led to an inflamatory reaction across the Union, as many old supporters and those that had remained silent had turned against the Union. \n\n\"Just like I said in my speech\", the Supreme Chief mumbled."
@@ -245,8 +258,14 @@
   LIN_Southern_War:0 "War with the American Republic"
   LIN_APC_War:0 "War with the American People's Commonwealth"
 	
-  LIN_Extremist_Unity:0 "Unity of the Revolution"
-  LIN_Extremist_Unity_desc:0 "\n\n\n\n\n\n\nThe revolution that supreme chief Spencer has brought to the United States transcends the old concept of left-right politics. Instead of pitting these against eachother, causing polarization and stagnation, Spencer has united them for a common goal, namely bringing the revolution to the rest of America. \n\nWhile the propaganda machine tells this story to the people, the reality of the situation is far less glorious. The Workers' Party remains bitterly divided in factions between the right and the left due to irrational tribalism. Spencer's job is to keep the party as united as possible or face the potential consequences of §Rdefection§!, §Rbetrayal§! and §Rcivil conflict§!. \n\n§RLeft-wing Unrest§!: [?LIN.LeftWingUnrest] \n\n§gRight-wing Unrest§!: [?LIN.RightWingUnrest]\n"
+  LIN_Civil_War:0 "The Lincolnian Civil War"
+  LIN_Civil_War_desc:0 "\n\n\n\n\n\n\nWith the militias now refusing to listen to any central authority from Spokane, Lincoln has been turned into a battleground. \n\n§gDavid Lane§! and his militia, known as the People of the Temple, have been hiding in the Rockies since the end of the war with Montana. A rather secretive group of white supremacist Odin worshippers, they generally tend to recruit from ex-inmates. Spencer has become adament about the needed destruction of Lane's Cult and seeks to finally put an end to this religious society by force. \n\n§BThe Awakened Shaman§! is an interesting and relatively new figure in Lincoln, yet has been able to gain a substantial following due to his claimed wisdom of government conspiracies against the American people. His wisdom is spread through pamphlet and word and has poisoned the souls of our citizens with anti-government lies, seeking to introduce anarchy where state is needed. This group is spread thinly and don't currently operate in a single region, but could potentially hinder our war effort against our main enemies. \n\n§YAugustus Sol Invictus§!, described by many as a \"mad dog\", is a former libertarian turned white supremacist from the old East Coast. Moving to Lincoln to uphold the Spencerite revolution, Augustus was disillusioned by the government during the war in Montana, seeing its treatment of fellow libertarians. Augustus and his militia of \"freedom-loving whites\" currently hold up in the Montana region, recruiting from previous government enemies and thus becoming a full-blown traitor to the revolution. \n\n§RIf we do not end this rebellion before the timer ends, our militias will turn against us and the nation will fall into anarchy§!."
+  LIN_Clear_out_Cascadia:0 "Clear out Cascadia"
+  LIN_Clear_out_Spokane:0 "Clear out Spokane"
+  LIN_Clear_out_Montana:0 "Clear out Montana"
+  LIN_Clear_out_Wyoming:0 "Clear out Wyoming"
+  LIN_Clear_out_Dakota:0 "Clear out Dakota" 
+  LIN_End_of_the_War:0 "The Milita Wars" 
 
   ##########################
   # TOOLTIPS
@@ -256,7 +275,13 @@
   supreme_chief:0 "First Supreme Chief of the Union"
   LIN_WAR_DECISIONS:0 "Opens up £decision_icon_small §Ywar decisions§! "
   LIN_SHAMAN_POWER:0 "§RThe Awakaned Shaman has seized power§!"
-
+  DAKOTA_CLEARED:0 "Dakota has been cleared!"
+  WYOMING_CLEARED:0 "Wyoming has been cleared!"
+  CASCADIA_CLEARED:0 "Cascadia has been cleared!"
+  SPOKANE_CLEARED:0 "Spokane has been cleared!"
+  MONTANA_CLEARED:0 "Montana has been cleared!" 
+  LIN_CIVIL_WAR_MILITIA_WIN:0 "§YMilitias have won the Civil War§!"
+  LIN_CIVIL_WAR_SPENCER_WIN:0 "§YSpencer has won the Civil War§!"
   ##########################
   # COSMETIC TAGS
   ##########################
@@ -276,9 +301,13 @@
   USA_CIVIL_WAR:0 "United States of America"
   USA_CIVIL_WAR_DEF:0 "The United States of America"
   USA_CIVIL_WAR_ADJ:0 "American"
-
+ 
   LIN_WOTANSVOLK_COSMETIC:0 "Temple of Wotan"
+  LIN_WOTANSVOLK_COSMETIC_DEF:0 "The Temple of Wotansvolk"
+  LIN_WOTANSVOLK_COSMETIC_ADJ:0 "Wotans" 
   LIN_FREE_ROME:0 "Free Roman Territory"
+  LIN_FREE_ROME_DEF:0 "The Free Roman Territory"
+  LIN_FREE_ROME_ADJ:0 "Roman"
 
   no_government:0 "No Functioning Government"
   mad_dog:0 "The Mad Dog of Florida"

@@ -1,5 +1,9 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_FRA_Resignation"
+		texturefile = "gfx/interface/goals/FRA_Resignation.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_OKL_Pink_Oklahoma"
 		texturefile = "gfx/interface/goals/OKL_Pink_Oklahoma.tga"			
 	}

@@ -1,0 +1,218 @@
+add_namespace = newsrw
+
+news_event = {	#Francis Fukuyama - History never Ends 
+	id = newsrw.1
+	title = newsrw.1.t
+	desc = newsrw.1.d
+	picture = fukuyama
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	    date > 2010.02.30
+		date < 2010.03.30
+	}
+	
+	option = {
+		name = newsrw.1.a
+		trigger = { has_government = communist has_government = revolutionary_socialist }
+	}
+
+	option = {
+		name = newsrw.1.b
+		trigger = { NOT = { has_government = communist has_government = revolutionary_socialist } }
+	}
+}
+
+news_event = {	#Bocquet resigns
+	id = newsrw.2
+	title = newsrw.2.t
+	desc = newsrw.2.d
+	picture = french_communist_hq
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = FRA_RESIGNATION }
+	}
+	
+	option = {
+		name = newsrw.2.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.2.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}
+
+news_event = {	#Le Pen elected G-S
+	id = newsrw.3
+	title = newsrw.3.t
+	desc = newsrw.3.d
+	picture = fra_le_pen_elected
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.3.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.3.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}
+
+news_event = {	#Lionel Jospin elected G-S
+	id = newsrw.4
+	title = newsrw.4.t
+	desc = newsrw.4.d
+	picture = fra_lionel_jospin_elected
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.4.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.4.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}
+
+news_event = {	#Cécile Duflot elected G-S
+	id = newsrw.5
+	title = newsrw.5.t
+	desc = newsrw.5.d
+	picture = fra_duflot_elected
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.5.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.5.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}
+
+news_event = {	#Jean Luc Mélechon
+	id = newsrw.6
+	title = newsrw.6.t
+	desc = newsrw.6.d
+	picture = fra_melechon_elected
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.6.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.6.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}
+
+news_event = {	#Hyaric 
+	id = newsrw.7
+	title = newsrw.7.t
+	desc = newsrw.7.d
+	picture = fra_hyaric_elected
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.7.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.7.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}
+
+news_event = {	#Gremetz elected
+	id = newsrw.8
+	title = newsrw.8.t
+	desc = newsrw.8.d
+	picture = fra_gremetz_elected
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.8.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.8.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}
+
+news_event = {	#Failed Coup shakes France
+	id = newsrw.9
+	title = newsrw.9.t
+	desc = newsrw.9.d
+	picture = fra_coup
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.9.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.9.b
+		trigger = { NOT = { tag = FRA } }
+	}
+}

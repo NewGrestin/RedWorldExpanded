@@ -1,0 +1,129 @@
+﻿add_namespace = grl
+
+#Iowa Crisis hits
+country_event = {		
+	id = grl.1
+	title = grl.1.t
+	desc = grl.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Let's try and hold
+		name = grl.1.a
+		add_stability = -0.05
+		hidden_effect = { country_event = { id = grl.2 days = 10 } }
+	}
+
+}
+
+#Grassley meets in Saint Louis
+country_event = {		
+	id = grl.2
+	title = grl.2.t
+	desc = grl.2.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Let's try and hold
+		name = grl.2.a
+		hidden_effect = { country_event = { id = grl.3 days = 15 } }
+
+	}
+
+}
+
+#Iowa Guard mobilized
+country_event = {		
+	id = grl.3
+	title = grl.3.t
+	desc = grl.3.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Let's try and hold
+		name = grl.3.a
+		hidden_effect = { country_event = { id = grl.4 days = 15 } }
+
+	}
+
+}
+
+#Stand Off on the Iowa Border
+country_event = {		
+	id = grl.4
+	title = grl.4.t
+	desc = grl.4.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Let's try and hold
+		name = grl.4.a
+		set_country_flag = GRL_DISBAND_HOUSE_PATH
+		complete_national_focus = GRL_The_Iowa_Crisis
+		392 = { set_demilitarized_zone = yes }
+	}
+
+	option = { #Let's try and hold
+		name = grl.4.b
+		set_country_flag = GRL_TALKS_PATH
+		complete_national_focus = GRL_The_Iowa_Crisis
+		392 = { set_demilitarized_zone = yes }
+	}
+}
+
+#Iowa joins Illinois
+country_event = {		
+	id = grl.5
+	title = grl.5.t
+	desc = grl.5.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #War has been declared
+		name = grl.5.a
+		set_country_flag = GRL_ILLINOIS_WAR
+		remove_ideas = { RWE_GRL_Hawkeye_Problems }
+		392 = { set_demilitarized_zone = no }
+		GRL = { remove_state_core = 392 }
+		ILL = { transfer_state = 392 }
+		declare_war_on = {
+   	        target = ILL
+    		type = annex_everything
+		}
+	}
+
+}
+
+#Fall of the DA
+country_event = {		
+	id = grl.6
+	title = grl.6.t
+	desc = grl.6.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #War has been declared
+		name = grl.6.a
+		add_popularity = { ideology = liberal popularity = 0.1 }
+		add_popularity = { ideology = moderate_socialist popularity = -0.1 }
+		set_party_name = { 
+		ideology = liberal
+		long_name = "New Labor-Farmer Party"
+		name = "Labor-Farmer Party" 
+		}
+		set_party_name = { 
+		ideology = moderate_socialist
+		long_name = "New Democrats Party"
+		name = "New Democrats Party"
+		}
+		add_stability = -0.05
+		complete_national_focus = GRL_The_DA_Fractures 
+	}
+
+}

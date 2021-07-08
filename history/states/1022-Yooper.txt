@@ -6,12 +6,13 @@ state={
 		add_core_of = GRL
 		buildings = {
 			infrastructure = 3
-
+			industrial_complex = 1
 		}
 	}
 	provinces={
 		709 751 4854 5205 10599 
 	}
-	manpower=0
+	manpower=311361
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

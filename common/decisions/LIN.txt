@@ -1,0 +1,335 @@
+LIN_Civil_War = {
+
+	LIN_Clear_out_Cascadia = {
+
+		icon = generic_prepare_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		available = {
+
+		}
+		complete_effect = {
+		add_stability = 0.05
+		set_country_flag = CASCADIA_CLEARED
+	}
+	}
+
+	LIN_Clear_out_Spokane = {
+
+		icon = generic_prepare_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		available = {
+
+		}
+		complete_effect = {
+		add_stability = 0.05
+		set_country_flag = SPOKANE_CLEARED
+	}
+	}
+
+	LIN_Clear_out_Montana = {
+
+		icon = generic_prepare_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		available = {
+
+		}
+		complete_effect = {
+		add_stability = 0.05
+		set_country_flag = MONTANA_CLEARED
+	}
+	}
+
+	LIN_Clear_out_Wyoming = {
+
+		icon = generic_prepare_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		available = {
+
+		}
+		complete_effect = {
+		add_stability = 0.05
+		set_country_flag = WYOMING_CLEARED
+	}
+	}
+
+	LIN_Clear_out_Dakota = {
+
+		icon = generic_prepare_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		available = {
+
+		}
+		complete_effect = {
+		add_stability = 0.05
+		set_country_flag = DAKOTA_CLEARED
+	}
+	}
+
+	LIN_End_of_the_War = {
+		icon = generic_operation
+
+		activation = {  
+		has_country_flag = LIN_CIVIL_WAR_STARTS
+		}
+
+		allowed = { 
+		tag = LIN
+		}
+
+		available = { 
+		has_country_flag = DAKOTA_CLEARED
+		has_country_flag = WYOMING_CLEARED
+		has_country_flag = SPOKANE_CLEARED
+		has_country_flag = CASCADIA_CLEARED
+		has_country_flag = MONTANA_CLEARED
+		}
+		is_good = no
+
+		fire_only_once = yes
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+         	selectable_mission = no
+		days_mission_timeout = 250
+
+		complete_effect = {
+		set_country_flag = LIN_CIVIL_WAR_SPENCER_WIN
+			}
+
+		timeout_effect = {
+		country_event = { id = lincoln.12 days = 0 }
+			}
+		}
+}
+
+LIN_american_unification_wars = {
+
+	LIN_Utah_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		UTA = { is_neighbor_of = LIN }
+		}
+		available = {
+		UTA = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = UTA
+}		
+	}
+	}
+
+	LIN_Arizona_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		ARI = { is_neighbor_of = LIN }
+		}
+		available = {
+		ARI = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = ARI
+}		
+	}
+	}
+
+	LIN_Midwest_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		MWA = { is_neighbor_of = LIN }
+		}
+		available = {
+		MWA = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = MWA
+}		
+	}
+	}
+
+	LIN_Texas_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		TEX = { is_neighbor_of = LIN }
+		}
+		available = {
+		TEX= { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = TEX
+}		
+	}
+	}
+
+	LIN_Illinois_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		ILL = { is_neighbor_of = LIN }
+		}
+		available = {
+		ILL = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = ILL 
+}		
+	}
+	}
+
+	LIN_Great_Lakes_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		GRL = { is_neighbor_of = LIN }
+		}
+		available = {
+		GRL = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = GRL 
+}		
+	}
+	}
+
+	LIN_Pacific_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		PCA = { is_neighbor_of = LIN }
+		}
+		available = {
+		PCA = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = PCA 
+}		
+	}
+	}
+
+	LIN_Southern_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		USA = { is_neighbor_of = LIN }
+		}
+		available = {
+		USA = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = USA 
+}		
+	}
+	}
+
+	LIN_APC_War = {
+
+		icon = generic_ignite_civil_war
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		visible = {
+		NEA = { is_neighbor_of = LIN }
+		}
+		available = {
+		NEA = { exists = yes }
+		LIN = { is_puppet = no }
+		}
+		complete_effect = {
+create_wargoal = {
+    type = annex_everything
+    target = NEA 
+}		
+	}
+	}

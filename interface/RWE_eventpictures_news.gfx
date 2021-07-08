@@ -4,6 +4,51 @@ spriteTypes = {
 		name = "GFX_news_event_001"
 		texturefile = "gfx/event_pictures/news_event_001.dds"
 	}
+
+	spriteType = {
+		name = "fukuyama"
+		texturefile = "gfx/event_pictures/news_event/fukuyama.tga"
+	}
+
+	spriteType = {
+		name = "french_communist_hq"
+		texturefile = "gfx/event_pictures/news_event/french_communist_hq.tga"
+	}
+
+	spriteType = {
+		name = "fra_le_pen_elected"
+		texturefile = "gfx/event_pictures/news_event/fra_le_pen_elected.tga"
+	}
+
+	spriteType = {
+		name = "fra_hyaric_elected"
+		texturefile = "gfx/event_pictures/news_event/fra_hyaric_elected.tga"
+	}
+
+	spriteType = {
+		name = "fra_gremetz_elected"
+		texturefile = "gfx/event_pictures/news_event/fra_gremetz_elected.tga"
+	}
+
+	spriteType = {
+		name = "fra_coup"
+		texturefile = "gfx/event_pictures/news_event/fra_coup.tga"
+	}
+
+	spriteType = {
+		name = "fra_melechon_elected"
+		texturefile = "gfx/event_pictures/news_event/fra_melechon_elected.tga"
+	}
+
+	spriteType = {
+		name = "fra_duflot_elected"
+		texturefile = "gfx/event_pictures/news_event/fra_duflot_elected.tga"
+	}
+
+	spriteType = {
+		name = "fra_lionel_jospin_elected"
+		texturefile = "gfx/event_pictures/news_event/fra_lionel_jospin_elected.tga"
+	}
 	
 	spriteType = {
 		name = "2010_olympics"

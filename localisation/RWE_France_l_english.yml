@@ -9,21 +9,43 @@
   ##########################
   FRA_moderate_socialist_party_long:0 "French Communist Party - Reformists"
   FRA_moderate_socialist_party:0 "Communist Party - R"
-
+  FRA_communist_party_long:0 "French Communist Party - Orthodox"
+  FRA_communist_party:0 "Communist Party - O"
+  FRA_revolutionary_socialist_party_long:0 "French Communist Party - Trotskyists"
+  FRA_revolutionary_socialist_party:0 "Communist Party - T"
+  FRA_national_bolshevik_party_long:0 "French Communist Party - National Outlook"
+  FRA_national_bolshevik_party:0 "Communist Party - N"
 
   ##########################
   # IDEAS
   ##########################
+  FRA_Politicized_Army:0 "Politicized Army"
+  FRA_Politicized_Army_desc:0 "Since the inception of the French Socialist State in the 1980s, the French Army has gained a political dimension building up on its history of involvement in French politics. Immediate purges removed reactionary members of the army in the 90s as fears of a coup grew, but ever since then the army has grown to become just as important for the political scene as the national assembly. While the army has done much work to keep up its image as an unpolitical organization to the public, inside the party the military influence is far more palpable. Any big decision goes through ex-military members of the party that are directly loyal to the French high command. Bocquet, for his part, was appointed with the blessings of the French high command, as the only thing the army is interested in is the preservation of orthodox communism. \n\nThis unfortunately has left the army in a powerful spot. Where the party remains divided among the factions of independent minds, the army is fiercly loyal to the orthodox, sometimes even informing the orthodox faction of the party that they're not orthodox enough. It remains to be seen if the army would accept any diversion from the status quo."
+  FRA_Refugee_Crisis:0 "The Refugee Crisis"
+  FRA_Refugee_Crisis_desc:0 "The uncertainty in the Arab World, the instability in Africa and the war in Libya has led to a consistent stream of refugees fleeing their homecountry to Europe. As they reach the shores of France, our government has to quickly find answers to the issues this crisis brings, such as fulfilling the basic rights of these hundreds of refugees now on our shore. \n\nThis crisis has also become the perfect selling point for those that follow Marine le Pen's nationalist outlook philosophy in the Communist Party. Seeking to establish \"true French communism\", Le Pen has campaigned hard against the government's open border policy and seeks to rally the people of France against the government. The future will show how effective she will be in her campaign."
+  FRA_Factionalism:0 "Party without Direction"
+  FRA_Factionalism_desc:0 "It has been years since the French Communist Party came to power and capitalism in Europe and abroad seemed defeated. People remember the slogans that filled media at the times of the American collapse: that it was the end of history and the path to a dictatorship of the proletariat was open to be build. \n\nAnd then, it just didn't seem to happen. \n\nWithout an enemy abroad, communism sought to bring the enemy closer to home. The neighbor that didn't go voting, the teacher that questioned the authority of the party or the farmer that opposed new restrictions. The enemy became a fifth pillar, yet was so abstract that it could simply not replace the decades of anti-Americanism. The French Communist Party is a perfect reflection of this bitter truth: divided to the core on the meaning and direction of communism in the next decade, seeking to blame someone or something for the failures we still experience. With the rise of national bolshevism and reformists gaining traction, the orthodox mainstream is in danger. Experts seem to slowly shift on their perspective on the future of France, seeing it as a potential case study of how communism hasn't won against history yet. \n\nPerhaps we were wrong: history never truely ends, it only pauses for a moment."
 
   ##########################
   # EVENTS
   ##########################
+  france.1.t:0 "The Retirement of Alain Bocquet"
+  france.1.d:0 "Today, secretary-general Bocquet has handed over his letter of resignation to the National Assembly after the hours of debate finally ended. In the letter, he touches upon the past 10 years of being secretary-general, focussing on the stress it had put on him as an individual and the toll it had on his already poor health. The last few months have been the most stressful for him and many in his party, as the refugee crisis sparked by the Libyan Civil War and the untimely events in the Arab World have been questions he did not have an answer for. Thus, stressed out of his mind and feeling his poor health creeping up on him, the old secretary-general has decided to retire from public life. \n\nAfter the letter adressed to the assembly was finished by the Speaker of the House, a silence filled the room. All the representatives present today didn't seem how to feel about this event, as it came faster than most had anticipated. After 20 seconds of silence from the House, parts of the Orthodox faction stood up and applauded, while the reformists and nationalists continued their silence. \n\nQuite typical for Bocquet and everything he does, his letter did not attract public debate, yet the response to his letter did. The unity the party has fostered during Bocquet's government seems to evaporate almost immediately with the clear factionalism shown in the applause he had gotten. Many now fear the question: will the factionalism stay at simply applause or is France in for a period of political shenanigans?"
+  france.1.a:0 "I leave government to enter history, yet history won't remember"
+  france.2.t:0 "France declares Refugee Crisis"
+  france.2.d:0 "Overburdened with the recent issues brought to France by the international refugee crisis, the French government has followed in the footsteps of the Italian government and declared a refugee crisis. More resources are allocated to dealing with the current crisis as to better help and integrate these new refugees. \n\nAlready, the action has become heavily criticized. The reformist-wing of the party has decried the use of the word crisis, arguing that the situation is currently manageable if the government acts less impulsive than it currently has done. On the other side of the aisle, Le Pen's followers have also decried the government, but for different reasons. They see the \"flooding\" of refugees into France as damaging to communism, seeing those that fled from Libya as bringers of backwards ideologies that would destroy the enlightened French-style of communism. These words have come dangerously close to reactionary argumentation according to many in the House, but Le Pen has simply been slapped on the wrist for her overt remarks about the refugees."
+  france.2.a:0 "How to deal with this crisis..."
 
   ##########################
   # DECISIONS
   ##########################
 
-	
+  ##########################
+  # LEADERS
+  ##########################
+  POLITICS_BOCQUET_DESC:0 "Ask anyone what they think about general-secretary of the French Communist Party Alain Bocquet and general indifference will meet your ears. For a man that was in charge of the party during one of the most important decades of the Warsaw Pact, overseeing the failure of capitalism worldwide, Bocquet himself has done generally nothing to reap the benefits of that collapse for France, which has given the ammo needed to the party's counter-movement of National Outlook thought. \n\nYet, despite this perception of this unhealthy general-secretary, Bocquet hasn't been completely useless to France. He has kept the boat of the Communist Party relatively stable, never involved in any personal drama or scandal and quickly responding to potential threats to the party with expulsion. With less than glamerous laws under his belt, mainly tackling tax legislature and tax fraud, Bocquet isn't going to be the man that France will remember for the fall of capitalism, but, for Bocquet, not being remembered for your victories is superiour to being remembered for your failures."
+  tired_secretary_general:0 "Tired Secretary-General"
+
   ##########################
   # TOOLTIPS
   ##########################

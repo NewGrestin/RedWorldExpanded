@@ -3,6 +3,49 @@
   ##########################
   # FOCUSES
   ##########################
+  GRL_The_DA_Holds_Together:0 "A Stable and Pink Beacon"
+  GRL_The_DA_Fractures:0 "The Party Splits" 
+  GRL_The_Third_Hortman_Government:0 "A Third Term for Hortman"
+  GRL_Ken_Martin_and_the_Old_Democrats:0 "Return of the Labor-Farmers"
+  GRL_DeVos_Republican_Rise:0 "The Great Lakes Republicans" 
+  GRL_Establishment_Progressivism:0 "Establishment Progressivism"
+  GRL_Pragmatism_and_Progressive_Ideas:0 "Pragmatic Progressivism"
+  GRL_More_Public_Schools:0 "Equal Schooling Act"
+  GRL_Fund_Science:0 "Thomas Cech Act"
+  GRL_Equal_Opportunity_Act:0 "Equal Opportunity Act"
+  GRL_Free_Market_Welfareism:0 "Fair Chance at Life Act"
+  GRL_Environmental_Policy:0 "Protecting the Corn Belt"
+  GRL_Green_Farming:0 "Green Farming Methods"
+  GRL_Ban_Deadly_Pesticides:0 "Ban Toxic Pesticides"
+  GRL_Centralize_Conservation_Efforts:0 "Central Authority for Nature Conservation"
+  GRL_Green_Heart_of_America:0 "Green Heart of the Americas"
+  GRL_In_Defense_of_the_Great_Lakes:0 "Defending our Great Lakes"
+  GRL_Military_Funding_Act:0 "Increase the Military Budget" 
+  GRL_Establish_a_Grand_Republic:0 "Grand Republic on the Great Lakes"
+  GRL_Establish_a_Grand_Republic_desc:0 "It's been decades since the end of the United States, yet some people cannot let go. Unlike them, we know when to let go and embrace the future. As the concept of America dies in a coffin near the White House, the Great Lakes unify behind their new future as a strong, independent republic. Glory to the Great Lakes Federation." 
+  GRL_Return_to_Tradition:0 "Return to Federalism"
+  GRL_Gerrymandering_is_an_Art:0 "Gerrymandering is an Art" 
+  GRL_Federalize_the_System:0 "Federalize our System"
+  GRL_Reinforce_the_Two_Party_System:0 "A New Two-Party System" 
+  GRL_In_Defense_of_Regionalism:0 "In Defense of Regionalism"
+  GRL_In_Defense_of_Regionalism_desc:0 "Unlike our peaceloving self, the world America has been left in is not filled with similairly minded. Men of ambition seek to unify the old continent under a single central government, yet we will not stand for their threats of war. Thus, we promise today that Milwaukee stands with its regional brothers against Americanism."
+  GRL_Favour_the_Democrats:0 "Favour the Labor-Farmers" 
+  GRL_Adress_Extremism:0 "Adress Extremism"
+  GRL_Crush_the_Marxists:0 "Stop University Marxism"
+  GRL_Christian_Morals_in_School:0 "Christian Morality in School"
+  GRL_Favour_the_Republicans:0 "Favour the Republicans" 
+  GRL_Against_the_Red_Conspiracy:0 "Form the GLACD"
+
+  
+  GRL_The_Iowa_Crisis:0 "Crisis in Des Moins"
+  GRL_Disband_the_House:0 "Disband the House"
+  GRL_Try_Compromise:0 "Try Compromise"
+  GRL_Talks_Fail:0 "Talking has Failed"
+  GRL_Deal_with_the_Republicans:0 "Deal with the Republicans" 
+  GRL_Adress_the_Nation:0 "Adress the Nation"
+  GRL_Mobilize_the_Army:0 "Mobilize the Army"
+  GRL_Contact_Paramilitaries:0 "Contact Paramilitaries"
+  GRL_March_to_Iowa:0 "Iowa, Back into the Fold"
  
   ##########################
   # PARTIES
@@ -30,6 +73,25 @@
   ##########################
   # EVENTS
   ##########################
+  grl.1.t:0 "Iowa Governor threatens Seccession" 
+  grl.1.d:0 "The recent tension between Iowa and the federal government has reached a boiling point this week, as Iowa governor Chuck Grassley has threatened president [GRL.GetLeader] with the seccession of the state of Iowa if the government is unwilling to step down over their involvement in the IWW support scandal. Iowa, never having been the most loyal state of the federation, has generally been relatively bothersome during votes, but this recent threat from governor Grassley has shaken up the House. \n\nWhile our lawyers are currently working out if seccession is an actual legal threat, Hortman has come public in denouncing Grassley's attempt at a threat. In one of the most tense events in Great Lakes history, Hortman has to keep calm and see what the future brings." 
+  grl.1.a:0 "Will Grassley act on his words?" 
+  grl.2.t:0 "Grassley meets with Illinois President"
+  grl.2.d:0 "A few weeks after the threat from Iowa, governor Grassley has flown to Saint Louis and met with sitting president [ILL.GetLeader]. While it was a relatively uneventfull talk between the two Americans, the press release has created a storm back in Milwaukee. If the papers are to be believed, the Iowa governor amusingly joked about the unification of Iowa with the federation of Illinois, something which was met with a similairly joyful response from the Illinois president. While far from an official agreement, this kind of banter so soon after threats of seccession have ruffled the feathers of the federal government, which now demands an explanation from Grassley. \n\nGrassley has already responded, asking the government to \"suck it up\" and stop complaining about what he perceived to be nothing more than an ironic joke. Whatever the actual feelings between Illinois and Iowa may be, this doesn't bode well."
+  grl.2.a:0 "Can a joke turn into a promise?" 
+  grl.3.t:0 "Iowa Guard Mobilized"
+  grl.3.d:0 "Papers across the federation report about the shockwave that shook the pillars of the federation this morning, as the Iowa governor has decided to mobilize the Iowan National Guard for seemingly no reason. No response has come from Des Moines and the few Republican Iowa representatives in the House have been pressured by Hortman and the government to answer on the recent happenings in their homestate. While they all seem to be unaware of what has actually happened in Iowa, most of them have refused to denounce the sitting governor for his actions. Milwaukee stands at a crossroads, as the House is becoming less and less cooperative on this issue." 
+  grl.3.a:0 "What is Grassley thinking?" 
+  grl.4.t:0 "Stand-Off at the Iowa Border"
+  grl.4.d:0 "Reports from the Iowa border are flooding in, confirming our worst nightmare: Grassley seems to be serious about his threat of seccession, demanding the government to step down as quickly as possible. Iowa soldiers have turned back visitors from other states at the border while temporary defensive positions have been build near the interstate highways. \n\nWith the tension rising in Milwaukee, Hortman has to take decisions. She can either try and keep the currently semi-hostile House together and try and strike a deal with the less radical republicans, potentially starving Grassley from a supporters base, or she can disband the House, which would give her more time to mobilize the army and respond to this threat of federal sovereignty. There's no clear answer to this paradox, but Hortman will have to decide." 
+  grl.4.a:0 "Disband the house now and get me a camera!"
+  grl.4.b:0 "Contact the Republican Party, talks will secure the nation" 
+  grl.5.t:0 "Iowa joins Illinois"
+  grl.5.d:0 "The worst case scenario has been realized, as Iowa has taken matters into its own hands and has joined the state of Illinois. Illinois troops are now moving into Iowa, as Grassley greets them as liberators. \n\nThis gross violation of Great Lakes Federation sovereignty cannot be tolerated. The army stands ready and the paramilitaries have been contacted. Hortman, in her last adress to the nation before the war, informs the people of the situation. \n\n\"People of the Great Lakes, the situation has become dire. Iowa and the Republican Party have betrayed our glorious federation and have given Iowa to the enemy in Illinois, violating our basic sovereignty in an illegal move of opportunism. As we currently speak, the federal army has moved to our border with Illinois and the word has been given to them. If all things go according to plan, federal boots will be on Illinois soil in 30 minutes. \n\nAs long as you can, tuck your kids into bed, contact your loved ones and family and kiss those closest to you. the Great Lakes Federation is at war\"."
+  grl.5.a:0 "\"Goodnight Great Lakes\"" 
+  grl.6.t:0 "Democratic Alliance Splits"
+  grl.6.d:0 ""
+  grl.6.a:0 "The end of 10 years DA..." 
 
   ##########################
   # DECISIONS
@@ -38,7 +100,8 @@
   ##########################
   # TOOLTIPS
   ##########################
-
+  GRL_DISBAND_HOUSE_PATH:0 "Hortman has disbanded the House" 
+  GRL_TALKS_PATH:0 "Hortman has started talks with the Republicans"
   ##########################
   # COSMETIC TAGS
   ##########################

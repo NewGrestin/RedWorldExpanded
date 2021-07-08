@@ -61,6 +61,7 @@ ideology = fascist
 long_name = "Militias"
 name = "Militias"
 }
+hidden_effect = { country_event = { id = lincoln.18 days = 20 } }
 	}
 
 }
@@ -305,6 +306,7 @@ country_event = { #Spokane held by Militias
 	option = { 
 		name = lincoln.12.a
 set_politics = { ruling_party = fascist }
+remove_ideas = RWE_LIN_Ideological_Enigma
 create_country_leader = {
 	name = "Various Militias"
 	desc = ""
@@ -313,6 +315,7 @@ create_country_leader = {
 	ideology = fascist_ideology 
 	traits = { no_government }
 }
+set_country_flag = LIN_CIVIL_WAR_MILITIA_WIN
 set_cosmetic_tag = LIN_MILITIA
 add_popularity = { ideology = national_bolshevik popularity = -0.2 }
 890 = { damage_building = { type = arms_factory damage = 1 } }
@@ -320,30 +323,6 @@ add_popularity = { ideology = national_bolshevik popularity = -0.2 }
 890 = { damage_building = { type = infrastructure damage = 1 } }
 political_power = -100
 add_stability = -0.2
-}
-}
-
-country_event = { #Right-Wing rises
-	id = lincoln.13
-	title = lincoln.13.t
-	desc = lincoln.13.d
-	picture = unified_libya
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = { 
-		name = lincoln.13.a
-if = { 
-limit = { LIN = { num_of_controlled_states = 2 } }
-random_owned_state = {
-LCN = { transfer_state = PREV }
-}
-}
-
 }
 }
 
@@ -398,7 +377,7 @@ country_event = { #The Shaman seizes power
 	
 	option = { 
 		name = lincoln.16.a
-set_country_flag = LIN_SHAMAN_POWER
+hidden_effect = { country_event = { id = lincoln.21 days = 10 } }
 }
 }
 
@@ -420,6 +399,83 @@ country_event = { #The place to be
 
 }
 }
+
+country_event = { #David Lane formalizes his own milita
+	id = lincoln.18
+	title = lincoln.18.t
+	desc = lincoln.18.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.18.a
+add_stability = -0.05
+hidden_effect = { country_event = { id = lincoln.19 days = 10 } }
+}
+}
+
+country_event = { #Augustus against the Government
+	id = lincoln.19
+	title = lincoln.19.t
+	desc = lincoln.19.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.19.a
+add_popularity = { ideology = national_bolshevik popularity = -0.05 }
+hidden_effect = { country_event = { id = lincoln.20 days = 10 } }
+}
+}
+
+country_event = { #Spokane Bomded, Spencer's situation unknown
+	id = lincoln.20
+	title = lincoln.20.t
+	desc = lincoln.20.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.20.a
+add_popularity = { ideology = national_bolshevik popularity = -0.05 }
+hidden_effect = { country_event = { id = lincoln.16 days = 5 } }
+}
+}
+
+country_event = { #Civil War begins
+	id = lincoln.21
+	title = lincoln.21.t
+	desc = lincoln.21.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.21.a
+set_country_flag = LIN_CIVIL_WAR_STARTS
+add_stability = -0.3
+}
+}
+
 #############################
 
 country_event = { #End of the old Union
