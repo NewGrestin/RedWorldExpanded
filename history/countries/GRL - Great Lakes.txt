@@ -147,7 +147,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Melissa Hortman"
 	desc = "POLITICS_MELISSA_HORTMAN_DESC"
-	picture = "Portrait_GRL_Melissa_Hortman.dds"
+	picture = "gfx/leaders/GRL/portrait_GRL_Hortman.tga"
 	ideology = progressive
 }
 

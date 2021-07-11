@@ -6,6 +6,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "waf_mauritania"
+		texturefile = "gfx/event_pictures/news_event/waf_mauritania.tga"
+	}
+
+	spriteType = {
+		name = "waf_coronation"
+		texturefile = "gfx/event_pictures/news_event/waf_coronation.tga"
+	}
+
+	spriteType = {
 		name = "fukuyama"
 		texturefile = "gfx/event_pictures/news_event/fukuyama.tga"
 	}

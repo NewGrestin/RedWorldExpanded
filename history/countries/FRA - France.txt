@@ -121,7 +121,7 @@ create_country_leader = {
 	desc = "POLITICS_BOCQUET_DESC"
 	picture = "gfx/leaders/FRA/FRA_Alain_Bocquet.tga"
 	traits = { tired_secretary_general } 
-	ideology = neocommunist
+	ideology = marxist 
 }
 
 create_country_leader = {

@@ -1,0 +1,39 @@
+##################
+# WEST AFRICAN UNION IDEAS
+##################
+
+ideas = {
+
+	country = {
+		RWE_WAF_Between_Two_Worlds = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Between_Two_Worlds
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.15
+			conscription_factor = -0.05
+			consumer_goods_factor = 0.1
+			opinion_gain_monthly_factor = 0.2
+			}
+
+			targeted_modifier = {
+			tag = MRT
+			attack_bonus_against = -0.1
+			}
+
+			targeted_modifier = {
+			tag = MRT
+			defense_bonus_against = -0.1
+			}
+		}

@@ -8,8 +8,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
 	SpriteType = {
-		name = "GFX_idea_generic_eu_member"
-		texturefile = "gfx/interface/ideas/eu_member.tga"			
+		name = "GFX_idea_WAF_Between_Two_Worlds"
+		texturefile = "gfx/interface/ideas/WAF_Between_Two_Worlds.tga"			
 	}
 	SpriteType = {
 		name = "GFX_idea_FRA_Politicized_Army"

@@ -216,3 +216,27 @@ news_event = {	#Failed Coup shakes France
 		trigger = { NOT = { tag = FRA } }
 	}
 }
+
+news_event = {	#Mauritania secedes from the Union
+	id = newsrw.10
+	title = newsrw.10.t
+	desc = newsrw.10.d
+	picture = waf_mauritania
+	
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+	FRA = { has_country_flag = }
+	}
+	
+	option = {
+		name = newsrw.10.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.10.b
+		trigger = { NOT = { tag = WAF } }
+	}
+}
