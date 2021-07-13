@@ -1,0 +1,64 @@
+﻿l_english:
+
+  ##########################
+  # FOCUSES
+  ##########################
+ 
+  ##########################
+  # PARTIES
+  ##########################
+  GER_fascist_party:0 "FSA"
+  GER_fascist_party_long:0 "Fraktion der Schwarzen Armee"
+  GER_nationalist_party:0 "GV"
+  GER_nationalist_party_long:0 "Gesamtdeutsche antikommunistische Vorhut"
+  GER_monarchist_party:0 "-"
+  GER_national_bolshevik_party:0 "SED - Stasi"
+  GER_national_bolshevik_party_long:0 "Sozialistische Einheitspartei Deutschlands - State Security Apparatus"
+  GER_national_conservative_party:0 "CDU"
+  GER_national_conservative_party_long:0 "Christlich Demokratische Union Deutschlands"
+  GER_centrist_party:0 "DW"
+  GER_centrist_party_long:0 "Deutscher Wählerverband"
+  GER_liberal_party:0 "VDP"
+  GER_liberal_party_desc:0 "Vereinigte Demokratische Partei"
+  GER_new_democrat_party:0 "SPD"
+  GER_new_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
+  GER_moderate_socialist_party:0 "SED - Reformist"
+  GER_moderate_socialist_party_long:0 "Sozialistische Einheitspartei Deutschlands - Reformist Faction"
+  GER_revolutionary_socialist_party:0 "SED - Youth Wing"
+  GER_revolutionary_socialist_party_long:0 "Sozialistische Einheitspartei Deutschlands - Jugend Faction"
+  GER_communist_party:0 "SED - Orthodox"
+  GER_communist_party_long:0 "Sozialistische Einheitspartei Deutschlands - Orthodox Marxist Faction"
+
+  ##########################
+  # IDEAS
+  ##########################
+  GER_Refugee_Crisis:0 "Refugee Crisis"
+
+  GER_Westalgie:0 "Westalgie"
+  GER_Westalgie_desc:0 "A phenomenon prevalent since German Reunification, Westalgie is an unofficial term for the general nostalgia that many Germans carry for the former Federal Republic. This phenomena is most prevalent, as the name would imply, in the former provinces of West Germany. Many saw the unification of Germany under Marxism as an aberration, refusing to acknowledge that the Democratic Republic was now Germany's true legitimate government.\n\nThe most troubling aspect of this phenomena was its' popularity with former Bundeswehr officers, many of whom found themselves without a job after unification, and some of which continue to do so as a consequence of political unreliability. Though for the moment, Westalgie remains an amusing curiosity of Western Germany, if allowed to grow uncontrolled it could pose a serious threat to the German government."
+
+  GER_Burden_of_History:0 "The Burdens of History"
+  GER_Burden_of_History_desc:0 "\"Who are you who do not know your history?\"\n\nGermany's relationship to history is complicated, to say the least. Even in modernity, the scars of the First and Second World Wars can be acutely felt. The horrors of the Third Reich laid bare created a pervasive national trauma, maintained under West Germany's reconciliatory moves towards the rest of Europe, while the East was stripped bare by Soviet reparations. Newer generations feel this sensation less acutely, beginning to once again embrace nationalist ideas, but this remains a simmering issue for the moment. Despite the looming unpopularity of Marxism, few are willing to go so far as to return to the old ways, and barring an unmitigated catastrophe, it is unlikely Germans will easily embrace the far right again."
+
+  GER_Southern_Separatism:0 "Southern Separatism"
+  GER_Southern_Separatism_desc:0 "Bavaria has always had an independent streak, even since before recent years. Austria's joining of the Democratic Republic only served to intensify this situation. The brutal suppression of dissent in Southern Germany, predictably, has further exacerbated these problems. South Germany and Austria remain a hotbed of separatism, nationalism, and bourgeois democratic sentiment.\n\nIf the situation in Southern Germany is allowed to grow out of control, we could face a full blown insurrection."
+
+  ##########################
+  # EVENTS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+  ##########################
+  # LEADERS
+  ##########################
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

@@ -159,4 +159,20 @@ spriteTypes = {
 		name = "GFX_idea_RWE_PAL_Only_Sane_Man"
 		texturefile = "gfx/interface/ideas/RWE_PAL_Only_Sane_Man.dds"			
 	}
+	SpriteType = {
+		name = "GFX_idea_RWE_Refugee_Crisis"
+		texturefile = "gfx/interface/ideas/RWE_Refugee_Crisis.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_Westalgie"
+		texturefile = "gfx/interface/ideas/GER_Westalgie.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_Burden_of_History"
+		texturefile = "gfx/interface/ideas/GER_Burden_of_History.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_Southern_Separatism"
+		texturefile = "gfx/interface/ideas/GER_Southern_Separatism.dds"			
+	}
 }

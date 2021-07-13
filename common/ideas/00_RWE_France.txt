@@ -61,7 +61,7 @@ ideas = {
 				always = yes
 			}
 
-            picture = open_borders
+            picture = RWE_Refugee_Crisis
 			
 			removal_cost = -1
 	

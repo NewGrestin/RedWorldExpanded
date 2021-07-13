@@ -106,79 +106,56 @@ bookmarks = {
 		"---"={
 			history = "OTHER_RED_WORLD_DESC"
 		}
-		"ETH"={
+		"MOT"={
 			minor = yes
-			history = "ETH_RED_WORLD_DESC"
-			ideology = communist
+			history = "MOT_RED_WORLD_DESC"
+			ideology = fascist
 			ideas={
-				idea_eth_possibility_of_famine
-				idea_eth_military_party_divide
-				idea_eth_the_eritrean_issue
+				RWE_MOT_Militia_Army
+				RWE_MOT_Memories_of_the_Civil_War
+				RWE_MOT_Imperative_Heirs
 			}	
             focuses = {
-			    ETH_restore_the_house_of_solomon
-				ETH_workers_of_africa_unite
-				ETH_legalise_cannabis
 			}			
 		}
-		"ITA"={
+		"LIN"={
 			minor = yes
-			history = "ITA_RED_WORLD_DESC"
-			ideology = communist
+			history = "MOT_RED_WORLD_DESC"
+			ideology = national_bolshevik
 			ideas={
-				idea_ita_seamless_society
-				idea_ita_mafia_issue
+				RWE_LIN_Fractured_Right_Wing
+				RWE_LIN_Ideological_Enigma
 			}	
             focuses = {
-			    ITA_a_roman_dictator
-				ITA_betray_the_savoys
-				ITA_host_the_papal_conclave
 			}			
 		}
-		"UAR"={
-			minor = yes
-			history = "UAR_RED_WORLD_DESC"
-			ideology = revolutionary_socialist
-			ideas={
-			}	
-            focuses = {
-			    UAR_syndicalism
-				UAR_legalise_the_baath_party
-				UAR_proclaim_an_islamic_republic
-			}			
-		}
-		"RAJ"={
-			minor = yes
-			history = "RAJ_RED_WORLD_DESC"
-			ideology = new_democrat
-			ideas={
-                idea_capitalism_with_indian_characteristics
-				idea_raj_naxalite_insurgency
-				idea_raj_kashmir_separatism
-				idea_raj_hindu_rate_of_growth
-			}	
-            focuses = {
-				RAJ_the_emergency
-				RAJ_ne_revolution_at_the_ballot
-				RAJ_em_emperor_gandhi
-			}			
-		}
-
-	
-
 		"GRL"={
 			minor = yes
 			history = "GRL_RED_WORLD_DESC"
 			ideology = moderate_socialist
 			ideas={
-                	GRL_Democratic_Alliance_Dominance 
-			RWE_GRL_Hawkeye_Problems 
-			GRL_Stability_Okay 
+				GRL_Democratic_Alliance_Dominance 
+				RWE_GRL_Hawkeye_Problems 
+				GRL_Stability_Okay 
 			}	
             focuses = {
 
 			}			
 		}
+		"LBA"={
+			minor = yes
+			history = "GRL_RED_WORLD_DESC"
+			ideology = national_bolshevik
+			ideas={
+				idea_lba_gaddafis_fine_line 
+			}	
+            focuses = {
+
+			}			
+		}
+	
+
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

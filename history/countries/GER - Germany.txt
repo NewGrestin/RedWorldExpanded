@@ -1,0 +1,474 @@
+﻿capital = 64
+
+oob = "GER_2000"
+
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "GER_2000_naval_mtg"
+#	else = {
+		set_naval_oob = "GER_2000_naval_legacy"
+#	}
+#}
+
+add_ideas = {
+    idea_shield_and_sword
+	GER_Westalgie
+	GER_Southern_Separatism
+	GER_Burden_of_History
+}
+
+set_research_slots = 4
+set_convoys = 500
+set_stability = 0.8
+set_war_support = 0.2
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 1 
+	tech_field_hospital = 1 
+	tech_engineers = 1 
+	gwtank = 1 
+	basic_light_tank = 1 
+	gw_artillery = 1 
+	tech_mountaineers = 1
+	early_light_cruiser = 1
+	early_fighter = 1 
+	early_bomber = 1 
+	early_submarine = 1
+    transport = 1 
+	paratroopers = 1 
+	marines = 1
+	early_destroyer = 1 
+	early_carrier = 1 
+	basic_heavy_tank = 1 
+	atomic_research = 1 
+	nuclear_reactor = 1 
+	nukes = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+add_ideas = {
+    idea_eu_member
+}
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 0
+		nationalist = 2
+		monarchist = 0
+		national_bolshevik = 0
+		national_conservative = 10
+		centrist = 8
+		liberal = 0
+		new_democrat = 0
+		moderate_socialist = 8
+		revolutionary_socialist = 7
+		communist = 65
+}
+
+create_country_leader = {
+	name = "Hans Modrow"
+	desc = "POLITICS_HANS_MODROW_DESC"
+	picture = "Portrait_GER_Hans_Modrow.dds"
+	ideology = leninist
+}
+
+create_country_leader = {
+	name = "Udo Voigt"
+	picture = "Portrait_GER_Udo_Voigt.dds"
+	ideology = national_socialist
+}
+
+create_country_leader = {
+	name = "Wolfgang Rauls"
+	picture = "Portrait_GER_Wolfgang_Rauls.dds"
+	ideology = nationalist_ideology
+}
+
+create_country_leader = {
+	name = "Wilhelm III"
+	picture = "Portrait_GER_Wilhelm_Third.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Heinz-Christian Strache"
+	picture = "Portrait_GER_Heinz_Christian_Strache.dds"
+	ideology = national_bolshevik_ideology
+}
+
+create_country_leader = {
+	name = "Beatrix von Storch"
+	picture = "Portrait_GER_Beatrix_Von_Storch.dds"
+	ideology = reactionary
+}
+
+create_country_leader = {
+	name = "Lothar de Maizière"
+	picture = "Portrait_GER_Lothar_De_Maiziere.dds"
+	ideology = christian_democrat
+}
+
+create_country_leader = {
+	name = "Rainer Ortleb"
+	picture = "Portrait_GER_Rainer_Ortleb.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Ulrich Junghanns"
+	picture = "Portrait_GER_Ulrich_Junghanns.dds"
+	ideology = new_democrat_ideology
+}
+
+create_country_leader = {
+	name = "Günter Schabowski"
+	picture = "Portrait_GER_Gunter_Schabowsky.dds"
+	ideology = peoples_socialist_democracy
+}
+
+create_country_leader = {
+	name = "Herbert Mies"
+	picture = "Portrait_GER_Herbert_Mies.dds"
+	ideology = revolutionary_socialist_ideology
+}
+
+create_field_marshal = {
+	name = "Volker Wieker"
+	picture = "Portrait_Volker_Wieker.dds"
+	traits = { organisational_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Erhard Bühler"
+	picture = "Portrait_Erhard_Bühler.dds"
+	traits = { organisational_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Werner Freers"
+	picture = "Portrait_Werner_Freers.dds"
+	traits = { fast_planner }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+
+create_field_marshal = {
+	name = "Hans-Lothar Domröse"
+	picture = "Portrait_Hans_Lothar_Domröse.dds"
+	traits = { offensive_doctrine }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Edmund Entacher"
+	picture = "Portrait_Edmund_Entacher.dds"
+	traits = { inspirational_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Eberhard Zorn"
+	picture = "Portrait_Eberhard_Zorn.dds"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Fritz Streletz"
+	picture = "Portrait_Fritz_Streletz.dds"
+	traits = { old_guard }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Richard Rossmanith"
+	picture = "Portrait_Richard_Rossmanith.dds"
+	traits = { ranger }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+	
+create_corps_commander = {
+	name = "Markus Laubenthal"
+	picture = "Portrait_Markus_Laubenthal.dds"
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Othmar Commenda"
+	picture = "Portrait_Othmar_Commenda.dds"
+	traits = { commando trait_engineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Robert Brieger"
+	picture = "Portrait_Robert_Brieger.dds"
+	traits = { urban_assault_specialist }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wolfgang Thonke"
+	picture = "Portrait_Wolfgang_Thonke.dds"
+	traits = { old_guard }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Günter Weiler"
+	picture = "Portrait_Günter_Weiler.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wolfgang Wosolsobe"
+	picture = "Portrait_Wolfgang_Wosolsobe.dds"
+	traits = { skilled_staffer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Achim Lidsba"
+	picture = "Portrait_Achim_Lidsba.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jörg Vollmer"
+	picture = "Portrait_Jörg_Vollmer.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wolfgang Jilke"
+	picture = "Portrait_Wolfgang_Jilke.dds"
+	traits = { commando }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Robert Brieger"
+	picture = "Portrait_Robert_Brieger.dds"
+	traits = { offensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Axel Schimpf"
+	picture = "Portrait_Axel_Schimpf.dds"
+	traits = { seawolf }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 4
+}
+
+create_navy_leader = {
+	name = "Andreas Krause"
+	picture = "Portrait_Andreas_Krause.dds"
+	traits = { spotter }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Manfred Nielson"
+	picture = "Portrait_Manfred_Nielson.dds"
+	traits = { superior_tactician }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	coordination_skill = 3
+	maneuvering_skill = 4
+}
+
+create_navy_leader = {
+	name = "Hendrik Born"
+	picture = "Portrait_Hendrik_Born.dds"
+	traits = { old_guard_navy }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	coordination_skill = 4
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Rainer Brinkmann"
+	picture = "Portrait_Rainer_Brinkmann.dds"
+	traits = { blockade_runner }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Horst-Dieter Kolletschke"
+	picture = "Portrait_Horst_Dieter_Kolletschke.dds"
+	traits = { air_controller }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	coordination_skill = 1
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Jan Christian Kaack"
+	picture = "Portrait_Jan_Christian_Kaack.dds"
+	traits = { blockade_runner }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Thorsten Kähler"
+	picture = "Portrait_Thorsten_Kähler.dds"
+	traits = { spotter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	coordination_skill = 2
+	maneuvering_skill = 1
+}

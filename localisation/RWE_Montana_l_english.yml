@@ -47,6 +47,12 @@
   MOT_Garrison_Outside_Contacts:0 "Contacts with the Outside World"
   MOT_Garrison_Taxes:0 "Begin Requisitioning Taxes"
 
+  MOT_Weaver:0 "This We'll Protect"
+  MOT_Weaver_Militia_Primacy:0 "Primacy of the Militia"
+  MOT_Weaver_Purge_Radicals:0 "Purge the Disloyal Radicals"
+  MOT_Weaver_New_Constitution:0 "A True Dream of the Founding Fathers"
+  MOT_Weaver_Christian_Boomerism:0 "Christ, Washington and Browning"
+
   ##########################
   # IDEAS
   ##########################

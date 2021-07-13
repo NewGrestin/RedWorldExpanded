@@ -1583,3 +1583,150 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = MOT_Weaver
+		icon = GFX_goal_Generic_Research
+		available = { 
+			has_country_leader = {
+				name = "Randy Weaver"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		bypass = { 
+			has_country_leader = {
+				name = "Randy Weaver"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+		x = 24
+		y = 0
+
+		cost = 8
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MOT_Weaver_Militia_Primacy
+		icon = GFX_goal_Generic_Research
+		available = { 
+			has_country_leader = {
+				name = "Randy Weaver"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Weaver
+		}	
+
+		bypass = { 
+		}
+		x = 21
+		y = 1
+
+		cost = 8
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MOT_Weaver_Purge_Radicals
+		icon = GFX_goal_Generic_Research
+		available = { 
+			has_country_leader = {
+				name = "Randy Weaver"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Weaver
+		}	
+
+		bypass = { 
+		}
+		x = 23
+		y = 1
+
+		cost = 8
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MOT_Weaver_New_Constitution
+		icon = GFX_goal_Generic_Research
+		available = { 
+			has_country_leader = {
+				name = "Randy Weaver"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Weaver
+		}	
+
+		bypass = { 
+		}
+		x = 25
+		y = 1
+
+		cost = 8
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MOT_Weaver_Christian_Boomerism
+		icon = GFX_goal_Generic_Research
+		available = { 
+			has_country_leader = {
+				name = "Randy Weaver"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Weaver
+		}	
+
+		bypass = { 
+		}
+		x = 27
+		y = 1
+
+		cost = 8
+
+
+		completion_reward = {
+
+		}
+	}

@@ -1,0 +1,107 @@
+##################
+# GERMANY IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		GER_Refugee_Crisis = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Refugee_Crisis
+			
+			removal_cost = -1
+	
+			modifier = {
+				monthly_population = 0.05
+				stability_weekly = -0.01
+				political_power_factor = -0.15
+
+			}
+		}
+
+		GER_Westalgie = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GER_Westalgie
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = -0.15
+				drift_defence_factor = -0.25
+
+			}
+		}
+
+		GER_Burden_of_History = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GER_Burden_of_History
+			
+			removal_cost = -1
+	
+			modifier = {
+				fascist_drift = -0.03
+				nationalist_drift = -0.03
+				monarchist_drift = -0.03
+
+			}
+		}
+
+		GER_Southern_Separatism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GER_Southern_Separatism
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+			}
+
+            targeted_modifier = { 
+                tag = AUS 
+                attack_bonus_against = -0.1 
+            }
+
+            targeted_modifier = { 
+                tag = BAV
+                attack_bonus_against = -0.1 
+            }
+		}
+	}
+}
