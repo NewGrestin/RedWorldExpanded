@@ -226,10 +226,6 @@ news_event = {	#Mauritania secedes from the Union
 	is_triggered_only = yes
 	major = yes
 	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
-	
 	option = {
 		name = newsrw.10.a
 		trigger = { tag = WAF }
@@ -238,5 +234,55 @@ news_event = {	#Mauritania secedes from the Union
 	option = {
 		name = newsrw.10.b
 		trigger = { NOT = { tag = WAF } }
+	}
+}
+
+news_event = {	#Coup leads to civil war in France
+	id = newsrw.11
+	title = newsrw.11.t
+	desc = newsrw.11.d
+	picture = fra_coup_2
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.11.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.11.b
+		trigger = { tag = FRN }
+	}
+
+	option = {
+		name = newsrw.11.c
+		trigger = { NOT = { tag = FRA tag = FRN } }
+	}
+}
+
+news_event = {	#Retreat to Corsica
+	id = newsrw.12
+	title = newsrw.12.t
+	desc = newsrw.12.d
+	picture = fra_corsica_retreat
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.12.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.12.b
+		trigger = { tag = FRN }
+	}
+
+	option = {
+		name = newsrw.12.c
+		trigger = { NOT = { tag = FRA tag = FRN } }
 	}
 }

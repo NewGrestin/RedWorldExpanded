@@ -13,6 +13,11 @@ LBA_Unified_Africa = {
     color_ui = rgb { 0 149 48 }
 }
 
+FRN_CORSICA = {
+    color = rgb { 206 206 206 }
+    color_ui = rgb { 206 206 206 }
+}
+
 OKL_KKK_Golden_Circle = {
     color = rgb { 196 177 84 }
     color_ui = rgb { 196 177 84 }

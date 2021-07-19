@@ -1,6 +1,12 @@
 ﻿l_english:
 
   ##########################
+  # COUNTRIES
+  ##########################
+  FRN:0 "French State"
+  FRN_CORSICA:0 "Corsica"
+
+  ##########################
   # FOCUSES
   ##########################
  
@@ -15,6 +21,15 @@
   FRA_revolutionary_socialist_party:0 "Communist Party - T"
   FRA_national_bolshevik_party_long:0 "French Communist Party - National Outlook"
   FRA_national_bolshevik_party:0 "Communist Party - N"
+
+  FRN_nationalist_party_long:0 "Military Junta for National Salvation"
+  FRN_nationalist_party:0 "Military Junta"
+  FRN_monarchist_party_long:0 "Bonapartist Restoration Society"
+  FRN_monarchist_party:0 "Restoration Society"
+  FRN_national_bolshevik_party_long:0 "National Bolsheviks of France"
+  FRN_national_bolshevik_party:0 "National Bolsheviks"
+  FRN_fascist_party_long:0 "French Unity Party"
+  FRN_fascist_party:0 "French Unity" 
 
   ##########################
   # IDEAS

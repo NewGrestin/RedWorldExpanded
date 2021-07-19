@@ -187,3 +187,215 @@ country_event = { #Mainstream has to choose
 	}
 
 }
+
+country_event = { #France falls apart
+	id = france.7
+	title = france.7.t
+	desc = france.7.d
+	picture = FRA_Refugees
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = FRA
+	date > 2011.5.5
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #
+		name = france.7.a
+		FRN = { transfer_state = 21 } 
+		FRN = { transfer_state = 1 } 
+		FRN = { transfer_state = 853 } 
+		FRN = { transfer_state = 735 } 
+		FRN = { transfer_state = 32 } 
+		FRN = { transfer_state = 20 } 
+		FRN = { transfer_state = 22 } 
+		FRN = { transfer_state = 31 } 
+		FRN = { transfer_state = 26 } 
+		declare_war_on = {
+   		 target = FRN
+   		 type = annex_everything
+		}
+		news_event = { id = newsrw.11 days = 0 } 
+	}
+
+
+}
+
+country_event = { #Retreat to Corsica
+	id = france.8
+	title = france.8.t
+	desc = france.8.d
+	picture = FRA_Refugees
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = FRN
+
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #
+		name = france.8.a
+		FRA = { transfer_state = 21 } 
+		FRA = { transfer_state = 853 } 
+		FRA = { transfer_state = 735 } 
+		FRA = { transfer_state = 32 } 
+		FRA = { transfer_state = 20 } 
+		FRA = { transfer_state = 22 } 
+		FRA = { transfer_state = 31 } 
+		FRA = { transfer_state = 26 } 
+
+		FRN = { transfer_state = 1 } 
+		FRA = { white_peace = FRN }
+		FRA = { add_stability = 0.15 }
+`		set_country_flag = FRN_CORSICA_RETREAT 
+		news_event = { id = newsrw.12 days = 0 } 
+	}
+}
+
+country_event = { #Corsican Politics Set-up
+	id = france.9
+	title = france.9.t
+	desc = france.9.d
+	picture = FRA_Refugees
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = FRN
+	has_country_flag = FRN_CORSICA_RETREAT 
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #
+		name = france.9.a
+		hidden_effect = { 
+	
+		set_popularities = { 
+		fascist = 23
+		nationalist = 12
+		monarchist = 10
+		national_bolshevik = 5
+		national_conservative = 0
+		centrist = 0
+		liberal = 10
+		new_democrat = 10
+		moderate_socialist = 0
+		revolutionary_socialist = 25
+		communist = 5
+		}
+		set_party_name = { 
+  		ideology = revolutionary_socialist
+   		long_name = "Corsican National Liberation Front"
+    		name = "FLNC"
+		}
+		set_party_name = { 
+  		ideology = national_bolshevik
+   		long_name = "Corsican National Liberation Front"
+    		name = "FLNC"
+		}
+		set_party_name = { 
+  		ideology = new_democrat
+   		long_name = "Corsican Nation Party"
+    		name = "Nation Party"
+		}		
+		set_party_name = { 
+  		ideology = communist
+   		long_name = "Anti-Separatist People's Party"
+    		name = "Anti-Separatist Party"
+		}
+		set_party_name = { 
+  		ideology = monarchist
+   		long_name = "Bonapartist Central Committee"
+    		name = "Bonapartist Committee"
+		}
+		set_party_name = { 
+  		ideology = liberal
+   		long_name = "Corsican Liberal Party"
+    		name = "Liberal Party"
+		}
+		create_country_leader = {
+		name = "Jacques Casamarta"
+		picture = "gfx/leaders/FRA/FRA_Jacques_Casamarta.tga"
+		ideology = marxist 
+		}
+		create_country_leader = {
+		name = "Jean-Michel Rossi"
+		picture = "gfx/leaders/FRA/COR_Jean_Michel_Rossi.tga"
+		ideology = national_communist 
+		}
+		create_country_leader = {
+		name = "Gilles Simeoni"
+		picture = "gfx/leaders/FRA/COR_Simeoni.tga"
+		ideology = new_democrat_ideology 
+		}
+		create_country_leader = {
+		name = "Marcel Lorenzoni"
+		picture = "gfx/leaders/FRA/COR_Marcel_Lorenzoni.tga"
+		ideology = third_international_theory 
+		}
+		create_country_leader = {
+		name = "Valérie Bozzi"
+		picture = "gfx/leaders/FRA/COR_Valerie_Bozzi.tga"
+		ideology = fiscal_conservative 
+		}
+		create_country_leader = {
+		name = "Jean-Charles Orsucci"
+		picture = "gfx/leaders/FRA/COR_Orsucci.tga"
+		ideology = social_liberal 
+		}
+		create_country_leader = {
+		name = "Jean-Christophe I"
+		picture = "gfx/leaders/FRA/FRA_Jean_Christophe_Napoleon.tga"
+		ideology = absolute_monarchist 
+		}
+		create_country_leader = {
+		name = "Charles Giacomi"
+		picture = "gfx/leaders/FRA/COR_Charles_Giacomi.tga"
+		ideology = fascist_ideology 
+		}
+		set_politics = { ruling_party = revolutionary_socialist }
+	}
+
+	}
+
+
+}
+
+country_event = { #Corsican separatists take control
+	id = france.10
+	title = france.10.t
+	desc = france.10.d
+	picture = FRA_Refugees
+	
+	fire_only_once = yes
+	
+	trigger = {
+        tag = FRN
+	has_country_flag = FRN_CORSICA_RETREAT 
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = { #
+		name = france.10.a
+		set_cosmetic_tag = FRN_CORSICA
+`		
+	}
+
+
+}

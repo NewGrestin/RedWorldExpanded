@@ -26,6 +26,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "fra_coup_2"
+		texturefile = "gfx/event_pictures/news_event/fra_coup_2.tga"
+	}
+
+	spriteType = {
+		name = "fra_corsica_retreat"
+		texturefile = "gfx/event_pictures/news_event/fra_corsica_retreat.tga"
+	}
+
+	spriteType = {
 		name = "fra_le_pen_elected"
 		texturefile = "gfx/event_pictures/news_event/fra_le_pen_elected.tga"
 	}
