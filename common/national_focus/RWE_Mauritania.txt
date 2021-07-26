@@ -1,0 +1,124 @@
+focus_tree = {
+	id = mauritania_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+				tag = MRT
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+
+
+	focus = {
+		id = MRT_War_for_Arab_Sovereignty
+		icon = g
+		available = { always = no }
+		x = 3
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MRT_Last_of_our_Reserves
+		icon = g
+		available = { always = no }
+		prerequisite = { focus = MRT_War_for_Arab_Sovereignty }
+		x = 3
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MRT_Build_up_our_Bastion
+		icon = g
+		available = { always = no }
+		prerequisite = { focus = MRT_War_for_Arab_Sovereignty }
+		x = 2
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MRT_Reconstruct_the_Dakar_Port
+		icon = g
+		available = { always = no }
+		prerequisite = { focus = MRT_War_for_Arab_Sovereignty }
+		x = 4
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MRT_On_the_Backs_of_Slaves
+		icon = g
+		available = { always = no }
+		prerequisite = { focus = MRT_Reconstruct_the_Dakar_Port focus = MRT_Build_up_our_Bastion }
+		x = 3
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MRT_Clan_Militias
+		icon = g
+		available = { always = no }
+		prerequisite = { focus = MRT_Build_up_our_Bastion }
+		x = 1
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = MRT_Desert_Infrastructure
+		icon = g
+		available = { always = no }
+		prerequisite = { focus = MRT_Reconstruct_the_Dakar_Port }
+		x = 5
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}

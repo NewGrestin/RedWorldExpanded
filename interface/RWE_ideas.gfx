@@ -20,6 +20,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/FRA_Factionalism.tga"			
 	}
 	SpriteType = {
+		name = "GFX_idea_FRA_Under_Moscow"
+		texturefile = "gfx/interface/ideas/FRA_Under_Moscow.tga"			
+	}
+	SpriteType = {
 		name = "GFX_idea_GRL_Socialist_Dominance"
 		texturefile = "gfx/interface/ideas/GRL_Socialist_Dominance.tga"			
 	}

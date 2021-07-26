@@ -1,0 +1,12 @@
+MRT_Pan_Arab_Dream = {
+    icon = generic_independence
+
+	picture = GFX_decision_cat_MOT_Illegal_Shit
+	visible_when_empty = yes	
+	allowed = { 
+		original_tag = MRT
+	}
+
+	priority = 250
+}
+

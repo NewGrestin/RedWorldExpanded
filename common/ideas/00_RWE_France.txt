@@ -22,7 +22,8 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-			political_power_cost = 0.25
+			political_power_cost = 0.15
+			stability_weekly = -0.002
 			}
 		}
 
@@ -43,10 +44,37 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-			political_power_cost = 0.15
-			stability_factor = -0.05
-			drift_defence_factor = 0.25
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.4
+			stability_factor = -0.2
+			drift_defence_factor = 0.5
 			war_support_factor = 0.05
+			}
+		}
+
+		FRA_Under_Moscows_Thumb = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = FRA_Under_Moscow
+			
+			removal_cost = -1
+			modifier = {
+			stability_factor = 0.05
+			political_power_factor = -0.1
+			}	
+
+			targeted_modifier = {
+			tag = SOV
+			extra_trade_to_target_factor = 0.25
+			cic_to_target_factor = 0.05
 			}
 		}
 
@@ -72,3 +100,4 @@ ideas = {
 			national_bolshevik_drift = 0.01
 			}
 		}
+

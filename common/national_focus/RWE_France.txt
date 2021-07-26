@@ -1,0 +1,814 @@
+focus_tree = {
+	id = communist_france_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+				tag = FRA
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+
+
+	focus = {
+		id = FRA_Declare_a_Refugee_Crisis
+		icon = g
+		available = { always = no }
+		x = 5
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Committee_of_Refugee_Integration
+		icon = g
+		prerequisite = { focus = FRA_Declare_a_Refugee_Crisis }
+		mutually_exclusive = { focus = FRA_Anti_Fraud_Policy_Revision }
+		available = { has_government = communist }
+		x = 2
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+		country_event = { id = france.13 days = 0 } 
+		}
+	}
+
+	focus = {
+		id = FRA_Anti_Fraud_Policy_Revision 
+		icon = g
+		prerequisite = { focus = FRA_Declare_a_Refugee_Crisis }
+		mutually_exclusive = { focus = FRA_Committee_of_Refugee_Integration }
+		available = { has_government = communist }
+		x = 4
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+		country_event = { id = france.12 days = 0 } 
+		}
+	}
+
+	focus = {
+		id = FRA_French_Only_Housing
+		icon = g
+		prerequisite = { focus = FRA_Declare_a_Refugee_Crisis }
+		mutually_exclusive = { focus = FRA_Roofs_for_Refugees }
+		available = { has_government = communist }
+		x = 6
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+		country_event = { id = france.14 days = 0 }
+		}
+	}
+
+	focus = {
+		id = FRA_Roofs_for_Refugees 
+		icon = g
+		prerequisite = { focus = FRA_Declare_a_Refugee_Crisis }
+		mutually_exclusive = { focus = FRA_French_Only_Housing }
+		available = { has_government = communist }
+		x = 8
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+		country_event = { id = france.15 days = 0 }
+		}
+	}
+
+	focus = {
+		id = FRA_European_Response
+		icon = g
+		prerequisite = { focus = FRA_French_Only_Housing focus = FRA_Roofs_for_Refugees }
+		prerequisite = { focus = FRA_Anti_Fraud_Policy_Revision focus = FRA_Committee_of_Refugee_Integration }
+		available = { has_government = communist }
+		x = 7
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_A_French_Haven
+		icon = g
+		prerequisite = { focus = FRA_French_Only_Housing focus = FRA_Roofs_for_Refugees }
+		prerequisite = { focus = FRA_Anti_Fraud_Policy_Revision focus = FRA_Committee_of_Refugee_Integration }
+		available = { has_government = communist }
+		x = 5
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Closing_the_Borders
+		icon = g
+		prerequisite = { focus = FRA_French_Only_Housing focus = FRA_Roofs_for_Refugees }
+		prerequisite = { focus = FRA_Anti_Fraud_Policy_Revision focus = FRA_Committee_of_Refugee_Integration }
+		available = { has_government = communist }
+		x = 3
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_The_Hyaric_Age
+		icon = g
+		prerequisite = { focus = FRA_Closing_the_Borders focus = FRA_A_French_Haven focus = FRA_European_Response }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 2
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_An_Europe_for_the_People
+		icon = g
+		prerequisite = { focus = FRA_The_Hyaric_Age }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 0
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Treating_Frances_Malaise
+		icon = g
+		prerequisite = { focus = FRA_The_Hyaric_Age }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 2
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Lessen_Moscow_Ties
+		icon = g
+		prerequisite = { focus = FRA_Treating_Frances_Malaise }
+		prerequisite = { focus = FRA_An_Europe_for_the_People }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 1
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Counter_Nationalism
+		icon = g
+		prerequisite = { focus = FRA_Lessen_Moscow_Ties }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 0
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Cutting_the_Red_Tape
+		icon = g
+		prerequisite = { focus = FRA_Treating_Frances_Malaise }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 2
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Decentralize_the_State
+		icon = g
+		prerequisite = { focus = FRA_Cutting_the_Red_Tape }
+		prerequisite = { focus = FRA_Counter_Nationalism }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = -1
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Enforce_Secularism
+		icon = g
+		prerequisite = { focus = FRA_Cutting_the_Red_Tape }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 1
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Less_Party_Committees
+		icon = g
+		prerequisite = { focus = FRA_Cutting_the_Red_Tape }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 3
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Renewed_Vision
+		icon = g
+		prerequisite = { focus = FRA_Less_Party_Committees }
+		prerequisite = { focus = FRA_Enforce_Secularism }
+		available = { has_country_leader = { name = "Patrick le Hyaric" } }
+		x = 2
+		y = 8
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_The_Melenchon_Age
+		icon = g
+		prerequisite = { focus = FRA_Closing_the_Borders focus = FRA_A_French_Haven focus = FRA_European_Response }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 6
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Limit_Military_Politics
+		icon = g
+		prerequisite = { focus = FRA_The_Melenchon_Age focus = FRA_The_Hyaric_Age }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 4
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Sovereign_Communism
+		icon = g
+		prerequisite = { focus = FRA_The_Melenchon_Age }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 6
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Exit_the_EU
+		icon = g
+		prerequisite = { focus = FRA_Sovereign_Communism }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 4
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Exit_the_Warsaw_Pact
+		icon = g
+		prerequisite = { focus = FRA_Exit_the_EU }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 4
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Centralize_the_State
+		icon = g
+		prerequisite = { focus = FRA_Sovereign_Communism }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 6
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Establish_the_Council_of_Journalism
+		icon = g
+		prerequisite = { focus = FRA_Centralize_the_State focus = FRA_Compulsory_Military_Service }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 7
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_The_Seventh_Republic
+		icon = g
+		prerequisite = { focus = FRA_Centralize_the_State }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 6
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Compulsory_Military_Service
+		icon = g
+		prerequisite = { focus = FRA_Sovereign_Communism }
+		available = { has_country_leader = { name = "Jean-Luc Mélenchon" } }
+		x = 8
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_The_Jospin_Age
+		icon = g
+		prerequisite = { focus = FRA_Closing_the_Borders focus = FRA_A_French_Haven focus = FRA_European_Response }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 10
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Implement_Honnetete
+		icon = g
+		prerequisite = { focus = FRA_The_Jospin_Age focus = FRA_The_Duflot_Age }
+		available = { OR = { has_country_leader = { name = "Lionel Jospin" } has_country_leader = { name = "Cécile Duflot" } } }
+		x = 11
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Liberalize_Planned_Economics
+		icon = g
+		prerequisite = { focus = FRA_The_Jospin_Age focus = FRA_The_Duflot_Age }
+		available = { OR = { has_country_leader = { name = "Lionel Jospin" } has_country_leader = { name = "Cécile Duflot" } } }
+		x = 13
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Environmental_Planning
+		icon = g
+		prerequisite = { focus = FRA_The_Duflot_Age }
+		available = { has_country_leader = { name = "Cécile Duflot" } }
+		x = 15
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Defang_the_Military
+		icon = g
+		prerequisite = { focus = FRA_The_Jospin_Age }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 9
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Contemplate_Democracy
+		icon = g
+		prerequisite = { focus = FRA_Defang_the_Military }
+		prerequisite = { focus = FRA_Implement_Honnetete }
+		prerequisite = { focus = FRA_Liberalize_Planned_Economics }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 11
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Revise_Banned_Books
+		icon = g
+		prerequisite = { focus = FRA_Contemplate_Democracy }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 9
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Reign_in_the_Secret_Service
+		icon = g
+		prerequisite = { focus = FRA_Revise_Banned_Books }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 10
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Loosen_Media_Control
+		icon = g
+		prerequisite = { focus = FRA_Revise_Banned_Books }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 8
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Independence_from_Moscow
+		icon = g
+		prerequisite = { focus = FRA_Reign_in_the_Secret_Service }
+		prerequisite = { focus = FRA_Remove_the_Party_Ban }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 11
+		y = 8
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Humanism_in_Government
+		icon = g
+		prerequisite = { focus = FRA_Reign_in_the_Secret_Service }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 9
+		y = 8
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Democracy_Returns
+		icon = g
+		prerequisite = { focus = FRA_Independence_from_Moscow }
+		prerequisite = { focus = FRA_Humanism_in_Government }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 10
+		y = 9
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Towards_Federalism
+		icon = g
+		prerequisite = { focus = FRA_Environmental_Planning }
+		prerequisite = { focus = FRA_Implement_Honnetete }
+		prerequisite = { focus = FRA_Liberalize_Planned_Economics }
+		available = { has_country_leader = { name = "Lionel Jospin" } }
+		x = 13
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Restrict_the_Chairman
+		icon = g
+		prerequisite = { focus = FRA_Contemplate_Democracy focus = FRA_Towards_Federalism }
+		available = { OR = { has_country_leader = { name = "Lionel Jospin" } has_country_leader = { name = "Cécile Duflot" } } }
+		x = 12
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Remove_the_Party_Ban
+		icon = g
+		prerequisite = { focus = FRA_Restrict_the_Chairman }
+		available = { OR = { has_country_leader = { name = "Lionel Jospin" } has_country_leader = { name = "Cécile Duflot" } } }
+		x = 12
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Regional_Autonomy
+		icon = g
+		prerequisite = { focus = FRA_Towards_Federalism }
+		available = { has_country_leader = { name = "Cécile Duflot" } } 
+		x = 14
+		y = 7
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Heal_the_Urban_Rural_Split
+		icon = g
+		prerequisite = { focus = FRA_Towards_Federalism }
+		available = { has_country_leader = { name = "Cécile Duflot" } } 
+		x = 15
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Allow_Regionalist_Parties
+		icon = g
+		prerequisite = { focus = FRA_Regional_Autonomy }
+		prerequisite = { focus = FRA_Remove_the_Party_Ban }
+		available = { has_country_leader = { name = "Cécile Duflot" } } 
+		x = 13
+		y = 8
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Adress_Regional_Inequality
+		icon = g
+		prerequisite = { focus = FRA_Regional_Autonomy }
+		available = { has_country_leader = { name = "Cécile Duflot" } } 
+		x = 15
+		y = 8
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_Green_Federation
+		icon = g
+		prerequisite = { focus = FRA_Allow_Regionalist_Parties }
+		prerequisite = { focus = FRA_Adress_Regional_Inequality }
+		available = { has_country_leader = { name = "Cécile Duflot" } } 
+		x = 14
+		y = 9
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_The_Duflot_Age
+		icon = g
+		prerequisite = { focus = FRA_Closing_the_Borders focus = FRA_A_French_Haven focus = FRA_European_Response }
+		available = { has_government = communist }
+		x = 14
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_The_Le_Pen_Age
+		icon = g
+		prerequisite = { focus = FRA_Closing_the_Borders focus = FRA_A_French_Haven focus = FRA_European_Response }
+		available = { has_government = communist }
+		x = 18
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}

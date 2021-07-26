@@ -21,6 +21,41 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "FRA_Mainstream"
+		texturefile = "gfx/event_pictures/report_event/FRA_Mainstream.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Support"
+		texturefile = "gfx/event_pictures/report_event/FRA_Support.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Housing"
+		texturefile = "gfx/event_pictures/report_event/FRA_Housing.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Housing_2"
+		texturefile = "gfx/event_pictures/report_event/FRA_Housing_2.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Reformists"
+		texturefile = "gfx/event_pictures/report_event/FRA_Reformists.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Election"
+		texturefile = "gfx/event_pictures/report_event/FRA_Election.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Welfare"
+		texturefile = "gfx/event_pictures/report_event/FRA_Welfare.tga"
+	}
+
+	spriteType = {
 		name = "FRA_HQ"
 		texturefile = "gfx/event_pictures/report_event/FRA_HQ.tga"
 	}
@@ -28,6 +63,46 @@ spriteTypes = {
 	spriteType = {
 		name = "FRA_Refugees"
 		texturefile = "gfx/event_pictures/report_event/FRA_Refugees.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Refugee_Camps"
+		texturefile = "gfx/event_pictures/report_event/FRA_Refugee_Camps.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Father"
+		texturefile = "gfx/event_pictures/report_event/FRA_Father.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Le_Pen"
+		texturefile = "gfx/event_pictures/report_event/FRA_Le_Pen.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Students"
+		texturefile = "gfx/event_pictures/report_event/FRA_Students.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Melenchon"
+		texturefile = "gfx/event_pictures/report_event/FRA_Melenchon.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Reformist_Rally"
+		texturefile = "gfx/event_pictures/report_event/FRA_Reformist_Rally.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Breton_Terrorism"
+		texturefile = "gfx/event_pictures/report_event/FRA_Breton_Terrorism.tga"
+	}
+
+	spriteType = {
+		name = "FRA_Gremetz"
+		texturefile = "gfx/event_pictures/report_event/FRA_Gremetz.tga"
 	}
 
 	spriteType = {

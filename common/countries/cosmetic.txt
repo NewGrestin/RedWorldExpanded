@@ -453,3 +453,8 @@ LOU_AR_Collapse = {
 	color = rgb { 173 88 88 }
 	color_ui = rgb { 173 88 88 }
 }
+
+MRT_ARAB = {
+	color = rgb { 77 119 59 }
+	color_ui = rgb { 77 119 59 }
+}

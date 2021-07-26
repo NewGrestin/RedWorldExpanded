@@ -1,0 +1,46 @@
+﻿l_english:
+
+  ##########################
+  # FOCUSES
+  ##########################
+
+  ##########################
+  # IDEAS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+  MRT_Algerian_Expedition:0 "Expedition into Algeria" 
+  MRT_Pan_Arab_Dream:0 "Realizing the Pan-Arab Dream"
+  MRT_Pan_Arab_Dream_desc:0 "\n\n\n\n\n\n\nMultiple men have come before us, claiming to represent all Arab people and their pan-Arab dreams. Yet no figure has yet to properly unify the Arab world under their flag. For this, Mauritania now steps into the fray, claiming the title of pan-Arab flagbearer and fighting for the souls of all Arabs, hoping to finally unify our nation against European, Asian or American intrusion."
+  MRT_Unify_the_Arab_World:0 "Unify the Arab World" 
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # EVENTS
+  ##########################
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################
+  MRT_ARAB_national_bolshevik:0 "Arab Union" 
+  MRT_ARAB_national_bolshevik_DEF:0 "The Arab Union" 
+  MRT_ARAB_revolutionary_socialist:0 "Arab People's Union" 
+  MRT_ARAB_revolutionary_socialist_DEF:0 "The Arab People's Union" 
+  MRT_ARAB_communist:0 "Union of Arab Socialist Republics"
+  MRT_ARAB_communist_DEF:0 "The Union of Arab Socialist Republics"
+  MRT_ARAB:0 "Arab Republic"
+  MRT_ARAB_DEF:0 "The Arab Republic" 
+  MRT_ARAB_fascist:0 "Arab Caliphate"
+  MRT_ARAB_fascist_DEF:0 "The Arab Caliphate"
+  MRT_ARAB_nationalist:0 "Arab Union"
+  MRT_ARAB_nationalist_DEF:0 "The Arab Union" 
+
+  MRT_ARAB_ADJ:0 "Arab"

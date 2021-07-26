@@ -103,7 +103,13 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mohamed Ould Abdel Aziz"
 	picture = "gfx/leaders/WAF/portrait_WAF_Mohamed_Abdellahi_Eyye.tga"
-	ideology = fascist_ideology 
+	ideology = nationalist_ideology 
+}
+
+create_country_leader = {
+	name = "Omar Ould Hamaha"
+	picture = "gfx/leaders/WAF/portrait_MRT_Hamaha.tga"
+	ideology = jihadist 
 }
 
 create_country_leader = {
