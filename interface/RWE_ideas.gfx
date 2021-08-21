@@ -7,6 +7,11 @@ spriteTypes = {
 		name = "GFX_LIN_Nazbol_Icon"
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
+
+	SpriteType = {
+		name = "GFX_idea_GRL_Cech_Act"
+		texturefile = "gfx/interface/ideas/GRL_Cech_Act.tga"			
+	}
 	SpriteType = {
 		name = "GFX_idea_WAF_Between_Two_Worlds"
 		texturefile = "gfx/interface/ideas/WAF_Between_Two_Worlds.tga"			

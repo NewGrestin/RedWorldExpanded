@@ -19,7 +19,7 @@
   GRL_Ban_Deadly_Pesticides:0 "Ban Toxic Pesticides"
   GRL_Centralize_Conservation_Efforts:0 "Central Authority for Nature Conservation"
   GRL_Green_Heart_of_America:0 "Green Heart of the Americas"
-  GRL_In_Defense_of_the_Great_Lakes:0 "Defending our Great Lakes"
+  GRL_In_Defense_of_the_Great_Lakes:0 "\"My Life for our Way of Life\""
   GRL_Military_Funding_Act:0 "Increase the Military Budget" 
   GRL_Establish_a_Grand_Republic:0 "Grand Republic on the Great Lakes"
   GRL_Establish_a_Grand_Republic_desc:0 "It's been decades since the end of the United States, yet some people cannot let go. Unlike them, we know when to let go and embrace the future. As the concept of America dies in a coffin near the White House, the Great Lakes unify behind their new future as a strong, independent republic. Glory to the Great Lakes Federation." 
@@ -32,6 +32,7 @@
   GRL_Favour_the_Democrats:0 "Favour the Labor-Farmers" 
   GRL_Adress_Extremism:0 "Adress Extremism"
   GRL_Crush_the_Marxists:0 "Stop University Marxism"
+  GRL_Crush_the_Marxists_desc:0 "The fall of the United States can be traced back to the one, overarching conspiracy perpetrated by communist Russia: the marxist infiltration of American universities. From red professors to socialist students, our universities are filthy full with pinko commies. We shall treat them like the bugs they are and bring some American patriotism to those universities."
   GRL_Christian_Morals_in_School:0 "Christian Morality in School"
   GRL_Favour_the_Republicans:0 "Favour the Republicans" 
   GRL_Against_the_Red_Conspiracy:0 "Form the GLACD"
@@ -70,6 +71,19 @@
   GRL_Stability_Threatened:0 "Federal Stability: §GThreatened§!" 
   GRL_Stability_Threatened_desc:0 "The Great Lakes Federation is weeping, as stability is now a historic luxury we cannot afford any longer. Domestic terrorism, civil unrest, riots and seccesionist sentiment are all a plague on our nation and we'll have to deal with it sooner than later if we want our little nation at the Great Lakes to survive this decade." 
 
+  GRL_United_States_System:0 "Federal Dream"
+  GRL_United_States_System_1:0 "Federal System"
+  GRL_United_States_System_2:0 "Two-Party Federation"
+  GRL_United_States_System_LF:0 "Two-Party Federation" 
+  GRL_United_States_System_RP:0 "Two-Party Federation"
+
+  GRL_Cech_Act:0 "Thomas Cech Act"
+  GRL_Stand_Up_for_your_State:0 "Stand by your State"
+  GRL_Equal_Schooling:0 "Equal Schooling Act"
+
+  GRL_Spirit_of_the_Midwest:0 "Spirit of the Midwest"
+  GRL_Corn_Belt_1:0 "Our Lovely Corn Belt"
+  GRL_Corn_Belt_1_desc:0 "As one of the many successor states of the old United States, the Great Lakes Federation inherited half of the famous Corn Belt: a region rich in agricultural produce and, due to technological advancement in the field of agriculture, one of the most fertile regions in the world. While fewer than 10% of the people are employed in the agricultural sector, wheat, corn and soy still bring tons to the treasury every year. Exporting to many other American states, the Great Lakes can be considered the beating heart of this new America, selling their corn to the hungry while living in agricultural luxury." 
   ##########################
   # EVENTS
   ##########################
@@ -105,3 +119,6 @@
   ##########################
   # COSMETIC TAGS
   ##########################
+  GRL_GRAND_REPUBLIC:0 "United Great Lakes Republic"
+  GRL_GRAND_REPUBLIC_DEF:0 "The United Federal Republic of the Great Lakes"
+  GRL_GRAND_REPUBLIC_ADJ:0 "Great Lakes"

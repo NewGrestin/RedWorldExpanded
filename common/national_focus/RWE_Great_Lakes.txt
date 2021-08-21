@@ -150,7 +150,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_March_to_Iowa
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_GRL_Iowa_Folds
 		available = { has_war = no owns_state = 392 }
 		prerequisite = { focus = GRL_Mobilize_the_Army }
 		prerequisite = { focus = GRL_Contact_Paramilitaries }
@@ -222,11 +222,12 @@ focus_tree = {
 		x = 0
 		y = 2
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = moderate_socialist popularity = 0.05 }
+		swap_ideas = { remove_idea = GRL_Corn_Belt add_idea = GRL_Corn_Belt_1 }
 		}
 	}
 
@@ -238,7 +239,7 @@ focus_tree = {
 		x = 1
 		y = 3
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -254,7 +255,7 @@ focus_tree = {
 		x = -1
 		y = 3
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -271,7 +272,7 @@ focus_tree = {
 		x = 1
 		y = 4
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -288,7 +289,7 @@ focus_tree = {
 		x = 2
 		y = 5
 
-		cost = 3
+		cost = 5
 
 
 		completion_reward = {
@@ -298,7 +299,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Military_Funding_Act
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_GRL_Army
 		available = { }
 		prerequisite = { focus = GRL_Green_Heart_of_America }
 		x = 1
@@ -314,17 +315,18 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_In_Defense_of_the_Great_Lakes
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = GFX_goal_GRL_Shield
+		available = { has_war = yes }
 		prerequisite = { focus = GRL_Green_Heart_of_America }
 		x = 3
 		y = 6
 
-		cost = 3
+		cost = 5
 
 
 		completion_reward = {
-
+		add_war_support = 0.1
+		add_ideas = { GRL_Spirit_of_the_Midwest }
 		}
 	}
 
@@ -346,35 +348,37 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Fund_Science
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_GRL_Cech_Act
 		available = { }
 		mutually_exclusive = { focus = GRL_More_Public_Schools }
 		prerequisite = { focus = GRL_Establishment_Progressivism focus = GRL_Pragmatism_and_Progressive_Ideas }
 		x = 5
 		y = 3
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
-
+		add_ideas = { GRL_Cech_Act }
+		add_research_slot = 1
 		}
 	}
 
 	shared_focus = {
 		id = GRL_More_Public_Schools 
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_Generic_Research_Councils
 		available = { }
 		mutually_exclusive = { focus = GRL_Fund_Science }
 		prerequisite = { focus = GRL_Establishment_Progressivism focus = GRL_Pragmatism_and_Progressive_Ideas }
 		x = 3
 		y = 3
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
-
+		add_ideas = { GRL_Equal_Schooling }
+		add_research_slot = 1
 		}
 	}
 
@@ -387,7 +391,7 @@ focus_tree = {
 		x = 3
 		y = 4
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -397,14 +401,14 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Free_Market_Welfareism 
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_Generic_Money_Bags
 		available = { }
 		mutually_exclusive = { focus = GRL_Equal_Opportunity_Act }
 		prerequisite = { focus = GRL_More_Public_Schools focus = GRL_Fund_Science }
 		x = 5
 		y = 4
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -432,7 +436,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Pragmatism_and_Progressive_Ideas
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_Generic_Leading_Torch
 		available = { }
 		prerequisite = { focus = GRL_Ken_Martin_and_the_Old_Democrats }
 		x = 5
@@ -471,11 +475,12 @@ focus_tree = {
 		x = 11
 		y = 2
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
-
+		add_stability = 0.1
+		
 		}
 	}
 
@@ -487,7 +492,7 @@ focus_tree = {
 		x = 11
 		y = 3
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -503,7 +508,7 @@ focus_tree = {
 		x = 11
 		y = 4
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -513,7 +518,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Favour_the_Republicans
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_generic_Republicans
 		available = { }
 		prerequisite = { focus = GRL_Christian_Morals_in_School }
 		prerequisite = { focus = GRL_Reinforce_the_Two_Party_System }
@@ -524,7 +529,8 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = national_conservative popularity = 0.05 }
+		swap_ideas = { remove_idea = GRL_United_States_System_2 add_idea = GRL_United_States_System_RP }
 		}
 	}
 
@@ -536,7 +542,7 @@ focus_tree = {
 		x = 11
 		y = 6
 
-		cost = 3
+		cost = 7
 
 
 		completion_reward = {
@@ -546,66 +552,69 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Return_to_Tradition
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_GRL_Federalism_2
 		available = { }
 		prerequisite = { focus = GRL_DeVos_Republican_Rise focus = GRL_Ken_Martin_and_the_Old_Democrats }
 		x = 8
 		y = 2
 
-		cost = 3
+		cost = 5
 
 
 		completion_reward = {
-
+		add_ideas = { GRL_United_States_System }
+		every_owned_state = { add_extra_state_shared_building_slots = 1 }
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Gerrymandering_is_an_Art
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = GFX_goal_GRL_Gerrymandering
+		available = { has_political_power > 49 }
 		prerequisite = { focus = GRL_Return_to_Tradition }
 		x = 7
 		y = 3
 
-		cost = 3
+		cost = 10
 
 
 		completion_reward = {
-
+		add_political_power = -50
+		
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Federalize_the_System
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_GRL_Federalism
 		available = { }
 		prerequisite = { focus = GRL_Return_to_Tradition }
 		x = 9
 		y = 3
 
-		cost = 3
+		cost = 10
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = GRL_United_States_System add_idea = GRL_United_States_System_1 }
+		
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Reinforce_the_Two_Party_System
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_GRL_Two_Party
 		available = { }
 		prerequisite = { focus = GRL_Federalize_the_System }
 		prerequisite = { focus = GRL_Gerrymandering_is_an_Art }
 		x = 8
 		y = 4
 
-		cost = 3
+		cost = 10
 
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = GRL_United_States_System_1 add_idea = GRL_United_States_System_2 }
 		}
 	}
 
@@ -617,33 +626,36 @@ focus_tree = {
 		x = 8
 		y = 5
 
-		cost = 3
+		cost = 5
 
 
 		completion_reward = {
-
+		set_cosmetic_tag = GRL_GRAND_REPUBLIC
+		add_political_power = 150
+		add_stability = 0.1
 		}
 	}
 
 	shared_focus = {
 		id = GRL_In_Defense_of_Regionalism
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = GFX_goal_GRL_Shield_2
+		available = { has_war = yes }
 		prerequisite = { focus = GRL_Establish_a_Grand_Republic }
 		x = 8
 		y = 6
 
-		cost = 3
+		cost = 5
 
 
 		completion_reward = {
-
+		add_war_support = 0.1
+		add_ideas = { GRL_Stand_Up_for_your_State }
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Favour_the_Democrats
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_generic_Farmer_Labor
 		available = { }
 		prerequisite = { focus = GRL_Equal_Opportunity_Act focus = GRL_Free_Market_Welfareism }
 		prerequisite = { focus = GRL_Reinforce_the_Two_Party_System }
@@ -654,6 +666,7 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = liberal popularity = 0.05 }
+		swap_ideas = { remove_idea = GRL_United_States_System_2 add_idea = GRL_United_States_System_LF }
 		}
 	}

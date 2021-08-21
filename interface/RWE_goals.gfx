@@ -1,5 +1,53 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_GRL_IWW"
+		texturefile = "gfx/interface/goals/GRL_IWW.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Iowa_Folds"
+		texturefile = "gfx/interface/goals/GRL_Iowa_Folds.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Army"
+		texturefile = "gfx/interface/goals/GRL_Army.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Shield_2"
+		texturefile = "gfx/interface/goals/GRL_Shield_2.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Shield"
+		texturefile = "gfx/interface/goals/GRL_Shield.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Cech_Act"
+		texturefile = "gfx/interface/goals/GRL_Cech_Act.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Federalism_2"
+		texturefile = "gfx/interface/goals/GRL_Federalism_2.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Federalism"
+		texturefile = "gfx/interface/goals/GRL_Federalism.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Gerrymandering"
+		texturefile = "gfx/interface/goals/GRL_Gerrymandering.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Two_Party"
+		texturefile = "gfx/interface/goals/GRL_Two_Party.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Farmer_Labor"
+		texturefile = "gfx/interface/goals/generic_Farmer_Labor.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Republicans"
+		texturefile = "gfx/interface/goals/generic_Republicans.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_FRA_Resignation"
 		texturefile = "gfx/interface/goals/FRA_Resignation.tga"			
 	}

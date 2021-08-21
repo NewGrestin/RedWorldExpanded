@@ -49,6 +49,247 @@ ideas = {
 			}
 		}
 
+		GRL_Corn_Belt_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Corn_Belt
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = 0.2
+			consumer_goods_factor = -0.15
+			monthly_population = 0.3
+			industrial_capacity_factory = -0.05
+			}
+		}
+
+		GRL_United_States_System = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Socialist_Dominance
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.15
+			stability_factor = 0.05
+			consumer_goods_factor = 0.05
+			}
+		}
+
+		GRL_United_States_System_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Socialist_Dominance
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.25
+			stability_factor = 0.15
+			conscription = 0.01
+			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = -0.05
+			}
+		}
+
+		GRL_United_States_System_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Socialist_Dominance
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.3
+			stability_factor = 0.3
+			conscription = 0.01
+			consumer_goods_factor = 0.07
+			production_speed_buildings_factor = -0.05
+			national_conservative_drift = 0.03
+			nationalist_drift = 0.03
+			liberal_drift = 0.06
+
+			}
+		}
+
+		GRL_United_States_System_LF = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Socialist_Dominance
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.3
+			stability_factor = 0.3
+			conscription = 0.01
+			consumer_goods_factor = 0.07
+			production_speed_buildings_factor = -0.05
+			national_conservative_drift = 0.03
+			nationalist_drift = 0.03
+			liberal_drift = 0.08
+
+			}
+		}
+
+		GRL_United_States_System_RP = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Socialist_Dominance
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.3
+			stability_factor = 0.3
+			conscription = 0.01
+			consumer_goods_factor = 0.07
+			production_speed_buildings_factor = -0.05
+			national_conservative_drift = 0.05
+			nationalist_drift = 0.05
+			liberal_drift = 0.06
+
+			}
+		}
+
+		GRL_Cech_Act = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Cech_Act
+			
+			removal_cost = -1
+	
+			modifier = {
+			research_speed_factor = 0.05
+
+			}
+		}
+
+		GRL_Equal_Schooling = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Cech_Act
+			
+			removal_cost = -1
+	
+			modifier = {
+			research_speed_factor = 0.01
+			conscription_factor = 0.02
+			industrial_capacity_factory = 0.05
+			}
+		}
+
+		GRL_Stand_Up_for_your_State = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Cech_Act
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_core_defence_factor = 0.2
+			army_core_attack_factor = 0.2
+			conscription_factor = 0.05
+			}
+		}
+
+		GRL_Spirit_of_the_Midwest = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Cech_Act
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_morale_factor = 0.1
+			army_org_factor = 0.05
+			conscription_factor = 0.1
+			training_time_factor = -0.15
+			}
+		}
+
 		GRL_Democratic_Alliance_Dominance = {
 			
 			
