@@ -290,6 +290,118 @@ ideas = {
 			}
 		}
 
+		GRL_Solidarity_Forever = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Cech_Act
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_org_factor = -0.05
+			conscription_factor = 0.25
+			training_time_factor = -0.25
+			equipment_capture_factor = 0.1
+			}
+		}
+
+		GRL_Revolution_at_Home = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Cech_Act
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_org_factor = 0.1
+			conscription_factor = 0.1
+			communist_drift = 0.02
+			industrial_capacity_factory = 0.05
+			}
+		}
+
+		GRL_Peoples_Transit = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = SPR_anarchist_public_transport
+			
+			removal_cost = -1
+	
+			modifier = {
+			army_speed_factor = 0.05
+			production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		GRL_French_Expertise = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_French_Expertise
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.2
+			compliance_growth_on_our_occupied_states = -0.5
+			line_change_production_efficiency_factor = 0.15
+			}
+		}
+
+		GRL_Union_Based_Government = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_IWW
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.05
+			political_power_factor = 0.1
+			industrial_capacity_factory = 0.05
+			industrial_capacity_dockyard = 0.05
+			}
+		}
+
 		GRL_Democratic_Alliance_Dominance = {
 			
 			

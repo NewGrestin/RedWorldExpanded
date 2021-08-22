@@ -7,7 +7,14 @@ spriteTypes = {
 		name = "GFX_LIN_Nazbol_Icon"
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
-
+	SpriteType = {
+		name = "GFX_idea_GRL_French_Expertise"
+		texturefile = "gfx/interface/ideas/GRL_French_Expertise.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_GRL_IWW"
+		texturefile = "gfx/interface/ideas/GRL_IWW.tga"			
+	}
 	SpriteType = {
 		name = "GFX_idea_GRL_Cech_Act"
 		texturefile = "gfx/interface/ideas/GRL_Cech_Act.tga"			

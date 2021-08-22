@@ -14,6 +14,7 @@ focus_tree = {
 	shared_focus = GRL_The_DA_Holds_Together
 	shared_focus = GRL_The_DA_Fractures 
 	shared_focus = GRL_The_Iowa_Crisis
+	shared_focus = GRL_Red_Flag_Revolution
 	default = no
 }
 
@@ -342,7 +343,8 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_popularity = { ideology = moderate_socialist popularity = 0.05 }
+		add_stability = 0.05
 		}
 	}
 
@@ -486,7 +488,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Crush_the_Marxists
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_GRL_University_Marxism
 		available = { }
 		prerequisite = { focus = GRL_Adress_Extremism }
 		x = 11
@@ -668,5 +670,367 @@ focus_tree = {
 		completion_reward = {
 		add_popularity = { ideology = liberal popularity = 0.05 }
 		swap_ideas = { remove_idea = GRL_United_States_System_2 add_idea = GRL_United_States_System_LF }
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Red_Flag_Revolution
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		x = -7
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Peoples_Constitutional_Assembly
+		icon = GFX_goal_generic_Peoples_Constitution
+		available = { }
+		prerequisite = { focus = GRL_Red_Flag_Revolution }
+		x = -7
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+		custom_effect_tooltip = GRL_CEMENTING_NEW_REGIME
+		add_stability = 0.05
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Communist_Party_Cemented
+		icon = GFX_goal_GRL_CPUSA_2
+		available = { has_government = communist }
+		prerequisite = { focus = GRL_Red_Flag_Revolution }
+		x = -4
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Bill_Of_Rights_Socialism
+		icon = bill_of_rights_socialism
+		available = { }
+		prerequisite = { focus = GRL_Communist_Party_Cemented }
+		x = -5
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Embrace_Democratic_Centralism
+		icon = agrarian_socialism
+		available = { }
+		prerequisite = { focus = GRL_Bill_Of_Rights_Socialism }
+		mutually_exclusive = { focus = GRL_Approach_Moscow }
+		x = -5
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Approach_Moscow
+		icon = moscow_prototype
+		available = { NOT = { has_war_with = SOV } SOV = { OR = { has_government = communist } } }
+		prerequisite = { focus = GRL_Communist_Party_Cemented }
+		mutually_exclusive = { focus = GRL_Embrace_Democratic_Centralism }
+		x = -3
+		y = 3
+
+		cost = 7
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Secure_Russian_Funding
+		icon = GFX_goal_generic_Soviet_Funds
+		available = {  }
+		prerequisite = { focus = GRL_Approach_Moscow }
+		x = -3
+		y = 5
+
+		cost = 7
+
+
+		completion_reward = {
+		add_offsite_building = { type = arms_factory level = 2 }
+		add_offsite_building = { type = industrial_complex level = 2 }
+		add_political_power = 100
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Purchase_Soviet_Equipment
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = {  }
+		prerequisite = { focus = GRL_Secure_Russian_Funding }
+		x = -2
+		y = 6
+
+		cost = 7
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_One_Union_Indivisble
+		icon = GFX_goal_GRL_CPUSA
+		available = { has_war = yes }
+		prerequisite = { focus = GRL_Secure_Russian_Funding focus = GRL_Free_Transit }
+		x = -4
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+		add_war_support = 0.05
+		add_ideas = { GRL_Revolution_at_Home }
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Nationalize_Big_Business
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = {  }
+		prerequisite = { focus = GRL_Embrace_Democratic_Centralism focus = GRL_Approach_Moscow }
+		x = -4
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Free_Transit
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = {  }
+		prerequisite = { focus = GRL_Nationalize_Big_Business }
+		prerequisite = { focus = GRL_Embrace_Democratic_Centralism }
+		x = -5
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+		add_ideas = { GRL_Peoples_Transit }
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Big_Workers_Movement
+		icon = GFX_goal_
+		available = {  }
+		prerequisite = { focus = GRL_Embrace_Democratic_Centralism }
+		x = -6
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_IWW_Seizes_Power
+		icon = GFX_goal_GRL_IWW_3
+		available = { has_government = revolutionary_socialist }
+		prerequisite = { focus = GRL_Red_Flag_Revolution }
+		x = -10
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+		add_ideas = { GRL_Union_Based_Government }
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.05 }
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Secure_Worker_Rights
+		icon = GFX_goal_GRL_Workers_Rights
+		available = { }
+		prerequisite = { focus = GRL_IWW_Seizes_Power }
+		x = -9
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Expand_National_Union_Activity
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Secure_Worker_Rights }
+		x = -9
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Contact_the_Global_Chapters
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_IWW_Seizes_Power }
+		x = -11
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Invite_French_Organizers
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { NOT = { has_war_with = FRA } }
+		prerequisite = { focus = GRL_Contact_the_Global_Chapters }
+		x = -12
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.05 }
+		add_ideas = { GRL_French_Expertise }
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Reorganize_the_American_IWW
+		icon = GFX_goal_GRL_IWW_2
+		available = { }
+		prerequisite = { focus = GRL_Contact_the_Global_Chapters focus = GRL_Expand_National_Union_Activity }
+		x = -10
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_One_Big_Union
+		icon = GFX_goal_GRL_One_Big_Union
+		available = { }
+		prerequisite = { focus = GRL_Reorganize_the_American_IWW }
+		x = -10
+		y = 5
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Break_the_Chains
+		icon = GFX_goal_GRL_IWW_Army
+		available = { }
+		prerequisite = { focus = GRL_One_Big_Union }
+		x = -11
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Solidarity_Forever
+		icon = GFX_goal_GRL_IWW
+		available = { has_war = yes }
+		prerequisite = { focus = GRL_One_Big_Union }
+		x = -9
+		y = 6
+
+		cost = 3
+
+
+		completion_reward = {
+		add_war_support = 0.05
+		add_ideas = { GRL_Solidarity_Forever }
+		}
+	}
+
+	shared_focus = {
+		id = GRL_For_the_Union_Makes_Us_Strong
+		icon = GFX_goal_GRL_SRA
+		available = { }
+		prerequisite = { focus = GRL_Expand_National_Union_Activity focus = GRL_Contact_the_Global_Chapters }
+		x = -8
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
 		}
 	}

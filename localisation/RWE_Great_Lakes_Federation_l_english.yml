@@ -27,7 +27,7 @@
   GRL_Gerrymandering_is_an_Art:0 "Gerrymandering is an Art" 
   GRL_Federalize_the_System:0 "Federalize our System"
   GRL_Reinforce_the_Two_Party_System:0 "A New Two-Party System" 
-  GRL_In_Defense_of_Regionalism:0 "In Defense of Regionalism"
+  GRL_In_Defense_of_Regionalism:0 "\"My Home, My House, My Castle\""
   GRL_In_Defense_of_Regionalism_desc:0 "Unlike our peaceloving self, the world America has been left in is not filled with similairly minded. Men of ambition seek to unify the old continent under a single central government, yet we will not stand for their threats of war. Thus, we promise today that Milwaukee stands with its regional brothers against Americanism."
   GRL_Favour_the_Democrats:0 "Favour the Labor-Farmers" 
   GRL_Adress_Extremism:0 "Adress Extremism"
@@ -36,7 +36,37 @@
   GRL_Christian_Morals_in_School:0 "Christian Morality in School"
   GRL_Favour_the_Republicans:0 "Favour the Republicans" 
   GRL_Against_the_Red_Conspiracy:0 "Form the GLACD"
-
+  GRL_Solidarity_Forever:0 "\"Solidarity Forever\"" 
+  GRL_Solidarity_Forever_desc:0 "Our way of life has been endangered by foreign invaders. War looms over the union and the worker's rights are threatened once again. Let the people remember what they are fighting for: their liberty as a person, their liberty as a member. \n\nTheir liberty as a worker."
+  GRL_Break_the_Chains:0 "Army of Wobblies"
+  GRL_Break_the_Chains_desc:0 "Our future is never secure. As long as people oppose the worker, the worker will have to organize themselves into defensive collectives and communities. While the IWW doesn't need a standing army, it can learn its members how to fight off reactionaries and capitalists. Give the Wobblies a gun and let them fight those boot-loving sons of bitches."
+  GRL_One_Big_Union:0 "One Big Union"
+  GRL_One_Big_Union_desc:0 "To be divided is to follow the conspiracy of the capitalists. One capitalist can control a small union, as he can hold his breath longer than the union members. Yet, when we start looking at it from a national or even a global perspective, the capitalists are far too few to do the same with the workers of the world. The IWW will establish the One Big Union we need to keep the capitalist exploiter at bay."
+  GRL_Reorganize_the_American_IWW:0 "Reunify the American IWW"
+  GRL_Reorganize_the_American_IWW_desc:0 "As the nation remains as divided as ever and the worker remains exploited by capitalism, the IWW of the Great Lakes has to take matters into its own hands and seek to reunify the old American IWW into a new, American chapter. May the tyrants of America tremble!"
+  GRL_For_the_Union_Makes_Us_Strong:0 "Approach the SRA"
+  GRL_For_the_Union_Makes_Us_Strong_desc:0 "The Socialist Rifle Association has been an incredible asset to the IWW during the revolutionary days in Milwaukee. However, as the issue of unification returns, we will have to see if the members of the SRA are willing to serve their comrades once more. With their expertise and our ambition, it may not be the pie in the sky it seemed once." 
+  GRL_Invite_French_Organizers:0 "Invite French Organizers"
+  GRL_Invite_French_Organizers_desc:0 "Despite the boot of Moscow on the throats of many of their workers, the people of France remain remarkable in their ability to unionize and cause trouble. We've written letters to their leadership in Paris, hoping to get some of those in the French IWW chapter with the experience needed to properly coordinate our members." 
+  GRL_Expand_National_Union_Activity:0 "Encourage Union Formation"
+  GRL_Expand_National_Union_Activity_desc:0 "With the old government overthrown, the workers of the Great Lakes are free to unionize. However, anti-union sentiment remains strong in some parts of the country. Thus, our government has to actively encourage the formation of labour and trade unions in these regions, hoping to get the people on board with the idea and come up for their rights against their exploitative employers."
+  GRL_Secure_Worker_Rights:0 "Blue-Collar Rights"
+  GRL_Secure_Worker_Rights_desc:0 "Blue-collar workers are the most exploited class in American society. They're spit on by the middle class for their low status and pressured by the higher classes, seeking to push every penny out of the little man. With the IWW at the helm of our country now, the blue-collar worker will have his rights to fight back against capitalist exploitation. For the union makes us strong!"
+  GRL_Contact_the_Global_Chapters:0 "Contact the International Chapters"
+  GRL_IWW_Seizes_Power:0 "Industrial Workers of the World"
+  GRL_Communist_Party_Cemented:0 "Great Lakes CPUSA"
+  GRL_Bill_Of_Rights_Socialism:0 "Bill of Rights Socialism" 
+  GRL_Embrace_Democratic_Centralism:0 "Embrace Socialist Democracy"
+  GRL_Approach_Moscow:0 "Approach Moscow" 
+  GRL_Big_Workers_Movement:0 "One Movement against Capitalism"
+  GRL_Nationalize_Big_Business:0 "Nationalize Big Businesses"
+  GRL_Free_Transit:0 "Revolutionize Urban Transit"
+  GRL_Secure_Russian_Funding:0 "Secure Soviet Backing" 
+  GRL_Purchase_Soviet_Equipment:0 "Monitor Online Activities"
+  GRL_One_Union_Indivisble:0 "\"One Union, Indivisble\"" 
+  GRL_Peoples_Constitutional_Assembly:0 "People's Constitutional Assembly"
+  GRL_Peoples_Constitutional_Assembly_desc:0 "With the faux socialist government vanguished, the united front of the IWW and the CPUSA can finally get to redrafting the old constitution. A people's assembly has been assembled to help with the rewriting of this new constitution and potentially cementing a new regime in the Great Lakes."
+  GRL_Red_Flag_Revolution:0 "Red Flags in Milwaukee"
   
   GRL_The_Iowa_Crisis:0 "Crisis in Des Moins"
   GRL_Disband_the_House:0 "Disband the House"
@@ -81,6 +111,13 @@
   GRL_Stand_Up_for_your_State:0 "Stand by your State"
   GRL_Equal_Schooling:0 "Equal Schooling Act"
 
+  GRL_Revolution_at_Home:0 "Revolution at Home" 
+  GRL_Peoples_Transit:0 "People's Transport"
+
+  GRL_Solidarity_Forever:0 "Solidarity Forever" 
+  GRL_French_Expertise:0 "French Expertise"
+  GRL_Union_Based_Government:0 "IWW Government"
+
   GRL_Spirit_of_the_Midwest:0 "Spirit of the Midwest"
   GRL_Corn_Belt_1:0 "Our Lovely Corn Belt"
   GRL_Corn_Belt_1_desc:0 "As one of the many successor states of the old United States, the Great Lakes Federation inherited half of the famous Corn Belt: a region rich in agricultural produce and, due to technological advancement in the field of agriculture, one of the most fertile regions in the world. While fewer than 10% of the people are employed in the agricultural sector, wheat, corn and soy still bring tons to the treasury every year. Exporting to many other American states, the Great Lakes can be considered the beating heart of this new America, selling their corn to the hungry while living in agricultural luxury." 
@@ -110,12 +147,17 @@
   ##########################
   # DECISIONS
   ##########################
-	
+  GRL_IWW:0 "Industrial Workers of the World"
+  GRL_IWW_desc:0 "\n\n\n\n\n\nThe IWW and its Wobblies have done what some would have considered impossible mere months ago: they've overthrown the Great Lakes government and reinstalled a new, union-based government with the IWW at its head. \n\nWith the IWW now cementing its power, the new Great Lakes Union looks across the Great Plains. America is divided and the worker is oppressed by big dollar, Soviet-sympathisers and mental patriots. The IWW can not stand by and watch this travesty, as we have a moral obligation to use the contacts we have and undermine these tyrants of capitalism, soviet-ism and fascism."
+ 
+
   ##########################
   # TOOLTIPS
   ##########################
   GRL_DISBAND_HOUSE_PATH:0 "Hortman has disbanded the House" 
   GRL_TALKS_PATH:0 "Hortman has started talks with the Republicans"
+
+  GRL_CEMENTING_NEW_REGIME:0 "§RAt the end of the constitutional assembly, either the IWW or the CPUSA will have cemented their position to lead the Great Lakes into the next era.§!"
   ##########################
   # COSMETIC TAGS
   ##########################

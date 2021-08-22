@@ -1,5 +1,41 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_GRL_University_Marxism"
+		texturefile = "gfx/interface/goals/GRL_University_Marxism.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_CPUSA"
+		texturefile = "gfx/interface/goals/GRL_CPUSA.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_CPUSA_2"
+		texturefile = "gfx/interface/goals/GRL_CPUSA_2.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_One_Big_Union"
+		texturefile = "gfx/interface/goals/GRL_One_Big_Union.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_Workers_Rights"
+		texturefile = "gfx/interface/goals/GRL_Workers_Rights.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_IWW_Army"
+		texturefile = "gfx/interface/goals/GRL_IWW_Army.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_IWW_2"
+		texturefile = "gfx/interface/goals/GRL_IWW_2.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_IWW_3"
+		texturefile = "gfx/interface/goals/GRL_IWW_3.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GRL_SRA"
+		texturefile = "gfx/interface/goals/GRL_SRA.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_GRL_IWW"
 		texturefile = "gfx/interface/goals/GRL_IWW.tga"			
 	}
@@ -40,12 +76,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GRL_Two_Party.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_generic_Peoples_Constitution"
+		texturefile = "gfx/interface/goals/general_Peoples_Constitution.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_generic_Farmer_Labor"
 		texturefile = "gfx/interface/goals/generic_Farmer_Labor.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_generic_Republicans"
 		texturefile = "gfx/interface/goals/generic_Republicans.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Soviet_Funds"
+		texturefile = "gfx/interface/goals/generic_Soviet_Funds.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_FRA_Resignation"
