@@ -1037,6 +1037,7 @@ RWE_Disunifier = {
 				owns_state = 890
 				NOT = {
 					original_tag = LIN
+					original_tag = MOT
 				}
 				LIN = {
 					exists = no

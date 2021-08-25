@@ -191,4 +191,24 @@ spriteTypes = {
 		name = "GFX_idea_GER_Southern_Separatism"
 		texturefile = "gfx/interface/ideas/GER_Southern_Separatism.dds"			
 	}
+	SpriteType = {
+		name = "GFX_idea_RWE_TEX_Mutilated_Rose"
+		texturefile = "gfx/interface/ideas/RWE_TEX_Mutilated_Rose.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_TEX_American_Ashes"
+		texturefile = "gfx/interface/ideas/RWE_TEX_American_Ashes.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_TEX_NASA"
+		texturefile = "gfx/interface/ideas/RWE_TEX_NASA.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_TEX_New_Americans"
+		texturefile = "gfx/interface/ideas/RWE_TEX_New_Americans.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_ILL_Quiet_Statelet"
+		texturefile = "gfx/interface/ideas/RWE_ILL_Quiet_Statelet.dds"			
+	}
 }

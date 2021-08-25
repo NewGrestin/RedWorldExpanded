@@ -1,0 +1,29 @@
+##################
+# ILLINOIS IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_ILL_Quiet_Statelet = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_ILL_Quiet_Statelet
+			
+			removal_cost = -1
+	
+			modifier = {
+				surrender_limit = 0.1
+				war_support_factor = 0.3
+			}
+		}
+	}
+}

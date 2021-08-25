@@ -486,6 +486,13 @@ country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Pu
 		add_political_power = -150
 
 		add_stability = -0.2
+
+		hidden_effect = {
+			country_event = {
+				id = montana.37
+				days = 2
+			}
+		}
 	}
 
 	option = { #Align with Garrison
@@ -792,5 +799,96 @@ country_event = {		#Garrison in Power - Militia Civil War - Outcome
 		set_cosmetic_tag = MOT_American_Autonomy
 
 		remove_ideas = RWE_MOT_Garrison_Anarchy
+	}
+}
+
+country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Purists - Weaver seizes control
+	id = montana.37
+	title = montana.37.t
+	desc = montana.37.d
+	picture = pence_forces_seize_remaining_areas
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.37.a
+
+		ai_chance = {
+			factor = 50
+		}
+
+		set_politics = {
+			ruling_party = nationalist
+		}
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.35
+		}
+
+		add_political_power = 50
+
+		create_country_leader = {
+			name = "Randy Weaver"
+			picture = "Portrait_MOT_Randy_Weaver.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		set_party_name = { 
+			ideology = fascist 
+			long_name = "Council for Resurrection of American Liberty - Extremist Faction" 
+			name = "Liberty Council - Extremists" 
+		}
+
+		set_party_name = { 
+			ideology = nationalist 
+			long_name = "Council for Resurrection of American Liberty" 
+			name = "Liberty Council" 
+		}
+
+		set_party_name = { 
+			ideology = national_conservative 
+			long_name = "Council for Resurrection of American Liberty - Moderate Faction" 
+			name = "Liberty Council - Moderates" 
+		}
+
+		drop_cosmetic_tag = yes
+
+		set_cosmetic_tag = MOT_Free_Territory
+	}
+
+	option = { 
+		name = montana.37.b
+
+		ai_chance = {
+			factor = 40
+		}
+
+		set_politics = {
+			ruling_party = nationalist
+		}
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.35
+		}
+	}
+
+	option = { 
+		name = montana.37.c
+
+		ai_chance = {
+			factor = 10
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = montana.19
+				days = 5
+			}
+		}
 	}
 }

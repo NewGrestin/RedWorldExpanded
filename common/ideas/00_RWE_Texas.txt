@@ -1,0 +1,104 @@
+##################
+# TEXAS IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_TEX_Mutilated_Rose = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_TEX_Mutilated_Rose
+			
+			removal_cost = -1
+	
+			modifier = {
+				surrender_limit = 0.1
+				war_support_factor = 0.3
+			}
+
+            targeted_modifier = { 
+                tag = MEX 
+                attack_bonus_against = 0.1
+				defense_bonus_against = 0.25
+            }
+
+            targeted_modifier = { 
+                tag = USA
+                attack_bonus_against = 0.1
+				defense_bonus_against = 0.25
+            }
+		}
+
+		RWE_TEX_American_Ashes = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_TEX_American_Ashes
+			
+			removal_cost = -1
+	
+			modifier = {
+				drift_defence_factor = 0.5
+				political_power_gain = -0.15
+			}
+		}
+
+		RWE_TEX_NASA = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_TEX_NASA
+			
+			removal_cost = -1
+	
+			modifier = {
+				research_speed_factor = 0.15
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+		}
+
+		RWE_TEX_New_Americans = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_TEX_New_Americans
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				fascist_acceptance = -100
+			}
+		}
+	}
+}

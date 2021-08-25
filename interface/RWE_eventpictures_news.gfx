@@ -6,6 +6,141 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "TEX_Perot_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Perot_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Lynda_Johnson_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Lynda_Johnson_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Jeb_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Jeb_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Chris_Kyle_American_Sniper_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Chris_Kyle_American_Sniper_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Mark_Kelley_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Mark_Kelley_Elected.dds"
+	}
+
+	spriteType = {
+		name = "global_arab_spring"
+		texturefile = "gfx/event_pictures/news_event/global_arab_spring.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Baathist_Coup"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Baathist_Coup.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Islamist_Revolution"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Islamist_Revolution.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Democratic_Revolution"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Democratic_Revolution.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Saddam_Trial"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Saddam_Trial.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Operation_Desert_Storm"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Operation_Desert_Storm.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Kuwait_Withdrawal"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Kuwait_Withdrawal.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Kurdish_Peace"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Kurdish_Peace.dds"
+	}
+
+	spriteType = {
+		name = "IRQ_Kurdish_War"
+		texturefile = "gfx/event_pictures/news_event/IRQ_Kurdish_War.dds"
+	}
+
+	spriteType = {
+		name = "PAL_Nationalist_Takeover"
+		texturefile = "gfx/event_pictures/news_event/PAL_Nationalist_Takeover.dds"
+	}
+
+	spriteType = {
+		name = "PAL_Communist_Takeover"
+		texturefile = "gfx/event_pictures/news_event/PAL_Communist_Takeover.dds"
+	}
+
+	spriteType = {
+		name = "PAL_Baathist_Takeover"
+		texturefile = "gfx/event_pictures/news_event/PAL_Baathist_Takeover.dds"
+	}
+
+	spriteType = {
+		name = "PAL_Second_Peace"
+		texturefile = "gfx/event_pictures/news_event/PAL_Second_Peace.dds"
+	}
+
+	spriteType = {
+		name = "PAL_Dissolution"
+		texturefile = "gfx/event_pictures/news_event/PAL_Dissolution.dds"
+	}
+
+	spriteType = {
+		name = "PAL_Israeli_Independence_War"
+		texturefile = "gfx/event_pictures/news_event/PAL_Israeli_Independence_War.dds"
+	}
+
+	spriteType = {
+		name = "GER_RadSoc_Election"
+		texturefile = "gfx/event_pictures/news_event/GER_RadSoc_Election.dds"
+	}
+
+	spriteType = {
+		name = "GER_Communist_Election"
+		texturefile = "gfx/event_pictures/news_event/GER_Communist_Election.dds"
+	}
+
+	spriteType = {
+		name = "GER_Reformist_Election"
+		texturefile = "gfx/event_pictures/news_event/GER_Reformist_Election.dds"
+	}
+
+	spriteType = {
+		name = "GER_Stasi_Coup"
+		texturefile = "gfx/event_pictures/news_event/GER_Stasi_Coup.dds"
+	}
+
+	spriteType = {
+		name = "GER_Austro_German_War"
+		texturefile = "gfx/event_pictures/news_event/GER_Austro_German_War.dds"
+	}
+
+	spriteType = {
+		name = "GER_German_Democracy"
+		texturefile = "gfx/event_pictures/news_event/GER_German_Democracy.dds"
+	}
+
+	spriteType = {
+		name = "GER_German_Military_Coup"
+		texturefile = "gfx/event_pictures/news_event/GER_German_Military_Coup.dds"
+	}
+
+	spriteType = {
 		name = "waf_mauritania"
 		texturefile = "gfx/event_pictures/news_event/waf_mauritania.tga"
 	}

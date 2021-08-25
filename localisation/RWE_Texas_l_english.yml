@@ -1,0 +1,65 @@
+﻿l_english:
+
+  ##########################
+  # COUNTRIES
+  ##########################
+
+  ##########################
+  # FOCUSES
+  ##########################
+
+  ##########################
+  # PARTIES
+  ##########################
+ TEX_fascist_party:0 "New Americans"
+ TEX_fascist_party_long:0 "Alliance for the Liberation of the New American Constitutional Republic"
+ TEX_nationalist_party:0 "CR - Nationalists"
+ TEX_nationalist_party_long:0 "Constitutional-Republican Party - Texan Nationalist Faction"
+ TEX_monarchist_party:0 "-"
+ TEX_national_bolshevik_party:0 "-"
+ TEX_national_conservative_party:0 "CR - Conventionalists"
+ TEX_national_conservative_party_long:0 "Constitutional-Republican Party - Conventional Conservative Faction"
+ TEX_centrist_party:0 "Reform Party"
+ TEX_centrist_party_long:0 "Reform Party of Texas"
+ TEX_liberal_party:0 "Democratic Party - M"
+ TEX_liberal_party_long:0 "United Democratic Party - Moderates"
+ TEX_new_democrat_party:0 "Democratic Party - R"
+ TEX_new_democrat_party_long:0 "United Democratic Party - Reformist Caucus"
+ TEX_moderate_socialist_party:0 "SPTX"
+ TEX_moderate_socialist_party_long:0 "Socialist Party of Texas"
+ TEX_revolutionary_socialist_party:0 "N-SPTX"
+ TEX_revolutionary_socialist_party_long:0 "New Socialist Party of Texas"
+ TEX_communist_party:0 "Red Guards"
+ TEX_communist_party_long:0 "Revolutionary Vanguardist Militia for the Development of Marxism-Leninism-Maoism"
+
+  ##########################
+  # IDEAS
+  ##########################
+  RWE_TEX_Mutilated_Rose:0 "The Mutilated Rose"
+  RWE_TEX_Mutilated_Rose_desc:0 "There was a time when Texas stood proud, free and truly independent. That was a long time ago. Modern Texas is a state reduced to a buffer, mutilated by repeated invasions from the Southern Remnants and the Mexican Army. Though Texas was the beneficiary of many post-Collapse military professionals, not even Alexander the Great could have overturned the Republic's myriad of losses on multiple fronts.\n\nModern Texas is a shadow of what it once was, and reclaiming her rightful place as a post-American nation is the principle goal of many in the political scene. Though few would be so brazen as to call it Revanchism, it is clear that the modern Texan cultural zeitgeist has shifted hard towards reclamation of her lost lands."
+  RWE_TEX_American_Ashes:0 "Ashes of the Old Establishment"
+  RWE_TEX_American_Ashes_desc:0 "The Dissolution of the United States was at best messy and at worst was an unofficial civil war. While some states rose from the Union with a shred of dignity and a new lease on life, Texas was left with the corpse of a collapsed two-party system.\n\nModern Texan politics are dominated primary by the Constitutional-Republican Party and the United Democratic Party, with spoiler votes from the Reform Party and the Socialist Party. \n\nThe CRs, or Constitutionals, were formed from a merger between the Texan Republican Party and the Constitutional Party of Texas, the former of which had its' political reputation obliterated by the American Reagan administration.\n\nThe United Democratic Party is the remnant of the old Democratic establishment, increasingly sidelined by a growing vigorous left wing. Though socialism remains a dirty word to some Texans, the Democratic Left have seen support from the youth and metropolitan areas, while the CRs maintain support in the rural areas.\n\nThis delicate balance of power is the linchpin of Texan democracy, something that seems increasingly unstable as the years go on."
+  RWE_TEX_NASA:0 "Johnson Space Center"
+  RWE_TEX_NASA_desc:0 "The Johnson Space Center is a pivotal facility for the old American Space Program. Though it has languished in the last few decades due to lack of funding, the practical experience of on-site staff and the invaluable research data makes the facility important even when most of it remains mothballed. If revived, the Center could be the launchpad, perhaps literally, for a revived space program."
+  RWE_TEX_New_Americans:0 "Legacy of December 29th"
+  RWE_TEX_New_Americans_desc:0 "December 29th, 2009 remains one of the darkest moments in modern Texan history. While anti-secessionist sentiment has never been new, few could have anticipated the magnitude of the attack. Early in the morning, members of a group calling themselves the New Americans launched a series of bombings against Texan capital infrastructure, resulting in the deaths of nearly 80 people and the hospitalization of over 200. In conjunction with these attacks, Texan politicians were simultaneously mailed a series of anthrax-laced mail bombs, resulting in an additional death and a dozen injuries. In total, the attack caused millions of dollars in damages, and more importantly it utterly traumatized the Texan Republic.\n\nThe December 29th Attacks lead directly to the temporary imposition of martial law, an act which has never been officially rescinded. President Rick Perry holds on to his emergency powers even now, riding on the fear and uncertainty of the December Attacks, but with the New Americans on the backfoot after retaliatory strikes, his justifications sound more and more hollow."
+
+  ##########################
+  # EVENTS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+  ##########################
+  # LEADERS
+  ##########################
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

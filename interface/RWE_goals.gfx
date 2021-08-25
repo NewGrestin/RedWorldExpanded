@@ -652,3 +652,143 @@ spriteTypes = {
 		name = "GFX_goal_MOT_Garrison_Taxes"
 		texturefile = "gfx/interface/goals/MOT_Garrison_Taxes.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Weaver"
+		texturefile = "gfx/interface/goals/MOT_Weaver.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Weaver_Militia_Primacy"
+		texturefile = "gfx/interface/goals/MOT_Weaver_Militia_Primacy.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Weaver_Purge_Radicals"
+		texturefile = "gfx/interface/goals/MOT_Weaver_Purge_Radicals.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Weaver_New_Constitution"
+		texturefile = "gfx/interface/goals/MOT_Weaver_New_Constitution.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Weaver_Christian_Boomerism"
+		texturefile = "gfx/interface/goals/MOT_Weaver_Christian_Boomerism.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Preserve_Covington"
+		texturefile = "gfx/interface/goals/MOT_Preserve_Covington.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Devolution"
+		texturefile = "gfx/interface/goals/MOT_Devolution.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Tear_Down_Covington"
+		texturefile = "gfx/interface/goals/MOT_Tear_Down_Covington.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Anti_Communism"
+		texturefile = "gfx/interface/goals/MOT_Anti_Communism.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Christian_Education"
+		texturefile = "gfx/interface/goals/MOT_Christian_Education.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Purge_Garrison"
+		texturefile = "gfx/interface/goals/MOT_Purge_Garrison.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Reform_Militia"
+		texturefile = "gfx/interface/goals/MOT_Reform_Militia.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Anti_UAPR_Pact"
+		texturefile = "gfx/interface/goals/MOT_Anti_UAPR_Pact.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_National_Castle_Doctrine"
+		texturefile = "gfx/interface/goals/MOT_National_Castle_Doctrine.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Localized_Economy"
+		texturefile = "gfx/interface/goals/MOT_Localized_Economy.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Import_Advisors"
+		texturefile = "gfx/interface/goals/MOT_Import_Advisors.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Anti_Strike_UAPR"
+		texturefile = "gfx/interface/goals/MOT_Anti_Strike_UAPR.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Christian_Identity"
+		texturefile = "gfx/interface/goals/MOT_Christian_Identity.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Denounce_Centralists"
+		texturefile = "gfx/interface/goals/MOT_Denounce_Centralists.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Normalize_Canadian_Relations"
+		texturefile = "gfx/interface/goals/MOT_Normalize_Canadian_Relations.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Consolidate_Pact"
+		texturefile = "gfx/interface/goals/MOT_Consolidate_Pact.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Attack_Midwest"
+		texturefile = "gfx/interface/goals/MOT_Attack_Midwest.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Attack_Great_Lakes"
+		texturefile = "gfx/interface/goals/MOT_Attack_Great_Lakes.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Offer_Texas"
+		texturefile = "gfx/interface/goals/MOT_Offer_Texas.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Strike_Republic"
+		texturefile = "gfx/interface/goals/MOT_Strike_Republic.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Strike_APC"
+		texturefile = "gfx/interface/goals/MOT_Strike_APC.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Weaver_Unification_Focus"
+		texturefile = "gfx/interface/goals/MOT_Weaver_Unification_Focus.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Unabomber"
+		texturefile = "gfx/interface/goals/MOT_Unabomber.dds"			
+	}

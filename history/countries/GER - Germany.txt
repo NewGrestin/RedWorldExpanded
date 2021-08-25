@@ -181,8 +181,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Herbert Mies"
-	picture = "Portrait_GER_Herbert_Mies.dds"
+	name = "Petra Schelm"
+	picture = "Portrait_GER_Petra_Schelm.dds"
 	ideology = revolutionary_socialist_ideology
 }
 

@@ -8,9 +8,11 @@ set_stability = 0.7
 set_war_support = 0.4
 
 add_ideas = {
+	RWE_TEX_Mutilated_Rose
+	RWE_TEX_American_Ashes
+	RWE_TEX_New_Americans
+	RWE_TEX_NASA
 	idea_america_neutrality_statelet
-	#idea_tex_economy
-	#idea_tex_independent
 }
 
 set_technology = {
