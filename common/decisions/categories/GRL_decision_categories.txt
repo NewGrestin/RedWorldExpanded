@@ -1,4 +1,4 @@
-GRL_IWW = {
+GRL_IWW_dec = {
     icon = generic_independence
 
 	picture = GFX_decision_cat_MOT_Illegal_Shit
@@ -10,3 +10,25 @@ GRL_IWW = {
 	priority = 250
 }
 
+GRL_CPUSA_dec = {
+    icon = generic_independence
+
+	picture = GFX_decision_cat_MOT_Illegal_Shit
+	visible_when_empty = yes	
+	allowed = { 
+		original_tag = GRL
+	}
+
+	priority = 250
+}
+
+GRL_Gerrymandering_dec = {
+    icon = generic_democracy
+
+	visible_when_empty = yes	
+	allowed = { 
+		original_tag = GRL
+	}
+
+	priority = 250
+}

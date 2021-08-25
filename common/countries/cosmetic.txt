@@ -458,3 +458,23 @@ MRT_ARAB = {
 	color = rgb { 77 119 59 }
 	color_ui = rgb { 77 119 59 }
 }
+
+GRL_IWW = {
+	color = rgb { 226 55 48 }
+	color_ui = rgb { 226 55 48 }
+}
+
+GRL_MOSCOW = {
+	color = rgb { 188 19 62 }
+	color_ui = rgb { 188 19 62 }
+}
+
+GRL_CPUSA = {
+	color = rgb { 179 51 61 }
+	color_ui = rgb { 179 51 61 }
+}
+
+GRL_TEMPLAR = {
+	color = rgb { 175 96 103 }
+	color_ui = rgb { 175 96 103 }
+}

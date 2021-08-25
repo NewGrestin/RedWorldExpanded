@@ -1,5 +1,29 @@
 leader_traits = {
 
+	grand_master_of_the_knights_templar = {
+		random = no
+		political_power_cost = 0.1
+		war_support_factor = 0.2
+		army_morale_factor = 0.2
+		monarchist_drift = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	supreme_admiral_of_these_great_lakes = {
+		random = no
+		political_power_cost = 0.05
+		experience_gain_navy = 0.01
+		naval_coordination = 0.05
+		naval_damage_factor = 0.1
+		naval_defense_factor = 0.1
+		industrial_capacity_dockyard = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	tired_secretary_general = {
 		random = no
 		political_power_cost = 0.05

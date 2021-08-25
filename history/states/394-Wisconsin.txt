@@ -1,0 +1,36 @@
+
+state={
+	id=394
+	name="STATE_394"
+	resources={
+		steel=84.000
+	}
+
+	history={
+		owner = GRL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 2
+
+		}
+		add_core_of = GRL
+		victory_points = {
+			12357 5 
+		}
+		victory_points = {
+			12456 2 
+		}
+		victory_points = {
+			4166 1 
+		}
+
+	}
+
+	provinces={
+		1849 3699 4029 7776 7829 9678 
+	}
+	manpower=4978700
+	buildings_max_level_factor=1.000
+	state_category=city
+}

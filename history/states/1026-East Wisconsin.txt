@@ -1,0 +1,16 @@
+state={
+	id=1026
+	name="STATE_1026"
+	provinces={
+		703 926 4738 4834 12456 
+	}
+	history = { 
+		owner = GRL
+		add_core_of = GRL
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

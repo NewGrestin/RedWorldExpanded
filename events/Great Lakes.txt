@@ -1,4 +1,5 @@
 ﻿add_namespace = grl
+add_namespace = grlnews
 
 #Iowa Crisis hits
 country_event = {		
@@ -124,6 +125,330 @@ country_event = {
 		}
 		add_stability = -0.05
 		complete_national_focus = GRL_The_DA_Fractures 
+	}
+
+}
+
+#Iowa flees from communist Great Lakes, joins Illinois
+country_event = {		
+	id = grl.7
+	title = grl.7.t
+	desc = grl.7.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #War has been declared
+		name = grl.7.a
+		remove_ideas = { RWE_GRL_Hawkeye_Problems }
+		ILL = { transfer_state = 392 }
+
+	}
+
+}
+
+#IWW strikes plague Milwaukee
+country_event = {		
+	id = grl.8
+	title = grl.8.t
+	desc = grl.8.d
+	picture = MOT_Militias
+
+	fire_only_once = yes
+
+	trigger = { 
+	tag = GRL
+	date > 2010.5.10
+	}
+
+	option = { #Let them strike
+		name = grl.8.a
+		add_popularity = { ideology = liberal popularity = 0.03 }
+		add_timed_idea = { idea = RWE_GRL_Milwaukee_Strikes days = 90 }
+		hidden_effect = { country_event = { id = grl.9 days = 0 } }
+	}
+
+	option = { #Strike a deal
+		name = grl.8.b
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.03 }		
+		add_popularity = { ideology = moderate_socialist popularity = 0.01 }
+		add_stability = 0.05
+		add_political_power = -200		
+	}
+
+	option = { #send in the army
+		name = grl.8.c
+		add_popularity = { ideology = nationalist popularity = 0.01 }	
+		add_stability = -0.05
+		add_political_power = -50			
+	}
+}
+
+#NEA - Help the Milwaukee strikes
+country_event = {		
+	id = grl.9
+	title = grl.9.t
+	desc = grl.9.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Let them strike
+		name = grl.9.a
+		GRL = { modify_timed_idea = {
+ 		 idea = RWE_GRL_Milwaukee_Strikes 
+   		 days = 40
+		} }
+		add_political_power = -50
+		hidden_effect = { country_event = { id = grl.10 days = 1 } }
+	}
+
+	option = { #Strike a deal
+		name = grl.9.b
+		add_political_power = 25	
+	}
+}
+
+#GRL - NEA has helped the IWW
+country_event = {		
+	id = grl.10
+	title = grl.10.t
+	desc = grl.10.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #
+		name = grl.10.a
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.02 }
+	}
+
+}
+
+#GRL - NEA has helped the IWW
+country_event = {		
+	id = grl.10
+	title = grl.10.t
+	desc = grl.10.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #
+		name = grl.10.a
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.02 }
+	}
+
+}
+
+#Wisconsin University Academics support Democratic Alliance
+country_event = {		
+	id = grl.11
+	title = grl.11.t
+	desc = grl.11.d
+	picture = MOT_Militias
+
+	fire_only_once = yes
+
+	trigger = { 
+	tag = GRL
+	date > 2010.4.10
+	}
+
+	option = { #
+		name = grl.11.a
+		add_popularity = { ideology = moderate_socialist popularity = 0.01 }
+	}
+
+	option = { #
+		name = grl.11.b
+		add_popularity = { ideology = liberal popularity = 0.03 }
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.01 }
+	}
+}
+
+#Police shoot worker
+country_event = {		
+	id = grl.12
+	title = grl.12.t
+	desc = grl.12.d
+	picture = MOT_Militias
+
+	fire_only_once = yes
+
+	trigger = { 
+	tag = GRL
+	date > 2010.6.5
+	}
+
+	option = { #
+		name = grl.12.a
+		add_popularity = { ideology = moderate_socialist popularity = 0.03 }
+		add_stability = -0.03
+	}
+
+	option = { #
+		name = grl.12.b
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.03 }
+		add_popularity = { ideology = nationalist popularity = 0.02 }
+		add_stability = -0.05
+	}
+
+	option = { #
+		name = grl.12.c
+		add_popularity = { ideology = liberal popularity = 0.03 }
+		add_stability = 0.01
+	}
+}
+
+#Local Court rules in favour of big mining 
+country_event = {		
+	id = grl.13
+	title = grl.13.t
+	desc = grl.13.d
+	picture = MOT_Militias
+
+	fire_only_once = yes
+
+	trigger = { 
+	tag = GRL
+	date > 2010.6.20
+	}
+
+	option = { #
+		name = grl.13.a
+		add_popularity = { ideology = national_conservative popularity = 0.05 }
+		add_stability = -0.03
+	}
+
+	option = { #
+		name = grl.13.b
+		add_popularity = { ideology = moderate_socialist popularity = 0.01 }
+		add_popularity = { ideology = liberal popularity = 0.03 }
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.02 }
+	}
+}
+
+#Prison Reform on the Agenda
+country_event = {		
+	id = grl.14
+	title = grl.14.t
+	desc = grl.14.d
+	picture = MOT_Militias
+
+	fire_only_once = yes
+
+	trigger = { 
+	tag = GRL
+	date > 2010.7.10
+	}
+
+	option = { #Abolish incarcerated labour
+		name = grl.14.a
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.05 }
+
+	}
+
+	option = { #Improve conditions for inmates
+		name = grl.14.b
+		add_popularity = { ideology = liberal popularity = 0.02 }
+		add_popularity = { ideology = moderate_socialist popularity = 0.02 }
+	}
+
+	option = { #Stay tough on crime
+		name = grl.14.c
+		add_popularity = { ideology = nationalist popularity = 0.02 }
+		add_popularity = { ideology = national_conservative popularity = 0.03 }
+	}
+}
+
+#Return to federalism
+country_event = {		
+	id = grl.15
+	title = grl.15.t
+	desc = grl.15.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Abolish incarcerated labour
+		name = grl.15.a
+		add_popularity = { ideology = moderate_socialist popularity = -0.1 }
+	}
+}
+
+#Power to the States
+country_event = {		
+	id = grl.16
+	title = grl.16.t
+	desc = grl.16.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Abolish incarcerated labour
+		name = grl.16.a
+	}
+}
+
+#Junta comes to power
+country_event = {		
+	id = grl.100
+	title = grl.100.t
+	desc = grl.100.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #
+		name = grl.100.a
+		create_country_leader = {
+		name = "James J. Carey"
+		picture = "gfx/leaders/GRL/portrait_GRL_James_J_Carey.tga"
+		ideology = nationalist_ideology
+		}
+		add_popularity = { ideology = nationalist popularity = 0.2 }
+		add_stability = -0.1
+		add_war_support = 0.1
+		set_party_name = { 
+		ideology = nationalist
+		name = "Great Lakes Junta"
+		long_name = "Great Lakes Federal Military Junta"
+		}
+		set_politics = { ruling_party = nationalist }
+	}
+
+}
+
+#####################
+#Revolution on the Great Lakes
+news_event = {		
+	id = grlnews.1
+	title = grlnews.1.t
+	desc = grlnews.1.d
+	picture = grl_revolution
+
+	is_triggered_only = yes
+
+	option = { #
+		name = grlnews.1.a
+		
+	}
+
+}
+
+#Grand Crusade to reclaim the Homeland
+news_event = {		
+	id = grlnews.2
+	title = grlnews.2.t
+	desc = grlnews.2.d
+	picture = grl_crusade
+
+	is_triggered_only = yes
+
+	option = { #
+		name = grlnews.2.a
+		
 	}
 
 }

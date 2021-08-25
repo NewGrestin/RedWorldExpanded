@@ -6,6 +6,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
+<<<<<<< Updated upstream
 		name = "TEX_Perot_Elected"
 		texturefile = "gfx/event_pictures/news_event/TEX_Perot_Elected.dds"
 	}
@@ -138,6 +139,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GER_German_Military_Coup"
 		texturefile = "gfx/event_pictures/news_event/GER_German_Military_Coup.dds"
+=======
+		name = "grl_revolution"
+		texturefile = "gfx/event_pictures/news_event/grl_revolution.tga"
+	}
+
+	spriteType = {
+		name = "grl_crusade"
+		texturefile = "gfx/event_pictures/news_event/grl_crusade.tga"
+>>>>>>> Stashed changes
 	}
 
 	spriteType = {

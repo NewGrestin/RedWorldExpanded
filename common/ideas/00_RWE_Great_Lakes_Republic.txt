@@ -5,6 +5,72 @@
 ideas = {
 
 	country = {
+		RWE_GRL_COALA_Trials = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+			encryption_factor = 0.2
+			encryption = 1
+			enemy_operative_capture_chance_factor = 0.2
+			war_support_factor = 0.1
+			}
+		}
+
+		RWE_GRL_Milwaukee_Strikes = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+			civilian_factory_use = 3
+			}
+		}
+
+		RWE_GRL_Bill_of_Rights_Socialism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_cost = 0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.05
+			production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+
 		RWE_GRL_Hawkeye_Problems = {
 			
 			
@@ -69,6 +135,30 @@ ideas = {
 			consumer_goods_factor = -0.15
 			monthly_population = 0.3
 			industrial_capacity_factory = -0.05
+			}
+		}
+
+		GRL_Corn_Belt_2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Corn_Belt
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = 0.25
+			consumer_goods_factor = -0.15
+			monthly_population = 0.4
+			global_building_slots_factor = 0.1
+			industrial_capacity_factory = -0.07
 			}
 		}
 
