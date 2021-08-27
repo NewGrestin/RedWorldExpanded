@@ -16,8 +16,217 @@ focus_tree = {
 	shared_focus = GRL_The_Iowa_Crisis
 	shared_focus = GRL_Red_Flag_Revolution
 	shared_focus = GRL_Peoples_Mandate
+	shared_focus = GRL_Independent_Currency
 	default = no
 }
+
+	shared_focus = {
+		id = GRL_Independent_Currency
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		x = 23
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Promote_Wisconsin_Diary
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Independent_Currency }
+		x = 21
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Expand_Local_Healthcare_Opportunity
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Promote_Wisconsin_Diary }
+		x = 20
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Support_the_Small_Industrial_Base
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Expand_Local_Healthcare_Opportunity }
+		x = 20
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_House_a_Military_Complex
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Fund_Farming_Banks }
+		prerequisite = { focus = GRL_Support_the_Small_Industrial_Base }
+		x = 21
+		y = 4
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Fund_Farming_Banks
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Promote_Wisconsin_Diary }
+		x = 22
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Interstate_Infrastructure
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Promote_Wisconsin_Diary focus = GRL_Subsidize_Minnesota_Forestry focus = GRL_Exploit_Antrim_Shale_Gas focus = GRL_Manufacturing_in_iowa }
+		x = 23
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Subsidize_Minnesota_Forestry
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Independent_Currency }
+		x = 25
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Promote_Biodiesel_Industries
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Subsidize_Minnesota_Forestry }
+		x = 25
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Expand_Taconite_Mining
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Promote_Biodiesel_Industries }
+		x = 24
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Minnesota_Light_Industry
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Promote_Biodiesel_Industries }
+		x = 26
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Exploit_Antrim_Shale_Gas
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Independent_Currency }
+		x = 29
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Manufacturing_in_Iowa
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { }
+		prerequisite = { focus = GRL_Independent_Currency }
+		x = 31
+		y = 1
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
 
 	shared_focus = {
 		id = GRL_The_Iowa_Crisis

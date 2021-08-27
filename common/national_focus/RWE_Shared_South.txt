@@ -19,6 +19,24 @@ focus_tree = {
 }
 
 focus_tree = {
+	id = naf_tree_shared
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = NAF
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = NAF_Nation_of_Islam
+	shared_focus = USA_Recovery_Progress
+	default = no
+}
+
+focus_tree = {
 	id = south_usa_tree_shared
 	country = {
 		factor = 0

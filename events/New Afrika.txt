@@ -1,0 +1,21 @@
+﻿add_namespace = naf
+add_namespace = nafnews
+
+#American Caliphate proclaimed
+country_event = {		
+	id = naf.1
+	title = naf.1.t
+	desc = naf.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Let's try and hold
+		name = naf.1.a
+		set_cosmetic_tag = NAF_CALIPHATE
+
+
+
+	}
+
+}

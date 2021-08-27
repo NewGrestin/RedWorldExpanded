@@ -478,3 +478,8 @@ GRL_TEMPLAR = {
 	color = rgb { 175 96 103 }
 	color_ui = rgb { 175 96 103 }
 }
+
+NAF_CALIPHATE = {
+	color = rgb { 61 24 0 }
+	color_ui = rgb { 61 24 0 }
+}

@@ -6,7 +6,27 @@
   ##########################
   # FOCUSES
   ##########################
-
+  NAF_Nation_of_Islam:0 "Crescent Light in Dixie"
+  NAF_Diverting_resources_to_the_Army:0 "Resources for the Liberation Wars"
+  NAF_Recruiting_the_Young:0 "Recruit for Fruit"
+  NAF_The_Slavery_Tax:0 "Introduce the Slavery Tax"
+  NAF_No_Whites_in_Power:0 "\"No Whites Allowed\""
+  NAF_Introduce_Islamic_Education:0 "Turn Mosques into Schools"
+  NAF_Securing_the_State_Apparatus:0 "Conquer the Levers of Power"
+  NAF_Break_Ties_with_the_Black_Panthers:0 "Jail the Marxist Revolutionaries"
+  NAF_Establish_our_Ethnostate:0 "Limit the Concept of \"Black\""
+  NAF_Seperate_and_Definetely_not_Equal:0 "Seperate and Definetely not Equal"
+  NAF_Formation_of_our_Caliphate:0 "Founding our Black Caliphate"
+  NAF_Fight_against_Street_Culture:0 "Fight against Street Culture"
+  NAF_Criminalize_White_Temptation:0 "Promote Black Welfare"
+  NAF_Introduce_Sharia:0 "Contemplate Sharia Law"
+  NAF_Seek_International_Recognition:0 "Seek International Recognition"
+  NAF_Take_Inspiration_from_South_Africa:0 "Copy the Bantustan Model"
+  NAF_Cooperate_with_White_Segregationists:0 "Cooperate with White Segregationists"
+  NAF_Liberate_our_East_Coast_Brothers:0 "Liberate the East Coast"
+  NAF_Crush_Illinois:0 "Put an End to White Illinois"
+  NAF_Push_to_the_West:0 "Push to the West"
+  
   ##########################
   # PARTIES
   ##########################
@@ -34,3 +54,6 @@
   ##########################
   # COSMETIC TAGS
   ##########################
+  NAF_CALIPHATE:0 "New Tribe of Shabazz"
+  NAF_CALIPHATE_ADJ:0 "Shabazz"
+  NAF_CALIPHATE_DEF:0 "The New Tribe of Shabazz"

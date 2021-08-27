@@ -1,0 +1,366 @@
+	shared_focus = {
+		id = NAF_Nation_of_Islam
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		x = 7
+		y = 0
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Securing_the_State_Apparatus
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Nation_of_Islam }
+		x = 5
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Break_Ties_with_the_Black_Panthers
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Securing_the_State_Apparatus }
+		x = 5
+		y = 3
+
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Recruiting_the_Young
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Nation_of_Islam }
+		x = 6
+		y = 1
+		mutually_exclusive = { focus = NAF_Diverting_resources_to_the_Army }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Diverting_resources_to_the_Army 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Nation_of_Islam }
+		x = 8
+		y = 1
+		mutually_exclusive = { focus = NAF_Recruiting_the_Young }
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_The_Slavery_Tax
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Nation_of_Islam }
+		x = 9
+		y = 2
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_No_Whites_in_Power
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_The_Slavery_Tax }
+		x = 9
+		y = 3
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Introduce_Islamic_Education
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Recruiting_the_Young focus = NAF_Diverting_resources_to_the_Army }
+		x = 7
+		y = 3
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Seperate_and_Definetely_not_Equal
+		icon = GFX_goal_NAF_Black_Supremacy
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Introduce_Islamic_Education focus = NAF_No_Whites_in_Power focus = NAF_Break_Ties_with_the_Black_Panthers }
+		mutually_exclusive = { focus = NAF_Establish_our_Ethnostate }
+		x = 10
+		y = 4
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Establish_our_Ethnostate 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Introduce_Islamic_Education focus = NAF_No_Whites_in_Power focus = NAF_Break_Ties_with_the_Black_Panthers }
+		mutually_exclusive = { focus = NAF_Seperate_and_Definetely_not_Equal }
+		x = 4
+		y = 4
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Take_Inspiration_from_South_Africa
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Establish_our_Ethnostate }
+		x = 5
+		y = 5
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Cooperate_with_White_Segregationists 
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Establish_our_Ethnostate }
+		x = 3
+		y = 5
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Liberate_our_East_Coast_Brothers
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Cooperate_with_White_Segregationists }
+		x = 3
+		y = 6
+		cost = 3
+
+
+		completion_reward = {
+		create_wargoal = {
+   		type = annex_everything
+    		target = USA
+		}
+		create_wargoal = {
+   		type = annex_everything
+    		target = FLO
+		}
+		create_wargoal = {
+   		type = annex_everything
+    		target = TEN
+		}
+		create_wargoal = {
+   		type = annex_everything
+    		target = LOU
+		}
+		create_wargoal = {
+   		type = annex_everything
+    		target = VIR
+		}
+		create_wargoal = {
+   		type = annex_everything
+    		target = CAR
+		}
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Push_to_New_England
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Liberate_our_East_Coast_Brothers }
+		x = 2
+		y = 7
+		cost = 3
+
+
+		completion_reward = {
+		if = { 
+		limit = { NEA = { exists = yes } }
+		create_wargoal = {
+   		type = annex_everything
+    		target = NEA
+		}
+		limit = { CLM = { exists = yes } }
+		create_wargoal = {
+   		type = annex_everything
+    		target = CLM
+		}
+		}
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Crush_Illinois
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist ILL = { exists = yes } }
+		prerequisite = { focus = NAF_Cooperate_with_White_Segregationists focus = NAF_Take_Inspiration_from_South_Africa }
+		x = 4
+		y = 7
+		cost = 3
+		
+		completion_reward = {
+		create_wargoal = {
+   		type = annex_everything
+    		target = ILL
+		}
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Push_to_the_West
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Crush_Illinois }
+		x = 4
+		y = 8
+		cost = 3
+
+
+		completion_reward = {
+		create_wargoal = {
+   		type = annex_everything
+    		target = OKL
+		}
+		create_wargoal = {
+   		type = annex_everything
+    		target = TEX
+		}
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Formation_of_our_Caliphate
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Introduce_Islamic_Education focus = NAF_Break_Ties_with_the_Black_Panthers focus = NAF_No_Whites_in_Power }
+		x = 7
+		y = 5
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Fight_against_Street_Culture
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Formation_of_our_Caliphate }
+		x = 6
+		y = 6
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Criminalize_White_Temptation
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Fight_against_Street_Culture}
+		x = 6
+		y = 7
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+
+	shared_focus = {
+		id = NAF_Introduce_Sharia
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Formation_of_our_Caliphate }
+		x = 8
+		y = 6
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = NAF_Seek_International_Recognition
+		icon = GFX_goal_OKL_Joe_Exotic
+		available = { has_government = fascist }
+		prerequisite = { focus = NAF_Introduce_Sharia }
+		x = 8
+		y = 7
+		cost = 3
+
+
+		completion_reward = {
+
+		}
+	}
