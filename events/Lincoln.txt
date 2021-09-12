@@ -285,9 +285,7 @@ country_event = { #Historical Revisionism takes hold
 	
 	option = { 
 		name = lincoln.11.a
-political_power = 50
-add_war_support = 0.05
-add_stability = -0.05
+
 }
 }
 
@@ -473,6 +471,82 @@ country_event = { #Civil War begins
 		name = lincoln.21.a
 set_country_flag = LIN_CIVIL_WAR_STARTS
 add_stability = -0.3
+}
+}
+
+country_event = { #Gary Raney consolidates the militias
+	id = lincoln.22
+	title = lincoln.22.t
+	desc = lincoln.22.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.22.a
+
+}
+}
+
+country_event = { #The Art of War
+	id = lincoln.23
+	title = lincoln.23.t
+	desc = lincoln.23.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.23.a
+add_political_power = -10
+}
+}
+
+country_event = { #The little warlord
+	id = lincoln.24
+	title = lincoln.24.t
+	desc = lincoln.24.d
+	picture = unified_libya
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = lincoln.24.a
+add_political_power = -20
+}
+}
+
+country_event = { #Radio silence from the Ranch
+	id = lincoln.25
+	title = lincoln.25.t
+	desc = lincoln.25.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = { 
+	tag = LIN
+	has_completed_focus = LIN_Warlords_of_the_Continent
+	has_completed_focus = LIN_Government_of_Generals
+	}
+	option = { 
+		name = lincoln.25.a
+		add_stability = -0.05
 }
 }
 

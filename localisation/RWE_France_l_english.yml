@@ -57,6 +57,11 @@
   FRA_Humanism_in_Government:0 "Rehabilitate Democratic Socialism"
   FRA_Independence_from_Moscow:0 "Independence from the Kremlin"
   FRA_Democracy_Returns:0 "\"Triumphantly, Democracy Returned...\""
+  FRA_SG_Resignation:0 "Resignation of Bocquet"
+  FRA_Allow_a_Referendum:0 "The Referendum on WP Membership"
+  FRA_Deny_the_Referendum:0 "No Referendum"
+  FRA_Staying_with_the_Pact:0 "The Referendum Fails"
+  FRA_Frexit_Realized:0 "Victory for Leave"
 
   ##########################
   # PARTIES

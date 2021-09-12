@@ -13,6 +13,26 @@ LBA_Unified_Africa = {
     color_ui = rgb { 0 149 48 }
 }
 
+WAF_UNION = {
+    color = rgb { 99 150 99 }
+    color_ui = rgb { 99 150 99 }
+}
+
+WAF_COLLAPSE = {
+    color = rgb { 221 184 110 }
+    color_ui = rgb { 221 184 110 }
+}
+
+LIN_RANEY = {
+    color = rgb { 0 102 175 }
+    color_ui = rgb { 0 102 175 }
+}
+
+LIN_RANEY_UNIF = {
+    color = rgb { 0 102 175 }
+    color_ui = rgb { 0 102 175 }
+}
+
 FRN_CORSICA = {
     color = rgb { 206 206 206 }
     color_ui = rgb { 206 206 206 }

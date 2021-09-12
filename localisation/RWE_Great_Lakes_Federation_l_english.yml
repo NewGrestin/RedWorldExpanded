@@ -107,6 +107,28 @@
   GRL_March_to_Iowa:0 "Iowa, Back into the Fold"
   GRL_March_to_Iowa_desc:0 "The state of Iowa has been finally pacified after a period of open conflict. While the soldiers return home and the people continue their lives once more, the flags of seccesionist Iowa are lowered across the state. \n\nNever again will Iowa know independence." 
  
+  GRL_Independent_Currency:0 "An Independent Currency"
+  GRL_Promote_Wisconsin_Diary:0 "Promote Wisconsin Diary"
+  GRL_Expand_Local_Healthcare_Opportunity:0 "Expand Rural Healthcare"
+  GRL_Support_the_Small_Industrial_Base:0 "Preserving our Manufacturing Jobs"
+  GRL_Fund_Farming_Banks:0 "Establish Farmer Banking"
+  GRL_Interstate_Infrastructure:0 "Interstate Highways"
+  GRL_House_a_Military_Complex:0 "Kickstart a Military Complex"
+  GRL_Subsidize_Minnesota_Forestry:0 "Subsidize Minnesota Forestry"
+  GRL_Promote_Biodiesel_Industries:0 "Advance Biofuel Industries"
+  GRL_Expand_Taconite_Mining:0 "Expand Taconite Mining"
+  GRL_Minnesota_Light_Industry:0 "Protect our Light Industry"
+  GRL_Agricultural_Delight_of_the_Great_Lakes:0 "Farmer's Delight of the Great Lakes"
+  GRL_Respect_Native_Land:0 "Respect Native Territory"
+  GRL_Native_Casino_Tourism:0 "Native Casino Tourism"
+  GRL_Prospect_Reservations:0 "In the Name of Progress"
+  GRL_Exploit_Antrim_Shale_Gas:0 "Exploit Antrim Shale Gas"
+  GRL_Improve_Local_Infrastructure:0 "Improve Reservation Roads"
+  GRL_Combat_Native_Unemployment:0 "Combat Native Unemployment"
+  GRL_Manufacturing_in_Iowa:0 "Secure Iowa Jobs" 
+  GRL_Heart_of_the_Cornbelt:0 "Heart of the Corn Belt"
+  GRL_Fund_the_University_of_Iowa:0 "Contract with the State University"
+
   ##########################
   # PARTIES
   ##########################
@@ -158,6 +180,8 @@
 
   RWE_GRL_Milwaukee_Strikes:0 "Milwaukee City Strikes" 
   RWE_GRL_Milwaukee_Strikes_desc:0 "The best solution to uppity workers is to keep your breath. Sure, it may hurt the economy and the profits of the employers, but eventually it will hurt the workers more. People need their paychecks and the IWW can only sustain them and their families or
+ 
+  RWE_GRL_Mining:0 "Mining Operations"
   ##########################
   # EVENTS
   ##########################
@@ -279,6 +303,8 @@
 
   supreme_admiral_of_these_great_lakes:0 "Supreme Admiral of the Great Lakes" 
   grand_master_of_the_knights_templar:0 "Grand Master"
+
+  GRL_not_working_on_other_states:0 "Isn't working on the economy of §Yany other state§!."
   ##########################
   # COSMETIC TAGS
   ##########################

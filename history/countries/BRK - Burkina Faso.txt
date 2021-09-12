@@ -117,3 +117,9 @@ create_country_leader = {
 	picture = "gfx/leaders/WAF/portrait_WAF_Ye.tga"
 	ideology = leninist 
 }
+
+create_country_leader = {
+	name = "Gilbert Diendéré"
+	picture = "gfx/leaders/WAF/portrait_WAF_Gilbert_Diendere.tga"
+	ideology = nationalist_ideology 
+}

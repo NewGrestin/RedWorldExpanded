@@ -286,3 +286,160 @@ news_event = {	#Retreat to Corsica
 		trigger = { NOT = { tag = FRA tag = FRN } }
 	}
 }
+
+news_event = {	#WAF - May Day Coup succeeds
+	id = newsrw.13
+	title = newsrw.13.t
+	desc = newsrw.13.d
+	picture = waf_coup
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.13.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.13.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - May Day Coup Failure
+	id = newsrw.14
+	title = newsrw.14.t
+	desc = newsrw.14.d
+	picture = waf_failed_coup
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.14.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.14.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - Revolution reintroduces democracy
+	id = newsrw.15
+	title = newsrw.15.t
+	desc = newsrw.15.d
+	picture = waf_democratic_revolution
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.15.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.15.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - Communists win election
+	id = newsrw.16
+	title = newsrw.16.t
+	desc = newsrw.16.d
+	picture = waf_communists
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.16.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.16.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - Coronation 
+	id = newsrw.17
+	title = newsrw.17.t
+	desc = newsrw.17.d
+	picture = waf_coronation
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.17.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.17.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - Collapse
+	id = newsrw.18
+	title = newsrw.18.t
+	desc = newsrw.18.d
+	picture = waf_collapse
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.18.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.18.b
+		trigger = { tag = MRT }
+	}
+
+	option = {
+		name = newsrw.18.c
+		trigger = { NOT = { OR { tag = WAF tag = MRT } } }
+	}
+
+}
+
+news_event = {	#WAF - Azawagh Independence
+	id = newsrw.19
+	title = newsrw.19.t
+	desc = newsrw.19.d
+	picture = waf_tuareg_independence
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.19.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.19.b
+		trigger = { tag = AZA }
+	}
+
+	option = {
+		name = newsrw.19.c
+		trigger = { NOT = { OR { tag = WAF tag = AZA } } }
+	}
+
+}

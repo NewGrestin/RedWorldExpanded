@@ -11,6 +11,7 @@ set_country_flag = muslim_nation
 
 add_ideas = { 
 RWE_WAF_Between_Two_Worlds 
+RWE_WAF_Post_Coup_Aftermath 
 }
 
 set_technology = {

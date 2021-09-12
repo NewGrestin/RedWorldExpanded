@@ -14,6 +14,8 @@
   LIN_Expand_Training_Ranges:0 "Against the Old Right"
   LIN_Surrounded_by_Enemies:0 "Surrounded by Enemies"
 
+  LIN_Core_Montana:0 "Mend the Schism"
+  LIN_Core_Montana_desc:0 "With the end of the civil war, the Union of Lincoln can go ahead and mend the schism between Spokane and Great Falls. Instead of fighting amonst ourselves, the right has to understand the common goal it has in the face of soviet occupation of the Americas. We cannot be divided." 
   LIN_Cement_the_Leadership_Principle:0 "Cement Spenser's Leadership Principle"
   LIN_Cement_the_Leadership_Principle_desc:0 "One of the core tenets of the Workers' Party's revolution is the following: \n\n\"The revolution can only be accomplished by a vanguard. This vanguard can only lead the revolution if its led by a capable leader. Thus, the leader is the true revolution\"."
   LIN_Introduce_National_Bolshevism:0 "Introduce National Bolshevism"
@@ -31,20 +33,30 @@
   LIN_Ban_Anti_Revolutionary_Literature:0 "Establish \"Summer Camps\""
   LIN_Ban_Anti_Revolutionary_Literature_desc:0 "It has turned out that many Americans remain stubborn. Born during ages of democracy and liberalism, their minds have been rotted by these concepts of \"civil and political rights\". Thus, state-sponsored \"summer camps\" have been opened across the Rocky Mountains for adults that are deemed \"creative enough for camp\"."
   LIN_White_Social_Security:0 "White Socialism" 
+  LIN_White_Social_Security_desc:0 "The mixing of Hitlerism and Communism often leads to conflicting ideals, such as equality among classes and inequality among races. Yet for Spencer, these ideals are far from conflicting. One has to see that socialism for all simply can not work, but socialism for the white man is the bedrock to the white man's future."
   LIN_Party_for_the_All_American_Worker:0 "Define the All-American Worker"
+  LIN_Party_for_the_All_American_Worker_desc:0 "What does it mean to be a worker? Better yet: what does it mean to be an American worker? For the party, it means to be pure in every possible aspect, may it be physical, mental or racial. The All-American worker is white, strong and has mental fortitude able to withstand hard labor like a rock withstands the wind and rain. Let us embrace this new idea of being a worker." 
   LIN_Enshrine_the_Words:0 "True American Revolution"
+  LIN_Enshrine_the_Words_desc:0 "The factionalism inside our party has been far too debilitating for our nation to properly function. Thus, party discipline will become stricter. Diversion from the direct ideas of supreme chief Spencer will be punisheable by expulsion or death, depending on how far someone dips his toes in revisionism."
   LIN_Vanguard_of_the_American_Revolution:0 "The Successor of the Founders"
+  LIN_Vanguard_of_the_American_Revolution_desc:0 "Washington was the man that founded the old United States of America, out of the ideas of the enlightenment. Just like him, Spencer now seeks to establish a new United States that embraces the newest forms of enlightenment that have come from the national bolshevik revolution. Thus, Spencer can be considered a direct successor to our founding father." 
   LIN_The_Father_Lincoln:0 "Lincoln, Father of the Union"
+  LIN_The_Father_Lincoln_desc:0 "Despite what progressives and liberals may tell you, Lincoln was a national bolshevik through and through. The man that unified the country and kept the white American save from racial conflict by allowing them limited freedom can only be commemorated as the father of our simple union, named after this great, white saviour."
   LIN_Proclaim_Revolution_Abroad:0 "The Revolutionary Union State"
+  LIN_Proclaim_Revolution_Abroad_desc:0 "The first goal of our revolution was sustaining it in this part of the United States. The second goal of revolution is expanding it. To keep the revolution to ourselves is awaiting eventual occupation by communists, socialists, democrats and other racial traitors to the revolution. We shall not wait for them to come to us, but we will bring the revolution to them." 
   LIN_Cult_of_the_Constitution:0 "Crush the Constitutionalist Cult"
+  LIN_Cult_of_the_Constitution_desc:0 "Far too many people are far too attached to the old US constitution. Its promises of equality, freedom and harmony are simply lies. We will have to show these people how wrong they are in believing that the constitution represents what people like Lincoln, Washington and Franklin wanted for our country and instead that Spencer represents their true desires for a revolutionary new union."
   LIN_The_Revolutionary_Founders:0 "Abandon their Mainstream Depiction"
+  LIN_The_Revolutionary_Founders_desc:0 "The presidents that have been glorified by the old America are not all the heroes people suspect them to be. People like Roosevelt held the union back from achieving its true potential in favour of tree hugging, while people like Washington and Lincoln are not the democrats or racial traitors the mainstream thinks they are. We will have to deconstruct this liberal lie."
   LIN_Persecute_All_Faiths:0 "Persecute all Faiths"
+  LIN_Persecute_All_Faiths_desc:0 "To believe in a higher being is to display a lack of IQ. Faith is, as Marx said, the opium of the people and the church is their supplier. We can only expect the purest form of America to be atheist, rejecting this silly concept of a God and replacing it with the worship of America and the ideal American-Aryan." 
   LIN_No_References_to_God:0 "No References to God"
   LIN_No_References_to_God_desc:0 "Supreme Chief Spencer has come to the conclusion that it's not enough for the big church to be removed from the United States of America. The threat of religion will remain if it's allowed to even be mentioned among our people. Thus, new laws will be put in place that criminalizes the spreading of religion, starting with mentioning the concept of God."
   LIN_Ban_Holy_Scriptures:0 "Ban any Holy Scripture"
   LIN_Ban_Holy_Scriptures_desc:0 "Every disease has its host and for the disease of religion, the holy scriptures are the hosts. A blanket ban on any form of supposedly holy scriptures has been introduced to the Union, banning the Bible, the Quran, the Torah and various other holy scriptures from being owned by any individual for non-government purpose."
 
   LIN_End_to_Revolution:0 "Siege of Spokane"
+  LIN_End_to_Revolution_desc:0 "Spencer was a damn fool if he thought people would listen to his screaming after they didn't need him any longer. The militias now have deposed this tin pot tyrant and replaced him with a temporary council, though it will remain to be seen if such a concept can survive the external pressures that present themselves in the coming months." 
   LIN_The_Pagan_Path:0 "War for the American Soul"
   LIN_The_Soul_of_Wotansvolk:0 "The Wotansvolk Collective"
   LIN_The_New_Age_Shaman:0 "The New Age Shaman"
@@ -73,6 +85,19 @@
   LIN_Unleash_the_Great_War:0 "Proclaim the Roman Republic"
   LIN_Green_Free_Market:0 "Green, Free Market"
   LIN_Proclaim_the_Roman_Republic:0 "Unleash the Great War"
+
+  LIN_Militias_Hold_On:0 "The Militias Remain"
+  LIN_Remember_Covington:0 "Remember Covington"
+  LIN_White_Mans_Democracy:0 "White Man's Democracy"
+  LIN_Stratocratic_Democracy:0 "Stratocratic Democracy"
+  LIN_Warlords_of_the_Continent:0 "Warlord of North America"
+  LIN_Government_of_Generals:0 "Government of Generals"
+  LIN_Might_Makes_Right:0 "\"§RMight Makes Right§!\""
+  LIN_Drug_Fueled_Economy:0 "Drug Fueled Economics"
+  LIN_Reject_Unification_Sentimentalism:0 "No America, only Lincoln"
+  LIN_American_Style_Apartheid:0 "Import Apartheid"
+  LIN_Isolated_and_Proud:0 "Isolated, yet Proud"
+  LIN_Another_South_Africa:0 "Another South Africa" 
 
   LIN_Kickstart_the_Grand_Collectivization:0 "Kickstart the Grand Collectivization"
   LIN_Crush_Ruralism:0 "Crush Post-American Ruralism"
@@ -184,7 +209,12 @@
   RWE_LIN_Latin_Libertarianism_2:0 "Latin Libertarianism"
   RWE_LIN_Latin_Libertarianism_2_desc:0 "Augustus' interpretation of the libertarian revolution is solely unique to the free territory in the former state of Lincoln. It adopts the basic philosophy of the old libertarians while adopting new views inspired by the Roman Republic (or atleast, the view of Augustus on the Roman Republic). Ideals that were once widespread in the Hellenic world, such as bravery and being strong, have been forgotten by the old libertarians. It will take incredibly measures to remind the people of the free territory that libertarianism has its price, namely in adopting those old values and keeping this republic save against state-actors." 
 
-
+  RWE_LIN_Reject_Unification_Sentiment:0 "Lincolnite Nationalism" 
+  RWE_LIN_Reject_Unification_Sentiment_1:0 "Lincoln Stands Alone!"
+  RWE_LIN_Black_Market_Economics:0 "Black Market Economy"
+  RWE_LIN_Stratocracy:0 "Stratocracy" 
+  RWE_LIN_Inspired_by_Chiang:0 "Inspired by Chiang"
+  RWE_LIN_Inspired_by_Chiang_desc:0 "Chiang Kai-Shek is a man to look up to: bringing a defeated army that was on the brink to victory and unifying the entirety of China under a stratocratic democracy, Chiang can only be considered a role model. For Raney, Chiang is the inspiration and push he needed to find purpose. The reunification of America will happen under him and him alone, as the rats of foreign influence will not last long against this tide of Americanism." 
   ##########################
   # EVENTS
   ##########################
@@ -238,7 +268,19 @@
   lincoln.20.a:0 "It's inevitable at this point..." 
   lincoln.21.t:0 "Start of the Militia Wars"
   lincoln.21.d:0 "As Spencer and the government have rallied the troops after hours of radio silence, the damage done to our ever stronger union has been shown. The periphery of our nation is occupied by anti-government forces and cultists, espousing ideas of libertarianism, wotansvolk and conspiracy-ism. While our boots march to Spokane once again, we are reminded of what our great task is in this war: the cleansing of our union from those that cannot understand the necessity of the revolution."
-  lincoln.21.a:0 "May the revolution prevail" 
+  lincoln.21.a:0 "May the revolution prevail"   
+  lincoln.22.t:0 "Raney consolidates the Militias"
+  lincoln.22.d:0 "Once a proud and loyal member of the Spencer regime, Gary Raney, perhaps disillusioned with the revolution that Spencer once promised, was one of the last to side with the militias in Spokane when Spencer was dethroned. Yet, that did not stop his reputation as a skilled tactician and general from gaining the praise of many of the militias. Many looked up to this new, strongman that promised a world of change in the aftermath of the bloody and violent coup and civil war. His promises and reputation led to the consolidation of most of the right-wing militias, making Raney the strongest man in Spokane. \n\nWith his new found power, Raney has sought to establish a new regime in the rubble of the old. Rejecting revolutionary ideology and its marxist roots, Raney has seemingly assumed a rather normal idea of stratocratic democracy, giving power to the militias in local councils while himself holding the position Spencer once held as protector of these lands. Yet, while he seems to resemble the libertarian ideology of Weaver and various other militia men in the country, Raney may have alternative motives for this sharing of power. With the amount of guns that now back this petty despot, we will have to see how the situation changes."
+  lincoln.22.a:0 "Can we get an amen for Raney?" 
+  lincoln.23.t:0 "The Art of Politics"
+  lincoln.23.d:0 "The recent militia council democracy established by Raney has been a limited succes in many ways. The democracy of the militias locally has given rise to a small military complex with guns becoming part of every day life. The gun culture instilled in the people is one to be proud of, yet the negatives of this current system also show: crime rates have been horrific compared to the Spencer regime and the local democracies of the militias have been riddled with small-town corruption. The small democracies have also not been great for the economy, as the expected foreign investment from the liberalization of the market has just not come, probably due to the rather unstable nature of our country and the lack of a judicial system. \n\nRaney has thus formalized a federal government made up from generals. Filled to the brim with people experienced with war after the civil war and the war against Covington, this group of experienced and skilled military men will bring the army back in shape. \n\nDuring this all, reports from Raney have shown to be rather vague. The protector of these lands has been stewing silently in his own big ranch outside of Spokane for weeks on end, while the financial activities from the ranch seem to indicate an influx of new reading material being bought by Raney, ranging from books on war and politics to books on history, specifically the Sengoku Jidai period of Japan and the warlord era of China."
+  lincoln.23.a:0 "Whatever do those reports mean?"  
+  lincoln.24.t:0 "The Little Idaho Warlord"
+  lincoln.24.d:0 "News from Spokane seems to become rather worrying when focussed on the new Lincoln leader, Gary Raney. Raney has spend long stretches of the months in his local ranch outside of Spokane, either wearing a custom-made military suit or playing with a large military game board of the United States of America. Photos of these things have spread across the old USA, leading to many taunting the new leader of Lincoln and nicknaming him \"The petty warlord of the West\". \n\nYet what they can't see is the brutal repression Raney has become responsible for. This \"petty warlord\" has employed his loyal militias to enforce his rule in many smaller democratic councils. His expansion of influence on the state has caused some of his libertarian allies to speak out against Garey, but all quickly are silenced or dissapear in the night. Every night in Spokane, a lone gunshot can be heard if you listen closely. Not one of criminal activity of drunken militia men, but of calculated political killings. \n\nLet them bestow Raney with this nickname, for this warlord will wear the title of warlord with pride."
+  lincoln.24.a:0 "The situation is turning quickly in Lincoln"
+  lincoln.25.t:0 "Silence from the Ranch"
+  lincoln.25.d:0 "In recent days, Gary Raney, feared despot of Lincoln, has been quiet. \n\nNot a single report from his ranch has even confirmed him as alive, as the building has been closed completely while his militia stay guarding the property. The only sign of life from the ranch are the trucks that come weekly, bringing bags of powder and other stuff to the ranch, after which they get paid by one of the leading militia men. \n\nThe silence from the ranch has putten Spokane and the local councils on edge. Can it be that Raney has been killed? Perhaps he died from a natural cause and the militia is now trying to cover up his death? Maybe a rival has taken control of the situation? \n\nWhatever the case may be, we will perhaps hear more about it in the next month." 
+  lincoln.25.a:0 "Spokane is gripped by fear" 
 
   lincolnpost.1.t:0 "An End of the Old"
   lincolnpost.1.d:0 "Adressing the entire nation of America for the first time in decades, Supreme Chief and First Among Equals Richard B. Spencer would become the first man to \"represent\" all Americans since president Reagan. While he would personally adress just a small crowd at the capital of [Root.Capital.GetName] in the grand unification celebration, TV crews friendly to the state would ensure that millions of Americans with acces to the luxury of television would experience the same speech, may they be in Florida or Oregon. \n\nIn his speech, the Supreme Chief celebrated the unification of America as the first step of the new national bolshevik revolution. Praising the revolution as an end to the old and a start of the new, Spencer's speech would swiftly take a turn. Celebration made place for paranoia as the Supreme Chief started to go through every percieved enemy of the revolution: the religious, the ex-Republicans, the old fascists, the members of the KKK, the ex-Communists, the progressives, the old Democrats, the African-American community, the Asian-American community, the Hispanic community, those that previously worked for the other states and more. As he continued to go down his list, excluding any reasoning for why he had chosen these people, Americans across the nation started to realize the potential implications. As Spencer finally finished with his list of enemies of the revolution, the nation was already up in arms. Protestors in the Black belt, the Rust belt and the Bible belt were already on the streets before the speech had ended, while the urban populace was also preparing for the worst. \n\nAt the end of his speech, Spencer would face the small crowd of people that were still celebrating, with many of the previous men and women present in the crowd having gone home. He would later be informed by the Union's secret police that the speech had led to an inflamatory reaction across the Union, as many old supporters and those that had remained silent had turned against the Union. \n\n\"Just like I said in my speech\", the Supreme Chief mumbled."
@@ -282,6 +324,8 @@
   MONTANA_CLEARED:0 "Montana has been cleared!" 
   LIN_CIVIL_WAR_MILITIA_WIN:0 "§YMilitias have won the Civil War§!"
   LIN_CIVIL_WAR_SPENCER_WIN:0 "§YSpencer has won the Civil War§!"
+
+  RANEY_WENT_INSANE:0 "§RRaney is still alive...§!"
   ##########################
   # COSMETIC TAGS
   ##########################
@@ -298,6 +342,13 @@
   LCN_DEF:0 "The American Revolutionary Front"
   LCN_ADJ:0 "American"
 
+  LIN_RANEY:0 "Spokane National Government"
+  LIN_RANEY_DEF:0 "The Spokane National Reclamation Government"
+  LIN_RANEY_ADJ:0 "American"
+  LIN_RANEY_UNIF:0 "American Republic"
+  LIN_RANEY_UNIF_DEF:0 "The National Unitarian American Republic"
+  LIN_RANEY_UNIF_ADJ:0 "American" 
+
   USA_CIVIL_WAR:0 "United States of America"
   USA_CIVIL_WAR_DEF:0 "The United States of America"
   USA_CIVIL_WAR_ADJ:0 "American"
@@ -311,6 +362,9 @@
 
   no_government:0 "No Functioning Government"
   mad_dog:0 "The Mad Dog of Florida"
+  warlord_of_the_west:0 "Warlord of the West" 
 
   POLITICS_RICHARD_SPENCER_D:0 "Born in 1978 Boston, Massaschusetts, to ophthalmologists, few would have bet that Richard B. Spencer would become the face of the alternative right in Post-American politics. His introduction to the alt-right would begin early however, as contacts during his studying years would influence Spencer's views swiftly. Becoming a common face in anti-government extremist protests, Spencer choose to move to Illinois in 2001 before completing his PhD in Modern European intellectual history. \n\nOnce in Illinois, Spencer established connections with the underground alternative right, such as the National Alliance, which pointed him to Montana and the new ethnostate experiment led by Covington. Although intrigued by the concept, Spencer opposed Covington's old-style fascism, believing it to be unusable in the United States due to its Europeanism. Instead, he and allies formed an opposing party, named the Workers' Party of the Glorious Union, and seized control over Idaho. With the establishment of the new Union of Lincoln, Spencer became the figure of this new state and the new movement it represented, which Spencer has lovingly called American national bolshevism."
   POLITICS_RICHARD_SPENCER_D_II:0 "From a small rump state in the former state of Lincoln to the de facto unifier of the American continent, Richard B. Spencer has come a long way. Once compared to the mad dictators of old, screaming in the mountains about a fringe ideology, Spencer has brought national bolshevism to the people, if they like it or not. \n\nWith the continental United States under his iron thumb, Spencer looks inwards, hoping to perfect the new National Union and take the next step in the revolution by expansion. The national bolshevik revolution may not know any borders, but it's most important goal at this point is preserving Spencer and the party, as without it, the revolution would be a bull without its head. Measures will be made to keep the national security a priority above everything, while large industrialization projects will hopefully kickstart a new American war economy, set in motion for the glory of the people's revolution. \n\nSpencer has conquered much, and he will conquer more if needed."
+
+  LIN_MARCH_ON_THE_CAPITOL:0 "§RWe will declare every statelet on the continent illegitimate and look to seize the Capitol. \n\nMay the strongest rule our nation§!."

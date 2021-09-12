@@ -3,6 +3,51 @@
   ##########################
   # FOCUSES
   ##########################
+  WAF_The_Tin_Pot_Despot:0 "The Despot of Niamey"
+  WAF_The_Tin_Pot_Despot_desc:0 "Maïnassara is for many outside of West Africa the stereotypical tin pot despot of the African continent. A man of the military with a streak of slight incompetence, he remains in power solely due to his oppressive policies meant to keep opposition down. Yet the opposition he should fear most is not the one from other parties, but from the army."
+  WAF_Aftermath_of_the_May_Day_Coup:0 "React to the May Day Coup"
+  WAF_Round_Up_the_Traitors:0 "Round Up the Traitors"
+  WAF_Criminalize_Baathism:0 "Criminalize Ba'athism"
+  WAF_Mobilize_the_Federal_Military:0 "Mobilize the Federal Militaries"
+  WAF_Close_Mauritania:0 "Restrict Travel to Mauritania"
+  WAF_Bribe_Local_Tribes:0 "Gain Local Loyalty"
+  WAF_Find_Foreign_Support:0 "Lobby for International Support"
+  WAF_Siege_Dakar:0 "Shell Dakar"
+  WAF_War_on_Terror:0 "Our War on Terror"
+  WAF_Legalize_Torture_Tactics:0 "Allow Extrajudicial Torture"
+  WAF_Appease_Loyal_Arabs:0 "Appease the \"Good\" Arabs" 
+  WAF_Pillars_of_Power:0 "Pillars of the Regime"
+  WAF_Enlightened_Despot:0 "For the Soul of West Africa"
+  WAF_Connect_the_Countryside:0 "Highways to the Countryside"
+  WAF_Move_Towards_Industrialization:0 "Industrialize the Union"
+  WAF_Further_Electrification:0 "Electrify the Provinces"
+  WAF_Total_Rural_Control:0 "Control the Rural Situation"
+  WAF_Urbanize_Niamey:0 "Urbanize Niamey"
+  WAF_Secure_the_Military:0 "Form a Reliable Military"
+  WAF_Expand_their_Budget:0 "Expand their Budget"
+  WAF_Modern_Arms_Complex:0 "Modernize our Equipment"
+  WAF_Centralize_the_Command:0 "Centralized Niamey HQ"
+  WAF_Unify_the_Federal_Armies:0 "De-Warlordify the Armies"
+  WAF_Jail_Corrupt_Commanders:0 "\"Hands filled with Cash\" Campaign"
+
+  WAF_Cement_our_Foreign_Policy:0 "Resume our Global Course"
+  WAF_Revert_our_Course:0 "Against Soviet Imperialism"
+  WAF_Reconcile_with_the_Soviets:0 "Reconcile with the Soviets"
+  WAF_Cooperate_with_the_Gulf:0 "Cooperate with our Neighbors"
+  WAF_Expansion_of_the_West_African_Project:0 "Expand the West African Dream"
+  WAF_Overshadow_Nigeria:0 "Seize the Niger Delta"
+  WAF_Against_African_Communism:0 "Against Red Malaria"
+  WAF_Invite_Soviet_Engineers:0 "Invite Soviet Engineers"
+  WAF_Our_Place_in_the_World:0 "Upset the Global Balance"
+  WAF_West_African_Sovereignty:0 "Sovereignty of West Africa"
+  WAF_University_of_West_Africa:0 "University of West Africa"
+  WAF_Establish_our_Nuclear_Program:0 "Maïnassara's Nuclear Umbrella?"
+  WAF_Modernize_our_Technical_Sector:0 "Africa's Best Tech Sector"
+  WAF_Diamond_of_the_Continent:0 "The Continent's Rough Diamond"
+  WAF_Expand_the_Literacy_Campaign:0 "Expand Adult Literacy Campaigns"
+  WAF_Extensive_Vaccination_Program:0 "Combat the Malaria Epidemic"
+  WAF_Protect_our_Farming_Industry:0 "Bounty of the Niger River Soil"
+  WAF_The_Green_Wall:0 "The Green Wall"
  
   ##########################
   # PARTIES
@@ -29,19 +74,90 @@
   WAF_fascist_party:0 "People Party"
   WAF_monarchist_party_long:0 "Secret Society of Monarchists"
   WAF_monarchist_party:0 "Secret Society"
+
   ##########################
   # IDEAS
   ##########################
   RWE_WAF_Between_Two_Worlds:0 "Between Two Worlds"
   RWE_WAF_Between_Two_Worlds_desc:0 "The West African Union sits on the edge of Africa and the Arab world, with in the north the Mauritanian Arabs and nomadic Tuareg people, while the south of the nation consists of a diverse bunch of African people. Yet, despite the international positives on being the gate to Africa and the Arab world for many other nations, the domestic situation profits far less from this fact. \n\nWhile formed as an union of equal nations, it is no surprise that some ethnic groups dominate the West African Union compared to others. The Bambara, Mossi, Hausa and the Moors all dominate their respective regions and form the main pillars of the elite supportive of the military junta of Maïnassara. With these dominant groups, the other ethnicities of the West African Union are not truely represented in the elite ruling the country. Yet, despite the already complicated mix of ethnicities that live in the Union, the ruling groups of the Union are not united either. \n\nAs the years have went on and the military junta has ruled our Union, the differences between the Arabic-speaking Moors of Mauritania and the non-Arabic people of the South have become increasingly difficult to ignore. Under the popular ba'athist groups of Mauritania, the Arab-speaking people of the Union have sought more and more self-determination, bordering on seccesion from the Union. Whispers in Niamey even talk about a military conspiracy among the Mauritanians, yet evidence remains scarce."
-
+  RWE_WAF_Post_Coup_Aftermath:0 "Post-'08 Coup Aftermath"
+  RWE_WAF_Post_Coup_Aftermath_desc:0 "The country remains shaken by the aftermath of the 2008 attempted coup d'état. Members of the military, mainly from Burkina Faso, had conspired to remove Ibrahim Baré Maïnassara for his favouring of the Mauritanian and Niger militaries in the annual military budget. With a small force marching upon Niamey, the coup was almost fatal for Ibrahim, as the presidential guard was on the brink of switching allegiance to the conspiracy. Yet the coup attempt failed when the federal army blasted them apart with support of the airforce, leaving the coup with any armed backing and the generals open to be arrested. The following trials would severly neuter the Burkina Faso army for its attempted coup. \n\nYet Burkina Faso wasn't the only nation of the four to feel the coup's aftermath. Large parts of civil society still are shaken by the bloody memories of the coup. Photographs of the conclusion of the Niamey battle still are popular among gore hounds and teenagers on the world wide web for the sheer brutality of the reprisal and many men and women have lost a partner in either the coup or the following trials, which led to the execution of thousands of supposed conspiracy loyalists. It will take a long time for the West African Union to heal from its wounds."
+  
   ##########################
   # EVENTS
   ##########################
+  rw_waf.1.t:0 "In the Halls of Naimey"
+  rw_waf.1.d:0 "For the people, the memories of the 2008 coup may be haunting, scarring even. But for the military, it is simply a memory of failure. 2008 was supposed to bring an end to the shambles of the Maïnassara government, one unable to truly cooperate with the army beyond superficial budget increases. No fine wining and dining, no expensive yachts as gifts nor even a single trip to New York for his most loyal comrades. It couldn't go on any longer like this. \n\nThe army had thus found another man to rally behind, one that would not follow in the footsteps of the failure of Blaise Compaoré in 2008: Mohamed Ould Abdel Aziz. One of the main advisors of Maïnassara and a staunch Arab ally of the West African construct, Aziz would be the safest choice for the army to use this year. \n\nYet, while some of the conspiracy members pat themselves on their backs while planning out the next coup d'état, a young soldier overhears them from the room. While this is treason of the highest order against the Union, rattling on his bosses would just as easily be classified as treason if the coup would succeed. And perhaps it might. Conflict tears him apart. \n\nShould he tell anyone?"
+  rw_waf.1.a:0 "The boy choose safety and kept his mouth shut"
+  rw_waf.1.b:0 "The boy choose loyalty and told a presidential friend"
+  rw_waf.2.t:0 "The May Day Coup"
+  rw_waf.2.d:0 "Boots on the streets of Niamey! the army has betrayed the trust of Maïnassara for a third time and now seeks to depose him once more. Swiftly, Maïnassara demands his phone and calls the head of the Niger armed forces who are also stationed in the city. Picking up is the commander, who clears up that he has remained loyal to the president of the union. More information follows, as the presidential guard remains on the sidelines, having yet to choose who will come out on top during this week. Fuming, Maïnassara asks the commander if he can repell these forces. \n\nThe commander responds:"
+  rw_waf.2.a:0 "They outnumber our troops, we are no match"
+  rw_waf.2.b:0 "We are in a bad position, but we can still win this battle with enough blood!"
+  rw_waf.2.c:0 "We already knew of the coup president, the rest of the federal army will clean them up!"
+  rw_waf.3.t:0 "Chaos in Mauritania"
+  rw_waf.3.d:0 "In the wake of the failed coup of Mohamed Abdel Aziz, the provinces of the union have experienced riots and other forms of chaos. Local militaries are having trouble containing most of the anarchy, but the news from Mauritania has clearly painted a more depressing picture than the other 3 states. \n\nIn Mauritania, the pan-Arab National Vanguard Party of Gadaffi-loyalist Mohamed Yahdhih Ould Ibrid El Leil has condemned the military government and supported the coup planners, inviting these traitors to Mauritania as a way to hide from Maïnassara's wrath. His attempts have been an unfortunate success, with even the coup leader Aziz now having returned to Dakar. The situation in the province is growing grimmer every minute, as today the local army has pledged loyalty to the province and the National Vanguard Party. The threat of pan-Arabism is very much alive in this little corner of the federation and it threatens to currently throw the entire system into chaos. An emergency council has already been established in Niamey, tasked to solve the increasingly complex issue of Mauritania, perhaps with violence if needed."
+  rw_waf.3.a:0 "Just like that, Mauritania is on fire..."
+
+  rw_waf.100.t:0 "West African Union invites us to join"
+
+  newsrw.13.t:0 "Coup rocks West African Union"
+  newsrw.13.d:0 "West Africa has never been known as a bedrock of stability. Ever since the unification of Niger, Burkina Faso, Mali and Mauritania, instability has plagued this Frankenstein federation. The most recent president of the union, Ibrahim Baré Maïnssara, was himself very much the product of this instability, coming to power through a military coup. Yet the coup leader would soon face other factions inside the army himself, with a coup in 1991 and 2008 both trying to depose the West African dictator. \n\nWhile the army of Burkina Faso was purged in the aftermath of 2008, further inaction now proves to have been fatal for the Maïnassara regime, as another coup led by Mauritanian marshal Mohamed Ould Abdel Aziz has taken control of the capital and the old despot of West Africa has been killed in the action while trying to escape. The new situation seems to have put the nation on the brink of collapse, as the very Arab Aziz now rules over a nation of Africans, with many hostile to this rather foreign figure leading the country."
+  newsrw.13.a:0 "Fake news! I've brought stability to this country!"
+  newsrw.13.b:0 "Africa knows no rest..."
+  newsrw.14.t:0 "Failed Coup in West Africa"
+  newsrw.14.d:0 "The West African Union has never been a very stable state, even in African terms of stability. Yet this week, the military tried once again to depose the almost 20 year sitting dictator of the federation, Ibrahim Baré Maïnassara. The coup, however, ran into a wall when it became clear that the government had expected an attempt, leading to mass arrests and a general purge of the military high command. \n\nMany of the coup leaders were military men, dissatisfied with the Maïnassara regime and its inability to properly spoil the army and its commanding officers. While military budget increased every year, the gifts Maïnassara's regime had previously given to the high command slowly became less and less expensive, leading to some of them turning their backs on Maïnassara. Others, on the other hand, were motivated by removing the West African despot from his throne, seeing him as far too lenient on communism in the country and the recent foreign policy shift towards Soviet reconciliation."
+  newsrw.14.a:0 "We expected the coup and so we took care off it"
+  newsrw.14.b:0 "West Africa is shaken, but remains firm"
+  newsrw.15.t:0 "Youth Revolution shakes West African Union"
+  newsrw.15.d:0 "Inspired by the countless of revolutions in the eve of the Arab Spring, young citizens from the West African Union have united behind the banner of the United Front for African Democracy, demanding the retirement of West Africa's little despot, Ibrahim Baré Maïnassara. The military, while previously claiming to protect the president against the protests, has turned its back on Maïnassara's regime and allowed the protests to reach parliament and the lavish house of the dictator himself. Hours after reaching Maïnassara's house, reports came in that a helicopter had transported the petty despot to Switzerland, leaving his regime to fall. \n\nWith the atmosphere in Niamey now jubulent about the fall of one of Africa's longest governing dictators, much will need to be done to ensure a smooth democratic transition. The military remains a very volatile element in this entire scenario, as it has shown itself to often betray those it has supported in the past. It remains to be seen if the new West African Union will bring democracy back to the federation."
+  newsrw.15.a:0 "We have fulfilled our responsibility"
+  newsrw.15.b:0 "Another African despot toppled"
+  newsrw.16.t:0 "Communists win election in West Africa"
+  newsrw.16.d:0 "The recent reintroduction of democracy in the West African Union hasn't been the smoothest process, with the military often interfering with the democratic transition and forcing compliance with the threats of another coup. Yet the situation may now turn truly dangerous with the recent victory of the Marxist-Leninist Party of Oumar Mariko, one of the few parties that has expressed extreme hostility towards cooperation with the West African military. \n\nMariko himself has been an important figure during the protests that deposed Maïnassara and gained a remarkable following from there, popularizing the marxist-leninist party as a mainstream party. The eventual transition to democracy would further Mariko's image as a man of the people, often sparking conflict with the military and opposing any cooperation with the armed institution during the transition. With his victory, West Africa seems to be heading towards a bloody conflict. Either the military will stand down and allow Mariko to govern as he sees fit, or Mariko will have a potential coup on his hands"
+  newsrw.16.a:0 "Once again, West African democracy is threatened"
+  newsrw.16.b:0 "Will West African democracy survive?"
+  newsrw.17.t:0 "Coronation of Ibrahim I"
+  newsrw.17.d:0 "A shocking turn of events has hit the West African Union like a train, as its tin pot despot, Ibrahim Baré Maïnassara, follows in the footsteps of the old Central African dictator Bokassa, deciding to call himself sultan of a new West African Empire. \n\nThe announcement from Niamey has turned heads across the globe, as the human-rights violating despot of West Africa hasn't made much friends in recent years. While initially on a course of reconciliation with the Soviet Union, Maïnassara dropped his plans after the attempted coup in 2010. Since then, domestic purges have cleaned much of the army from the old coup planners and has empowered Maïnassara to almost monarch-like levels, so this coronation does seem to fit his status in West Africa. With now a crown on his head and a scepter in his hand, Ibrahim I will seek to expand his influence in a rather swift manner, battling against Soviet neo-colonialism and the pan-Arabist threat of Northern Africa."
+  newsrw.17.a:0 "Hail Sultan Ibrahim!"
+  newsrw.17.b:0 "What in God's name is happening there?"
+  newsrw.18.t:0 "Collapse of West Africa"
+  newsrw.18.d:0 "With the absolute failure of the West African army in dealing with the Mauritanian insurgency and the growing domestic unrest, Maïnassara has given the army the order to secure the urban regions of Niger and Mali in the face of the West African Union's collapse. Already, the troubled province of Burkina Faso has split off from the old union, leaving Mali and Niger in a shaky federation of equals with the army in total control. The remains of the federation has made a temporary peace deal with the Mauritanian rebels as it now faces a Tuareg insurgency in Northern Mali. \n\nWith the fall of the West African Union, experts fear the worst for the region in the coming years. A now extremist Mauritania is in the grip of the Neo-Ba'athist plague, while Burkina Faso seems to face its own share of very threatening problems, with local communist groups attempting to seize power in the unstable state. All in all, it seems that even the bad situation of the Maïnassara regime was nothing compared to the current situation."
+  newsrw.18.a:0 "And as I watch, everything around me crumbles..."
+  newsrw.18.b:0 "The Arab spirit has broken African tyranny"
+  newsrw.18.c:0 "A volatile region grows slightly more volatile..."
+  newsrw.19.t:0 "Azawagh defeats Maïnassara"
+  newsrw.19.d:0 "With the recent collapse of the West African union, the authorities of the Northern Mali quickly were overwhelmed by formidable Tuareg resistance. Using the opportunity that had been presented, the Tuaregs of Northern Mali organized under the banner of the nation of Azawagh as the Tuareg People's Liberation Front, challenging Maïnassara's authority of the Sahara. With the Mali-Niger Union now on its knees, the Tuaregs have been able to secure their independence from their African occupation, proclaiming a new Tuareg state known as Azawagh in Northern Mali. \n\nThe defeat of the Union army has also strained relations between the pillars of the old West African Union, as both Mali and Niger now seek to go their separate ways, disbanding this last remnant of the old West African Union. With it, it seems that West Africa returns to the old status quo of nation-states, rejecting the unification of the region under one flag."
+  newsrw.19.a:0 "How could we have lost against a bunch of nomads?"
+  newsrw.19.b:0 "Azawagh is free!"
+  newsrw.19.c:0 "The Tuaregs kicked the Union when it was down"
 
   ##########################
   # DECISIONS
   ##########################
+  WAF_Mauritanian_Emergency:0 "The Mauritanian Emergency"
+  WAF_Mauritanian_Emergency_desc:0 "\n\n\n\n\n\n\nIn the aftermath of the pan-Arabist victory in our Mauritanian provinces and the failure of the May day coup, many of our Mauritanian leaders have fled to the region, forming an united front against West Africa in the pursuit of Mauritanian independence. This event has caused a major crisis in our government, as we have to swiftly react to the increasingly dire situation. \n\nIf we cannot properly respond, Mauritania will declare its independence, backed with an improvised army, and threaten the very stability of our union of West African states."
+  WAF_Assassinate_Local_Leader:0 "Assassinate Coup Sympathisers"
+  WAF_Mauritania_declares_Independence:0 "The Mauritanian Emergency"
+  WAF_Mauritania_declares_Independence_desc:0 "The traitors of the May Day coup now fester throughout the province of Mauritania, having found new allies in the popular pan-Arabist party \"National Vanguard\". Their unusual alliance now threatens the sovereignty of the West African Union, as Mauritania seeks the path towards independence as an islamic, arabist state: the very antithesis of our Africanist efforts. To have them leave will be the final coffin in our ever destabilizing union of West African states."
+  WAF_Freeze_Rebel_Assets:0 "Freeze Rebel Assets"
+  WAF_Fortify_the_Provincial_Border:0 "Close the Provincial Border"
+  WAF_Expel_Foreign_Arabs:0 "Expel Foreign Arabs"
+  WAF_Collapse_of_the_Union:0 "Collapse of the Union"
+
+  WAF_Foreign_Policy:0 "Foreign Policy"
+  WAF_Foreign_Policy_desc:0 "\n\n\n\n\n\n\nThe world has changed a lot in the last few decades. Where we once saw the fall of the United States and the victory of communism over liberalism, the 2010s now show the failings of communism and the stagnation in the remaining global power in Moscow. In the middle of this all, the West African Union stands alone. Too authoritarian to join the democratic powers left after the '80s, yet far too reactionary to join forces with the Moscow communists. \n\nAbandoned by the new world order and threatened by the growing pan-Arabist threat of the North, West Africa will have to carve its own path and destiny. We will seek to expand our union of African states and with them, secure the sovereignty of all Africans. We just need to convince them of our authoritarian way of government."
+  WAF_Invite_Senegal:0 "Invite Senegal [SEN.GetFlag] to the Union"
+  WAF_Invite_Senegal_desc:0 "Under the West African-friendly regime of Birame Diop, Senegal is a clear partner for the expansion of West Africa's Union. We will welcome the junta with open arms!"
+  WAF_Invite_Gambia:0 "Invite Gambia [GAM.GetFlag] to the Union"
+  WAF_Invite_Guinea:0 "Invite Guinea-Bissau [GBS.GetFlag] to the Union"
+  WAF_Invite_Guinea_2:0 "Invite Guinea [GUI.GetFlag] to the Union"
+  WAF_Invite_Sierra_Leone:0 "Invite Sierra Leone [SIE.GetFlag] to the Union"
+  WAF_Invite_Cabo_Verde:0 "Invite Cabo Verde [CAB.GetFlag] to the Union"
+  WAF_Invite_Liberia:0 "Invite Liberia [LIB.GetFlag] to the Union"
+  WAF_Invite_Ivory_Coast:0 "Invite Ivory Coast [IVO.GetFlag] to the Union"
+  WAF_Invite_Ghana:0 "Invite Ghana [GHA.GetFlag] to the Union"
+  WAF_Invite_Togo:0 "Invite Togo [TOG.GetFlag] to the Union"
 
   ##########################
   # LEADERS
@@ -50,7 +166,22 @@
   ##########################
   # TOOLTIPS
   ##########################
+  RW_WAF_2_A:0 "§RThe May Day coup succeeds, deposing Maïnassara and installing Mohamed Ould Abdel Aziz as the union's new dictator.§!"
+  RW_WAF_2_B:0 "§YThe May Day coup fails, but the cost may be far too high for our fragile union. Maïnassara will have to deal with the fallout of this new coup.§!"
+  RW_WAF_2_C:0 "§GThe May Day coup fails and with the knowledge we gained before the coup even happened, we were able to effectively wipe the coup loyalists from the map with minimal casualties.§!"
 
+  WAF_START_MRT_EMERGENCY:0 "§RStarts the Mauritanian Emergency Mission.§!"
+
+  WAF_UNIFICATION_DECISIONS:0 "Opens up £decision_icon_small §Yforeign policy decisions§!. "
   ##########################
   # COSMETIC TAGS
   ##########################
+  WAF_UNION:0 "Mali-Niger Union"
+  WAF_UNION_DEF:0 "The Mali-Niger Union"
+  WAF_UNION_ADJ:0 "Mali-Niger"
+
+  WAF_COLLAPSE:0 "Niger"
+  WAF_COLLAPSE_DEF:0 "The Republic of Niger"
+  WAF_COLLAPSE_ADJ:0 "Niger" 
+
+  

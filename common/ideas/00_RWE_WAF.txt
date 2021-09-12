@@ -21,7 +21,6 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-			stability_factor = -0.15
 			conscription_factor = -0.05
 			consumer_goods_factor = 0.1
 			opinion_gain_monthly_factor = 0.2
@@ -37,3 +36,30 @@ ideas = {
 			defense_bonus_against = -0.1
 			}
 		}
+
+		RWE_WAF_Post_Coup_Aftermath = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Post_Coup_Aftermath
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.2
+			war_support_factor = -0.2
+			political_power_cost = 0.5
+			conscription_factor = -0.1
+			army_morale_factor = -0.1
+			}
+
+		}
+	}
+}

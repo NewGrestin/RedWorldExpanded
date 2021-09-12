@@ -33,6 +33,19 @@ leader_traits = {
 		}
 	}
 
+	warlord_of_the_west = {
+		random = no
+		consumer_goods_factor = 0.1
+		construction_speed_buildings_factor = -0.15
+		conscription_factor = 0.2
+		army_attack_factor = 0.1
+		breakthrough_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	mad_dog = {
 		random = no
 		stability_factor = -0.15

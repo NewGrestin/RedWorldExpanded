@@ -1,0 +1,828 @@
+focus_tree = {
+	id = west_africa_dictator
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = WAF
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = WAF_The_Tin_Pot_Despot
+	default = no
+}
+
+shared_focus = {
+	id = WAF_The_Tin_Pot_Despot
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 8
+	y = 0
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Aftermath_of_the_May_Day_Coup
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 7
+	y = 1
+
+	cost = 5
+	prerequisite = { focus = WAF_The_Tin_Pot_Despot }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Mobilize_the_Federal_Military
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 5
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Aftermath_of_the_May_Day_Coup }
+	mutually_exclusive = { focus = WAF_Round_Up_the_Traitors }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Close_Mauritania
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 5
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Mobilize_the_Federal_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Find_Foreign_Support
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 3
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Mobilize_the_Federal_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Bribe_Local_Tribes
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 4
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Mobilize_the_Federal_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Siege_Dakar
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 5
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Find_Foreign_Support focus = WAF_Bribe_Local_Tribes focus = WAF_Close_Mauritania }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Round_Up_the_Traitors 
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 7
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Aftermath_of_the_May_Day_Coup }
+	mutually_exclusive = { focus = WAF_Mobilize_the_Federal_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Criminalize_Baathism
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 7
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Round_Up_the_Traitors }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Legalize_Torture_Tactics
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 6
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Round_Up_the_Traitors focus = WAF_Mobilize_the_Federal_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Appease_Loyal_Arabs
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 7
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Legalize_Torture_Tactics }
+	prerequisite = { focus = WAF_Criminalize_Baathism }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_War_on_Terror
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 8
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Criminalize_Baathism }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Pillars_of_Power
+	icon = GFX_goal_WAF_Pillars
+	x = 11
+	y = 1
+
+	cost = 5
+	prerequisite = { focus = WAF_The_Tin_Pot_Despot }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Enlightened_Despot
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 10
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Pillars_of_Power }
+	mutually_exclusive = { focus = WAF_Secure_the_Military }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Move_Towards_Industrialization
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 9
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Enlightened_Despot }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Connect_the_Countryside
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 11
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Enlightened_Despot }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Further_Electrification
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 10
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Connect_the_Countryside }
+	prerequisite = { focus = WAF_Move_Towards_Industrialization }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Urbanize_Niamey
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 11
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Connect_the_Countryside }
+	prerequisite = { focus = WAF_Move_Towards_Industrialization }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Total_Rural_Control
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 9
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Further_Electrification focus = WAF_War_on_Terror }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Secure_the_Military 
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 13
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Pillars_of_Power }
+	mutually_exclusive = { focus = WAF_Enlightened_Despot }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Expand_their_Budget
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 13
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Secure_the_Military }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Modern_Arms_Complex
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 15
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Secure_the_Military }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Centralize_the_Command
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 14
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Expand_their_Budget }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Jail_Corrupt_Commanders
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 13
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Expand_their_Budget }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Unify_the_Federal_Armies
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 15
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Centralize_the_Command focus = WAF_Modern_Arms_Complex }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Cement_our_Foreign_Policy
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 6
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = WAF_Siege_Dakar focus = WAF_Appease_Loyal_Arabs }
+	prerequisite = { focus = WAF_Urbanize_Niamey focus = WAF_Jail_Corrupt_Commanders focus = WAF_Unify_the_Federal_Armies }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Reconcile_with_the_Soviets
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 4
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_Cement_our_Foreign_Policy }
+	mutually_exclusive = { focus = WAF_Revert_our_Course }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Revert_our_Course 
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 6
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_Cement_our_Foreign_Policy }
+	mutually_exclusive = { focus = WAF_Reconcile_with_the_Soviets }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Cooperate_with_the_Gulf
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 8
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_Cement_our_Foreign_Policy }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Expansion_of_the_West_African_Project
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 8
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Cooperate_with_the_Gulf }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	custom_effect_tooltip = WAF_UNIFICATION_DECISIONS
+	add_popularity = { ideology = nationalist popularity = 0.05 }
+	add_war_support = 0.05
+	}
+}
+
+shared_focus = {
+	id = WAF_Overshadow_Nigeria
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 9
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Expansion_of_the_West_African_Project }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	create_wargoal = {
+   		 type = puppet_wargoal_focus
+   		 target = BEN
+		}
+	create_wargoal = {
+   		 type = puppet_wargoal_focus
+   		 target = NGR
+		}
+	}
+}
+
+shared_focus = {
+	id = WAF_West_African_Sovereignty
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 7
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Expansion_of_the_West_African_Project }
+	prerequisite = { focus = WAF_Revert_our_Course }
+	mutually_exclusive = { focus = WAF_Our_Place_in_the_World }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	create_faction = "Bamako Security Pact"
+	add_war_support = 0.1
+	}
+}
+
+shared_focus = {
+	id = WAF_Against_African_Communism
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 6
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Revert_our_Course }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Invite_Soviet_Engineers
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 4
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Reconcile_with_the_Soviets }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Our_Place_in_the_World
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 5
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Revert_our_Course focus = WAF_Reconcile_with_the_Soviets }
+	mutually_exclusive = { focus = WAF_West_African_Sovereignty }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_University_of_West_Africa
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 10
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = WAF_Siege_Dakar focus = WAF_Appease_Loyal_Arabs }
+	prerequisite = { focus = WAF_Urbanize_Niamey focus = WAF_Jail_Corrupt_Commanders focus = WAF_Unify_the_Federal_Armies }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Establish_our_Nuclear_Program
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 10
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_University_of_West_Africa }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Diamond_of_the_Continent
+	icon = GFX_goal_WAF_Rough_Diamond
+	x = 14
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = WAF_Siege_Dakar focus = WAF_Appease_Loyal_Arabs }
+	prerequisite = { focus = WAF_Urbanize_Niamey focus = WAF_Jail_Corrupt_Commanders focus = WAF_Unify_the_Federal_Armies }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Modernize_our_Technical_Sector
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 12
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_University_of_West_Africa focus = WAF_Diamond_of_the_Continent }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Extensive_Vaccination_Program
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 13
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Diamond_of_the_Continent }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Expand_the_Literacy_Campaign
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 15
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_Diamond_of_the_Continent }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Protect_our_Farming_Industry
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 15
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Expand_the_Literacy_Campaign }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_The_Green_Wall
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 14
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Protect_our_Farming_Industry }
+	prerequisite = { focus = WAF_Extensive_Vaccination_Program }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}

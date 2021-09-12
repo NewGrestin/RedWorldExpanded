@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
 	SpriteType = {
+		name = "GFX_idea_WAF_Post_Coup_Aftermath"
+		texturefile = "gfx/interface/ideas/WAF_Post_Coup_Confusion.tga"			
+	}
+	SpriteType = {
 		name = "GFX_idea_GRL_French_Expertise"
 		texturefile = "gfx/interface/ideas/GRL_French_Expertise.tga"			
 	}

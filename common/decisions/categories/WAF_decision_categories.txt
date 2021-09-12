@@ -1,0 +1,23 @@
+WAF_Mauritanian_Emergency = {
+    icon = generic_crisis
+
+	picture = GFX_decision_cat_MRT_Emergency
+
+	visible = { 
+	has_country_flag = RW_WAF_MRT_EMERGENCY
+	}
+
+	priority = 250
+}
+
+WAF_Foreign_Policy = {
+    icon = generic_formable_nations
+
+	picture = GFX_decision_cat_WAF_Foreign_Policy
+
+	visible = { 
+	always = yes
+	}
+
+	priority = 250
+}

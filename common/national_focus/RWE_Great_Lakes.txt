@@ -22,7 +22,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Independent_Currency
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = lucrative_investment
 		available = { }
 		x = 23
 		y = 0
@@ -38,7 +38,7 @@ focus_tree = {
 	shared_focus = {
 		id = GRL_Promote_Wisconsin_Diary
 		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		available = { owns_state = 1026 custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_2 has_country_flag = GRL_WORKING_ON_STATE_3 has_country_flag = GRL_WORKING_ON_STATE_4} } }
 		prerequisite = { focus = GRL_Independent_Currency }
 		x = 21
 		y = 1
@@ -47,19 +47,27 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		1026 = { 
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+  		  type = industrial_complex
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
+		set_country_flag = GRL_WORKING_ON_STATE_1
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Expand_Local_Healthcare_Opportunity
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_Generic_Hospital
 		available = { }
 		prerequisite = { focus = GRL_Promote_Wisconsin_Diary }
 		x = 20
 		y = 2
 
-		cost = 3
+		cost = 8
 
 
 		completion_reward = {
@@ -69,40 +77,73 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Support_the_Small_Industrial_Base
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = GFX_goal_Generic_Protectionist_Economics
+		available = { owns_state = 1024 owns_state = 1025 }
 		prerequisite = { focus = GRL_Expand_Local_Healthcare_Opportunity }
 		x = 20
 		y = 3
 
-		cost = 3
+		cost = 8
 
 
 		completion_reward = {
-
+		add_stability = 0.05
+		1024 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+  		  type = industrial_complex
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
+		1025 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+  		  type = industrial_complex
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
 		}
 	}
 
 	shared_focus = {
 		id = GRL_House_a_Military_Complex
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = GFX_goal_Generic_Rearmament
+		available = { owns_state = 1024 owns_state = 1025 }
 		prerequisite = { focus = GRL_Fund_Farming_Banks }
 		prerequisite = { focus = GRL_Support_the_Small_Industrial_Base }
+		mutually_exclusive = { focus = GRL_Agricultural_Delight_of_the_Great_Lakes }
 		x = 21
 		y = 4
 
-		cost = 3
+		cost = 8
 
 
 		completion_reward = {
-
+		add_manpower = 50000
+		1024 = { 
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+  		  type = arms_factory
+ 		  level = 2
+   		  instant_build = yes
+		}
+		}
+		1025 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+  		  type = arms_factory
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Fund_Farming_Banks
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_Generic_Agrarian_Reform_Focus
 		available = { }
 		prerequisite = { focus = GRL_Promote_Wisconsin_Diary }
 		x = 22
@@ -112,14 +153,23 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		add_stability = 0.05
+		1026 = { 
+		add_extra_state_shared_building_slots = 1
+		}
+		394 = { 
+		add_extra_state_shared_building_slots = 1
+		}
+		1023 = { 
+		add_extra_state_shared_building_slots = 1
+		}
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Interstate_Infrastructure
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = infrastructure_2
+		available = { any_owned_state = { infrastructure < 10 } }
 		prerequisite = { focus = GRL_Promote_Wisconsin_Diary focus = GRL_Subsidize_Minnesota_Forestry focus = GRL_Exploit_Antrim_Shale_Gas focus = GRL_Manufacturing_in_iowa }
 		x = 23
 		y = 2
@@ -128,14 +178,41 @@ focus_tree = {
 
 
 		completion_reward = {
-
+		random_owned_state = { 
+		add_building_construction = {
+  		  type = infrastructure
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
+		random_owned_state = { 
+		add_building_construction = {
+  		  type = infrastructure
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
+		random_owned_state = { 
+		add_building_construction = {
+  		  type = infrastructure
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
+		random_owned_state = { 
+		add_building_construction = {
+  		  type = infrastructure
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}
 		}
 	}
 
 	shared_focus = {
 		id = GRL_Subsidize_Minnesota_Forestry
 		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		available = { custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_1 has_country_flag = GRL_WORKING_ON_STATE_3 has_country_flag = GRL_WORKING_ON_STATE_4} } }
 		prerequisite = { focus = GRL_Independent_Currency }
 		x = 25
 		y = 1
@@ -150,7 +227,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Promote_Biodiesel_Industries
-		icon = GFX_goal_OKL_Joe_Exotic
+		icon = GFX_goal_Generic_Oil_Production
 		available = { }
 		prerequisite = { focus = GRL_Subsidize_Minnesota_Forestry }
 		x = 25
@@ -166,17 +243,26 @@ focus_tree = {
 
 	shared_focus = {
 		id = GRL_Expand_Taconite_Mining
-		icon = GFX_goal_OKL_Joe_Exotic
-		available = { }
+		icon = steel
+		available = { owns_state = 391 }
 		prerequisite = { focus = GRL_Promote_Biodiesel_Industries }
 		x = 24
 		y = 3
 
-		cost = 3
+		cost = 5
 
+		select_effect = {
+		add_ideas = { RWE_GRL_Mining }
+		}
 
 		completion_reward = {
-
+		remove_ideas = { RWE_GRL_Mining }
+		391 = {
+		add_resource = {
+  		type = steel
+    		amount = 22
+			}	
+		}		
 		}
 	}
 
@@ -197,18 +283,141 @@ focus_tree = {
 	}
 
 	shared_focus = {
-		id = GRL_Exploit_Antrim_Shale_Gas
-		icon = GFX_goal_OKL_Joe_Exotic
+		id = GRL_Agricultural_Delight_of_the_Great_Lakes
+		icon = GFX_goal_Generic_Agrarianism
 		available = { }
-		prerequisite = { focus = GRL_Independent_Currency }
-		x = 29
-		y = 1
+		prerequisite = { focus = GRL_Promote_Biodiesel_Industries }
+		mutually_exclusive = { focus = GRL_House_a_Military_Complex }
+		x = 25
+		y = 4
 
 		cost = 3
 
 
 		completion_reward = {
 
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Exploit_Antrim_Shale_Gas
+		icon = oil
+		available = { owns_state = 1022 has_political_power > 49 custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_1 has_country_flag = GRL_WORKING_ON_STATE_2 has_country_flag = GRL_WORKING_ON_STATE_4} } }
+		prerequisite = { focus = GRL_Independent_Currency }
+		x = 29
+		y = 1
+
+		cost = 5
+
+
+		completion_reward = {
+		add_political_power = -50
+		1022 = {
+		add_resource = {
+  		type = oil
+    		amount = 12
+			}	
+		}	
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Respect_Native_Land
+		icon = GFX_goal_Generic_Constitution02
+		available = { owns_state = 1022 custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_1 has_country_flag = GRL_WORKING_ON_STATE_2 has_country_flag = GRL_WORKING_ON_STATE_4} } }
+		prerequisite = { focus = GRL_Exploit_Antrim_Shale_Gas }
+		mutually_exclusive = { focus = GRL_Prospect_Reservations }
+		x = 27
+		y = 2
+
+		cost = 3
+
+
+		completion_reward = {
+		add_political_power = 50
+		add_stability = 0.1
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Native_Casino_Tourism
+		icon = GFX_goal_Generic_Party_Bottle
+		available = { owns_state = 1022 custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_1 has_country_flag = GRL_WORKING_ON_STATE_2 has_country_flag = GRL_WORKING_ON_STATE_4} } }
+		prerequisite = { focus = GRL_Respect_Native_Land }
+		mutually_exclusive = { focus = GRL_Combat_Native_Unemployment }
+		x = 27
+		y = 4
+
+		cost = 5
+
+
+		completion_reward = {
+	
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Prospect_Reservations 
+		icon = GFX_Focus_Mechanization_of_Agriculture
+		available = { owns_state = 1022 custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_1 has_country_flag = GRL_WORKING_ON_STATE_2 has_country_flag = GRL_WORKING_ON_STATE_4} } }
+		prerequisite = { focus = GRL_Exploit_Antrim_Shale_Gas }
+		mutually_exclusive = { focus = GRL_Respect_Native_Land }
+		x = 29
+		y = 2
+
+		cost = 2
+
+
+		completion_reward = {
+		add_stability = -0.1
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Improve_Local_Infrastructure
+		icon = infrastructure_building
+		available = { 1022 = { infrastructure < 9 } owns_state = 1022 custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_1 has_country_flag = GRL_WORKING_ON_STATE_2 has_country_flag = GRL_WORKING_ON_STATE_4} } }
+		prerequisite = { focus = GRL_Prospect_Reservations }
+		x = 29
+		y = 3
+		cancel_if_invalid = yes
+		cost = 2
+
+
+		completion_reward = {
+		add_stability = 0.03
+		1022 = { 
+		add_building_construction = {
+  		  type = infrastructure 
+ 		  level = 2
+   		  instant_build = yes
+		}
+		}	
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Combat_Native_Unemployment
+		icon = GFX_goal_Generic_Low_Morale
+		available = { owns_state = 1022 custom_trigger_tooltip = { tooltip = GRL_not_working_on_other_states NOT = { has_country_flag = GRL_WORKING_ON_STATE_1 has_country_flag = GRL_WORKING_ON_STATE_2 has_country_flag = GRL_WORKING_ON_STATE_4} } }
+		prerequisite = { focus = GRL_Improve_Local_Infrastructure }
+		mutually_exclusive = { focus = GRL_Native_Casino_Tourism }
+		x = 29
+		y = 4
+
+		cost = 5
+
+
+		completion_reward = {
+		add_stability = 0.05
+		1022 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+  		  type = industrial_complex
+ 		  level = 1
+   		  instant_build = yes
+		}
+		}		
 		}
 	}
 
@@ -225,6 +434,47 @@ focus_tree = {
 
 		completion_reward = {
 
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Heart_of_the_Cornbelt
+		icon = GFX_goal_Focus_GER_Agriculture_Mechanization
+		available = { }
+		prerequisite = { focus = GRL_Manufacturing_in_Iowa }
+		x = 31
+		y = 2
+
+		cost = 8
+
+
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = GRL_Fund_the_University_of_Iowa
+		icon = generic_research
+		available = { }
+		prerequisite = { focus = GRL_Manufacturing_in_Iowa }
+		x = 32
+		y = 3
+
+		cost = 8
+
+
+		completion_reward = {
+add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = construction_tech
+}
+add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = electronics
+}
 		}
 	}
 

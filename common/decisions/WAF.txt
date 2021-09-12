@@ -1,0 +1,363 @@
+WAF_Mauritanian_Emergency = {
+	WAF_Mauritania_declares_Independence = {
+		icon = GFX_decision_border_war
+		allowed = {
+			tag = WAF
+		}
+		available = {
+		always = no
+		}
+		activation = {
+			has_country_flag = RW_WAF_MRT_EMERGENCY
+		}
+		is_good = no
+		days_mission_timeout = 90
+		fire_only_once = yes
+		timeout_effect = {
+		release = MRT
+		declare_war_on = {
+    		target = MRT
+   		type = annex_everything
+		}
+		add_stability = -0.2
+		add_war_support = 0.2
+		news_event = { id = newsrw.10 days = 0 }
+		set_country_flag = RW_WAF_MRT_WAR
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	WAF_Collapse_of_the_Union = {
+		icon = GFX_decision_border_war
+		allowed = {
+			tag = WAF
+		}
+		available = {
+		MRT = { has_capitulated = yes }
+		}
+		activation = {
+			has_country_flag = RW_WAF_MRT_WAR
+		}
+		is_good = no
+		days_mission_timeout = 150
+		fire_only_once = yes
+		timeout_effect = {
+		add_stability = -0.5
+		add_war_support = -0.5
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	WAF_Assassinate_Local_Leader = {
+
+		icon = generic_form_nation
+		cost = 10
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		MRT = { exists = no }
+		has_active_mission = WAF_Mauritania_declares_Independence 
+		}
+
+		complete_effect = {
+		add_stability = -0.05
+		add_days_mission_timeout = {
+   		mission = WAF_Mauritania_declares_Independence 
+    		 days = 10
+		}
+	}
+	}
+
+	WAF_Freeze_Rebel_Assets = {
+
+		icon = generic_form_nation
+		cost = 10
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		MRT = { exists = no }
+		has_active_mission = WAF_Mauritania_declares_Independence 
+		}
+
+		complete_effect = {
+		add_war_support = 0.05
+		add_stability = -0.05
+		add_days_mission_timeout = {
+   		 mission = WAF_Mauritania_declares_Independence 
+    		 days = 5
+		}
+	}
+	}
+
+	WAF_Fortify_the_Provincial_Border = {
+
+		icon = generic_form_nation
+		cost = 20
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		MRT = { exists = no }
+		has_active_mission = WAF_Mauritania_declares_Independence 
+		has_manpower > 999
+		}
+
+		complete_effect = {
+		add_manpower = -1000
+		add_stability = -0.1
+		add_days_mission_timeout = {
+   		 mission = WAF_Mauritania_declares_Independence 
+    		 days = 30
+		}
+	}
+	}
+
+	WAF_Expel_Foreign_Arabs = {
+
+		icon = generic_form_nation
+		cost = 50
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		MRT = { exists = no }
+		has_active_mission = WAF_Mauritania_declares_Independence 
+		}
+
+		complete_effect = {
+		add_stability = -0.15
+		add_popularity = { popularity = -0.05 ideology = national_bolshevik }
+		add_days_mission_timeout = {
+   		 mission = WAF_Mauritania_declares_Independence 
+    		 days = 45
+		}
+	}
+	}
+
+}
+
+
+WAF_Foreign_Policy = {
+	WAF_Invite_Senegal = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		SEN = { exists = yes }
+		SEN = { is_subject = no }
+		}
+
+		complete_effect = {
+		SEN = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Gambia = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		GAM = { exists = yes }
+		GAM = { is_subject = no }
+		}
+
+		complete_effect = {
+		GAM = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Guinea = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		GBS = { exists = yes }
+		GBS = { is_subject = no }
+		}
+
+		complete_effect = {
+		GBS = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Guinea_2 = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		GUI = { exists = yes }
+		GUI = { is_subject = no }
+		}
+
+		complete_effect = {
+		GUI = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Sierra_Leone = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		SIE = { exists = yes }
+		SIE = { is_subject = no }
+		}
+
+		complete_effect = {
+		SIE = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Cabo_Verde = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		CAB = { exists = yes }
+		CAB = { is_subject = no }
+		}
+
+		complete_effect = {
+		CAB = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Liberia = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		LIB = { exists = yes }
+		LIB = { is_subject = no }
+		}
+
+		complete_effect = {
+		LIB = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Ivory_Coast = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		IVO = { exists = yes }
+		IVO = { is_subject = no }
+		}
+
+		complete_effect = {
+		IVO = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Ghana = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		GHA = { exists = yes }
+		GHA = { is_subject = no }
+		}
+
+		complete_effect = {
+		GHA = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+
+	WAF_Invite_Togo = {
+		icon = generic_form_nation
+		cost = 100
+		ai_will_do = {
+			factor = 75
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		TOG = { exists = yes }
+		TOG = { is_subject = no }
+		}
+
+		complete_effect = {
+		TOG = { country_event = { id = rw_waf.100 days = 1 } }
+		}
+	}
+}

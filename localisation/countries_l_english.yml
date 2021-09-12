@@ -5259,8 +5259,8 @@
  WAF_fascist_DEF:0 "The West African Union"
  WAF_nationalist:0 "West African Union"
  WAF_nationalist_DEF:0 "The West African Union"
- WAF_monarchist:0 "West African Sultanate"
- WAF_monarchist_DEF:0 "The West African Sultanate"
+ WAF_monarchist:0 "West African Empire"
+ WAF_monarchist_DEF:0 "The West African Empire"
  WAF_national_bolshevik:0 "West African Union"
  WAF_national_bolshevik_DEF:0 "West African Union"
  WAF_national_conservative:0 "West African Union"
@@ -10883,3 +10883,11 @@
  BRK_fascist:0 "Burkina Faso" 
  BRK_fascist_DEF:0 "Burkina Faso" 
  BRK_fascist_ADJ:0 "Burkinese" 
+ 
+ AZA:0 "Azawagh"
+ AZA_DEF:0 "Azawagh"
+ AZA_ADJ:0 "Azawagh"
+  
+ MLI:0 "Mali"
+ MLI_DEF:0 "The Federation of Mali"
+ MLI_ADJ:0 "Malian"

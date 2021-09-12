@@ -23,4 +23,14 @@ spriteTypes = {
 		name = "GFX_decision_cat_MOT_Illegal_Shit"
 		texturefile = "gfx/interface/decisions/decision_cat_MOT_Illegal_Shit.dds"
 	}
+
+	spriteType = {
+		name = "GFX_decision_cat_MRT_Emergency"
+		texturefile = "gfx/interface/decisions/decision_cat_MRT_Emergency.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_WAF_Foreign_Policy"
+		texturefile = "gfx/interface/decisions/decision_cat_WAF_Foreign_Policy.dds"
+	}
 }

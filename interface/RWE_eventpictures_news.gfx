@@ -6,7 +6,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-<<<<<<< Updated upstream
 		name = "TEX_Perot_Elected"
 		texturefile = "gfx/event_pictures/news_event/TEX_Perot_Elected.dds"
 	}
@@ -139,7 +138,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GER_German_Military_Coup"
 		texturefile = "gfx/event_pictures/news_event/GER_German_Military_Coup.dds"
-=======
+	}
+
+	spriteType = {
 		name = "grl_revolution"
 		texturefile = "gfx/event_pictures/news_event/grl_revolution.tga"
 	}
@@ -147,7 +148,36 @@ spriteTypes = {
 	spriteType = {
 		name = "grl_crusade"
 		texturefile = "gfx/event_pictures/news_event/grl_crusade.tga"
->>>>>>> Stashed changes
+	}
+
+	spriteType = {
+		name = "waf_coup"
+		texturefile = "gfx/event_pictures/news_event/waf_coup.tga"
+	}
+
+	spriteType = {
+		name = "waf_failed_coup"
+		texturefile = "gfx/event_pictures/news_event/waf_failed_coup.tga"
+	}
+
+	spriteType = {
+		name = "waf_communists"
+		texturefile = "gfx/event_pictures/news_event/waf_communists.tga"
+	}
+
+	spriteType = {
+		name = "waf_tuareg_independence"
+		texturefile = "gfx/event_pictures/news_event/waf_tuareg_independence.tga"
+	}
+
+	spriteType = {
+		name = "waf_collapse"
+		texturefile = "gfx/event_pictures/news_event/waf_collapse.tga"
+	}
+
+	spriteType = {
+		name = "waf_democratic_revolution"
+		texturefile = "gfx/event_pictures/news_event/waf_democratic_revolution.tga"
 	}
 
 	spriteType = {

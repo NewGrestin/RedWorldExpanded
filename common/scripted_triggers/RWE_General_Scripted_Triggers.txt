@@ -96,7 +96,6 @@ is_non_unifier = {
 			original_tag = ALA
 			original_tag = HAW
 			original_tag = LAK
-			has_idea = idea_america_neutrality_statelet
 			has_idea = RWE_America_Shattered_Ambition
 			has_country_flag = treaty_of_columbus
 			has_country_leader = {
