@@ -48,6 +48,44 @@
   WAF_Extensive_Vaccination_Program:0 "Combat the Malaria Epidemic"
   WAF_Protect_our_Farming_Industry:0 "Bounty of the Niger River Soil"
   WAF_The_Green_Wall:0 "The Green Wall"
+
+  WAF_The_Arab_Among_Africans:0 "An Arab Among Africans"
+  WAF_Pamper_the_Commanders:0 "Spoil our Army"
+  WAF_Lap_of_Luxury:0 "Gifts to our Highest Commanders"
+  WAF_Yachts_for_the_Navy:0 "Yachts for the Loyal"
+  WAF_Bribe_Bureaucrats:0 "Bribe our Bureaucrats"
+  WAF_Punish_Low_Ranked_Crime:0 "Tough on Low-Ranking Crimes"
+  WAF_Allow_Corruption:0 "Corruption as Ideology"
+  WAF_Unify_the_Government:0 "Reform our Government"
+  WAF_Appease_Provincial_Councils:0 "Appease the Provincial Councils"
+  WAF_Decentralized_Philosophy:0 "Decentralize the Union"
+  WAF_Opposition_in_our_Pocket:0 "The Pocket Opposition"
+  WAF_Smoking_with_Warlords:0 "Warlords and Wine"
+  WAF_Shift_towards_Democracy:0 "Strenghten the Democratic Illusion"
+  WAF_Decriminalize_the_Opposition:0 "Decriminalize Leftist Opposition"
+  WAF_Keep_them_in_Jail:0 "Keep them Locked"
+  WAF_Announce_Coming_Elections:0 "Announce the Next Election"
+  WAF_Bicameral_Formation:0 "Formalize a Two-Chamber System"
+  WAF_Keep_the_Media_in_Check:0 "Keep the Media in Check"
+  WAF_Study_Pinochet:0 "Learn from Gadaffi"
+  WAF_Smile_for_Eastern_Media:0 "Smile for Eastern Media"
+  WAF_Invite_International_NGOs:0 "Invite International NGOs"
+  WAF_Cover_Up_the_Bad_Stuff:0 "Cover Up our Violations"
+  WAF_Rig_Them:0 "Rig the Election"
+
+  WAF_Door_between_Two_Worlds:0 "Unity between Africans and Arabs"
+  WAF_Unify_African_Nationalists:0 "Unite against Pan-Africanism"
+  WAF_Support_South_Africa:0 "Support the Apartheid Regime"
+  WAF_Secure_Benin:0 "Secure Benin"
+  WAF_Continental_Ambitions:0 "Regional Ambitions"
+  WAF_Gateway_to_Europe:0 "Flood the European Gateway"
+  WAF_Expand_the_Opioid_Production:0 "Expand Opioid Production"
+  WAF_Secure_the_Moroccan_Silk_Route:0 "Secure the Moroccan Route"
+  WAF_Federation_of_the_Sahel:0 "Federation of the Sahel"
+  WAF_Move_against_Pan_Arabism:0 "Crush Pan-Arabism"
+  WAF_Operations_in_Algeria:0 "Liberate Algerian Tuaregs"
+  WAF_Unite_with_Chad:0 "Unite with Chad"
+  WAF_Against_Egypt:0 "Stop the Nasserists"
  
   ##########################
   # PARTIES
@@ -131,7 +169,10 @@
   newsrw.19.a:0 "How could we have lost against a bunch of nomads?"
   newsrw.19.b:0 "Azawagh is free!"
   newsrw.19.c:0 "The Tuaregs kicked the Union when it was down"
-
+  newsrw.20.t:0 "Bloodshed follows Failed May Day Coup"
+  newsrw.20.d:0 "The recent instability of West Africa knows no rest, as the coup in the Union of West Africa in 2008 has been swiftly followed up by the May Day Coup this week. Backed by discontent military commanders wanting a government that has far less influence in the army, the coup met much resistance in the capital of Niamey, where the local garrison remained loyal to the president and was able to keep the conspiracy loyalists outside the city before the federal army was mobilized. The following bloodbath would cost the lives of many West African soldiers and civilians due to the urban combat. \n\nWith the traitors and their armies now facing a very strong enemy, many of them have now fled to the fringe province of Mauritania under the leadership of Mohamed Ould Abdel Aziz, a previous Arab military advisor to Maïnassara. This army of Aziz loyalists now seeks to establish a mutual relationship with the local ba'athist government that had won the Mauritanian election last year."
+  newsrw.20.a:0 "We've broken the back of the conspiracy!"
+  newsrw.20.b:0 "A phyrric victory, perhaps?"
   ##########################
   # DECISIONS
   ##########################

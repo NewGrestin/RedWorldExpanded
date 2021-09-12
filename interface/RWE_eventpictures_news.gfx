@@ -156,6 +156,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "waf_failed_coup_2"
+		texturefile = "gfx/event_pictures/news_event/waf_failed_coup_2.tga"
+	}
+
+	spriteType = {
 		name = "waf_failed_coup"
 		texturefile = "gfx/event_pictures/news_event/waf_failed_coup.tga"
 	}

@@ -41,7 +41,9 @@ create_country_leader = {
 	ideology = national_bolshevik_ideology 
 }
 set_country_flag = FRA_RESIGNATION
-hidden_effect = { country_event = { id = france.3 days = 10 } }
+hidden_effect = { country_event = { id = france.3 days = 10 } 
+country_event = { id = france.17 days = 110 } 
+news_event = { id = newsrw.2 days = 1 } }
 	}
 
 }
@@ -684,7 +686,7 @@ country_event = { #Retreat to Corsica
 		FRN = { transfer_state = 1 } 
 		FRA = { white_peace = FRN }
 		FRA = { add_stability = 0.15 }
-`		set_country_flag = FRN_CORSICA_RETREAT 
+		set_country_flag = FRN_CORSICA_RETREAT 
 		news_event = { id = newsrw.12 days = 0 } 
 	}
 }
@@ -816,7 +818,7 @@ country_event = { #Corsican separatists take control
 	option = { #
 		name = france.102.a
 		set_cosmetic_tag = FRN_CORSICA
-`		
+		
 	}
 
 

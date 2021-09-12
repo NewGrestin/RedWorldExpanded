@@ -12,7 +12,230 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 2200 }
 	shared_focus = WAF_The_Tin_Pot_Despot
+	shared_focus = WAF_The_Arab_Among_Africans
 	default = no
+}
+
+shared_focus = {
+	id = WAF_The_Arab_Among_Africans
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 24
+	y = 0
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Shift_towards_Democracy
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 28
+	y = 1
+
+	cost = 5
+	prerequisite = { focus = WAF_The_Arab_Among_Africans }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Smile_for_Eastern_Media
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 30
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Shift_towards_Democracy }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Invite_International_NGOs
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 30
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Smile_for_Eastern_Media }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Cover_Up_the_Bad_Stuff
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 29
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Study_Pinochet focus = WAF_Keep_the_Media_in_Check }
+	prerequisite = { focus = WAF_Invite_International_NGOs }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Decriminalize_the_Opposition
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 26
+	y = 2
+
+	cost = 10
+	prerequisite = { focus = WAF_Shift_towards_Democracy }
+	mutually_exclusive = { focus = WAF_Keep_them_in_Jail }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Bicameral_Formation
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 25
+	y = 3
+
+	cost = 10
+	prerequisite = { focus = WAF_Decriminalize_the_Opposition }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Announce_Coming_Elections
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 27
+	y = 3
+
+	cost = 10
+	prerequisite = { focus = WAF_Decriminalize_the_Opposition focus = WAF_Keep_them_in_Jail }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Keep_the_Media_in_Check
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 26
+	y = 4
+
+	cost = 10
+	prerequisite = { focus = WAF_Bicameral_Formation }
+	prerequisite = { focus = WAF_Announce_Coming_Elections }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Rig_Them
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 27
+	y = 5
+
+	cost = 10
+	prerequisite = { focus = WAF_Keep_the_Media_in_Check focus = WAF_Study_Pinochet }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Study_Pinochet
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 28
+	y = 4
+
+	cost = 10
+	prerequisite = {focus = WAF_Keep_them_in_Jail }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Keep_them_in_Jail 
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 28
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Shift_towards_Democracy }
+	mutually_exclusive = { focus = WAF_Decriminalize_the_Opposition }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
@@ -239,14 +462,226 @@ shared_focus = {
 shared_focus = {
 	id = WAF_Pillars_of_Power
 	icon = GFX_goal_WAF_Pillars
-	x = 11
+	x = 16
 	y = 1
 
 	cost = 5
-	prerequisite = { focus = WAF_The_Tin_Pot_Despot }
+	prerequisite = { focus = WAF_The_Tin_Pot_Despot focus = WAF_The_Arab_Among_Africans }
+
+	available = {
+	OR = { 
+	has_country_leader = { name = "Ibrahim Baré Maïnassara" }
+	has_country_leader = { name = "Mohamed Ould Abdel Aziz" }
+	}
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Pamper_the_Commanders
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 19
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Pillars_of_Power }
+	mutually_exclusive = { focus = WAF_Unify_the_Government }
+
+	available = {
+	has_country_leader = { name = "Mohamed Ould Abdel Aziz" }
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Lap_of_Luxury
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 17
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Pamper_the_Commanders }
 
 	available = {
 
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Yachts_for_the_Navy
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 17
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Lap_of_Luxury }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Allow_Corruption
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 18
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Lap_of_Luxury }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Bribe_Bureaucrats
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 20
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Pamper_the_Commanders focus = WAF_Unify_the_Government }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Punish_Low_Ranked_Crime
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 19
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Bribe_Bureaucrats }
+	prerequisite = { focus = WAF_Lap_of_Luxury }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Appease_Provincial_Councils
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 22
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = WAF_Unify_the_Government }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Opposition_in_our_Pocket
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 21
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Appease_Provincial_Councils }
+	prerequisite = { focus = WAF_Bribe_Bureaucrats }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Decentralized_Philosophy
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 23
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = WAF_Unify_the_Government }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Smoking_with_Warlords
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 22
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = WAF_Opposition_in_our_Pocket focus = WAF_Decentralized_Philosophy }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Unify_the_Government 
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 22
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = WAF_Pillars_of_Power }
+	mutually_exclusive = { focus = WAF_Pamper_the_Commanders }
+
+	available = {
+	has_country_leader = { name = "Mohamed Ould Abdel Aziz" }
 	}
 
 
@@ -266,7 +701,7 @@ shared_focus = {
 	mutually_exclusive = { focus = WAF_Secure_the_Military }
 
 	available = {
-
+	has_country_leader = { name = "Ibrahim Baré Maïnassara" }
 	}
 
 
@@ -385,7 +820,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	has_country_leader = { name = "Ibrahim Baré Maïnassara" }
 	}
 }
 
@@ -513,7 +948,8 @@ shared_focus = {
 	prerequisite = { focus = WAF_Cement_our_Foreign_Policy }
 	mutually_exclusive = { focus = WAF_Revert_our_Course }
 	available = {
-
+	SOV = { exists = yes } 
+	NOT = { WAF = { has_war_with = SOV } } 
 	}
 
 
@@ -532,7 +968,8 @@ shared_focus = {
 	prerequisite = { focus = WAF_Cement_our_Foreign_Policy }
 	mutually_exclusive = { focus = WAF_Reconcile_with_the_Soviets }
 	available = {
-
+	NOT = { is_in_faction_with = SOV } 
+	NOT = { is_subject_of = SOV }
 	}
 
 
@@ -568,7 +1005,7 @@ shared_focus = {
 	cost = 5
 	prerequisite = { focus = WAF_Cooperate_with_the_Gulf }
 	available = {
-
+	NOT = { is_subject = yes } 
 	}
 
 
@@ -588,7 +1025,11 @@ shared_focus = {
 	cost = 5
 	prerequisite = { focus = WAF_Expansion_of_the_West_African_Project }
 	available = {
-
+	OR = { 
+	BEN = { exists = yes } 
+	NGR = { exists = yes } 
+	}
+	WAF = { is_subject = no }
 	}
 
 
@@ -615,7 +1056,8 @@ shared_focus = {
 	prerequisite = { focus = WAF_Revert_our_Course }
 	mutually_exclusive = { focus = WAF_Our_Place_in_the_World }
 	available = {
-
+	NOT = { is_subject = yes } 
+	NOT = { is_in_faction = yes }
 	}
 
 
@@ -634,12 +1076,32 @@ shared_focus = {
 	cost = 5
 	prerequisite = { focus = WAF_Revert_our_Course }
 	available = {
-
+	any_country = { 
+		is_in_africa = yes 
+		OR = { 
+		has_government = communist
+		has_government = revolutionary_socialist
+		}
+	}
 	}
 
 
 	completion_reward = {
-
+	every_country = {
+		limit = { 
+		is_in_africa = yes 
+		OR = { 
+		has_government = communist
+		has_government = revolutionary_socialist
+		}
+		}
+	WAF = {
+		create_wargoal = {
+   		 type = puppet_wargoal_focus
+   		 target = PREV
+			}		
+		}
+	}
 	}
 }
 
@@ -652,7 +1114,8 @@ shared_focus = {
 	cost = 5
 	prerequisite = { focus = WAF_Reconcile_with_the_Soviets }
 	available = {
-
+	SOV = { exists = yes } 
+	NOT = { WAF = { has_war_with = SOV } } 
 	}
 
 
@@ -819,6 +1282,278 @@ shared_focus = {
 	prerequisite = { focus = WAF_Extensive_Vaccination_Program }
 	available = {
 
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Door_between_Two_Worlds
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 20
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = WAF_Allow_Corruption focus = WAF_Smoking_with_Warlords }
+	prerequisite = { focus = WAF_Rig_Them focus = WAF_Cover_Up_the_Bad_Stuff }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Gateway_to_Europe
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 18
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_Door_between_Two_Worlds }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Unify_African_Nationalists
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 21
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_Door_between_Two_Worlds }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Secure_Benin
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 22
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Unify_African_Nationalists }
+	available = {
+	BEN = { exists = yes } 
+	WAF = { is_subject = no } 
+	WAF = { has_capitulated = no } 
+	WAF = { NOT = { is_in_faction_with = BEN } }
+	}
+
+
+	completion_reward = {
+	create_wargoal = {
+   		 type = puppet_wargoal_focus
+   		 target = BEN
+		}
+	}
+}
+
+shared_focus = {
+	id = WAF_Support_South_Africa
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 20
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Unify_African_Nationalists }
+	available = {
+	SAF = { exists = yes } 
+	NOT = { WAF = { has_war_with = SAF } }
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Expand_the_Opioid_Production
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 18
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Gateway_to_Europe }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Secure_the_Moroccan_Silk_Route
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 18
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Expand_the_Opioid_Production }
+	available = {
+	MOR = { exists = yes } 
+	WAF = { NOT = { is_in_faction_with = MOR } } 
+	OR = { 
+	MOR = { has_government = communist }
+	MOR = { has_government = revolutionary_socialist }
+	MOR = { has_government = moderate_socialist }
+	MOR = { has_government = new_democrat }
+	MOR = { has_government = fascist }
+	MOR = { has_opinion = {
+    target = WAF
+    value < 0
+}}
+	}
+	}
+
+
+	completion_reward = {
+	create_wargoal = {
+   		 type = puppet_wargoal_focus
+   		 target = MOR
+		}
+	}
+}
+
+shared_focus = {
+	id = WAF_Continental_Ambitions
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 21
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Support_South_Africa focus = WAF_Secure_Benin }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Move_against_Pan_Arabism
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 24
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = WAF_Allow_Corruption focus = WAF_Smoking_with_Warlords }
+	prerequisite = { focus = WAF_Rig_Them focus = WAF_Cover_Up_the_Bad_Stuff }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Operations_in_Algeria
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 24
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_Move_against_Pan_Arabism }
+	available = {
+	ALG = { exists = yes } 
+	WAF = { is_subject = no } 
+	WAF = { has_capitulated = no } 
+	WAF = { NOT = { is_in_faction_with = ALG } }
+	ALG = { owns_state = 514 }
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Unite_with_Chad
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 24
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Operations_in_Algeria }
+	available = {
+	CHD = { exists = yes } 
+	WAF = { is_subject = no } 
+	WAF = { has_capitulated = no } 
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Federation_of_the_Sahel
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 23
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Secure_Benin }
+	prerequisite = { focus = WAF_Unite_with_Chad }
+	available = {
+	WAF = { is_subject = no } 
+	WAF = { has_capitulated = no } 
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+
+shared_focus = {
+	id = WAF_Against_Egypt
+	icon = GFX_goal_WAF_Tin_Pot_Despot
+	x = 25
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Operations_in_Algeria }
+	available = {
+	UAR = { exists = yes } 
+	WAF = { is_subject = no } 
+	WAF = { has_capitulated = no } 
+	WAF = { NOT = { is_in_faction_with = UAR } }
 	}
 
 

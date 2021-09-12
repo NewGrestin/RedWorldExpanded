@@ -6,12 +6,11 @@ news_event = {	#Francis Fukuyama - History never Ends
 	desc = newsrw.1.d
 	picture = fukuyama
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
-	    date > 2010.02.30
-		date < 2010.03.30
+	date > 2010.02.30
 	}
 	
 	option = {
@@ -33,10 +32,7 @@ news_event = {	#Bocquet resigns
 	
 	is_triggered_only = yes
 	major = yes
-	
-	trigger = {
-	FRA = { has_country_flag = FRA_RESIGNATION }
-	}
+
 	
 	option = {
 		name = newsrw.2.a
@@ -55,7 +51,7 @@ news_event = {	#Le Pen elected G-S
 	desc = newsrw.3.d
 	picture = fra_le_pen_elected
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -79,7 +75,7 @@ news_event = {	#Lionel Jospin elected G-S
 	desc = newsrw.4.d
 	picture = fra_lionel_jospin_elected
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -103,7 +99,7 @@ news_event = {	#Cécile Duflot elected G-S
 	desc = newsrw.5.d
 	picture = fra_duflot_elected
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -127,7 +123,7 @@ news_event = {	#Jean Luc Mélechon
 	desc = newsrw.6.d
 	picture = fra_melechon_elected
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -151,7 +147,7 @@ news_event = {	#Hyaric
 	desc = newsrw.7.d
 	picture = fra_hyaric_elected
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -175,7 +171,7 @@ news_event = {	#Gremetz elected
 	desc = newsrw.8.d
 	picture = fra_gremetz_elected
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -199,7 +195,7 @@ news_event = {	#Failed Coup shakes France
 	desc = newsrw.9.d
 	picture = fra_coup
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -440,6 +436,27 @@ news_event = {	#WAF - Azawagh Independence
 	option = {
 		name = newsrw.19.c
 		trigger = { NOT = { OR { tag = WAF tag = AZA } } }
+	}
+
+}
+
+news_event = {	#WAF - Coup fails, much lost
+	id = newsrw.20
+	title = newsrw.20.t
+	desc = newsrw.20.d
+	picture = waf_failed_coup_2
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.20.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.20.b
+		trigger = { NOT = { tag = WAF } }
 	}
 
 }

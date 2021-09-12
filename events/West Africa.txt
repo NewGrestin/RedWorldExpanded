@@ -12,18 +12,24 @@ country_event = {
 	trigger = {
 		tag = WAF
 		date > 2010.2.25
-		date < 2010.3.1
 	}
 	
 	option = {
 		name = rw_waf.1.a
+		ai_chance = {
+			factor = 80
+		}
 		hidden_effect = { country_event = { id = rw_waf.2 days = 10 } }
 	}
 
 	option = {
 		name = rw_waf.1.b
+		ai_chance = {
+			factor = 20
+		}
 		hidden_effect = { country_event = { id = rw_waf.2 days = 10 } }
 		set_country_flag = WAF_COUP_KNOWN
+
 	}
 }
 
@@ -38,6 +44,9 @@ country_event = {
 	
 	option = { #Coup happens
 		name = rw_waf.2.a
+		ai_chance = {
+			factor = 30
+		}
 		custom_effect_tooltip = RW_WAF_2_A
 		add_stability = -0.1
 		add_manpower = -156
@@ -48,6 +57,9 @@ country_event = {
 
 	option = { #Coup repelled, despite not knowing
 		name = rw_waf.2.b
+		ai_chance = {
+			factor = 70
+		}
 		trigger = { 
 		NOT = { has_country_flag = WAF_COUP_KNOWN }
 		}
@@ -55,12 +67,15 @@ country_event = {
 		add_stability = -0.2
 		add_manpower = -1061
 		add_popularity = { ideology = fascist popularity = -0.05 }
-		news_event = { id = newsrw.14 days = 0 }
+		news_event = { id = newsrw.20 days = 0 }
 		hidden_effect = { country_event = { id = rw_waf.3 days = 5 } }
 	}
 
 	option = { #Coup reppeled with knowledge
 		name = rw_waf.2.c
+		ai_chance = {
+			factor = 70
+		}
 		trigger = { 
 		has_country_flag = WAF_COUP_KNOWN
 		}
