@@ -211,4 +211,12 @@ spriteTypes = {
 		name = "GFX_idea_RWE_ILL_Quiet_Statelet"
 		texturefile = "gfx/interface/ideas/RWE_ILL_Quiet_Statelet.dds"			
 	}
+	SpriteType = {
+		name = "GFX_idea_RWE_ILL_Rust_Republic"
+		texturefile = "gfx/interface/ideas/RWE_ILL_Rust_Republic.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_ILL_Midwest_Influence"
+		texturefile = "gfx/interface/ideas/RWE_ILL_Midwest_Influence.dds"			
+	}
 }

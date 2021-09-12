@@ -21,8 +21,57 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				surrender_limit = 0.1
-				war_support_factor = 0.3
+				drift_defence_factor = 0.5
+				stability_factor = 0.15
+			}
+		}
+
+		RWE_ILL_Rust_Republic = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_ILL_Rust_Republic
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.1
+				industry_free_repair_factor = -0.05
+			}
+		}
+
+		RWE_ILL_Midwest_Influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_ILL_Midwest_Influence
+			
+			removal_cost = -1
+	
+			modifier = {
+				fascist_drift = -0.05
+				monarchist_drift = -0.05
+				national_bolshevik_drift = -0.05
+				communist_drift = -0.05
+			}
+
+			targeted_modifier = {
+				tag = MWA
+				trade_cost_for_target_factor = -0.25
+				trade_opinion_factor = 1.0
 			}
 		}
 	}

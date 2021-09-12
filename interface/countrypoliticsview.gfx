@@ -461,6 +461,11 @@ spriteTypes = {
 		name = "GFX_ideology_third_international_theory"
 		texturefile = "gfx/interface/ideologies/third_international_theory.dds"
 	}
+
+    spriteType = {
+		name = "GFX_ideology_falangist"
+		texturefile = "gfx/interface/ideologies/falangist.dds"
+	}
     
 	spriteType = {
 		name = "GFX_ideology_centrist_group"
@@ -530,6 +535,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_jihadist"
 		texturefile = "gfx/interface/ideologies/jihadist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_stalinist_group"
+		texturefile = "gfx/interface/ideologies/stalinist_group.dds"
 	}
 
 	spriteType = {

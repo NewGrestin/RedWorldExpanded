@@ -311,6 +311,48 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+	spriteType = {
+		name = "GFX_SPEVNT_2nd_Australian_Civil_War"
+		texturefile = "gfx/super_events/SPEVNT_2nd_Australian_Civil_War.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_African_Great_War"
+		texturefile = "gfx/super_events/SPEVNT_African_Great_War.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_African_War_Anti_Pretoria_Victory"
+		texturefile = "gfx/super_events/SPEVNT_African_War_Anti_Pretoria_Victory.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Operation_Desert_Storm"
+		texturefile = "gfx/super_events/SPEVNT_Operation_Desert_Storm.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Yugoslav_Messy_Dissolution"
+		texturefile = "gfx/super_events/SPEVNT_Yugoslav_Messy_Dissolution.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Yugoslav_Peaceful_Dissolution"
+		texturefile = "gfx/super_events/SPEVNT_Yugoslav_Peaceful_Dissolution.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Yugoslavia_Survives"
+		texturefile = "gfx/super_events/SPEVNT_Yugoslavia_Survives.dds"
+		legacy_lazy_load = no
+	}
+
 	corneredTileSpriteType = {
 		name = "GFX_tiled_window_thin_border"
 		size= { x=192 y=192 }

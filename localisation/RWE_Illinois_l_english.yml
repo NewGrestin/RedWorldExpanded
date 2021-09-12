@@ -16,6 +16,11 @@
   # IDEAS
   ##########################
   RWE_ILL_Quiet_Statelet:0 "The Quiet Statelet"
+  RWE_ILL_Quiet_Statelet_desc:0 "The Federation of Illinois and Missouri, more commonly known as the Federation of Illinois or the Midwest Republic, is one of the more stable American statelets born from the Collapse. Landlocked and caught between the dueling influences of the Commonwealth and Remnants, Illinois has instead adopted a policy of Switzerlandization, focusing on staunch armed neutrality.\n\nThough there remains some radicalism by way of the Illinois branch of the IWW and the White Pheonix, by and large Illinois remains the quietest nation in the region, with an entrenched political establishment and a history of uninterrupted democracy."
+  RWE_ILL_Rust_Republic:0 "A Republic of Rust"
+  RWE_ILL_Rust_Republic_desc:0 "Illinois is a nation deeply influenced by geography. With Chicago joining the Commonwealth after the collapse, the nation lost a vital industrial heartland from which it never quite recovered. Ruling the remnant of the rust belt gave the country a preexisting industrial foundation, but paradoxically no one to sell to. Trade with the Commonwealth is limited due to the status of Chicago, and relations with the Remnants remain strained by their unwillingness to recognize the Federation. This leaves the Midwest as the country's main source of export, a one-sided relationship at best. While the pinch isn't quite so acute as to be catastrophic, unemployment remains a perpetual ballot box problem."
+  RWE_ILL_Midwest_Influence:0 "Midwestern Influence"
+  RWE_ILL_Midwest_Influence_desc:0 "Due to the trade relationship with the Midwest, Illinois is heavily affected by Denver businesses and politics. While this has lead to a positive business relationship in some areas, helping to keep some of the country's factories afloat, it also comes with certain problems. The rural voters care little for the beliefs of the Denver government, and care even less for their claims as a legitimate successor to the United States.\n\nMore importantly however is that the pervasive influence of the Midwest government permeates all levels of government, and if our foreign policy deviates too far, many fear that the Midwest might do more than grease a few palms to get their way."
 
   ##########################
   # EVENTS

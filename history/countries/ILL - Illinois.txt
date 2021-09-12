@@ -9,6 +9,8 @@ set_war_support = 0.1
 
 add_ideas = {
 	RWE_ILL_Quiet_Statelet
+	RWE_ILL_Rust_Republic
+	RWE_ILL_Midwest_Influence
 	idea_america_neutrality_statelet
 }
 
