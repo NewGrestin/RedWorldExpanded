@@ -51,12 +51,9 @@ news_event = {	#Le Pen elected G-S
 	desc = newsrw.3.d
 	picture = fra_le_pen_elected
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
-	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
+
 	
 	option = {
 		name = newsrw.3.a
@@ -75,12 +72,9 @@ news_event = {	#Lionel Jospin elected G-S
 	desc = newsrw.4.d
 	picture = fra_lionel_jospin_elected
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
-	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
+
 	
 	option = {
 		name = newsrw.4.a
@@ -99,12 +93,9 @@ news_event = {	#Cécile Duflot elected G-S
 	desc = newsrw.5.d
 	picture = fra_duflot_elected
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
 	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
 	
 	option = {
 		name = newsrw.5.a
@@ -123,13 +114,9 @@ news_event = {	#Jean Luc Mélechon
 	desc = newsrw.6.d
 	picture = fra_melechon_elected
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
-	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
-	
+
 	option = {
 		name = newsrw.6.a
 		trigger = { tag = FRA }
@@ -147,12 +134,8 @@ news_event = {	#Hyaric
 	desc = newsrw.7.d
 	picture = fra_hyaric_elected
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
-	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
 	
 	option = {
 		name = newsrw.7.a
@@ -171,12 +154,8 @@ news_event = {	#Gremetz elected
 	desc = newsrw.8.d
 	picture = fra_gremetz_elected
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
-	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
 	
 	option = {
 		name = newsrw.8.a
@@ -195,12 +174,8 @@ news_event = {	#Failed Coup shakes France
 	desc = newsrw.9.d
 	picture = fra_coup
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
-	
-	trigger = {
-	FRA = { has_country_flag = }
-	}
 	
 	option = {
 		name = newsrw.9.a
