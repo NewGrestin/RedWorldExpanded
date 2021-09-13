@@ -1,0 +1,32 @@
+﻿l_english:
+
+  ##########################
+  # LEADER DESCRIPTIONS
+  ##########################
+  
+  POLITICS_JULIA_GILLARD_DESC:0 "Julia Gillard has been a controversial figure in Australian politics for years, consistently using outlandish statements on the campaign trail to garner unprecedented support within disillusioned voters. Formerly a member of the defunct People's Alternative, a revolutionary socialist party, Gillard has shifted further to the right in the past thirty years, joining Labor in 1989. She was first elected to the House of Representatives in 1998, becoming Shadow Agriculture Minister in 2001. By the time of the Liberal National Coalition's collapse in 2004, she had risen to the position of Deputy Leader, and upon Labor's landslide loss to the rapidly growing Australian Conservatives in 2007, she was selected to succeed her mentor John Brumby as party leader. In a snap 2009 election, Gillard claimed an unprecedented victory, being elected Prime Minister with an overwhelming majority of seats. However, in recent months her popularity has plunged due to a worsening economic crisis and a growing rift with the Governor General. Australia's first female Prime Minister will have to battle against all odds to maintain her position until the next federal election."
+
+  ##########################
+  # FOCUSES
+  ##########################
+
+
+  ##########################
+  # IDEAS
+  ##########################
+
+  RWE_AST_Memories_Of_1985:0 "Memories Of 1985"
+  RWE_AST_Memories_Of_1985_desc:0 "The Australian Civil War of 1985 marks the first ever instance of modern conflict on the continent of Oceania. Brothers, Fathers, and sons fought one another in a bloody civil war in the name of freedom and liberty, yet such definitions took rather different forms depending on who you asked. Your typical Australian would call "those bloody communists" guilty dead for causing the collapse of the Federal government but many would debate such a point. The younger generation, especially those who had family members that fought for the Australian Social Worker's Republic, have a keen interest in reviving the defeated and banned Australian Communist Party. Occasionally once a week a small gathering of 30 or so individuals will congregate around Parliament house demanding the unbanning of the ACP but unsurprisingly no one answers. It seems the revolution in the land down under is as good as dead, or so people think."
+
+  ##########################
+  # EVENTS
+  ##########################
+ 
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

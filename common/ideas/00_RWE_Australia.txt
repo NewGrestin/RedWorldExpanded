@@ -1,0 +1,29 @@
+##################
+# LIBYA IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_AST_Memories_Of_1985 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				war_support_factor = -0.3
+			}
+		}
+
+
+	}
+}
