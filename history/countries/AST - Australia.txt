@@ -12,14 +12,17 @@ oob = "AST_2000"
 
 set_research_slots = 4
 set_convoys = 500
-set_stability = 0.7
-set_war_support = 0.1
+set_stability = 0.5
+set_war_support = 0.3
 
 set_country_flag = was_in_british_empire
 
 
 add_ideas = {
 	RWE_AST_Memories_Of_1985
+	RWE_AST_Weak_Federal_Government
+	RWE_AST_ASIO
+    RWE_AST_Immigration
 }
 
 

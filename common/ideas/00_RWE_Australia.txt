@@ -24,6 +24,60 @@ ideas = {
 			}
 		}
 
+		RWE_AST_Weak_Federal_Government = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = -0.5
+			}
+		}
+
+		RWE_AST_ASIO = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		RWE_AST_Immigration = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				monthly_population = 0.30
+				stability_factor = 0.05
+			}
+		}
 
 	}
 }

@@ -1,10 +1,16 @@
 ﻿l_english:
 
+
+  ##########################
+  # COUNTRY DESCRIPTIONS
+  ##########################
+  AST_RED_WORLD_DESC:0 ""
+
   ##########################
   # LEADER DESCRIPTIONS
   ##########################
   
-  POLITICS_JULIA_GILLARD_DESC:0 "Julia Gillard has been a controversial figure in Australian politics for years, consistently using outlandish statements on the campaign trail to garner unprecedented support within disillusioned voters. Formerly a member of the defunct People's Alternative, a revolutionary socialist party, Gillard has shifted further to the right in the past thirty years, joining Labor in 1989. She was first elected to the House of Representatives in 1998, becoming Shadow Agriculture Minister in 2001. By the time of the Liberal National Coalition's collapse in 2004, she had risen to the position of Deputy Leader, and upon Labor's landslide loss to the rapidly growing Australian Conservatives in 2007, she was selected to succeed her mentor John Brumby as party leader. In a snap 2009 election, Gillard claimed an unprecedented victory, being elected Prime Minister with an overwhelming majority of seats. However, in recent months her popularity has plunged due to a worsening economic crisis and a growing rift with the Governor General. Australia's first female Prime Minister will have to battle against all odds to maintain her position until the next federal election."
+  POLITICS_JULIA_GILLARD_DESC:0 "Julia Gillard has been a controversial figure in Australian politics for years, consistently using outlandish statements on the campaign trail to garner unprecedented support within disillusioned voters. Formerly a member of the defunct People's Alternative, a revolutionary socialist party, Gillard has shifted further to the right in the past thirty years, joining Labor in 1989. She was first elected to the House of Representatives in 1998, becoming Shadow Agriculture Minister in 2001. By the time of the Liberal National Coalition's collapse in 2004, she had risen to the position of Deputy Leader, and upon Labor's landslide loss to the rapidly growing Australian Conservatives in 2007, she was selected to succeed her mentor John Brumby as party leader. However the 2010 election draws near and many question wether or not Gillard will be able to secure another three year term for the Australian Labour party."
 
   ##########################
   # FOCUSES
@@ -15,8 +21,14 @@
   # IDEAS
   ##########################
 
-  RWE_AST_Memories_Of_1985:0 "Memories Of 1985"
+  RWE_AST_Memories_Of_1985:0 "Memories of 1985"
   RWE_AST_Memories_Of_1985_desc:0 "The Australian Civil War of 1985 marks the first ever instance of modern conflict on the continent of Oceania. Brothers, Fathers, and sons fought one another in a bloody civil war in the name of freedom and liberty, yet such definitions took rather different forms depending on who you asked. Your typical Australian would call "those bloody communists" guilty dead for causing the collapse of the Federal government but many would debate such a point. The younger generation, especially those who had family members that fought for the Australian Social Worker's Republic, have a keen interest in reviving the defeated and banned Australian Communist Party. Occasionally once a week a small gathering of 30 or so individuals will congregate around Parliament house demanding the unbanning of the ACP but unsurprisingly no one answers. It seems the revolution in the land down under is as good as dead, or so people think."
+  RWE_AST_Weak_Federal_Government:0 "Weak Federal Government"
+  RWE_AST_Weak_Federal_Government_desc:0 "After the conclusion of the Australian Civil War Parliament remained merciful in its punishment towards those that served under the banner of the ACP. In fact some legslative changes that members of the ACP pushed for were implemented by the then Liberal government in the pursuit of amending the broken social climate that had taken over the country. The most drastic of these changes included greater state autonomy for the Commonwealth and the proclamation of an Australian republic; the outcome of which severly weakened Canberra's control over her Oceanic nation.  "
+  RWE_AST_ASIO:0 "The Australian Security Intelligence Organisation"
+  RWE_AST_ASIO_desc:0 "The Australian Security Intelligence Organisation or the ASIO was introduced to the Australian public in response to the worsening sitaution of the Middle East. The organisation has been responsible for numerous counter-terrorist activities and the slow but rather apparent militarization of the Australian Federal Police Force. In 2008 alone the ASIO accounted for more than 30% of the Federal police budget for the Australian Confederation and its presence in Australia's wider police society seems to only be on an incline. While there have been calls for the ASIO to be dissolved the typical Australian doesn't really care much for the organisation and its workings, after all if they had to choose between an all-out civil war or a minor armed police force presence within their cities, they would rather choose the latter."
+  RWE_AST_Immigration:0 "§gImmigration Level:§! §GVery Low§!"
+  RWE_AST_Immigration_desc:0 "Every week hundreds if not thousands of Refugees arrive on the Australian coasts from all walks of life, majority of which are either West-coast Americans or various Middle Eastern ethnicities all looking for a new place to call home."
 
   ##########################
   # EVENTS

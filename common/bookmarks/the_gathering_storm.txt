@@ -153,6 +153,19 @@ bookmarks = {
 
 			}			
 		}
+		"AST"={
+			minor = yes
+			history = "AST_RED_WORLD_DESC"
+			ideology = new_democrat
+			ideas={
+				RWE_AST_Memories_Of_1985
+	            RWE_AST_ASIO
+                RWE_AST_Immigration
+			}	
+            focuses = {
+
+			}			
+		}
 	
 
 

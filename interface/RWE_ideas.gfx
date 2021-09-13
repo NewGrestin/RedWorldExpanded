@@ -227,4 +227,16 @@ spriteTypes = {
 		name = "GFX_idea_RWE_AST_Memories_Of_1985"
 		texturefile = "gfx/interface/ideas/RWE_AST_Memories_Of_1985.dds"			
 	}
+	SpriteType = {
+		name = "GFX_idea_RWE_AST_Weak_Federal_Government"
+		texturefile = "gfx/interface/ideas/RWE_AST_Weak_Federal_Government.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_AST_ASIO"
+		texturefile = "gfx/interface/ideas/RWE_AST_ASIO.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_AST_Immigration"
+		texturefile = "gfx/interface/ideas/RWE_AST_Immigration.dds"			
+	}
 }

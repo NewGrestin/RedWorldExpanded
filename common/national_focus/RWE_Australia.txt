@@ -1,0 +1,30 @@
+focus_tree = {
+	id = australia_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = AST
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+
+	focus = {
+		id = AST_COCK
+		icon = GFX_goal_
+		available = { 
+		}
+		x = 5
+		y = 0
+
+		cost = 5
+
+
+		completion_reward = {
+		}
+	}
+
+	
+
