@@ -163,7 +163,9 @@ bookmarks = {
                 RWE_AST_Immigration
 			}	
             focuses = {
-
+				AST_2010_Election_Gillard
+				AST_2010_Election
+				AST_2010_Election_Abbott
 			}			
 		}
 	

@@ -837,3 +837,18 @@ spriteTypes = {
 		name = "GFX_goal_MOT_Unabomber"
 		texturefile = "gfx/interface/goals/MOT_Unabomber.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_2010_Election"
+		texturefile = "gfx/interface/goals/AST_2010_Election.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_Abbott_2010"
+		texturefile = "gfx/interface/goals/AST_Abbott_2010.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_Gillard_2010"
+		texturefile = "gfx/interface/goals/AST_Gillard_2010.dds"			
+	}

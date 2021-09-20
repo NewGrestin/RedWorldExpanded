@@ -12,8 +12,8 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = AST_COCK
-		icon = GFX_goal_
+		id = AST_2010_Election
+		icon = GFX_goal_AST_2010_Election
 		available = { 
 		}
 		x = 5
@@ -21,10 +21,51 @@ focus_tree = {
 
 		cost = 5
 
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = AST_2010_Election_Gillard
+		icon = GFX_goal_AST_Gillard_2010
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election 
+		}
+		relative_position_id = AST_2010_Election
+		mutually_exclusive = {
+			focus = AST_2010_Election_Abbott
+		}
+		x = -1
+		y = 1
+
+		cost = 5
 
 		completion_reward = {
 		}
 	}
 
+	focus = {
+		id = AST_2010_Election_Abbott
+		icon = GFX_goal_AST_Abbott_2010
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election 
+		}
+		relative_position_id = AST_2010_Election
+		mutually_exclusive = {
+			focus = AST_2010_Election_Gillard
+		}
+		x = 1
+		y = 1
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+	
 	
 
