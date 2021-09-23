@@ -258,6 +258,20 @@ news_event = {	#Retreat to Corsica
 	}
 }
 
+news_event = {	#Namibia Declares Independence
+	id = newsrw.13
+	title = newsrw.13.t
+	desc = newsrw.13.d
+	picture = RWE_Namibia_Independence_War
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.13.a
+	}
+}
+
 news_event = {	#WAF - May Day Coup succeeds
 	id = newsrw.13
 	title = newsrw.13.t
@@ -434,4 +448,18 @@ news_event = {	#WAF - Coup fails, much lost
 		trigger = { NOT = { tag = WAF } }
 	}
 
+}
+
+news_event = {	#Namibia Declares Independence
+	id = newsrw.21
+	title = newsrw.21.t
+	desc = newsrw.21.d
+	picture = RWE_Namibia_Independence_War
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.21.a
+	}
 }

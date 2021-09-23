@@ -6,6 +6,50 @@ ideas = {
 
 	country = {
 
+		RWE_PAL_Pluralist_Beacon = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_PAL_Pluralist_Beacon
+			
+			removal_cost = -1
+	
+			modifier = {
+				army_morale = 10
+				stability_factor = 0.15
+			}
+		}
+
+		RWE_PAL_IDF_Legacy = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_PAL_IDF_Legacy
+			
+			removal_cost = -1
+	
+			modifier = {
+				army_org = 10
+				dig_in_speed = 2
+				experience_gain_army = 0.15
+				heat_attrition = -0.25
+			}
+		}
+
 		RWE_PAL_Only_Sane_Man = {
 			
 			

@@ -6,6 +6,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "RWE_Namibia_Independence_War"
+		texturefile = "gfx/event_pictures/news_event/RWE_Namibia_Independence_War.dds"
+	}
+
+	spriteType = {
 		name = "TEX_Perot_Elected"
 		texturefile = "gfx/event_pictures/news_event/TEX_Perot_Elected.dds"
 	}

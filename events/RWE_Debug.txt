@@ -880,3 +880,44 @@ country_event = { #Super Event Test
         set_global_flag = GLOBAL_Mexican_Cartel_Unification_VISIBLE
     }
 }
+
+country_event = { #Great African War Test
+	id = debug.11
+	title = debug.11.t
+	desc = debug.11.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = debug.11.o1
+		ai_chance = {
+			factor = 100
+		}
+
+		SAF = {
+			release = NAM
+			create_faction = Anti_Communist_African_Defense_Committee
+
+			add_to_faction = BOT
+			add_to_faction = RWA
+			add_to_faction = TNZ
+			add_to_faction = MAD
+			add_to_faction = CAF
+		}
+
+		NAM = {
+			set_cosmetic_tag = NAM_Independence_War
+			create_faction = UAFC
+
+			add_to_faction = ANG
+			add_to_faction = ZIM
+			add_to_faction = MZB
+			add_to_faction = ZAM
+			add_to_faction = DRC
+
+		} 
+    }
+}

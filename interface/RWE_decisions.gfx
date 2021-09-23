@@ -33,4 +33,14 @@ spriteTypes = {
 		name = "GFX_decision_cat_WAF_Foreign_Policy"
 		texturefile = "gfx/interface/decisions/decision_cat_WAF_Foreign_Policy.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_Days_of_Rage_Picture"
+		texturefile = "gfx/interface/decisions/decision_cat_Days_of_Rage_Picture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_RWE_Days_of_Rage"
+		texturefile = "gfx/interface/decisions/decision_category_RWE_Days_of_Rage.dds"
+	}
 }

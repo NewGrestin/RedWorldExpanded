@@ -1,0 +1,22 @@
+RWE_Days_of_Rage = {
+
+	RWE_DOR_Test = {
+
+		icon = generic_decision
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			always = yes
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+		
+		}
+	}

@@ -1500,8 +1500,8 @@ ERI = {
 }
 
 NAM = {
-	color = rgb { 143 151 149 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 109 194 146 }
+	color_ui = rgb { 109 194 146 }
 }
 
 LES = {

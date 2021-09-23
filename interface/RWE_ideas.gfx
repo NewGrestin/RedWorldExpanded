@@ -176,8 +176,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/RWE_IRQ_Kuwaiti_Occupation.dds"			
 	}
 	SpriteType = {
+		name = "GFX_idea_RWE_PAL_Pluralist_Beacon"
+		texturefile = "gfx/interface/ideas/RWE_PAL_Pluralist_Beacon.dds"			
+	}
+	SpriteType = {
 		name = "GFX_idea_RWE_PAL_Only_Sane_Man"
 		texturefile = "gfx/interface/ideas/RWE_PAL_Only_Sane_Man.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_PAL_IDF_Legacy"
+		texturefile = "gfx/interface/ideas/RWE_PAL_IDF_Legacy.dds"			
 	}
 	SpriteType = {
 		name = "GFX_idea_RWE_Refugee_Crisis"
@@ -237,6 +245,18 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_idea_RWE_AST_Immigration"
-		texturefile = "gfx/interface/ideas/RWE_AST_Immigration.dds"			
+		texturefile = "gfx/interface/ideas/RWE_AST_Immigration.dds"		
+	}
+	SpriteType = {	
+		name = "GFX_idea_RWE_Gulf_Coast_Alliance"
+		texturefile = "gfx/interface/ideas/RWE_Gulf_Coast_Alliance.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_Gulf_Coast_Alliance_Leader"
+		texturefile = "gfx/interface/ideas/RWE_Gulf_Coast_Alliance_Leader.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_Taliban_Insurgency"
+		texturefile = "gfx/interface/ideas/RWE_Taliban_Insurgency.dds"			
 	}
 }

@@ -1,0 +1,103 @@
+##################
+# PALESTINE IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_Gulf_Coast_Alliance = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				OR = {
+					ROOT = {
+						is_puppet = yes
+						is_subject = yes
+					}
+				}
+			}
+
+            picture = RWE_Gulf_Coast_Alliance
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = 0.05
+				defensive_war_stability_factor = 0.15
+				army_core_defence_factor = 0.1
+			}
+
+			targeted_modifier = {
+				tag = IRQ
+				defense_bonus_against = 0.15
+			}
+		}
+
+		RWE_Gulf_Coast_Alliance_Leader = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				OR = {
+					ROOT = {
+						is_puppet = yes
+						is_subject = yes
+					}
+				}
+			}
+
+            picture = RWE_Gulf_Coast_Alliance_Leader
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = 0.1
+				defensive_war_stability_factor = 0.15
+				army_core_defence_factor = 0.1
+			}
+
+			targeted_modifier = {
+				tag = IRQ
+				defense_bonus_against = 0.15
+			}
+		}
+
+		RWE_Taliban_Insurgency = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Taliban_Insurgency
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				fascist_drift = 0.03
+				weekly_manpower = -250 
+			}
+		}
+	}
+}

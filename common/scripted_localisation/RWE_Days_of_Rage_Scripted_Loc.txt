@@ -1,0 +1,733 @@
+defined_text = { #Libya Status
+    name = get_libya_status
+
+    text = { #GADAFFI REGIME IN POWER
+        trigger = {
+            LBA = {
+                exists = yes
+                NOT = {
+                    has_idea = idea_libyan_civil_war
+                }
+            }
+            GNS = {
+                exists = no
+            }
+            ISL = {
+                exists = no
+            }
+            RAL = {
+                exists = no
+            }
+            FAL = {
+                exists = no
+            }
+            ACS = {
+                exists = no
+            }
+        }
+        localization_key = LBA_Gadaffi_in_Control
+    }
+
+    text = { #DEMOCRATIC REGIME IN POWER
+        trigger = {
+            GNS = {
+                exists = yes
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }
+                NOT = {
+                    has_idea = idea_libyan_civil_war
+                }
+            }
+            LBA = {
+                exists = no
+            }
+            ISL = {
+                exists = no
+            }
+            RAL = {
+                exists = no
+            }
+            FAL = {
+                exists = no
+            }
+            ACS = {
+                exists = no
+            }
+        }
+        localization_key = LBA_Democrats_in_Control
+    }
+
+    text = { #ISLAMIST REGIME IN POWER
+        trigger = {
+            ISL = {
+                exists = yes
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }
+                NOT = {
+                    has_idea = idea_libyan_civil_war
+                }
+            }
+            LBA = {
+                exists = no
+            }
+            GNS = {
+                exists = no
+            }
+            RAL = {
+                exists = no
+            }
+            FAL = {
+                exists = no
+            }
+            ACS = {
+                exists = no
+            }
+        }
+        localization_key = LBA_Islamists_in_Control
+    }
+
+    text = { #COMMUNIST REGIME IN POWER
+        trigger = {
+            RAL = {
+                exists = yes
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }
+                NOT = {
+                    has_idea = idea_libyan_civil_war
+                }
+            }
+            LBA = {
+                exists = no
+            }
+            GNS = {
+                exists = no
+            }
+            ISL = {
+                exists = no
+            }
+            FAL = {
+                exists = no
+            }
+            ACS = {
+                exists = no
+            }
+        }
+        localization_key = LBA_Communist_in_Control
+    }
+
+    text = { #NATIONALIST REGIME IN POWER
+        trigger = {
+            FAL = {
+                exists = yes
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }
+                NOT = {
+                    has_idea = idea_libyan_civil_war
+                }
+            }
+            LBA = {
+                exists = no
+            }
+            GNS = {
+                exists = no
+            }
+            ISL = {
+                exists = no
+            }
+            RAL = {
+                exists = no
+            }
+            ACS = {
+                exists = no
+            }
+        }
+        localization_key = LBA_Nationalist_in_Control
+    }
+
+    text = { #SOCIALIST REGIME IN POWER
+        trigger = {
+            ACS = {
+                exists = yes
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }
+                NOT = {
+                    has_idea = idea_libyan_civil_war
+                }
+            }
+            LBA = {
+                exists = no
+            }
+            GNS = {
+                exists = no
+            }
+            ISL = {
+                exists = no
+            }
+            RAL = {
+                exists = no
+            }
+            FAL = {
+                exists = no
+            }
+        }
+        localization_key = LBA_Socialists_in_Control
+    }
+ 
+    text = { #ONGOING CIVIL WAR
+        trigger = {
+            OR = {
+                LBA = {
+                    OR = {
+                        has_war_with = GNS
+                        has_war_with = ISL
+                        has_war_with = RAL
+                        has_war_with = FAL
+                        has_war_with = ACS
+                    }
+                }
+                GNS = {
+                    OR = {
+                        has_war_with = LBA
+                        has_war_with = ISL
+                        has_war_with = RAL
+                        has_war_with = FAL
+                        has_war_with = ACS
+                    }
+                }
+                ISL = {
+                    OR = {
+                        has_war_with = LBA
+                        has_war_with = GNS
+                        has_war_with = RAL
+                        has_war_with = FAL
+                        has_war_with = ACS
+                    }
+                }
+                RAL = {
+                    OR = {
+                        has_war_with = LBA
+                        has_war_with = GNS
+                        has_war_with = ISL
+                        has_war_with = FAL
+                        has_war_with = ACS
+                    }
+                }
+                FAL = {
+                    OR = {
+                        has_war_with = LBA
+                        has_war_with = GNS
+                        has_war_with = ISL
+                        has_war_with = RAL
+                        has_war_with = ACS
+                    }
+                }
+                ACS = {
+                    OR = {
+                        has_war_with = LBA
+                        has_war_with = GNS
+                        has_war_with = ISL
+                        has_war_with = RAL
+                        has_war_with = FAL
+                    }
+                }
+            }
+        }
+        localization_key = LBA_Civil_War_Ongoing
+    }
+
+    text = { #GADAFFI REGIME IN POWER
+        trigger = {
+            AND = {
+                LBA = {
+                    OR = {
+                        exists = no
+                        is_puppet = yes
+                        is_subject = yes
+                    }
+                }
+                GNS = {
+                    OR = {
+                        exists = no
+                        is_puppet = yes
+                        is_subject = yes
+                    }
+                }
+                ISL = {
+                    OR = {
+                        exists = no
+                        is_puppet = yes
+                        is_subject = yes
+                    }
+                }
+                RAL = {
+                    OR = {
+                        exists = no
+                        is_puppet = yes
+                        is_subject = yes
+                    }
+                }
+                FAL = {
+                    OR = {
+                        exists = no
+                        is_puppet = yes
+                        is_subject = yes
+                    }
+                }
+                ACS = {
+                    OR = {
+                        exists = no
+                        is_puppet = yes
+                        is_subject = yes
+                    }
+                }
+            }
+        }
+        localization_key = LBA_Conquered
+    }
+}
+
+defined_text = { #UAR Status
+    name = get_UAR_status
+
+    text = { #UAR Stable
+        trigger = {
+            UAR = {
+                exists = yes
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }
+                NOT = {
+                    has_war_with = SYR
+                }
+            }
+        }
+        localization_key = UAR_Stable_Unified
+    }
+
+    text = { #UAR at war
+        trigger = {
+            UAR = {
+                exists = yes
+                has_war_with = SYR
+            }
+        }
+        localization_key = UAR_Syria_War
+    }
+
+    text = { #UAR Dissolved
+        trigger = {
+            UAR = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = UAR_Dissolved
+    }
+}
+
+defined_text = { #Palestine Status
+    name = get_Palestine_status
+
+    text = { #Palestine Stable
+        trigger = {
+            PAL = {
+                NOT = {
+                    OR = {
+                        has_government = fascist
+                        has_government = nationalist
+                        has_government = monarchist
+                        has_government = national_bolshevik
+                        has_government = communist
+                    }
+                }
+            }
+        }
+        localization_key = PAL_Stable_Status
+    }
+
+    text = { #Palestine Nationalist
+        trigger = {
+            PAL = {
+                has_government = nationalist
+            }
+        }
+        localization_key = PAL_Nationalist_Status
+    }
+
+    text = { #Palestine Baathist
+        trigger = {
+            PAL = {
+                has_government = national_bolshevik
+            }
+        }
+        localization_key = PAL_Baathist_Status
+    }
+
+    text = { #Palestine Communist
+        trigger = {
+            PAL = {
+                has_government = communist
+            }
+        }
+        localization_key = PAL_Communist_Status
+    }
+
+    text = { #Palestine Conquered
+        trigger = {
+            PAL = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = PAL_Conquered
+    }
+}
+
+defined_text = { #Iraq Status
+    name = get_Iraq_status
+
+    text = { #Iraq under Saddam
+        trigger = {
+            IRQ = {
+                has_country_leader = {
+                    name = "Saddam Hussein"
+                    ruling_only = yes
+                }              
+            }
+        }
+        localization_key = IRQ_Saddam_in_Power
+    }
+
+    text = { #Iraq under Izzat
+        trigger = {
+            IRQ = {
+                has_government = national_bolshevik          
+            }
+        }
+        localization_key = IRQ_Izzat_in_Power
+    }
+
+    text = { #Iraq under Islamists
+        trigger = {
+            IRQ = {
+                has_government = fascist          
+            }
+        }
+        localization_key = IRQ_Islamists_in_Power
+    }
+
+    text = { #Iraq under Democrats
+        trigger = {
+            IRQ = {
+                NOT = {
+                    OR = {
+                        has_government = fascist
+                        has_government = nationalist
+                        has_government = monarchist
+                        has_government = national_bolshevik
+                        has_government = communist
+                    }
+                }      
+            }
+        }
+        localization_key = IRQ_Democrats_in_Power
+    }
+
+    text = { #Iraq Conquered
+        trigger = {
+            IRQ = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = IRQ_Conquered
+    }
+}
+
+defined_text = { #Lebanon Status
+    name = get_Lebanon_status
+
+    text = { #Military Government in Power
+        trigger = {
+            LEB = {
+                has_government = nationalist 
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }           
+            }
+        }
+        localization_key = LEB_Army_in_Power
+    }
+
+    text = { #Military Government in Power
+        trigger = {
+            LEB = {
+                NOT = {
+                    has_government = nationalist 
+                }       
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }     
+            }
+        }
+        localization_key = LEB_Army_Not_in_Power
+    }
+
+    text = { #Lebanon Conquered
+        trigger = {
+            LEB = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = LEB_Conquered
+    }
+}
+
+defined_text = { #Jordan Status
+    name = get_Jordan_status
+
+    text = { #Democratic Government in Power
+        trigger = {
+            JOR = {
+                NOT = {
+                    OR = {
+                        has_government = fascist
+                        has_government = national_bolshevik
+                        has_government = communist
+                    }
+                } 
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }         
+            }
+        }
+        localization_key = JOR_Democratic_Status
+    }
+
+    text = { #Jordan - Baathists
+        trigger = {
+            JOR = {
+                has_government = national_bolshevik
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }           
+            }
+        }
+        localization_key = JOR_Baathist_Status
+    }
+
+    text = { #Jordan - Islamists
+        trigger = {
+            JOR = {
+                has_government = fascist
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }         
+            }
+        }
+        localization_key = JOR_Islamist_Status
+    }
+
+    text = { #Jordan - Communist
+        trigger = {
+            JOR = {
+                has_government = communist   
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }        
+            }
+        }
+        localization_key = JOR_Communist_Status
+    }
+
+    text = { #Jordan Conquered
+        trigger = {
+            JOR = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = JOR_Conquered
+    }
+}
+
+defined_text = { #Saudi Status
+    name = get_Saudi_status
+
+    text = { #Monarchy in control
+        trigger = {
+            SAU = {
+                has_government = monarchist
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }          
+            }
+        }
+        localization_key = SAU_Monarchy_Status
+    }
+
+    text = { #Monarchy not in control
+        trigger = {
+            SAU = {
+                NOT = {
+                    has_government = monarchist
+                }
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }          
+            }
+        }
+        localization_key = SAU_Monarchy_Status_Fallen
+    }
+
+    text = { #Saudi Conquered
+        trigger = {
+            SAU = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = SAU_Conquered
+    }
+}
+
+defined_text = { #Oman Status
+    name = get_Oman_status
+
+    text = { #Monarchy in control
+        trigger = {
+            OMA = {
+                has_government = monarchist
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }          
+            }
+        }
+        localization_key = OMA_Monarchy_Status
+    }
+
+    text = { #Monarchy not in control
+        trigger = {
+            OMA = {
+                NOT = {
+                    has_government = monarchist
+                }
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }          
+            }
+        }
+        localization_key = OMA_Monarchy_Status_Fallen
+    }
+
+    text = { #Oman Conquered
+        trigger = {
+            OMA = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = OMA_Conquered
+    }
+}
+
+defined_text = { #Syria Status
+    name = get_Syria_status
+
+    text = { #Ba'athists in control
+        trigger = {
+            SYR = {
+                has_government = national_bolshevik
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }          
+            }
+        }
+        localization_key = SYR_Cant_Mossad_Assad
+    }
+
+    text = { #Ba'athists not in control
+        trigger = {
+            SYR = {
+                NOT = {
+                    has_government = national_bolshevik
+                }
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }          
+            }
+        }
+        localization_key = SYR_Mossaded_Assad
+    }
+
+    text = { #Independence War
+        trigger = {
+            SYR = {
+                has_war_with = UAR
+                OR = {
+                    is_puppet = no
+                    is_subject = no
+                }          
+            }
+        }
+        localization_key = SYR_Independence_War
+    }
+
+    text = { #Syria Conquered
+        trigger = {
+            SYR = {
+                OR = {
+                    exists = no
+                    is_puppet = yes
+                    is_subject = yes
+                }
+            }
+        }
+        localization_key = SYR_Conquered
+    }
+}

@@ -34,3 +34,15 @@ RWE_2nd_Mexican_American_War = {
 
 	priority = 250
 }
+
+RWE_Days_of_Rage = {
+    icon = RWE_Days_of_Rage
+
+	picture = GFX_decision_cat_Days_of_Rage_Picture
+
+	allowed = { 
+		always = yes
+	}
+
+	priority = 250
+}

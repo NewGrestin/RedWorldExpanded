@@ -850,5 +850,95 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_AST_Gillard_2010"
-		texturefile = "gfx/interface/goals/AST_Gillard_2010.dds"			
+		texturefile = "gfx/interface/goals/AST_Gillard_2010.dds"		
+	}
+	
+	SpriteType = {	
+		name = "GFX_goal_IRQ_Initial_Focus"
+		texturefile = "gfx/interface/goals/IRQ_Initial_Focus.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_War_Plan_A"
+		texturefile = "gfx/interface/goals/IRQ_War_Plan_A.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_War_Plan_B"
+		texturefile = "gfx/interface/goals/IRQ_War_Plan_B.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_War_Plan_C"
+		texturefile = "gfx/interface/goals/IRQ_War_Plan_C.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Greater_Ambitions"
+		texturefile = "gfx/interface/goals/IRQ_Greater_Ambitions.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Approach_Turkey"
+		texturefile = "gfx/interface/goals/IRQ_Approach_Turkey.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Go_It_Alone"
+		texturefile = "gfx/interface/goals/IRQ_Go_It_Alone.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Mobilize_Intel"
+		texturefile = "gfx/interface/goals/IRQ_Mobilize_Intel.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Resettlement"
+		texturefile = "gfx/interface/goals/IRQ_Resettlement.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Strike_Kurdistan"
+		texturefile = "gfx/interface/goals/IRQ_Strike_Kurdistan.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_End_Kuwait_Resistance"
+		texturefile = "gfx/interface/goals/IRQ_End_Kuwait_Resistance.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Exploit_Qatif"
+		texturefile = "gfx/interface/goals/IRQ_Exploit_Qatif.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Contact_Omani_Communists"
+		texturefile = "gfx/interface/goals/IRQ_Contact_Omani_Communists.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Contact_Yemen"
+		texturefile = "gfx/interface/goals/IRQ_Contact_Yemen.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Strike_South"
+		texturefile = "gfx/interface/goals/IRQ_Strike_South.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Exploit_South"
+		texturefile = "gfx/interface/goals/IRQ_Exploit_South.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Meeting_General_Staff"
+		texturefile = "gfx/interface/goals/IRQ_Meeting_General_Staff.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Initiate_Desert_Storm"
+		texturefile = "gfx/interface/goals/IRQ_Initiate_Desert_Storm.dds"			
 	}

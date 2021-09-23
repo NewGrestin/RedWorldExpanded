@@ -1,0 +1,1581 @@
+focus_tree = {
+	id = iraq_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = IRQ
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2225 }
+	default = no
+
+	focus = {
+		id = IRQ_Initial_Focus
+		icon = GFX_goal_IRQ_Initial_Focus
+		x = 6
+		y = 0
+
+		cost = 3
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_2010_Affairs
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 6
+		y = 1
+
+		prerequisite = {
+			focus = IRQ_Initial_Focus
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 4
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Continue_Faith_Campaign
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 3
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_2010_Affairs
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_End_Faith_Campaign
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_End_Faith_Campaign
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 5
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_2010_Affairs
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Continue_Faith_Campaign
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Revive_NPF
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 7
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_2010_Affairs
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Purge_ICP
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Purge_ICP
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 9
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_2010_Affairs
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Revive_NPF
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Reaffirm_Soviet_Relations
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 4
+		y = 3
+
+		prerequisite = {
+			focus = IRQ_Continue_Faith_Campaign
+			focus = IRQ_End_Faith_Campaign
+		}
+
+		prerequisite = {
+			focus = IRQ_Revive_NPF
+			focus = IRQ_Purge_ICP
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_New_Five_Year_Plan
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 6
+		y = 3
+
+		prerequisite = {
+			focus = IRQ_Continue_Faith_Campaign
+			focus = IRQ_End_Faith_Campaign
+		}
+
+		prerequisite = {
+			focus = IRQ_Revive_NPF
+			focus = IRQ_Purge_ICP
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Kurdish_Terror
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 8
+		y = 3
+
+		prerequisite = {
+			focus = IRQ_Continue_Faith_Campaign
+			focus = IRQ_End_Faith_Campaign
+		}
+
+		prerequisite = {
+			focus = IRQ_Revive_NPF
+			focus = IRQ_Purge_ICP
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Arab_Spring
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 6
+		y = 4
+
+		prerequisite = {
+			focus = IRQ_Reaffirm_Soviet_Relations
+		}
+
+		prerequisite = {
+			focus = IRQ_New_Five_Year_Plan
+		}
+
+		prerequisite = {
+			focus = IRQ_Kurdish_Terror
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Crush_Students
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 2
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Arab_Spring
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 7
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Crush_Communists
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 4
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Arab_Spring
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 7
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Crush_Kurds
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 6
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Arab_Spring
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 7
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Purge_Party
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 8
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Arab_Spring
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 7
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Liquidate_Resistance
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 10
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Arab_Spring
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 7
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Saddam_Consolidated
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 6
+		y = 6
+
+		prerequisite = {
+			focus = IRQ_Crush_Students
+		}
+
+		prerequisite = {
+			focus = IRQ_Crush_Communists
+		}
+
+		prerequisite = {
+			focus = IRQ_Crush_Students
+		}
+
+		prerequisite = {
+			focus = IRQ_Crush_Kurds
+		}
+
+		prerequisite = {
+			focus = IRQ_Purge_Party
+		}
+
+		prerequisite = {
+			focus = IRQ_Liquidate_Resistance
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Greater_Ambitions
+		icon = GFX_goal_IRQ_Greater_Ambitions
+		x = 6
+		y = 7
+
+		prerequisite = {
+			focus = IRQ_Saddam_Consolidated
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_War_Plan_A
+		icon = GFX_goal_IRQ_War_Plan_A
+		x = 1
+		y = 8
+
+		prerequisite = {
+			focus = IRQ_Greater_Ambitions
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_War_Plan_B
+		icon = GFX_goal_IRQ_War_Plan_C
+		x = 6
+		y = 8
+
+		prerequisite = {
+			focus = IRQ_Greater_Ambitions
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_War_Plan_C
+		icon = GFX_goal_IRQ_War_Plan_B
+		x = 11
+		y = 8
+
+		prerequisite = {
+			focus = IRQ_Greater_Ambitions
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Approach_Turkey
+		icon = GFX_goal_IRQ_Approach_Turkey
+		x = 0
+		y = 9
+
+		prerequisite = {
+			focus = IRQ_War_Plan_A
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Go_It_Alone
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Go_It_Alone
+		icon = GFX_goal_IRQ_Go_It_Alone
+		x = 2
+		y = 9
+
+		prerequisite = {
+			focus = IRQ_War_Plan_A
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Approach_Turkey
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Mobilize_Intel
+		icon = GFX_goal_IRQ_Mobilize_Intel
+		x = 0
+		y = 10
+
+		prerequisite = {
+			focus = IRQ_Approach_Turkey
+			focus = IRQ_Go_It_Alone
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Resettlement
+		icon = GFX_goal_IRQ_Resettlement
+		x = 2
+		y = 10
+
+		prerequisite = {
+			focus = IRQ_Approach_Turkey
+			focus = IRQ_Go_It_Alone
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Strike_Kurdistan
+		icon = GFX_goal_IRQ_Strike_Kurdistan
+		x = 1
+		y = 11
+
+		prerequisite = {
+			focus = IRQ_Mobilize_Intel
+		}
+
+		prerequisite = {
+			focus = IRQ_Resettlement
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_End_Kuwait_Resistance
+		icon = GFX_goal_IRQ_End_Kuwait_Resistance
+		x = 10
+		y = 9
+
+		prerequisite = {
+			focus = IRQ_War_Plan_C
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Exploit_Qatif
+		icon = GFX_goal_IRQ_Exploit_Qatif
+		x = 12
+		y = 9
+
+		prerequisite = {
+			focus = IRQ_War_Plan_C
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Contact_Omani_Communists
+		icon = GFX_goal_IRQ_Contact_Omani_Communists
+		x = 10
+		y = 10
+
+		prerequisite = {
+			focus = IRQ_Exploit_Qatif
+		}
+
+		prerequisite = {
+			focus = IRQ_End_Kuwait_Resistance
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Contact_Yemen
+		icon = GFX_goal_IRQ_Contact_Yemen
+		x = 12
+		y = 10
+
+		prerequisite = {
+			focus = IRQ_Exploit_Qatif
+		}
+
+		prerequisite = {
+			focus = IRQ_Desert_Warfare
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Strike_South
+		icon = GFX_goal_IRQ_Strike_South
+		x = 11
+		y = 11
+
+		prerequisite = {
+			focus = IRQ_Contact_Omani_Communists
+		}
+
+		prerequisite = {
+			focus = IRQ_Contact_Yemen
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Mass_Recruitment
+		icon = army_reform
+		x = 5
+		y = 9
+
+		prerequisite = {
+			focus = IRQ_War_Plan_B
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Exploit_South
+		icon = GFX_goal_IRQ_Exploit_South
+		x = 7
+		y = 9
+
+		prerequisite = {
+			focus = IRQ_War_Plan_B
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Military_Buildup
+		icon = industry_2
+		x = 4
+		y = 10
+
+		prerequisite = {
+			focus = IRQ_Mass_Recruitment
+		}
+
+		prerequisite = {
+			focus = IRQ_Exploit_South
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Mobilize_Workforce
+		icon = GFX_goal_Focus_Import_Economy
+		x = 6
+		y = 10
+
+		prerequisite = {
+			focus = IRQ_Mass_Recruitment
+		}
+
+		prerequisite = {
+			focus = IRQ_Exploit_South
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Meeting_General_Staff
+		icon = GFX_goal_IRQ_Meeting_General_Staff
+		x = 8
+		y = 10
+
+		prerequisite = {
+			focus = IRQ_Mass_Recruitment
+		}
+
+		prerequisite = {
+			focus = IRQ_Exploit_South
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Initiate_Desert_Storm
+		icon = GFX_goal_IRQ_Initiate_Desert_Storm
+		x = 6
+		y = 11
+
+		prerequisite = {
+			focus = IRQ_Military_Buildup
+		}
+
+		prerequisite = {
+			focus = IRQ_Mobilize_Workforce
+		}
+
+		prerequisite = {
+			focus = IRQ_Meeting_General_Staff
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_New_Babylon
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 6
+		y = 12
+
+		prerequisite = {
+			focus = IRQ_Strike_Kurdistan
+		}
+
+		prerequisite = {
+			focus = IRQ_Strike_South
+		}
+
+		prerequisite = {
+			focus = IRQ_Initiate_Desert_Storm
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Consolidation
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 2
+		y = 13
+
+		prerequisite = {
+			focus = IRQ_New_Babylon
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Purge_Uday
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 6
+		y = 13
+
+		prerequisite = {
+			focus = IRQ_New_Babylon
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_New_Baathism
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 10
+		y = 13
+
+		prerequisite = {
+			focus = IRQ_New_Babylon
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Claim_Khuzestan
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 0
+		y = 14
+
+		prerequisite = {
+			focus = IRQ_Consolidation
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Claim_Hatay
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 2
+		y = 14
+
+		prerequisite = {
+			focus = IRQ_Consolidation
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Fortify_Iranian_Border
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 1
+		y = 15
+
+		prerequisite = {
+			focus = IRQ_Claim_Khuzestan
+		}
+
+		prerequisite = {
+			focus = IRQ_Claim_Hatay
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Invade_Iran
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 0
+		y = 16
+
+		prerequisite = {
+			focus = IRQ_Fortify_Iranian_Border
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Invade_Turkey
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 2
+		y = 16
+
+		prerequisite = {
+			focus = IRQ_Fortify_Iranian_Border
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 8
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Qusay_Successor
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 5
+		y = 14
+
+		prerequisite = {
+			focus = IRQ_Purge_Uday
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Raghad_Successor
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Raghad_Successor
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 7
+		y = 14
+
+		prerequisite = {
+			focus = IRQ_Purge_Uday
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Qusay_Successor
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Maintain_Course
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 5
+		y = 15
+
+		prerequisite = {
+			focus = IRQ_Qusay_Successor
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Republican_Guard_Dominance
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 3
+		y = 15
+
+		prerequisite = {
+			focus = IRQ_Qusay_Successor
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_A_Worthy_Arabia
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 4
+		y = 16
+
+		prerequisite = {
+			focus = IRQ_Maintain_Course
+		}
+
+		prerequisite = {
+			focus = IRQ_Republican_Guard_Dominance
+		}
+
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Loosen_Restrictions
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 7
+		y = 15
+
+		prerequisite = {
+			focus = IRQ_Raghad_Successor
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Womens_Rights
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 9
+		y = 15
+
+		prerequisite = {
+			focus = IRQ_Raghad_Successor
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_A_Rightful_Arabia
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 8
+		y = 16
+
+		prerequisite = {
+			focus = IRQ_Loosen_Restrictions
+		}
+
+		prerequisite = {
+			focus = IRQ_Womens_Rights
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Reinforce_Secularism
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 10
+		y = 14
+
+		prerequisite = {
+			focus = IRQ_New_Baathism
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Religious_Autonomy
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Religious_Autonomy
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 12
+		y = 14
+
+		prerequisite = {
+			focus = IRQ_New_Baathism
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Reinforce_Secularism
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_One_Vote
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 11
+		y = 15
+
+		prerequisite = {
+			focus = IRQ_Reinforce_Secularism
+			focus = IRQ_Religious_Autonomy
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_PartY_Democracy
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_PartY_Democracy
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 13
+		y = 15
+
+		prerequisite = {
+			focus = IRQ_Reinforce_Secularism
+			focus = IRQ_Religious_Autonomy
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_One_Vote
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Better_than_Nasser
+		icon = GFX_goal_Generic_Work_In_Progress
+		x = 12
+		y = 16
+
+		prerequisite = {
+			focus = IRQ_One_Vote
+			focus = IRQ_PartY_Democracy
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_PartY_Democracy
+		}
+
+		available = {
+			has_country_leader = {
+				name = "Saddam Hussein"
+				ruling_only = yes
+			}
+		}
+
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baathist_Takeover
+		icon = focus_baath_victory
+		x = 16
+		y = 0
+
+		cost = 3
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
