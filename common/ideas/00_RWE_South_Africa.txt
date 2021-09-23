@@ -1,0 +1,95 @@
+##################
+# South African Ideas 
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_SAF_South_African_Apartheid = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_SAF_South_African_Apartheid 
+			
+			removal_cost = -1
+	
+			modifier = {
+				conscription = -0.65
+				stability_factor = -0.20
+			}
+		}
+		
+		RWE_SAF_Torchbearer_Against_Communism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_SAF_Torchbearer_Against_Communism
+			
+			removal_cost = -1
+	
+			modifier = {
+				drift_defence_factor = 0.45
+				communist_drift = -0.03
+				revolutionary_socialist_drift = -0.03
+
+			}
+		}
+		
+		RWE_SAF_Facing_the_Dark_Continent = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_SAF_Facing_the_Dark_Continent 
+			
+			removal_cost = -1
+	
+			modifier = {
+				army_org_factor = 0.025
+				army_core_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		
+		RWE_SAF_Under_The_Shield_Of_The_Atom = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_SAF_Under_The_Shield_Of_The_Atom
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+	}
+}

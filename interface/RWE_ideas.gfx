@@ -259,4 +259,20 @@ spriteTypes = {
 		name = "GFX_idea_RWE_Taliban_Insurgency"
 		texturefile = "gfx/interface/ideas/RWE_Taliban_Insurgency.dds"			
 	}
-}
+	SpriteType = {
+		name = "GFX_idea_RWE_SAF_South_African_Apartheid"
+		texturefile = "gfx/interface/ideas/RWE_SAF_South_African_Apartheid.png"	 		
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_SAF_Torchbearer_Against_Communism"
+		texturefile = "gfx/interface/ideas/RWE_SAF_Torchbearer_Against_Communism.png"	 		
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_SAF_Facing_the_Dark_Continent"
+		texturefile = "gfx/interface/ideas/RWE_SAF_Facing_the_Dark_Continent.png"	  		
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_SAF_Under_The_Shield_Of_The_Atom"
+		texturefile = "gfx/interface/ideas/RWE_SAF_Under_The_Shield_Of_The_Atom.png"	  		
+	}
+} 
