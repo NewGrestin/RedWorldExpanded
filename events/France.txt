@@ -41,6 +41,7 @@ create_country_leader = {
 	ideology = national_bolshevik_ideology 
 }
 set_country_flag = FRA_RESIGNATION
+complete_national_focus = FRA_SG_Resignation
 hidden_effect = { country_event = { id = france.3 days = 10 } 
 country_event = { id = france.17 days = 110 } 
 news_event = { id = newsrw.2 days = 1 } }
@@ -58,7 +59,7 @@ country_event = { #France declares Refugee Crisis
 	
 	trigger = {
         tag = FRA
-	has_global_flag = libyan_civil_war
+	ITA = { has_completed_focus = ITA_refugee_crisis }
 	}
 	
 	mean_time_to_happen = {
@@ -620,6 +621,28 @@ country_event = { #Election is held
 		set_politics = { ruling_party = national_bolshevik }
 		hidden_effect = { news_event = { id = newsrw.3 days = 0 } }
 	}
+}
+
+
+country_event = { #Frexit victory
+	id = france.18
+	title = france.18.t
+	desc = france.18.d
+	picture = FRA_Refugees
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #
+		name = france.18.a
+		
+		news_event = { id = newsrw.25 days = 0 } 
+	}
+
+
 }
 
 country_event = { #France falls apart

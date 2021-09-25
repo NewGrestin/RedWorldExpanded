@@ -11,7 +11,34 @@ spriteTypes = {
 		name = "GFX_goal_WAF_Rough_Diamond"
 		texturefile = "gfx/interface/goals/WAF_Rough_Diamond.tga"			
 	}
-
+	SpriteType = {
+		name = "GFX_goal_WAF_An_arab_among_africans"
+		texturefile = "gfx/interface/goals/WAF_An_arab_among_africans.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_WAF_strengthen_the_democratic_illusion"
+		texturefile = "gfx/interface/goals/WAF_strengthen_the_democratic_illusion.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_WAF_Nuclear"
+		texturefile = "gfx/interface/goals/WAF_Nuclear.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_WAF_Soviet_Imperialism"
+		texturefile = "gfx/interface/goals/WAF_Soviet_Imperialism.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_WAF_Keep_them_locked_up"
+		texturefile = "gfx/interface/goals/WAF_Keep_them_locked_up.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_WAF_Learn_from_Gaddafi1"
+		texturefile = "gfx/interface/goals/WAF_Learn_from_Gaddafi1.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_WAF_against_panarabism"
+		texturefile = "gfx/interface/goals/WAF_against_panarabism.tga"			
+	}
 	SpriteType = {
 		name = "GFX_goal_GRL_University_Marxism"
 		texturefile = "gfx/interface/goals/GRL_University_Marxism.tga"			

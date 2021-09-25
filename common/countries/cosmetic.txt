@@ -18,6 +18,11 @@ WAF_UNION = {
     color_ui = rgb { 99 150 99 }
 }
 
+WAF_TIT = {
+    color = rgb { 0 133 66 }
+    color_ui = rgb { 0 133 66 }
+}
+
 WAF_COLLAPSE = {
     color = rgb { 221 184 110 }
     color_ui = rgb { 221 184 110 }

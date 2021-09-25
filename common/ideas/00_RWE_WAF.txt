@@ -5,6 +5,8 @@
 ideas = {
 
 	country = {
+
+
 		RWE_WAF_Between_Two_Worlds = {
 			
 			
@@ -37,6 +39,27 @@ ideas = {
 			}
 		}
 
+		RWE_WAF_Between_Two_Worlds_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Between_Two_Worlds
+			
+			removal_cost = -1
+	
+			modifier = {
+			war_support_factor = 0.05
+			consumer_goods_factor = 0.05
+			}
+		}
+
 		RWE_WAF_Post_Coup_Aftermath = {
 			
 			
@@ -58,6 +81,146 @@ ideas = {
 			political_power_cost = 0.5
 			conscription_factor = -0.1
 			army_morale_factor = -0.1
+			}
+
+		}
+
+		RWE_WAF_Losing_Democratic_Legitimacy = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Between_Two_Worlds
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.1
+			stability_weekly = -0.001
+			fascist_drift = -0.03
+			nationalist_drift = -0.03
+			}
+		}
+
+		RWE_WAF_Losing_Democratic_Legitimacy_B1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Between_Two_Worlds
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.05
+			stability_weekly = -0.003
+			fascist_drift = -0.01
+			nationalist_drift = -0.01
+			}
+		}
+
+		RWE_WAF_Losing_Democratic_Legitimacy_A1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Between_Two_Worlds
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.05
+			stability_weekly = -0.001
+			fascist_drift = -0.03
+			nationalist_drift = -0.03
+			}
+		}
+
+		RWE_WAF_Losing_Democratic_Legitimacy_A2 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Between_Two_Worlds
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_weekly = -0.001
+			fascist_drift = -0.02
+			nationalist_drift = -0.02
+			liberal_drift = 0.01
+			}
+		}
+
+		RWE_WAF_Losing_Democratic_Legitimacy_A3 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Between_Two_Worlds
+			
+			removal_cost = -1
+	
+			modifier = {
+			fascist_drift = -0.01
+			nationalist_drift = -0.01
+			liberal_drift = 0.01
+			}
+		}
+
+		RWE_WAF_Post_Coup_Aftermath_1 = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = WAF_Post_Coup_Aftermath
+			
+			removal_cost = -1
+	
+			modifier = {
+			stability_factor = -0.35
+			war_support_factor = -0.35
+			political_power_cost = 1
+			conscription_factor = -0.1
+			army_morale_factor = -0.1
+			stability_weekly = -0.05
 			}
 
 		}

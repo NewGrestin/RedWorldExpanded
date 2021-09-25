@@ -53,6 +53,9 @@ country_event = {
 		add_popularity = { ideology = nationalist popularity = -0.3 }
 		set_politics = { ruling_party = fascist }
 		news_event = { id = newsrw.13 days = 0 }
+		country_event = { id = rw_waf.7 days = 5 }
+		remove_ideas = { RWE_WAF_Post_Coup_Aftermath }
+		set_country_flag = WAF_COUP_HAPPENED
 	}
 
 	option = { #Coup repelled, despite not knowing
@@ -69,6 +72,9 @@ country_event = {
 		add_popularity = { ideology = fascist popularity = -0.05 }
 		news_event = { id = newsrw.20 days = 0 }
 		hidden_effect = { country_event = { id = rw_waf.3 days = 5 } }
+		swap_ideas = { remove_idea = RWE_WAF_Post_Coup_Aftermath add_idea = RWE_WAF_Post_Coup_Aftermath_1 }
+		set_country_flag = WAF_COUP_HAPPENED
+		set_country_flag = WAF_BAD_NO_COUP
 	}
 
 	option = { #Coup reppeled with knowledge
@@ -84,6 +90,9 @@ country_event = {
 		add_manpower = -350
 		add_popularity = { ideology = fascist popularity = -0.2 }
 		news_event = { id = newsrw.14 days = 0 }
+		swap_ideas = { remove_idea = RWE_WAF_Post_Coup_Aftermath add_idea = RWE_WAF_Post_Coup_Aftermath_1 }
+		set_country_flag = WAF_COUP_HAPPENED
+		set_country_flag = WAF_GOOD_NO_COUP
 	}
 }
 
@@ -194,6 +203,250 @@ country_event = {
 
 }
 
+#Democratic Illusion has broken
+country_event = {
+	id = rw_waf.7
+	title = rw_waf.7.t
+	desc = rw_waf.7.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+	
+	option = { #An end to the conflict
+		name = rw_waf.7.a
+		add_ideas = { RWE_WAF_Losing_Democratic_Legitimacy }
+	}
+
+}
+
+#Announcing of the Next Election
+country_event = {
+	id = rw_waf.8
+	title = rw_waf.8.t
+	desc = rw_waf.8.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+	
+	option = { #An end to the conflict
+		name = rw_waf.8.a
+
+	}
+
+}
+
+#Learn from Gadaffi
+country_event = {
+	id = rw_waf.9
+	title = rw_waf.9.t
+	desc = rw_waf.9.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+	
+	option = { #An end to the conflict
+		name = rw_waf.9.a
+
+	}
+
+}
+
+#Red Cross helps Malian poor
+country_event = {
+	id = rw_waf.10
+	title = rw_waf.10.t
+	desc = rw_waf.10.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+	
+	option = { #An end to the conflict
+		name = rw_waf.10.a
+
+	}
+
+}
+
+#Anti-WAF coalition formalizes - Generic you fucked up, now suffer the consequences of being a pariah state
+country_event = {
+	id = rw_waf.11
+	title = rw_waf.11.t
+	desc = rw_waf.11.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+	
+	option = { #God, no 
+		name = rw_waf.11.a
+		news_event = { id = newsrw.22 days = 0 } 
+
+		NGR = { create_faction = "West African Containment Group" }
+
+		if = { 	
+		limit = { 
+		SEN = { exists = yes } 
+		SEN = { is_subject = no }
+		SEN = { is_in_faction = no }
+		}
+		NGR = { add_to_faction = SEN }
+		SEN = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+
+		if = { 
+		limit = { 
+		GBS = { exists = yes } 
+		GBS = { is_subject = no }
+		GBS = { is_in_faction = no }
+		}
+		NGR = { add_to_faction = GBS }
+		GBS = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+
+		if = { 
+		limit = { 
+		IVO = { exists = yes } 
+		IVO = { is_subject = no }
+		IVO = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = IVO }
+		IVO = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		LIB = { exists = yes } 
+		LIB = { is_subject = no }
+		LIB = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = LIB }
+		LIB = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		GAM = { exists = yes } 
+		GAM = { is_subject = no }
+		GAM = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = GAM }
+		GAM = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		GUI = { exists = yes } 
+		GUI = { is_subject = no }
+		GUI = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = GUI }
+		GUI = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		SIE = { exists = yes } 
+		SIE = { is_subject = no }
+		SIE = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = SIE }
+		SIE = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		GHA = { exists = yes } 
+		GHA = { is_subject = no }
+		GHA = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = GHA }
+		GHA = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		TOG = { exists = yes } 
+		TOG = { is_subject = no }
+		TOG = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = TOG }
+		TOG = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		BEN = { exists = yes } 
+		BEN = { is_subject = no }
+		BEN = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = BEN }
+		BEN = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		CAM = { exists = yes } 
+		CAM = { is_subject = no }
+		CAM = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = CAM }
+		CAM = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+
+		if = { 
+		limit = { 
+		CHD = { exists = yes } 
+		CHD = { is_subject = no }
+		CHD = { is_in_faction = no }
+		}	
+		NGR = { add_to_faction = CHD }
+		CHD = { add_ai_strategy = { type = alliance id = "NGR" value = 200 }}
+		}
+		
+		
+	}
+
+}
+
+#Unification with Chad
+country_event = {
+	id = rw_waf.12
+	title = rw_waf.12.t
+	desc = rw_waf.12.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+	
+	option = { #We accept
+		name = rw_waf.12.a
+		WAF = { 
+		annex_country = {
+   		 target = CHD
+   		 transfer_troops = yes
+		}	
+		}
+		every_owned_state = { 
+			limit = { has_core_of = CHD }
+			add_core_of = WAF
+		}
+	}
+
+	option = { #We accept
+		name = rw_waf.12.b
+		WAF = { country_event = { id = rw_waf.13 days = 1 } } 
+	}
+
+}
+
+
 #WAU seeks us to join
 country_event = {
 	id = rw_waf.100
@@ -210,6 +463,10 @@ country_event = {
    		 target = ROOT
    		 transfer_troops = yes
 		}	
+		}
+		every_owned_state = { 
+			limit = { has_core_of = ROOT }
+			add_core_of = FROM
 		}	
 	}
 
@@ -240,5 +497,58 @@ country_event = {
   		  target = FROM
   		  type = annex_everything
 		}
+	}
+}
+
+#Third International West Africa (vibing)
+country_event = {
+	id = rw_waf.102
+	title = rw_waf.102.t
+	desc = rw_waf.102.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+
+	option = { #war sounds dope
+		name = rw_waf.102.a
+		add_popularity = { ideology = national_bolshevik popularity = 0.5 }
+		add_stability = -0.05
+create_country_leader = {
+	name = "Mohamed Ould Abdel Aziz"
+	picture = "gfx/leaders/WAF/portrait_WAF_Mohamed_Gaddafi.tga"
+	ideology = third_international_theory 
+}
+set_politics = { ruling_party = national_bolshevik }
+set_cosmetic_tag = WAF_TIT
+		set_party_name = { 
+		ideology = national_bolshevik 
+		long_name = "Peace, Prosperity and People Party"
+		name = "People Party"
+		}
+	}
+}
+
+#WAU - Join the Bamako Pact? 
+country_event = {
+	id = rw_waf.103
+	title = rw_waf.103.t
+	desc = rw_waf.103.d
+	picture = gaddafi_speech
+	
+	is_triggered_only = yes
+	
+	option = { #nah
+		name = rw_waf.103.a
+			
+	}
+
+	option = { #war sounds dope
+		name = rw_waf.103.b
+		FROM = { add_to_faction = ROOT }
+		ROOT = { add_ai_strategy = {
+				type = alliance
+				id = "FROM"
+				value = 200
+			}}
 	}
 }

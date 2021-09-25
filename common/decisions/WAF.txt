@@ -161,6 +161,81 @@ WAF_Mauritanian_Emergency = {
 
 
 WAF_Foreign_Policy = {
+	WAF_Join_the_Warsaw_Pact = {
+		icon = generic_political_discourse
+		cost = 50
+		ai_will_do = {
+			factor = 35
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		SOV = { exists = yes } 
+		SOV = { is_faction_leader = yes } 
+		NOT = { has_war_with = SOV }
+		is_subject = no 
+		has_capitulated = no 
+		has_completed_focus = WAF_Reconcile_with_the_Soviets
+		has_completed_focus = WAF_Our_Place_in_the_World
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	WAF_Join_the_Democratic_States = {
+		icon = generic_political_discourse
+		cost = 50
+		ai_will_do = {
+			factor = 35
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		CAN = { exists = yes } 
+		CAN = { is_faction_leader = yes } 
+		NOT = { has_war_with = CAN }
+		is_subject = no 
+		has_capitulated = no 
+		has_completed_focus = WAF_Revert_our_Course
+		has_completed_focus = WAF_Our_Place_in_the_World
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	WAF_Join_the_British_Imperial_Alliance = {
+		icon = generic_political_discourse
+		cost = 50
+		ai_will_do = {
+			factor = 35
+		}
+		fire_only_once = yes
+
+		visible = { tag = WAF }
+
+		available = {
+		ENG = { exists = yes } 
+		ENG = { is_faction_leader = yes } 
+		ENG = { has_government = monarchist }
+		NOT = { has_war_with = ENG }
+		is_subject = no 
+		has_capitulated = no 
+		has_completed_focus = WAF_Our_Place_in_the_World
+		}
+
+		complete_effect = {
+
+		}
+	}
+
 	WAF_Invite_Senegal = {
 		icon = generic_form_nation
 		cost = 100

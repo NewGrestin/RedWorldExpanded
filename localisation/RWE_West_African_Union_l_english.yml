@@ -33,7 +33,7 @@
   WAF_Cement_our_Foreign_Policy:0 "Resume our Global Course"
   WAF_Revert_our_Course:0 "Against Soviet Imperialism"
   WAF_Reconcile_with_the_Soviets:0 "Reconcile with the Soviets"
-  WAF_Cooperate_with_the_Gulf:0 "Cooperate with our Neighbors"
+  WAF_Cooperate_with_the_Gulf:0 "Cooperate with Friendly Neighbors"
   WAF_Expansion_of_the_West_African_Project:0 "Expand the West African Dream"
   WAF_Overshadow_Nigeria:0 "Seize the Niger Delta"
   WAF_Against_African_Communism:0 "Against Red Malaria"
@@ -50,16 +50,27 @@
   WAF_The_Green_Wall:0 "The Green Wall"
 
   WAF_The_Arab_Among_Africans:0 "An Arab Among Africans"
-  WAF_Pamper_the_Commanders:0 "Spoil our Army"
+  WAF_The_Arab_Among_Africans_desc:0 "Aziz wasn't the first pick of the army, nor is he the man with the most connections in it. But, despite all of that, he is the man that now sits on the West African throne. With much to be done, the army does not care for the moment that an Arab rules a mostly black African nation."
+  WAF_Pamper_the_Commanders:0 "Spoil Our Army"
+  WAF_Pamper_the_Commanders_desc:0 "The army is the mightiest pillar of any regime. It alone makes or breaks it, like the Preatorian Guard of Old Rome. Thus, we need to spoil the army as much as we can as to keep them on our sides. We must not forget: Ibrahim was killed for his lack of presents to the military."
   WAF_Lap_of_Luxury:0 "Gifts to our Highest Commanders"
+  WAF_Lap_of_Luxury_desc:0 "The men in power in our army are the one's we need on our side. They are those the soldiers are loyal to and they can just as easily erase Aziz if they wanted. Thus, Aziz has to actively pamper these high commanders, keeping them on his good side, if he wants to survive the next decade."
   WAF_Yachts_for_the_Navy:0 "Yachts for the Loyal"
-  WAF_Bribe_Bureaucrats:0 "Bribe our Bureaucrats"
+  WAF_Yachts_for_the_Navy_desc:0 "A yacht is an incredible gift, but it is also expensive. Let us give some of these expensive gifts only to those who are as loyal as one can be to the government. Some Pavlovian techniques can perhaps shape the army-government relations for the better."
+  WAF_Bribe_Bureaucrats:0 "Bribe Our Bureaucrats"
+  WAF_Bribe_Bureaucrats_desc:0 "Corruption is an art few can understand. The language of money is subtle and dangerous, easily turned against its user if publicly found out. However, it's also the language and art that makes bureaucrats fight and work. To give some good bonusses to those that work hard (or to give bonusses as to make them work hard) will help the nation, right?"
   WAF_Punish_Low_Ranked_Crime:0 "Tough on Low-Ranking Crimes"
-  WAF_Allow_Corruption:0 "Corruption as Ideology"
-  WAF_Unify_the_Government:0 "Reform our Government"
+  WAF_Punish_Low_Ranked_Crime_desc:0 "While we can allow much of the higher command to be as corrupt as they want to be, corruption in the lower ranks is far less acceptable for our regime. The selling of weapons on the black market, the bribing of local police officers and the purchasing of illegal substances by soldiers shall be punished with extreme prejudice."
+  WAF_Allow_Corruption:0 "Kleptocracy as an Ideology"
+  WAF_Allow_Corruption_desc:0 "Critics often use the term \"kleptocracy\" as a bad word, to point at poor government that are far more open of their understanding of the language of corruption. Yet, they are totally wrong, as usual. Kleptocracy isn't a problem, it's a state of mind, a point of view even. It's the ideology that runs dictatorships across the globe and keeps despots healthy."
+  WAF_Unify_the_Government:0 "Reform the Government"
+  WAF_Unify_the_Government_desc:0 "The governing of government has been neglected for decades by the army and its puppets. Basic tasks of government, such as providing the people with their basic needs and keeping the cities working, have become rarities. Heavy reform is needed and a more iron hand can push the nation in the right direction."
   WAF_Appease_Provincial_Councils:0 "Appease the Provincial Councils"
+  WAF_Appease_Provincial_Councils_desc:0 "Big government is problematic. It is inefficient and leads to unwanted corruption. Instead, we seek to provide more autonomy to the provincial councils, as a way to keep them and the citizens happy. As long as it isn't the job of Niamey to provide, the people won't bother us."
   WAF_Decentralized_Philosophy:0 "Decentralize the Union"
+  WAF_Decentralized_Philosophy_desc:0 "The West African Union has become far too centralized in the eyes of Aziz. Why does one government need to do so much, if we have a thousands smaller governments that are able to run the local affairs perfectly fine?"
   WAF_Opposition_in_our_Pocket:0 "The Pocket Opposition"
+  WAF_Opposition_in_our_Pocket_desc:0 "While we have given more autonomy to the provinces, this has come at the cost of empowering local opposition movements. These movements aren't problematic yet, but can grow more dangerous in the future. Thus, by using bribes, intimidation and other authoritarian tactics, we can keep them in our pockets and neuter them before they grow too big for their boots."
   WAF_Smoking_with_Warlords:0 "Warlords and Wine"
   WAF_Shift_towards_Democracy:0 "Strenghten the Democratic Illusion"
   WAF_Decriminalize_the_Opposition:0 "Decriminalize Leftist Opposition"
@@ -67,7 +78,7 @@
   WAF_Announce_Coming_Elections:0 "Announce the Next Election"
   WAF_Bicameral_Formation:0 "Formalize a Two-Chamber System"
   WAF_Keep_the_Media_in_Check:0 "Keep the Media in Check"
-  WAF_Study_Pinochet:0 "Learn from Gadaffi"
+  WAF_Study_Pinochet:0 "Learn from Gaddafi"
   WAF_Smile_for_Eastern_Media:0 "Smile for Eastern Media"
   WAF_Invite_International_NGOs:0 "Invite International NGOs"
   WAF_Cover_Up_the_Bad_Stuff:0 "Cover Up our Violations"
@@ -118,9 +129,28 @@
   ##########################
   RWE_WAF_Between_Two_Worlds:0 "Between Two Worlds"
   RWE_WAF_Between_Two_Worlds_desc:0 "The West African Union sits on the edge of Africa and the Arab world, with in the north the Mauritanian Arabs and nomadic Tuareg people, while the south of the nation consists of a diverse bunch of African people. Yet, despite the international positives on being the gate to Africa and the Arab world for many other nations, the domestic situation profits far less from this fact. \n\nWhile formed as an union of equal nations, it is no surprise that some ethnic groups dominate the West African Union compared to others. The Bambara, Mossi, Hausa and the Moors all dominate their respective regions and form the main pillars of the elite supportive of the military junta of Maïnassara. With these dominant groups, the other ethnicities of the West African Union are not truely represented in the elite ruling the country. Yet, despite the already complicated mix of ethnicities that live in the Union, the ruling groups of the Union are not united either. \n\nAs the years have went on and the military junta has ruled our Union, the differences between the Arabic-speaking Moors of Mauritania and the non-Arabic people of the South have become increasingly difficult to ignore. Under the popular ba'athist groups of Mauritania, the Arab-speaking people of the Union have sought more and more self-determination, bordering on seccesion from the Union. Whispers in Niamey even talk about a military conspiracy among the Mauritanians, yet evidence remains scarce."
+  RWE_WAF_Between_Two_Worlds_1:0 "Between Two Worlds"
+  RWE_WAF_Between_Two_Worlds_1_desc:0 "The West African Union sits on the edge of Africa and the Arab world, with in the north the Mauritanian Arabs and nomadic Tuareg people, while the south of the nation consists of a diverse bunch of African people. Yet, despite the international positives on being the gate to Africa and the Arab world for many other nations, the domestic situation profits far less from this fact. \n\nWhile formed as an union of equal nations, it is no surprise that some ethnic groups dominate the West African Union compared to others. The Bambara, Mossi, Hausa and the Moors all dominate their respective regions and form the main pillars of the elite supportive of the military junta of Maïnassara. With these dominant groups, the other ethnicities of the West African Union are not truely represented in the elite ruling the country. Yet, despite the already complicated mix of ethnicities that live in the Union, the ruling groups of the Union are not united either. \n\nAs the years have went on and the military junta has ruled our Union, the differences between the Arabic-speaking Moors of Mauritania and the non-Arabic people of the South have become increasingly difficult to ignore. Under the popular ba'athist groups of Mauritania, the Arab-speaking people of the Union have sought more and more self-determination, bordering on seccesion from the Union. Whispers in Niamey even talk about a military conspiracy among the Mauritanians, yet evidence remains scarce."
+
+
+
   RWE_WAF_Post_Coup_Aftermath:0 "Post-'08 Coup Aftermath"
   RWE_WAF_Post_Coup_Aftermath_desc:0 "The country remains shaken by the aftermath of the 2008 attempted coup d'état. Members of the military, mainly from Burkina Faso, had conspired to remove Ibrahim Baré Maïnassara for his favouring of the Mauritanian and Niger militaries in the annual military budget. With a small force marching upon Niamey, the coup was almost fatal for Ibrahim, as the presidential guard was on the brink of switching allegiance to the conspiracy. Yet the coup attempt failed when the federal army blasted them apart with support of the airforce, leaving the coup with any armed backing and the generals open to be arrested. The following trials would severly neuter the Burkina Faso army for its attempted coup. \n\nYet Burkina Faso wasn't the only nation of the four to feel the coup's aftermath. Large parts of civil society still are shaken by the bloody memories of the coup. Photographs of the conclusion of the Niamey battle still are popular among gore hounds and teenagers on the world wide web for the sheer brutality of the reprisal and many men and women have lost a partner in either the coup or the following trials, which led to the execution of thousands of supposed conspiracy loyalists. It will take a long time for the West African Union to heal from its wounds."
+  RWE_WAF_Post_Coup_Aftermath_1:0 "Post-'10 Coup Aftermath" 
+  RWE_WAF_Post_Coup_Aftermath_1_desc:0 "Once again, the West African Union has been shaken up by a failed coup d'état. Countless civilians and soldiers have passed away during or immediately after the affair. The scars that were healing have been torn open, making fresh, deep wounds. \n\nAlready, we're rounding up those that have conspired again the Niamey government and supported the failed attempt at a power grab. The situation will have to slowly be stabilized."
+  RWE_WAF_Losing_Democratic_Legitimacy:0 "Democratic Disillusionment" 
+  RWE_WAF_Losing_Democratic_Legitimacy_desc:0 "The recent May Day Coup has been one of the most violent coups in Africa's recent memories. With many civilians dying and the military on the televisions and radios, the idea that the West African Union is a democracy has started to swiftly fade away. People who once did not really care about politics have become disillusioned with the new government and flock to the opposition, threatening the very existence of our junta and the Union."
+  RWE_WAF_Losing_Democratic_Legitimacy_A1:0 "Democratic Disillusionment" 
+  RWE_WAF_Losing_Democratic_Legitimacy_A1_desc:0 "The recent May Day Coup has been one of the most violent coups in Africa's recent memories. With many civilians dying and the military on the televisions and radios, the idea that the West African Union is a democracy has started to swiftly fade away. People who once did not really care about politics have become disillusioned with the new government and flock to the opposition, threatening the very existence of our junta and the Union."
+  RWE_WAF_Losing_Democratic_Legitimacy_A2:0 "Democratic Disillusionment" 
+  RWE_WAF_Losing_Democratic_Legitimacy_A2_desc:0 "The recent May Day Coup has been one of the most violent coups in Africa's recent memories. With many civilians dying and the military on the televisions and radios, the idea that the West African Union is a democracy has started to swiftly fade away. People who once did not really care about politics have become disillusioned with the new government and flock to the opposition, threatening the very existence of our junta and the Union."
+  RWE_WAF_Losing_Democratic_Legitimacy_A3:0 "Democratic Disillusionment" 
+  RWE_WAF_Losing_Democratic_Legitimacy_A3_desc:0 "The recent May Day Coup has been one of the most violent coups in Africa's recent memories. With many civilians dying and the military on the televisions and radios, the idea that the West African Union is a democracy has started to swiftly fade away. People who once did not really care about politics have become disillusioned with the new government and flock to the opposition, threatening the very existence of our junta and the Union."
+  RWE_WAF_Losing_Democratic_Legitimacy_B1:0 "Democratic Disillusionment" 
+  RWE_WAF_Losing_Democratic_Legitimacy_B1_desc:0 "The recent May Day Coup has been one of the most violent coups in Africa's recent memories. With many civilians dying and the military on the televisions and radios, the idea that the West African Union is a democracy has started to swiftly fade away. People who once did not really care about politics have become disillusioned with the new government and flock to the opposition, threatening the very existence of our junta and the Union."
+  RWE_WAF_Narcotics_Profits:0 "Narcotics Profits"
   
+
   ##########################
   # EVENTS
   ##########################
@@ -136,8 +166,25 @@
   rw_waf.3.t:0 "Chaos in Mauritania"
   rw_waf.3.d:0 "In the wake of the failed coup of Mohamed Abdel Aziz, the provinces of the union have experienced riots and other forms of chaos. Local militaries are having trouble containing most of the anarchy, but the news from Mauritania has clearly painted a more depressing picture than the other 3 states. \n\nIn Mauritania, the pan-Arab National Vanguard Party of Gadaffi-loyalist Mohamed Yahdhih Ould Ibrid El Leil has condemned the military government and supported the coup planners, inviting these traitors to Mauritania as a way to hide from Maïnassara's wrath. His attempts have been an unfortunate success, with even the coup leader Aziz now having returned to Dakar. The situation in the province is growing grimmer every minute, as today the local army has pledged loyalty to the province and the National Vanguard Party. The threat of pan-Arabism is very much alive in this little corner of the federation and it threatens to currently throw the entire system into chaos. An emergency council has already been established in Niamey, tasked to solve the increasingly complex issue of Mauritania, perhaps with violence if needed."
   rw_waf.3.a:0 "Just like that, Mauritania is on fire..."
+  rw_waf.7.t:0 "The People against the People's Party" 
+  rw_waf.7.d:0 "The recent May Day Coup has broken apart much of the legitimacy of our old government. While Maïnassara's government was brutal and repressive, it still could sometimes hide behind the veil of \"democratic legitimacy\", due to its rigged elections and allowance of a puppet opposition. Yet, these measures have dissapeared with the military coup. Parliament has been closed, much of the opposition now spends its time behind bars and Maïnassara himself died trying to flee the country. The situation has turned the atmosphere in West Africa tense, as extremist opposition parties grow under our new regime. People have opened their eyes and have been personally affected by our badly executed coup: some have lost loved ones, others have become impoverished in the aftermath. \n\nThese kinds of disillusionments have the Communist Party and other revolutionaries in much of West Africa and it has forced our new junta to take decisive actions before our nation falls to a wave of communist sympathisers and Soviet spies."
+  rw_waf.7.a:0 "A junta is completely democratic!"
+  rw_waf.8.t:0 "The Return of Democracy"
+  rw_waf.8.d:0 "Today, in a televised announcement to the entirety of the West African Union, chairman Aziz made the promise of a return to normalcy in government and state, promising that the military junta was only temporary and that the next legislative election would be held this year. \n\nThe announcement for new elections has been celebrated across the nation, with some seeing it as a return to the old order under Maïnassara. Yet, while they celebrate, much of the (legal) opposition has spoken out against Aziz and his promise, suspecting that the chairman is trying to fool the country in a false sense of security while preparing to rig the next election. The Communist Party leadership has thus already told its supporters to boycot the next election."
+  rw_waf.8.a:0 "Could have gone better..."
+  rw_waf.9.t:0 "Lessons from Libya"
+  rw_waf.9.d:0 "With our recent decision to keep much of the communist and socialist leadership in jail having led to nation-wide protests and general unrest, chairman Aziz has turned to his desk to figure out the next step towards succes. After weeks of planning, a strategy has been envisioned by him and the military leadership, heavily borrowed from Libya's Arab dictator, Gadaffi. \n\nAziz seeks to introduce a similair system of \"local council democracy\" to the West African Union, hoping that it can veil the shortcomings of the military junta behind a veil of democratic practices and strongman illiberalism. These ideas are coupled with a series of brutal crackdowns against the opposition, seeking to properly wipe out the communist party and establish a full dictatorship in the same spirit as Gadaffi's Libyan dictatorship. Aziz has proudly presented the plan to the rest of his loyalists."
+  rw_waf.9.a:0 "Gadaffi knew how to hold onto power. We can learn from him."
+  rw_waf.10.t:0 "Red Cross helps in Mali"
+  rw_waf.10.d:0 "The recent conflict between Mali and local islamist factions has caused many civilians to lose their homes, lose loved ones and lose appendages in the fight. With many local refugees now without food, water or proper healthcare, we have turned to a variety of international NGOs to help our government in caring for the sick and dying. The Red Cross heads this group of NGOs, helping Malian doctors in the field with European medical supplies, while NGOs like Humanity United have helped the local munincipalities with the food situation of the refugees and locals. These NGOs have slightly legitimized our government in both the eyes of those who had to flee and the international community."
+  rw_waf.10.a:0 "Smile for their cameras, remember to smile"
+  rw_waf.12.t:0 "Unification Talks with Niamey"
+  rw_waf.12.d:0 "-"
+  rw_waf.12.a:0 "They have the right idea!"
+  rw_waf.12.b:0 "They're crazy!"
 
   rw_waf.100.t:0 "West African Union invites us to join"
+  rw_waf.103.t:0 "Prospect of the Bamako Security Pact"
 
   newsrw.13.t:0 "Coup rocks West African Union"
   newsrw.13.d:0 "West Africa has never been known as a bedrock of stability. Ever since the unification of Niger, Burkina Faso, Mali and Mauritania, instability has plagued this Frankenstein federation. The most recent president of the union, Ibrahim Baré Maïnssara, was himself very much the product of this instability, coming to power through a military coup. Yet the coup leader would soon face other factions inside the army himself, with a coup in 1991 and 2008 both trying to depose the West African dictator. \n\nWhile the army of Burkina Faso was purged in the aftermath of 2008, further inaction now proves to have been fatal for the Maïnassara regime, as another coup led by Mauritanian marshal Mohamed Ould Abdel Aziz has taken control of the capital and the old despot of West Africa has been killed in the action while trying to escape. The new situation seems to have put the nation on the brink of collapse, as the very Arab Aziz now rules over a nation of Africans, with many hostile to this rather foreign figure leading the country."
@@ -173,6 +220,23 @@
   newsrw.20.d:0 "The recent instability of West Africa knows no rest, as the coup in the Union of West Africa in 2008 has been swiftly followed up by the May Day Coup this week. Backed by discontent military commanders wanting a government that has far less influence in the army, the coup met much resistance in the capital of Niamey, where the local garrison remained loyal to the president and was able to keep the conspiracy loyalists outside the city before the federal army was mobilized. The following bloodbath would cost the lives of many West African soldiers and civilians due to the urban combat. \n\nWith the traitors and their armies now facing a very strong enemy, many of them have now fled to the fringe province of Mauritania under the leadership of Mohamed Ould Abdel Aziz, a previous Arab military advisor to Maïnassara. This army of Aziz loyalists now seeks to establish a mutual relationship with the local ba'athist government that had won the Mauritanian election last year."
   newsrw.20.a:0 "We've broken the back of the conspiracy!"
   newsrw.20.b:0 "A phyrric victory, perhaps?"
+  newsrw.26.t:0 "Green Revolution in West Africa"
+  newsrw.26.d:0 "The civil war in Libya caused many across the Arab World to discredit Gaddafism as a weak and unstable ideology, prone to civil conflict due to its limited concessions to democracy. Yet, while the Gaddafist system has suffered in Libya, the West African Union under Mohamed Ould Abdel Aziz has gone and adopted a similair form of Third International Theory, proclaiming a new West African Jamahiriya that follows in the footsteps of the great Gaddafi. \n\nThe actions of Aziz has caused confusion internationally and domestically, with few truly understanding what the end goal is for the new Brotherly Leader. Some speculate that Aziz has turned to Gaddafism to legitimize his rule and fill the void left by the May Day coup. Others seem to deem Aziz's turn to Gaddafism as a way for the new West African despot to pick up the leadership of the Third World against the new Soviet order, having come to power in a very much anti-Soviet atmosphere."
+  newsrw.26.a:0 "The Green Revolution floods West Africa"
+  newsrw.26.b:0 "What the hell is going on there?"
+  newsrw.22.t:0 "The West African Containment Group"
+  newsrw.22.d:0 "The recent increase in tension in West Africa has been the cause of concerns among many of the region's sovereign nations. The aggressive posturing of the West African Union in particular has pushed away many of the West African gulf states from Niamey and towards more cooperation between the ideological different states of the region. This all has culminated into the formation of a military alliance between the nations of West Africa, calling itself the \"West African Containment Group\", with the explicit goal of keeping the West African Union of [WAF.GetLeader] in check. \n\nThe formation of this new alliance has shaken the region of West Africa to its core, as military confrontation between the West African Union and the other local powers, such as Nigeria and Benin, now seems inevitable. Already, the foreign minister of West Africa has heavily criticized the formation of this new organisation, deeming it provocation against the West African Union and a potential threat to the sovereignty of the Union in the near future."
+  newsrw.22.a:0 "We will teach them a lesson!"
+  newsrw.22.b:0 "West Africa is attracting more and more attention..."
+  newsrw.23.t:0 "West Africa reveals Continental Ambitions"
+  newsrw.23.d:0 "After a long period of instability and reconstruction domestically in West Africa, the West African Union of Maïnassara has once more shifted its focus to the global arena. With one of the continent's strongest armies and a young, yet growing economy, West Africa has formalized the Bamaka Security Pact with the other despots of Africa, seeking to secure the continent's future against communism. \n\nThe formation of the Bamako Security Pact has left much of the world shocked. A nation that once seemed on the brink of collapse was not only able to pull itself together, but contest against a multitude of third world countries for the title of the leader of the third world, cementing its dominance in Africa with the Bamako Pact. Already, international observers follow this development critically. With West Africa becoming another contender on the stage of Africa, a regional, perhaps even continental, conflict is starting to seem inevitable. Perhaps, a new continental order will reshape Africa in the near future."
+  newsrw.23.a:0 "We will bring the end of Soviet imperialism in Africa"
+  newsrw.23.b:0 "Africa will never know rest"
+  newsrw.24.t:0 "West Africa develops Nuclear Capabilities"
+  newsrw.24.d:0 "Today, in a publicized announcement to the world, West Africa's tin pot despot, Ibrahim Baré Maïnassara, revealed a truth that shocked the world: the West African Union had developed nuclear capabilities. \n\nAs the shock of the announcement from Niamey has settled, many now wonder how far the capabilities of West Africa can currently go, as Maïnassara did not reveal anything on the Union's rocketry program. Experts currently believe that the Union's nuclear arsenal is still relatively primitive, but could soon become a major threat for Africa, the Middle East and Southern Europe if testing continued. Already, much of the international community has been outraged by West Africa's nuclear announcement, but sanctions have yet to be placed on this new pariah state in the making. \n\nWhatever the international community does, the clock is heading closer to midnight."
+  newsrw.24.a:0 "Our words are now backed with nuclear weapons"
+  newsrw.24.b:0 "That's what the world needed, another madman with a button!" 
+
   ##########################
   # DECISIONS
   ##########################
@@ -200,6 +264,13 @@
   WAF_Invite_Ghana:0 "Invite Ghana [GHA.GetFlag] to the Union"
   WAF_Invite_Togo:0 "Invite Togo [TOG.GetFlag] to the Union"
 
+  WAF_Join_the_Warsaw_Pact:0 "Join the Warsaw Pact"
+  WAF_Join_the_Warsaw_Pact_desc:0 "The global order has turned in a matter of decades. Where once the liberal capitalist world order of America seemed to reign, now communism has cemented itself across the globe. We would be fools to remain stubborn and reject the world order, slowly isoating ourselves from the rest of the world. Instead, the junta can gain from cooperating with the Soviet Union and the Warsaw Pact, perhaps even secure its sovereignty in the face of renewed imperialist aggression on the African continent." 
+  WAF_Join_the_Democratic_States:0 "Join the Democratic League"
+  WAF_Join_the_Democratic_States_desc:0 "There is no greater threat to African sovereignty and self-governance than the imperialism of the Soviet Union. During the few decades worth of Soviet hegemony, Africa has seen the rise of communist dictators and other little Stalin's across the continent, all backed by the immense Soviet secret service apparatus. We cannot sit and await our eventual subjugation by the Soviets. \n\nThus, we turn to one of our few friends in this world: the anti-communist democratic league. With them, we can kick the Soviets out of Africa and bring an potential end to the old Soviet world order."
+  WAF_Join_the_British_Imperial_Alliance:0 "Join the British Imperial Alliance"
+  WAF_Join_the_British_Imperial_Alliance_desc:0 "It may seem like a rather odd choice, but the British-led Imperial Alliance is perhaps our only gambit for preserving our place in the world. Staunchly anti-communist and okay with our less-than democratic practices, the Imperial Alliance is the perfect fit for our dictatorship in West Africa. \n\nBesides, you cannot defeat Soviet imperialism without British imperialism!"
+
   ##########################
   # LEADERS
   ##########################
@@ -214,6 +285,19 @@
   WAF_START_MRT_EMERGENCY:0 "§RStarts the Mauritanian Emergency Mission.§!"
 
   WAF_UNIFICATION_DECISIONS:0 "Opens up £decision_icon_small §Yforeign policy decisions§!. "
+  WAF_FOREIGN_POLICY_DECISIONS:0 "Opens up new £decision_icon_small §Yforeign policy decisions§!, allowing us to join a faction. "
+
+  WAF_COUP_HAPPENED:0 "§YThe May Day Coup has happened§!."
+  WAF_BAD_NO_COUP:0 "§RThe May Day Coup has been defeated, but at a large cost§!."
+  WAF_GOOD_NO_COUP:0 "§GThe May Day Coup has been decisively defeated§!."
+  WAF_FUCKED_UP_THE_ELECTION:0 "§RWe've failed to rig the election, thus another path had to be taken§!."
+
+  WAF_GADAFFI_PATH:0 "§YBefore rigging the election, we will need to cut the head of the communist hydra in our country. Otherwise, the results may be§! §RA DISASTER§!." 
+  WAF_INTENSE_RIGGING_NEEDED:0 "§YTo complete our plans, §!§Rintense§! §Yrigging will be needed§!."
+  WAF_LITTLE_RIGGING_NEEDED:0 "§YThe People Party needs only a§! §Glittle§! §Yrigging to win the next election§!."
+
+  WAF_NUCLEAR_MECHANIC:0 "§RAs long as this focus lasts, we will work on a swift nuclear program. If we are able to harnass the power of the atom before the focus runs out, without foreign detection, West African sovereignty might be secured§!." 
+  IF_FINISHED:0 "\nWhen finished§Y: §!"
   ##########################
   # COSMETIC TAGS
   ##########################
@@ -225,4 +309,6 @@
   WAF_COLLAPSE_DEF:0 "The Republic of Niger"
   WAF_COLLAPSE_ADJ:0 "Niger" 
 
-  
+  WAF_TIT:0 "West African Jamahiriya"
+  WAF_DEF:0 "The Great Sociallist People's West African Jamahiriya"
+  WAF_ADJ:0 "West African"

@@ -171,8 +171,28 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "waf_military_coalition"
+		texturefile = "gfx/event_pictures/news_event/waf_military_coalition.tga"
+	}
+
+	spriteType = {
+		name = "waf_pact"
+		texturefile = "gfx/event_pictures/news_event/waf_pact.tga"
+	}
+
+	spriteType = {
+		name = "waf_nuclear"
+		texturefile = "gfx/event_pictures/news_event/waf_nuclear.tga"
+	}
+
+	spriteType = {
 		name = "waf_communists"
 		texturefile = "gfx/event_pictures/news_event/waf_communists.tga"
+	}
+
+	spriteType = {
+		name = "waf_gaddafism"
+		texturefile = "gfx/event_pictures/news_event/waf_gaddafism.tga"
 	}
 
 	spriteType = {
@@ -228,6 +248,11 @@ spriteTypes = {
 	spriteType = {
 		name = "fra_hyaric_elected"
 		texturefile = "gfx/event_pictures/news_event/fra_hyaric_elected.tga"
+	}
+
+	spriteType = {
+		name = "fra_frexit"
+		texturefile = "gfx/event_pictures/news_event/fra_frexit.tga"
 	}
 
 	spriteType = {

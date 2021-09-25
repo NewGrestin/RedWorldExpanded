@@ -455,11 +455,118 @@ news_event = {	#Namibia Declares Independence
 	title = newsrw.21.t
 	desc = newsrw.21.d
 	picture = RWE_Namibia_Independence_War
-	
 	is_triggered_only = yes
 	major = yes
 	
 	option = {
 		name = newsrw.21.a
+
 	}
+}
+
+news_event = {	#WAF - Gaddafism expands
+	id = newsrw.26
+	title = newsrw.26.t
+	desc = newsrw.26.d
+	picture = waf_gaddafism
+
+	option = {
+		name = newsrw.26.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.26.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - Containment Group formed
+	id = newsrw.22
+	title = newsrw.22.t
+	desc = newsrw.22.d
+	picture = waf_military_coalition
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.22.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.22.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - Pact formed
+	id = newsrw.23
+	title = newsrw.23.t
+	desc = newsrw.23.d
+	picture = waf_pact
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.23.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.23.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#WAF - Union develops nuclear striking capabilities 
+	id = newsrw.24
+	title = newsrw.24.t
+	desc = newsrw.24.d
+	picture = waf_nuclear
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.24.a
+		trigger = { tag = WAF }
+	}
+
+	option = {
+		name = newsrw.24.b
+		trigger = { NOT = { tag = WAF } }
+	}
+
+}
+
+news_event = {	#FRA - Frexit
+	id = newsrw.25
+	title = newsrw.25.t
+	desc = newsrw.25.d
+	picture = fra_frexit
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.25.a
+		trigger = { tag = FRA }
+	}
+
+	option = {
+		name = newsrw.25.b
+		trigger = { tag = SOV }
+	}
+
+	option = {
+		name = newsrw.25.c
+		trigger = { NOT = { OR = { tag = SOV tag = FRA } } }
+	}
+
 }

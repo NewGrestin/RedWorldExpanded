@@ -18,7 +18,7 @@ focus_tree = {
 
 shared_focus = {
 	id = WAF_The_Arab_Among_Africans
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_WAF_An_arab_among_africans
 	x = 24
 	y = 0
 
@@ -37,26 +37,26 @@ shared_focus = {
 
 shared_focus = {
 	id = WAF_Shift_towards_Democracy
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_WAF_strengthen_the_democratic_illusion
 	x = 28
 	y = 1
 
-	cost = 5
+	cost = 2
 	prerequisite = { focus = WAF_The_Arab_Among_Africans }
 
 	available = {
-
+	has_idea = RWE_WAF_Losing_Democratic_Legitimacy 
 	}
 
 
 	completion_reward = {
-
+	add_stability = 0.05
 	}
 }
 
 shared_focus = {
 	id = WAF_Smile_for_Eastern_Media
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_Movie_Camera
 	x = 30
 	y = 2
 
@@ -68,13 +68,29 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_opinion_modifier = {
+   	 target = SOV
+   	 modifier = recent_actions_positive 
+	}
+	add_opinion_modifier = {
+   	 target = FRA
+   	 modifier = recent_actions_positive 
+	}
+	add_opinion_modifier = {
+   	 target = GER
+   	 modifier = recent_actions_positive 
+	}
+	add_opinion_modifier = {
+   	 target = PRC
+   	 modifier = recent_actions_positive 
+	}
+	add_political_power = 150
 	}
 }
 
 shared_focus = {
 	id = WAF_Invite_International_NGOs
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_Internationalism
 	x = 30
 	y = 3
 
@@ -86,13 +102,15 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_stability = 0.05
+	add_political_power = 50
+	country_event = { id = rw_waf.10 days = 1 }
 	}
 }
 
 shared_focus = {
 	id = WAF_Cover_Up_the_Bad_Stuff
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_Enough
 	x = 29
 	y = 5
 
@@ -100,7 +118,7 @@ shared_focus = {
 	prerequisite = { focus = WAF_Study_Pinochet focus = WAF_Keep_the_Media_in_Check }
 	prerequisite = { focus = WAF_Invite_International_NGOs }
 	available = {
-
+	has_country_flag = WAF_FUCKED_UP_THE_ELECTION
 	}
 
 
@@ -111,7 +129,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WAF_Decriminalize_the_Opposition
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_Labourist
 	x = 26
 	y = 2
 
@@ -124,13 +142,16 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_popularity = { ideology = communist popularity = 0.05 }
+	add_popularity = { ideology = revolutionary_socialist popularity = 0.05 }
+	swap_ideas = { add_idea = RWE_WAF_Losing_Democratic_Legitimacy_A1 remove_idea = RWE_WAF_Losing_Democratic_Legitimacy }
+	add_political_power = 75
 	}
 }
 
 shared_focus = {
 	id = WAF_Bicameral_Formation
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_Focus_Government_Bureaucracy
 	x = 25
 	y = 3
 
@@ -142,17 +163,18 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	swap_ideas = { add_idea = RWE_WAF_Losing_Democratic_Legitimacy_A2 remove_idea = RWE_WAF_Losing_Democratic_Legitimacy_A1 }
+	add_popularity = { ideology = fascist popularity = 0.03 }
 	}
 }
 
 shared_focus = {
 	id = WAF_Announce_Coming_Elections
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_Democracy
 	x = 27
 	y = 3
 
-	cost = 10
+	cost = 5
 	prerequisite = { focus = WAF_Decriminalize_the_Opposition focus = WAF_Keep_them_in_Jail }
 	available = {
 
@@ -160,17 +182,19 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_popularity = { ideology = fascist popularity = 0.1 }
+	add_stability = 0.05
+	country_event = { id = rw_waf.8 days = 1 }
 	}
 }
 
 shared_focus = {
 	id = WAF_Keep_the_Media_in_Check
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Focus_Generic_Press_Censorship
 	x = 26
 	y = 4
 
-	cost = 10
+	cost = 8
 	prerequisite = { focus = WAF_Bicameral_Formation }
 	prerequisite = { focus = WAF_Announce_Coming_Elections }
 	available = {
@@ -179,13 +203,14 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	swap_ideas = { add_idea = RWE_WAF_Losing_Democratic_Legitimacy_A3 remove_idea = RWE_WAF_Losing_Democratic_Legitimacy_A2 }
+	add_popularity = { ideology = fascist popularity = 0.05 }
 	}
 }
 
 shared_focus = {
 	id = WAF_Rig_Them
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_AuthDem
 	x = 27
 	y = 5
 
@@ -197,17 +222,24 @@ shared_focus = {
 
 
 	completion_reward = {
+	if = { 
+	limit = { has_completed_focus = WAF_Study_Pinochet }
+	custom_effect_tooltip = WAF_INTENSE_RIGGING_NEEDED
+	else = { 
+	custom_effect_tooltip = WAF_LITTLE_RIGGING_NEEDED
+	}
+	}
 
 	}
 }
 
 shared_focus = {
 	id = WAF_Study_Pinochet
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_WAF_Learn_from_Gaddafi1
 	x = 28
 	y = 4
 
-	cost = 10
+	cost = 5
 	prerequisite = {focus = WAF_Keep_them_in_Jail }
 	available = {
 
@@ -215,13 +247,16 @@ shared_focus = {
 
 
 	completion_reward = {
+	add_popularity = { ideology = fascist popularity = 0.2 }
+	country_event = { id = rw_waf.9 days = 1 }
 
+	custom_effect_tooltip = WAF_GADAFFI_PATH
 	}
 }
 
 shared_focus = {
 	id = WAF_Keep_them_in_Jail 
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_WAF_Keep_them_locked_up
 	x = 28
 	y = 2
 
@@ -234,6 +269,9 @@ shared_focus = {
 
 
 	completion_reward = {
+	add_popularity = { ideology = communist popularity = -0.05 }
+	add_popularity = { ideology = revolutionary_socialist popularity = -0.05 }
+	swap_ideas = { add_idea = RWE_WAF_Losing_Democratic_Legitimacy_B1 remove_idea = RWE_WAF_Losing_Democratic_Legitimacy }
 
 	}
 }
@@ -248,7 +286,7 @@ shared_focus = {
 
 
 	available = {
-
+	has_country_flag = WAF_COUP_HAPPENED	
 	}
 
 
@@ -267,7 +305,7 @@ shared_focus = {
 	prerequisite = { focus = WAF_The_Tin_Pot_Despot }
 
 	available = {
-
+	has_country_flag = WAF_COUP_HAPPENED	
 	}
 
 
@@ -286,7 +324,7 @@ shared_focus = {
 	prerequisite = { focus = WAF_Aftermath_of_the_May_Day_Coup }
 	mutually_exclusive = { focus = WAF_Round_Up_the_Traitors }
 	available = {
-
+	has_country_flag = WAF_BAD_NO_COUP
 	}
 
 
@@ -363,7 +401,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	swap_ideas = { remove_idea = RWE_WAF_Between_Two_Worlds add_idea = RWE_WAF_Between_Two_Worlds_1 }
 	}
 }
 
@@ -377,7 +415,7 @@ shared_focus = {
 	prerequisite = { focus = WAF_Aftermath_of_the_May_Day_Coup }
 	mutually_exclusive = { focus = WAF_Mobilize_the_Federal_Military }
 	available = {
-
+	has_country_flag = WAF_GOOD_NO_COUP
 	}
 
 
@@ -725,7 +763,20 @@ shared_focus = {
 
 
 	completion_reward = {
-
+			add_stability = -0.05
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 	}
 }
 
@@ -744,7 +795,22 @@ shared_focus = {
 
 
 	completion_reward = {
-
+		random_owned_state = { 
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+		}
+		random_owned_state = { 
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+		}
 	}
 }
 
@@ -845,7 +911,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WAF_Modern_Arms_Complex
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_LIN_Arm_the_Militias
 	x = 15
 	y = 3
 
@@ -883,7 +949,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WAF_Jail_Corrupt_Commanders
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_LIN_Funding
 	x = 13
 	y = 5
 
@@ -921,7 +987,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WAF_Cement_our_Foreign_Policy
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_Foreign_Diplomacy
 	x = 6
 	y = 6
 
@@ -934,6 +1000,14 @@ shared_focus = {
 
 
 	completion_reward = {
+	add_political_power = 75
+	if = { 
+	limit = { has_idea = RWE_WAF_Between_Two_Worlds_1 }
+	remove_ideas = { RWE_WAF_Between_Two_Worlds_1 }
+	else = {
+	remove_ideas = { RWE_WAF_Between_Two_Worlds }
+	}
+	}
 
 	}
 }
@@ -954,13 +1028,22 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_opinion_modifier = {
+   	 target = SOV
+   	 modifier = declaration_of_friendship 
+	}
+	add_opinion_modifier = {
+   	 target = CAN
+   	 modifier = loyal_to_our_enemy 
+	}
+	add_stability = 0.1
+	add_popularity = { ideology = communist popularity = 0.05 }
 	}
 }
 
 shared_focus = {
 	id = WAF_Revert_our_Course 
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_WAF_Soviet_Imperialism
 	x = 6
 	y = 7
 
@@ -974,7 +1057,17 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_opinion_modifier = {
+   	 target = SOV
+   	 modifier = recent_actions_negative 
+	}
+	add_opinion_modifier = {
+   	 target = CAN
+   	 modifier = recent_actions_positive 
+	}
+	add_stability = -0.05
+	add_popularity = { ideology = communist popularity = -0.1 }
+	add_war_support = 0.1
 	}
 }
 
@@ -992,7 +1085,15 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_opinion_modifier = {
+   	 target = SEN
+   	 modifier = declaration_of_friendship 
+	}
+	add_opinion_modifier = {
+   	 target = TOG
+   	 modifier = declaration_of_friendship 
+	}
+	add_political_power = 75
 	}
 }
 
@@ -1042,6 +1143,9 @@ shared_focus = {
    		 type = puppet_wargoal_focus
    		 target = NGR
 		}
+	558 = { add_claim_by = WAF }
+	859 = { add_claim_by = WAF }
+	769 = { add_claim_by = WAF }
 	}
 }
 
@@ -1058,12 +1162,37 @@ shared_focus = {
 	available = {
 	NOT = { is_subject = yes } 
 	NOT = { is_in_faction = yes }
+	any_country = { 
+		is_in_africa = yes 
+		NOT = { is_in_faction = yes }
+		OR = { 
+		has_government = nationalist
+		has_government = fascist
+		has_government = monarchist
+		}
+	}
 	}
 
 
+
 	completion_reward = {
+	every_country = {
+		limit = { 
+		is_in_africa = yes 
+		NOT = { is_in_faction = yes }
+		NOT = { tag = WAF }
+		OR = { 
+		has_government = nationalist
+		has_government = fascist
+		has_government = monarchist
+		}
+		}
+	country_event = { id = rw_waf.103 days = 1 }
+	}
 	create_faction = "Bamako Security Pact"
 	add_war_support = 0.1
+
+	news_event = { id = newsrw.23 days = 0 } 
 	}
 }
 
@@ -1139,17 +1268,18 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	custom_effect_tooltip = WAF_FOREIGN_POLICY_DECISIONS
+	add_war_support = 0.1
 	}
 }
 
 shared_focus = {
 	id = WAF_University_of_West_Africa
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_Generic_Research
 	x = 10
 	y = 6
 
-	cost = 5
+	cost = 10
 	prerequisite = { focus = WAF_Siege_Dakar focus = WAF_Appease_Loyal_Arabs }
 	prerequisite = { focus = WAF_Urbanize_Niamey focus = WAF_Jail_Corrupt_Commanders focus = WAF_Unify_the_Federal_Armies }
 	available = {
@@ -1158,17 +1288,17 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_research_slot = 1
 	}
 }
 
 shared_focus = {
 	id = WAF_Establish_our_Nuclear_Program
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_WAF_Nuclear
 	x = 10
 	y = 7
 
-	cost = 5
+	cost = 30
 	prerequisite = { focus = WAF_University_of_West_Africa }
 	available = {
 
@@ -1176,7 +1306,18 @@ shared_focus = {
 
 
 	completion_reward = {
+	custom_effect_tooltip = WAF_NUCLEAR_MECHANIC
 
+	custom_effect_tooltip = IF_FINISHED
+	effect_tooltip = {
+	set_technology = { atomic_research = 1 }
+	set_technology = { nuclear_reactor = 1 }
+	set_technology = { nukes = 1 }
+	}
+
+	hidden_effect = { 
+	news_event = { id = newsrw.24 days = 0 }
+	}
 	}
 }
 
@@ -1311,24 +1452,6 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = WAF_Gateway_to_Europe
-	icon = GFX_goal_WAF_Tin_Pot_Despot
-	x = 18
-	y = 7
-
-	cost = 5
-	prerequisite = { focus = WAF_Door_between_Two_Worlds }
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
 	id = WAF_Unify_African_Nationalists
 	icon = GFX_goal_WAF_Tin_Pot_Despot
 	x = 21
@@ -1390,57 +1513,6 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = WAF_Expand_the_Opioid_Production
-	icon = GFX_goal_WAF_Tin_Pot_Despot
-	x = 18
-	y = 8
-
-	cost = 5
-	prerequisite = { focus = WAF_Gateway_to_Europe }
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = WAF_Secure_the_Moroccan_Silk_Route
-	icon = GFX_goal_WAF_Tin_Pot_Despot
-	x = 18
-	y = 9
-
-	cost = 5
-	prerequisite = { focus = WAF_Expand_the_Opioid_Production }
-	available = {
-	MOR = { exists = yes } 
-	WAF = { NOT = { is_in_faction_with = MOR } } 
-	OR = { 
-	MOR = { has_government = communist }
-	MOR = { has_government = revolutionary_socialist }
-	MOR = { has_government = moderate_socialist }
-	MOR = { has_government = new_democrat }
-	MOR = { has_government = fascist }
-	MOR = { has_opinion = {
-    target = WAF
-    value < 0
-}}
-	}
-	}
-
-
-	completion_reward = {
-	create_wargoal = {
-   		 type = puppet_wargoal_focus
-   		 target = MOR
-		}
-	}
-}
-
-shared_focus = {
 	id = WAF_Continental_Ambitions
 	icon = GFX_goal_WAF_Tin_Pot_Despot
 	x = 21
@@ -1460,7 +1532,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WAF_Move_against_Pan_Arabism
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_WAF_against_panarabism
 	x = 24
 	y = 6
 
@@ -1480,7 +1552,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WAF_Operations_in_Algeria
-	icon = GFX_goal_WAF_Tin_Pot_Despot
+	icon = GFX_goal_LBA_Strike_Algeria
 	x = 24
 	y = 7
 
@@ -1510,13 +1582,14 @@ shared_focus = {
 	prerequisite = { focus = WAF_Operations_in_Algeria }
 	available = {
 	CHD = { exists = yes } 
+	CHD = { is_subject = no } 
 	WAF = { is_subject = no } 
 	WAF = { has_capitulated = no } 
 	}
 
 
 	completion_reward = {
-
+		CHD = { country_event = { id = rw_waf.12 days = 1 } }
 	}
 }
 
@@ -1550,14 +1623,28 @@ shared_focus = {
 	cost = 5
 	prerequisite = { focus = WAF_Operations_in_Algeria }
 	available = {
-	UAR = { exists = yes } 
+
 	WAF = { is_subject = no } 
 	WAF = { has_capitulated = no } 
 	WAF = { NOT = { is_in_faction_with = UAR } }
+	WAF = { NOT = { is_in_faction_with = EGY } }
 	}
 
 
 	completion_reward = {
-
+	if = { 
+	limit = { UAR = { exists = yes } }
+	create_wargoal = {
+   		 type = puppet_wargoal_focus
+   		 target = UAR
+		}
+	}
+	if = { 
+	limit = { EGY = { exists = yes } }
+	create_wargoal = {
+   		 type = puppet_wargoal_focus
+   		 target = EGY
+		}
+	}
 	}
 }
