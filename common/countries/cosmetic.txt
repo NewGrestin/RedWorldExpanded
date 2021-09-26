@@ -13,6 +13,11 @@ LBA_Unified_Africa = {
     color_ui = rgb { 0 149 48 }
 }
 
+KEN_EAF = {
+    color = rgb { 58 119 61 }
+    color_ui = rgb { 58 119 61 }
+}
+
 WAF_UNION = {
     color = rgb { 99 150 99 }
     color_ui = rgb { 99 150 99 }

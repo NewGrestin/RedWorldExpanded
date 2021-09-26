@@ -156,6 +156,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "ken_eaf"
+		texturefile = "gfx/event_pictures/news_event/ken_eaf.tga"
+	}
+
+	spriteType = {
 		name = "waf_coup"
 		texturefile = "gfx/event_pictures/news_event/waf_coup.tga"
 	}

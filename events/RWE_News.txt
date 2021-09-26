@@ -570,3 +570,24 @@ news_event = {	#FRA - Frexit
 	}
 
 }
+
+news_event = {	#KEN - East Africa formed
+	id = newsrw.27
+	title = newsrw.27.t
+	desc = newsrw.27.d
+	picture = ken_eaf
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.27.a
+		trigger = { tag = KEN }
+	}
+
+	option = {
+		name = newsrw.27.c
+		trigger = { NOT = { tag = KEN } } 
+	}
+
+}

@@ -236,6 +236,11 @@
   newsrw.24.d:0 "Today, in a publicized announcement to the world, West Africa's tin pot despot, Ibrahim Baré Maïnassara, revealed a truth that shocked the world: the West African Union had developed nuclear capabilities. \n\nAs the shock of the announcement from Niamey has settled, many now wonder how far the capabilities of West Africa can currently go, as Maïnassara did not reveal anything on the Union's rocketry program. Experts currently believe that the Union's nuclear arsenal is still relatively primitive, but could soon become a major threat for Africa, the Middle East and Southern Europe if testing continued. Already, much of the international community has been outraged by West Africa's nuclear announcement, but sanctions have yet to be placed on this new pariah state in the making. \n\nWhatever the international community does, the clock is heading closer to midnight."
   newsrw.24.a:0 "Our words are now backed with nuclear weapons"
   newsrw.24.b:0 "That's what the world needed, another madman with a button!" 
+  newsrw.27.t:0 "East Africa forms Federation"
+  newsrw.27.d:0 "In a joint statement to international presses, both Kenya's [KEN.GetLeader] and Tanzania's [TNZ.GetLeader] announced an end to the long conference between the two nations. The results of this long period of talking: the unification of the two democratic, non-communist nations under the banner of the East African Federation. \n\nBoth Tanzania and Kenya are weird examples of democratic nations in Central-Africa that resisted the communist tide during the Cold War and its aftermath. Yet, while the anti-communist regimes of nations like Central Africa, Burundi and Rwanda aren't known to be shining beacons of democracy, both in Kenya and Tanzania, the established parties were able to keep the communist parties from entering parliament in any meaningfull capacity. With the growing pressure from the communist-dominated African Union and the general tension among the nations of the continent, the East African Federation is very much a decision born out of preservation, as the ever encroaching phantom of communisms continues to be a threat." 
+  newsrw.27.a:0 "A nation build on brotherhood"
+  newsrw.27.c:0 "A new power in Africa?" 
+
 
   ##########################
   # DECISIONS
@@ -310,5 +315,9 @@
   WAF_COLLAPSE_ADJ:0 "Niger" 
 
   WAF_TIT:0 "West African Jamahiriya"
-  WAF_DEF:0 "The Great Sociallist People's West African Jamahiriya"
-  WAF_ADJ:0 "West African"
+  WAF_TIT_DEF:0 "The Great Sociallist People's West African Jamahiriya"
+  WAF_TIT_ADJ:0 "West African"
+
+  KEN_EAF:0 "East African Federation"
+  KEN_EAF_DEF:0 "The East African Federation"
+  KEN_EAF_ADJ:0 "East African" 

@@ -1,0 +1,33 @@
+﻿add_namespace = rw_eaf
+
+#East Africa forms
+country_event = {
+	id = rw_eaf.1
+	title = rw_eaf.1.t
+	desc = rw_eaf.1.d
+	picture = gaddafi_speech
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KEN
+		date > 2011.1.10
+	}
+	
+	option = {
+		name = rw_eaf.1.a
+		set_cosmetic_tag = KEN_EAF
+		annex_country = {
+   		 target = TNZ
+   		 transfer_troops = yes
+		}	
+		every_owned_state = { 
+			limit = { has_core_of = TNZ }
+			add_core_of = KEN
+		}	
+		add_stability = 0.1
+		add_war_support = 0.1
+		news_event = { id = newsrw.27 days = 0 } 	
+	}
+
+}
