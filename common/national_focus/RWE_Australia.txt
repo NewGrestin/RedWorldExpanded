@@ -25,6 +25,141 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = AST_2010_Election_Brown
+		icon = GFX_goal_AST_Brown_2010
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election 
+		}
+		relative_position_id = AST_2010_Election
+		mutually_exclusive = {
+			focus = AST_2010_Election_Abbott
+			focus = AST_2010_Election_Gillard
+			focus = AST_2010_Election_Truss
+		}
+		x = -6
+		y = 1
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Repeal_The_Ban_On_The_ACP
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Brown 
+		}
+		relative_position_id = AST_2010_Election
+		x = -5
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_A_Carbon_Free_Australia
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Repeal_The_Ban_On_The_ACP
+			focus = AST_The_Environment_Protection_Act
+		}
+		relative_position_id = AST_2010_Election
+		x = -5
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_The_Environment_Protection_Act
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Brown 
+		}
+		relative_position_id = AST_2010_Election
+		x = -7
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Reform_The_ASIO
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Repeal_The_Ban_On_The_ACP
+			focus = AST_The_Environment_Protection_Act
+		}
+		relative_position_id = AST_2010_Election
+		x = -7
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_All_For_Australia_And_Australia_For_All
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Reform_The_ASIO
+			focus = AST_A_Carbon_Free_Australia
+		}
+		relative_position_id = AST_2010_Election
+		x = -7
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Looking_Forward
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Reform_The_ASIO
+			focus = AST_A_Carbon_Free_Australia
+		}
+		relative_position_id = AST_2010_Election
+		x = -5
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
     focus = {
 		id = AST_2010_Election_Gillard
 		icon = GFX_goal_AST_Gillard_2010
@@ -36,9 +171,124 @@ focus_tree = {
 		relative_position_id = AST_2010_Election
 		mutually_exclusive = {
 			focus = AST_2010_Election_Abbott
+			focus = AST_2010_Election_Brown
+			focus = AST_2010_Election_Truss
 		}
-		x = -1
+		x = -2
 		y = 1
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_The_Working_Australian
+		icon = GFX_goal_AST_The_Working_Australian
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Gillard
+		}
+		relative_position_id = AST_2010_Election
+		x = -3
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_The_Free_Transport_Act
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_The_Working_Australian
+			focus = AST_Clean_Canberras_Shelves
+		}
+		relative_position_id = AST_2010_Election
+		x = -3
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Expand_Social_Services
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_The_Free_Transport_Act
+			focus = AST_Freedom_Can_Be_Found_Here
+		}
+		relative_position_id = AST_2010_Election
+		x = -3
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Divided_No_More
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_The_Free_Transport_Act
+			focus = AST_Freedom_Can_Be_Found_Here
+		}
+		relative_position_id = AST_2010_Election
+		x = -1
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = AST_Clean_Canberras_Shelves
+		icon = GFX_goal_AST_Clean_Canberras_Shelves
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Gillard
+		}
+		relative_position_id = AST_2010_Election
+		x = -1
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Freedom_Can_Be_Found_Here
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_The_Working_Australian
+			focus = AST_Clean_Canberras_Shelves
+		}
+		relative_position_id = AST_2010_Election
+		x = -1
+		y = 3
 
 		cost = 5
 
@@ -57,8 +307,10 @@ focus_tree = {
 		relative_position_id = AST_2010_Election
 		mutually_exclusive = {
 			focus = AST_2010_Election_Gillard
+			focus = AST_2010_Election_Brown
+			focus = AST_2010_Election_Truss
 		}
-		x = 1
+		x = 2
 		y = 1
 
 		cost = 5
@@ -66,6 +318,256 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = AST_Invite_American_Monopolies
+		icon = GFX_goal_AST_Invite_American_Monopolies
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Abbott
+		}
+		relative_position_id = AST_2010_Election
+		x = 1
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_New_Infrastructure_Projects
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Abbott
+		}
+		relative_position_id = AST_2010_Election
+		x = 3
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Autonomy_Comes_At_A_Cost
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_New_Infrastructure_Projects
+			focus = AST_Invite_American_Monopolies
+		}
+		relative_position_id = AST_2010_Election
+		x = 3
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Safety_Funds
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_New_Infrastructure_Projects
+			focus = AST_Invite_American_Monopolies
+		}
+		relative_position_id = AST_2010_Election
+		x = 1
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Expand_The_Detention_Centres
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Safety_Funds
+			focus = AST_Autonomy_Comes_At_A_Cost
+		}
+		relative_position_id = AST_2010_Election
+		x = 1
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_The_Australian_Dream
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Safety_Funds
+			focus = AST_Autonomy_Comes_At_A_Cost
+		}
+		relative_position_id = AST_2010_Election
+		x = 3
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = AST_2010_Election_Truss
+		icon = GFX_goal_AST_Truss_2010
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election 
+		}
+		relative_position_id = AST_2010_Election
+		mutually_exclusive = {
+			focus = AST_2010_Election_Abbott
+			focus = AST_2010_Election_Gillard
+			focus = AST_2010_Election_Brown
+		}
+		x = 6
+		y = 1
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_No_Sympathy_For_The_Reds
+		icon = GFX_goal_AST_No_Sympathy_For_The_Reds
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Truss
+		}
+		relative_position_id = AST_2010_Election
+		x = 5
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Rural_First
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_2010_Election_Truss
+		}
+		relative_position_id = AST_2010_Election
+		x = 7
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Family_God_And_Nation
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_No_Sympathy_For_The_Reds
+			focus = AST_Rural_First
+		}
+		relative_position_id = AST_2010_Election
+		x = 5
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_Funding_For_Small_Business
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_No_Sympathy_For_The_Reds
+			focus = AST_Rural_First
+		}
+		relative_position_id = AST_2010_Election
+		x = 7
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AST_The_Victoria_Gas_Initiative
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Family_God_And_Nation
+			focus = AST_Funding_For_Small_Business
+		}
+		relative_position_id = AST_2010_Election
+		x = 5
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = AST_Consolidate_Parliament
+		icon = GFX_goal_
+		available = { 
+		}
+		prerequisite = { 
+			focus = AST_Family_God_And_Nation
+			focus = AST_Funding_For_Small_Business
+		}
+		relative_position_id = AST_2010_Election
+		x = 7
+		y = 4
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+}
 	
 	
 

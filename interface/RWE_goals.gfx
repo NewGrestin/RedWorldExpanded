@@ -969,3 +969,40 @@ spriteTypes = {
 		name = "GFX_goal_IRQ_Initiate_Desert_Storm"
 		texturefile = "gfx/interface/goals/IRQ_Initiate_Desert_Storm.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_IRQ_Initiate_Desert_Storm"
+		texturefile = "gfx/interface/goals/IRQ_Initiate_Desert_Storm.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_Brown_2010"
+		texturefile = "gfx/interface/goals/AST_Brown_2010.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_Truss_2010"
+		texturefile = "gfx/interface/goals/AST_Truss_2010.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_The_Working_Australian"
+		texturefile = "gfx/interface/goals/AST_The_Working_Australian.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_Clean_Canberras_Shelves"
+		texturefile = "gfx/interface/goals/AST_Clean_Canberras_Shelves.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_No_Sympathy_For_The_Reds"
+		texturefile = "gfx/interface/goals/AST_No_Sympathy_For_The_Reds.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_AST_Invite_American_Monopolies"
+		texturefile = "gfx/interface/goals/AST_Invite_American_Monopolies.dds"			
+	}
+}
+

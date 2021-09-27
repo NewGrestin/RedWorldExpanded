@@ -17,9 +17,34 @@
   ##########################
 
   AST_2010_Election:0 "The 2010 Election"
-  AST_2010_Election_Gillard:0 "Another Year For Labor"
+  AST_2010_Election_Gillard:0 "The Labor Victory"
   AST_2010_Election_Abbott:0 "The Liberal Victory"
-
+  AST_2010_Election_Brown:0 "The Green Victory"
+  AST_2010_Election_Truss:0 "The National Victory"
+  AST_The_Working_Australian:0 "The Working Australian"
+  AST_The_Free_Transport_Act:0 "The Free Transport Act"
+  AST_Expand_Social_Services:0 "Expand Social Services"
+  AST_Divided_No_More:0 "Divided No More"
+  AST_Clean_Canberras_Shelves:0 "Clean Canberras Shelves"
+  AST_Freedom_Can_Be_Found_Here:0 "Freedom Can Be Found Here"
+  AST_Invite_American_Monopolies:0 "Invite American Media Conglomerates "
+  AST_New_Infrastructure_Projects:0 "New Infrastructure Projects"
+  AST_Autonomy_Comes_At_A_Cost:0 "Autonomy Comes At A Cost"
+  AST_Safety_Funds:0 "Safety Funds"
+  AST_Expand_The_Detention_Centres:0 "Expand The Detention Centres"
+  AST_The_Australian_Dream:0 "The Australian Dream"
+  AST_No_Sympathy_For_The_Reds:0 "No Sympathy For The Reds"
+  AST_Rural_First:0 "Rural First"
+  AST_Family_God_And_Nation:0 "Family God And Nation"
+  AST_Funding_For_Small_Business:0 "Funding For Small Business"
+  AST_The_Victoria_Gas_Initiative:0 "The Victoria Gas Initiative"
+  AST_Consolidate_Parliament:0 "Consolidate Parliament"
+  AST_Repeal_The_Ban_On_The_ACP:0 "Repeal The Ban On The ACP"
+  AST_The_Environment_Protection_Act:0 "The Environment Protection Act"
+  AST_A_Carbon_Free_Australia:0 "A Carbon Free Australia"
+  AST_Reform_The_ASIO:0 "Reform The ASIO"
+  AST_All_For_Australia_And_Australia_For_All:0 "All For Australia And Australia For All"
+  AST_Looking_Forward:0 "Looking Forward"
 
   ##########################
   # IDEAS
