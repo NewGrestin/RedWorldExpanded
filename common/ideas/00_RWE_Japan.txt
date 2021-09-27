@@ -1,0 +1,51 @@
+##################
+# JAPAN IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_JAP_Sick_Democracy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_TEX_Mutilated_Rose
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.15
+			}
+
+		}
+
+		RWE_JAP_Echoes_of_the_Lost_Decade = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_TEX_Mutilated_Rose
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = -0.2
+				production_speed_buildings_factor = -0.3
+			}
+
+		}

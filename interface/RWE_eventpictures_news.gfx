@@ -146,6 +146,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "jap_anthrax_epidemic"
+		texturefile = "gfx/event_pictures/news_event/jap_anthrax_epidemic.tga"
+	}
+
+	spriteType = {
+		name = "jap_fukushima_disaster"
+		texturefile = "gfx/event_pictures/news_event/jap_fukushima_disaster.tga"
+	}
+
+	spriteType = {
 		name = "grl_revolution"
 		texturefile = "gfx/event_pictures/news_event/grl_revolution.tga"
 	}

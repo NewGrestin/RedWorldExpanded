@@ -591,3 +591,24 @@ news_event = {	#KEN - East Africa formed
 	}
 
 }
+
+news_event = {	#JAP - Antrhax Epidemic shakes Japan
+	id = newsrw.35
+	title = newsrw.35.t
+	desc = newsrw.35.d
+	picture = jap_anthrax_epidemic
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.35.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.35.c
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
