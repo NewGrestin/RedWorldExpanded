@@ -86,7 +86,7 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = national_conservative
+	ruling_party = nationalist
 	last_election = "1997.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -98,25 +98,25 @@ add_ideas = {
 	RWE_JAP_Echoes_of_the_Lost_Decade 
 }
 
-set_popularities = { #
-        fascist = 6
-		nationalist = 10
+set_popularities = { #0
+        fascist = 5
+		nationalist = 30
 		monarchist = 13
 		national_bolshevik = 0
-		national_conservative = 30
+		national_conservative = 9
 		centrist = 0
-		liberal = 14
+		liberal = 15
 		new_democrat = 0
-		moderate_socialist = 0
-		revolutionary_socialist = 2
-		communist = 25
+		moderate_socialist = 8
+		revolutionary_socialist = 0
+		communist = 20
 }
 
 create_country_leader = {
 	name = "Toshio Tamogami"
 	desc = "POLITICS_TOSHIO_TAMOGAMI_DESC"
 	picture = "Portrait_JAP_Toshio_Tamogami.dds"
-	ideology = reactionary
+	ideology = nationalist_ideology
 }
 
 create_country_leader = {
@@ -131,11 +131,6 @@ create_country_leader = {
 	ideology = fascist_ideology
 }
 
-create_country_leader = {
-	name = "Shinzo Abe"
-	picture = "Portrait_JAP_Shinzo_Abe.dds"
-	ideology = nationalist_ideology
-}
 
 create_country_leader = {
 	name = "Akihito"

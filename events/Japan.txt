@@ -1,0 +1,265 @@
+﻿add_namespace = rw_jap
+
+#Report on the Shinri Party
+country_event = {
+	id = rw_jap.1
+	title = rw_jap.1.t
+	desc = rw_jap.1.d
+	picture = JAP_Shinri_Party
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2010.5.12
+	}
+	
+	option = {
+		name = rw_jap.1.a
+
+	}
+
+	option = {
+		name = rw_jap.1.b
+
+	}
+}
+
+#Shaky Coalition with Komeito and the NLC
+country_event = {
+	id = rw_jap.2
+	title = rw_jap.2.t
+	desc = rw_jap.2.d
+	picture = x
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2010.1.1
+	}
+	
+	option = {
+		name = rw_jap.2.a
+		add_political_power = -25
+	}
+}
+
+#State visit to Taiwan
+country_event = {
+	id = rw_jap.3
+	title = rw_jap.3.t
+	desc = rw_jap.3.d
+	picture = x
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2010.2.14
+	}
+	
+	option = {
+		name = rw_jap.3.a
+		add_popularity = { ideology = nationalist popularity = -0.02 }
+		add_opinion_modifier = {
+   		 target = CHI
+   		 modifier = recent_actions_positive 
+		}		
+	}
+
+	option = {
+		name = rw_jap.3.b
+		add_popularity = { ideology = nationalist popularity = 0.02 }
+		add_opinion_modifier = {
+   		 target = CHI
+   		 modifier = recent_actions_negative
+		}		
+	}
+}
+
+#The History Books Affair
+country_event = {
+	id = rw_jap.4
+	title = rw_jap.4.t
+	desc = rw_jap.4.d
+	picture = JAP_Books
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2010.6.1
+	}
+	
+	option = {
+		name = rw_jap.4.a
+		add_popularity = { ideology = nationalist popularity = -0.01 }
+		add_stability = 0.03	
+	}
+
+	option = {
+		name = rw_jap.4.b
+		add_popularity = { ideology = nationalist popularity = 0.02 }
+		add_stability = -0.05		
+	}
+}
+
+#Clashing around Senkaku Islands
+country_event = {
+	id = rw_jap.5
+	title = rw_jap.5.t
+	desc = rw_jap.5.d
+	picture = JAP_Islands
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2010.7.20
+	}
+	
+	option = {
+		name = rw_jap.5.a
+		add_popularity = { ideology = nationalist popularity = 0.03 }
+		add_war_support = 0.05
+		add_stability = -0.05
+	}
+
+	option = {
+		name = rw_jap.5.b
+		add_popularity = { ideology = nationalist popularity = -0.03 }
+		add_stability = 0.05	
+	}
+}
+
+#65th Anniversary of Nagasaki
+country_event = {
+	id = rw_jap.6
+	title = rw_jap.6.t
+	desc = rw_jap.6.d
+	picture = JAP_Nuclear
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2010.8.7
+	}
+	
+	option = {
+		name = rw_jap.6.a
+		add_popularity = { ideology = nationalist popularity = 0.01 }
+		add_war_support = -0.05
+	}
+}
+
+#An Accident of Godlike Proportion
+country_event = {
+	id = rw_jap.7
+	title = rw_jap.7.t
+	desc = rw_jap.7.d
+	picture = JAP_Fukushima
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2011.5.11
+	}
+	
+	option = {
+		name = rw_jap.7.a
+		add_popularity = { ideology = nationalist popularity = -0.05 }
+		add_stability = -0.15
+		282 = { damage_building = { type = arms_factory damage = 1 } }
+		282 = { damage_building = { type = industrial_complex damage = 8 } }
+		282 = { damage_building = { type = nuclear_reactor damage = 1 } }
+		282 = { damage_building = { type = infrastructure  damage = 7 } }
+		282 = { add_manpower = -9273 } 
+		hidden_effect = { country_event = { id = rw_jap.8 days = 10 } }
+	}
+}
+
+#Tokyo tap water is contaminated
+country_event = {
+	id = rw_jap.8
+	title = rw_jap.8.t
+	desc = rw_jap.8.d
+	picture = JAP_Tokyo_Tap_Water
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rw_jap.8.a
+		add_popularity = { ideology = nationalist popularity = -0.05 }
+		add_stability = -0.1
+		hidden_effect = { country_event = { id = rw_jap.9 days = 30 } }
+	}
+}
+
+#Government officials "help" 
+country_event = {
+	id = rw_jap.9
+	title = rw_jap.9.t
+	desc = rw_jap.9.d
+	picture = JAP_Blue_Suits
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rw_jap.9.a
+		add_popularity = { ideology = nationalist popularity = -0.05 }
+		hidden_effect = { country_event = { id = rw_jap.10 days = 20 } }
+	}
+}
+
+#Government criticized for slow response
+country_event = {
+	id = rw_jap.10
+	title = rw_jap.10.t
+	desc = rw_jap.10.d
+	picture = JAP_JCP
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rw_jap.10.a
+		add_popularity = { ideology = communist popularity = 0.05 }
+		add_popularity = { ideology = moderate_socialist popularity = 0.05 }
+		hidden_effect = { country_event = { id = rw_jap.11 days = 10 } }
+	}
+}
+
+#Anti-Nuclear protests across Tokyo
+country_event = {
+	id = rw_jap.11
+	title = rw_jap.11.t
+	desc = rw_jap.11.d
+	picture = JAP_Protests
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rw_jap.11.a
+		add_stability = -0.01
+		hidden_effect = { country_event = { id = rw_jap.12 days = 15 } }
+	}
+}
+
+#Tamogami resigns from office
+country_event = {
+	id = rw_jap.12
+	title = rw_jap.12.t
+	desc = rw_jap.12.d
+	picture = JAP_Tamogami
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rw_jap.12.a
+		add_stability = -0.05
+		add_popularity = { ideology = nationalist popularity = 0.03 }
+		hidden_effect = { country_event = { id = rw_jap.13 days = 60 } }
+	}
+}
