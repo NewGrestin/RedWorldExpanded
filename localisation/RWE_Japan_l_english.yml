@@ -1,10 +1,15 @@
 ﻿l_english:
 
+  gunji_otaku:0 "Gunji Otaku"
+
+  ##########################
+  # PARTIES
+  ##########################
+
   JAP_liberal_party:0 "New Liberal Club"
   JAP_liberal_party_long:0 "New Liberal Club"
   JAP_national_conservative_party:0 "Clean Government Party"
   JAP_national_conservative_party_long:0 "Clean Government Party"
-  
 
   ##########################
   # IDEAS
@@ -19,6 +24,18 @@
   # FOCUSES
   ##########################
 
+  JAP_Tamogamis_LDP:0 "Tamogami's Course"
+  JAP_Military_Expansion:0 "Expand the NSDF"
+  JAP_Contest_Pacifist_Sentiment:0 "Counter Opposition Pacifism"
+  JAP_Regional_Cooperation:0 "Close Regional Cooperation"
+  JAP_Picking_up_the_Torch:0 "Fill the Yankee Void"
+  JAP_Kickstart_our_Nuclear_Program:0 "Tokyo's Nuclear Umbrella"
+  JAP_Closer_Ties_to_Taiwan:0 "Support Taiwan"
+  JAP_Coalition_of_the_Brave:0 "Our Coalition of the Brave"
+  JAP_Counter_Chinese_Chauvinism:0 "Against Beying Chauvinism"
+  JAP_Naval_Expansion:0 "Increase the Naval Budget"
+  JAP_Fortify_our_Position:0 "Fortify the Senkaku Islands"
+  JAP_Accord_of_Singapore:0 "Kaghoshima Treaty"
 
   ##########################
   # EVENTS
@@ -64,9 +81,32 @@
   rw_jap.12.t:0 "The End of the Tamogami Era"
   rw_jap.12.d:0 "In a rather emotional public broadcast to the nation, prime minister Toshio Tamogami has revealed his intent to resign as prime minister, believing that he is simply not up to the job to guide the divided nation through the Tohoku disaster effectively. Chained by bureaucracy, factionalism, the National Diet and his own beliefs, Tamogami has stated that someone \"far more capable in the arena of politics and humanitarian relief\" will have to take his position as prime minister, for he can simply not face the crisis Japan is experiencing. \n\nWhile his letter of resignation will still need to be delivered to the Diet, Tamogami's resignation has become the symbolic end of an era for many Japanese people. While it has softened the fall of the LDP in the polls, for many voters do see his resignation as the honourable thing to do, the LDP has fallen so far behind that it realistically cannot catch up any more before 2012. With the end of the Tamogami government comes perhaps also the end of the LDP's story in Japanese politics."
   rw_jap.12.a:0 "Can the party can bounce from this fall?"
-
+  rw_jap.13.t:0 "LDP Leadership Election"
+  rw_jap.13.d:0 "It has been months since the resignation of Tamogami and still, the LDP has yet to appoint a new leader. Several members of the party and government have already come forward, vying for the position of the LDP's leadership. Among these men, three currently stand out. \n\nShigeru Ishiba is the most peculiar politician of the LDP and an important member of the old Tanaka faction. While much of the liberal establishment of the faction has since then defected to the New Liberal Club, Ishiba himself rebranded to fit more in the right-wing LDP. Considered a military geek or \"otaku\" by his peers, Ishiba has been a strong advocate for a Japanese nuclear arsenal and the expansion of the National Defense Force, even copying the old US marines and establishing a specialized Japanese Defensive Marine Force with the task of keeping the islands of Japan safe. While a peculiar man, Ishiba does not enjoy the same popularity among the party as his peers in this race do. \n\nThe second man in the race is Nobuo Kishi, member of the Seiwa Council faction of the LDP and, just like his brother Shinzo Abe, a vehement Japanese nationalist affiliated with Nippon Kaigi. Having served in previous governments, Kishi has the experience needed to be the next LDP leader, yet his views on nuclear weapons and energy and his conservative opinion on the monarchy may hold him back during this election. \n\nThe last man for the job is also the least orthodox of the bunch. Ryuho Okawa, leader of the Happy Science faction of the LDP and the head of the Happy Science religious organization, is for many in the LDP the most dangerous pick to potentially win this race. Leader of a cult of spiritualists and claiming to be the reincarnation of a being known as \"El Cantare\" (which he claims is a number of beings combined, including Hermes and Buddha), Okawa is seen as having too much bagage to be a safe pick for the LDP in an election year. While his views on combatting the demographic problems of Japan are viable, his religion may just be too much for many LDP voters."
+  rw_jap.13.a:0 "Ishiba is the military geek we need!"
+  rw_jap.13.b:0 "Kishi is the safest option we have!"
+  rw_jap.13.c:0 "Okawa may be crazy, but perhaps the LDP does need a miracle!"
+  rw_jap.14.t:0 "Gamble of the Decade"
+  rw_jap.14.d:0 "The LDP seems lost in many ways. Without Tamogami, the party has lost much of what kept it together after the right-wing shift of Shinzo Abe's prime-ministership. Factionalism eats us alive and the opposition knows it. \n\nIn a statement to several Tokyo newspapers, Kazuo Shii made clear that he intended to propose a motion of no confidence later this month. He cited the lack of government ability to contain the disaster in Sendai, the growing instability of the governing coalition and that, in his opinion, the LDP was not long for this world: \n\n\"The Liberal Democrats have lost a piece of their soul with the resignation of Tamogami and are far too busy soul searching for any governing party to allow. As long as the LDP does not know what kind of party it wants to be, the opposition has to save Japan from chaotic government bureaucracy and motion that it has no confidence in the ruling cabinet. It has failed far too many times for the people of Japan to await the election in 2012. Snap elections are needed this year\"."
+  rw_jap.14.a:0 "That snake..."
+  rw_jap.15.t:0 "The Yasukuni Shrine"
+  rw_jap.15.d:0 "Tamogami has, once again, been able to attract all eyes in Japanese politics to him and his controversial actions. This weekend, the prime minister visited the highly controversial Yasukuni shrine, a shinto shrine to all those that served the Emperor of Japan in wars between 1867 to 1951. Among those honoured by the shrine are class A war criminals from the Japanese war in the Pacific during the Second World War, which is the root of most controversies surrounding the shrine. Generally, people do not expect politicians, especially cabinet members, to visit the shrine, as that reflects poorly on Japan's international image. Yet Tamogami, the staunch nationalist and historical revisionist that he is, does not share that concern with most. \n\nThe visit of the PM to the Yasukuni shrine has caused public and international outrage. China, Korea and the ROC all demand an apology from Tamogami, as these countries see the shrine as glorification of Japan's imperial past and the warcrimes committed during it in the name of Japanese imperialism. The opposition has demanded something similair, noting that the visit to the Yasukuni shrine is in poor taste for the PM to do and has tarnished the international image of Japan during a time that closer cooperation is needed. \n\nYet, while they all seek an apology, many LDP voters back Tamogami's visit to the shrine. Not apologizing may be a grand PR stunt for the LDP and would be welcomed by its nationalist electorate."
+  rw_jap.15.a:0 "Yasukuni is a shrine to Japanese sacrifice!"
+  rw_jap.15.b:0 "We shall issue an apology as soon as possible..."
 
   newsrw.35.t:0 "Anthrax Epidemic hits Japan"
   newsrw.35.d:0 "News from Japan has shocked the world and has forced governments across the globe to swiftly react with precautionary measures, as an anthrax epidemic has hit the heart of Japan, Tokyo. Already, 15.200 cases have been reported across the metropolitan area, with another few thousand expected to follow in the coming week. The city council of Tokyo has already responded with a temporary lockdown of the city and affected areas, with hospitals running overtime to combat the infection. \n\nThe cause of the incident is hotly contested at this point in time, with many suspecting it to be a bioterrorist attack against the Japanese state. However, evidence remains scarce currently, with the priority of the government being the finding, containing and treating of the affected. While anthrax isn't as infective as many other infections, people are still advised to not share a space with infected patients."
   newsrw.35.a:0 "Who could have done something this horrible?"
   newsrw.35.b:0 "Tragedy strikes without warning..."
+  newsrw.36.t:0 "The Kaghoshima Treaty"
+  newsrw.36.d:0 "East Asia has been filled with geopolitical tension since the dissolution of the United States of America. Washington's fall left a void in much of the Pacific, one that wasn't simple to quickly fill by any single nation. However, recent development in Japan seems to indicate a return to geopolitical balance in the region. \n\nJapan has always opposed the Chinese People's Republic and its ambitions in Asia. The maoists of Beying have been aggressive and assertive in their foreign policy, often at the expense of other nations. Combine that with the post-USA domino effect that dominated the Pacific and you have a recipe for conflict between Japan's liberal democracy and the communist order. Yet Japan isn't alone in this clash and the treaty of Kaghoshima signed today proves this. Together with other nations across Asia, Japan has formalized a military alliance known as the \"Kaghoshima Accord\" with the expressed goal of containing Chinese revolutionary chauvinism while preserving the current status quo in East Asia. Beying has already criticized the treaty heavily for its anti-Chinese intention and considers it a potential threat to its own sovereignty."
+  newsrw.36.a:0 "Finally, a bloc against China"
+  newsrw.36.b:0 "Asian geopolitics shift towards Tokyo"
+  newsrw.37.t:0 "Vietnam sides with Japan"
+  newsrw.37.d:0 "With the cold war in Asia having gone hot and an armed conflict between the Kaghoshima Accord and China devestating the region, Vietnam has taken the opportunity to side with Japan in its war against Beying, tipping the scales of war in favour of Tokyo. \n\nRelations between China and Vietnam have been rocky at best, hostile in general. The aggressive ambitions of the Chinese Communist Party has often led to a further distance between it and the Vietnamese Communist Party, to the point that the VCP has cut almost all ties with the People's Republic of China, even going so far in recognizing Taiwan. Yet, with war between Japan and the PRC having started, Vietnam has taken the decision to secure the future of the Indochinese revolution once and for all. Joining forces with the Japanese and Taiwan, Vietnam has become a full member of the Kaghoshima Accord and has mobilized its troops to help in the conflict."
+  newsrw.37.a:0 "An unusual ally, but an ally nonetheless!"
+  newsrw.37.b:0 "Vietnam has ditched neutrality"
+  newsrw.38.t:0 "Soviet forces intervene in China"
+  newsrw.38.d:0 "With the People's Republic of China backed into a corner by the Kaghoshima Accord, it finally seems that the Russian bear has taken notice of the quickly changing situation in the Far East. As anti-Chinese forces now occupy the capital of the old communist regime, the Soviet Union has taken action and intervened in the war, occupying parts of Manchuria and Xinjiang and establishing several buffer states between the new, Kaghoshima-backed government of China and itself. \n\nWith a Soviet Republic in both Manchuria and Xinjiang, the Soviet Union has seemingly left the PRC for the dogs. The relationship between the Soviet Union and China had been rather bad since the 70s and the collapse of the United States cemented the Sinno-Soviet split: with no capitalist nation to truly consider a threat, the only real threat remained to Soviet global power remained the Chinese, even despite their bad economic practices. Yet, whatever the case may be for Soviet intervention, one thing is rather clear: Chinese communism is on the brink of collapse."
+  newsrw.38.a:0 "Atleast they keep themselves out of the war"
+  newsrw.38.b:0 "A few more puppets for Moscow to worry about"

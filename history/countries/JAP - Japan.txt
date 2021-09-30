@@ -131,6 +131,11 @@ create_country_leader = {
 	ideology = fascist_ideology
 }
 
+create_country_leader = {
+	name = "Natsuo Yamaguchi"
+	picture = "gfx/leaders/JAP/JAP_Natsuo_Yamaguchi.tga"
+	ideology = reactionary 
+}
 
 create_country_leader = {
 	name = "Akihito"
@@ -151,14 +156,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Banri Kaieda"
-	picture = "Portrait_JAP_Banri_Kaieda.dds"
+	name = "Yukio Edano"
+	picture = "gfx/leaders/JAP/JAP_Yukio_Edano.tga"
 	ideology = social_liberal
 }
 
 create_country_leader = {
-	name = "Yuko Mori"
-	picture = "Portrait_JAP_Yuko_Mori.dds"
+	name = "Mizuho Fukushima"
+	picture = "gfx/leaders/JAP/JAP_Mizuho_Fukushima.tga"
 	ideology = new_democrat_ideology
 }
 

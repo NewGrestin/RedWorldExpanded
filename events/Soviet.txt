@@ -1,0 +1,22 @@
+﻿add_namespace = rwsoviet
+
+#Intervention in China
+country_event = {		
+	id = rwsoviet.1
+	title = rwsoviet.1.t
+	desc = rwsoviet.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { 
+		name = rwsoviet.1.a
+		PRC = { release = SIK } 
+		puppet = SIK
+		SIK = { set_cosmetic_tag = SIK_SOV } 
+		PRC = { release = MAN } 
+		puppet = MAN 
+		MAN = { set_cosmetic_tag = MAN_SOV } 
+	}
+
+}

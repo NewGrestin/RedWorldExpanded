@@ -1,0 +1,247 @@
+focus_tree = {
+	id = japan
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = JAP
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = JAP_Tamogamis_LDP
+	default = no
+}
+
+shared_focus = {
+	id = JAP_Tamogamis_LDP
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 6
+	y = 0
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Military_Expansion
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 3
+	y = 1
+	prerequisite = { focus = JAP_Tamogamis_LDP }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Contest_Pacifist_Sentiment
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 1
+	y = 2
+	prerequisite = { focus = JAP_Military_Expansion }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Regional_Cooperation
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 4
+	y = 2
+	prerequisite = { focus = JAP_Military_Expansion }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Counter_Chinese_Chauvinism
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 2
+	y = 3
+	prerequisite = { focus = JAP_Regional_Cooperation focus = JAP_Contest_Pacifist_Sentiment }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Naval_Expansion
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 0
+	y = 3
+	prerequisite = { focus = JAP_Contest_Pacifist_Sentiment }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Fortify_our_Position
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 2
+	y = 5
+	prerequisite = { focus = JAP_Counter_Chinese_Chauvinism }
+	prerequisite = { focus = JAP_Naval_Expansion }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Closer_Ties_to_Taiwan
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 3
+	y = 4
+	prerequisite = { focus = JAP_Regional_Cooperation }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Picking_up_the_Torch
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 4
+	y = 3
+	prerequisite = { focus = JAP_Regional_Cooperation }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Kickstart_our_Nuclear_Program
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 5
+	y = 4
+	prerequisite = { focus = JAP_Picking_up_the_Torch }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Coalition_of_the_Brave
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 4
+	y = 5
+	prerequisite = { focus = JAP_Kickstart_our_Nuclear_Program }
+	prerequisite = { focus = JAP_Closer_Ties_to_Taiwan }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Accord_of_Singapore
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 3
+	y = 6
+	prerequisite = { focus = JAP_Coalition_of_the_Brave }
+	prerequisite = { focus = JAP_Fortify_our_Position }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}

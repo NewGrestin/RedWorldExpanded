@@ -16,7 +16,7 @@ ideas = {
 				always = yes
 			}
 
-            picture = RWE_TEX_Mutilated_Rose
+            picture = JAP_Ghosts
 			
 			removal_cost = -1
 	
@@ -37,7 +37,7 @@ ideas = {
 				always = yes
 			}
 
-            picture = RWE_TEX_Mutilated_Rose
+            picture = JAP_Lost_Decades
 			
 			removal_cost = -1
 	

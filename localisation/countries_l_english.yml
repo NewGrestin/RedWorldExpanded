@@ -10916,6 +10916,10 @@
  BRK_fascist:0 "Burkina Faso" 
  BRK_fascist_DEF:0 "Burkina Faso" 
  BRK_fascist_ADJ:0 "Burkinese" 
+ MAN:0 "Manchuria"
+ MAN_DEF:0 "Manchuria"
+ MAN_ADJ:0 "Manchurian"
+ 
  
  AZA:0 "Azawagh"
  AZA_DEF:0 "Azawagh"
@@ -10924,3 +10928,11 @@
  MLI:0 "Mali"
  MLI_DEF:0 "The Federation of Mali"
  MLI_ADJ:0 "Malian"
+
+ SIK_SOV:0 "Soviet Republic of Xinjiang"
+ SIK_SOV_DEF:0 "The Soviet Socialist Republic of Xinjiang Province"
+ SIK_ADJ:0 "Xinjiang"
+
+ MAN_SOV:0 "Soviet Republic of Manchuria"
+ MAN_SOV_DEF:0 "The Soviet Socialist Republic of Manchuria"
+ MAN_SOV_ADJ:0 "Manchurian"

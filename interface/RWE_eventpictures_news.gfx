@@ -156,6 +156,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "jap_accord"
+		texturefile = "gfx/event_pictures/news_event/jap_accord.tga"
+	}
+
+	spriteType = {
+		name = "jap_vietnam"
+		texturefile = "gfx/event_pictures/news_event/jap_vietnam.tga"
+	}
+
+	spriteType = {
+		name = "prc_soviet_intervention"
+		texturefile = "gfx/event_pictures/news_event/prc_soviet_intervention.tga"
+	}
+
+	spriteType = {
 		name = "grl_revolution"
 		texturefile = "gfx/event_pictures/news_event/grl_revolution.tga"
 	}

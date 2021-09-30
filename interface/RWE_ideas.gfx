@@ -7,6 +7,16 @@ spriteTypes = {
 		name = "GFX_LIN_Nazbol_Icon"
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
+
+	SpriteType = {
+		name = "GFX_idea_JAP_Lost_Decades"
+		texturefile = "gfx/interface/ideas/JAP_Lost_Decades.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_Ghosts"
+		texturefile = "gfx/interface/ideas/JAP_Ghosts.tga"			
+	}
+
 	SpriteType = {
 		name = "GFX_idea_WAF_Post_Coup_Aftermath"
 		texturefile = "gfx/interface/ideas/WAF_Post_Coup_Confusion.tga"			

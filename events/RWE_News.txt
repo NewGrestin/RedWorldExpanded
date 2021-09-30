@@ -612,3 +612,67 @@ news_event = {	#JAP - Antrhax Epidemic shakes Japan
 	}
 
 }
+
+news_event = {	#JAP - Agreement at Kaghoshima
+	id = newsrw.36
+	title = newsrw.36.t
+	desc = newsrw.36.d
+	picture = jap_accord
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.36.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.36.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
+
+news_event = {	#JAP - Vietnam joins the Chinese invasion
+	id = newsrw.37
+	title = newsrw.37.t
+	desc = newsrw.37.d
+	picture = jap_vietnam
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.37.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.37.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
+
+
+news_event = {	#PRC - Soviets intervene in War
+	id = newsrw.38
+	title = newsrw.38.t
+	desc = newsrw.38.d
+	picture = prc_soviet_intervention
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.38.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.38.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}

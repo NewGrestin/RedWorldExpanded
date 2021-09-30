@@ -261,5 +261,152 @@ country_event = {
 		add_stability = -0.05
 		add_popularity = { ideology = nationalist popularity = 0.03 }
 		hidden_effect = { country_event = { id = rw_jap.13 days = 60 } }
+		hidden_effect = { country_event = { id = rw_jap.14 days = 60 } }
+		retire_country_leader = yes
+		create_country_leader = {
+		name = "No Prime Minister"
+		picture = "gfx/leaders/JAP/JAP_Diet.tga"
+		ideology = nationalist_ideology
+		}
+	}
+}
+
+#LDP picks new leader
+country_event = {
+	id = rw_jap.13
+	title = rw_jap.13.t
+	desc = rw_jap.13.d
+	picture = JAP_Party
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rw_jap.13.a
+		add_popularity = { ideology = nationalist popularity = 0.04 }
+		add_popularity = { ideology = fascist popularity = -0.01 }
+		create_country_leader = {
+		name = "Shiberu Ishiba"
+		picture = "gfx/leaders/JAP/JAP_Shigeru_Ishiba.tga"
+		ideology = nationalist_ideology
+		traits = { gunji_otaku }
+		}
+	}
+
+	option = {
+		name = rw_jap.13.b
+		add_popularity = { ideology = nationalist popularity = 0.07 }
+		add_popularity = { ideology = fascist popularity = 0.02 }
+		create_country_leader = {
+		name = "Nobuo Kishi"
+		picture = "gfx/leaders/JAP/JAP_Nobuo_Kishi.tga"
+		ideology = nationalist_ideology
+		}
+	}
+
+	option = {
+		name = rw_jap.13.c
+		add_popularity = { ideology = nationalist popularity = 0.05 }
+		add_popularity = { ideology = national_conservative popularity = -0.03 }
+		add_stability = -0.03
+		create_country_leader = {
+		name = "Ryuho Okawa"
+		picture = "gfx/leaders/JAP/JAP_Ryuho_Okawa.tga"
+		ideology = nationalist_ideology
+		}
+	}
+}
+
+#Opposition announces intent for MoNC
+country_event = {
+	id = rw_jap.14
+	title = rw_jap.14.t
+	desc = rw_jap.14.d
+	picture = JAP_JCP_2
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rw_jap.14.a
+		add_stability = -0.02
+		add_political_power = -20
+		}
+	}
+
+
+#Visit to the Yasukuni shrine
+country_event = {
+	id = rw_jap.15
+	title = rw_jap.15.t
+	desc = rw_jap.15.d
+	picture = JAP_Shrine
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		date > 2010.8.20
+	}
+	
+	option = {
+		name = rw_jap.15.a
+		add_popularity = { ideology = nationalist popularity = 0.05 }
+		add_opinion_modifier = {
+   		 target = CHI
+   		 modifier = recent_actions_negative
+		}
+		add_opinion_modifier = {
+   		 target = PRK
+   		 modifier = recent_actions_negative
+		}
+		add_opinion_modifier = {
+   		 target = PRC
+   		 modifier = recent_actions_negative
+		}
+	}
+
+	option = {
+		name = rw_jap.15.b
+		add_stability = 0.03
+		add_political_power = 25
+	}
+}
+
+#Kaghoshima Treaty signed
+country_event = {
+	id = rw_jap.16
+	title = rw_jap.16.t
+	desc = rw_jap.16.d
+	picture = JAP_Shrine
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_jap.16.a
+		create_faction = "Kaghoshima Accord"
+		JAP = { add_to_faction = CHI }
+		CHI = { add_ai_strategy = {
+				type = alliance
+				id = "JAP"
+				value = 200
+			}}
+		JAP = { add_to_faction = PHI }
+		PHI = { add_ai_strategy = {
+				type = alliance
+				id = "JAP"
+				value = 200
+			}}	
+		JAP = { add_to_faction = MAY }
+		MAY = { add_ai_strategy = {
+				type = alliance
+				id = "JAP"
+				value = 200
+			}}	
+		JAP = { add_to_faction = SIA }
+		SIA = { add_ai_strategy = {
+				type = alliance
+				id = "JAP"
+				value = 200
+			}}
+		news_event = { id = newsrw.36 days = 0 }
 	}
 }
