@@ -49,3 +49,44 @@ ideas = {
 			}
 
 		}
+
+		RWE_JAP_Tangled_in_Red_Tape = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Bureaucracy
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_factor = -0.25
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.05
+				consumer_goods_factor = 0.05
+			}
+
+		}

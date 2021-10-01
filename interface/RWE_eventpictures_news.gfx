@@ -6,6 +6,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "jap_Beying"
+		texturefile = "gfx/event_pictures/news_event/jap_beying.tga"
+	}
+
+	spriteType = {
+		name = "prc_tokyo"
+		texturefile = "gfx/event_pictures/news_event/prc_tokyo.tga"
+	}
+
+	spriteType = {
+		name = "prc_taipei"
+		texturefile = "gfx/event_pictures/news_event/prc_taipei.tga"
+	}
+
+	spriteType = {
+		name = "prc_sydney"
+		texturefile = "gfx/event_pictures/news_event/prc_sydney.tga"
+	}
+
+	spriteType = {
 		name = "RWE_Namibia_Independence_War"
 		texturefile = "gfx/event_pictures/news_event/RWE_Namibia_Independence_War.dds"
 	}

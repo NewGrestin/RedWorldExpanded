@@ -18,7 +18,7 @@ focus_tree = {
 shared_focus = {
 	id = JAP_Tamogamis_LDP
 	icon = GFX_goal_WAF_An_arab_among_africans
-	x = 6
+	x = 7
 	y = 0
 
 	cost = 5
@@ -189,7 +189,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Kickstart_our_Nuclear_Program
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Nuclear
 	x = 5
 	y = 4
 	prerequisite = { focus = JAP_Picking_up_the_Torch }
@@ -233,6 +233,122 @@ shared_focus = {
 	y = 6
 	prerequisite = { focus = JAP_Coalition_of_the_Brave }
 	prerequisite = { focus = JAP_Fortify_our_Position }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Toshinomics
+	icon = GFX_goal_JAP_Toshinomics
+	x = 7
+	y = 1
+	prerequisite = { focus = JAP_Tamogamis_LDP }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Fukoku_Kyohei
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 6
+	y = 2
+	prerequisite = { focus = JAP_Toshinomics focus = JAP_Military_Expansion }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_In_the_Footsteps_of_Abe
+	icon = GFX_goal_JAP_Abenomics
+	x = 8
+	y = 2
+	prerequisite = { focus = JAP_Toshinomics }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Slash_Rice_Money
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 8
+	y = 3
+	prerequisite = { focus = JAP_In_the_Footsteps_of_Abe }
+	mutually_exclusive = { focus = JAP_Excessive_Public_Investment_Scheme }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Excessive_Public_Investment_Scheme 
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 6
+	y = 3
+	prerequisite = { focus = JAP_Fukoku_Kyohei }
+	mutually_exclusive = { focus = JAP_Slash_Rice_Money }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_A_Fourth_Arrow
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 7
+	y = 4
+	prerequisite = { focus = JAP_Slash_Rice_Money focus = JAP_Excessive_Public_Investment_Scheme }
 	cost = 5
 
 

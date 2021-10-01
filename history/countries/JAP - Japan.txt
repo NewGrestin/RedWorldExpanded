@@ -96,20 +96,22 @@ add_ideas = {
 	idea_jap_akihito
 	RWE_JAP_Sick_Democracy
 	RWE_JAP_Echoes_of_the_Lost_Decade 
+	RWE_JAP_Tangled_in_Red_Tape
+	RWE_JAP_Land_of_the_Rising_Debt
 }
 
-set_popularities = { #0
-        fascist = 5
-		nationalist = 30
-		monarchist = 13
+set_popularities = { 
+        	fascist = 8
+		nationalist = 34
+		monarchist = 0
 		national_bolshevik = 0
 		national_conservative = 9
 		centrist = 0
 		liberal = 15
 		new_democrat = 0
-		moderate_socialist = 8
+		moderate_socialist = 11
 		revolutionary_socialist = 0
-		communist = 20
+		communist = 23
 }
 
 create_country_leader = {

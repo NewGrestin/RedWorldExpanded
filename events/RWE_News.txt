@@ -676,3 +676,164 @@ news_event = {	#PRC - Soviets intervene in War
 	}
 
 }
+
+################
+news_event = {	#The Fall of Beying (Japan)
+	id = newsrw.120
+	title = newsrw.120.t
+	desc = newsrw.120.d
+	picture = jap_Beying
+
+	major = yes
+	
+	trigger = {
+		608 = { is_controlled_by = JAP }
+		608 = { is_owned_by = PRC }
+		JAP = { has_war_with = PRC }
+		NOT = { has_global_flag = fall_of_beying_jap }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_beying_jap
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = newsrw.120.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.120.a
+		trigger = { tag = PRC }
+	}
+
+	option = {
+		name = newsrw.120.b
+		trigger = { NOT = { tag = JAP tag = PRC } } 
+	}
+
+}
+
+news_event = {	#The Fall of Tokyo (PRC)
+	id = newsrw.121
+	title = newsrw.121.t
+	desc = newsrw.121.d
+	picture = prc_tokyo
+
+	major = yes
+	
+	trigger = {
+		282 = { is_controlled_by = PRC }
+		282 = { is_owned_by = JAP }
+		JAP = { has_war_with = PRC }
+		NOT = { has_global_flag = fall_of_tokyo_prc }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_tokyo_prc 
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = newsrw.121.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.121.a
+		trigger = { tag = PRC }
+	}
+
+	option = {
+		name = newsrw.121.b
+		trigger = { NOT = { tag = JAP tag = PRC } } 
+	}
+
+}
+
+news_event = {	#The Fall of Taipei (PRC)
+	id = newsrw.122
+	title = newsrw.122.t
+	desc = newsrw.122.d
+	picture = prc_taipei
+
+	major = yes
+	
+	trigger = {
+		524 = { is_controlled_by = PRC }
+		524 = { is_owned_by = CHI }
+		CHI = { has_war_with = PRC }
+		NOT = { has_global_flag = fall_of_taipei_prc }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_taipei_prc 
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = newsrw.122.a
+		trigger = { tag = CHI }
+	}
+
+	option = {
+		name = newsrw.122.b
+		trigger = { tag = PRC }
+	}
+
+	option = {
+		name = newsrw.122.c
+		trigger = { NOT = { tag = CHI tag = PRC } } 
+	}
+
+}
+
+news_event = {	#The Fall of Sydney (PRC)
+	id = newsrw.123
+	title = newsrw.123.t
+	desc = newsrw.123.d
+	picture = prc_sydney
+
+	major = yes
+	
+	trigger = {
+		285 = { is_controlled_by = PRC }
+		285 = { is_owned_by = AST }
+		AST = { has_war_with = PRC }
+		NOT = { has_global_flag = fall_of_sydney_prc }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_sydney_prc 
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = newsrw.123.a
+		trigger = { tag = AST }
+	}
+
+	option = {
+		name = newsrw.123.b
+		trigger = { tag = PRC }
+	}
+
+	option = {
+		name = newsrw.123.c
+		trigger = { NOT = { tag = AST tag = PRC } } 
+	}
+
+}

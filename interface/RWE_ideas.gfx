@@ -16,6 +16,14 @@ spriteTypes = {
 		name = "GFX_idea_JAP_Ghosts"
 		texturefile = "gfx/interface/ideas/JAP_Ghosts.tga"			
 	}
+	SpriteType = {
+		name = "GFX_idea_JAP_Debt"
+		texturefile = "gfx/interface/ideas/JAP_Debt.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_Bureaucracy"
+		texturefile = "gfx/interface/ideas/JAP_Bureaucracy.tga"			
+	}
 
 	SpriteType = {
 		name = "GFX_idea_WAF_Post_Coup_Aftermath"

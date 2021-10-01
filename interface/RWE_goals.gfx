@@ -1,5 +1,18 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_JAP_Toshinomics"
+		texturefile = "gfx/interface/goals/JAP_Toshinomics.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Nuclear"
+		texturefile = "gfx/interface/goals/JAP_Nuclear.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Abenomics"
+		texturefile = "gfx/interface/goals/JAP_Abenomics.tga"			
+	}
+
+	SpriteType = {
 		name = "GFX_goal_WAF_Tin_Pot_Despot"
 		texturefile = "gfx/interface/goals/WAF_Tin_Pot_Despot.tga"			
 	}
