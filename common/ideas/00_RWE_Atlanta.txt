@@ -1,0 +1,48 @@
+##################
+# ATLANTA/GEORGIA IDEAS
+##################
+
+ideas = {
+	country = {
+		RWE_ATL_Rolling_Thunder = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+				air_mission_efficiency = 0.25
+				air_bombing_targetting = 0.25
+				air_strategic_bomber_attack_factor = 0.25
+			}
+		}
+		RWE_ATL_Federal_Infiltration = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = OKL_Rural_Poverty
+			
+			removal_cost = -1
+	
+			modifier = {
+				defence = -0.25
+			}
+		}
+	}
+}

@@ -680,10 +680,7 @@ country_event = { #American Republic Collapse Test
 			remove_state_core = 369
 			remove_state_core = 362
 			remove_state_core = 1021
-
-			set_cosmetic_tag = USA_AR_Collapse
-
-			load_focus_tree = generic_focus
+			remove_state_core = 365
 		}
 
 		TEX = {
@@ -756,6 +753,11 @@ country_event = { #American Republic Collapse Test
 		NAF = {
 			transfer_state = 1021
 			add_state_core = 1021
+		}
+
+		ATL = {
+			transfer_state = 365
+			add_state_core = 365
 		}
     }
 }

@@ -1,5 +1,10 @@
 #reload countrycolors
 
+ATL = {
+	color = rgb { 56 115 233 }
+	color_ui = rgb { 56 115 233 }
+}
+
 RLN = {
 	color = rgb { 111 168 134 }
 	color_ui = rgb { 164 43 21 }
