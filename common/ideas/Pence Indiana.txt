@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		IND_democratic_influence_purged = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				revolutionary_socialist_drift = -0.05
+				liberal_drift = -0.05
+				national_conservative_drift = -0.05
+				centrist_drift = -0.05
+				new_democrat_drift = -0.05
+			}
+		}
+		IND_greg_the_grand_synod = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		IND_greg_mass_conversions = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}
+	

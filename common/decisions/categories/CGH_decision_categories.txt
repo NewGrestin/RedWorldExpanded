@@ -1,0 +1,12 @@
+CGH_illinois_invasion = {
+    icon = generic_independence
+    visible = {
+		tag = CGH
+	}
+}
+ILL_invasion_of_chicago = {
+    icon = generic_independence
+    visible = {
+		tag = ILL
+	}
+}

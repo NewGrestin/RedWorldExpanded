@@ -1,0 +1,11 @@
+opinion_modifiers = {
+	diplomatic_ties = {
+		value = 50
+	}
+	isolationist_attitude = {
+		value = -10
+	}
+	minor_diplomatic_ties = {
+		value = 10
+	}
+}

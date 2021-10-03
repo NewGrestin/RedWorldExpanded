@@ -523,3 +523,8 @@ SIK_SOV = {
 	color = rgb { 158 0 0 }
 	color_ui = rgb { 193 0 0 }
 }
+
+IND_greg_pence = {
+	color = rgb { 35 34 59 }
+	color_ui = rgb { 35 34 59 }
+}

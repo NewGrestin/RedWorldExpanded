@@ -1,0 +1,81 @@
+add_namespace = IND_greg
+
+country_event = {
+	id = IND_greg.1 #greg pence takes over indiana
+	title = IND_greg.1.t
+	desc = IND_greg.1.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IND_greg.1.o1 #oh no
+	}
+}
+country_event = {
+	id = IND_greg.2 #greg assassinates his brother who is formenting trouble in philly
+	title = IND_greg.2.t
+	desc = IND_greg.2.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IND_greg.2.o1 #lmao cucked
+	}
+}
+country_event = {
+	id = IND_greg.3 #greg purges the shit out of democratic governance
+	title = IND_greg.3.t
+	desc = IND_greg.3.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IND_greg.3.o1 #oh dear
+	}
+}
+country_event = {
+	id = IND_greg.4 #greg becomes president
+	title = IND_greg.4.t
+	desc = IND_greg.4.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IND_greg.4.o1 #gregsident
+	}
+}
+country_event = {
+	id = IND_greg.5 #grand synod established in indiana
+	title = IND_greg.5.t
+	desc = IND_greg.5.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IND_greg.5.o1 #shite
+		add_ideas = IND_greg_the_grand_synod
+	}
+}
+country_event = {
+	id = IND_greg.6 #many catholics invited
+	title = IND_greg.6.t
+	desc = IND_greg.6.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = IND_greg.6.o1 #uvf fucking shaking
+	}
+}

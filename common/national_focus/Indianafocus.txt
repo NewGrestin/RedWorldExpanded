@@ -1,0 +1,362 @@
+focus_tree = {
+	id = IND_fascist_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = IND
+				}
+	}
+	default = no
+	shared_focus = IND_the_grey_phoenix
+	continuous_focus_position = {
+		x = 1000
+		y = 1000
+	}
+}
+# focus_tree = {
+# 	id = IND_democratic_focus
+# 	country = {
+# 		factor = 0
+# 		modifier = {
+# 			add = 20
+# 			tag = IND
+# 				}
+# 	}
+# 	default = no
+# 	shared_focus = IND_the_grey_phoenix
+# }
+
+shared_focus = {
+	id = IND_the_grey_phoenix
+	icon = focus_abolish_wages
+	cost = 1
+	x = 7
+	y = 0
+	completion_reward = {
+		country_event = {
+			id = IND_greg.1
+		}
+	}
+}
+shared_focus = {
+	id = IND_purge_democratic_opposition
+	icon = focus_abolish_wages
+	cost = 2
+
+	prerequisite = {
+		focus = IND_the_grey_phoenix
+	}
+	x = -1
+	y = 1
+	relative_position_id = IND_the_grey_phoenix
+	completion_reward = {
+		country_event = {
+			id = IND_greg.3
+		}
+		add_timed_idea = {
+			idea = IND_democratic_influence_purged
+			days = 20
+		}
+	}
+}
+shared_focus = {
+	id = IND_purge_internal_opposition
+	icon = focus_abolish_wages
+	cost = 2
+
+	prerequisite = {
+		focus = IND_the_grey_phoenix
+	}
+	x = 1
+	y = 1
+	relative_position_id = IND_the_grey_phoenix
+	completion_reward = {
+		country_event = {
+			id = IND_greg.2
+		}
+	}
+}
+shared_focus = {
+	id = IND_the_catholic_republic
+	icon = focus_abolish_wages
+	cost = 1
+
+	prerequisite = {
+		focus = IND_purge_internal_opposition
+	}
+	prerequisite = {
+		focus = IND_purge_democratic_opposition
+	}
+	x = 1
+	y = 1
+	relative_position_id = IND_purge_democratic_opposition
+	completion_reward = {
+		set_cosmetic_tag = IND_HAR
+	}
+}
+shared_focus = {
+	id = IND_a_presidential_executive
+	icon = focus_abolish_wages
+	cost = 4
+
+	prerequisite = {
+		focus = IND_the_catholic_republic
+	}
+	x = -2
+	y = 1
+	relative_position_id = IND_the_catholic_republic
+	completion_reward = {
+		country_event = {
+			id = IND_greg.4
+		}
+	}
+}
+shared_focus = {
+	id = IND_a_grand_synod
+	icon = focus_abolish_wages
+	cost = 4
+
+	prerequisite = {
+		focus = IND_the_catholic_republic
+	}
+	x = 0
+	y = 1
+	relative_position_id = IND_the_catholic_republic
+	completion_reward = {
+		country_event = {
+			id = IND_greg.5
+		}
+	}
+}
+shared_focus = {
+	id = IND_establish_a_war_machine
+	icon = focus_abolish_wages
+	cost = 5
+
+	prerequisite = {
+		focus = IND_the_catholic_republic
+	}
+	x = 2
+	y = 1
+	relative_position_id = IND_the_catholic_republic
+	completion_reward = {
+		396 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = IND_institute_a_controlled_legislature
+	icon = focus_abolish_wages
+	cost = 4
+
+	prerequisite = {
+		focus = IND_a_presidential_executive
+	}
+	prerequisite = {
+		focus = IND_a_grand_synod
+	}
+	x = 1
+	y = 1
+	relative_position_id = IND_a_presidential_executive
+	completion_reward = {
+		set_party_name = {
+			ideology = fascist
+			long_name = "God's Party of America"
+			name = "God's Party of America"
+		}
+		set_party_name = {
+			ideology = nationalist
+			long_name = "Holy Opposition Front"
+			name = "Holy Opposition Front"
+		}
+		set_party_name = {
+			ideology = national_conservative
+			long_name = "New Republican Party"
+			name = "New Republican Party"
+		}
+		set_party_name = {
+			ideology = centrist
+			long_name = "Alliance For A Secular Indiana"
+			name = "Secular Alliance"
+		}
+		set_party_name = {
+			ideology = liberal
+			long_name = "Alliance For A Secular Indiana"
+			name = "Secular Alliance"
+		}
+		set_party_name = {
+			ideology = new_democrat
+			long_name = "Alliance For A Secular Indiana"
+			name = "Secular Alliance"
+		}
+	}
+}
+shared_focus = {
+	id = IND_prioritise_parochial_schooling
+	icon = focus_abolish_wages
+	cost = 5
+
+	prerequisite = {
+		focus = IND_establish_a_war_machine
+	}
+	x = -1
+	y = 1
+	relative_position_id = IND_establish_a_war_machine
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+shared_focus = {
+	id = IND_ban_divorce
+	icon = focus_abolish_wages
+	cost = 5
+
+	prerequisite = {
+		focus = IND_establish_a_war_machine
+	}
+	x = 1
+	y = 1
+	relative_position_id = IND_establish_a_war_machine	
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = IND_prepare_for_the_first_elections
+	icon = focus_abolish_wages
+	cost = 0
+	available = {
+		has_country_flag = the_united_states_are_back
+	}
+	bypass = {
+		has_country_flag = the_united_states_are_back
+	}
+	prerequisite = {
+		focus = IND_institute_a_controlled_legislature
+	}
+	x = -1
+	y = 1
+	relative_position_id = IND_institute_a_controlled_legislature
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = IND_social_benefits_for_converts
+	icon = focus_abolish_wages
+	cost = 5
+
+	prerequisite = {
+		focus = IND_institute_a_controlled_legislature
+	}
+	prerequisite = {
+		focus = IND_prioritise_parochial_schooling
+	}
+	x = 1
+	y = 1
+	relative_position_id = IND_institute_a_controlled_legislature
+	completion_reward = {
+		add_ideas = IND_greg_mass_conversions
+	}
+}
+shared_focus = {
+	id = IND_reinstate_capital_punishment
+	icon = focus_abolish_wages
+	cost = 5
+
+	prerequisite = {
+		focus = IND_ban_divorce
+	}
+	x = -1
+	y = 1
+	relative_position_id = IND_ban_divorce
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = IND_a_holy_hand
+	icon = focus_abolish_wages
+	cost = 5
+	mutually_exclusive = {
+		focus = IND_gods_democracy
+	}
+	prerequisite = {
+		focus = IND_prepare_for_the_first_elections
+	}
+	x = -1
+	y = 1
+	relative_position_id = IND_prepare_for_the_first_elections
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = IND_gods_democracy
+	icon = focus_abolish_wages
+	cost = 5
+	mutually_exclusive = {
+		focus = IND_a_holy_hand
+	}
+	prerequisite = {
+		focus = IND_prepare_for_the_first_elections
+	}
+	x = 1
+	y = 1
+	relative_position_id = IND_prepare_for_the_first_elections
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = IND_invite_international_catholics
+	icon = focus_abolish_wages
+	cost = 5
+	prerequisite = {
+		focus = IND_social_benefits_for_converts
+	}
+	prerequisite = {
+		focus = IND_reinstate_capital_punishment
+	}
+	x = 1
+	y = 1
+	relative_position_id = IND_social_benefits_for_converts
+	completion_reward = {
+		add_manpower = 10000
+		country_event = {
+			id = IND_greg.6
+		}
+	}
+}
+shared_focus = {
+	id = IND_declare_a_holy_war
+	icon = focus_abolish_wages
+	cost = 6
+	available = {
+		has_built = {
+			type = arms_factory
+			value = 6
+		}
+	}
+	prerequisite = {
+		focus = IND_invite_international_catholics
+	}
+	x = 0
+	y = 1
+	relative_position_id = IND_invite_international_catholics
+	completion_reward = {
+		declare_war_on = {
+			target = ILL
+		}
+		declare_war_on = {
+			target = CGH
+		}
+		declare_war_on = {
+			target = OHI
+		}
+		declare_war_on = {
+			target = MCH
+		}
+	}
+}

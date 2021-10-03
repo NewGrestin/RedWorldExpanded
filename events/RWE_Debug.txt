@@ -573,8 +573,12 @@ country_event = { #Super Event Test
 
 		NYS = {
 			transfer_state = 358
+			transfer_state = 1029
 
 			358 = {
+				add_core_of = NYS
+			}
+			1029 = {
 				add_core_of = NYS
 			}
 
@@ -921,5 +925,116 @@ country_event = { #Great African War Test
 			add_to_faction = DRC
 
 		} 
+    }
+}
+
+country_event = { #American Republic Collapse Test
+	id = debug.12
+	title = debug.12.t
+	desc = debug.12.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = debug.12.o1
+		ai_chance = {
+			factor = 100
+		}
+		NEA = {
+			set_party_name = {
+				ideology = national_bolshevik
+				long_name = APC_natbol_military_clique_long
+				name = APC_natbol_military_clique
+			}
+			create_country_leader = {
+				name = "Michael Flynn"
+				ideology = national_bolshevik_ideology
+				picture = "Portrait_Michael_Flynn.dds"
+			}
+			set_politics = {
+				ruling_party = national_bolshevik
+			}
+			set_cosmetic_tag = NEA_Natbol_APC
+		}
+		393 = {
+			add_core_of = MCH
+		}
+		MCH = {
+			transfer_state = 393
+		}
+		261 = {
+			add_core_of = OHI
+		}
+		OHI = {
+			transfer_state = 261
+		}
+		357 = {
+			add_core_of = MAS
+		}
+		795 = {
+			add_core_of = MAS
+		}
+		792 = {
+			add_core_of = MAS
+		}
+		793 = {
+			add_core_of = MAS
+		}
+		794 = {
+			add_core_of = MAS
+		}
+		MAS = {
+			transfer_state = 357
+			transfer_state = 795
+			transfer_state = 792
+			transfer_state = 793
+			transfer_state = 794
+		}
+		395 = {
+			add_core_of = CGH
+		}
+		CGH = {
+			transfer_state = 395
+			transfer_technology = yes
+			set_country_flag = CGH_chicago_free
+			load_oob = CGH_2010
+		}
+		if = {
+			limit = {
+				has_country_flag = the_white_phoenix
+			}
+			396 = {
+				add_core_of = IND
+			}
+			IND = {
+				transfer_state = 396
+				create_country_leader = {
+					name = "Gregory Pence"
+					ideology = fascist_ideology
+					picture = "Portrait_IND_Greg_Pence.dds"
+				}
+				set_politics = {
+					ruling_party = fascist
+				}
+				
+				load_focus_tree = IND_fascist_focus
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = the_white_phoenix
+				}
+			}
+			396 = {
+				add_core_of = IND
+			}
+			IND = {
+				transfer_state = 396
+			}
+		}
     }
 }
