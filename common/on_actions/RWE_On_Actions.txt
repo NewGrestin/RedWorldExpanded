@@ -1,4 +1,12 @@
 on_actions = {
+   on_startup = { 
+     effect = { 
+	every_country = { 
+	set_variable = { OPEC_oil_production = 0.1 }
+	set_variable = { OPEC_unity = 0.05 }
+	}
+     }
+   }
    on_declare_war = {
       effect = {
          if = {

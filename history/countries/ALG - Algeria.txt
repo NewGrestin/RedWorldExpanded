@@ -1,18 +1,13 @@
-﻿capital = 825
+﻿capital = 459
 
-oob = "QAT_2000"
+oob = "ALG_2000"
 
 set_research_slots = 4
 set_convoys = 500
-set_stability = 0.9
+set_stability = 0.7
 set_war_support = 0.1
 
-set_country_flag = was_in_british_empire
 set_country_flag = muslim_nation
-
-add_ideas = {
-	RWE_Gulf_Coast_Alliance
-}
 
 add_dynamic_modifier = { modifier = OPEC }
 
@@ -32,10 +27,10 @@ set_technology = {
 	early_bomber = 1 
 	early_submarine = 1
     transport = 1 
-	paratroopers = 1 
 	interwar_antiair = 1
 	interwar_antitank = 1
 }
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
@@ -83,7 +78,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = revolutionary_socialist
 	last_election = "1997.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -91,64 +86,75 @@ set_politics = {
 
 set_popularities = {
         fascist = 0
-		nationalist = 20
-		monarchist = 20
+		nationalist = 12
+		monarchist = 0
 		national_bolshevik = 0
-		national_conservative = 2
+		national_conservative = 15
 		centrist = 0
-		liberal = 0
-		new_democrat = 22
-		moderate_socialist = 0
-		revolutionary_socialist = 2
-		communist = 34
+		liberal = 3
+		new_democrat = 0
+		moderate_socialist = 20
+		revolutionary_socialist = 40
+		communist = 10
 }
 
 create_country_leader = {
-	name = "Hamad bin Khalifa Al Thani"
-	picture = "Portrait_QAT_Hamad_bin_Khalifa_Al_Thani.dds"
+	name = "Bouguerra Soltani"
+	picture = "Portrait_ALG_Bouguerra_Soltani.dds"
+	ideology = fascist_ideology
+}
+
+create_country_leader = {
+	name = "Abdelaziz Bouteflika"
+	picture = "Portrait_ALG_Abdelaziz_Bouteflika.dds"
+	ideology = nationalist_ideology
+}
+
+create_country_leader = {
+	name = "Khaldoon al-Hassani"
+	picture = "Portrait_ALG_Khaldoon_Al_Hassani.dds"
 	ideology = absolute_monarchist
 }
 
-create_field_marshal = {
-	name = "Ghanem bin Shaheen Al Ghanem"
-	picture = "Portrait_Ghanim_bin_Shaheen_al_Ghanim.dds"
-	traits = { organisational_leader offensive_doctrine }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
+create_country_leader = {
+	name = "Ahmed Choutri"
+	picture = "Portrait_ALG_Ahmed_Choutri.dds"
+	ideology = baathist
 }
 
-create_corps_commander = {
-	name = "Mohammed bin Ali Al Ghanim Al Maadeed"
-	picture = "Portrait_Mohammed_bin_Ali_Al_Ghanim_Al_Maadeed.dds"
-	traits = { trait_engineer fortress_buster }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
+create_country_leader = {
+	name = "Ahmed Ouyahia"
+	picture = "Portrait_ALG_Ahmed_Ouyahia.dds"
+	ideology = reactionary
 }
 
-create_corps_commander = {
-	name = "Abdulaziz Yousus Al Naemi"
-	picture = "Portrait_Abdulaziz_Yousus_Al_Naemi.dds"
-	traits = { commando desert_fox urban_assault_specialist }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+create_country_leader = {
+	name = "Redha Malek"
+	picture = "Portrait_ALG_Redha_Malek.dds"
+	ideology = centrist_ideology
 }
 
-create_navy_leader = {
-	name = "Mohammed Nasser Al Mohannadi"
-	picture = "Portrait_Mohammed_Nasser_al_Mohannadi.dds"
-	traits = { blockade_runner }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	coordination_skill = 1
-	maneuvering_skill = 3
+create_country_leader = {
+	name = "Ali Fawzi Rebaine"
+	picture = "Portrait_ALG_Ali_Fawzi_Rebaine.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Amara Benyounes"
+	picture = "Portrait_ALG_Amara_Benyounes.dds"
+	ideology = new_democrat_ideology
+}
+
+create_country_leader = {
+	name = "Louisa Hanoune"
+	desc = "POLITICS_LOUISA_HANOUNE_DESC"
+	picture = "Portrait_ALG_Louisa_Hanoune.dds"
+	ideology = revolutionary_socialist_ideology
+}
+
+create_country_leader = {
+	name = "Messaoud Belmadani"
+	picture = "Portrait_ALG_Messaoud_Belmadani.dds"
+	ideology = leninist
 }

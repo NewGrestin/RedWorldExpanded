@@ -46,3 +46,15 @@ RWE_Days_of_Rage = {
 
 	priority = 250
 }
+
+RWE_OPEC = {
+    icon = RWE_Days_of_Rage
+
+	picture = GFX_decision_cat_Days_of_Rage_Picture
+
+	allowed = { 
+	has_dynamic_modifier = { modifier = OPEC }
+	}
+
+	priority = 100
+}
