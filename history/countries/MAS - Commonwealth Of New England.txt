@@ -7,6 +7,11 @@ set_convoys = 500
 set_stability = 0.8
 set_war_support = 0.3
 
+add_ideas = {
+	RWE_MAS_return_of_the_massachusetts_machine
+	RWE_MAS_the_sanders_vacuum
+	RWE_MAS_Canadian_Money
+}
 set_technology = {
 	support_weapons = 1
 	infantry_weapons = 1
@@ -96,7 +101,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Joe Kennedy III"
-	picture = "Portrait_MAS_Joe_Kennedy_III.dds"
+	name = "Joe Kennedy II"
+	picture = "Portrait_MAS_Joe_Kennedy_II.dds"
 	ideology = social_liberal
+	desc = MAS_JOE_KENNEDY_II_DESC
 }

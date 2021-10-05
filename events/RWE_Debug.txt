@@ -971,6 +971,12 @@ country_event = { #American Republic Collapse Test
 		OHI = {
 			transfer_state = 261
 		}
+		1029 = {
+			add_core_of = NYC
+		}
+		NYC = {
+			transfer_state = 1029
+		}
 		357 = {
 			add_core_of = MAS
 		}
@@ -992,6 +998,20 @@ country_event = { #American Republic Collapse Test
 			transfer_state = 792
 			transfer_state = 793
 			transfer_state = 794
+		}
+		361 = {
+			add_core_of = WVM
+		}
+		893 = {
+			add_core_of = WVM
+		}
+		902 = {
+			add_core_of = WVM
+		}
+		WVM = {
+			transfer_state = 361
+			transfer_state = 893
+			transfer_state = 902
 		}
 		395 = {
 			add_core_of = CGH

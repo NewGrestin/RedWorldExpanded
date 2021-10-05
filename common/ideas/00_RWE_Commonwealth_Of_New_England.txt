@@ -1,0 +1,70 @@
+##################
+# MAS IDEAS
+##################
+
+ideas = {
+
+	country = {
+		RWE_MAS_return_of_the_massachusetts_machine = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_return_of_the_massachusetts_machine
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = 0.12
+				liberal_drift = 0.2
+				revolutionary_socialist_drift = -0.05
+			}
+		}
+		RWE_MAS_the_sanders_vacuum = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_the_sanders_vacuum
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+
+		RWE_MAS_canadian_money = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_Canadian_Money
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = -0.1
+				political_power_gain = 0.05
+			}
+		}
+	}
+}

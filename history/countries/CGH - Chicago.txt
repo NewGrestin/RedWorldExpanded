@@ -69,7 +69,7 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = nationalist
+	ruling_party = liberal
 	last_election = "1997.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -90,7 +90,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Timothy J. Keating"
-	picture = "Portrait_CHC_Keating.dds"
-	ideology = nationalist_ideology
+	name = "Rahm Emanuel"
+	picture = "Portrait_CGH_Rahm_Emanuel.dds"
+	ideology = liberal_ideology
 }
