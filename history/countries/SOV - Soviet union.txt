@@ -1,0 +1,501 @@
+﻿capital = 219
+
+oob = "SOV_2000"
+
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "SOV_2000_naval_mtg"
+#	else = {
+		set_naval_oob = "SOV_2000_naval_legacy"
+#	}
+#}
+
+add_ideas = {
+    idea_soviet_stagnating_economy
+	idea_soviet_rampant_corruption
+	soviet_sic_gennady_zyuganov
+	soviet_fom_eduard_shevardnadze
+	soviet_ind_dmitry_kozak
+	soviet_nsm_igor_sechin
+	soviet_inm_viktor_chirkov
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+
+	set_autonomy = {
+		target = AFG
+		autonomous_state = autonomy_soviet_satellite
+		freedom_level = 0.75
+	}
+
+	else = {
+		puppet = AFG
+	}
+}
+
+set_research_slots = 4
+set_convoys = 500
+set_stability = 0.7
+set_war_support = 0.1
+
+set_technology = {
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 1 
+	tech_field_hospital = 1 
+	tech_engineers = 1 
+	gwtank = 1 
+	basic_light_tank = 1 
+	gw_artillery = 1 
+	tech_mountaineers = 1
+	early_light_cruiser = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	
+	fighter1 = 1
+	
+	naval_bomber1 = 1
+	
+	cv_naval_bomber1 = 1 
+	early_bomber = 1 
+	early_submarine = 1
+    transport = 1 
+	paratroopers = 1 
+	marines = 1
+	early_destroyer = 1 
+	early_carrier = 1 
+	basic_heavy_tank = 1 
+	atomic_research = 1 
+	nuclear_reactor = 1 
+	nukes = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+set_politics = {
+	ruling_party = communist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 0
+		nationalist = 2
+		monarchist = 0
+		national_bolshevik = 0
+		national_conservative = 1
+		centrist = 10
+		liberal = 0
+		new_democrat = 1
+		moderate_socialist = 0
+		revolutionary_socialist = 24
+		communist = 62
+}
+
+add_opinion_modifier = {
+	target = USA
+	modifier = rival
+}
+
+create_faction = warsaw_pact
+add_to_faction = POL
+add_to_faction = HUN
+add_to_faction = CZE
+add_to_faction = ROM
+add_to_faction = BUL
+add_to_faction = ALB
+add_to_faction = GER
+add_to_faction = ITA
+add_to_faction = FRA
+add_to_faction = BEL
+add_to_faction = HOL
+add_to_faction = LUX
+add_to_faction = AFG
+
+create_country_leader = {
+	name = "Dmitry Yazov"
+	desc = "POLITICS_DMITRY_YAZOV_DESC"
+	picture = "Portrait_SOV_Dimitry_Yazov.dds"
+	ideology = leninist
+}
+
+create_country_leader = {
+	name = "Andrey Savelyev"
+	picture = "Portrait_SOV_Andrey_Savelyev.dds"
+	ideology = fascist_ideology
+}
+
+create_country_leader = {
+	name = "Vladimir Zhirinovsky"
+	picture = "Portrait_SOV_Vladimir_Zhirinovsky.dds"
+	ideology = ultranationalist
+}
+
+create_country_leader = {
+	name = "Dimitri I"
+	picture = "Portrait_SOV_Dimitri_First.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Eduard Limonov"
+	picture = "Portrait_SOV_Eduard_Limonov.dds"
+	ideology = national_bolshevik_ideology
+}
+
+create_country_leader = {
+	name = "Natalia Poklonskaya"
+	picture = "Portrait_SOV_Natalia_Poklonskaya.dds"
+	ideology = fiscal_conservative
+}
+
+create_country_leader = {
+	name = "Vladimir Lukin"
+	picture = "Portrait_SOV_Vladimir_Lukin.dds"
+	ideology = centrist_ideology
+}
+
+create_country_leader = {
+	name = "Sergey Mitrokhin"
+	picture = "Portrait_SOV_Sergey_Mitrokhin.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Sergey Mironov"
+	picture = "Portrait_SOV_Sergey_Mironov.dds"
+	ideology = new_democrat_ideology
+}
+
+create_country_leader = {
+	name = "Gennady Gudkov"
+	picture = "Portrait_SOV_Gennady_Gudkov.dds"
+	ideology = progressive
+}
+
+create_country_leader = {
+	name = "Ivan Melnikov"
+	picture = "Portrait_SOV_Ivan_Melnikov.dds"
+	ideology = revolutionary_socialist_ideology
+}
+
+create_field_marshal = {
+	name = "Sergey Shoigu"
+	picture = "Portrait_Sergey_Shoigu.dds"
+	traits = { old_guard organisational_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Valery Gerasimov"
+	picture = "Portrait_Valery_Gerasimov.dds"
+	traits = { thorough_planner }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Oleg Salyukov"
+	picture = "Portrait_Oleg_Salyukov.dds"
+	traits = { offensive_doctrine }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Andrey Kartapolov"
+	picture = "Portrait_Andrey_Kartapolov.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aleksandr Dvornikov"
+	picture = "Portrait_Alexander_Dvornikov.dds"
+	traits = { ranger }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vladimir Zarudnitsky"
+	picture = "Portrait_Vladimir_Zarudnitsky.dds"
+	traits = { trait_engineer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Aleksandr Chayko"
+	picture = "Portrait_Aleksandr_Chayko.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Andrey Serdyukov"
+	picture = "Portrait_Andrey_Serdyukov.dds"
+	traits = { commando }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vadim Pankov"
+	picture = "Portrait_Vadim_Pankov.dds"
+	traits = { commando }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vladimir Shamanov"
+	picture = "Portrait_Vladimir_Shamanov.dds"
+	traits = { commando }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Viktor Bondarev"
+	picture = "Portrait_Viktor_Bondarev.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Aleksandr Golovko"
+	picture = "Portrait_Aleksandr_Golovko.dds"
+	traits = { ranger }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Sergey Karakaev"
+	picture = "Portrait_Sergey_Karakaev.dds"
+	traits = { fortress_buster }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Aleksandr Kolpachenko"
+	picture = "Portrait_Aleksandr_Kolpachenko.dds"
+	traits = { naval_invader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Aleksandr Fomin"
+	picture = "Portrait_Alexander_Fomin1.dds"
+	traits = { bearer_of_artillery }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Pavel Popov"
+	picture = "Portrait_Pavel_Popov.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Dmitry Bulgakov"
+	picture = "Portrait_Dmitry_Bulgakov.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Igor Jewgenjewitsch Konaschenkow"
+	picture = "Portrait_Igor_Jewgenjewitsch_Konaschenkow.dds"
+	traits = { trickster }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yuryi Sadovenko"
+	picture = "Portrait_Yuryi_Sadovenko.dds"
+	traits = { trait_engineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Vladimir Ivanovich Korolev"
+	picture = "Portrait_Vladimir_Korolev.dds"
+	traits = { old_guard_navy superior_tactician }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	coordination_skill = 3
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Aleksandr Nosatov"
+	picture = "Portrait_Aleksandr_Nosatov.dds"
+	traits = { blockade_runner }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Nikolay Anatolyevich Evmenov"
+	picture = "Portrait_Nikolay_Evmenov.dds"
+	traits = { ironside }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	coordination_skill = 3
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Aleksandr Vitko"
+	picture = "Portrait_Aleksandr_Vitko.dds"
+	traits = { spotter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	coordination_skill = 4
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Sergey Pinchuk"
+	picture = "Portrait_Sergey_Pinchuk.dds"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 1
+}

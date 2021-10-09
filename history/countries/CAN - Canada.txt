@@ -1,0 +1,560 @@
+﻿capital = 276
+
+oob = "CAN_2000"
+
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "CAN_2000_naval_mtg"
+#	else = {
+		set_naval_oob = "CAN_2000_naval_legacy"
+#	}
+#}
+
+set_research_slots = 4
+set_convoys = 500
+set_stability = 0.8
+set_war_support = 0.3
+
+set_country_flag = was_in_british_empire
+set_country_flag = catholic_nation
+
+add_ideas = {
+    canada_sic_stephen_harper
+	canada_fom_robert_nicholson
+	canada_ind_bernard_valcourt
+	canada_nsm_christopher_alexander
+	canada_inm_david_vigneault
+}
+
+set_technology = {
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 1 
+	tech_field_hospital = 1 
+	tech_engineers = 1 
+	gwtank = 1 
+	basic_light_tank = 1 
+	gw_artillery = 1 
+	tech_mountaineers = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	
+	fighter1 = 1
+	
+	naval_bomber1 = 1
+	
+	cv_naval_bomber1 = 1 
+	early_bomber = 1  
+	paratroopers = 1 
+	marines = 1
+	basic_heavy_tank = 1 
+	atomic_research = 1 
+	nuclear_reactor = 1 
+	nukes = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+set_politics = {
+	ruling_party = national_conservative
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 3
+		nationalist = 11
+		monarchist = 9
+		national_bolshevik = 0
+		national_conservative = 38
+		centrist = 2
+		liberal = 18
+		new_democrat = 14
+		moderate_socialist = 3
+		revolutionary_socialist = 2 
+		communist = 0
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+
+	set_autonomy = {
+		target = ALA
+		autonomous_state = autonomy_dependency
+		freedom_level = 0.75
+	}
+
+	else = {
+		puppet = ALA
+	}
+}
+
+ALA = {
+	set_popularities = {
+        fascist = 0
+		nationalist = 0
+		monarchist = 0
+		national_bolshevik = 0
+		national_conservative = 35
+		centrist = 45
+		liberal = 0
+		new_democrat = 12
+		moderate_socialist = 0
+		revolutionary_socialist = 8
+		communist = 0
+	}
+
+set_politics = {
+	ruling_party = national_conservative
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+create_faction = democratic_league
+add_to_faction = ALA
+add_to_faction = AST
+add_to_faction = HAW
+
+create_country_leader = {
+	name = "Preston Manning"
+	desc = "POLITICS_PRESTON_MANNING_DESC"
+	picture = "Portrait_CAN_Preston_Manning.dds"
+	ideology = fiscal_conservative
+}
+
+create_country_leader = {
+	name = "Stockwell Day"
+	picture = "Portrait_CAN_Stockwell_Day.dds"
+	ideology = fascist_ideology
+}
+
+create_country_leader = {
+	name = "Stephen Harper"
+	picture = "Portrait_CAN_Stephen_Harper.dds"
+	ideology = nationalist_ideology
+}
+
+create_country_leader = {
+	name = "Michaelle Jean"
+	picture = "Portrait_CAN_Michaelle_Jean.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Kimball Cariou"
+	picture = "Portrait_CAN_Kimball_Cariou.dds"
+	ideology = national_bolshevik_ideology
+}
+
+create_country_leader = {
+	name = "Michael Ignatieff"
+	picture = "Portrait_CAN_Michael_Ignatieff.dds"
+	ideology = centrist_populist
+}
+
+create_country_leader = {
+	name = "Bob Rae"
+	picture = "Portrait_CAN_Bob_Rae.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Richard Cannings"
+	picture = "Portrait_CAN_Richard_Cannings.dds"
+	ideology = new_democrat_ideology
+}
+
+create_country_leader = {
+	name = "Jack Layton"
+	picture = "Portrait_CAN_Jack_Layton.dds"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+	name = "Richard J.F. Day"
+	picture = "Portrait_CAN_Richard_J_F_Day.dds"
+	ideology = american_revolutionary_socialism
+}
+
+create_country_leader = {
+	name = "Miguel Figueroa"
+	picture = "Portrait_CAN_Miguel_Figueroa.dds"
+	ideology = leninist
+}
+
+create_field_marshal = {
+	name = "Rick J. Hillier"
+	picture = "Portrait_Rick_Hillier.dds"
+	traits = { inspirational_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Walter Natynczyk"
+	picture = "Portrait_Walter_Natynczyk.dds"
+	traits = { thorough_planner }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Jonathan Vance"
+	picture = "Portrait_Jonathan_Vance.dds"
+	traits = { trait_reckless }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Marquis Hainse"
+	picture = "Portrait_Marquis_Hainse.dds"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Jan Arp"
+	picture = "Portrait_Jan_Arp.dds"
+	traits = { expert_delegator }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Peter Devlin"
+	picture = "Portrait_Peter_Devlin.dds"
+	traits = { combined_arms_expert }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jean-Marc Lanthier"
+	picture = "Portrait_Jean_Marc_Lanthier.dds"
+	traits = { armor_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wayne Eyre"
+	picture = "Portrait_Wayne_Eyre.dds"
+	traits = { combined_arms_expert ranger }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Guy Thibault"
+	picture = "Portrait_Guy_Thibault.dds"
+	traits = { urban_assault_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alain Parent"
+	picture = "Portrait_Alain_Parent.dds"
+	traits = { trait_cautious }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Frances J. Allen"
+	picture = "Portrait_Frances_J_Allen.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Andrew Leslie"
+	picture = "Portrait_Andrew_Leslie.dds"
+	traits = { swamp_fox }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jennie Carignan"
+	picture = "Portrait_Jennie_Carignan.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Alain Forand"
+	picture = "Portrait_Alain_Forand.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Dany Fortin"
+	picture = "Portrait_Dany_Fortin.dds"
+	traits = { winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Derek A. Macaulay"
+	picture = "Portrait_Derek_Macauley.dds"
+	traits = { fortress_buster }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Anthony Stack"
+	picture = "Portrait_Anthony_Stack.dds"
+	traits = { ranger }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Sébastien Bouchard"
+	picture = "Portrait_Sébastien_Bouchard.dds"
+	traits = { armor_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Daniel Ménard"
+	picture = "Portrait_Daniel_Ménard.dds"
+	traits = { trait_reckless }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Colin Keiver"
+	picture = "Portrait_Colin_Keiver.dds"
+	traits = { trait_cautious }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "William Truelove"
+	picture = "Portrait_Bill_Truelove.dds"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	coordination_skill = 2
+	maneuvering_skill = 1
+}
+
+create_navy_leader = {
+	name = "Craig Baines"
+	picture = "Portrait_Craig_Baines.dds"
+	traits = { superior_tactician }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	coordination_skill = 3
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Art McDonald"
+	picture = "Portrait_Art_MacDonald.dds"
+	traits = { blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	coordination_skill = 2
+	maneuvering_skill = 3
+}
+
+create_navy_leader = {
+	name = "Bruce Donaldson"
+	picture = "Portrait_Bruce_Donaldson.dds"
+	traits = { spotter }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	coordination_skill = 1
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Jennifer Bennett"
+	picture = "Portrait_Jennifer_Bennett.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 1
+}
+
+create_navy_leader = {
+	name = "Scott Bishop"
+	picture = "Portrait_Scott_Bishop.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	coordination_skill = 2
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Gilles Couturier"
+	picture = "Portrait_Gilles_Couturier.dds"
+	traits = { ironside }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	coordination_skill = 1
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Darren Hawco"
+	picture = "Portrait_Darren_Hawco.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	coordination_skill = 3
+	maneuvering_skill = 2
+}
+
+create_navy_leader = {
+	name = "Bob Auchterlonie"
+	picture = "Portrait_Bob_Auchterlonie.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	coordination_skill = 1
+	maneuvering_skill = 1
+}

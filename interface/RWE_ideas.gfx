@@ -293,4 +293,52 @@ spriteTypes = {
 		name = "GFX_idea_RWE_SAF_Under_The_Shield_Of_The_Atom"
 		texturefile = "gfx/interface/ideas/RWE_SAF_Under_The_Shield_Of_The_Atom.png"	  		
 	}
+	spriteType = {
+		name = "GFX_idea_yugoslav_model"
+		textureFile = "gfx/interface/ideas/YUG/yugoslav_model.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yug_slavic_unity_critical_low"
+		textureFile = "gfx/interface/ideas/yug_slavic_unity_critical_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yug_slavic_unity_low"
+		textureFile = "gfx/interface/ideas/yug_slavic_unity_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yug_slavic_unity_moderate"
+		textureFile = "gfx/interface/ideas/yug_slavic_unity_moderate.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yug_slavic_unity_high"
+		textureFile = "gfx/interface/ideas/yug_slavic_unity_high.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yug_floundering_economy"
+		textureFile = "gfx/interface/ideas/yug_floundering_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yug_serbianization"
+		textureFile = "gfx/interface/ideas/yug_serbianization.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_America_Arizona_Hoover_Dam"
+		textureFile = "gfx/interface/ideas/RWE_America_Arizona_Hoover_Dam.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_America_UAPR_Hoover_Dam"
+		textureFile = "gfx/interface/ideas/RWE_UAPR_Arizona_Hoover_Dam.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Arizona_Red_Scare"
+		textureFile = "gfx/interface/ideas/RWE_Arizona_Red_Scare.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Arizona_National_Guard"
+		textureFile = "gfx/interface/ideas/RWE_Arizona_National_Guard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Arizona_Mexicanification"
+		textureFile = "gfx/interface/ideas/RWE_Arizona_Mexicanification.dds"
+	}
 } 

@@ -96,5 +96,117 @@ ideas = {
 				resistance_decay_on_our_occupied_states = 0.25
 			}
 		}
+
+		RWE_America_Arizona_Hoover_Dam = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_America_Shattered_Ambition
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				production_speed_infrastructure_factor = 0.25  
+			}
+		}
+
+		RWE_America_UAPR_Hoover_Dam = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_America_UAPR_Hoover_Dam
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				production_speed_infrastructure_factor = 0.25  
+			}
+		}
+
+		RWE_Arizona_Red_Scare = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Arizona_Red_Scare
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				revolutionary_socialist_drift = -0.05
+				communist_drift = -0.05
+			}
+
+			targeted_modifier = {
+				tag = PCA
+				defense_bonus_against = 0.15
+			}
+		}
+
+		RWE_Arizona_National_Guard = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Arizona_National_Guard
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.05
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		RWE_Arizona_Mexicanification = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Arizona_Mexicanification
+			
+			removal_cost = -1
+	
+			targeted_modifier = {
+				tag = MEX
+				trade_cost_for_target_factor = -0.5
+				cic_to_target_factor = 0.05
+			}
+		}
 	}
 }

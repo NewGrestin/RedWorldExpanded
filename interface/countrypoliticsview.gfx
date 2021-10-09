@@ -708,6 +708,31 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_kmt_fr"
+		texturefile = "gfx/interface/ideologies/kmt_fr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_kmt_chiang"
+		texturefile = "gfx/interface/ideologies/kmt_chiang.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_kmt_center"
+		texturefile = "gfx/interface/ideologies/kmt_center.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_kmt_l"
+		texturefile = "gfx/interface/ideologies/kmt_l.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_kmt_funny"
+		texturefile = "gfx/interface/ideologies/kmt_funny.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
 		legacy_lazy_load = no

@@ -12,6 +12,9 @@ set_country_flag = muslim_nation
 add_ideas = {
 	RWE_Taliban_Insurgency
 }
+SOV = {
+	puppet = AFG
+}
 
 set_technology = {
     support_weapons = 1

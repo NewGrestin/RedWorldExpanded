@@ -677,6 +677,90 @@ news_event = {	#PRC - Soviets intervene in War
 
 }
 
+news_event = {	#Yugoslavia - Kosovar Crisis
+	id = newsrw.39
+	title = newsrw.39.t
+	desc = newsrw.39.d
+	picture = RWE_YUG_Kosovar_Crisis
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.39.a
+	}
+}
+
+news_event = {	#Yugoslavia - Mladić Coup
+	id = newsrw.40
+	title = newsrw.40.t
+	desc = newsrw.40.d
+	picture = RWE_YUG_Mladic_Coup
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.40.a
+	}
+}
+
+news_event = {	#Yugoslavia - Bosnian Conflict
+	id = newsrw.41
+	title = newsrw.41.t
+	desc = newsrw.41.d
+	picture = RWE_RWE_YUG_Bosnian_Conflict
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.41.a
+	}
+}
+
+news_event = {	#Yugoslavia - Vojvodina Breaks Free
+	id = newsrw.42
+	title = newsrw.42.t
+	desc = newsrw.42.d
+	picture = RWE_YUG_Vojvodina_Conflict
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.42.a
+	}
+}
+
+news_event = {	#Yugoslavia - Serbian Civil War
+	id = newsrw.43
+	title = newsrw.43.t
+	desc = newsrw.43.d
+	picture = RWE_YUG_Serbian_War
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.43.a
+	}
+}
+
+news_event = {	#Yugoslavia - Warsaw Pact Intervention
+	id = newsrw.44
+	title = newsrw.44.t
+	desc = newsrw.44.d
+	picture = RWE_YUG_Serbian_War
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.44.a
+	}
+}
+
 ################
 news_event = {	#The Fall of Beying (Japan)
 	id = newsrw.120

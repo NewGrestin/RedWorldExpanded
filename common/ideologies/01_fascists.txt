@@ -30,6 +30,9 @@ ideologies = {
 			
 			jihadist = {				
 			}
+
+			kmt_fr = {				
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -52,6 +55,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
+			can_join_factions = no
 		}
 		
 		modifiers = {

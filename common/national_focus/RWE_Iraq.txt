@@ -1562,7 +1562,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_Baathist_Takeover
 		icon = focus_baath_victory
-		x = 16
+		x = 22
 		y = 0
 
 		cost = 3
@@ -1571,6 +1571,1661 @@ focus_tree = {
 
 		available = {	
 			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Assassinate_Uday
+		icon = focus_baath_victory
+		x = 21
+		y = 1
+
+		cost = 3
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baathist_Takeover
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Retire_Saddam
+		icon = focus_baath_victory
+		x = 23
+		y = 1
+
+		cost = 3
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baathist_Takeover
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Revive_Left_Ideas
+		icon = focus_baath_victory
+		x = 20
+		y = 2
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Assassinate_Uday
+		}
+
+		prerequisite = {
+			focus = IRQ_Retire_Saddam
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Pan_Arabism
+		icon = focus_baath_victory
+		x = 22
+		y = 2
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Assassinate_Uday
+		}
+
+		prerequisite = {
+			focus = IRQ_Retire_Saddam
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Enforce_National_Unity
+		icon = focus_baath_victory
+		x = 24
+		y = 2
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Assassinate_Uday
+		}
+
+		prerequisite = {
+			focus = IRQ_Retire_Saddam
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Align_Syria
+		icon = focus_baath_victory
+		x = 19
+		y = 3
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Baath_Leadership
+		}
+
+		prerequisite = {
+			focus = IRQ_Revive_Left_Ideas
+		}
+
+		prerequisite = {
+			focus = IRQ_Pan_Arabism
+		}
+
+		prerequisite = {
+			focus = IRQ_Enforce_National_Unity
+		}
+
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Leadership
+		icon = focus_baath_victory
+		x = 21
+		y = 3
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Align_Syria
+		}
+
+		prerequisite = {
+			focus = IRQ_Revive_Left_Ideas
+		}
+
+		prerequisite = {
+			focus = IRQ_Pan_Arabism
+		}
+
+		prerequisite = {
+			focus = IRQ_Enforce_National_Unity
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Palestine
+		icon = focus_baath_victory
+		x = 23
+		y = 3
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_No_Baath_Palestine
+		}
+
+		prerequisite = {
+			focus = IRQ_Revive_Left_Ideas
+		}
+
+		prerequisite = {
+			focus = IRQ_Pan_Arabism
+		}
+
+		prerequisite = {
+			focus = IRQ_Enforce_National_Unity
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_No_Baath_Palestine
+		icon = focus_baath_victory
+		x = 25
+		y = 3
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Baath_Palestine
+		}
+
+		prerequisite = {
+			focus = IRQ_Revive_Left_Ideas
+		}
+
+		prerequisite = {
+			focus = IRQ_Pan_Arabism
+		}
+
+		prerequisite = {
+			focus = IRQ_Enforce_National_Unity
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Campaign
+		icon = focus_baath_victory
+		x = 22
+		y = 4
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Align_Syria
+			focus = IRQ_Baath_Leadership
+			focus = IRQ_Baath_Palestine
+			focus = IRQ_No_Baath_Palestine
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Politics
+		icon = focus_baath_victory
+		x = 17
+		y = 5
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Campaign
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Expansion
+		icon = focus_baath_victory
+		x = 22
+		y = 5
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Campaign
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Development
+		icon = focus_baath_victory
+		x = 27
+		y = 5
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Campaign
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Izzat_Remains
+		icon = focus_baath_victory
+		x = 15
+		y = 6
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Politics
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Salem_Leader
+		icon = focus_baath_victory
+		x = 17
+		y = 6
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Politics
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Assad_Leader
+		icon = focus_baath_victory
+		x = 19
+		y = 6
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Politics
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Party_Stratocracy
+		icon = focus_baath_victory
+		x = 15
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Izzat_Remains
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Party_Military_Emphasis
+		icon = focus_baath_victory
+		x = 15
+		y = 8
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Party_Stratocracy
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Party_Military_Constitution
+		icon = focus_baath_victory
+		x = 15
+		y = 9
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Party_Military_Emphasis
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Salem_Ethnic_Pluralism
+		icon = focus_baath_victory
+		x = 17
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Salem_Leader
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Salem_Palestine_Model
+		icon = focus_baath_victory
+		x = 17
+		y = 8
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Salem_Ethnic_Pluralism
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Salem_Rehabilitate_Saddam
+		icon = focus_baath_victory
+		x = 17
+		y = 9
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Salem_Palestine_Model
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Assad_Consolidation
+		icon = focus_baath_victory
+		x = 19
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Assad_Leader
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Assad_Integrate_Family
+		icon = focus_baath_victory
+		x = 19
+		y = 8
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Assad_Consolidation
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Assad_Military_Loyalists
+		icon = focus_baath_victory
+		x = 19
+		y = 9
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Assad_Integrate_Family
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Party_Consolidated
+		icon = focus_baath_victory
+		x = 16
+		y = 10
+
+		cost = 8
+
+		mutually_exclusive = {
+			focus = IRQ_Baath_Party_Fake_Opposition
+		}
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Party_Military_Constitution
+			focus = IRQ_Baath_Salem_Rehabilitate_Saddam
+			focus = IRQ_Baath_Assad_Military_Loyalists
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Baath_Party_Fake_Opposition
+		icon = focus_baath_victory
+		x = 18
+		y = 10
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Baath_Party_Consolidated
+		}
+
+		prerequisite = {
+			focus = IRQ_Baath_Party_Military_Constitution
+			focus = IRQ_Baath_Salem_Rehabilitate_Saddam
+			focus = IRQ_Baath_Assad_Military_Loyalists
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Central_Arabia_Campaign
+		icon = focus_baath_victory
+		x = 21
+		y = 6
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Expansion
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_South_Arabia_Campaign
+		icon = focus_baath_victory
+		x = 23
+		y = 6
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Expansion
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Attack_Egypt
+		icon = focus_baath_victory
+		x = 21
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Central_Arabia_Campaign
+		}
+
+		prerequisite = {
+			focus = IRQ_South_Arabia_Campaign
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Attack_UAR
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Attack_UAR
+		icon = focus_baath_victory
+		x = 23
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Attack_Egypt
+		}
+
+		prerequisite = {
+			focus = IRQ_Central_Arabia_Campaign
+		}
+
+		prerequisite = {
+			focus = IRQ_South_Arabia_Campaign
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Core_Arabia
+		icon = focus_baath_victory
+		x = 22
+		y = 8
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Attack_Egypt
+			focus = IRQ_Attack_UAR
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	focus = {
+		id = IRQ_Claim_Maghreb
+		icon = focus_baath_victory
+		x = 21
+		y = 9
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Core_Arabia
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Core_Khuzestan
+		icon = focus_baath_victory
+		x = 23
+		y = 9
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Core_Arabia
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Revolution_Realized
+		icon = focus_baath_victory
+		x = 22
+		y = 10
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Claim_Maghreb
+		}
+
+		prerequisite = {
+			focus = IRQ_Core_Khuzestan
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Autarky
+		icon = focus_baath_victory
+		x = 26
+		y = 6
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Development
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Autarky2
+		icon = focus_baath_victory
+		x = 28
+		y = 6
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Baath_Development
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Arab_Socialism
+		icon = focus_baath_victory
+		x = 25
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Autarky
+			focus = IRQ_Autarky2
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Support_Clergy
+		icon = focus_baath_victory
+		x = 27
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Autarky
+			focus = IRQ_Autarky2
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Economic_Development
+		icon = focus_baath_victory
+		x = 29
+		y = 7
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Autarky
+			focus = IRQ_Autarky2
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Unified_Arab_Currency
+		icon = focus_baath_victory
+		x = 26
+		y = 8
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Maintain_Provincial_Currency
+		}
+
+		prerequisite = {
+			focus = IRQ_Arab_Socialism
+			focus = IRQ_Support_Clergy
+			focus = IRQ_Economic_Development
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Maintain_Provincial_Currency
+		icon = focus_baath_victory
+		x = 28
+		y = 8
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Unified_Arab_Currency
+		}
+
+		prerequisite = {
+			focus = IRQ_Arab_Socialism
+			focus = IRQ_Support_Clergy
+			focus = IRQ_Economic_Development
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Full_State_Control
+		icon = focus_baath_victory
+		x = 25
+		y = 9
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Limited_State_Control
+			focus = IRQ_Free_Market
+		}
+
+		prerequisite = {
+			focus = IRQ_Unified_Arab_Currency
+			focus = IRQ_Maintain_Provincial_Currency
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Limited_State_Control
+		icon = focus_baath_victory
+		x = 27
+		y = 9
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		mutually_exclusive = {
+			focus = IRQ_Full_State_Control
+			focus = IRQ_Free_Market
+		}
+
+		prerequisite = {
+			focus = IRQ_Unified_Arab_Currency
+			focus = IRQ_Maintain_Provincial_Currency
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Free_Market
+		icon = focus_baath_victory
+		x = 29
+		y = 9
+
+		cost = 8
+		
+		mutually_exclusive = {
+			focus = IRQ_Full_State_Control
+			focus = IRQ_Limited_State_Control
+		}
+
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Unified_Arab_Currency
+			focus = IRQ_Maintain_Provincial_Currency
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Industrialization
+		icon = focus_baath_victory
+		x = 27
+		y = 10
+
+		cost = 8
+
+		cancel_if_invalid = yes
+
+		prerequisite = {
+			focus = IRQ_Full_State_Control
+			focus = IRQ_Limited_State_Control
+			focus = IRQ_Free_Market
+		}
+
+		available = {	
+			has_government = national_bolshevik
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Popular_Revolution
+		icon = focus_syria_local_elections
+		x = 39
+		y = 0
+
+		cost = 3
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			has_government = liberal
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Truth_and_Reconciliation
+		icon = ethiopia_allow_autonomy
+		x = 39
+		y = 1
+
+		prerequisite = {
+			focus = IRQ_Popular_Revolution
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Saddam_Trial
+		icon = arrest_derg_members
+		x = 36
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_Truth_and_Reconciliation
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Purge_Military
+		icon = arrest_derg_members
+		x = 38
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_Truth_and_Reconciliation
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Dont_Purge_Military
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Dont_Purge_Military
+		icon = arrest_derg_members
+		x = 40
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_Truth_and_Reconciliation
+		}
+
+		mutually_exclusive = {
+			focus = IRQ_Purge_Military
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Kill_Uday
+		icon = arrest_derg_members
+		x = 42
+		y = 2
+
+		prerequisite = {
+			focus = IRQ_Truth_and_Reconciliation
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Free_Elections
+		icon = laws
+		x = 39
+		y = 3
+
+		prerequisite = {
+			focus = IRQ_Saddam_Trial
+		}
+
+		prerequisite = {
+			focus = IRQ_Purge_Military
+			focus = IRQ_Dont_Purge_Military
+		}
+
+		prerequisite = {
+			focus = IRQ_Kill_Uday
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Communists_Elected
+		icon = focus_ideology_communist
+		x = 33
+		y = 4
+
+		prerequisite = {
+			focus = IRQ_Free_Elections
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_SuccDems_Elected
+		icon = focus_ideology_new_democrat
+		x = 37
+		y = 4
+
+		prerequisite = {
+			focus = IRQ_Free_Elections
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Progressives_Elected
+		icon = focus_ideology_liberal
+		x = 41
+		y = 4
+
+		prerequisite = {
+			focus = IRQ_Free_Elections
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Conservatives_Elected
+		icon = focus_ideology_national_conservative
+		x = 45
+		y = 4
+
+		prerequisite = {
+			focus = IRQ_Free_Elections
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Worker_Councils
+		icon = communists_marching
+		x = 31
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Communists_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Ethnic_Solidarity
+		icon = communists_marching
+		x = 33
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Communists_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Grant_Womens_Rights
+		icon = communists_marching
+		x = 35
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Communists_Elected
+			focus = IRQ_SuccDems_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+
+	focus = {
+		id = IRQ_Islamist_Revolution
+		icon = focus_rise_of_the_caliphate
+		x = 48
+		y = 0
+
+		cost = 3
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			has_government = fascist
 			is_subject = no
 			is_puppet = no
 		}

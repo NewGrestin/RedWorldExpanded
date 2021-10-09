@@ -15,6 +15,7 @@ add_ideas = {
 	idea_cascadian_separatism
 	idea_failing_economy
 	idea_pca_immigration
+	RWE_America_UAPR_Hoover_Dam
 	idea_america_neutrality
 }
 

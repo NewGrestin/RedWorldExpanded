@@ -3,8 +3,9 @@
 oob = "YUG_2000"
 
 add_ideas = {
-	idea_yug_brotherhood_and_unity
-	idea_yug_yugoslav_model
+	idea_yug_slavic_unity_waning
+	idea_yug_floundering_economy
+	idea_yug_serbianization
 }
 
 country_event = {

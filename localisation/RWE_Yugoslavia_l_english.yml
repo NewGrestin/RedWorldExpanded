@@ -1,27 +1,13 @@
 ﻿l_english:
 
- PAL_fascist_party:0 "Hamas"
- PAL_fascist_party_long:0 "Islamic Resistance Movement"
- PAL_nationalist_party:0 "PFLP-GC"
- PAL_nationalist_party_long:0 "Popular Front for the Liberation of Palestine – General Command"
- PAL_monarchist_party:0 "Hashemite Dynasty"
- PAL_national_bolshevik_party:0 "As-Sa'iqa"
- PAL_national_bolshevik_party_long:0 "Vanguard for the Popular Liberation War"
- PAL_national_conservative_party:0 "National List"
- PAL_centrist_party:0 "Third Way"
- PAL_liberal_party:0 "Liberal Revolution"
- PAL_new_democrat_party:0 "National Initiative"
- PAL_new_democrat_party_long:0 "Palestinean National Initiative"
- PAL_moderate_socialist_party:0 "Palestinian Communist Party - R"
- PAL_moderate_socialist_party_long:0 "Palestinian Communist Party - Reformist Faction"
- PAL_revolutionary_socialist_party:0 "DFLP"
- PAL_revolutionary_socialist_party_long:0 "Democratic Front for the Liberation of Palestine"
- PAL_communist_party:0 "Palestinian Communist Party - O"
- PAL_communist_party_long:0 "Palestinian Communist Party - Orthodox Faction"
+  ##########################
+  # IDEAS
+  ##########################
+  idea_yug_slavic_unity_very_fucking_low:0 "Slavic Unity: §RCritically Low§!"
+  idea_yug_slavic_unity_waning:0 "Slavic Unity: §OWaning§!"
+  idea_yug_slavic_unity_moderate:0 "Slavic Unity: §CModerate§!"
+  idea_yug_slavic_unity_high:0 "Slavic Unity: §GHigh§!"
 
- RWE_PAL_Pluralist_Beacon:0 "Beacon of Pluralism"
- RWE_PAL_Pluralist_Beacon_desc:0 "Many doubted that the Levantine Confederation could survive when it was established. Many claimed that it would be impossible to create a banner under which Jews, Arabs, Christians and Muslims could live peacefully. Many had doubts that such a radical experiment could survive.\n\nThese doubts, thankfully, proved unfounded.\n\nIn the modern day, the Levant is a peaceful, prosperous nation, which has managed to produce a syncretic harmonious society. Divisions remain, undoubtedly, and some still appoint personal nationality above the Levantine identity. Generations raised since the formation of the Confederation have grown up in a period of economic peace and stability unheard of in the Middle East for many years. As time goes on, the people of the region begin to see themselves not as individual identities, but as a cohesive, unified Levantine nationality."
- RWE_PAL_IDF_Legacy:0 "Legacy of the Israeli Defense Forces"
- RWE_PAL_IDF_Legacy_desc:0 "Following the unification of Israel and Palestine, the newly formed Levantine Government inherited the incredibly valuable military experiences of Israel's combat forces. Israel's  pre-unification conflicts with their neighbors honed their military into an efficient, well trained apparatus, whose practical experience proved invaluable in forging the Levantine Army into a similarly powerful force for peace."
- RWE_PAL_Only_Sane_Man:0 "The Only Sane Men"
- RWE_PAL_Only_Sane_Man_desc:0 "The Levantine Confederation of Palestine and the Autonomous Jewish Settlements is a beacon of stability and peace in a region fraught with conflict. Built on a historic compromise between Israel and Palestine, the state's decentralized model has helped to keep the Holy Land relatively calm for many years.\n\nThe Confederation's neighbors, however, are a very different story.\n\nThe United Arab Republic, vangaurd of the Nasserist revolution, appears increasingly unstable as Syrian nationalism grows uncontrolled in the North. Ba'athist Iraq and her tinpot leader Saddam Hussein loom as an ever-present threat to their neighbors. Unlucky Palestine, trapped between these outside forces, must stay the course and remain a bastion of pluralist democracy.\n\n§RIf Palestine were to fall to the forces of radicalism, the consequences for the Levant could be dire.§!"
+  idea_yug_floundering_economy:0 "Floundering Economy"
+
+  idea_yug_serbianization:0 "Looming Serbian Nationalism"

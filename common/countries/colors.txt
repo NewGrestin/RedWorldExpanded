@@ -1777,3 +1777,18 @@ MAN = {
 	color = rgb { 0 102 175 }
 	color_ui = rgb { 0 102 175 }
 }
+
+SPK = {
+	color = rgb { 78 107 191 }
+	color_ui = rgb { 78 107 191 }
+}
+
+IST = {
+	color = rgb { 78 191 123 }
+	color_ui = rgb { 78 191 123 }
+}
+
+VOJ = {
+	color = rgb { 150 33 39 }
+	color_ui = rgb { 150 33 39 }
+}

@@ -1,0 +1,87 @@
+ideologies = {
+
+	communist = {
+		
+		types = {
+		
+			marxist = {
+			}
+			
+			american_communist = {
+			}
+		
+			leninist = {
+			}
+			
+			stalinist = {
+			}
+			
+			maoist = {
+			}
+			
+			juche = {
+			}
+
+			goulash_communist = {
+			}
+
+			meliorist = {
+			}
+
+			neocommunist = {
+			}
+			
+			sandinist = {
+			}
+
+			islamic_marxist = {
+			}
+
+			ho_chi_minh_thought = {
+			}
+
+			smiling_communism = {
+			}
+			
+			bolivarian = {
+			}
+			
+			b_o_r_communist = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 107 11 11 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.25
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			
+		}
+		
+	}
+
+}

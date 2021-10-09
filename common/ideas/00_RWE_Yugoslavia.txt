@@ -1,8 +1,8 @@
 ideas = {
 
     country = {
-		
-		idea_yug_brotherhood_and_unity = {
+
+		idea_yug_slavic_unity_very_fucking_low = {
 			allowed = {
 				always = no
 			}
@@ -13,16 +13,17 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = brotherhood_and_unity
+			picture = yug_slavic_unity_critical_low
 			
 			modifier = {
-				political_power_cost = 0.5
-				stability_factor = -0.1
-				army_org = -10
+				political_power_gain = -0.5
+				army_core_attack_factor = -0.1
+				army_core_defence_factor = -0.1
+				army_org = -1
 			}
 		}
-		
-		idea_yug_yugoslav_model = {
+
+		idea_yug_slavic_unity_waning = {
 			allowed = {
 				always = no
 			}
@@ -33,13 +34,93 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = yugoslav_model
+			picture = yug_slavic_unity_low
 			
 			modifier = {
-				consumer_goods_factor = 0.2
-				industrial_capacity_factory = -0.1
-				production_speed_buildings_factor = -0.2
-				political_power_gain = 0.1
+				political_power_gain = -0.25
+				army_core_attack_factor = -0.05
+				army_core_defence_factor = -0.05
+				army_org = -5
+			}
+		}
+
+		idea_yug_slavic_unity_moderate = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = yug_slavic_unity_moderate
+			
+			modifier = {
+				political_power_gain = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				army_org = 5
+			}
+		}
+
+		idea_yug_slavic_unity_high = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = yug_slavic_unity_high
+			
+			modifier = {
+				political_power_gain = 0.15
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				army_org = 10
+			}
+		}
+
+		idea_yug_floundering_economy = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = yug_floundering_economy
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.15
+				production_speed_buildings_factor = -0.15 
+			}
+		}
+
+		idea_yug_serbianization = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = yug_serbianization
+			
+			modifier = {
+				stability_factor = -0.15
+				command_power_gain = -0.25 
 			}
 		}
 	}

@@ -6,6 +6,36 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "RWE_YUG_Kosovar_Crisis"
+		texturefile = "gfx/event_pictures/news_event/RWE_YUG_Kosovar_Crisis.dds"
+	}
+
+	spriteType = {
+		name = "RWE_YUG_Mladic_Coup"
+		texturefile = "gfx/event_pictures/news_event/RWE_YUG_Mladic_Coup.dds"
+	}
+
+	spriteType = {
+		name = "RWE_RWE_YUG_Bosnian_Conflict"
+		texturefile = "gfx/event_pictures/news_event/RWE_YUG_Bosnian_Conflict.dds"
+	}
+
+	spriteType = {
+		name = "RWE_YUG_Vojvodina_Conflict"
+		texturefile = "gfx/event_pictures/news_event/RWE_YUG_Vojvodina_Conflict.dds"
+	}
+
+	spriteType = {
+		name = "RWE_YUG_Serbian_War"
+		texturefile = "gfx/event_pictures/news_event/RWE_YUG_Serbian_War.dds"
+	}
+
+	spriteType = {
+		name = "RWE_YUG_Warsaw_Pact_Intervention"
+		texturefile = "gfx/event_pictures/news_event/RWE_YUG_Warsaw_Pact_Intervention.dds"
+	}
+
+	spriteType = {
 		name = "jap_Beying"
 		texturefile = "gfx/event_pictures/news_event/jap_beying.tga"
 	}
