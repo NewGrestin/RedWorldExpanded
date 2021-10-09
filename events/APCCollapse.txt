@@ -1,0 +1,820 @@
+add_namespace = commonwealth
+add_namespace = apccollapse
+
+#Military commanders offer Presidency to Gates
+country_event = {
+	id = commonwealth.63
+	title = commonwealth.63.t
+	desc = commonwealth.63.d
+	picture = presidency_to_gates
+	
+	is_triggered_only = yes
+	
+	option = {   #President Gates
+		name = commonwealth.63.o1
+		hidden_effect = {
+			every_country = {
+		        limit = {
+			        NOT = {
+				        tag = NEA
+				    }
+			    }
+			    news_event = {
+			        hours = 4
+			        id = news.174
+		        }
+		    }
+		}
+		set_country_flag = president_gates
+		set_country_flag = inauguration_plans_fell_through
+		create_country_leader = {
+	        name = "Bill Gates"
+	        picture = "Portrait_NEA_Bill_Gates.dds"
+	        ideology = gatesism
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				has_game_rule = {
+					rule = NEA_ai_behavior
+					option = AUTO_COUNCIL_RULE
+				}
+				factor = 0
+			}
+		}
+	}
+	
+	option = {   #Hand over Presidency to Automotive Council
+		name = commonwealth.63.o2
+		hidden_effect = {
+			every_country = {
+		        limit = {
+			        NOT = {
+				        tag = NEA
+				    }
+			    }
+			    news_event = {
+			        hours = 4
+			        id = news.175
+		        }
+		    }
+		}
+		set_country_flag = automotive_council_is_in_control
+		set_country_flag = inauguration_plans_fell_through
+		create_country_leader = {
+	        name = "Automotive Council"
+	        picture = "Portrait_NEA_Automotive_Council.dds"
+	        ideology = american_revolutionary_socialism
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				has_game_rule = {
+					rule = NEA_ai_behavior
+					option = GATES_RULE
+				}
+				factor = 0
+			}
+		}
+	}
+	option = {   #Military stay in power
+		name = commonwealth.63.o3
+#		hidden_effect = {
+#			every_country = {
+#		        limit = {
+#			        NOT = {
+#				        tag = NEA
+#				    }
+#			    }
+#			    news_event = {
+#			        hours = 4
+#			        id = news.175
+#		        }
+#		    }
+#		}
+		set_country_flag = military_stay_in_power
+		set_country_flag = inauguration_plans_fell_through
+		create_country_leader = {
+	        name = "Eric B. Schoomaker"
+	        picture = "Portrait_Eric_B_Schoomaker.dds"
+	        ideology = american_revolutionary_socialism
+		}
+		country_event = {
+			id = apccollapse.1
+			days = 3
+		}
+#		ai_chance = {
+#			base = 50
+#			modifier = {
+#				has_game_rule = {
+#					rule = NEA_ai_behavior
+#					option = GATES_RULE
+#				}
+#				factor = 0
+#			}
+#		}
+	}
+}
+country_event = {
+	id = apccollapse.1
+	title = apccollapse.1.t
+	desc = apccollapse.1.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.1.o1
+		country_event = {
+			id = apccollapse.3
+			days = 5
+		}
+	}
+}
+
+# country_event = {
+# 	id = apccollapse.2 #bill gates fucks off
+# 	title = apccollapse.2.t
+# 	desc = apccollapse.2.d
+# 	picture = twin_towers_revsoc
+	
+# 	is_triggered_only = yes
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = apccollapse.2.o1 #grrrrrr stupid and bad
+# 		792 = {
+# 			add_core_of = TEC
+# 		}
+# 		793 = {
+# 			add_core_of = TEC
+# 		}
+# 		794 = {
+# 			add_core_of = TEC
+# 		}
+# 		TEC = {
+# 			transfer_state = 792
+# 			transfer_state = 793
+# 			transfer_state = 794
+# 		}
+# 		hidden_effect = {
+# 			country_event = {
+# 				id = apccollapse.3
+# 				days = 5
+# 			}
+# 			TEC = { 
+# 				transfer_technology = yes
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = apccollapse.2.o2 #fuck off as bill gates
+# 		792 = {
+# 			add_core_of = TEC
+# 		}
+# 		793 = {
+# 			add_core_of = TEC
+# 		}
+# 		794 = {
+# 			add_core_of = TEC
+# 		}
+# 		TEC = {
+# 			transfer_state = 792
+# 			transfer_state = 793
+# 			transfer_state = 794
+# 			change_tag_from = NEA
+# 		}
+# 		hidden_effect = {
+# 			country_event = {
+# 				id = apccollapse.3
+# 				days = 5
+# 			}
+# 			TEC = { 
+# 				transfer_technology = yes
+# 			}
+# 		}
+# 	}
+# }
+
+country_event = {
+	id = apccollapse.3 #automotive council fucks off
+	title = apccollapse.3.t
+	desc = apccollapse.3.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.3.o1 #grrrrrr stupid and bad
+		393 = {
+			add_core_of = MCH
+		}
+		MCH = {
+			transfer_state = 393
+		}
+		hidden_effect = {
+			country_event = {
+				id = apccollapse.4
+				days = 5
+			}
+			MCH = { 
+				transfer_technology = yes
+			}
+		}
+	}
+	option = {
+		name = apccollapse.3.o2 #fuck off as the automotive council
+		393 = {
+			add_core_of = MCH
+		}
+		MCH = {
+			transfer_state = 393
+			change_tag_from = NEA
+		}
+		hidden_effect = {	
+			country_event = {
+				id = apccollapse.4
+				days = 5
+			}
+			MCH = { 
+				transfer_technology = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.4 #michael flynn takes over
+	title = apccollapse.4.t
+	desc = apccollapse.4.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.4.o1 #ohno
+		country_event = {
+			id = apccollapse.5
+			days = 5
+		}
+		set_party_name = {
+			ideology = national_bolshevik
+			long_name = APC_natbol_military_clique_long
+			name = APC_natbol_military_clique
+		}
+		create_country_leader = {
+			name = "Michael Flynn"
+			ideology = national_bolshevik_ideology
+			picture = "Portrait_Michael_Flynn.dds"
+		}
+		set_politics = {
+			ruling_party = national_bolshevik
+		}
+		set_cosmetic_tag = NEA_Natbol_APC
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = 0.4
+		}
+	}	
+}
+
+country_event = {
+	id = apccollapse.5
+	title = apccollapse.5.t
+	desc = apccollapse.5.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.5.o1
+		country_event = {
+			id = apccollapse.6
+			days = 14
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.6 #i hate otto
+	title = apccollapse.6.t
+	desc = apccollapse.6.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.6.o1  #grrrrrr ohio bad
+		261 = {
+			add_core_of = OHI
+		}
+		OHI = {
+			transfer_state = 261
+		}
+		hidden_effect = {
+			country_event = {
+				id = apccollapse.7
+				days = 5
+			}
+			OHI = { 
+				transfer_technology = yes
+			}
+		}
+	}
+	option = {
+		name = apccollapse.6.o2 #fuck off as the ohio
+		261 = {
+			add_core_of = OHI
+		}
+		OHI = {
+			transfer_state = 261
+			change_tag_from = NEA
+		}
+		hidden_effect = {	
+			country_event = {
+				id = apccollapse.7
+				days = 5
+			}
+			OHI = { 
+				transfer_technology = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.7 #KENNEDY KENNEDY KENNEDY KENNEDY KENNEDY KENNEDY KENNEDY FOR ME
+	title = apccollapse.7.t
+	desc = apccollapse.7.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.7.o1  #oh no it's massachusetts
+		357 = {
+			add_core_of = MAS
+		}
+		795 = {
+			add_core_of = MAS
+		}
+		792 = {
+			add_core_of = MAS
+		}
+		793 = {
+			add_core_of = MAS
+		}
+		794 = {
+			add_core_of = MAS
+		}
+		MAS = {
+			transfer_state = 357
+			transfer_state = 795
+			transfer_state = 792
+			transfer_state = 793
+			transfer_state = 794
+		}
+		hidden_effect = {
+			country_event = {
+				id = apccollapse.8
+				days = 8
+			}
+			MAS = { 
+				transfer_technology = yes
+			}
+		}
+	}
+	option = {
+		name = apccollapse.7.o2 #oh no i'm massachusetts
+		357 = {
+			add_core_of = MAS
+		}
+		795 = {
+			add_core_of = MAS
+		}
+		792 = {
+			add_core_of = MAS
+		}
+		793 = {
+			add_core_of = MAS
+		}
+		794 = {
+			add_core_of = MAS
+		}
+		MAS = {
+			transfer_state = 357
+			transfer_state = 795
+			transfer_state = 792
+			transfer_state = 793
+			transfer_state = 794
+			change_tag_from = NEA
+		}
+		hidden_effect = {	
+			country_event = {
+				id = apccollapse.8
+				days = 8
+			}
+			MAS = { 
+				transfer_technology = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.8 #R A H M
+	title = apccollapse.8.t
+	desc = apccollapse.8.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.8.o1  #the rahmpire strikes back
+		395 = {
+			add_core_of = CGH
+		}
+		CGH = {
+			transfer_state = 395
+		}
+		hidden_effect = {
+			country_event = {
+				id = apccollapse.9
+				days = 6
+			}
+			CGH = { 
+				transfer_technology = yes
+				set_country_flag = CGH_chicago_free
+				load_oob = CGH_2010
+			}
+		}
+	}
+	option = {
+		name = apccollapse.8.o2 #https://cdn.discordapp.com/attachments/496838895204302871/860153177538035722/unknown.png
+		395 = {
+			add_core_of = CGH
+		}
+		CGH = {
+			transfer_state = 395
+			change_tag_from = NEA
+		}
+		hidden_effect = {	
+			country_event = {
+				id = apccollapse.9
+				days = 6
+			}
+			CGH = { 
+				transfer_technology = yes
+				set_country_flag = CGH_chicago_free
+				load_oob = CGH_2010
+			}
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.9 #new yohik
+	title = apccollapse.9.t
+	desc = apccollapse.9.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.9.o1  #eyyyy im governing heaaaaaa
+		1029 = {
+			add_core_of = NYC
+		}
+		NYC = {
+			transfer_state = 1029
+		}
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_country_flag = the_white_phoenix
+				}
+				country_event = {
+					id = apccollapse.14
+					days = 6
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_country_flag = the_white_phoenix
+					}
+				}
+				country_event = {
+					id = apccollapse.10
+					days = 6
+				}
+			}
+			NYC = { 
+				transfer_technology = yes
+			}
+		}
+	}
+	option = {
+		name = apccollapse.9.o2 #wassa matter with youuuu dont you wanna play the apc no moooaaaaa
+		1021 = {
+			add_core_of = NYC
+		}
+		NYC = {
+			transfer_state = 1021
+			change_tag_from = NEA
+		}
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_country_flag = the_white_phoenix
+				}
+				country_event = {
+					id = apccollapse.14
+					days = 6
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_country_flag = the_white_phoenix
+					}
+				}
+				country_event = {
+					id = apccollapse.10
+					days = 6
+				}
+			}
+			NYC = { 
+				transfer_technology = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.10 #i REALLY hate otto
+	title = apccollapse.10.t
+	desc = apccollapse.10.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.10.o1  #who sure
+		396 = {
+			add_core_of = IND
+		}
+		IND = {
+			transfer_state = 396
+		}
+		hidden_effect = {
+		USA = {	
+			country_event = {
+				id = apccollapse.11
+				days = 3
+			}
+		}
+			IND = { 
+				transfer_technology = yes
+			}
+		}
+	}
+	option = {
+		name = apccollapse.10.o2 #potatoe (play indiana)
+		396 = {
+			add_core_of = IND
+		}
+		IND = {
+			transfer_state = 396
+			change_tag_from = NEA
+		}
+		hidden_effect = {
+			USA = {
+				country_event = {
+					id = apccollapse.11
+					days = 3
+				}
+			}
+			IND = { 
+				transfer_technology = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.11 #hmmm democracy
+	title = apccollapse.11.t
+	desc = apccollapse.11.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.11.o1  #yes establish the anti-socialist puppet state
+		NEA = {
+			country_event = {
+				id = apccollapse.12
+				days = 3
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = apccollapse.12 #AMERICA
+	title = apccollapse.12.t
+	desc = apccollapse.12.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.12.o1  #GOD BLESS
+		361 = {
+			add_core_of = WVM
+		}
+		893 = {
+			add_core_of = WVM
+		}
+		902 = {
+			add_core_of = WVM
+		}
+		WVM = {
+			transfer_state = 361
+			transfer_state = 893
+			transfer_state = 902
+		}
+		hidden_effect = {
+			country_event = {
+				id = apccollapse.13
+				days = 3
+			}
+			USA = {
+				puppet = WVM
+			}
+		}
+		WVM = { 
+			transfer_technology = yes
+		}
+	}
+	option = {
+		name = apccollapse.12.o2 #I WISH TO PLAY AS THEM
+		361 = {
+			add_core_of = WVM
+		}
+		893 = {
+			add_core_of = WVM
+		}
+		902 = {
+			add_core_of = WVM
+		}
+		WVM = {
+			transfer_state = 361
+			transfer_state = 893
+			transfer_state = 902
+			change_tag_from = NEA
+		}
+		hidden_effect = {
+			country_event = {
+				id = apccollapse.13
+				days = 3
+			}
+			USA = {
+				puppet = WVM
+			}
+		}
+		WVM = { 
+			transfer_technology = yes
+		}
+	}
+}
+
+country_event = {
+	id = apccollapse.13 #oopsydoopsy we collapsed
+	title = apccollapse.13.t
+	desc = apccollapse.13.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.13.o1  #shit
+		load_focus_tree = generic_focus
+	}
+}
+
+country_event = {
+	id = apccollapse.14 #Greg!
+	title = apccollapse.14.t
+	desc = apccollapse.14.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = apccollapse.14.o1 #oh no, Greg!
+		396 = {
+			add_core_of = IND
+		}
+		IND = {
+			transfer_state = 396
+			set_cosmetic_tag = IND_greg_pence
+			create_country_leader = {
+				name = "Gregory Pence"
+				ideology = fascist_ideology
+				picture = "Portrait_IND_Greg_Pence.dds"
+			}
+			set_politics = {
+				ruling_party = fascist
+			}
+			
+			load_focus_tree = IND_fascist_focus
+		}
+		hidden_effect = {
+		USA = {	
+			country_event = {
+				id = apccollapse.11
+				days = 3
+			}
+		}
+			IND = { 
+				transfer_technology = yes
+				set_popularities = {
+					fascist = 46
+					nationalist = 0
+					monarchist = 0
+					national_bolshevik = 0
+					national_conservative = 12
+					centrist = 5
+					liberal = 8
+					new_democrat = 5
+					moderate_socialist = 13
+					revolutionary_socialist = 11
+					communist = 0
+				}
+			}
+		}
+	}
+	option = {
+		name = apccollapse.14.o2 #play Greg!
+		396 = {
+			add_core_of = IND
+		}
+		IND = {
+			transfer_state = 396
+			set_cosmetic_tag = IND_greg_pence
+			create_country_leader = {
+				name = "Gregory Pence"
+				ideology = fascist_ideology
+				picture = "Portrait_IND_Greg_Pence.dds"
+			}
+			
+			set_politics = {
+				ruling_party = fascist
+			}
+			
+			load_focus_tree = IND_fascist_focus
+		}
+		hidden_effect = {
+			USA = {	
+				country_event = {
+					id = apccollapse.11
+					days = 3
+				}
+			}
+			IND = { 
+				transfer_technology = yes
+				set_popularities = {
+					fascist = 46
+					nationalist = 0
+					monarchist = 0
+					national_bolshevik = 0
+					national_conservative = 12
+					centrist = 5
+					liberal = 8
+					new_democrat = 5
+					moderate_socialist = 13
+					revolutionary_socialist = 11
+					communist = 0
+				}
+				change_tag_from = NEA
+			}
+		}
+	}
+}
+

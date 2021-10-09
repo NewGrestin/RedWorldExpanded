@@ -1,11 +1,11 @@
-﻿capital = 395
+﻿capital = 393
 
-oob = "NA"
+oob = "generic_2000"
 
-set_research_slots = 2
+set_research_slots = 4
 set_convoys = 500
-set_stability = 0.7
-set_war_support = 0.4
+set_stability = 0.8
+set_war_support = 0.3
 
 set_technology = {
 	support_weapons = 1
@@ -15,13 +15,19 @@ set_technology = {
 	tech_field_hospital = 1 
 	tech_engineers = 1 
 	gwtank = 1 
+	basic_light_tank = 1 
 	gw_artillery = 1 
 	tech_mountaineers = 1
+	early_light_cruiser = 1
 	early_fighter = 1 
-	early_bomber = 1
+	early_bomber = 1 
+	early_submarine = 1
+    transport = 1 
+	paratroopers = 1 
+	marines = 1
+	early_destroyer = 1 
 	interwar_antiair = 1
 	interwar_antitank = 1
-	atomic_research = 1 
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -69,28 +75,28 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = nationalist
+	ruling_party = revolutionary_socialist
 	last_election = "1997.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascist = 10
-	nationalist = 80
-	monarchist = 0
-	national_bolshevik = 10
-	national_conservative = 0
-	centrist = 0
-	liberal = 0
-	new_democrat = 0
-	moderate_socialist = 0
-	revolutionary_socialist = 0
-	communist = 0
+        fascist = 0
+		nationalist = 0
+		monarchist = 0
+		national_bolshevik = 0
+		national_conservative = 10
+		centrist = 0
+		liberal = 60
+		new_democrat = 10
+		moderate_socialist = 0
+		revolutionary_socialist = 10
+		communist = 10
 }
 
 create_country_leader = {
-	name = "Timothy J. Keating"
-	picture = "Portrait_CHC_Keating.dds"
-	ideology = nationalist_ideology
+	name = "Michael Moore"
+	picture = "Portrait_MCH_Michael_Moore.dds"
+	ideology = american_revolutionary_socialism
 }

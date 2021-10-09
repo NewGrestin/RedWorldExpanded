@@ -1,0 +1,1045 @@
+focus_tree = {
+	id = chicago_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = CGH
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 2200 }
+
+	focus = {
+		id = CGH_the_quiet_uprising
+		icon = shaking_hands_1
+		cost = 1
+		x = 7
+		y = 0
+		bypass = {
+			has_country_flag = CGH_chicago_free
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CGH_the_missourian_threat
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_the_quiet_uprising
+		}
+		relative_position_id = CGH_the_quiet_uprising
+		completion_reward = {
+			load_oob = "CGH_2010"
+		}
+	}
+
+	focus = {
+		id = CGH_militarise_the_police
+		icon = shaking_hands_1
+		cost = 3
+		x = -3
+		y = 1
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		prerequisite = {
+			focus = CGH_the_missourian_threat
+		}
+		relative_position_id = CGH_the_missourian_threat
+		completion_reward = {
+			395 = {
+				create_unit = {	
+					division = "name = \"New Chicago Defence Force\" location = 9450 division_template = \"CPD Unit\" start_experience_factor = 2" 
+					owner = CGH	
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CGH_remove_unfriendly_elements
+		icon = shaking_hands_1
+		cost = 3
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CGH_the_missourian_threat
+		}
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		relative_position_id = CGH_the_missourian_threat
+		completion_reward = {
+			add_ideas = idea_CGH_police_army
+		}
+	}
+
+	focus = {
+		id = CGH_any_means_necessary
+		icon = shaking_hands_1
+		cost = 3
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CGH_militarise_the_police
+		}
+		prerequisite = {
+			focus = CGH_remove_unfriendly_elements
+		}
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		relative_position_id = CGH_remove_unfriendly_elements
+		completion_reward = {
+			add_ideas = idea_CGH_any_means_necessary
+		}
+	}
+
+	focus = {
+		id = CGH_serve_and_protect
+		icon = shaking_hands_1
+		cost = 3
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_any_means_necessary
+		}
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		relative_position_id = CGH_any_means_necessary
+		completion_reward = {
+			add_ideas = idea_CGH_serve_and_protect
+		}
+	}
+
+	focus = {
+		id = CGH_defend_the_suburbs
+		icon = shaking_hands_1
+		cost = 3
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = CGH_the_missourian_threat
+		}
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		relative_position_id = CGH_the_missourian_threat
+		completion_reward = {
+			395 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 9682
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 12312
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 12368
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CGH_seize_armories
+		icon = shaking_hands_1
+		cost = 3
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_the_missourian_threat
+		}
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		relative_position_id = CGH_the_missourian_threat
+		completion_reward = {
+			395 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CGH_confiscate_guns
+		icon = shaking_hands_1
+		cost = 3
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_seize_armories
+		}
+		prerequisite = {
+			focus = CGH_defend_the_suburbs
+		}
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		relative_position_id = CGH_seize_armories
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons2
+				amount = 750
+				producer = NEA
+			}
+		}
+	}
+
+	focus = {
+		id = CGH_invest_into_rations
+		icon = shaking_hands_1
+		cost = 3
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_confiscate_guns
+		}
+		available = {
+			has_country_flag = CGH_chicago_free
+		}
+		relative_position_id = CGH_confiscate_guns
+		completion_reward = {
+			add_ideas = idea_CGH_ration_investments
+		}
+	}
+
+	focus = {
+		id = CGH_the_new_mayor_president
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 4
+		available = {
+			has_country_flag = CGH_chicago_elections
+		}
+		prerequisite = {
+			focus = CGH_the_missourian_threat
+		}
+		relative_position_id = CGH_the_missourian_threat
+		completion_reward = {
+			hidden_effect = {
+				clr_country_flag = CGH_chicago_elections
+			}
+			country_event = {
+				id = chicago.2
+			}
+			remove_ideas = {
+				idea_CGH_police_army
+				idea_CGH_any_means_necessary
+				idea_CGH_serve_and_protect
+				idea_CGH_ration_investments
+			}
+		}
+	}
+	focus = {
+		id = CGH_mayor_president_jackson
+		icon = shaking_hands_1
+		cost = 5
+		x = -6
+		y = 1
+		available = {
+			has_country_flag = CGH_jesse
+		}
+		prerequisite = {
+			focus = CGH_the_new_mayor_president
+		}
+		relative_position_id = CGH_the_new_mayor_president
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CGH_mayor_president_emanuel
+		icon = shaking_hands_1
+		cost = 5
+		x = 0
+		y = 1
+		available = {
+			has_country_flag = CGH_rahm
+		}
+		prerequisite = {
+			focus = CGH_the_new_mayor_president
+		}
+		relative_position_id = CGH_the_new_mayor_president
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CGH_mayor_president_daley
+		icon = shaking_hands_1
+		cost = 5
+		x = 6
+		y = 1
+		prerequisite = {
+			focus = CGH_the_new_mayor_president
+		}
+		available = {
+			has_country_flag = CGH_dick
+		}
+		relative_position_id = CGH_the_new_mayor_president
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CGH_post_war_demilitarisation
+		icon = shaking_hands_1
+		cost = 5
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_jackson
+		}
+		relative_position_id = CGH_mayor_president_jackson
+		completion_reward = {
+			add_ideas = idea_CGH_demilitarised_economy
+			add_war_support = -0.1
+		}
+	}
+	focus = {
+		id = CGH_encourage_modern_science
+		icon = shaking_hands_1
+		cost = 5
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_jackson
+		}
+		relative_position_id = CGH_mayor_president_jackson
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = CGH_interfaith_dialogue
+		icon = shaking_hands_1
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_jackson
+		}
+		relative_position_id = CGH_mayor_president_jackson
+		completion_reward = {
+			add_stability = 0.1
+			country_event = {
+				id = chicago.9
+			}
+		}
+	}
+	focus = {
+		id = CGH_denounce_the_right_wing
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_encourage_modern_science
+		}
+		prerequisite = {
+			focus = CGH_post_war_demilitarisation
+		}
+		relative_position_id = CGH_post_war_demilitarisation
+		completion_reward = {
+			country_event = {
+				id = chicago.7
+			}
+
+			swap_ideas = {
+				remove_idea = idea_CGH_Urbs_in_Horto_1
+				add_idea = idea_CGH_Urbs_in_Horto_3
+			}
+		}
+	}
+	focus = {
+		id = CGH_take_on_the_force
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_encourage_modern_science
+		}
+		prerequisite = {
+			focus = CGH_interfaith_dialogue
+		}
+		relative_position_id = CGH_encourage_modern_science
+		completion_reward = {
+			add_ideas = idea_CGH_undermined_army
+		}
+	}
+	focus = {
+		id = CGH_the_city_of_rainbows
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_take_on_the_force
+		}
+		prerequisite = {
+			focus = CGH_denounce_the_right_wing
+		}
+		relative_position_id = CGH_denounce_the_right_wing
+		completion_reward = {
+			country_event = {
+				id = chicago.8
+			}
+		}
+	}
+	focus = {
+		id = CGH_ties_with_the_american_republic
+		icon = shaking_hands_1
+		cost = 5
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_emanuel
+		}
+		relative_position_id = CGH_mayor_president_emanuel
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = diplomatic_ties
+			}
+			USA = {
+				add_opinion_modifier = {
+					target = CGH
+					modifier = diplomatic_ties
+				}
+			}
+		}
+	}
+	focus = {
+		id = CGH_rig_future_elections
+		icon = shaking_hands_1
+		cost = 5
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_emanuel
+		}
+		relative_position_id = CGH_mayor_president_emanuel
+		completion_reward = {
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.2
+			}
+			country_event = {
+				id = chicago.3
+			}
+		}
+	}
+	focus = {
+		id = CGH_privatise_most_industry
+		icon = shaking_hands_1
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_emanuel
+		}
+		relative_position_id = CGH_mayor_president_emanuel
+		completion_reward = {
+			395 = {
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			add_ideas = idea_CGH_privatised_industry
+		}
+	}
+	focus = {
+		id = CGH_deny_socialist_allegations
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_ties_with_the_american_republic
+		}
+		prerequisite = {
+			focus = CGH_rig_future_elections
+		}
+		relative_position_id = CGH_ties_with_the_american_republic
+		completion_reward = {
+			country_event = {
+				id = chicago.4
+			}
+			swap_ideas = {
+				remove_idea = idea_CGH_Urbs_in_Horto_1
+				add_idea = idea_CGH_Urbs_in_Horto_2
+			}
+		}
+	}
+	focus = {
+		id = CGH_arm_the_force
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_rig_future_elections
+		}
+		prerequisite = {
+			focus = CGH_privatise_most_industry
+		}
+		relative_position_id = CGH_rig_future_elections
+		completion_reward = {
+			country_event = {
+				id = chicago.5
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_weapons2
+				amount = 1000
+				producer = CGH
+			}
+		}
+	}
+	focus = {
+		id = CGH_the_liberal_nero
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_deny_socialist_allegations
+		}
+		prerequisite = {
+			focus = CGH_arm_the_force
+		}
+		relative_position_id = CGH_deny_socialist_allegations
+		completion_reward = {
+			country_event = {
+				id = chicago.6
+			}
+		}
+	}
+	focus = {
+		id = CGH_extreme_isolationism
+		icon = shaking_hands_1
+		cost = 5
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_daley
+		}
+		relative_position_id = CGH_mayor_president_daley
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = isolationist_attitude
+			}
+		}
+	}
+	focus = {
+		id = CGH_populist_healthcare
+		icon = shaking_hands_1
+		cost = 5
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_daley
+		}
+		relative_position_id = CGH_mayor_president_daley
+		completion_reward = {
+			395 = {
+				add_building_construction = {
+					type = hospital
+					level = 2
+				}
+			}
+		}
+	}
+	focus = {
+		id = CGH_encourage_machine_politics
+		icon = shaking_hands_1
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = CGH_mayor_president_daley
+		}
+		relative_position_id = CGH_mayor_president_daley
+		completion_reward = {
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.1
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = monarchist
+					popularity = 0.3
+				}
+			}
+		}
+	}
+	focus = {
+		id = CGH_block_out_dissent
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_extreme_isolationism
+		}
+		prerequisite = {
+			focus = CGH_populist_healthcare
+		}
+		relative_position_id = CGH_extreme_isolationism
+		completion_reward = {
+			country_event = {
+				id = chicago.10
+			}
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				category = infantry_tech
+			}
+		}
+	}
+	focus = {
+		id = CGH_unite_the_force
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_encourage_machine_politics
+		}
+		prerequisite = {
+			focus = CGH_populist_healthcare
+		}
+		relative_position_id = CGH_populist_healthcare
+		completion_reward = {
+			add_ideas = idea_CGH_powerful_CPD
+		}
+	}
+	focus = {
+		id = CGH_declare_the_duchy
+		icon = shaking_hands_1
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_block_out_dissent
+		}
+		prerequisite = {
+			focus = CGH_unite_the_force
+		}
+		relative_position_id = CGH_block_out_dissent
+		completion_reward = {
+			country_event = {
+				id = chicago.11
+			}
+		}
+	}
+	focus = {
+		id = CGH_chicago_on_the_american_stage
+		icon = shaking_hands_1
+		cost = 0
+		x = 18
+		y = 0
+		available = {
+			OR = {
+				has_completed_focus = CGH_the_liberal_nero
+				has_completed_focus = CGH_the_city_of_rainbows
+				has_completed_focus = CGH_declare_the_duchy
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CGH_jacksons_foreign_policy
+		icon = shaking_hands_1
+		cost = 1
+		x = -4
+		y = 1
+		available = {
+			has_completed_focus = CGH_the_city_of_rainbows
+		}
+		prerequisite = {
+			focus = CGH_chicago_on_the_american_stage
+		}
+		relative_position_id = CGH_chicago_on_the_american_stage
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CGH_emanuels_foreign_policy
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		available = {
+			has_completed_focus = CGH_the_liberal_nero
+		}
+		prerequisite = {
+			focus = CGH_chicago_on_the_american_stage
+		}
+		relative_position_id = CGH_chicago_on_the_american_stage
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CGH_the_dukes_foreign_policy
+		icon = shaking_hands_1
+		cost = 1
+		x = 4
+		y = 1
+		available = {
+			has_completed_focus = CGH_declare_the_duchy
+		}
+		prerequisite = {
+			focus = CGH_chicago_on_the_american_stage
+		}
+		relative_position_id = CGH_chicago_on_the_american_stage
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CGH_ask_for_unity_with_illinois
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_jacksons_foreign_policy
+		}
+		relative_position_id = CGH_jacksons_foreign_policy
+		completion_reward = {
+			ILL = {
+				country_event = {
+					id = chicago.15
+				}
+			}
+		}
+	}
+	focus = {
+		id = CGH_reach_out_to_brown
+		icon = shaking_hands_1
+		cost = 1
+		available = {
+			has_country_flag = CGH_for_later
+		}
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CGH_ask_for_unity_with_illinois
+		}
+		mutually_exclusive = {
+			focus = CGH_a_lone_state
+		}
+		relative_position_id = CGH_ask_for_unity_with_illinois
+		completion_reward = {
+			custom_effect_tooltip = CGH_for_ohio_content
+		}
+	}
+	focus = {
+		id = CGH_a_lone_state
+		icon = shaking_hands_1
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_ask_for_unity_with_illinois
+		}
+		mutually_exclusive = {
+			focus = CGH_reach_out_to_brown
+		}
+		relative_position_id = CGH_ask_for_unity_with_illinois
+		completion_reward = {
+			add_stability = 10
+		}
+	}
+	focus = {
+		id = CGH_let_him_in
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_reach_out_to_brown
+		}
+		relative_position_id = CGH_reach_out_to_brown
+		completion_reward = {
+			custom_effect_tooltip = CGH_for_ohio_content
+		}
+	}
+	focus = {
+		id = CGH_diplomatic_socialist_ties
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_a_lone_state
+		}
+		relative_position_id = CGH_a_lone_state
+		completion_reward = {
+			every_country = {
+				limit = {
+				  has_government = moderate_socialist
+				}
+				add_opinion_modifier = {
+					target = CGH
+					modifier = minor_diplomatic_ties
+				}
+			}
+			country_event = {
+				id = chicago.18
+			}
+		}
+	}
+	focus = {
+		id = CGH_invade_missouri
+		icon = shaking_hands_1
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CGH_emanuels_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = CGH_the_windy_city
+		}
+		relative_position_id = CGH_emanuels_foreign_policy
+		completion_reward = {
+			892 = {
+				add_core_of = CGH
+			}
+			create_wargoal = {
+				type = take_core_state
+				target = ILL
+			}
+		}
+	}
+	focus = {
+		id = CGH_the_windy_city
+		icon = shaking_hands_1
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_emanuels_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = CGH_invade_missouri
+		}
+		relative_position_id = CGH_emanuels_foreign_policy
+		completion_reward = {
+			395 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = CGH_a_deal_with_the_remnants
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_invade_missouri
+			focus = CGH_the_windy_city
+		}
+		mutually_exclusive = {
+			focus = CGH_attempted_isolation
+		}
+		relative_position_id = CGH_invade_missouri
+		completion_reward = {
+			diplomatic_relation = {
+				country = USA
+				relation = guarantee
+			}
+			USA = {
+				diplomatic_relation = {
+					country = CGH
+					relation = guarantee
+				}
+			}
+		}
+	}
+	focus = {
+		id = CGH_attempted_isolation
+		icon = shaking_hands_1
+		cost = 1
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = CGH_invade_missouri
+			focus = CGH_the_windy_city
+		}
+		mutually_exclusive = {
+			focus = CGH_a_deal_with_the_remnants
+		}
+		relative_position_id = CGH_invade_missouri
+		completion_reward = {
+			395 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 9450
+				}
+			}
+		}
+	}
+	focus = {
+		id = CGH_joint_military_research
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_a_deal_with_the_remnants
+		}
+		relative_position_id = CGH_a_deal_with_the_remnants
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	focus = {
+		id = CGH_a_steel_belt_compact
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_attempted_isolation
+		}
+		relative_position_id = CGH_attempted_isolation
+		completion_reward = {
+			create_faction = CGH_alliance
+			OHI = {
+				IF = {
+					limit = {
+						OR = {
+							has_government = centrist
+							has_government = liberal
+							has_government = new_democrat
+							has_government = national_conservative
+						}
+					}
+					country_event = {
+						id = chicago.12
+					}
+				}
+			}
+			IND = {
+				IF = {
+					limit = {
+						OR = {
+							has_government = centrist
+							has_government = liberal
+							has_government = new_democrat
+							has_government = national_conservative
+						}
+					}
+					country_event = {
+						id = chicago.12
+						days = 1
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CGH_take_missouri
+		icon = shaking_hands_1
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = CGH_the_dukes_foreign_policy
+		}
+		relative_position_id = CGH_the_dukes_foreign_policy
+		completion_reward = {
+			create_wargoal = {
+				target = ILL
+				type = annex_everything
+			}
+			ILL = {
+				add_core_of = CGH
+			}
+		}
+	}
+	focus = {
+		id = CGH_invade_the_great_lakes
+		icon = shaking_hands_1
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_the_dukes_foreign_policy
+		}
+		relative_position_id = CGH_the_dukes_foreign_policy
+		completion_reward = {
+			create_wargoal = {
+				target = GRL
+				type = annex_everything
+			}	
+		}
+	}
+	focus = {
+		id = CGH_a_greater_duchy
+		icon = shaking_hands_1
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = CGH_take_missouri
+		}
+		prerequisite = {
+			focus = CGH_invade_the_great_lakes
+		}
+		relative_position_id = CGH_take_missouri
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = CGH_reach_out_to_monarchies
+		icon = shaking_hands_1
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = CGH_a_greater_duchy
+		}
+		relative_position_id = CGH_a_greater_duchy
+		completion_reward = {
+			every_country = {
+				limit = {
+				  has_government = monarchist
+				}
+				add_opinion_modifier = {
+					target = CGH
+					modifier = minor_diplomatic_ties
+				}
+			}
+		}
+	}
+}

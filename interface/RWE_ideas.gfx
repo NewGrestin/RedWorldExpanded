@@ -278,6 +278,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/RWE_Taliban_Insurgency.dds"			
 	}
 	SpriteType = {
+		name = "GFX_idea_RWE_MAS_the_sanders_vacuum"
+		texturefile = "gfx/interface/ideas/RWE_MAS_the_sanders_vacuum.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_MAS_Canadian_Money"
+		texturefile = "gfx/interface/ideas/RWE_MAS_Canadian_Money.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_RWE_MAS_return_of_the_massachusetts_machine"
+		texturefile = "gfx/interface/ideas/RWE_MAS_return_of_the_massachusetts_machine.dds"			
+	}
+	SpriteType = {
 		name = "GFX_idea_RWE_SAF_South_African_Apartheid"
 		texturefile = "gfx/interface/ideas/RWE_SAF_South_African_Apartheid.png"	 		
 	}

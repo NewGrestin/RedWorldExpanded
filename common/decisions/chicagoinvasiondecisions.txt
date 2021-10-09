@@ -1,0 +1,93 @@
+CGH_illinois_invasion = {
+	wait_for_illinois = {
+		days_mission_timeout = 100
+		selectable_mission = no
+		is_good = no
+		allowed = {
+			tag = CGH
+		}
+		available = {
+			has_war_with = ILL
+		}
+		activation = {
+			has_country_flag = CGH_chicago_free
+		}
+		war_with_on_timeout = ILL
+		timeout_effect = {
+			ILL = {
+				declare_war_on = {
+					target = CGH
+					type = annex_everything
+				}
+			}
+			clr_country_flag = CGH_chicago_free
+			set_country_flag = CGH_chicago_war
+		}
+	}
+	defend_against_illinois = {
+		days_mission_timeout = 60
+		selectable_mission = no
+		is_good = no
+		allowed = {
+			tag = CGH
+		}
+		available = {
+			NOT = {
+				has_war_with = ILL
+			}
+		}
+		activation = {
+			has_country_flag = CGH_chicago_war
+		}
+		timeout_effect = {
+			ILL = {
+				white_peace = CGH
+			}
+			clr_country_flag = CGH_chicago_war
+			set_country_flag = CGH_chicago_elections
+		}
+	}
+}
+ILL_invasion_of_chicago = {
+	wait_for_chicago = {
+		days_mission_timeout = 100
+		selectable_mission = no
+		is_good = no
+		allowed = {
+			tag = ILL
+		}
+		available = {
+			has_war_with = CGH
+		}
+		activation = {
+			CGH = {
+				has_country_flag = CGH_chicago_free
+			}
+		}
+		war_with_on_timeout = CGH
+		timeout_effect = {
+			custom_effect_tooltip = ILL_CGH_tooltip
+		}
+	}
+	take_chicago = {
+		days_mission_timeout = 60
+		selectable_mission = no
+		is_good = no
+		allowed = {
+			tag = ILL
+		}
+		available = {
+			NOT = {
+				has_war_with = CGH
+			}
+		}
+		activation = {
+			CGH = {
+				has_country_flag = CGH_chicago_war
+			}
+		}
+		timeout_effect = {
+			custom_effect_tooltip = ILL_CGH_tooltip_2
+		}
+	}
+}

@@ -1653,11 +1653,6 @@ BSM = {
 	color_ui = rgb { 43 50 43 }
 }
 
-CHC = {
-	color = rgb { 43 50 43 }
-	color_ui = rgb { 43 50 43 }
-}
-
 LOU = {
 	color = rgb { 43 50 43 }
 	color_ui = rgb { 43 50 43 }
@@ -1679,8 +1674,8 @@ KKK = {
 }
 
 IND = {
-	color = rgb { 43 50 43 }
-	color_ui = rgb { 43 50 43 }
+	color = rgb { 81 81 141 }
+	color_ui = rgb { 81 81 141 }
 }
 
 APP = {
@@ -1791,4 +1786,39 @@ IST = {
 VOJ = {
 	color = rgb { 150 33 39 }
 	color_ui = rgb { 150 33 39 }
+}
+
+CGH = {
+	color = rgb {  173  173  173  }
+	color_ui = rgb {  173  173  173  }
+}
+
+MCH = {
+	color = rgb { 184 74 87 }
+	color_ui = rgb { 184 74 87 }
+}
+
+OHI = {
+	color = rgb { 146 129 101 }
+	color_ui = rgb { 146 129 101 }
+}
+
+WVM = {
+	color = rgb { 56 115 233 }
+	color_ui = rgb { 56 115 233 }
+}
+
+MAS = {
+	color = rgb { 102 139 112 }
+	color_ui = rgb { 102 139 112 }
+}
+
+TEC = {
+	color = rgb { 226 221 36 }
+	color_ui = rgb { 226 221 36 }
+}
+
+NYC = {
+	color = rgb { 220 156 22 }
+	color_ui = rgb { 220 156 22 }
 }

@@ -10,6 +10,8 @@ set_war_support = 0.5
 set_country_flag = was_in_british_empire
 set_country_flag = muslim_nation
 
+add_dynamic_modifier = { modifier = OPEC }
+
 set_technology = {
 	support_weapons = 1
 	infantry_weapons = 1

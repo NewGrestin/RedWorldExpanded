@@ -89,9 +89,14 @@ set_popularities = {
 	communist = 18
 }
 
+# create_country_leader = {
+# 	name = "Melissa Hortman"
+# 	desc = "POLITICS_MELISSA_HORTMAN_DESC"
+# 	picture = "Portrait_IND_Hortman.dds"
+# 	ideology = progressive
+# }
 create_country_leader = {
-	name = "Melissa Hortman"
-	desc = "POLITICS_MELISSA_HORTMAN_DESC"
-	picture = "Portrait_IND_Hortman.dds"
-	ideology = progressive
+	name = "Kathy Davis"
+	picture = "Portrait_IND_Kathy_Davis.dds"
+	ideology = democratic_socialist
 }

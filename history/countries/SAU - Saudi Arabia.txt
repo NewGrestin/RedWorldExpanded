@@ -37,6 +37,8 @@ add_ideas = {
 	RWE_Gulf_Coast_Alliance_Leader
 }
 
+add_dynamic_modifier = { modifier = OPEC }
+
 set_technology = {
 	support_weapons = 1
 	infantry_weapons = 1

@@ -17,6 +17,8 @@ add_ideas = {
 	RWE_IRQ_Kuwaiti_Occupation
 }
 
+add_dynamic_modifier = { modifier = OPEC }
+
 set_technology = {
 	support_weapons = 1
 	infantry_weapons = 1
