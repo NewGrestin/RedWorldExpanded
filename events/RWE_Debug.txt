@@ -787,6 +787,10 @@ country_event = { #American Republic Collapse Test
 			transfer_state = 365
 			add_state_core = 365
 			load_oob = ATL_2010
+			country_event = {
+				id = atlanta.1
+				days = 4
+			}
 		}
     }
 }

@@ -231,27 +231,36 @@ focus_tree = {
 
 		relative_position_id = ATL_call_up_loyalists
 		completion_reward = {
-			declare_war_on = {
-				target = OKL
-			}	
-			declare_war_on = {
-				target = TSC
-			}	
-			declare_war_on = {
-				target = LOU
-			}	
-			declare_war_on = {
-				target = FLO
-			}	
-			declare_war_on = {
-				target = TEN
-			}		
-			declare_war_on = {
-				target = VIR
-			}	
-			declare_war_on = {
-				target = CAR
-			}	
+			ATL = {	
+				declare_war_on = {
+					target = OKL
+					type = annex_everything
+				}	
+				declare_war_on = {
+					target = TSC
+					type = annex_everything
+				}	
+				declare_war_on = {
+					target = LOU
+					type = annex_everything
+				}	
+				declare_war_on = {
+					target = FLO
+					type = annex_everything
+				}	
+				declare_war_on = {
+					target = TEN
+					type = annex_everything
+				}		
+				declare_war_on = {
+					target = VIR
+					type = annex_everything
+				}	
+				declare_war_on = {
+					target = CAR
+					type = annex_everything
+				}
+			}
 		}
 	}
 
@@ -282,6 +291,7 @@ focus_tree = {
 		relative_position_id = ATL_from_where_we_are
 		completion_reward = {
 			set_cosmetic_tag = ATL_AR
+			set_country_flag = ATL_AR_reunified	
 		}
 	}
 
@@ -452,7 +462,7 @@ focus_tree = {
 		x = 20
 		y = 0
 		completion_reward = { 
-
+			country_e
 		}
 	}
 	shared_focus = {

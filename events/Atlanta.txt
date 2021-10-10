@@ -102,6 +102,9 @@ country_event = {
 	
 	option = { #offer him a position in government
 		name = atlanta.5.o1
+		ai_chance = {
+			base = 7
+		}
 		hidden_effect = {
 			country_event = {
 				id = atlanta.6
@@ -111,6 +114,9 @@ country_event = {
 	}
 	option = { #offer him poverty assistance plans
 		name = atlanta.5.o2
+		ai_chance = {
+			base = 3
+		}
 		hidden_effect = {
 			country_event = {
 				id = atlanta.8

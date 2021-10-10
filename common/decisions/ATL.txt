@@ -1,0 +1,177 @@
+ATL_operation_eagle = {
+
+	ATL_reverse_the_humiliation = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+		}
+
+		war_with_on_remove = TEX
+
+		# available = {
+			
+		# }
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = TEX
+				type = annex_everything
+			}
+		}
+	}
+	ATL_flatten_the_federation = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+		}
+
+		war_with_on_remove = ILL
+
+		# available = {
+			
+		# }
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = ILL
+				type = annex_everything
+			}
+		}
+	}
+	ATL_crush_the_commonwealth = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+		}
+
+		war_with_on_remove = NEA
+		war_with_on_remove = AMC
+		war_with_on_remove = AMS
+		war_with_on_remove = IND
+		war_with_on_remove = OHI
+		war_with_on_remove = MCH
+		war_with_on_remove = WVM
+		war_with_on_remove = CGH
+		war_with_on_remove = MAS
+		war_with_on_remove = NYC
+		war_with_on_remove = CLM
+
+		# available = {
+			
+		# }
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = NEA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AMC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AMS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IND
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OHI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WVM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CGH
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MCH
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MAS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NYC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CLM
+				type = annex_everything
+			}
+		}
+	}
+	ATL_usurp_the_union = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+		}
+
+		war_with_on_remove = MWA
+
+		# available = {
+			
+		# }
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = MWA
+				type = annex_everything
+			}
+		}
+	}
+}
