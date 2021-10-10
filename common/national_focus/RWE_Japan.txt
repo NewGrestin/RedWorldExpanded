@@ -13,6 +13,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 2200 }
 	shared_focus = JAP_Tamogamis_LDP
 	shared_focus = JAP_NLC_Together
+	shared_focus = JAP_JSP_rises_to_power
 	default = no
 }
 
@@ -895,6 +896,403 @@ shared_focus = {
 	prerequisite = { focus = JAP_Preserve_the_Housewife_Culture focus = JAP_Replace_the_Rubble }
 	cost = 5
 
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_JSP_rises_to_power
+	icon = GFX_goal_JAP_JSP
+	x = 32
+	y = 0
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Scientific_Socialism
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 29
+	y = 1
+
+	cost = 5
+	prerequisite = { focus = JAP_JSP_rises_to_power }
+	mutually_exclusive = { focus = JAP_A_Reformist_Party }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_A_Reformist_Party 
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 32
+	y = 1
+
+	cost = 5
+	prerequisite = { focus = JAP_JSP_rises_to_power }
+	mutually_exclusive = { focus = JAP_Scientific_Socialism }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Renew_the_Welfare_State
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 32
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = JAP_A_Reformist_Party }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Demand_Party_Discipline
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 30
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = JAP_A_Reformist_Party focus = JAP_Scientific_Socialism }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Rational_Governance
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 28
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = JAP_Scientific_Socialism }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Measured_Pacifism
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 27
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = JAP_Rational_Governance }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Bust_the_Keiretsu
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 29
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = JAP_Rational_Governance }
+	prerequisite = { focus = JAP_Demand_Party_Discipline }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Expand_Social_Security
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 31
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = JAP_Renew_the_Welfare_State }
+	prerequisite = { focus = JAP_Demand_Party_Discipline }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Accept_the_JNDF
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 33
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = JAP_Renew_the_Welfare_State }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_United_against_Communism
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 33
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = JAP_Accept_the_JNDF }
+	mutually_exclusive = { focus = JAP_Neutralist_Stance }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Neutralist_Stance 
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 31
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = JAP_Expand_Social_Security }
+	mutually_exclusive = { focus = JAP_United_against_Communism }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Solving_the_Problems_of_the_LDP
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 35
+	y = 1
+
+	cost = 5
+	prerequisite = { focus = JAP_JSP_rises_to_power }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Limit_Nippon_Kaigi_Influence
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 36
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = JAP_Solving_the_Problems_of_the_LDP }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_The_History_Books_Debacle
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 35
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = JAP_Solving_the_Problems_of_the_LDP }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Defang_the_Military
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 36
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = JAP_The_History_Books_Debacle }
+	prerequisite = { focus = JAP_Limit_Nippon_Kaigi_Influence }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Limit_the_Bureaucracy
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 37
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = JAP_Defang_the_Military }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Adress_National_Debt
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 30
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = JAP_Bust_the_Keiretsu }
+	prerequisite = { focus = JAP_Neutralist_Stance focus = JAP_United_against_Communism }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Expansive_Industrial_Policy
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 28
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = JAP_Bust_the_Keiretsu }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Stability_of_Asia
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 33
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = JAP_United_against_Communism }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+
+shared_focus = {
+	id = JAP_Change_the_Military_Flag
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 35
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = JAP_The_History_Books_Debacle }
 	available = {
 
 	}

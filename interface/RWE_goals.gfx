@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/JAP_Nuclear.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_JAP_JSP"
+		texturefile = "gfx/interface/goals/JAP_JSP.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_JAP_Abenomics"
 		texturefile = "gfx/interface/goals/JAP_Abenomics.tga"			
 	}

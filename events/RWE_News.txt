@@ -851,6 +851,69 @@ news_event = {	#JAP - JSP wins election
 
 }
 
+news_event = {	#SAU - Osama Bin Laden coups government
+	id = newsrw.60
+	title = newsrw.60.t
+	desc = newsrw.60.d
+	picture = sau_bin_laden_supreme
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.60.a
+		trigger = { tag = SAU }
+	}
+
+	option = {
+		name = newsrw.60.b
+		trigger = { NOT = { tag = SAU } } 
+	}
+
+}
+
+news_event = {	#SAU - Free Princes Movement coups monarchy
+	id = newsrw.61
+	title = newsrw.61.t
+	desc = newsrw.61.d
+	picture = sau_communists
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.61.a
+		trigger = { tag = SAU }
+	}
+
+	option = {
+		name = newsrw.61.b
+		trigger = { NOT = { tag = SAU } } 
+	}
+
+}
+
+news_event = {	#OPEC embargoes American Republic
+	id = newsrw.62
+	title = newsrw.62.t
+	desc = newsrw.62.d
+	picture = generic_OPEC
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.62.a
+		trigger = { tag = USA }
+	}
+
+	option = {
+		name = newsrw.62.b
+		trigger = { NOT = { tag = USA } } 
+	}
+
+}
+
 ################
 news_event = {	#The Fall of Beying (Japan)
 	id = newsrw.120

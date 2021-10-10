@@ -1,7 +1,7 @@
 ﻿l_english:
 
   gunji_otaku:0 "Gunji Otaku"
-  POLITICS_KAZUO_SHII_DESC
+  POLITICS_KAZUO_SHII_DESC:0 ""
 
   ##########################
   # DECISIONS
@@ -18,11 +18,6 @@
   ##########################
   # PARTIES
   ##########################
-
-  JAP_liberal_party:0 "New Liberal Club"
-  JAP_liberal_party_long:0 "New Liberal Club"
-  JAP_national_conservative_party:0 "Clean Government Party"
-  JAP_national_conservative_party_long:0 "Clean Government Party"
 
   ##########################
   # IDEAS
@@ -89,6 +84,27 @@
   JAP_The_Power_of_the_Yen:0 "Soft Power of the Yen"
   JAP_Global_Outlook:0 "Beyond Japan"
   JAP_Tokyo_Economic_Community:0 "Tokyo Economic Community"
+  JAP_JSP_rises_to_power:0 "\"Fix our Broken Nation\""
+  JAP_Scientific_Socialism:0 "Embrace Scientific Socialism"
+  JAP_A_Reformist_Party:0 "A Party of Reformists"
+  JAP_Demand_Party_Discipline:0 "Demand Party Discipline"
+  JAP_Renew_the_Welfare_State:0 "Secure our Welfare State"
+  JAP_Rational_Governance:0 "Rationalize the Government"
+  JAP_Expand_Social_Security:0 "Expand Social Security"
+  JAP_Accept_the_JNDF:0 "Accept the JNDF"
+  JAP_United_against_Communism:0 "East Asian Security Organisation"
+  JAP_Neutralist_Stance:0 "Neutralism"
+  JAP_Bust_the_Keiretsu:0 "Bust the Keiretsu"
+  JAP_Measured_Pacifism:0 "Measured Pacifism"
+  JAP_Solving_the_Problems_of_the_LDP:0 "Solving 50 Years of LDP"
+  JAP_Limit_Nippon_Kaigi_Influence:0 "Counter Ultranationalist Organisations"
+  JAP_The_History_Books_Debacle:0 "Honest History Education"
+  JAP_Defang_the_Military:0 "Defang the Military"
+  JAP_Change_the_Military_Flag:0 "Criminalize the Rising Sun Flag"
+  JAP_Limit_the_Bureaucracy:0 "Limit the Bureaucracy"
+  JAP_Stability_of_Asia:0 "Asia's Balance of Powers"
+  JAP_Adress_National_Debt:0 "Adress the Debt Situation"
+  JAP_Expansive_Industrial_Policy:0 "Japan 2050 Scheme"
 
   ##########################
   # EVENTS
