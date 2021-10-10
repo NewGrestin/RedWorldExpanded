@@ -153,6 +153,19 @@ bookmarks = {
 
 			}			
 		}
+		"IRQ"={
+			minor = yes
+			history = "IRQ_RED_WORLD_DESC"
+			ideology = nationalist
+			ideas={
+			RWE_IRQ_Kurdish_Unrest_Low
+			RWE_IRQ_Iraqi_Army
+			RWE_IRQ_Kuwaiti_Occupation
+			}	
+            focuses = {
+
+			}			
+		}
 		"AST"={
 			minor = yes
 			history = "AST_RED_WORLD_DESC"

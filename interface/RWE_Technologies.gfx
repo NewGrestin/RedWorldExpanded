@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+### Iraq equipment ###
+
+	SpriteType = {
+		name = "GFX_IRQ_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IRQ_infantry_equipment_0.dds"
+	}
+	
+	
+}
