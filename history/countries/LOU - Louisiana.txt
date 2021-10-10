@@ -90,6 +90,12 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Steve Scalise"
+	picture = "Portrait_LOU_Steve_Scalise.dds"
+	ideology = fascist_ideology
+}
+
+create_country_leader = {
 	name = "David Vitter"
 	picture = "Portrait_LOU_Vitter.dds"
 	ideology = american_conservative

@@ -1,0 +1,265 @@
+add_namespace = atlanta
+
+country_event = {
+	id = atlanta.1 #milley steps down
+	title = atlanta.1.t
+	desc = atlanta.1.d
+	picture = ATL_milley_resigns
+	
+	is_triggered_only = yes
+
+	option = {
+		name = atlanta.1.o1 #kissinger takes over
+		create_country_leader = {
+			name = "Grestin But From Georgia"
+			ideology = fascist_ideology
+		}
+		create_country_leader = {
+			name = "Henry Kissinger"
+			ideology = american_nationalist
+			picture = "Portrait_ATL_Henry_Kissinger.dds"
+		}
+		set_politics = {
+			ruling_party = nationalist
+		}
+		hidden_effect = {
+			country_event = {
+				id = atlanta.2
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = atlanta.2 #carter criticises kissinger
+	title = atlanta.2.t
+	desc = atlanta.2.d
+	picture = ATL_carter_criticises_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #ignore him
+		name = atlanta.2.o1
+		hidden_effect = {
+			country_event = {
+				id = atlanta.3
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = atlanta.3 #carter creates the free georgia movement
+	title = atlanta.3.t
+	desc = atlanta.3.d
+	picture = ATL_carter_creates_free_georgia_movement
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #we'll be fine
+		name = atlanta.3.o1
+		hidden_effect = {
+			country_event = {
+				id = atlanta.4
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = atlanta.4 #massive pro-carter protest in savannah and atlanta
+	title = atlanta.4.t
+	desc = atlanta.4.d
+	picture = ATL_protests_in_georgia
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #we should talk to carter
+		name = atlanta.4.o1
+		hidden_effect = {
+			country_event = {
+				id = atlanta.5
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = atlanta.5 #carter meets kissinger
+	title = atlanta.5.t
+	desc = atlanta.5.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #offer him a position in government
+		name = atlanta.5.o1
+		hidden_effect = {
+			country_event = {
+				id = atlanta.6
+				days = 3
+			}
+		}
+	}
+	option = { #offer him poverty assistance plans
+		name = atlanta.5.o2
+		hidden_effect = {
+			country_event = {
+				id = atlanta.8
+				days = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = atlanta.6 #carter marches out
+	title = atlanta.6.t
+	desc = atlanta.6.d
+	picture = ATL_carter_marches_out
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #shit
+		name = atlanta.6.o1
+		hidden_effect = {
+			country_event = {
+				id = atlanta.7
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = atlanta.7 #ar government collapses
+	title = atlanta.7.t
+	desc = atlanta.7.d
+	picture = ATL_ar_government_collapses
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #carter takes control in the georgia state capital
+		name = atlanta.7.o1
+		set_politics = {
+			ruling_party = liberal
+		}
+		set_country_flag = ATL_jimmeh
+		set_cosmetic_tag = ATL_georgia
+	}
+}
+
+country_event = {
+	id = atlanta.8 #carter tells protestors to back down
+	title = atlanta.8.t
+	desc = atlanta.8.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #nice
+		name = atlanta.8.o1
+		set_country_flag = ATL_kissinger_maintains_control
+
+	}
+}
+
+country_event = {
+	id = atlanta.9 #kissinger throws out non-allied figures
+	title = atlanta.9.t
+	desc = atlanta.9.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #nice
+		name = atlanta.9.o1
+	}
+}
+
+country_event = {
+	id = atlanta.10 #kissinger establishes an "operational council"
+	title = atlanta.10.t
+	desc = atlanta.10.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #nice
+		name = atlanta.10.o1
+	}
+}
+
+country_event = {
+	id = atlanta.11 #kissinger asks for military aid from canada
+	title = atlanta.11.t
+	desc = atlanta.11.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #yes
+		name = atlanta.11.o1
+		ATL = {
+			country_event = {
+				id = atlanta.12
+				days = 1
+			}
+		}
+	}
+	option = { #no
+		name = atlanta.11.o1
+		ATL = {
+			country_event = {
+				id = atlanta.13
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = atlanta.12 #canada says yes
+	title = atlanta.12.t
+	desc = atlanta.12.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #nice
+		name = atlanta.12.o1
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 2500
+		}
+	}
+}
+
+country_event = {
+	id = atlanta.13 #canada says no
+	title = atlanta.13.t
+	desc = atlanta.13.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #YOU SHALL RUE THE DAY CANADA
+		name = atlanta.13.o1
+		set_country_flag = ATL_betrayed_by_canada
+	}
+}

@@ -12,23 +12,27 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 2200 }
 	shared_focus = ATL_the_professor_takes_control
-	# shared_focus = GRL_The_DA_Fractures 
-	# shared_focus = GRL_The_Iowa_Crisis
+	shared_focus = ATL_operation_eagle
+	shared_focus = ATL_georgias_new_dawn
 	default = no
 }
 
 	shared_focus = {
 		id = ATL_the_professor_takes_control
 		icon = lucrative_investment
-		available = { }
+		available = { 
+			has_country_flag = ATL_kissinger_maintains_control
+		}
 		x = 7
 		y = 0
 
-		cost = 3
+		cost = 1
 
 
 		completion_reward = {
-
+			country_event = {
+				id = atlanta.9
+			}
 		}
 	}
 
@@ -67,7 +71,10 @@ focus_tree = {
 
 		relative_position_id = ATL_the_professor_takes_control
 		completion_reward = {
-			add_stability = 10
+			add_stability = 0.1
+			country_event = {
+				id = atlanta.10
+			}
 		}
 	}
 
@@ -193,7 +200,11 @@ focus_tree = {
 
 		relative_position_id = ATL_apolitical_government
 		completion_reward = {
-
+			CAN = {
+				country_event = {
+					id = atlanta.11
+				}
+			}
 		}
 	}
 
@@ -220,14 +231,46 @@ focus_tree = {
 
 		relative_position_id = ATL_call_up_loyalists
 		completion_reward = {
-				
+			declare_war_on = {
+				target = OKL
+			}	
+			declare_war_on = {
+				target = TSC
+			}	
+			declare_war_on = {
+				target = LOU
+			}	
+			declare_war_on = {
+				target = FLO
+			}	
+			declare_war_on = {
+				target = TEN
+			}		
+			declare_war_on = {
+				target = VIR
+			}	
+			declare_war_on = {
+				target = CAR
+			}	
 		}
 	}
 
 	shared_focus = {
 		id = ATL_to_where_we_have_not_been
 		icon = lucrative_investment
-		available = { }
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = CAR
+					has_war_with = VIR
+					has_war_with = FLO
+					has_war_with = LOU
+					has_war_with = TSC
+					has_war_with = OKL
+					has_war_with = TEN
+				}
+			}
+		}
 		prerequisite = {
 			focus = ATL_from_where_we_are
 		}
@@ -238,6 +281,757 @@ focus_tree = {
 
 		relative_position_id = ATL_from_where_we_are
 		completion_reward = {
+			set_cosmetic_tag = ATL_AR
+		}
+	}
 
+	shared_focus = {
+		id = ATL_operation_eagle
+		icon = lucrative_investment
+		available = {
+			has_country_flag = ATL_AR_reunified
+		}
+		cost = 3
+		x = 7
+		y = 5
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_the_importance_of_bombing
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_operation_eagle
+		}
+		x = -2
+		y = 1
+		relative_position_id = ATL_operation_eagle
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_maintain_troop_morale
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_operation_eagle
+		}
+		x = 0
+		y = 1
+		relative_position_id = ATL_operation_eagle
+		completion_reward = {
+
+		}
+	}
+	shared_focus = {
+		id = ATL_stack_the_operational_council
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_operation_eagle
+		}
+		x = 2
+		y = 1
+		relative_position_id = ATL_operation_eagle
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_military_pawns
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_the_importance_of_bombing
+		}
+		prerequisite = {
+			focus = ATL_maintain_troop_morale
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_the_importance_of_bombing
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_technocratic_planning
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_stack_the_operational_council
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_stack_the_operational_council
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_secular_patriotism
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_stack_the_operational_council
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_stack_the_operational_council
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_the_art_of_war
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_military_pawns
+		}
+		x = 0
+		y = 1
+		relative_position_id = ATL_military_pawns
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_diplomatic_pressure
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_technocratic_planning
+		}
+		prerequisite = {
+			focus = ATL_secular_patriotism
+		}
+		x = 0
+		y = 1
+		relative_position_id = ATL_technocratic_planning
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_the_new_america
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_the_art_of_war
+		}
+		prerequisite = {
+			focus = ATL_diplomatic_pressure
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_the_art_of_war
+		completion_reward = {
+
+		}
+	}
+
+	shared_focus = {
+		id = ATL_georgias_new_dawn
+		available = {
+			has_country_flag = ATL_jimmeh
+		}
+		icon = lucrative_investment
+		cost = 3
+		x = 20
+		y = 0
+		completion_reward = { 
+
+		}
+	}
+	shared_focus = {
+		id = ATL_establishing_a_two_party_system
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_georgias_new_dawn
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_georgias_new_dawn
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_old_american_values
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_georgias_new_dawn
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_georgias_new_dawn
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_enshrining_the_constitution
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_establishing_a_two_party_system
+		}
+		prerequisite = {
+			focus = ATL_old_american_values
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_establishing_a_two_party_system
+		completion_reward = { 
+			
+		}
+	}
+	shared_focus = {
+		id = ATL_carter_and_abrams_democrats
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_enshrining_the_constitution
+		}
+		x = -5
+		y = 1
+		relative_position_id = ATL_enshrining_the_constitution
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_barrs_libertarian_republicans
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_enshrining_the_constitution
+		}
+		x = 5
+		y = 1
+		relative_position_id = ATL_enshrining_the_constitution
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_growing_from_where_we_began
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_carter_and_abrams_democrats
+		}
+		mutually_exclusive = {
+			focus = ATL_georgia_on_the_move
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_carter_and_abrams_democrats
+		completion_reward = { 
+			
+		}
+	}
+	shared_focus = {
+		id = ATL_georgia_on_the_move
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_carter_and_abrams_democrats
+		}
+		mutually_exclusive = {
+			focus = ATL_growing_from_where_we_began
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_carter_and_abrams_democrats
+		completion_reward = { 
+			
+		}
+	}
+	shared_focus = {
+		id = ATL_increase_welfare
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_growing_from_where_we_began
+		}
+		x = -3
+		y = 1
+		relative_position_id = ATL_growing_from_where_we_began
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_rights_for_homosexuals
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_growing_from_where_we_began
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_growing_from_where_we_began
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_racial_equality_act
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_carter_and_abrams_democrats
+		}
+		x = 0
+		y = 2
+		relative_position_id = ATL_carter_and_abrams_democrats
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_rational_spending
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_georgia_on_the_move
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_georgia_on_the_move
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_public_housing_development
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_georgia_on_the_move
+		}
+		x = 3
+		y = 1
+		relative_position_id = ATL_georgia_on_the_move
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_progressive_taxation
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_increase_welfare
+		}
+		prerequisite = {
+			focus = ATL_rights_for_homosexuals
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_increase_welfare
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_expand_voter_rights
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_racial_equality_act
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_racial_equality_act
+		completion_reward = { 
+			
+		}
+	}
+	shared_focus = {
+		id = ATL_affirmative_action
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_racial_equality_act
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_racial_equality_act
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_poverty_aid
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_rational_spending
+		}
+		prerequisite = {
+			focus = ATL_public_housing_development
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_rational_spending
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_urban_renewal
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_progressive_taxation
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_progressive_taxation
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_honor_john_lewis
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_expand_voter_rights
+		}
+		prerequisite = {
+			focus = ATL_affirmative_action
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_expand_voter_rights
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_agricultural_subsidies
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_poverty_aid
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_poverty_aid
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_georgia_facing_forward
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_urban_renewal
+			focus = ATL_agricultural_subsidies
+		}
+
+		prerequisite = {
+			focus = ATL_honor_john_lewis
+		}
+		x = 0
+		y = 1
+		relative_position_id = ATL_honor_john_lewis
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_the_party_of_liberty
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_barrs_libertarian_republicans
+		}
+		x = 0
+		y = 1
+		relative_position_id = ATL_barrs_libertarian_republicans
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_free_enterprise
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_the_party_of_liberty
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_the_party_of_liberty
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_encourage_racial_unity
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_the_party_of_liberty
+		}
+		mutually_exclusive = {
+			focus = ATL_embrace_georgias_legacy
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_the_party_of_liberty
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_embrace_georgias_legacy
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_the_party_of_liberty
+		}
+		mutually_exclusive = {
+			focus = ATL_encourage_racial_unity
+		}
+		x = 3
+		y = 1
+		relative_position_id = ATL_the_party_of_liberty
+		completion_reward = { 
+			
+		}
+	}
+	shared_focus = {
+		id = ATL_deify_small_business
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_free_enterprise
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_free_enterprise
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_invite_back_coca_cola
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_free_enterprise
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_free_enterprise
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_allow_civil_unions
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_encourage_racial_unity
+			focus = ATL_embrace_georgias_legacy
+		}
+		mutually_exclusive = {
+			focus = ATL_family_values
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_encourage_racial_unity
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_family_values
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_encourage_racial_unity
+			focus = ATL_embrace_georgias_legacy
+		}
+		mutually_exclusive = {
+			focus = ATL_allow_civil_unions
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_embrace_georgias_legacy
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_cut_municipal_funding
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_deify_small_business
+		}
+		prerequisite = {
+			focus = ATL_invite_back_coca_cola
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_deify_small_business
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_prevent_federal_overreach
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_allow_civil_unions
+			focus = ATL_family_values
+		}
+		mutually_exclusive = {
+			focus = ATL_a_war_on_drugs
+			focus = ATL_attack_medical_marijuana
+		}
+		x = -1
+		y = 1
+		relative_position_id = ATL_allow_civil_unions
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_a_war_on_drugs
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_allow_civil_unions
+			focus = ATL_family_values
+		}
+		mutually_exclusive = {
+			focus = ATL_prevent_federal_overreach
+			focus = ATL_attack_medical_marijuana
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_allow_civil_unions
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_attack_medical_marijuana
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_allow_civil_unions
+			focus = ATL_family_values
+		}
+		mutually_exclusive = {
+			focus = ATL_prevent_federal
+			_overreach
+			focus = ATL_a_war_on_drugs
+		}
+		x = 3
+		y = 1
+		relative_position_id = ATL_allow_civil_unions
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_by_ones_bootstraps
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_cut_municipal_funding
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_cut_municipal_funding
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_societal_restructuring
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_prevent_federal_overreach
+			focus = ATL_a_war_on_drugs
+			focus = ATL_attack_medical_marijuana
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_prevent_federal_overreach
+		completion_reward = { 
+			
+		}
+	}
+
+	shared_focus = {
+		id = ATL_fount_of_freedom
+		icon = lucrative_investment
+		cost = 3
+		prerequisite = {
+			focus = ATL_by_ones_bootstraps
+		}
+		prerequisite = {
+			focus = ATL_societal_restructuring
+		}
+		x = 1
+		y = 1
+		relative_position_id = ATL_by_ones_bootstraps
+		completion_reward = { 
+			
 		}
 	}
