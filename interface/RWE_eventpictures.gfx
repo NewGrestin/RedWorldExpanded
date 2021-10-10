@@ -21,6 +21,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "JAP_Diet"
+		texturefile = "gfx/event_pictures/report_event/JAP_Diet.tga"
+	}
+
+	spriteType = {
+		name = "JAP_Taiwan"
+		texturefile = "gfx/event_pictures/report_event/JAP_Taiwan.tga"
+	}
+
+	spriteType = {
 		name = "JAP_Islands"
 		texturefile = "gfx/event_pictures/report_event/JAP_Islands.tga"
 	}
@@ -41,6 +51,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "JAP_NLC"
+		texturefile = "gfx/event_pictures/report_event/JAP_NLC.tga"
+	}
+
+	spriteType = {
 		name = "JAP_JCP"
 		texturefile = "gfx/event_pictures/report_event/JAP_JCP.tga"
 	}
@@ -48,6 +63,11 @@ spriteTypes = {
 	spriteType = {
 		name = "JAP_JCP_2"
 		texturefile = "gfx/event_pictures/report_event/JAP_JCP_2.tga"
+	}
+
+	spriteType = {
+		name = "JAP_JCP_3"
+		texturefile = "gfx/event_pictures/report_event/JAP_JCP_3.tga"
 	}
 
 	spriteType = {

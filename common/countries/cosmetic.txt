@@ -528,3 +528,8 @@ IND_greg_pence = {
 	color = rgb { 35 34 59 }
 	color_ui = rgb { 35 34 59 }
 }
+
+USA_JAP = {
+	color = rgb { 255 221 221 }
+	color_ui = rgb { 255 221 221 }
+}

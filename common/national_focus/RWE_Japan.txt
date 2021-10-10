@@ -12,12 +12,13 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 2200 }
 	shared_focus = JAP_Tamogamis_LDP
+	shared_focus = JAP_NLC_Together
 	default = no
 }
 
 shared_focus = {
 	id = JAP_Tamogamis_LDP
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Toshio_Gov
 	x = 7
 	y = 0
 
@@ -305,7 +306,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Slash_Rice_Money
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Rice_Slash
 	x = 8
 	y = 3
 	prerequisite = { focus = JAP_In_the_Footsteps_of_Abe }
@@ -325,7 +326,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Excessive_Public_Investment_Scheme 
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_Generic_Increase_Profits
 	x = 6
 	y = 3
 	prerequisite = { focus = JAP_Fukoku_Kyohei }
@@ -351,6 +352,548 @@ shared_focus = {
 	prerequisite = { focus = JAP_Slash_Rice_Money focus = JAP_Excessive_Public_Investment_Scheme }
 	cost = 5
 
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Revision_of_History
+	icon = GFX_goal_JAP_Toshinomics
+	x = 11
+	y = 1
+	prerequisite = { focus = JAP_Tamogamis_LDP }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Adress_Soviet_Imperialism
+	icon = GFX_goal_WAF_Soviet_Imperialism
+	x = 10
+	y = 2
+	prerequisite = { focus = JAP_Revision_of_History }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_The_Liberal_Alliance
+	icon = GFX_goal_JAP_Toshinomics
+	x = 10
+	y = 4
+	prerequisite = { focus = JAP_Adress_Soviet_Imperialism }
+	prerequisite = { focus = JAP_Pull_towards_the_Centre }
+	mutually_exclusive = { focus = JAP_Komeito_as_Partner }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Komeito_as_Partner 
+	icon = GFX_goal_JAP_Toshinomics
+	x = 12
+	y = 4
+	prerequisite = { focus = JAP_Pull_towards_the_Centre focus = JAP_Consolidate_the_Right }
+	mutually_exclusive = { focus = JAP_The_Liberal_Alliance focus = JAP_Party_of_Patriots }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Party_of_Patriots 
+	icon = GFX_goal_JAP_Toshinomics
+	x = 14
+	y = 4
+	prerequisite = { focus = JAP_Consolidate_the_Right }
+	mutually_exclusive = { focus = JAP_Komeito_as_Partner }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Promise_Government_Transparency
+	icon = GFX_goal_JAP_Toshinomics
+	x = 11
+	y = 5
+	prerequisite = { focus = JAP_Komeito_as_Partner focus = JAP_The_Liberal_Alliance }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Wave_the_Kyokujitsu_Ki
+	icon = GFX_goal_JAP_Toshinomics
+	x = 14
+	y = 5
+	prerequisite = { focus = JAP_Party_of_Patriots }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Blind_Eye_to_the_Soka_Gakkai
+	icon = GFX_goal_JAP_Toshinomics
+	x = 12
+	y = 6
+	prerequisite = { focus = JAP_Komeito_as_Partner }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Embrace_the_Neoliberal_Approach
+	icon = GFX_goal_JAP_Toshinomics
+	x = 10
+	y = 6
+	prerequisite = { focus = JAP_The_Liberal_Alliance }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Our_Friends_in_Nippon_Kaigi
+	icon = GFX_goal_JAP_Nippon_Kaigi
+	x = 13
+	y = 2
+	prerequisite = { focus = JAP_Revision_of_History }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Pull_towards_the_Centre
+	icon = GFX_goal_JAP_Toshinomics
+	x = 12
+	y = 3
+	prerequisite = { focus = JAP_Our_Friends_in_Nippon_Kaigi }
+	mutually_exclusive = { focus = JAP_Consolidate_the_Right }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Consolidate_the_Right 
+	icon = GFX_goal_JAP_Toshinomics
+	x = 14
+	y = 3
+	prerequisite = { focus = JAP_Our_Friends_in_Nippon_Kaigi }
+	mutually_exclusive = { focus = JAP_Pull_towards_the_Centre }
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_NLC_Together
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 20
+	y = 0
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Liberalism_for_the_21st_Century
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 18
+	y = 1
+	prerequisite = { focus = JAP_NLC_Together }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Clean_Conservatism
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 20
+	y = 2
+	prerequisite = { focus = JAP_NLC_Together }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Cut_Down_on_Ministries 
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 19
+	y = 3
+	prerequisite = { focus = JAP_Clean_Conservatism focus = JAP_Liberalism_for_the_21st_Century }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Lower_the_Spending_Deficit
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 18
+	y = 2
+	prerequisite = { focus = JAP_Liberalism_for_the_21st_Century }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Disability_Compensation_Act
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 16
+	y = 3
+	prerequisite = { focus = JAP_Lower_the_Spending_Deficit }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Rules_for_a_Free_Market
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 16
+	y = 4
+	prerequisite = { focus = JAP_Disability_Compensation_Act }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Lessen_Environmental_Spending
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 18
+	y = 4
+	prerequisite = { focus = JAP_Lower_the_Spending_Deficit }
+	prerequisite = { focus = JAP_Cut_Down_on_Ministries }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Preserve_the_Housewife_Culture
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 20
+	y = 4
+	prerequisite = { focus = JAP_Clean_Conservatism }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Global_Outlook
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 22
+	y = 1
+	prerequisite = { focus = JAP_NLC_Together }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_The_Power_of_the_Yen
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 22
+	y = 2
+	prerequisite = { focus = JAP_Global_Outlook }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Replace_the_Rubble
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 22
+	y = 4
+	prerequisite = { focus = JAP_The_Power_of_the_Yen }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Democratic_Diamond_Theory
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 24
+	y = 3
+	prerequisite = { focus = JAP_The_Power_of_the_Yen }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Belt_of_Democracy_and_Prosperity
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 24
+	y = 4
+	prerequisite = { focus = JAP_Democratic_Diamond_Theory }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Intervene_in_Korea
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 23
+	y = 5
+	prerequisite = { focus = JAP_Belt_of_Democracy_and_Prosperity focus = JAP_Replace_the_Rubble }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Support_Taiwan
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 22
+	y = 6
+	prerequisite = { focus = JAP_Belt_of_Democracy_and_Prosperity focus = JAP_Replace_the_Rubble }
+	cost = 5
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Tokyo_Economic_Community
+	icon = GFX_goal_WAF_An_arab_among_africans
+	x = 20
+	y = 5
+	prerequisite = { focus = JAP_Preserve_the_Housewife_Culture focus = JAP_Replace_the_Rubble }
+	cost = 5
 
 	available = {
 

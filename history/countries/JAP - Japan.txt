@@ -123,6 +123,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Kazuo Shii"
+	desc = "POLITICS_KAZUO_SHII_DESC"
 	picture = "Portrait_JAP_Kazuo_Shii.dds"
 	ideology = smiling_communism
 }
@@ -170,8 +171,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tadatomo Yoshida"
-	picture = "Portrait_JAP_Tadatomo_Yoshida.dds"
+	name = "Mizuho Fukushima"
+	picture = "gfx/leaders/JAP/JAP_Mizuho_Fukushima.tga"
 	ideology = democratic_socialist
 }
 

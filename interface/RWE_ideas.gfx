@@ -9,6 +9,10 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_OPEC"
+		texturefile = "gfx/interface/ideas/OPEC.tga"			
+	}
+	SpriteType = {
 		name = "GFX_idea_JAP_Lost_Decades"
 		texturefile = "gfx/interface/ideas/JAP_Lost_Decades.tga"			
 	}

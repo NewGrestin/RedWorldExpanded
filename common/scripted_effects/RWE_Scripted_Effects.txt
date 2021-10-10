@@ -80,6 +80,43 @@ RWE_Generic_Apply_Overlord_Cosmetic = {
 	hidden_effect = {
 		if = {
 			limit = {
+				USA = {
+					is_subject_of = JAP
+				}
+				JAP = {
+					OR = {
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					}
+				}
+			}
+			USA = {
+				set_cosmetic_tag = USA_JAP
+
+				set_party_name = { 
+					ideology = fascist
+					long_name = "Tokyo Military Administration" 
+					name = "TMA" 
+				}
+
+				set_politics = {
+					ruling_party = fascist
+				}
+
+				add_popularity = {
+					ideology = fascist
+					popularity = 0.50
+				}
+
+				create_country_leader = {
+					name = "JNDF Occupation Force"
+					picture = "USA_SOV_WPMA.dds"
+					ideology = fascist_ideology 
+				}
+			}
+
+			limit = {
 				AMC = {
 					is_subject_of = CAN
 					has_country_flag = treaty_of_columbus

@@ -36,8 +36,28 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "jap_monarchism"
+		texturefile = "gfx/event_pictures/news_event/jap_monarchism.tga"
+	}
+
+	spriteType = {
 		name = "jap_Beying"
 		texturefile = "gfx/event_pictures/news_event/jap_beying.tga"
+	}
+
+	spriteType = {
+		name = "jap_jcp"
+		texturefile = "gfx/event_pictures/news_event/jap_jcp.tga"
+	}
+
+	spriteType = {
+		name = "jap_jsp"
+		texturefile = "gfx/event_pictures/news_event/jap_jsp.tga"
+	}
+
+	spriteType = {
+		name = "jap_nlc"
+		texturefile = "gfx/event_pictures/news_event/jap_nlc.tga"
 	}
 
 	spriteType = {

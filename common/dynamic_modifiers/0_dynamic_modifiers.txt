@@ -62,7 +62,7 @@ semi_autonomous_state = {
 
 OPEC = {
 	enable = { always = yes }
-	icon = RWE_Gulf_Coast_Alliance
+	icon = GFX_idea_OPEC
 
 	min_export = OPEC_oil_production
 	stability_factor = OPEC_unity
