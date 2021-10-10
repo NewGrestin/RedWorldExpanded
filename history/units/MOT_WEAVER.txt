@@ -1,0 +1,71 @@
+﻿division_template = {
+	name = "First People's Militias"				# Weavers free shit
+	division_names_group = MOT_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division = { # "Liberty Militias #1"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 90
+		}
+		location = 1851
+		division_template = "First People's Militias"
+	}
+	division = { # "Liberty Militias #2"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 91
+		}
+		location = 1851
+		division_template = "First People's Militias"
+	}
+	division = { # "Liberty Militias #3"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 92
+		}
+		location = 1851
+		division_template = "First People's Militias"
+	}
+	division = { # "Liberty Militias #4"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 96
+		}
+		location = 1851
+		division_template = "First People's Militias"
+	}
+	division = { # "Liberty Militias #5"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 98
+		}
+		location = 10706
+		division_template = "First People's Militias"
+	}
+	division = { # "Liberty Militias #6"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 99
+		}
+		location = 10706
+		division_template = "First People's Militias"
+	}
+	division = { # "Liberty Militias #7"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 10706
+		division_template = "First People's Militias"
+	}
+}

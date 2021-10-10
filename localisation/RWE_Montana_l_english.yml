@@ -127,6 +127,12 @@
 
   RWE_America_Shattered_Ambition:0 "Post-Nuclear Warlordism"
 
+  RWE_MOT_Weaver_Militia_Army:0 "An Army of Irregulars"
+  RWE_MOT_Weaver_Militia_Army_desc:0 "This will greatly affect fishing season."
+  RWE_MOT_Weaver_a_True_Constitution:0 "A True and Free Constitution"
+  RWE_MOT_Weaver_a_True_Constitution_desc:0 "Jnrel Jorge Washenton"
+  RWE_MOT_Weaver_AntiCommunist_bulwark:0 "Anti-Communist Bulwark"
+  RWE_MOT_Weaver_AntiCommunist_bulwark_desc:0 "COMMUNISTA"
   ##########################
   # DECISIONS
   ##########################
@@ -170,9 +176,9 @@
   montana.1.d:0 "The last few years have been particularly trying to the Montana Free State.\n\nOnce unified, we have been backstabbed by the Spencerite revisionists once again. Across the border in his so-called Union of Lincoln, Spencer plots to enforce his demented Marxist agenda on Montana's people. We are down, but we are not defeated. The state remains in the firm grasp of the Covington Junta, though our figurehead leader's grip may not be as tight as he thinks. Covington's rule is dependent on the approval of the militias, who have many of their own political aims.\n\nA handful of men have proven themselves to be contender's for Covington's throne. Ben Garrison, a populist leader of several militia groups, has proven more moderate than Covington. Normally such a revisionist would be prompty guided to the wall, but Garrison's less overt nationalism has won him support from locals, enough that Covington hasn't felt confident enough to have him shot. Yet.\n\nRandy Weaver is a similar issue, leading a faction referring to themselves as Sovereignists. Weaver's rhetoric could best be described as right wing anarchism, denouncing Covington for his infringement on states' rights and freedom. Weaver is more of an underground element, but left unattended could attempt a power play.\n\nThe most distressing group is the National Purists, lead by one Timothy McVeigh. An obsessive follower of the late William Luther Pierce, McVeigh's rhetoric is even more radical than Covington's, advocating for the racial purification of the entire former United States. Though thankfully kept far from power, McVeigh maintains a small but deeply devoted following.\n\nUltimately, all of this is contingent on marching across the border and putting Spencer's Marxist jewery up against the wall, as failing to put down his ambitious clique could leave us looking weak."
   montana.1.a:0 "We will endure."
 
-  montana.2.t:0 "Victory over the Spencerites"
-  montana.2.d:0 ""
-  montana.2.a:0 "Excellent."
+  montana.2..t:0 "Victory of Spencer"
+  montana.2..d:0 "With the victory against the Union of Lincoln and Spencer's radical thought, a special session of the White Freedom Alliance was called, composed of militia and state leaders, the meeting was highlighted with its special opening. With Covington congratulating everyone and elevating multiple militia leaders to state positions within the newly reintegrated Idaho and Eastern Cascadia. As well, after much talk of new laws, security measures and all things needed to subdue the new states.Then at the very end of the meeting, Covington declared that Free Montana will now be known as “The North West Territorial Republic”. To many it seems the scars of the civil war have finally healed."
+  montana.2..a:0 "Excellent."
 
   montana.3.t:0 "Spencer Captured near Canadian Border"
   montana.3.d:0 ""
@@ -227,19 +233,19 @@
   montana.14.a:0 "Thanks, I guess?"
 
   montana.15.t:0 "Covington Assassinated by Spencerite Remnants!"
-  montana.15.d:0 ""
+  montana.15.d:0 "During one of the regular meetings held by Covington, within the new capital of Boise, the meeting abruptly ended when multiple hand grenades were thrown into the states capitol building. The explosion reportedly could be heard throughout Boise and shortly after the wailing of sirens all rushing towards the capitol. To the militia leaders it is very clear who was behind this targeted assassination, the loyal bastards of Spencer, unfortunately the road ahead isn’t as clear as knowing the motive. As of now, some of the militias are still oblivious to the fact that Covington and his remains are strewn across floors and walls, we can only pray for a swift and peaceful resolution."
   montana.15.a:0 "Bastards!"
 
   montana.16.t:0 "Garrison Mobilizes"
-  montana.16.d:0 ""
+  montana.16.d:0 "With the sudden death of Covington, it seems Garrison has mobilized and ordered all of his loyal men to North Dakota, the area currently resembles an active war zone, with defensive barricades that have been hastily erected by Garrison's men. Despite attempts to get into contact with Garrison, all have failed. If this continues we can only expect for others to follow Garrison and destroy the stability of Montana or even fracture the already weakened state."
   montana.16.a:0 "That rat bastard's organizing a coup!"
 
   montana.17.t:0 "McVeigh Mobilizes"
-  montana.17.d:0 ""
+  montana.17.d:0 "More grim news comes from the deep country of Montana today, McVeigh and his radical purists have done exactly what Garrison has.However, in a more frightening way, armoured cars, light tanks and a crazy man at the helm. If no one strong takes the lead of the council it is not unreasonable to assume McVeigh will just brush the other militias aside and march on Boise. If that happens, may god save Montana and America. "
   montana.17.a:0 "Oh fuck."
 
   montana.18.t:0 "Organizing the Defense of Great Falls"
-  montana.18.d:0 ""
+  montana.18.d:0 "Although Boise was the new designated capitol of Montana, a lot of our power is still held in Great Falls. Recent reports indicated troubling news that McVeigh has launched an offensive towards Great Falls and is rapidly approaching. The Emergency Council has been able to rally some men but it is nothing more than a skeleton force with some old rifles, some local commanders have made the call to put Weaver in charge as he could convince more of the local militias to join in the fight. Although he isn’t our only option, despite Garrison’s actions he is still a big figure and more stable choice, even when Covington was around he was seen as a natural successor. But, we could try our chances, do our best to stick to the Imperative and never stand down! For Free Montana!"
   montana.18.a:0 "Call up Weaver"
   montana.18.b:0 "Better the Devil you know, call Garrison"
   montana.18.c:0 "We can handle this on our own."
@@ -283,12 +289,45 @@
   montana.37.a:0 "Not like we've got many options"
   montana.37.b:0 "Garrison's a far more agreeable choice"
   montana.37.c:0 "They're both useless, we'll handle this ourselves"
+  
+  montana.38.t:0 "Purging the Radicals"
+  montana.38.d:0 "As Weaver's new government consolidates power, it has become apparent that some of the more unsavory elements of the country need to be dealt with. Finding these radicals was ultimately fairly easy. Timothy McVeigh, the reviled leader of the National Purist Faction, was arrested mere days after Weaver took power while attempting to flee across the border into Utah. Instead of offering asylum, however, the Utah government arrested him and promptly extradited him back to the Montana government. McVeigh was unable to face an official tribunal, however, as he attempted to flee and was promptly shot two hundred and eighty seven times and spontaneously caught fire, according to a report by the militia sent to handle the Utah transfer.\n\nKaczynski and his luddite faction proved somewhat more problematic to deal with due to his relative isolation from the larger government. A crack team of militias managed to finally locate the Kaczynskite headquarters near the Canadian border. Following a brief shootout, Kaczynski was arrested by the Weaverites and quickly executed. The headquarters itself was searched and turned up very little on what Kaczynski was aiming to achieve aside from a concerning amount of fertilizer and electronics.\n\nWith the rival factions eliminated, the new Weaverite government can now begin the process of restructuring and liberating Montana."
+  montana.38.a:0 "The tree of liberty is soaking in the blood of traitors."
 
-  ##########################
-  # TOOLTIPS
-  ##########################
+  montana.39.t:0 "Remembering the Big Three"
+  montana.39.d:0 "As Montana builds anew, the people need new inspirations, and those inspirations can be found in what has been dubbed “The Big Three”.Christ, Washington and Browning. All men are true examples of the principles of Weaver’s Montana. Jesus Christ, the son of God and the man who died for all of our sins. George Washington, a true leader who freed this fine land from the tyrants of Westminster. And John Browning, the man who revolutionised the tools of freedom to fight tyrants. All men that everyone in Montana should look up and to for inspiration in these truly trying times."
+  montana.39.a:0 "Christ, Washington and Browning shall guide us!"
+
+  montana.40.t:0 "Anti-Communist Training"
+  montana.40.d:0 "Git ur guns partner."
+  montana.40.a:0 "We shall make the west coast run red, with the blood of Communists."
+
+  montana.41.t:0 "Anti-Communist Pact Proposal"
+  montana.41.d:0 "More people, more beer, more guns."
+  montana.41.a:0 "Hopefully they accept."
+
+  montana.42.t:0 ""
+
+  montana.43.t:0 ""
+
+  montana.44.t:0 ""
+
+  montana.45.t:0 ""
+
+  montana.46.t:0 "Christ Shines in the Classroom"
+  montana.46.d:0 "Despite the rough and often criminal nature of Montana, to Weaver education is still necessary for all young girls and boys within the fledgling state, especially the word of the Lord himself, Jesus Christ of Nazarath.\n\nToday a new initiative spearheaded by Weaver was set into motion, dictating that all classrooms within the nation must have a special hour dedicated to the teachings of the Bible and Christ everyday. Everyday the youth will not only learn about the morals set by God, but the rights he bestowed upon man. Life, Liberty and the pursuit of Happiness, the three foundations that hold the new Montana above the old, the very rights that men like Mcveigh, Garrison and many others tried to take away from the free men and women of Montana. All will learn the name of saints and traitors."
+  montana.46.a:0 "The Lord shall guide our youth."
+
+  montana.47.t:0 "Plucking out a Thorn"
+  montana.47.d:0 "Despite the new Weaverite governments previous removal of those considered traitors and direct threats to the new radical form of governance, it seems today another threat was in need of being removed. Ben Garrison, well known leader of some of the many militias that inhabited the melting pot of the far-right ideologies that existed in Convington’s playground for all blends of them, has now been captured by those loyal to Weaver. \n\Although orders were to arrest Garrison and bring him back to a safer place for detainment, it seems some men were acting under different orders. As a detailed report from a local commander recalls a series of events where men took a captured Garrison deep into some woods, although nothing was heard from them, the report does say the last thing heard from that general direction was the chatter of M60 machine gun fire. \n\At the present time it is unknown if the execution was ordered, we can only speculate."
+  montana.47.a:0 "I was just following orders."
+  ######################################
+  # TOOLTIPS AND FACTIONS SINCE FUCK YOU
+  ######################################
   RWE_MOT_Centralization_Fuckup:0 "§RAttempting to seize Power with high decentralization may have unintended consequences§!"
+  RWE_MOT_Weaver_oob_tt:0 "§YA force of true patriots will rise with their own weapons. And training...§!"
 
+  anticommunist_pact:0 "Anti-Communist Pact"
   ##########################
   # COSMETIC TAGS
   ##########################

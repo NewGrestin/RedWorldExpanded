@@ -116,6 +116,31 @@ spriteTypes = {
 		name = "MOT_Militias2"
 		texturefile = "gfx/event_pictures/report_event/MOT_Militias2.dds"
 	}
+	
+	spriteType = {
+		name = "MOT_purge_disloyal_radicals"
+		texturefile = "gfx/event_pictures/report_event/MOT_purge_disloyal_radicals.tga"
+	}
+
+	spriteType = {
+		name = "MOT_CWB" 
+		texturefile = "gfx/event_pictures/report_event/MOT_CWB.tga"
+	}
+ 
+	spriteType = {
+		name = "MOT_antipca_training"  
+		texturefile = "gfx/event_pictures/report_event/MOT_antipca_training.tga"
+	}
+
+	spriteType = {
+		name = "MOT_must_kill_garrison"   
+		texturefile = "gfx/event_pictures/report_event/MOT_must_kill_garrison.tga"
+	}
+
+	spriteType = {
+		name = "MOT_jesus"   
+		texturefile = "gfx/event_pictures/report_event/MOT_jesus.tga"
+	}
 
 	spriteType = {
 		name = "ATL_milley_resigns"

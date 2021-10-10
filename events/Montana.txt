@@ -496,7 +496,7 @@ country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Pu
 	}
 
 	option = { #Align with Garrison
-		name = montana.18.a
+		name = montana.18.b
 
 		add_political_power = -50
 
@@ -569,6 +569,8 @@ country_event = {		#Garrison in Power - McVeigh gets purged
 		name = montana.30.a
 
 		add_political_power = 150
+		
+		381 = { set_demilitarized_zone = no }
 
 		add_popularity = {
 			ideology = fascism
@@ -866,6 +868,8 @@ country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Pu
 		ai_chance = {
 			factor = 40
 		}
+		
+		389 = { set_demilitarized_zone = no }
 
 		set_politics = {
 			ruling_party = nationalist
@@ -890,5 +894,177 @@ country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Pu
 				days = 5
 			}
 		}
+	}
+}
+
+country_event = { #Weaver gets Teddy and Vicky shot
+	id = montana.38
+	title = montana.38.t
+	desc = montana.38.d
+	picture = MOT_purge_disloyal_radicals
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.38.a
+		add_manpower = -122
+		add_stability = 0.05
+		389 = { set_demilitarized_zone = no }
+		381 = { set_demilitarized_zone = no }
+	}
+}
+
+country_event = { #Christ, Washington and Browning
+	id = montana.39	
+	title = montana.39.t
+	desc = montana.39.d
+	picture = MOT_CWB
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.39.a
+		add_political_power = 5
+		add_stability = 0.025
+		add_manpower = 1911
+	}
+}
+
+country_event = { #Anti-Communism
+	id = montana.40
+	title = montana.40.t
+	desc = montana.40.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.40.a
+		add_war_support = 0.05
+		add_manpower = 2500
+	}
+}
+
+country_event = { #Anti-Communist Pact
+	id = montana.41
+	title = montana.41.t
+	desc = montana.41.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.41.a
+		create_faction = anticommunist_pact
+		MOT = {
+			remove_ideas = idea_america_neutrality_statelet
+			}
+		UTA = {
+			country_event = { id = utah.1 }
+		}
+
+		ARI = {
+			country_event = { id = arizona.1 }
+		}
+
+	}
+}
+
+country_event = { #Utah accepts
+	id = montana.42
+	title = montana.42.t
+	desc = montana.42.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.42.a
+	}
+}
+
+country_event = { #Utah rejects
+	id = montana.43
+	title = montana.43.t
+	desc = montana.43.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.43.a
+	}
+}
+
+country_event = { #Arizona accepts
+	id = montana.44
+	title = montana.44.t
+	desc = montana.44.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.44.a
+	}
+}
+
+country_event = { #Arizona rejects
+	id = montana.45
+	title = montana.45.t
+	desc = montana.45.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.45.a
+	}
+}
+
+country_event = { #Jesus
+	id = montana.46
+	title = montana.46.t
+	desc = montana.46.d
+	picture = MOT_jesus  
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.46.a
+	}
+}
+
+country_event = { #Ben Garrison must die
+	id = montana.47
+	title = montana.47.t
+	desc = montana.47.d
+	picture = MOT_must_kill_garrison  
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = montana.47.a
+		add_manpower = -1
 	}
 }
