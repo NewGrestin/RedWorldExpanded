@@ -90,7 +90,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Lori Robinson"
-	picture = "Portrait_APP_Robinson.dds"
+	name = "Mitch McConnell"
+	picture = "Portrait_TEN_Mitch_McConnell.dds"
 	ideology = american_nationalist
 }
