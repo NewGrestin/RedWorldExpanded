@@ -183,6 +183,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "MAS_the_kennedies"
+		texturefile = "gfx/event_pictures/report_event/MAS_the_kennedies.dds"
+	}
+
+	spriteType = {
+		name = "MAS_free_state_project"
+		texturefile = "gfx/event_pictures/report_event/MAS_free_state_project.dds"
+	}
+
+	spriteType = {
+		name = "MAS_buddy_cianci"
+		texturefile = "gfx/event_pictures/report_event/MAS_buddy_cianci.dds"
+	}
+	
+	spriteType = {
 		name = "FRA_Mainstream"
 		texturefile = "gfx/event_pictures/report_event/FRA_Mainstream.tga"
 	}

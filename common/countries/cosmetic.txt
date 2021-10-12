@@ -538,3 +538,12 @@ USA_JAP = {
 	color_ui = rgb { 255 221 221 }
 }
 
+MAS_libertarian = {
+	color = rgb { 245 220 0	}
+	color_ui = rgb { 245 220 0	}
+}
+
+MAS_WEED_MAOISM = {
+	color = rgb { 244 12 35 }
+	color_ui = rgb { 244 12 35 }
+}

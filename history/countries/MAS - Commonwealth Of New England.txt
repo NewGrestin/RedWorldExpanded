@@ -106,3 +106,28 @@ create_country_leader = {
 	ideology = social_liberal
 	desc = MAS_JOE_KENNEDY_II_DESC
 }
+
+create_country_leader = {
+	name = "Bill Lee"
+	ideology = revolutionary_socialist_ideology
+	picture = "Portrait_MAS_Bill_Lee.dds"
+}
+
+create_country_leader = {
+	name = "Sam Webb"
+	ideology = american_communist
+	picture = "Portrait_MAS_Sam_Webb.dds"
+}
+
+
+create_country_leader = {
+	name = "Andrew Yang"
+	ideology = right_libertarian
+	picture = "Portrait_MAS_Andrew_Yang.dds"
+}
+
+create_country_leader = {
+	name = "Buddy Cianci"
+	ideology = nationalist_ideology
+	picture = "Portrait_MAS_Buddy_Cianci.dds"
+}

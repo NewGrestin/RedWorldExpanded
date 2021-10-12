@@ -96,7 +96,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Raymond T. Odierno"
-	picture = "Portrait_Raymond_T_Odierno.dds"
+	name = "Richard Ojeda"
+	picture = "Portrait_WVM_Richard_Ojeda.dds"
 	ideology = american_nationalist
 }

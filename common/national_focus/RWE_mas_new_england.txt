@@ -1,0 +1,246 @@
+focus_tree = {
+	id = new_england_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+				tag = MAS
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+	shared_focus = MAS_securing_new_england
+	shared_focus = MAS_baseball_socialism
+}
+
+shared_focus = {
+	id = MAS_securing_new_england
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 1
+	available = {
+		has_country_flag = MAS_starting_tree_flag
+	}
+	x = 4
+	y = 0
+	completion_reward = {
+		set_variable = {
+			var = MAS_starting_tree_variable
+		}
+	}
+}
+
+
+shared_focus = {
+	id = MAS_finalising_the_state
+	icon = GFX_goal_MAS_finalising_the_state
+	cost = 1
+	available = {
+		OR = {
+			check_variable = {
+				var = MAS_starting_tree_variable
+				value = 0
+				compare = equals 
+			}
+			check_variable = {
+				var = MAS_starting_tree_variable
+				value = 2
+				compare = equals
+			}
+		}
+	}
+	prerequisite = {
+		focus = MAS_securing_new_england
+	}
+	x = 0
+	y = 1
+	relative_position_id = MAS_securing_new_england
+	completion_reward = { 
+		
+		custom_effect_tooltip = MAS_finalising_the_state_tooltip
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_country_flag = MAS_yang
+					has_country_flag = MAS_jr
+				}
+				country_event = {
+					id = massachusetts.10
+					days = 2
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					has_country_flag = MAS_yang
+					has_country_flag = MAS_spaceman
+				}
+				country_event = {
+					id = massachusetts.20
+					days = 2
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					has_country_flag = MAS_yang
+					has_country_flag = MAS_cianci
+				}
+				country_event = {
+					id = massachusetts.25
+					days = 2
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					has_country_flag = MAS_cianci
+					has_country_flag = MAS_jr
+				}
+				country_event = {
+					id = massachusetts.30
+					days = 2
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					has_country_flag = MAS_spaceman
+					has_country_flag = MAS_jr
+				}
+				country_event = {
+					id = massachusetts.15
+					days = 2	
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					has_country_flag = MAS_spaceman
+					has_country_flag = MAS_cianci
+				}
+				country_event = {
+					id = massachusetts.35
+					days = 2
+				}
+			}
+			ELSE = {
+				country_event = {
+					id = massachusetts.40
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_sins_of_the_family
+	icon = GFX_goal_MAS_sins_of_the_family
+	cost = 2
+	available = {
+		check_variable = {
+			var = MAS_starting_tree_variable
+			value = 2
+			compare = less_than
+		}
+	}
+	prerequisite = {
+		focus = MAS_securing_new_england
+	}
+	x = -2
+	y = 2
+	relative_position_id = MAS_securing_new_england
+	completion_reward = { 
+		add_to_variable = {
+			var = MAS_starting_tree_variable
+			value = 1
+		}
+		set_country_flag = MAS_jr
+		country_event = {
+			id = massachusetts.6
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_the_other_machine
+	icon = GFX_goal_MAS_the_other_machine
+	cost = 2
+	available = {
+		check_variable = {
+			var = MAS_starting_tree_variable
+			value = 2
+			compare = less_than
+		}
+	}
+	prerequisite = {
+		focus = MAS_securing_new_england
+	}
+	x = -1
+	y = 3
+	relative_position_id = MAS_securing_new_england
+	completion_reward = { 
+		add_to_variable = {
+			var = MAS_starting_tree_variable
+			value = 1
+		}
+		set_country_flag = MAS_cianci
+		country_event = {
+			id = massachusetts.7
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_conversing_with_yang
+	icon = GFX_goal_MAS_conversing_with_yang
+	cost = 2
+	available = {
+		check_variable = {
+			var = MAS_starting_tree_variable
+			value = 2
+			compare = less_than
+		}	
+	}
+	prerequisite = {
+		focus = MAS_securing_new_england
+	}
+	x = 2
+	y = 2
+	relative_position_id = MAS_securing_new_england
+	completion_reward = { 
+		add_to_variable = {
+			var = MAS_starting_tree_variable
+			value = 1
+		}
+		set_country_flag = MAS_yang
+		country_event = {
+			id = massachusetts.8
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_cleaning_out_socialist_remnants
+	icon = GFX_goal_MAS_cleaning_up_socialist_remnants
+	cost = 2
+	available = {
+		check_variable = {
+			var = MAS_starting_tree_variable
+			value = 2
+			compare = less_than
+		}	
+	}
+	prerequisite = {
+		focus = MAS_securing_new_england
+	}
+	x = 1
+	y = 3
+	relative_position_id = MAS_securing_new_england
+	completion_reward = { 
+		add_to_variable = {
+			var = MAS_starting_tree_variable
+			value = 1
+		}
+		set_country_flag = MAS_spaceman
+		country_event = {
+			id = massachusetts.9
+		}
+	}
+}

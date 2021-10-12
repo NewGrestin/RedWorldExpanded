@@ -1033,5 +1033,29 @@ spriteTypes = {
 		name = "GFX_goal_AST_Invite_American_Monopolies"
 		texturefile = "gfx/interface/goals/AST_Invite_American_Monopolies.dds"			
 	}
+	SpriteType = {
+		name = "GFX_goal_MAS_securing_new_england"
+		texturefile = "gfx/interface/goals/MAS_securing_new_england.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAS_finalising_the_state"
+		texturefile = "gfx/interface/goals/MAS_finalising_the_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAS_sins_of_the_family"
+		texturefile = "gfx/interface/goals/MAS_sins_of_the_family.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAS_the_other_machine"
+		texturefile = "gfx/interface/goals/MAS_the_other_machine.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAS_conversing_with_yang"
+		texturefile = "gfx/interface/goals/MAS_conversing_with_yang.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAS_cleaning_up_socialist_remnants"
+		texturefile = "gfx/interface/goals/MAS_cleaning_up_socialist_remnants.dds"
+	}
 }
 

@@ -1087,3 +1087,36 @@ country_event = { #American Republic Collapse Test
 		}
     }
 }
+
+country_event = { #American Republic Collapse Test
+	id = debug.13
+	title = debug.13.t
+	desc = debug.13.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	option = { #libertarian
+		name = debug.13.o1
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = {
+			ruling_party = centrist
+		}
+		set_cosmetic_tag = MAS_libertarian
+    }
+	option = { #WEED MAOISM
+		name = debug.13.o2
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
+		set_cosmetic_tag = MAS_WEED_MAOISM
+		set_capital = 793
+    }
+}
