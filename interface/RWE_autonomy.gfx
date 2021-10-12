@@ -9,4 +9,19 @@ spriteTypes = {
 		name = "GFX_autonomy_soviet_satellite_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_soviet_satellite.dds"
 	}
+
+	spriteType = {
+		name = "GFX_autonomy_non_autonomous_dependency_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_non_autonomous_dependency.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_military_dependency_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_military_dependency.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_occupied_dependency_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_occupied_dependency.dds"
+	}
 }

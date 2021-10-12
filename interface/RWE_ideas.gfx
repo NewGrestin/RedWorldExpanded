@@ -353,4 +353,40 @@ spriteTypes = {
 		name = "GFX_idea_RWE_Arizona_Mexicanification"
 		textureFile = "gfx/interface/ideas/RWE_Arizona_Mexicanification.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_RWE_Utah_Heirs_to_Deseret"
+		textureFile = "gfx/interface/ideas/RWE_Utah_Heirs_to_Deseret.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Utah_LDS_Church"
+		textureFile = "gfx/interface/ideas/RWE_Utah_LDS_Church.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Utah_Native_Management"
+		textureFile = "gfx/interface/ideas/RWE_Utah_Native_Management.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Alaska_Final_Frontier"
+		textureFile = "gfx/interface/ideas/RWE_Alaska_Final_Frontier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Alaska_Perfidious_Canucks"
+		textureFile = "gfx/interface/ideas/RWE_Alaska_Perfidious_Canucks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Alaska_Oil_Pipeline"
+		textureFile = "gfx/interface/ideas/RWE_Alaska_Oil_Pipeline.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Hawaii_Tourist_Trap"
+		textureFile = "gfx/interface/ideas/RWE_Hawaii_Tourist_Trap.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Hawaii_Diversity_Quota"
+		textureFile = "gfx/interface/ideas/RWE_Hawaii_Diversity_Quota.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_Hawaii_USN_Remnants"
+		textureFile = "gfx/interface/ideas/RWE_Hawaii_USN_Remnants.dds"
+	}
 } 

@@ -9,6 +9,14 @@ set_war_support = 0.1
 
 set_country_flag = muslim_nation
 
+create_faction = Gulf_Coast_Alliance
+
+SAU = { 
+	add_to_faction = OMA 
+	add_to_faction = UAE
+	add_to_faction = QAT
+}
+
 SAU = {
 	give_guarantee = OMA
 	give_guarantee = UAE

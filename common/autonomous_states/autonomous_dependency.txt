@@ -1,3 +1,5 @@
+# Equivalent to Vanilla Dominion
+
 autonomy_state = {
 	id = autonomy_dependency
 	

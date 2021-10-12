@@ -29,13 +29,8 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			AND = {
-				overlord = { tag = SOV }
-				SOV = {
-					has_government = communist
-				}
-			}
+		ROOT = {
+			has_country_flag = RWE_Soviet_Satellite
 		}
 	}
 }

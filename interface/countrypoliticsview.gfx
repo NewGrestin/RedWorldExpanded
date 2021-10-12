@@ -733,6 +733,111 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_american_nationalist"
+		texturefile = "gfx/interface/ideologies/american_nationalist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paleoconservative"
+		texturefile = "gfx/interface/ideologies/paleoconservative.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_fujimorist"
+		texturefile = "gfx/interface/ideologies/fujimorist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_peronist"
+		texturefile = "gfx/interface/ideologies/peronist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_dominionist"
+		texturefile = "gfx/interface/ideologies/dominionist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_american_conservative"
+		texturefile = "gfx/interface/ideologies/american_conservative.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_european_conservative"
+		texturefile = "gfx/interface/ideologies/european_conservative.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_christian_democracy"
+		texturefile = "gfx/interface/ideologies/christian_democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_fiscal_conservative"
+		texturefile = "gfx/interface/ideologies/fiscal_conservative.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_islamic_democrat"
+		texturefile = "gfx/interface/ideologies/islamic_democrat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_right_libertarian"
+		texturefile = "gfx/interface/ideologies/right_libertarian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_centrist_populist"
+		texturefile = "gfx/interface/ideologies/centrist_populist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_agrarian_centrist"
+		texturefile = "gfx/interface/ideologies/agrarian_centrist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_christian_democrat"
+		texturefile = "gfx/interface/ideologies/christian_democrat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_left_libertarian"
+		texturefile = "gfx/interface/ideologies/left_libertarian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_old_american_democrats"
+		texturefile = "gfx/interface/ideologies/old_american_democrats.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_kemalist"
+		texturefile = "gfx/interface/ideologies/kemalist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_nehruvian_socialism"
+		texturefile = "gfx/interface/ideologies/nehruvian_socialism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_democratic_socialist"
+		texturefile = "gfx/interface/ideologies/democratic_socialist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_progressive"
+		texturefile = "gfx/interface/ideologies/progressive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_peoples_socialist_democracy"
+		texturefile = "gfx/interface/ideologies/peoples_socialist_democracy.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
 		legacy_lazy_load = no

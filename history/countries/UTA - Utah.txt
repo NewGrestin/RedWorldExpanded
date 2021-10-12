@@ -8,6 +8,9 @@ set_stability = 0.9
 set_war_support = 0.2
 
 add_ideas = {
+	RWE_Utah_Heirs_to_Deseret
+	RWE_Utah_LDS_Church
+	RWE_Utah_Native_Management
 	idea_america_neutrality_statelet
 }
 

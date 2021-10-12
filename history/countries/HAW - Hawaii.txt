@@ -7,6 +7,12 @@ set_convoys = 500
 set_stability = 0.9
 set_war_support = 0.1
 
+add_ideas = {
+	RWE_Hawaii_Tourist_Trap
+	RWE_Hawaii_Diversity_Quota
+	RWE_Hawaii_USN_Remnants
+}
+
 set_technology = {
 	early_submarine = 1
 	basic_submarine = 1

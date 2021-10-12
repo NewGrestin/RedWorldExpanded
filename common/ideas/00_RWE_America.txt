@@ -208,5 +208,193 @@ ideas = {
 				cic_to_target_factor = 0.05
 			}
 		}
+
+		RWE_Utah_Heirs_to_Deseret = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Utah_Heirs_to_Deseret
+			
+			removal_cost = -1
+	
+			modifier = {
+				heat_attrition = -0.25
+				attrition = -0.15
+				surrender_limit = 0.1
+			}
+		}
+
+		RWE_Utah_LDS_Church = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Utah_LDS_Church
+			
+			removal_cost = -1
+	
+			modifier = {
+				national_conservative_acceptance = 150
+				political_power_gain = 0.05
+			}
+		}
+
+		RWE_Utah_Native_Management = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Utah_Native_Management
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+
+		RWE_Alaska_Final_Frontier = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Alaska_Final_Frontier
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				global_building_slots_factor = -0.05
+			}
+		}
+
+		RWE_Alaska_Perfidious_Canucks = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Alaska_Perfidious_Canucks
+			
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.25
+			}
+	
+			targeted_modifier = {
+				tag = CAN
+				cic_to_target_factor = 0.1
+			}
+		}
+
+		RWE_Alaska_Oil_Pipeline = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Alaska_Oil_Pipeline
+			
+			removal_cost = -1
+	
+			modifier = {
+				state_production_speed_synthetic_refinery_factor = 0.3
+				state_production_speed_fuel_silo_factor = 0.5
+				fuel_gain = 100
+				max_fuel = 10000
+			}
+		}
+
+		RWE_Hawaii_Tourist_Trap = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Hawaii_Tourist_Trap
+			
+			removal_cost = -1
+	
+			modifier = {
+				faction_trade_opinion_factor = 0.25
+				stability_factor = 0.05
+				consumer_goods_factor = -0.1
+			}
+		}
+
+		RWE_Hawaii_Diversity_Quota = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Hawaii_Diversity_Quota
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		RWE_Hawaii_USN_Remnants = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_Hawaii_USN_Remnants
+			
+			removal_cost = -1
+	
+			modifier = {
+				naval_coordination = 0.05
+				convoy_escort_efficiency = 0.05
+				experience_gain_navy = 0.1
+				amphibious_invasion_defence = 0.1
+			}
+		}
 	}
 }
