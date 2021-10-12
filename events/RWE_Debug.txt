@@ -345,16 +345,36 @@ country_event = { #Super Event Test
 			add_ideas = RWE_America_Shattered_Ambition	
 		}
 
-		CHC = {
+		CGH = {
 			transfer_state = 395
 
 			395 = {
-				add_core_of = CHC
+				add_core_of = CGH
 			}
 
 			set_cosmetic_tag = CHC_Anarchy
 
 			add_ideas = RWE_America_Shattered_Ambition
+
+			create_country_leader = {
+				name = "Timothy J. Keating"
+				picture = "Portrait_CHC_Keating.dds"
+				ideology = nationalist_ideology
+			}
+
+			set_popularities = {
+				fascist = 10
+				nationalist = 80
+				monarchist = 0
+				national_bolshevik = 10
+				national_conservative = 0
+				centrist = 0
+				liberal = 0
+				new_democrat = 0
+				moderate_socialist = 0
+				revolutionary_socialist = 0
+				communist = 0
+			}
 		}
 
 		LOU = {
@@ -699,6 +719,10 @@ country_event = { #American Republic Collapse Test
 			transfer_state = 371
 			add_state_core = 371
 
+			set_politics = {
+				ruling_party = fascist
+			}
+
 			set_cosmetic_tag = LOU_AR_Collapse
 		}
 
@@ -762,6 +786,11 @@ country_event = { #American Republic Collapse Test
 		ATL = {
 			transfer_state = 365
 			add_state_core = 365
+			load_oob = ATL_2010
+			country_event = {
+				id = atlanta.1
+				days = 4
+			}
 		}
     }
 }

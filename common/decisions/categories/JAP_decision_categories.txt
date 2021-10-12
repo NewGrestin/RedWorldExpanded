@@ -1,0 +1,11 @@
+JAP_Election_Campaign = {
+    icon = generic_democracy
+
+	picture = GFX_decision_cat_JAP_Election
+
+	visible = { 
+	has_country_flag = RW_JAP_CAMPAIGN
+	}
+
+	priority = 250
+}

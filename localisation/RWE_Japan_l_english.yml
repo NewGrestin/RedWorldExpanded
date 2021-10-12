@@ -1,15 +1,23 @@
 ﻿l_english:
 
   gunji_otaku:0 "Gunji Otaku"
+  POLITICS_KAZUO_SHII_DESC:0 ""
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+  JAP_Election_Campaign:0 "The Election Campaign"
+  JAP_Election_Campaign_desc:0 "\n\n\n\n\n\n\nWith the fall of the LDP government in the aftermath of the Tohoku disaster, snap elections are expected to be held. The parties now have their chance to unseat the LDP government and shift Japan away from the old national conservative establishment and into a new future. \n\nTo win the election, the party simply has to become the biggest party in terms of popularity in Japan.\n"
+  
+  JAP_Support_the_JCP:0 "Support the JCP"
+  JAP_Support_the_NLC:0 "Support the NLC"
+  JAP_Support_the_JSP:0 "Support the JSP"
+  JAP_Support_the_LDP:0 "Support the LDP"
 
   ##########################
   # PARTIES
   ##########################
-
-  JAP_liberal_party:0 "New Liberal Club"
-  JAP_liberal_party_long:0 "New Liberal Club"
-  JAP_national_conservative_party:0 "Clean Government Party"
-  JAP_national_conservative_party_long:0 "Clean Government Party"
 
   ##########################
   # IDEAS
@@ -47,6 +55,56 @@
   JAP_Excessive_Public_Investment_Scheme:0 "Excessive Public Investment Scheme"
   JAP_A_Fourth_Arrow:0 "The Fourth Arrow?"
   JAP_Fukoku_Kyohei:0 "Fukoku Kyohei"
+  JAP_Revision_of_History:0 "Revision of History"
+  JAP_Adress_Soviet_Imperialism:0 "Adress Soviet Imperialism"
+  JAP_Our_Friends_in_Nippon_Kaigi:0 "The Nippon Kaigi Connection"
+  JAP_Pull_towards_the_Centre:0 "Pull towards the Centre"
+  JAP_Consolidate_the_Right:0 "Consolidate the Right"
+  JAP_Party_of_Patriots:0 "Appeal to the Uyoku Dantai"
+  JAP_Komeito_as_Partner:0 "Approach the Buddhist Democrats"
+  JAP_The_Liberal_Alliance:0 "A Party like it's 1955"
+  JAP_Promise_Government_Transparency:0 "Promise Government Transparency"
+  JAP_Embrace_the_Neoliberal_Approach:0 "Embrace 21st Century Liberalism"
+  JAP_Blind_Eye_to_the_Soka_Gakkai:0 "Blind Eye to the Soka Gakkai" 
+  JAP_Wave_the_Kyokujitsu_Ki:0 "Wave the Kyokujitsu-Ki"
+  JAP_NLC_Together:0 "\"Renew Japanese Democracy\"" 
+  JAP_Liberalism_for_the_21st_Century:0 "Liberalism of the 21st Century"
+  JAP_Lower_the_Spending_Deficit:0 "Lower the Spending Deficit"
+  JAP_Disability_Compensation_Act:0 "Compensate the Disabled"
+  JAP_Rules_for_a_Free_Market:0 "Free Market, Not Rule Free"
+  JAP_Lessen_Environmental_Spending:0 "Slash Unnecessary Budgets"
+  JAP_Cut_Down_on_Ministries:0 "Cut some Red Tape"
+  JAP_Clean_Conservatism:0 "Clean Conservatism"
+  JAP_Preserve_the_Housewife_Culture:0 "Anti-Corruption Measures" 
+  JAP_Support_Taiwan:0 "Support Taiwan"
+  JAP_Intervene_in_Korea:0 "Intervene in Korea" 
+  JAP_Replace_the_Rubble:0 "Overshadow the Rubble"
+  JAP_Belt_of_Democracy_and_Prosperity:0 "Belt of Democracy and Prosperity"
+  JAP_Democratic_Diamond_Theory:0 "Democratic Diamond Theory"
+  JAP_The_Power_of_the_Yen:0 "Soft Power of the Yen"
+  JAP_Global_Outlook:0 "Beyond Japan"
+  JAP_Tokyo_Economic_Community:0 "Tokyo Economic Community"
+  JAP_JSP_rises_to_power:0 "\"Fix our Broken Nation\""
+  JAP_Scientific_Socialism:0 "Embrace Scientific Socialism"
+  JAP_A_Reformist_Party:0 "A Party of Reformists"
+  JAP_Demand_Party_Discipline:0 "Demand Party Discipline"
+  JAP_Renew_the_Welfare_State:0 "Secure our Welfare State"
+  JAP_Rational_Governance:0 "Rationalize the Government"
+  JAP_Expand_Social_Security:0 "Expand Social Security"
+  JAP_Accept_the_JNDF:0 "Accept the JNDF"
+  JAP_United_against_Communism:0 "East Asian Security Organisation"
+  JAP_Neutralist_Stance:0 "Neutralism"
+  JAP_Bust_the_Keiretsu:0 "Bust the Keiretsu"
+  JAP_Measured_Pacifism:0 "Measured Pacifism"
+  JAP_Solving_the_Problems_of_the_LDP:0 "Solving 50 Years of LDP"
+  JAP_Limit_Nippon_Kaigi_Influence:0 "Counter Ultranationalist Organisations"
+  JAP_The_History_Books_Debacle:0 "Honest History Education"
+  JAP_Defang_the_Military:0 "Defang the Military"
+  JAP_Change_the_Military_Flag:0 "Criminalize the Rising Sun Flag"
+  JAP_Limit_the_Bureaucracy:0 "Limit the Bureaucracy"
+  JAP_Stability_of_Asia:0 "Asia's Balance of Powers"
+  JAP_Adress_National_Debt:0 "Adress the Debt Situation"
+  JAP_Expansive_Industrial_Policy:0 "Japan 2050 Scheme"
 
   ##########################
   # EVENTS
@@ -109,8 +167,24 @@
   rw_jap.17.a:0 "We have to face modernity and reality..."
   rw_jap.17.b:0 "Over my dead body!"
   rw_jap.18.t:0 "Opposition critical of Nuclear Program"
-  rw_jap.18.d:0 "In a joint statement to the media, both the JSP and JCP have attracted attention to the nuclear program debate that is raging in the national diet. Both parties, previously opposed to the LDP's revision of Article 9 and the rearming of the Japanese National Defenses Force, have already been highly sceptical of Tamogami's nuclear program funding and, with the same fervour as against the Article 9 revision, have gone out of their way to block any further increase in the funding of our nuclear program. \n\nTo justify their position, both parties have thus released a joint press statement to Japanese media, claiming the program to be a danger for the safety of all Japanese. According to the JSP's leader Tadatomo Yoshida, the nuclear program paints a back on the Japanese nation. As long as the program is going on, the international community will shun Japan for its attempts to create nuclear weaponry and, if things go too far, the Soviet Union may even opt for intervention. The JCP adds to that that the nuclear program costs millions every year and that such money could be far better spend in the economy and social welfare programs that have been lacking ever since the prime-ministership of Shinzo Abe. Their statement has sparked public debate on the issue and, for now, both parties can enjoy the majority opinion being in their favour."
+  rw_jap.18.d:0 "In a joint statement to the media, both the JSP and JCP have attracted attention to the nuclear program debate that is raging in the national diet. Both parties, previously opposed to the LDP's revision of Article 9 and the rearming of the Japanese National Defenses Force, have already been highly sceptical of Tamogami's nuclear program funding and, with the same fervour as against the Article 9 revision, have gone out of their way to block any further increase in the funding of our nuclear program. \n\nTo justify their position, both parties have thus released a joint press statement to Japanese media, claiming the program to be a danger for the safety of all Japanese. According to the JSP's leader Mizuho Fukushima, the nuclear program paints a back on the Japanese nation. As long as the program is going on, the international community will shun Japan for its attempts to create nuclear weaponry and, if things go too far, the Soviet Union may even opt for intervention. The JCP adds to that that the nuclear program costs millions every year and that such money could be far better spend in the economy and social welfare programs that have been lacking ever since the prime-ministership of Shinzo Abe. Their statement has sparked public debate on the issue and, for now, both parties can enjoy the majority opinion being in their favour."
   rw_jap.18.a:0 "Nukes will bring peace!" 
+  rw_jap.19.t:0 "Fall of the Government"
+  rw_jap.19.d:0 "\"After the disastrous response of the Japanese government to the Tohoku disaster, the repeated scanddals of the LDP and the slow move towards the much-needed reforms of the government apparatus, the JCP moves towards a motion of no confidence in current government\". \n\nAs the votes were counted, the situation started to seem to lean towards a succes for the motion of no confidence, as the opposition remained united in its effort to dethrone [JAP.GetLeader]. Yet hope remained, for the coalition would still have a majority. \n\nThat moment of hope would be shot down by the New Liberal Club. The MPs of the NLC voted against the government, leading to a slight majority in favour of the vote of no confidence. \n\nIn an adress to the public, the NLC's leader Yukio Edano explained this drastic decision: \"Japan has been put in the worst spot it has seen since 1945. The Tohoku disaster compounds our already waning position internationally and the slow government response does not help wit this issue at all. The NLC, despite its membership in the Tamogami government, was always blocked by the unstable factionalism of the LDP. Any decision that would have helped the people affected by the tsunami, earthquake and nuclear disaster was blocked by the LDP's big-shots. \n\nWhile we believe in a politics of compromise, we simply cannot keep compromising while people are suffering. It may not have been the strategic decision to make, but I stand by that it was the moral one to make\"."
+  rw_jap.19.a:0 "So, an early election during a year of crisis?" 
+  rw_jap.20.t:0 "The Monarchy Debate"
+  rw_jap.20.d:0 "One of the many publicized TV debates during the campaigning period of the snap election has sparked public debate, as the JCP and LDP fiercly debated eachother on the role and future of the monarchy. \n\nThe JCP started the debate with recognizing the status of the monarchy as Japan's head of state, but quickly turned around when the JCP's Kazuo Shii proposed a referendum on the remaining of the imperial house or turning Japan into a republic. LDP's [JAP.GetLeader] quickly went in the offensive and attacked the JCP for its anti-nationalist sentiment and Soviet sympathies. The debate got quickly derailed by both parties, as the JCP tried to keep it on the Japanese imperial household, but the LDP simply continued questioning the loyalty of the JCP to Japan and its democracy. \n\nThe public is now divided more than ever on the issue. While the monarchy still enjoys enough public support, the 34% of Japanese people that have been less than supportive of the emperor have become a vocal group in public debate. The public now finally seems to agree that:"
+  rw_jap.20.a:0 "The monarchy is a key part of Japan as a nation"
+  rw_jap.20.b:0 "A referendum on the issue would help sort out the situation"
+  rw_jap.21.t:0 "Election Day"
+  rw_jap.21.d:0 "With the snap election deadline ending today, the people of Japan return to their voting booths to partake in the democratic tradition once again. Vote after vote is casted today and journalists keep a close eye on the polls. \n\nAs the percentage of votes counted comes closer and closer to the 100% and the process of the voting has gone without any issue, a race is starting to emerge between the 4 big parties. It will take some time before we will see the actual results."
+  rw_jap.21.a:0 "How long will we have to wait?"
+  rw_jap.22.t:0 "The Results"
+  rw_jap.22.d:0 "Finally, after a long night of voting, the result has come in. Journalists and news stations across the country are primed, awaiting to announce the victor of this nail-biting race. \n\nIn the end, one party was the clear winner of this snap election:"
+  rw_jap.22.a:0 "The Liberal Democrats do it again!"
+  rw_jap.22.b:0 "The Communists sweep the system!"
+  rw_jap.22.c:0 "The Socialists rock the boat!"
+  rw_jap.22.e:0 "The New Liberals take the throne!" 
 
   newsrw.35.t:0 "Anthrax Epidemic hits Japan"
   newsrw.35.d:0 "News from Japan has shocked the world and has forced governments across the globe to swiftly react with precautionary measures, as an anthrax epidemic has hit the heart of Japan, Tokyo. Already, 15.200 cases have been reported across the metropolitan area, with another few thousand expected to follow in the coming week. The city council of Tokyo has already responded with a temporary lockdown of the city and affected areas, with hospitals running overtime to combat the infection. \n\nThe cause of the incident is hotly contested at this point in time, with many suspecting it to be a bioterrorist attack against the Japanese state. However, evidence remains scarce currently, with the priority of the government being the finding, containing and treating of the affected. While anthrax isn't as infective as many other infections, people are still advised to not share a space with infected patients."
@@ -128,6 +202,22 @@
   newsrw.38.d:0 "With the People's Republic of China backed into a corner by the Kaghoshima Accord, it finally seems that the Russian bear has taken notice of the quickly changing situation in the Far East. As anti-Chinese forces now occupy the capital of the old communist regime, the Soviet Union has taken action and intervened in the war, occupying parts of Manchuria and Xinjiang and establishing several buffer states between the new, Kaghoshima-backed government of China and itself. \n\nWith a Soviet Republic in both Manchuria and Xinjiang, the Soviet Union has seemingly left the PRC for the dogs. The relationship between the Soviet Union and China had been rather bad since the 70s and the collapse of the United States cemented the Sinno-Soviet split: with no capitalist nation to truly consider a threat, the only real threat remained to Soviet global power remained the Chinese, even despite their bad economic practices. Yet, whatever the case may be for Soviet intervention, one thing is rather clear: Chinese communism is on the brink of collapse."
   newsrw.38.a:0 "Atleast they keep themselves out of the war"
   newsrw.38.b:0 "A few more puppets for Moscow to worry about"
+  newsrw.45.t:0 "Return of the Japanese Empire"
+  newsrw.45.d:0 "With the faith in democracy fading across Asia in the 20th century, Japan proves to not be an exception to this pattern of democratic backsliding. Yet, where other nations fell into communist dictatorships, Japan would slide down the opposite direction. Under the direction of the LDP's most radical faction and its benefactor, Nippon Kaigi, the Japanese government has suspended the National Diet and restored the Imperial Household to its pre-1945 status as the sole rulers of Japan. \n\nWhat one may forget behind the spectacle of the restoration event prepared by the Japanese government is the reality of the situation: namely, that this monarchist restoration is only a restoration in name of the monarchy's power. De facto, a very radical group of Japanese politicians and military members affiliated with Nippon Kaigi and the Uyoku Dantai rule behind the curtains. While the owner of the Chrysanthemum throne smiles and waves to the Japanese public, it is this shadow cabal that now leads Japan to a extremely hostile foreign policy." 
+  newsrw.45.a:0 "Japan will regain its glory, for the Emperor!"
+  newsrw.45.b:0 "Have the Japanese lost their mind?" 
+  newsrw.46.t:0 "Communist Party wins Japanese Election"
+  newsrw.46.d:0 "The end of Japan's long reign of the nationalist LDP has come with spectacular whiplash, as the biggest party out of this year's parliamentary election would prove to be the far-left Japanese Communist Party. With the JCP now in power, Japan may very well enter an unique phase in its history, replacing the old right-wing establishment with a party explicitly rejecting this past establishment. \n\nWith the JCP now in power, Japan seeks to improve its ties to the rest of the communist world. However, the JCP will most likely seek to tie itself with the Warsaw Pact and Russia instead of the People's Republic of China, having been vocally critical of the maoist government of Beijing and its imperialist ambitions in recent decades. Beyond foreign policy, the JCP has also vowed to reform Japan's energy sector to become a totally independent and sustainable sector and to hold a democratic referendum on the fate of the Japanese monarchy in this new, modern Japan."
+  newsrw.46.a:0 "The revolution has come to Japan"
+  newsrw.46.b:0 "A revolution through ballot?" 
+  newsrw.47.t:0 "New Liberals win Japanese Election" 
+  newsrw.47.d:0 "Born out of the rotting corpse of the LDP during the '80s, the New Liberal Club was meant to be the moderate people's choice, juxtaposed against the increasingly nationalist and right-wing LDP. While the NLC has had a rocky and stagnant time since the 2000s, it seems that the failure of the LDP in the 2011 Tohoku disaster shoved a large part of the old LDP electorate into the arms of the NLC's charming leader, Yukio Edano. \n\nA man that has been able to properly mobilize the young voters of Japan, Edano has always been a household name in Japanese politics. With his leadership of the NLC, the party has embraced the original message of the NLC: a party for the reasonable, moderate Japanese person. Talks about a potential expansion of the party to include the smaller munincipal liberal parties has allegedly been going on under Edano, with the goal being the formation of a true, centre-liberal party to dominate Japanese politics for the next decade to come."
+  newsrw.47.a:0 "Yippie, he's so charming!"
+  newsrw.47.b:0 "Japanese democracy moderates a bit..."
+  newsrw.48.t:0 "Socialists win Japanese Election"
+  newsrw.48.d:0 "Out of the three possible victors of the Japanese election, the JSP was definetely one of the least orthodox picks. A big tent of progressive social democrats and reformist marxists, the party wedged itself into the ideological niche between the NLC and JCP during the construction of the post-'55 system of Japanese politics. Since then, the party has had a tough time standing out. With the left-wing vote often going to the JCP and the more moderate vote going to the NLC, the JSP has had to fight to continue existing. \n\nYet, it seems that during this election, the JSP was truly able to break out of its niche. Establishing itself as the logical left-wing party, it sapped the JCP of much of its more moderate electorate, while stealing the NLC's progressive vote entirely with the JSP's progressive leader Mizuho Fukushima. With the JSP now in power, Japan is looking towards a reconstruction of both Japanese government and society. Fiercly anti-nuclear, in favour of same-sex marriage and opposed to neoliberalism and -conservatism, the JSP will bring Japan into a new age of politics."
+  newsrw.48.a:0 "Blue revolutionaries in the Diet"
+  newsrw.48.b:0 "A big change for Japan?"
 
   newsrw.120.t:0 "Fall of Beijing"
   newsrw.120.d:0 "For the first time in over 80 years, Japanese boots march through Beijing once again. With the war between Japan and the People's Republic of China raging throughout the Far East, many expected the Japanese army to make their move and land boots on the Asian continent. However, few would have dared to think that the Japanese army, one that has been neutered for a very long time by Article 9 of the Japanese constitution, would be able to march to and occupy the capital of the People's Republic. \n\nAlready, news from the old Chinese capital confirm young Chinese men and women fighting in a desperate bid to keep the Japanese out of parts of Beijing. Yet, as the day went on, the noise of gunfire started to silence across the capital of China. In the end, the Japanese forces finally secured the heart of the Chinese revolution."
@@ -149,3 +239,11 @@
   newsrw.123.a:0 "Every Australian has the task to keep the Chinese at bay!"
   newsrw.123.b:0 "Australia will soon follow"
   newsrw.123.c:0 "Another victim of China's growing ambitions"
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################
+
+  USA_JAP:0 "Reorganized National Government of America"
+  USA_JAP_DEF:0 "The Reorganized National Government of America"
+  USA_JAP_ADJ:0 "American" 

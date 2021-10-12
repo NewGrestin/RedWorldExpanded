@@ -1,0 +1,37 @@
+add_namespace = utah
+
+#Weaver anticommunist-pact
+country_event = {		
+	id = utah.1
+	title = utah.1.t
+	desc = utah.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #accept
+		name = utah.1.a
+		ai_chance = {
+			factor = 60
+		}
+		ROOT = {
+		remove_ideas = idea_america_neutrality_statelet
+		}
+		MOT = {
+		add_to_faction = UTA
+		}
+		MOT = {
+			country_event = { id = montana.42 }
+		}
+	}
+
+	option = { #nah
+		name = utah.1.b
+		ai_chance = {
+			factor = 40
+		}
+		MOT = {
+			country_event = { id = montana.43 }
+		}
+	}
+}

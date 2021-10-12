@@ -79,22 +79,26 @@ set_politics = {
 }
 
 set_popularities = {
-        fascist = 10
-		nationalist = 2
+        fascist = 15
+		nationalist = 40
 		monarchist = 0
-		national_bolshevik = 46
+		national_bolshevik = 0
 		national_conservative = 17
 		centrist = 0
-		liberal = 10
-		new_democrat = 0
+		liberal = 13
+		new_democrat = 15
 		moderate_socialist = 0
-		revolutionary_socialist = 3
-		communist = 12
+		revolutionary_socialist = 0
+		communist = 0
 }
 
 create_country_leader = {
 	name = "Mark Milley"
 	ideology = fascist_ideology
-	picture = "Portrait_USA_Mark_Milley.dds"
+	picture = "Portrait_ATL_Mark_Milley.dds"
 }
-
+create_country_leader = {
+	name = "Jimmy Carter"
+	ideology = old_american_democrats
+	picture = "Portrait_ATL_Jimmy_Carter.dds"
+}

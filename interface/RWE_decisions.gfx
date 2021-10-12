@@ -30,6 +30,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_decision_cat_JAP_Election"
+		texturefile = "gfx/interface/decisions/JAP_election_picture.tga"
+	}
+
+	spriteType = {
 		name = "GFX_decision_cat_WAF_Foreign_Policy"
 		texturefile = "gfx/interface/decisions/decision_cat_WAF_Foreign_Policy.dds"
 	}

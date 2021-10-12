@@ -677,6 +677,7 @@ news_event = {	#PRC - Soviets intervene in War
 
 }
 
+
 news_event = {	#Yugoslavia - Kosovar Crisis
 	id = newsrw.39
 	title = newsrw.39.t
@@ -688,6 +689,7 @@ news_event = {	#Yugoslavia - Kosovar Crisis
 	
 	option = {
 		name = newsrw.39.a
+
 	}
 }
 
@@ -704,6 +706,7 @@ news_event = {	#Yugoslavia - Mladić Coup
 		name = newsrw.40.a
 	}
 }
+
 
 news_event = {	#Yugoslavia - Bosnian Conflict
 	id = newsrw.41
@@ -733,6 +736,7 @@ news_event = {	#Yugoslavia - Vojvodina Breaks Free
 	}
 }
 
+
 news_event = {	#Yugoslavia - Serbian Civil War
 	id = newsrw.43
 	title = newsrw.43.t
@@ -759,6 +763,155 @@ news_event = {	#Yugoslavia - Warsaw Pact Intervention
 	option = {
 		name = newsrw.44.a
 	}
+}
+
+news_event = {	#JAP - Monarchist restoration
+	id = newsrw.45
+	title = newsrw.45.t
+	desc = newsrw.45.d
+	picture = jap_monarchism
+
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.45.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.45.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
+
+news_event = {	#JAP - JCP wins election
+	id = newsrw.46
+	title = newsrw.46.t
+	desc = newsrw.46.d
+	picture = jap_jcp
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.46.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.46.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
+
+news_event = {	#JAP - NLC wins election
+	id = newsrw.47
+	title = newsrw.47.t
+	desc = newsrw.47.d
+	picture = jap_nlc
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.47.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.47.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
+
+
+news_event = {	#JAP - JSP wins election
+	id = newsrw.48
+	title = newsrw.48.t
+	desc = newsrw.48.d
+	picture = jap_jsp
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.48.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.48.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
+
+news_event = {	#SAU - Osama Bin Laden coups government
+	id = newsrw.60
+	title = newsrw.60.t
+	desc = newsrw.60.d
+	picture = sau_bin_laden_supreme
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.60.a
+		trigger = { tag = SAU }
+	}
+
+	option = {
+		name = newsrw.60.b
+		trigger = { NOT = { tag = SAU } } 
+	}
+
+}
+
+news_event = {	#SAU - Free Princes Movement coups monarchy
+	id = newsrw.61
+	title = newsrw.61.t
+	desc = newsrw.61.d
+	picture = sau_communists
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.61.a
+		trigger = { tag = SAU }
+	}
+
+	option = {
+		name = newsrw.61.b
+		trigger = { NOT = { tag = SAU } } 
+	}
+
+}
+
+news_event = {	#OPEC embargoes American Republic
+	id = newsrw.62
+	title = newsrw.62.t
+	desc = newsrw.62.d
+	picture = generic_OPEC
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.62.a
+		trigger = { tag = USA }
+	}
+
+	option = {
+		name = newsrw.62.b
+		trigger = { NOT = { tag = USA } } 
+	}
+
 }
 
 ################

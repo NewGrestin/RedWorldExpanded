@@ -1804,8 +1804,8 @@ OHI = {
 }
 
 WVM = {
-	color = rgb { 56 115 233 }
-	color_ui = rgb { 56 115 233 }
+	color = rgb { 112 114 137 }
+	color_ui = rgb { 112 114 137 }
 }
 
 MAS = {

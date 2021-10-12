@@ -1,5 +1,7 @@
 spriteTypes = {
 
+	
+
 	spriteType = {
 		name = "JAP_Shinri_Party"
 		texturefile = "gfx/event_pictures/report_event/JAP_Shinri_Party.tga"
@@ -18,6 +20,16 @@ spriteTypes = {
 	spriteType = {
 		name = "JAP_Nukes"
 		texturefile = "gfx/event_pictures/report_event/JAP_Nukes.tga"
+	}
+
+	spriteType = {
+		name = "JAP_Diet"
+		texturefile = "gfx/event_pictures/report_event/JAP_Diet.tga"
+	}
+
+	spriteType = {
+		name = "JAP_Taiwan"
+		texturefile = "gfx/event_pictures/report_event/JAP_Taiwan.tga"
 	}
 
 	spriteType = {
@@ -41,6 +53,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "JAP_NLC"
+		texturefile = "gfx/event_pictures/report_event/JAP_NLC.tga"
+	}
+
+	spriteType = {
 		name = "JAP_JCP"
 		texturefile = "gfx/event_pictures/report_event/JAP_JCP.tga"
 	}
@@ -48,6 +65,11 @@ spriteTypes = {
 	spriteType = {
 		name = "JAP_JCP_2"
 		texturefile = "gfx/event_pictures/report_event/JAP_JCP_2.tga"
+	}
+
+	spriteType = {
+		name = "JAP_JCP_3"
+		texturefile = "gfx/event_pictures/report_event/JAP_JCP_3.tga"
 	}
 
 	spriteType = {
@@ -93,6 +115,71 @@ spriteTypes = {
 	spriteType = {
 		name = "MOT_Militias2"
 		texturefile = "gfx/event_pictures/report_event/MOT_Militias2.dds"
+	}
+	
+	spriteType = {
+		name = "MOT_purge_disloyal_radicals"
+		texturefile = "gfx/event_pictures/report_event/MOT_purge_disloyal_radicals.tga"
+	}
+
+	spriteType = {
+		name = "MOT_CWB" 
+		texturefile = "gfx/event_pictures/report_event/MOT_CWB.tga"
+	}
+ 
+	spriteType = {
+		name = "MOT_antipca_training"  
+		texturefile = "gfx/event_pictures/report_event/MOT_antipca_training.tga"
+	}
+
+	spriteType = {
+		name = "MOT_must_kill_garrison"   
+		texturefile = "gfx/event_pictures/report_event/MOT_must_kill_garrison.tga"
+	}
+
+	spriteType = {
+		name = "MOT_jesus"   
+		texturefile = "gfx/event_pictures/report_event/MOT_jesus.tga"
+	}
+
+	spriteType = {
+		name = "ATL_milley_resigns"
+		texturefile = "gfx/event_pictures/report_event/ATL_milley_resigns.dds"
+	}
+
+	spriteType = {
+		name = "ATL_carter_criticises_kissinger"
+		texturefile = "gfx/event_pictures/report_event/ATL_carter_criticises_kissinger.dds"
+	}
+
+	spriteType = {
+		name = "ATL_carter_creates_free_georgia_movement"
+		texturefile = "gfx/event_pictures/report_event/ATL_carter_creates_free_georgia_movement.dds"
+	}
+	
+	spriteType = {
+		name = "ATL_protests_in_georgia"
+		texturefile = "gfx/event_pictures/report_event/ATL_protests_in_georgia.dds"
+	}
+
+	spriteType = {
+		name = "ATL_carter_meets_kissinger"
+		texturefile = "gfx/event_pictures/report_event/ATL_carter_meets_kissinger.dds"
+	}
+
+	spriteType = {
+		name = "ATL_carter_marches_out"
+		texturefile = "gfx/event_pictures/report_event/ATL_carter_marches_out.dds"
+	}
+
+	spriteType = {
+		name = "ATL_ar_government_collapses"
+		texturefile = "gfx/event_pictures/report_event/ATL_ar_government_collapses.dds"
+	}
+
+	spriteType = {
+		name = "ATL_carter_calls_off_protests"
+		texturefile = "gfx/event_pictures/report_event/ATL_carter_calls_off_protests.dds"
 	}
 
 	spriteType = {
@@ -199,3 +286,4 @@ spriteTypes = {
 		name = "OKL_Election"
 		texturefile = "gfx/event_pictures/report_event/OKL_Election.tga"
 	}
+}

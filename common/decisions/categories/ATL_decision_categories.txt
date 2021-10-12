@@ -1,0 +1,7 @@
+ATL_operation_eagle = {
+    icon = generic_independence
+    visible = {
+		tag = ATL
+		has_completed_focus = ATL_operation_eagle
+	}
+}

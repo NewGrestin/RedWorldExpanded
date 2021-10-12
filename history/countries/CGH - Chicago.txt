@@ -7,6 +7,9 @@ set_convoys = 500
 set_stability = 0.7
 set_war_support = 0.4
 
+add_ideas = {
+	idea_CGH_Urbs_in_Horto_1
+}
 set_technology = {
 	support_weapons = 1
 	infantry_weapons = 1
@@ -76,21 +79,33 @@ set_politics = {
 }
 
 set_popularities = {
-	fascist = 10
-	nationalist = 80
+	fascist = 0
+	nationalist = 0
 	monarchist = 0
-	national_bolshevik = 10
+	national_bolshevik = 0
 	national_conservative = 0
-	centrist = 0
-	liberal = 0
-	new_democrat = 0
+	centrist = 10
+	liberal = 60
+	new_democrat = 10
 	moderate_socialist = 0
-	revolutionary_socialist = 0
-	communist = 0
+	revolutionary_socialist = 10
+	communist = 10
 }
 
 create_country_leader = {
 	name = "Rahm Emanuel"
 	picture = "Portrait_CGH_Rahm_Emanuel.dds"
-	ideology = liberal_ideology
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Jesse Jackson"
+	picture = "Portrait_CGH_Jesse_Jackson.dds"
+	ideology = progressive
+}
+
+create_country_leader = {
+	name = "Richard Daley"
+	picture = "Portrait_CGH_Richard_Daley.dds"
+	ideology = centrist_populist
 }
