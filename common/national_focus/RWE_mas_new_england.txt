@@ -244,3 +244,258 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	id = MAS_baseball_socialism
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 1
+	available = {
+		has_country_flag = MAS_bill_lee_tree
+	}
+	x = 4
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MAS_restore_the_liberty_union
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 3
+	prerequisite = {
+		focus = MAS_baseball_socialism
+	}
+	x = 0
+	y = 1
+	relative_position_id = MAS_baseball_socialism
+	completion_reward = {
+		set_party_name = {
+			ideology = revolutionary_socialist
+			long_name = "Liberty Union of New England"
+			name = "Liberty Union"
+		}
+	}
+}
+shared_focus = {
+	id = MAS_workplace_democracy
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_restore_the_liberty_union
+	}
+	x = -1
+	y = 1
+	relative_position_id = MAS_restore_the_liberty_union
+	completion_reward = {
+		add_ideas = RWE_MAS_workplace_democracy
+	}
+}
+shared_focus = {
+	id = MAS_promote_envirommentalism
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_restore_the_liberty_union
+	}
+	x = 1
+	y = 1
+	relative_position_id = MAS_restore_the_liberty_union
+	completion_reward = {
+		add_ideas = RWE_MAS_enviromentalist_system
+		country_event = {
+			id = massachusetts.41
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_recover_from_the_sanders_affair
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_promote_envirommentalism
+	}
+	prerequisite = {
+		focus = MAS_workplace_democracy
+	}
+	x = 1
+	y = 1
+	relative_position_id = MAS_workplace_democracy
+	completion_reward = {
+		remove_ideas = RWE_MAS_the_sanders_vacuum
+	}
+}
+
+shared_focus = {
+	id = MAS_grow_solidarity_in_the_cities
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_promote_envirommentalism
+	}
+	x = 1
+	y = 1
+	relative_position_id = MAS_promote_envirommentalism
+	completion_reward = {
+		country_event = {
+			id = massachusetts.42
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_ties_with_cuba_and_china
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_workplace_democracy
+	}
+	x = 0
+	y = 2
+	relative_position_id = MAS_workplace_democracy
+	completion_reward = {
+		add_opinion_modifier = {
+			target = PRC
+			modifier = diplomatic_ties
+		}
+		add_opinion_modifier = {
+			target = CUB
+			modifier = diplomatic_ties
+		}
+		hidden_effect = {
+			country_event = {
+				id = massachusetts.43
+				days = 11
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_strike_out_hate
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_grow_solidarity_in_the_cities
+	}
+	x = -1
+	y = 1
+	relative_position_id = MAS_grow_solidarity_in_the_cities
+	completion_reward = {
+		add_stability = 10
+	}
+}
+
+shared_focus = {
+	id = MAS_right_to_bear_arms
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_grow_solidarity_in_the_cities
+	}
+	x = 1
+	y = 1
+	relative_position_id = MAS_grow_solidarity_in_the_cities
+	completion_reward = {
+		add_ideas = RWE_MAS_gun_toting_lefties
+	}
+}
+
+shared_focus = {
+	id = MAS_defensive_army
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_ties_with_cuba_and_china
+	}
+	prerequisite = {
+		focus = MAS_recover_from_the_sanders_affair
+	}
+	x = 0
+	y = 2
+	relative_position_id = MAS_recover_from_the_sanders_affair
+	completion_reward = {
+		add_ideas = RWE_MAS_defensive_army
+	}
+}
+
+shared_focus = {
+	id = MAS_communal_living
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_strike_out_hate
+	}
+	x = 1
+	y = 1
+	relative_position_id = MAS_strike_out_hate
+	completion_reward = {
+		country_event = {
+			id = massachusetts.47
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_take_me_out_to_new_england
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_defensive_army
+	}
+	prerequisite = {
+		focus = MAS_communal_living
+	}
+	x = 1
+	y = 1
+	relative_position_id = MAS_defensive_army
+	completion_reward = {
+		add_manpower = 2000
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 20
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_a_new_presidency
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_right_to_bear_arms
+	}
+	prerequisite = {
+		focus = MAS_communal_living
+	}
+	x = 0
+	y = 2
+	relative_position_id = MAS_right_to_bear_arms
+	completion_reward = {
+		country_event = {
+			id = massachusetts.48
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_refuse_paying_back_canadian_debt
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 4
+	prerequisite = {
+		focus = MAS_take_me_out_to_new_england
+	}
+	prerequisite = {
+		focus = MAS_a_new_presidency
+	}
+	x = 1
+	y = 1
+	relative_position_id = MAS_take_me_out_to_new_england
+	completion_reward = {
+		CAN = {
+			country_event = {
+				id = massachusetts.49
+			}
+		}
+	}
+}

@@ -831,3 +831,205 @@ country_event = {
 		set_country_flag = MAS_joe_iii_path
 	}
 }
+
+country_event = {
+	id = massachusetts.41 #bill lee is an enviromentalist and likes plants
+	title = massachusetts.41.t
+	desc = massachusetts.41.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.41.o1
+	}
+}
+
+country_event = {
+	id = massachusetts.42 #BOSTON: THE GREATEST DAMN CITY IN THE WORLD! GOD BLESS OUR RED SOX IN FENWAY PARK AND THE BABY JESUS (Socialist Solidarity in Boston and other large cities)
+	title = massachusetts.42.t
+	desc = massachusetts.42.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.42.o1
+		remove_ideas = RWE_MAS_return_of_the_massachusetts_machine
+	}
+}
+
+country_event = {
+	id = massachusetts.43 #bill lee meets fidel castro and they bet on a baseball game
+	title = massachusetts.43.t
+	desc = massachusetts.43.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.43.o1
+		country_event = {
+			id = massachusetts.44
+			days = 14
+		}
+	}
+}
+country_event = {
+	id = massachusetts.44 #start of the game
+	title = massachusetts.44.t
+	desc = massachusetts.44.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.44.o1
+		random_list = {
+			5 = {
+				country_event = {
+					id = massachusetts.45
+				}
+			}
+			5 = {
+				country_event = {
+					id = massachusetts.46
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = massachusetts.45 #cubans win!
+	title = massachusetts.45.t
+	desc = massachusetts.45.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.45.o1
+	}
+}
+
+country_event = {
+	id = massachusetts.46 #red sox win!
+	title = massachusetts.46.t
+	desc = massachusetts.46.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.46.o1
+	}
+}
+
+country_event = {
+	id = massachusetts.47 #communal living
+	title = massachusetts.47.t
+	desc = massachusetts.47.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.47.o1
+		add_political_power = -100
+		add_stability = 5
+	}
+}
+
+country_event = {
+	id = massachusetts.48 #lee declares himself "honorary president" of the union of new england
+	title = massachusetts.48.t
+	desc = massachusetts.48.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.48.o1
+
+	}
+}
+
+country_event = {
+	id = massachusetts.49 #AS CANADA: New England says they won't pay debts
+	title = massachusetts.49.t
+	desc = massachusetts.49.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #lmao fuck off
+		name = massachusetts.49.o1
+		MAS = {
+			country_event = {
+				id = massachusetts.50
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = massachusetts.50 #canada has threatened war over the debts
+	title = massachusetts.50.t
+	desc = massachusetts.50.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #pay the damn debts
+		name = massachusetts.50.o1
+		ai_chance = {
+			base = 45
+		}
+		add_political_power = -200
+		add_ideas = RWE_MAS_canadian_debt_paid
+
+	}
+	option = { #no
+		name = massachusetts.50.o2
+		ai_chance = {
+			base = 55
+		}
+		CAN = {
+			country_event = {
+				id = massachusetts.52
+				days = 2
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = massachusetts.51 #they havent paid back the debts
+	title = massachusetts.51.t
+	desc = massachusetts.51.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #pay the damn debts
+		name = massachusetts.51.o1
+		create_wargoal = {
+			target = MAS
+			type = puppet_wargoal_focus
+		}
+	}
+}
