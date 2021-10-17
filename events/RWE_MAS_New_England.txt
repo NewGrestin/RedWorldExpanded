@@ -577,7 +577,7 @@ country_event = {
 			ideology = national_conservative
 			popularity = 0.3
 		}
-		set_country_flag = MAS_vince_tree
+		complete_national_focus = MAS_anything_can_happen_in_new_england
 	}
 }
 
@@ -1025,11 +1025,99 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #pay the damn debts
+	option = { #invade!
 		name = massachusetts.51.o1
 		create_wargoal = {
 			target = MAS
 			type = puppet_wargoal_focus
+		}
+	}
+}
+
+country_event = {
+	id = massachusetts.52 #boston newspaper offices raided
+	title = massachusetts.52.t
+	desc = massachusetts.52.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.52.o1
+	}
+}
+
+country_event = {
+	id = massachusetts.53 #vince creates the XTREME FOOTBALL LEAGUE
+	title = massachusetts.53.t
+	desc = massachusetts.53.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = massachusetts.53.o1
+	}
+}
+
+country_event = {
+	id = massachusetts.54 #vince mcmahon is dead; who will replace him
+	title = massachusetts.54.t
+	desc = massachusetts.54.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #shane mcmahon
+		name = massachusetts.54.o1
+		create_country_leader = {
+			name = "Shane McMahon"
+			ideology = american_conservative
+			picture = "Portrait_MAS_Shane_McMahon.dds"
+		}
+		complete_national_focus = MAS_shane
+	}
+	option = { #stephanie mcmahon
+		name = massachusetts.54.o2
+		create_country_leader = {
+			name = "Stephanie McMahon"
+			ideology = american_conservative
+			picture = "Portrait_MAS_Stephanie_McMahon.dds"
+		}
+		complete_national_focus = MAS_stephanie
+	}
+	option = { #linda mcmahon
+		name = massachusetts.54.o3
+		create_country_leader = {
+			name = "Linda McMahon"
+			ideology = american_conservative
+			picture = "Portrait_MAS_Linda_McMahon.dds"
+		}
+		complete_national_focus = MAS_linda
+	}
+}
+
+country_event = {
+	id = massachusetts.55 #vince mcmahon is dead; who will replace him
+	title = massachusetts.55.t
+	desc = massachusetts.55.d
+	picture = ATL_carter_meets_kissinger
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #he lives!
+		name = massachusetts.55.o1
+	}
+	option = { #he dies
+		name = massachusetts.55.o2
+		create_country_leader = {
+			name = "Power Vacuum"
+			ideology = american_conservative
+			picture = "Picture_MAS_Power_Vacuum.dds"
 		}
 	}
 }

@@ -393,4 +393,8 @@ spriteTypes = {
 		name = "GFX_idea_RWE_Hawaii_USN_Remnants"
 		textureFile = "gfx/interface/ideas/RWE_Hawaii_USN_Remnants.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_RWE_CGH_urbs_in_horto"
+		textureFile = "gfx/interface/ideas/RWE_CGH_urbs_in_horto.dds"
+	}
 } 

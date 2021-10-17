@@ -7,6 +7,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			picture = RWE_CGH_urbs_in_horto
 			removal_cost = -1
 			modifier = {
 				revolutionary_socialist_drift = -0.1
@@ -85,6 +86,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
+			picture = RWE_CGH_urbs_in_horto
 			modifier = {
 				revolutionary_socialist_drift = -0.5
 			}
@@ -110,6 +112,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
+			picture = RWE_CGH_urbs_in_horto
 			modifier = {
 				centrist_drift = -0.5
 			}

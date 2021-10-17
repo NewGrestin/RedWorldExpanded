@@ -159,12 +159,134 @@ ideas = {
 				always = yes
 			}
 
-            picture = RWE_MAS_defensive_army
+            picture = RWE_MAS_canadian_debt_paid
 			
 			removal_cost = -1
 	
 			modifier = {
 				consumer_goods_factor = 0.2
+			}
+		}
+		RWE_MAS_unions_busted = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_canadian_debt_paid
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				stability_factor = -0.05
+			}
+		}
+		RWE_MAS_welfare_cut = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_canadian_debt_paid
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = -0.1
+				monthly_population = -0.15
+			}
+		}
+		RWE_MAS_font_of_enterprise = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_canadian_debt_paid
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		RWE_MAS_united_army = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_canadian_debt_paid
+			
+			removal_cost = -1
+	
+			modifier = {
+				land_reinforce_rate = 0.05
+				army_org_Factor = 0.05
+			}
+		}
+		RWE_MAS_bread_and_piledrivers = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_canadian_debt_paid
+			
+			removal_cost = -1
+	
+			modifier = {
+				conscription_factor = 0.05
+				national_conservative_drift = 0.05
+			}
+		}
+		RWE_MAS_enemies_crushed = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_MAS_canadian_debt_paid
+			
+			removal_cost = -1
+	
+			modifier = {
+				revolutionary_socialist_drift = -0.03
+				moderate_socialist_drift = -0.03
+				new_democrat_drift = -0.03
+				liberal_drift = -0.03
+				centrist_drift = -0.03
 			}
 		}
 	}

@@ -12,6 +12,8 @@ focus_tree = {
 	default = no
 	shared_focus = MAS_securing_new_england
 	shared_focus = MAS_baseball_socialism
+	shared_focus = MAS_anything_can_happen_in_new_england
+	shared_focus = MAS_who_shot_vince
 }
 
 shared_focus = {
@@ -125,6 +127,10 @@ shared_focus = {
 					days = 2
 				}
 			}
+			clr_country_flag = MAS_cianci
+			clr_country_flag = MAS_spaceman
+			clr_country_flag = MAS_jr
+			clr_country_flag = MAS_yang
 		}
 	}
 }
@@ -311,7 +317,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_recover_from_the_sanders_affair
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_promote_envirommentalism
 	}
@@ -329,7 +335,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_grow_solidarity_in_the_cities
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_promote_envirommentalism
 	}
@@ -346,7 +352,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_ties_with_cuba_and_china
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_workplace_democracy
 	}
@@ -374,7 +380,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_strike_out_hate
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_grow_solidarity_in_the_cities
 	}
@@ -389,7 +395,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_right_to_bear_arms
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_grow_solidarity_in_the_cities
 	}
@@ -404,7 +410,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_defensive_army
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_ties_with_cuba_and_china
 	}
@@ -422,7 +428,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_communal_living
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_strike_out_hate
 	}
@@ -439,7 +445,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_take_me_out_to_new_england
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_defensive_army
 	}
@@ -461,7 +467,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_a_new_presidency
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_right_to_bear_arms
 	}
@@ -481,7 +487,7 @@ shared_focus = {
 shared_focus = {
 	id = MAS_refuse_paying_back_canadian_debt
 	icon = GFX_goal_MAS_securing_new_england
-	cost = 4
+	cost = 5
 	prerequisite = {
 		focus = MAS_take_me_out_to_new_england
 	}
@@ -497,5 +503,393 @@ shared_focus = {
 				id = massachusetts.49
 			}
 		}
+	}
+}
+
+shared_focus = {
+	id = MAS_anything_can_happen_in_new_england
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	available = {
+		has_country_flag = MAS_vince_tree
+	}
+	x = 11
+	y = 0
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MAS_bust_unions
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_anything_can_happen_in_new_england
+	}
+	x = -2
+	y = 1
+	
+	relative_position_id = MAS_anything_can_happen_in_new_england
+	completion_reward = {
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.15
+		}
+		add_ideas = RWE_MAS_unions_busted
+	}
+}
+
+shared_focus = {
+	id = MAS_absorb_the_libertarians
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_anything_can_happen_in_new_england
+	}
+	x = 0
+	y = 1
+	
+	relative_position_id = MAS_anything_can_happen_in_new_england
+	completion_reward = {
+		add_popularity = {
+			ideology = national_conservative
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = centrist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_absolute_media_control
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_anything_can_happen_in_new_england
+	}
+	x = 2
+	y = 1
+	
+	relative_position_id = MAS_anything_can_happen_in_new_england
+	completion_reward = {
+		add_stability = 10
+		country_event = {
+			id = massachusetts.52
+		}
+	}
+}
+
+shared_focus = {
+	id = MAS_cut_welfare
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_anything_can_happen_in_new_england
+	}
+	x = -1
+	y = 2
+	
+	relative_position_id = MAS_anything_can_happen_in_new_england
+	completion_reward = {
+		add_ideas = RWE_MAS_welfare_cut
+		add_political_power = -100
+	}
+}
+
+shared_focus = {
+	id = MAS_create_the_xtreme_football_league
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_anything_can_happen_in_new_england
+	}
+	x = 1
+	y = 2
+	
+	relative_position_id = MAS_anything_can_happen_in_new_england
+	completion_reward = {
+		country_event = {
+			id = massachusetts.53
+		}
+	}
+}
+
+shared_focus = {
+	id =  MAS_encourage_entrepreneurship
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_bust_unions
+	}
+	prerequisite = {
+		focus = MAS_cut_welfare
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_cut_welfare
+	completion_reward = {
+		add_ideas = RWE_MAS_font_of_enterprise
+	}
+}
+
+shared_focus = {
+	id =  MAS_ring_the_damn_bell
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_absorb_the_libertarians
+	}
+	x = 0
+	y = 2
+	
+	relative_position_id = MAS_absorb_the_libertarians
+	completion_reward = {
+		add_ideas = RWE_MAS_united_army
+		add_war_support = 10
+	}
+}
+
+shared_focus = {
+	id =  MAS_bread_and_piledrivers
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_create_the_xtreme_football_league
+	}
+	prerequisite = {
+		focus = MAS_absolute_media_control
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_create_the_xtreme_football_league
+	completion_reward = {
+		add_ideas = RWE_MAS_bread_and_piledrivers
+	}
+}
+
+shared_focus = {
+	id =  MAS_keep_your_friends_close
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_encourage_entrepreneurship
+	}
+	prerequisite = {
+		focus = MAS_ring_the_damn_bell
+	}
+	prerequisite = {
+		focus = MAS_bread_and_piledrivers
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_encourage_entrepreneurship
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_and_crush_your_enemies
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_encourage_entrepreneurship
+	}
+	prerequisite = {
+		focus = MAS_ring_the_damn_bell
+	}
+	prerequisite = {
+		focus = MAS_bread_and_piledrivers
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_bread_and_piledrivers
+	completion_reward = {
+		add_ideas = RWE_MAS_enemies_crushed
+	}
+}
+
+shared_focus = {
+	id =  MAS_create_the_united_enterprise_party
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_keep_your_friends_close
+	}
+	prerequisite = {
+		focus = MAS_and_crush_your_enemies
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_keep_your_friends_close
+	completion_reward = {
+		set_party_name = {
+			ideology = national_conservative
+			long_name = "United Enterprise Party"
+			name = "United Enterprise Party"
+		}
+		hidden_effect = {
+			country_event = {
+				id = massachusetts.55
+				days = 56
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  MAS_the_new_york_slobberknocker
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	prerequisite = {
+		focus = MAS_create_the_united_enterprise_party
+	}
+	x = 0
+	y = 1
+	
+	relative_position_id = MAS_create_the_united_enterprise_party
+	completion_reward = {
+		add_state_claim = 358
+		create_wargoal = {
+			target = NEA
+			type = take_claimed_state
+		}
+	}
+}
+
+shared_focus = {
+	id =  MAS_who_shot_vince
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+	available = {
+		has_country_flag = MAS_vince_shot
+	}
+	x = 11
+	y = 7
+	
+	
+	completion_reward = {
+		country_event = {
+			id = massachusetts.54
+		}
+	}
+}
+
+shared_focus = {
+	id =  MAS_shane
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	mutually_exclusive = {
+		focus = MAS_stephanie
+		focus = MAS_linda
+	}
+	prerequisite = {
+		focus = MAS_who_shot_vince
+	}
+	x = -2
+	y = 1
+	
+	relative_position_id = MAS_who_shot_vince
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_stephanie
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	mutually_exclusive = {
+		focus = MAS_shane
+		focus = MAS_linda
+	}
+	prerequisite = {
+		focus = MAS_who_shot_vince
+	}
+	x = 0
+	y = 1
+	
+	relative_position_id = MAS_who_shot_vince
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_linda
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	mutually_exclusive = {
+		focus = MAS_shane
+		focus = MAS_stephanie
+	}
+	prerequisite = {
+		focus = MAS_who_shot_vince
+	}
+	x = 2
+	y = 1
+	
+	relative_position_id = MAS_who_shot_vince
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_hold_a_big_show
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_shane
+	}
+	x = 0
+	y = 1
+	
+	relative_position_id = MAS_shane
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_export_xtreme_new_england
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_stephanie
+	}
+	x = 0
+	y = 1
+	
+	relative_position_id = MAS_stephanie
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_codify_our_conservatism
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_linda
+	}
+	x = 0
+	y = 1
+	
+	relative_position_id = MAS_linda
+	completion_reward = {
 	}
 }
