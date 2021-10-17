@@ -1,6 +1,9 @@
 spriteTypes = {
 
-	
+	spriteType = {
+		name = "HOL_Fortuyn"
+		texturefile = "gfx/event_pictures/report_event/HOL_Fortuyn.tga"
+	}
 
 	spriteType = {
 		name = "JAP_Shinri_Party"

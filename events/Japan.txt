@@ -589,3 +589,116 @@ country_event = {
 	}
 
 }
+
+
+#EASO formed - invitations send 
+country_event = {
+	id = rw_jap.23
+	title = rw_jap.23.t
+	desc = rw_jap.23.d
+	picture = JAP_JCP_2
+	
+	is_triggered_only = yes
+	
+	option = { #count me in 
+		name = rw_jap.23.a
+		FROM = { add_to_faction = ROOT }
+		add_ai_strategy = {
+			type = alliance
+			id = JAP
+			value = 1200
+		}
+	}
+
+	option = { #no way, jose
+		name = rw_jap.23.b
+		add_stability = 0.01
+	}
+}
+
+#Support Taiwan in their plight
+country_event = {
+	id = rw_jap.24
+	title = rw_jap.24.t
+	desc = rw_jap.24.d
+	picture = JAP_JCP_2
+	
+	is_triggered_only = yes
+	
+	option = { #count me in 
+		name = rw_jap.24.a
+		ai_chance = {
+			factor = 100
+		}
+		JAP = { add_to_faction = CHI }
+		CHI = { add_ai_strategy = {
+				type = alliance
+				id = "JAP"
+				value = 200
+			}}
+	}
+
+	option = { #count me in 
+		name = rw_jap.24.b
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.05
+		
+	}
+}
+
+#PTO merger? - Canada asked
+country_event = {
+	id = rw_jap.25
+	title = rw_jap.25.t
+	desc = rw_jap.25.d
+	picture = JAP_JCP_2
+	
+	is_triggered_only = yes
+	
+	option = { #count me in 
+		name = rw_jap.25.a
+		ai_chance = {
+			factor = 100
+		}
+		JAP = { country_event = { id = rw_jap.26 days = 1 } }
+	}
+
+	option = { #count me in 
+		name = rw_jap.25.b
+		ai_chance = {
+			factor = 0
+		}
+		JAP = { country_event = { id = rw_jap.27 days = 1 } }
+		
+	}
+}
+
+#PTO merger
+country_event = {
+	id = rw_jap.26
+	title = rw_jap.26.t
+	desc = rw_jap.26.d
+	picture = JAP_JCP_2
+	
+	is_triggered_only = yes
+	
+	option = { #count me in 
+		name = rw_jap.26.a
+		ai_chance = {
+			factor = 100
+		}
+	set_faction_name = "POTO"
+	news_event = { id = newsrw.50 days = 1 }
+	every_country = { 
+		limit = { is_in_faction_with = CAN }
+		JAP = { add_to_faction = PREV }
+		PREV = { add_ai_strategy = {
+				type = alliance
+				id = "JAP"
+				value = 200
+			}}
+		}
+	}
+}

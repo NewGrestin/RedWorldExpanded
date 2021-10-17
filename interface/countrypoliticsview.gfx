@@ -633,6 +633,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_fortuynism"
+		texturefile = "gfx/interface/ideologies/fortuynism.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_nasserism"
 		texturefile = "gfx/interface/ideologies/nasserism.dds"
 	}
