@@ -1124,3 +1124,30 @@ country_event = { #American Republic Collapse Test
 		set_capital = 793
     }
 }
+
+country_event = { #American Republic Collapse Test
+	id = debug.14
+	title = debug.14.t
+	desc = debug.14.d
+	picture = unified_libya
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+
+	option = { #cfkreich
+		name = debug.14.o1
+		ai_chance = {
+			factor = 100
+		}
+		create_country_leader = {
+			name = "Cristina Fernández de Kirchner"
+			ideology = revolutionary_socialist_ideology
+			picture = "Portrait_ARG_Cristina_Fernandez_De_Kirchner.dds"
+		}
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
+		set_cosmetic_tag = ARG_patria_grande
+    }
+}

@@ -2,13 +2,23 @@
 
 oob = "ARG_2000"
 
-set_research_slots = 4
+set_research_slots = 3
 set_convoys = 500
-set_stability = 0.7
+set_stability = 0.5
 set_war_support = 0.3
 
 set_country_flag = catholic_nation
 
+add_ideas = {
+	argentina_miguel_pichetti
+	argentina_nestor_kirchner
+	argentina_axel_kicillof
+	argentina_anibal_fernandez
+	argentina_ricardo_forster
+	RWE_ARG_anti_peronist_opposition
+	RWE_ARG_collapsing_economy
+	RWE_ARG_neutered_military
+}
 
 set_technology = {
 	support_weapons = 1
@@ -76,7 +86,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communist
+	ruling_party = moderate_socialist
 	last_election = "1997.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -88,12 +98,12 @@ set_popularities = {
 		monarchist = 0
 		national_bolshevik = 0
 		national_conservative = 12
-		centrist = 14
+		centrist = 12
 		liberal = 0
 		new_democrat = 10
-		moderate_socialist = 0
+		moderate_socialist = 48
 		revolutionary_socialist = 8
-		communist = 48
+		communist = 2
 }
 
 create_country_leader = {
@@ -149,12 +159,6 @@ create_country_leader = {
 	name = "Jose Manuel Corral"
 	picture = "Portrait_ARG_Jose_Manuel_Corral.dds"
 	ideology = new_democrat_ideology
-}
-
-create_country_leader = {
-	name = "Margarita Stolbizer"
-	picture = "Portrait_ARG_Margarita_Stolbizer.dds"
-	ideology = progressive
 }
 
 create_country_leader = {

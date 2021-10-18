@@ -48,9 +48,6 @@ ideologies = {
 			
 			b_o_r_communist = {
 			}
-			
-			revolutionary_peronism = {
-			}
 		}
 		
 		dynamic_faction_names = {

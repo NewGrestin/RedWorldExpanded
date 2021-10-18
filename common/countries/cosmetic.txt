@@ -547,3 +547,8 @@ MAS_WEED_MAOISM = {
 	color = rgb { 244 12 35 }
 	color_ui = rgb { 244 12 35 }
 }
+
+ARG_patria_grande = {
+	color = rgb { 216 152 95 }
+	color_ui = rgb { 216 152 95 }
+}

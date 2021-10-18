@@ -1,0 +1,292 @@
+focus_tree = {
+	id = australia_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ARG
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	default = no
+	shared_focus = ARG_twenty_years_of_menemism
+}
+
+shared_focus = {
+	id = ARG_twenty_years_of_menemism
+	icon = GFX_goal_AST_2010_Election
+	available = { 
+	}
+	x = 5
+	y = 0
+
+	cost = 4
+
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = ARG_reinforce_peronism
+	icon = GFX_goal_AST_2010_Election
+	prerequisite = {
+		focus = ARG_twenty_years_of_menemism
+	}
+	available = { 
+	}
+	x = 0
+	y = 1
+
+	cost = 4
+	relative_position_id = ARG_twenty_years_of_menemism
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_crush_party_dissent
+	icon = GFX_goal_Generic_Crush_Resistance
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_reinforce_peronism
+	}
+	x = -1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_reinforce_peronism
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_increase_public_investment
+	icon = GFX_goal_Generic_Cash_and_Carry
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_reinforce_peronism
+	}
+	x = 1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_reinforce_peronism
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_denounce_rightists
+	icon = GFX_goal_Generic_Conservatism
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_crush_party_dissent
+	}
+	x = -1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_crush_party_dissent
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_manage_the_opposition
+	icon = GFX_goal_Generic_Divided_Government
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_reinforce_peronism
+	}
+	x = 0
+	y = 2
+
+	cost = 4
+
+	relative_position_id = ARG_reinforce_peronism
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_strengthen_iapi
+	icon = GFX_goal_Focus_Export_Economy
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_increase_public_investment
+	}
+	x = 1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_increase_public_investment
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_elevate_massa
+	icon = GFX_goal_AST_2010_Election
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_crush_party_dissent
+	}
+	prerequisite = {
+		focus = ARG_denounce_rightists
+	}
+	x = 1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_denounce_rightists
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_reassure_our_investors
+	icon = GFX_goal_Generic_Money_Bags
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_increase_public_investment
+	}
+	prerequisite = {
+		focus = ARG_strengthen_iapi
+	}
+	x = -1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_strengthen_iapi
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_the_jsat_project
+	icon = GFX_goal_AST_2010_Election
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_elevate_massa
+	}
+	prerequisite = {
+		focus = ARG_reassure_our_investors
+	}
+	prerequisite = {
+		focus = ARG_manage_the_opposition
+	}
+	x = 1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_elevate_massa
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_invite_international_figures
+	icon = GFX_goal_Generic_Internationalism
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_the_jsat_project
+	}
+	x = -1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_the_jsat_project
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_promote_the_conicet
+	icon = GFX_goal_AST_2010_Election
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_the_jsat_project
+	}
+	x = 1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_the_jsat_project
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_dismiss_concerns
+	icon = GFX_goal_Generic_Enough
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_invite_international_figures
+	}
+	x = -1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_invite_international_figures
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_advertise_the_launch
+	icon = GFX_RUS_State_Construction
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_promote_the_conicet
+	}
+	x = 1
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_promote_the_conicet
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = ARG_the_last_flight
+	icon = GFX_goal_AST_2010_Election
+	available = { 
+	}
+	prerequisite = {
+		focus = ARG_dismiss_concerns
+	}
+	prerequisite = {
+		focus = ARG_advertise_the_launch
+	}
+	x = 2
+	y = 1
+
+	cost = 4
+
+	relative_position_id = ARG_dismiss_concerns
+	completion_reward = {
+	}
+}

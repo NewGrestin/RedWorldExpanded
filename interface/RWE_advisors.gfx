@@ -1,0 +1,22 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_argentina_miguel_pichetti"
+		textureFile = "gfx/interface/ideas/advisors/argentina/argentina_miguel_pichetti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_argentina_nestor_kirchner"
+		textureFile = "gfx/interface/ideas/advisors/argentina/argentina_nestor_kirchner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_argentina_anibal_fernandez"
+		textureFile = "gfx/interface/ideas/advisors/argentina/argentina_anibal_fernandez.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_argentina_axel_kicillof"
+		textureFile = "gfx/interface/ideas/advisors/argentina/argentina_axel_kicillof.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_argentina_ricardo_forster"
+		textureFile = "gfx/interface/ideas/advisors/argentina/argentina_ricardo_forster.dds"
+	}
+} 

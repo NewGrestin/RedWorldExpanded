@@ -1,0 +1,140 @@
+##################
+# GREAT LAKES IDEAS
+##################
+
+ideas = {
+
+	country = {
+		RWE_ARG_anti_peronist_opposition = {	
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.1
+			}
+		}
+		RWE_ARG_collapsing_economy = {	
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.13
+				industrial_capacity_factory = -0.13
+				industrial_capacity_dockyard = -0.13
+			}
+		}
+		RWE_ARG_neutered_military = {	
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+				offence = -0.13
+				defence = -0.13
+				land_reinforce_rate = -0.17
+				planning_speed = -0.2
+			}
+		}
+	}
+	second_in_command = {
+		argentina_miguel_pichetti = {
+		
+		    allowed = {
+			    original_tag = ARG
+			}
+			
+			available = {
+				has_government = moderate_socialist
+			}
+			traits = { silent_workhorse }			
+		}
+	}
+	foreign_minister = {
+		argentina_nestor_kirchner = {
+		
+		    allowed = {
+			    original_tag = ARG
+			}
+			
+			available = {
+				has_government = moderate_socialist
+			}
+			
+			traits = { ideological_crusader }			
+		}
+	}
+	industry_minister = {
+		argentina_axel_kicillof = {
+		
+		    allowed = {
+			    original_tag = ARG
+			}
+			
+			available = {
+				has_government = moderate_socialist
+			}
+			
+			traits = { extreme_regulator }	
+		}
+	}
+	national_security_minister = {
+		argentina_anibal_fernandez = {
+		
+		    allowed = {
+			    original_tag = ARG
+			}
+			
+			available = {
+			    has_government = moderate_socialist
+			}
+			
+			traits = { silent_lawyer }			
+		}
+	}
+	intelligence_minister = {
+		argentina_ricardo_forster = {
+		
+		    allowed = {
+			    original_tag = ARG
+			}
+			
+			available = {
+			    has_government = moderate_socialist
+			}
+			
+			traits = { novice_mastermind }			
+		}
+	}
+}

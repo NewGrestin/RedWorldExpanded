@@ -169,6 +169,8 @@
  peoples_socialist_democracy_desc:0 "People’s Socialist Democracy is a recent development of Marxism-Leninism which holds that the pathway to socialism can be achieved within the framework of a multi-class, multiparty democracy. Advocates of a people’s democracy seek to build socialism through consensus and firmly reject the concept of a ‘dictatorship of the proletariat’."
  kmt_l:0 "Kuomintang Left"
  kmt_l_desc:0 "The Kuomintang, or Chinese Nationalist Party, was at one point the sole governing authority over the Chinese state until the defeat of the Nationalist government in the Chinese Civil War. While technically a united, vanguard-esque political faction, the KMT is internally divided into a myriad of sub-groups.\n\nThe Left wing of the Kuomintang was historically suppressed following the First White Terror, a critical moment in the leadup to the Chinese Civil War. In modernity, the Left faction of the Kuomintang remains suppressed, albeit still extremely popular across the political underground. The KMT Left argues, naturally, for a left wing interpretation of the Three Principles of the People. Elements of Georgism, an economic doctrine emphasizing land tax, have also been revived as key elements of their identity. Critically, the KMT Left and Center have become strange bedfellows in the Taiwanese government, both seeking to bring down the decades old dictatorship and finally achieve the dream of Chinese democracy."
+ revolutionary_peronism:0 "Revolutionary Peronism"
+ revolutionary_peronism_desc:0 "Established as the leading Peronist ideology by Carlos Menem in the early 1990's, Revolutionary Peronism is an enigma in terms of actual ideological meaning. While certainly left-wing, the ideology's relationship to Perón himself is questionable, and could possibly best be described as a form of socialism reliant on Argentine nationalism."
 
  # REVOLUTIONARY SOCIALISM #
  revolutionary_socialist_ideology:0 "Revolutionary Socialism"
@@ -237,8 +239,6 @@
  bolivarian_desc:0 "Bolivarianism is a socialist strain of political thought originating from the Venezuelan revolutionary leader Hugo Chavez, named after Simón Bolívar. The ideology’s main pillars of thought consist of anti-imperialism, democracy, national pride and anti-corruption. Some followers of this ideology also believe that true national sovereignty can only be achieved by uniting all hispanophone nations."
  b_o_r_communist:0 "Bill of Rights Communism"
  b_o_r_communist_desc:0 "Bill of Rights Socialism is a communist philosophy that believes a communist society should adopt aspects of American structural liberties, specifically, those enshrined in the Bill of Rights and Constitution. Coined by Gus Hall, Bill of Rights socialism is popular among many members of the Communist Party USA, who think the American people will be more open to accepting socialism that is based on their country’s historic ideals of freedom."
- revolutionary_peronism:0 "Revolutionary Peronism"
- revolutionary_peronism_desc:0 "Established as the leading Peronist ideology by Carlos Menem in the early 1990's, Revolutionary Peronism is an enigma in terms of actual ideological meaning. While certainly left-wing, the ideology's relationship to Perón himself is questionable, and could possibly best be described as a form of communism reliant on Argentine nationalism."
 
  ### DRIFT ###
  fascist_drift:0 "Drift to Fascism"

@@ -18,6 +18,9 @@ ideologies = {
 
 			kmt_l = {
 			}
+
+			revolutionary_peronism = {
+			}
 			
 		}
 		
