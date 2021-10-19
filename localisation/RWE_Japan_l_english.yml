@@ -2,7 +2,7 @@
 
   gunji_otaku:0 "Gunji Otaku"
   POLITICS_KAZUO_SHII_DESC:0 ""
-
+  JAP_MERGE_FACTIONS:0 "If Canada [CAN.GetFlag] and Japan [JAP.GetFlag] both agree, the §YEast Asian Security Organisation§! and §YDemocratic League§! will be unified under a single military alliance: §Gthe Pacific Ocean Treaty Organisation§!"
   ##########################
   # DECISIONS
   ##########################
@@ -105,6 +105,9 @@
   JAP_Stability_of_Asia:0 "Asia's Balance of Powers"
   JAP_Adress_National_Debt:0 "Adress the Debt Situation"
   JAP_Expansive_Industrial_Policy:0 "Japan 2050 Scheme"
+  JAP_Pacific_Century:0 "The Asia-Pacific Century"
+  JAP_Merge_with_the_Canadian_Pact:0 "Concept of the POTO"
+  
 
   ##########################
   # EVENTS
@@ -185,6 +188,14 @@
   rw_jap.22.b:0 "The Communists sweep the system!"
   rw_jap.22.c:0 "The Socialists rock the boat!"
   rw_jap.22.e:0 "The New Liberals take the throne!" 
+  rw_jap.23.t:0 "Invitation to EASO"
+  rw_jap.23.d:0 "With the recent expanionist tendency of the Chinese People's Republic threatening the stability in the Asia-Pacific region and the continued support of the Soviets to subverting elements in Asian countries, Japan has formed a military alliance similair to the Warsaw Pact and the old NATO. With the expressed purpose of keeping China and the Soviet Union in check, EASO is a tempting offer. Should we join and protect our sovereignty or can we keep the Chinese at the gate by ourselves?"
+  rw_jap.23.a:0 "Japan is the better option"
+  rw_jap.23.b:0 "We don't need EASO, thank you..." 
+  rw_jap.24.t:0 "Japan backs Taiwan"
+  rw_jap.24.d:0 "Our dire situation seems to become less dire today, as the strong Japanese government has reached out to Taiwan with military support against the PRC. With the recent formation of EASO, Japan has sought to keep the status quo in the Asia-Pacific region and with it, support Taiwanese independence against the expansionist ambitions of the Chinese maoists. With the support of Tokyo, Taiwan can truly enjoys its sovereignty."
+  rw_jap.24.a:0 "We will take them up on their offer"
+  rw_jap.24.b:0 "No, Taiwan will win this fight on its own!"
 
   newsrw.35.t:0 "Anthrax Epidemic hits Japan"
   newsrw.35.d:0 "News from Japan has shocked the world and has forced governments across the globe to swiftly react with precautionary measures, as an anthrax epidemic has hit the heart of Japan, Tokyo. Already, 15.200 cases have been reported across the metropolitan area, with another few thousand expected to follow in the coming week. The city council of Tokyo has already responded with a temporary lockdown of the city and affected areas, with hospitals running overtime to combat the infection. \n\nThe cause of the incident is hotly contested at this point in time, with many suspecting it to be a bioterrorist attack against the Japanese state. However, evidence remains scarce currently, with the priority of the government being the finding, containing and treating of the affected. While anthrax isn't as infective as many other infections, people are still advised to not share a space with infected patients."
@@ -218,6 +229,12 @@
   newsrw.48.d:0 "Out of the three possible victors of the Japanese election, the JSP was definetely one of the least orthodox picks. A big tent of progressive social democrats and reformist marxists, the party wedged itself into the ideological niche between the NLC and JCP during the construction of the post-'55 system of Japanese politics. Since then, the party has had a tough time standing out. With the left-wing vote often going to the JCP and the more moderate vote going to the NLC, the JSP has had to fight to continue existing. \n\nYet, it seems that during this election, the JSP was truly able to break out of its niche. Establishing itself as the logical left-wing party, it sapped the JCP of much of its more moderate electorate, while stealing the NLC's progressive vote entirely with the JSP's progressive leader Mizuho Fukushima. With the JSP now in power, Japan is looking towards a reconstruction of both Japanese government and society. Fiercly anti-nuclear, in favour of same-sex marriage and opposed to neoliberalism and -conservatism, the JSP will bring Japan into a new age of politics."
   newsrw.48.a:0 "Blue revolutionaries in the Diet"
   newsrw.48.b:0 "A big change for Japan?"
+
+  newsrw.50.t:0 "Formation of POTO"
+  newsrw.50.d:0 "The situation in the Pacific has significantly changed since the fall of the United States, with the Soviets, Japan and China all trying to fill the vacuum left by the old American navy, while regional powers try to maintain their sovereignty in the face of these global powers. \n\nThe changing situation has been the catalyst for the Singapore Conference, according to Japanese prime minister [JAP.GetLeader] and Canadian prime minister [CAN.GetLeader]. Both agreed that the changing situation has turned drastically in favour of enemies of liberal democracy and that, if the balance in the Pacific should be maintained, that only a joint alliance led by Japan and Canada could do the trick. Thus, the two regional powers agreed to merge the pre-existing Democratic League and East Asian Security Organisation into a single entity, known as the Pacific Ocean Treaty Organisation, or POTO for short. The POTO treaty establishes that POTO was, first and foremost, created to keep the peace in the Pacific and preserve the delicate status quo against Chinese and Soviet expansionism."
+  newsrw.50.a:0 "We can learn much from our Western allies"
+  newsrw.50.b:0 "The democratic order will be sustained in the Pacific"
+  newsrw.50.c:0 "The start of a new regional order?"
 
   newsrw.120.t:0 "Fall of Beijing"
   newsrw.120.d:0 "For the first time in over 80 years, Japanese boots march through Beijing once again. With the war between Japan and the People's Republic of China raging throughout the Far East, many expected the Japanese army to make their move and land boots on the Asian continent. However, few would have dared to think that the Japanese army, one that has been neutered for a very long time by Article 9 of the Japanese constitution, would be able to march to and occupy the capital of the People's Republic. \n\nAlready, news from the old Chinese capital confirm young Chinese men and women fighting in a desperate bid to keep the Japanese out of parts of Beijing. Yet, as the day went on, the noise of gunfire started to silence across the capital of China. In the end, the Japanese forces finally secured the heart of the Chinese revolution."

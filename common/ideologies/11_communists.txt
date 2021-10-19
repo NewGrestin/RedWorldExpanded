@@ -22,6 +22,9 @@ ideologies = {
 			juche = {
 			}
 
+			fortuynism = {
+			}
+
 			goulash_communist = {
 			}
 

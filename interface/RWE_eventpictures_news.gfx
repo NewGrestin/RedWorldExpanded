@@ -46,8 +46,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "hol_pim_fortuyn"
+		texturefile = "gfx/event_pictures/news_event/hol_pim_fortuyn.tga"
+	}
+
+	spriteType = {
 		name = "sau_communists"
 		texturefile = "gfx/event_pictures/news_event/sau_communists.tga"
+	}
+
+	spriteType = {
+		name = "jap_poto"
+		texturefile = "gfx/event_pictures/news_event/jap_poto.tga"
 	}
 
 	spriteType = {

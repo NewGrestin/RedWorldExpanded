@@ -1,0 +1,23 @@
+state={
+	id=1035
+	name="STATE_1035"
+	
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			12964 5
+		}
+	}
+	
+	provinces={
+		8187 12964 8238
+	}
+	manpower=992595
+	buildings_max_level_factor=1.000
+	
+	state_category = town
+}

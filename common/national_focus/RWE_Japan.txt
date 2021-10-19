@@ -1112,7 +1112,14 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	create_faction = "East Asian Security Organisation"	
+	VIN = { country_event = { id = rw_jap.23 days = 1 } }
+	PHI = { country_event = { id = rw_jap.23 days = 1 } }
+	LAO = { country_event = { id = rw_jap.23 days = 1 } }
+	SIA = { country_event = { id = rw_jap.23 days = 1 } }
+	MAY = { country_event = { id = rw_jap.23 days = 1 } }
+	SIG = { country_event = { id = rw_jap.23 days = 1 } }
+	NZL = { country_event = { id = rw_jap.23 days = 1 } }
 	}
 }
 
@@ -1280,7 +1287,8 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_war_support = 0.15
+	CHI = { country_event = { id = rw_jap.24 days = 1 } }
 	}
 }
 
@@ -1293,6 +1301,46 @@ shared_focus = {
 
 	cost = 5
 	prerequisite = { focus = JAP_The_History_Books_Debacle }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Merge_with_the_Canadian_Pact
+	icon = GFX_goal_JAP_Canada
+	x = 34
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = JAP_Stability_of_Asia }
+	prerequisite = { focus = JAP_Change_the_Military_Flag focus = JAP_Limit_the_Bureaucracy }
+	mutually_exclusive = { focus = JAP_Pacific_Century }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	custom_effect_tooltip = JAP_MERGE_FACTIONS
+	CAN = { country_event = { id = rw_jap.25 days = 1 } }
+	}
+}
+
+shared_focus = {
+	id = JAP_Pacific_Century
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 32
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = JAP_Stability_of_Asia }
+	mutually_exclusive = { focus = JAP_Merge_with_the_Canadian_Pact }
 	available = {
 
 	}

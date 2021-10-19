@@ -1,0 +1,59 @@
+﻿l_english:
+
+ fortuynism_desc:0 "Fortuynism is the catch-all term for the political beliefs of Dutch communist politician Pim Fortuyn. Born out of the stagnating status quo of the Dutch Communist Party, Fortuynism balances conservative communism with progressive elements of the New Left movement. Issues such as LGBTQ rights, female empowerement and drug policy are taken from the New Left in less extreme forms as to keep the party together. \n\nBesides the moderate influence of the New Left movement, Fortuynism also bases itself on a rather nationalistic interpretation of Dutch communism. It opposes the Soviet influence on the European Union, embraces a closed border policy to solve the issue of mass immigration and is extremely critical of islam, seeing it as a backwards society based in pre-capitalist feudalism. While these beliefs may alienate the more orthodox marxists, this cocktail of left and right wing ideas makes Fortuynism an ideology the apathetic public can enjoy, especially those that feel left out of the post-communist political landscape."
+
+  ##########################
+  # FOCUSES
+  ##########################
+ 
+  ##########################
+  # PARTIES
+  ##########################
+ HOL_fascist_party:0 "Union for National Democracy"
+ HOL_nationalist_party:0 "Nationalist Underground Movement"
+ HOL_monarchist_party:0 "Orange-Nassau"
+ HOL_monarchist_party_long:0 "House of Orange-Nassau"
+ HOL_national_bolshevik_party:0 "Communist Party"
+ HOL_national_bolshevik_party_long:0 "Communist Party of the Netherlands"
+ HOL_national_conservative_party:0 "Nationalist Underground Movement"
+ HOL_centrist_party:0 "People's Party"
+ HOL_centrist_party_long:0 "People's Party for Freedom and Democracy"
+ HOL_liberal_party:0 "Democrats '66"
+ HOL_new_democrat_party:0 "Labour Party"
+ HOL_moderate_socialist_party:0 "Social Pacifist Party"
+ HOL_revolutionary_socialist_party_long:0 "Communist Party of the Netherlands"
+ HOL_revolutionary_socialist_party:0 "Communist Party"
+ HOL_communist_party:0 "Communist Party"
+ HOL_communist_party_long:0 "Communist Party of the Netherlands"
+
+  ##########################
+  # IDEAS
+  ##########################
+
+  ##########################
+  # EVENTS
+  ##########################
+
+ rw_hol.1.t:0 "The New \"Voorzitter\""
+ rw_hol.1.d:0 "The last few days have been tense in the Netherlands. The political fallout of the refugee crisis inside the Communist Party has led to a serious blow to the party's public perception. Polls show a slow drop in popularity for the party, while the leadership races show something few politicians expected: a single underdog, known by the name of Pim Fortuyn. Fortuyn's meteoric rise in popularity shows the uncertainty the system has started to face in recent years. The refugee crisis simply knocked everything down, but the rotten structure was already there. \n\nWith Fortuyn as the anti-establishment figure inside the establishment and few other members of the CPN being charming enough to beat the excentric marxist professor, the party conference this week was a mess. While the old guard remained silent on the leadership race, members of it tried to individually influence the results by attacking Fortuyn. However, ever the charmer he is, Fortuyn turned these attacks on their heads and publicly lambasted these individuals of going against the party's leadership, thus further fracturing the party. \n\nWhen the results were finally counted, the unthinkable had happened. \n\nFortuyn had won in a landslide."
+ rw_hol.1.a:0 "And so, the establishment falls: kicking and screaming"
+
+ rw_hol_news.1.t:0 "Fortuyn appointed Netherland's new Chairman"
+ rw_hol_news.1.d:0 "As the situation in Europe grows tense with the fallout of the refugee crisis and growing anti-Soviet tension, the Netherlands was, in the eyes of many figures, a calm pool of conservative communism in a sea of change. Yet, even the Dutch aren't immune to the rethoric of these new figures in European politics. This week, the CPN has announced the appointment of controversial politician Pim Fortuyn as the new chairman of the United Dutch Republics. \n\nFortuyn is an awkward figure in the shallow pool of the Dutch Communist Party. Controversial for his views on the refugee crisis and islam in particular, Fortuyn's appointment is seen as a serious shift in Dutch communist politics. While some have accused him of being backed by foreign capitalists, like Lehman and the Rockefellers, the \"moderate\" old guard of the CPN has been just hesitant in cooperating with Fortuyn and his fraction. Some have speculated that Fortuyn's very figure is \"anti-Dutch\" in political approach and can lead to serious impact between Fortuyn and the old guard of the CPN."
+ rw_hol_news.1.a:0 "He's a hothead, but perhaps that's what the Netherlands need"
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+  ##########################
+  # LEADERS
+  ##########################
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

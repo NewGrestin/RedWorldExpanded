@@ -851,6 +851,32 @@ news_event = {	#JAP - JSP wins election
 
 }
 
+news_event = {	#JAP - POTO formed
+	id = newsrw.50
+	title = newsrw.50.t
+	desc = newsrw.50.d
+	picture = jap_poto
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.50.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.50.b
+		trigger = { tag = CAN }
+	}
+
+	option = {
+		name = newsrw.50.c
+		trigger = { NOT = { OR = { tag = JAP tag = CAN } } }
+	}
+
+}
+
 news_event = {	#SAU - Osama Bin Laden coups government
 	id = newsrw.60
 	title = newsrw.60.t

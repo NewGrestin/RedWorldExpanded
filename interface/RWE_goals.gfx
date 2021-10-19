@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/JAP_JSP.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_JAP_Canada"
+		texturefile = "gfx/interface/goals/JAP_Canada.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_JAP_Abenomics"
 		texturefile = "gfx/interface/goals/JAP_Abenomics.tga"			
 	}
