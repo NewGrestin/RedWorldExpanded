@@ -1,0 +1,23 @@
+
+state={
+	id=509
+	name="STATE_509" 
+	manpower = 318951
+	
+	state_category = rural
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ARG
+		victory_points = {
+			12998 3
+		}
+	}
+
+	provinces={
+		12998 10935 2149 
+	}
+}

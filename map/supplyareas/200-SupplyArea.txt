@@ -1,0 +1,9 @@
+
+supply_area={
+	id=200
+	name="SUPPLYAREA_200"
+	value=15
+	states={
+		1030 1031 1032 1033 1035 1036 1034 847 278 509 
+	}
+}
