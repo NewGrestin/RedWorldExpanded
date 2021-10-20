@@ -272,7 +272,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ARG_the_last_flight
-	icon = GFX_goal_AST_2010_Election
+	icon = GFX_goal_ARG_the_last_flight
 	available = { 
 	}
 	prerequisite = {
