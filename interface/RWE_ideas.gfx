@@ -397,4 +397,12 @@ spriteTypes = {
 		name = "GFX_idea_RWE_CGH_urbs_in_horto"
 		textureFile = "gfx/interface/ideas/RWE_CGH_urbs_in_horto.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_RWE_POR_legacy_of_april"
+		textureFile = "gfx/interface/ideas/RWE_POR_legacy_of_april.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_POR_Military_Dominance"
+		textureFile = "gfx/interface/ideas/RWE_POR_Military_Dominance.dds"
+	}
 } 
