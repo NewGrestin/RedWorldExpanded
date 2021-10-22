@@ -1,0 +1,225 @@
+RWE_Formable_Nations = {
+
+	RWE_Form_Benelux = {
+
+		icon = form_benelux
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			OR = {
+				original_tag = HOL
+				original_tag = BEL
+				original_tag = LUX
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 8
+			controls_state = 34
+			controls_state = 839
+			controls_state = 6
+			controls_state = 35
+			controls_state = 7
+			controls_state = 36
+			controls_state = 841
+
+			NOT = {
+				has_country_flag = RWE_Has_Formed_Benelux
+				has_country_flag = RWE_Has_Formed_Endgame_Nation
+			}
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+			8 = { add_core_of = ROOT }
+			34 = { add_core_of = ROOT }
+			839 = { add_core_of = ROOT }
+			6 = { add_core_of = ROOT }
+			35 = { add_core_of = ROOT }
+			7 = { add_core_of = ROOT }
+			36 = { add_core_of = ROOT }
+			841 = { add_core_of = ROOT }
+
+			set_country_flag = RWE_Has_Formed_Benelux
+
+			drop_cosmetic_tag = yes
+			set_cosmetic_tag = RWE_United_Benelux
+		}
+	}
+
+	RWE_Form_Britain = {
+
+		icon = form_united_kingdom
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			OR = {
+				original_tag = ENG
+				original_tag = WAL
+				original_tag = SCO
+				original_tag = IRE
+				original_tag = ULS
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 123
+			controls_state = 129
+			controls_state = 126
+			controls_state = 125
+			controls_state = 129
+			controls_state = 128
+			controls_state = 122
+			controls_state = 132
+			controls_state = 130
+			controls_state = 131
+			controls_state = 121
+			controls_state = 133
+			controls_state = 120
+			controls_state = 119
+			controls_state = 118
+			controls_state = 135
+			controls_state = 134
+
+			NOT = {
+				has_country_flag = RWE_Has_Formed_Britain
+				has_country_flag = RWE_Has_Formed_Endgame_Nation
+			}
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+			123  = { add_core_of = ROOT }
+			129 = { add_core_of = ROOT }
+			126 = { add_core_of = ROOT }
+			125 = { add_core_of = ROOT }
+			129 = { add_core_of = ROOT }
+			128 = { add_core_of = ROOT }
+			122 = { add_core_of = ROOT }
+			132 = { add_core_of = ROOT }
+			130 = { add_core_of = ROOT }
+			131 = { add_core_of = ROOT }
+			121 = { add_core_of = ROOT }
+			133 = { add_core_of = ROOT }
+			120 = { add_core_of = ROOT }
+			119 = { add_core_of = ROOT }
+			118 = { add_core_of = ROOT }
+			135 = { add_core_of = ROOT }
+			134 = { add_core_of = ROOT }
+
+			set_country_flag = RWE_Has_Formed_Britain
+
+			drop_cosmetic_tag = yes
+
+			if = {
+				limit = {
+					has_country_leader = {
+						name = "Theresa Brasier"
+						ruling_only = yes
+					}					
+				}
+				set_cosmetic_tag = RWE_United_Britain_Phoenix
+
+				else = {
+					set_cosmetic_tag = RWE_United_Britain
+				}
+			}
+		}
+	}
+
+	RWE_Form_Napoleonic_Empire = {
+
+		icon = form_napoleon
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			original_tag = ITA
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 16
+			FRA = {
+				exists = no
+			}
+			has_completed_focus = ITA_road_to_paris
+			has_government = monarchist
+
+			NOT = {
+				has_country_flag = RWE_Has_Formed_Napoleonic_Empire
+				has_country_flag = RWE_Has_Formed_Endgame_Nation
+			}
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+			14 = { add_core_of = ROOT }
+			29 = { add_core_of = ROOT }
+			18 = { add_core_of = ROOT }
+			26 = { add_core_of = ROOT }
+			31 = { add_core_of = ROOT }
+			32 = { add_core_of = ROOT }
+			853 = { add_core_of = ROOT }
+			160 = { add_core_of = ROOT }
+			15 = { add_core_of = ROOT }
+			16 = { add_core_of = ROOT }
+			17 = { add_core_of = ROOT }
+			22 = { add_core_of = ROOT }
+			21 = { add_core_of = ROOT }
+			158 = { add_core_of = ROOT }
+			786 = { add_core_of = ROOT }
+			30 = { add_core_of = ROOT }
+			24 = { add_core_of = ROOT }
+			27 = { add_core_of = ROOT }
+			26 = { add_core_of = ROOT }
+			31 = { add_core_of = ROOT }
+			159 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			23 = { add_core_of = ROOT }
+			33 = { add_core_of = ROOT }
+			20 = { add_core_of = ROOT }
+			19 = { add_core_of = ROOT }
+			20 = { add_core_of = ROOT }
+			735 = { add_core_of = ROOT }
+			998 = { add_core_of = ROOT }
+			72 = { add_core_of = ROOT }
+			944 = { add_core_of = ROOT }
+			945 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			854 = { add_core_of = ROOT }
+			2 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			117 = { add_core_of = ROOT }
+			156 = { add_core_of = ROOT }
+			115 = { add_core_of = ROOT }
+			114 = { add_core_of = ROOT }
+			1 = { add_core_of = ROOT }
+
+			set_country_flag = RWE_Has_Formed_Napoleonic_Empire
+			set_country_flag = RWE_Has_Formed_Endgame_Nation
+
+			drop_cosmetic_tag = yes
+
+			set_cosmetic_tag = RWE_Formed_Napoleonic_Empire
+		}
+	}

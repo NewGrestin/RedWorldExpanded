@@ -397,4 +397,32 @@ spriteTypes = {
 		name = "GFX_idea_RWE_CGH_urbs_in_horto"
 		textureFile = "gfx/interface/ideas/RWE_CGH_urbs_in_horto.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_PRC_Maoist_Aftermath"
+		textureFile = "gfx/interface/ideas/PRC_Maoist_Aftermath.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_PLA"
+		textureFile = "gfx/interface/ideas/PRC_PLA.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_Extremely_Poor_Agricultural_Reform"
+		textureFile = "gfx/interface/ideas/PRC_Extremely_Poor_Agricultural_Reform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_Poor_Agricultural_Reform"
+		textureFile = "gfx/interface/ideas/PRC_Poor_Agricultural_Reform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_Mediocre_Agricultural_Reform"
+		textureFile = "gfx/interface/ideas/PRC_Mediocre_Agricultural_Reform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_Acceptable_Agricultural_Reform"
+		textureFile = "gfx/interface/ideas/PRC_Acceptable_Agricultural_Reform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_Strong_Agricultural_Reform"
+		textureFile = "gfx/interface/ideas/PRC_Strong_Agricultural_Reform.dds"
+	}
 } 

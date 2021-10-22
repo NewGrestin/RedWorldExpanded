@@ -1,5 +1,25 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_goal_MOT_Denounce_Technology"
+		texturefile = "gfx/interface/goals/MOT_Denounce_Technology.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MOT_Break_Down_Authority"
+		texturefile = "gfx/interface/goals/MOT_Break_Down_Authority.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MOT_Free_Communities"
+		texturefile = "gfx/interface/goals/MOT_Free_Communities.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MOT_Emphasize_Unity"
+		texturefile = "gfx/interface/goals/MOT_Emphasize_Unity.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MOT_Denounce_Collectivism"
+		texturefile = "gfx/interface/goals/MOT_Denounce_Collectivism.dds"			
+	}
+	SpriteType = {
 		name = "GFX_goal_JAP_Toshinomics"
 		texturefile = "gfx/interface/goals/JAP_Toshinomics.tga"			
 	}

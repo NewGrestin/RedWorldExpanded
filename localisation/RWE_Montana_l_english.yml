@@ -76,25 +76,17 @@
   MOT_Weaver_Unification_Focus:0 "A Land of the Truly Free"
 
   MOT_Kaczynski_Leads:0 "Revolt against the Modern World"
-  MOT_Denounce_Technology:0 "Return to Tradition"
-  MOT_Monke_Vanguard:0 "Anti-Industrial Vanguard"
-  MOT_Pastoralism:0 "Resurrect Pastoralism"
-  MOT_Modern_Tribalism:0 "A United Humanity"
-  MOT_Purge_Technocrats:0 "Purge Technocrats"
-  MOT_Pol_Pot:0 "Helmsman of the New Revolution"
-  MOT_Managed_Progress:0 "Managing Progress"
-  MOT_Racism_is_over:0 "Abolish Racial Barriers"
-  MOT_Right_Ted:0 "Look to Hobbes"
-  MOT_Center_Ted:0 "An Ideological Synthesis"
-  MOT_Left_Ted:0 "Look to Rousseau"
-  MOT_Right_Ted_De_Industrialization:0 "Foundations for De-Industrialization"
-  MOT_Practical_Education:0 "Push for Practical Education"
-  MOT_Welfare_Monke:0 "Freedom from Industry"
-  MOT_Communalism:0 "A Communal Ideal"
-  MOT_Destroy_America:0 "Tear down the Old World Symbols"
-  MOT_Liberate_the_Rockies:0 "Liberate the Rockies"
-  MOT_Liberate_the_Plains:0 "Liberate the Great Plains"
-  MOT_Mobilize_the_Nation:0 "Mobilize the People"
+  MOT_Break_Down_Authority:0 "Dismantle the Covington Apparatus"
+  MOT_Free_Communities:0 "Free Montana's Communities"
+  MOT_Emphasize_Unity:0 "Emphasize Montana's Unity"
+  MOT_Denounce_Collectivism:0 "Cooperation without Collectivism"
+  MOT_Commune_Constitution:0 "Constitutional Commune Concessions"
+  MOT_Libertarian_Constitution:0 "Emphasize Small Government"
+  MOT_Community_Forces:0 "A Force Drawn from the Community"
+  MOT_Commune_Militias:0 "Professional Militia Communes"
+  MOT_Kaczynski_Leader:0 "The Mathematical Approach"
+  MOT_Zerzan_Leader:0 "A Nation of Communities"
+  MOT_Night_Watchman:0 "A Night Watchman State"
 
   ##########################
   # IDEAS
@@ -321,6 +313,7 @@
   montana.47.t:0 "Plucking out a Thorn"
   montana.47.d:0 "Despite the new Weaverite governments previous removal of those considered traitors and direct threats to the new radical form of governance, it seems today another threat was in need of being removed. Ben Garrison, well known leader of some of the many militias that inhabited the melting pot of the far-right ideologies that existed in Convington’s playground for all blends of them, has now been captured by those loyal to Weaver. \n\Although orders were to arrest Garrison and bring him back to a safer place for detainment, it seems some men were acting under different orders. As a detailed report from a local commander recalls a series of events where men took a captured Garrison deep into some woods, although nothing was heard from them, the report does say the last thing heard from that general direction was the chatter of M60 machine gun fire. \n\At the present time it is unknown if the execution was ordered, we can only speculate."
   montana.47.a:0 "I was just following orders."
+
   ######################################
   # TOOLTIPS AND FACTIONS SINCE FUCK YOU
   ######################################
@@ -328,6 +321,12 @@
   RWE_MOT_Weaver_oob_tt:0 "§YA force of true patriots will rise with their own weapons. And training...§!"
 
   anticommunist_pact:0 "Anti-Communist Pact"
+  
+  ######################################
+  # LEADER DESCRIPTIONS
+  ######################################
+  RWE_Montana_Ted_Desc:0 "Theodore John Kaczynski is often described as an enigma of a man. Born to working class parents in Chicago, Ted's early life was greatly shaped by a difficulty in forming emotional bonds with those around him. Remarkably intelligent, he would earn a scholarship to Harvard before he was able to even drive. Seeing a successful career in Mathematics, earning a master's and doctoral degree in the field before becoming an assistant professor at the University of California. Discontent in his position, Kaczynski chose to resign and moved to the wilderness of Montana, hoping to live a simple pastoral lifestyle. For a time, the world was content to let Kaczynski live a quiet life, but ultimately the world did come for him, albeit not in the way he would have expected.\n\nThe Dissolution of the United States would have passed Kaczynski by had his mother and father not lived in the American Midwest, which found itself torn asunder in the institutional chaos of the early Dissolution years. While attempting to leave Illinois, Kaczynski's mother and father were assaulted by a group of rogue former National Guardsmen turned highway bandits, ultimately dying from their injuries not long after being discovered. The incident profoundly affected Kaczynski, driving him into a period of deep isolation and depression. It was only with the arrival of Covington's white nationalist government that Kaczynski would be forced to face the world once more.\n\nTo the untrained eye, the militia that grew around Kaczynski was no different than the other local communities that dotted Montana's countryside. To the initiated few, his community was a major nexus of anti-Covington activists. Alienated by the harsh authoritarianism of the Davis government on the West Coast and horrified by the excesses of Covington's so-called Imperative, Kaczynski's ideals developed into a doctrine of environmental libertarianism. A major influence on this was John Zerzan, a self proclaimed green anarchist from the West Coast. The two men would act as the ideological pillars of the Anti-Covington resistance, working under the guise of just another militia to assemble weapons and quietly sabotage the Montana government.\n\nNow, finally at the reigns of power, Kaczynski finds himself in the unenviable position of reconstructing Montana after Covington's fall. Increasingly, Kaczynski and Zerzan find themselves at odds with the ultimate character of their movement, with Zerzan advocating for a shift towards green anarchism while Kaczynski seeks to maintain the movement's original roots."
+
   ##########################
   # COSMETIC TAGS
   ##########################

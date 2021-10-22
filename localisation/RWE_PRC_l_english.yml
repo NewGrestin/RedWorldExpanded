@@ -1,0 +1,32 @@
+﻿l_english:
+
+  ##########################
+  # FOCUSES
+  ##########################
+
+  ##########################
+  # IDEAS
+  ##########################
+    PRC_Maoist_Aftermath:0 "The East was Red"
+    PRC_Maoist_Aftermath_desc:0 "When Mao Zedong overthrew the Kuomintang and declared the People's Republic, many believed that it was the beginning of a bright new future for China. The Century of Humiliation could finally end, and China could finally retake her place as Earth's Middle Kingdom once again.\n\nAt least, that's what was supposed to happen.\n\nInstead, the dream of the People's Republic became a nightmare as the Great Helmsman steered the nation into ruin over and over again. The Great Leap Forward left millions dead and destroyed the Chinese economy with failed initiatives like homemade steel plants. The terror of the Chiang dictatorship was replaced with the terror of the Maoist dictatorship, and many more were left in reeducation camps or simply executed outright. The atrocities of the Cultural Revolution never ended, and even into modernity the ideological fervor remains a stain on the Communist Party's politics. The Dream that Mao's China represented ultimately amounted to a failure, and the aftermath of his death left the Communist Party listless under a series of successive hardliners.\n\nThe Chinese Century never came to pass, and once again the nation has become little more than a geopolitical footnote, left behind by the rest of the world. If it is to survive, Chinese Communism must forge a new path, or it will perish as so many imperial dynasties did before it."
+    PRC_PLA:0 "The People's Liberation Army"
+    PRC_PLA_desc:0 "The People's Liberation Army occupies a strange niche in the organs of Chinese government. Even under Mao, the PLA was given the rare permission to maintain a degree of economic independence. Governments since have failed to erode this, and in modernity the Chinese Army is paradoxically also its' largest business partner. The PLA owns and operates a myriad of businesses and industrial concerns across the nation, much to the chagrin of Maoist hardliners who would like nothing more than to stamp out their independent streak.\n\nThe political implications of this partnership have led to a curious situation in which the PLA represents the most openly pro-capitalist factions of the Politburo. This pseudo-stratocracy pushes for economic liberalization, free market reforms and a greater emphasis on Chinese power projection in the void left by the United States.\n\nIf antagonized enough, China's generals may once again see fit to take the fate of the nation into their hands, §Reven if it might require killing the very country they claim to serve.§!"
+    PRC_Mediocre_Agricultural_Reform:0 "Agricultural Reform Outlook: §OMediocre§!"
+    PRC_Mediocre_Agricultural_Reform_desc:0 "The aftermath of the Cultural Revolution and the Great Leap Forward severely damaged the nutritional security of many Chinese families. In the years since, there have been substantial efforts by the Communist Party to prevent famine conditions from arising again. Such efforts, while admirable on paper, are routinely hampered by Beijing political infighting.\n\nCurrently, the average caloric intake of most citizens is §Osub-par§! compared to other developed nations. While not catastrophic, this situation is not preferable for long term growth and the lower calorie count may retard the growth of more agrarian regions. Food scarcity is still somewhat commonplace in the interior, leaving many dependent on low nutrition staples like government subsidized rice rations."
+
+
+  ##########################
+  # EVENTS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

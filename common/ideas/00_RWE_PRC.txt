@@ -1,0 +1,77 @@
+##################
+# People's Republic of China Ideas
+##################
+
+ideas = {
+
+	country = {
+
+		PRC_Maoist_Aftermath = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = PRC_Maoist_Aftermath
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = -0.50
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.30
+				conscription_factor = -0.25
+				army_org_Factor = -0.1
+				supply_consumption_factor = 0.1
+				global_building_slots_factor = -0.1
+				production_speed_buildings_factor = -0.15
+			}
+		}
+
+		PRC_PLA = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = PRC_PLA
+			
+			removal_cost = -1
+	
+			modifier = {
+				national_bolshevik_acceptance = 150
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		PRC_Mediocre_Agricultural_Reform = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = PRC_Mediocre_Agricultural_Reform
+			
+			removal_cost = -1
+	
+			modifier = {
+				monthly_population = -0.25
+				drift_defence_factor = -0.25
+				supply_consumption_factor = 0.25
+			}
+		}
+	}
+}

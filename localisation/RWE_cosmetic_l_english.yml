@@ -2493,7 +2493,7 @@
  NAM_Independence_War_revolutionary_socialist_ADJ:0 "Namibian"
  NAM_Independence_War_communist_ADJ:0 "Namibian"
 
-ATL_AR_fascist:0 "Free State of America"
+ ATL_AR_fascist:0 "Free State of America"
  ATL_AR_fascist_DEF:0 "The Free State of America"
  ATL_AR_nationalist:0 "American Republic"
  ATL_AR_nationalist_DEF:0 "The American Republic"
@@ -2561,7 +2561,7 @@ ATL_AR_fascist:0 "Free State of America"
  MAS_libertarian_revolutionary_socialist_ADJ:0 "New Englander"
  MAS_libertarian_communist_ADJ:0 "New Englander"
 
-MAS_WEED_MAOISM_fascist:0 "Union Of New England"
+ MAS_WEED_MAOISM_fascist:0 "Union Of New England"
  MAS_WEED_MAOISM_fascist_DEF:0 "The Union Of New England"
  MAS_WEED_MAOISM_nationalist:0 "Union Of New England"
  MAS_WEED_MAOISM_nationalist_DEF:0 "The Union Of New England"
@@ -2595,7 +2595,7 @@ MAS_WEED_MAOISM_fascist:0 "Union Of New England"
  MAS_WEED_MAOISM_revolutionary_socialist_ADJ:0 "New Englander"
  MAS_WEED_MAOISM_communist_ADJ:0 "New Englander"
  
-MAS_webb_webb_world_fascist:0 "DPR New England"
+ MAS_webb_webb_world_fascist:0 "DPR New England"
  MAS_webb_webb_world_fascist_DEF:0 "The Democratic People's Republic Of New England"
  MAS_webb_webb_world_nationalist:0 "DPR New England"
  MAS_webb_webb_world_nationalist_DEF:0 "The Democratic People's Republic Of New England"
@@ -2628,3 +2628,228 @@ MAS_webb_webb_world_fascist:0 "DPR New England"
  MAS_webb_webb_world_moderate_socialist_ADJ:0 "New Englander"
  MAS_webb_webb_world_revolutionary_socialist_ADJ:0 "New Englander"
  MAS_webb_webb_world_communist_ADJ:0 "New Englander"
+
+ RWE_United_Benelux_fascist:0 "Independent State of Dietsland"
+ RWE_United_Benelux_fascist_DEF:0 "The Independent State of Dietsland"
+
+ RWE_United_Benelux_nationalist:0 "Greater Dutch Republic"
+ RWE_United_Benelux_nationalist_DEF:0 "The Greater Dutch Republic"
+
+ RWE_United_Benelux_monarchist:0 "United Kingdom of the Netherlands"
+ RWE_United_Benelux_monarchist_DEF:0 "The United Kingdom of the Netherlands"
+
+ RWE_United_Benelux_national_bolshevik:0 "Democratic People's Republic of the Low Countries"
+ RWE_United_Benelux_national_bolshevik_DEF:0 "The Democratic People's Republic of the Low Countries"
+
+ RWE_United_Benelux_national_conservative:0 "Federation of the Low Countries"
+ RWE_United_Benelux_national_conservative_DEF:0 "The Federation of the Low Countries"
+
+ RWE_United_Benelux_centrist:0 "Federation of the Low Countries"
+ RWE_United_Benelux_centrist_DEF:0 "The Federation of the Low Countries"
+
+ RWE_United_Benelux_liberal:0 "Federation of the Low Countries"
+ RWE_United_Benelux_liberal_DEF:0 "The Federation of the Low Countries"
+
+ RWE_United_Benelux_new_democrat:0 "Federation of the Low Countries"
+ RWE_United_Benelux_new_democrat_DEF:0 "The Federation of the Low Countries"
+
+ RWE_United_Benelux_moderate_socialist:0 "Federation of the Low Countries"
+ RWE_United_Benelux_moderate_socialist_DEF:0 "The Federation of the Low Countries"
+
+ RWE_United_Benelux_revolutionary_socialist:0 "United Autonomous Provinces"
+ RWE_United_Benelux_revolutionary_socialist_DEF:0 "The United Autonomous Provinces"
+
+ RWE_United_Benelux_communist:0 "United Soviet Socialist Provinces"
+ RWE_United_Benelux_communist_DEF:0 "The United Soviet Socialist Provinces"
+
+ RWE_United_Benelux_fascist_ADJ:0 "Low Country"
+ RWE_United_Benelux_nationalist_ADJ:0 "Low Country"
+ RWE_United_Benelux_monarchist_ADJ:0 "Low Country"
+ RWE_United_Benelux_national_bolshevik_ADJ:0 "Low Country"
+ RWE_United_Benelux_national_conservative_ADJ:0 "Low Country"
+ RWE_United_Benelux_centrist_ADJ:0 "Low Country"
+ RWE_United_Benelux_liberal_ADJ:0 "Low Country"
+ RWE_United_Benelux_new_democrat_ADJ:0 "Low Country"
+ RWE_United_Benelux_moderate_socialist_ADJ:0 "Low Country"
+ RWE_United_Benelux_revolutionary_socialist_ADJ:0 "Low Country"
+ RWE_United_Benelux_communist_ADJ:0 "Low Country"
+
+ RWE_United_Britain_fascist:0 "National State of Britain"
+ RWE_United_Britain_fascist_DEF:0 "The National State of Britain"
+
+ RWE_United_Britain_nationalist:0 "United Kingdom"
+ RWE_United_Britain_nationalist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_monarchist:0 "United Kingdom"
+ RWE_United_Britain_monarchist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_national_bolshevik:0 "Federated Worker's Republic of Britain"
+ RWE_United_Britain_national_bolshevik_DEF:0 "The Federated Worker's Republic of Britain"
+
+ RWE_United_Britain_national_conservative:0 "United Kingdom"
+ RWE_United_Britain_national_conservative_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_centrist:0 "United Kingdom"
+ RWE_United_Britain_centrist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_liberal:0 "United Kingdom"
+ RWE_United_Britain_liberal_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_new_democrat:0 "United Kingdom"
+ RWE_United_Britain_new_democrat_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_moderate_socialist:0 "United Kingdom"
+ RWE_United_Britain_moderate_socialist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_revolutionary_socialist:0 "Worker's Commonwealth of Britain"
+ RWE_United_Britain_revolutionary_socialist_DEF:0 "The Worker's Commonwealth of Britain"
+
+ RWE_United_Britain_communist:0 "United Soviet Republics of Britain"
+ RWE_United_Britain_communist_DEF:0 "The United Soviet Republics of Britain"
+
+ RWE_United_Britain_fascist_ADJ:0 "British"
+ RWE_United_Britain_nationalist_ADJ:0 "British"
+ RWE_United_Britain_monarchist_ADJ:0 "British"
+ RWE_United_Britain_national_bolshevik_ADJ:0 "British"
+ RWE_United_Britain_national_conservative_ADJ:0 "British"
+ RWE_United_Britain_centrist_ADJ:0 "British"
+ RWE_United_Britain_liberal_ADJ:0 "British"
+ RWE_United_Britain_new_democrat_ADJ:0 "British"
+ RWE_United_Britain_moderate_socialist_ADJ:0 "British"
+ RWE_United_Britain_revolutionary_socialist_ADJ:0 "British"
+ RWE_United_Britain_communist_ADJ:0 "British"
+
+ RWE_United_Britain_Phoenix_fascist:0 "Greater British State"
+ RWE_United_Britain_Phoenix_fascist_DEF:0 "The Greater British State"
+
+ RWE_United_Britain_Phoenix_nationalist:0 "United Kingdom"
+ RWE_United_Britain_Phoenix_nationalist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_Phoenix_monarchist:0 "United Kingdom"
+ RWE_United_Britain_Phoenix_monarchist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_Phoenix_national_bolshevik:0 "Federated Worker's Republic of Britain"
+ RWE_United_Britain_Phoenix_national_bolshevik_DEF:0 "The Federated Worker's Republic of Britain"
+
+ RWE_United_Britain_Phoenix_national_conservative:0 "United Kingdom"
+ RWE_United_Britain_Phoenix_national_conservative_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_Phoenix_centrist:0 "United Kingdom"
+ RWE_United_Britain_Phoenix_centrist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_Phoenix_liberal:0 "United Kingdom"
+ RWE_United_Britain_Phoenix_liberal_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_Phoenix_new_democrat:0 "United Kingdom"
+ RWE_United_Britain_Phoenix_new_democrat_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_Phoenix_moderate_socialist:0 "United Kingdom"
+ RWE_United_Britain_Phoenix_moderate_socialist_DEF:0 "The United Kingdom"
+
+ RWE_United_Britain_Phoenix_revolutionary_socialist:0 "Worker's Commonwealth of Britain"
+ RWE_United_Britain_Phoenix_revolutionary_socialist_DEF:0 "The Worker's Commonwealth of Britain"
+
+ RWE_United_Britain_Phoenix_communist:0 "United Soviet Republics of Britain"
+ RWE_United_Britain_Phoenix_communist_DEF:0 "The United Soviet Republics of Britain"
+
+ RWE_United_Britain_Phoenix_fascist_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_nationalist_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_monarchist_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_national_bolshevik_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_national_conservative_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_centrist_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_liberal_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_new_democrat_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_moderate_socialist_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_revolutionary_socialist_ADJ:0 "British"
+ RWE_United_Britain_Phoenix_communist_ADJ:0 "British"
+
+ RWE_Formed_Napoleonic_Empire_fascist:0 "Napoleonic Imperium"
+ RWE_Formed_Napoleonic_Empire_fascist_DEF:0 "The Napoleonic Imperium"
+
+ RWE_Formed_Napoleonic_Empire_nationalist:0 "Franco-Italian Republic"
+ RWE_Formed_Napoleonic_Empire_nationalist_DEF:0 "The Franco-Italian Republic"
+
+ RWE_Formed_Napoleonic_Empire_monarchist:0 "Napoleonic Empire"
+ RWE_Formed_Napoleonic_Empire_monarchist_DEF:0 "The Napoleonic Empire"
+
+ RWE_Formed_Napoleonic_Empire_national_bolshevik:0 "People's Empire of Western Europe"
+ RWE_Formed_Napoleonic_Empire_national_bolshevik_DEF:0 "The People's Empire of Western Europe"
+
+ RWE_Formed_Napoleonic_Empire_national_conservative:0 "Franco-Italian Republic"
+ RWE_Formed_Napoleonic_Empire_national_conservative_DEF:0 "The Franco-Italian Republic"
+
+ RWE_Formed_Napoleonic_Empire_centrist:0 "Franco-Italian Republic"
+ RWE_Formed_Napoleonic_Empire_centrist_DEF:0 "The Franco-Italian Republic"
+
+ RWE_Formed_Napoleonic_Empire_liberal:0 "Franco-Italian Republic"
+ RWE_Formed_Napoleonic_Empire_liberal_DEF:0 "The Franco-Italian Republic"
+
+ RWE_Formed_Napoleonic_Empire_new_democrat:0 "Franco-Italian Republic"
+ RWE_Formed_Napoleonic_Empire_new_democrat_DEF:0 "The Franco-Italian Republic"
+
+ RWE_Formed_Napoleonic_Empire_moderate_socialist:0 "Franco-Italian Republic"
+ RWE_Formed_Napoleonic_Empire_moderate_socialist_DEF:0 "The Franco-Italian Republic"
+
+ RWE_Formed_Napoleonic_Empire_revolutionary_socialist:0 "Napoleonic Popular Empire"
+ RWE_Formed_Napoleonic_Empire_revolutionary_socialist_DEF:0 "The Napoleonic Popular Empire"
+
+ RWE_Formed_Napoleonic_Empire_communist:0 "Franco-Italian Soviet Socialist Republic"
+ RWE_Formed_Napoleonic_Empire_communist_DEF:0 "The Franco-Italian Soviet Socialist Republic"
+
+ RWE_Formed_Napoleonic_Empire_fascist_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_nationalist_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_monarchist_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_national_bolshevik_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_national_conservative_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_centrist_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_liberal_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_new_democrat_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_moderate_socialist_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_revolutionary_socialist_ADJ:0 "Napoleonic"
+ RWE_Formed_Napoleonic_Empire_communist_ADJ:0 "Napoleonic"
+
+ RWE_Formed_Europe_fascist:0 "Imperium of Europe"
+ RWE_Formed_Europe_fascist_DEF:0 "The Imperium of Europe"
+
+ RWE_Formed_Europe_nationalist:0 "Commonwealth of Europe"
+ RWE_Formed_Europe_nationalist_DEF:0 "The Commonwealth of Europe"
+
+ RWE_Formed_Europe_monarchist:0 "United Kingdoms of Europe"
+ RWE_Formed_Europe_monarchist_DEF:0 "The United Kingdoms of Europe"
+
+ RWE_Formed_Europe_national_bolshevik:0 "People's Empire of Western Europe"
+ RWE_Formed_Europe_national_bolshevik_DEF:0 "The People's Empire of Western Europe"
+
+ RWE_Formed_Europe_national_conservative:0 "Commonwealth of Europe"
+ RWE_Formed_Europe_national_conservative_DEF:0 "The Commonwealth of Europe"
+
+ RWE_Formed_Europe_centrist:0 "Commonwealth of Europe"
+ RWE_Formed_Europe_centrist_DEF:0 "The Commonwealth of Europe"
+
+ RWE_Formed_Europe_liberal:0 "Commonwealth of Europe"
+ RWE_Formed_Europe_liberal_DEF:0 "The Commonwealth of Europe"
+
+ RWE_Formed_Europe_new_democrat:0 "Commonwealth of Europe"
+ RWE_Formed_Europe_new_democrat_DEF:0 "The Commonwealth of Europe"
+
+ RWE_Formed_Europe_moderate_socialist:0 "Commonwealth of Europe"
+ RWE_Formed_Europe_moderate_socialist_DEF:0 "The Commonwealth of Europe"
+
+ RWE_Formed_Europe_revolutionary_socialist:0 "Federated Republics of Europe"
+ RWE_Formed_Europe_revolutionary_socialist_DEF:0 "The Federated Republics of Europe"
+
+ RWE_Formed_Europe_communist:0 "Union of European Socialist Republics"
+ RWE_Formed_Europe_communist_DEF:0 "The Union of European Socialist Republics"
+
+ RWE_Formed_Europe_fascist_ADJ:0 "European"
+ RWE_Formed_Europe_nationalist_ADJ:0 "European"
+ RWE_Formed_Europe_monarchist_ADJ:0 "European"
+ RWE_Formed_Europe_national_bolshevik_ADJ:0 "European"
+ RWE_Formed_Europe_national_conservative_ADJ:0 "European"
+ RWE_Formed_Europe_centrist_ADJ:0 "European"
+ RWE_Formed_Europe_liberal_ADJ:0 "European"
+ RWE_Formed_Europe_new_democrat_ADJ:0 "European"
+ RWE_Formed_Europe_moderate_socialist_ADJ:0 "European"
+ RWE_Formed_Europe_revolutionary_socialist_ADJ:0 "European"
+ RWE_Formed_Europe_communist_ADJ:0 "European"

@@ -146,9 +146,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Steve Daines"
-	picture = "Portrait_MOT_Steve_Daines.dds"
-	ideology = centrist_ideology
+	name = "Ted Kaczynski"
+	picture = "Portrait_MOT_Ted_Kaczynski.dds"
+	desc = "RWE_Montana_Ted_Desc"
+	ideology = centrist_populist
 }
 
 create_country_leader = {

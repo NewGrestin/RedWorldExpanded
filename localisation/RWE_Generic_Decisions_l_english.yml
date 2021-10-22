@@ -36,6 +36,13 @@ RWE_2nd_Mexican_American_War_desc:0 "\n\n\n\n\n\n\nDiplomacy between a reunified
 
 RWE_Mex_America_War_White_Peace_Timeout:0 "The Second Treaty of Guadalupe Hidalgo"
 
+RWE_Formable_Nations:0 "Realizing Our Ambitions"
+RWE_Formable_Nations_desc:0 "\n\n\n\n\n\nMany nations have irredentist ambitions or wish to see an entire language group or even an entire continent unified. Our nation is one such example and, given the right circumstances, we can realize our ambitions and improve our international standing through meeting these goals."
+
+RWE_Form_Benelux:0 "Unify the Low Countries"
+RWE_Form_Britain:0 "Restore the United Kingdom"
+RWE_Form_Napoleonic_Empire:0 "Restore the Napoleonic Legacy"
+
 AmMexWar.1.t:0 "American Victory"
 AmMexWar.1.d:0 ""
 AmMexWar.1.a:0 "And don't even think about coming back!"

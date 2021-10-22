@@ -547,3 +547,33 @@ MAS_WEED_MAOISM = {
 	color = rgb { 244 12 35 }
 	color_ui = rgb { 244 12 35 }
 }
+
+RWE_United_Benelux = {
+	color = rgb { 48 88 128 }
+	color_ui = rgb { 48 88 128 }
+}
+
+RWE_United_Benelux_FarRight = {
+	color = rgb { 128 77 48 }
+	color_ui = rgb { 128 77 48 }
+}
+
+RWE_United_Benelux_FarLeft = {
+	color = rgb { 128 48 48 }
+	color_ui = rgb { 128 48 48 }
+}
+
+RWE_United_Britain = {
+	color = rgb { 117 0 0 }
+	color_ui = rgb { 117 0 0 }
+}
+
+RWE_United_Britain_Phoenix = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+RWE_Formed_Napoleonic_Empire = {
+	color = rgb { 30 41 99 }
+	color_ui = rgb { 43 50 43 }
+}

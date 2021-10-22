@@ -10,6 +10,18 @@ RWE_Disunifier = {
 	priority = 250
 }
 
+RWE_Formable_Nations = {
+    icon = RWE_Formable_Nations
+
+	picture = GFX_decision_category_RWE_Formable_Nations_Picture
+
+	allowed = { 
+		always = yes
+	}
+
+	priority = 250
+}
+
 RWE_2nd_Mexican_American_War = {
     icon = Mex_America_War
 
