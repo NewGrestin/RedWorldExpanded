@@ -1,0 +1,35 @@
+﻿l_english:
+
+##########################
+# LEADER DESCRIPTIONS
+##########################
+
+POR_OTELO_SARAIVA_DE_CARVALHO_DESC:0 "Otelo Saraiva de Carvalho was born in Portuguese Mozambique in 1936 and entered the Portuguese military in 1955. He fought in the brutal colonial wars in Angola and Mozambique, becoming disillusioned as many officers did with their low pay and their forced long services. Becoming interested in socialist literature in the early 1970s, Saraiva de Carvalho became part of the Armed Forces Movement, and was the central strategist behind the April 25th Carnation Revolution. After the revolution, Saraiva de Carvalho was at the forefront, being appointed by General Spínola to COPCON, a special forces unit.\n\nIn the chaos of the revolution, Saraiva de Carvalho seized his chance in mid 1975, orchestrating a military coup against both the President and the Prime Minister. Appointing himself Prime Minister, Saraiva de Carvalho began a long process of transforming the Portuguese state, purging opposition. Inviting several members of the Communist Party into his new party, the "Moviemiento 25 de Abril", he began to transform Portuguese society. The "European Castro" has remained in power for 35 years, despite a major falling out with the Communist Party and the complete falloff of Soviet support."
+
+##########################
+# FOCUSES
+##########################
+
+
+
+##########################
+# IDEAS
+##########################
+
+POR_legacy_of_april:0 "Legacy Of April"
+POR_legacy_of_april_desc:0 "On April 25th 1974, a military coup overthrew the Estado Novo, the authoritarian regime that had been in control of the nation since 1933. The military coup was led by disgruntled army officers known as the Movimento das Forças Armadas, amny of whom who adopted leftist worldviews. The succeeding chaos from the Carnation Revolution led to the successful seizure of power by COPCON, the special forces unit commanded by Otelo Saraivo de Carvalho. This series of events has been locked in Portuguese history as a place of pride, but many say the chaos of "25 de Abril" has never truly ended, as political opposition still rocks the decades-old socialist regime."
+POR_military_dominance:0 "Military Dominance"
+POR_military_dominance_desc:0 "The military of the Socialist Republic of Portugal is seen as the frontline of the revolutionary vanguard. Resources are pushed into the military, the socialist republic is run close to entirely by former military officers, and new troops are universally taught socialist thought. Order is usually kept by army intervention into the dysfunctional "Worker's Councils". Some argue that this is simply the old military dominated regime, but with a red sheen."
+
+##########################
+# EVENTS
+##########################
+
+
+##########################
+# TOOLTIPS
+##########################
+
+##########################
+# COSMETIC TAGS
+##########################
