@@ -116,11 +116,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "TEX_Jeb_Elected"
-		texturefile = "gfx/event_pictures/news_event/TEX_Jeb_Elected.dds"
-	}
-
-	spriteType = {
 		name = "TEX_Chris_Kyle_American_Sniper_Elected"
 		texturefile = "gfx/event_pictures/news_event/TEX_Chris_Kyle_American_Sniper_Elected.dds"
 	}
@@ -128,6 +123,51 @@ spriteTypes = {
 	spriteType = {
 		name = "TEX_Mark_Kelley_Elected"
 		texturefile = "gfx/event_pictures/news_event/TEX_Mark_Kelley_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Rick_Perry_Reelected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Rick_Perry_Reelected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_David_Koresh_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_David_Koresh_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_George_Bush_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_George_Bush_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Ron_Paul_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Ron_Paul_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Oliver_North_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Oliver_North_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Woody_Harrelson_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Woody_Harrelson_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Lupe_Valdez_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Lupe_Valdez_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_Wendy_Davis_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_Wendy_Davis_Elected.dds"
+	}
+
+	spriteType = {
+		name = "TEX_George_Foreman_Elected"
+		texturefile = "gfx/event_pictures/news_event/TEX_George_Foreman_Elected.dds"
 	}
 
 	spriteType = {
