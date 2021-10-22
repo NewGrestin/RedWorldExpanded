@@ -537,6 +537,7 @@ USA_JAP = {
 	color = rgb { 255 221 221}
 	color_ui = rgb { 255 221 221 }
 }
+
 MAS_libertarian = {
 	color = rgb { 245 220 0	}
 	color_ui = rgb { 245 220 0	}
@@ -611,4 +612,9 @@ IRQ_Babylon = {
 IRQ_League = {
 	color = rgb { 47 104 141 }
 	color_ui = rgb { 47 104 141 }
+}
+
+CGH_gorby = {
+	color = rgb { 127 0 0 }
+	color_ui = rgb { 127 0 0 }
 }
