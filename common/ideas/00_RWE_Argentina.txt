@@ -46,6 +46,28 @@ ideas = {
 				industrial_capacity_dockyard = -0.13
 			}
 		}
+		RWE_ARG_collapsing_economy_2 = {	
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = 0.45
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+			}
+		}
 		RWE_ARG_neutered_military = {	
 			
 			allowed = {

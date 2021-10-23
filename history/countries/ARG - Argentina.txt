@@ -2,6 +2,7 @@
 
 oob = "ARG_2000"
 
+load_focus_tree = ARG_Menem
 set_research_slots = 3
 set_convoys = 500
 set_stability = 0.5
