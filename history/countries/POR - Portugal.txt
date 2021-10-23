@@ -10,6 +10,7 @@ set_war_support = 0.1
 add_ideas = {
 	POR_legacy_of_april
 	POR_military_dominance
+	POR_right_wing_terrorism
 }
 
 set_country_flag = catholic_nation
@@ -92,15 +93,15 @@ set_politics = {
 
 set_popularities = {
         fascist = 0
-		nationalist = 5
-		monarchist = 2
+		nationalist = 11
+		monarchist = 8
 		national_bolshevik = 0
-		national_conservative = 1
-		centrist = 20
+		national_conservative = 8
+		centrist = 6
 		liberal = 0
-		new_democrat = 10
+		new_democrat = 6
 		moderate_socialist = 0
-		revolutionary_socialist = 48
+		revolutionary_socialist = 47
 		communist = 14
 }
 
@@ -169,6 +170,9 @@ create_country_leader = {
 	picture = "Portrait_POR_Otelo_Saraiva_De_Carvalho.dds"
 	desc = POR_OTELO_SARAIVA_DE_CARVALHO_DESC
 	ideology = revolutionary_socialist_ideology
+	traits = {
+		the_european_castro
+	}
 }
 
 create_field_marshal = {

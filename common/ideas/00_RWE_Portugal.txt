@@ -47,5 +47,27 @@ ideas = {
 				army_defence_factor = 0.05
 			}
 		}
+		POR_right_wing_terrorism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_POR_Right_Wing_Terrorism
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				production_speed_industrial_complex_factor = -0.13
+				production_speed_arms_factory_factor = -0.13
+			}
+		}
 	}
 }
