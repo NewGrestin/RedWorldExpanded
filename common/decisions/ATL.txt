@@ -11,13 +11,16 @@ ATL_operation_eagle = {
 		visible = { 
 			has_country_flag = ATL_AR_reunified
 			tag = ATL
+			TEX = {
+				exists = yes
+			}
 		}
 
 		war_with_on_remove = TEX
 
-		# available = {
-			
-		# }
+		available = {
+			has_war = no	
+		}
 
 		complete_effect = {
 		
@@ -42,13 +45,16 @@ ATL_operation_eagle = {
 		visible = { 
 			has_country_flag = ATL_AR_reunified
 			tag = ATL
+			ILL = {
+				exists = yes
+			}
 		}
 
 		war_with_on_remove = ILL
 
-		# available = {
-			
-		# }
+		available = {
+			has_war = no
+		}
 
 		complete_effect = {
 		
@@ -73,6 +79,14 @@ ATL_operation_eagle = {
 		visible = { 
 			has_country_flag = ATL_AR_reunified
 			tag = ATL
+			OR = {
+				MAS = {
+					exists = no
+				}
+				MAS = {
+					exists = yes
+				}
+			}
 		}
 
 		war_with_on_remove = NEA
@@ -87,9 +101,9 @@ ATL_operation_eagle = {
 		war_with_on_remove = NYC
 		war_with_on_remove = CLM
 
-		# available = {
-			
-		# }
+		available = {
+			has_war = no
+		}
 
 		complete_effect = {
 		
@@ -154,13 +168,16 @@ ATL_operation_eagle = {
 		visible = { 
 			has_country_flag = ATL_AR_reunified
 			tag = ATL
+			MWA = {
+				exists = yes
+			}
 		}
 
 		war_with_on_remove = MWA
 
-		# available = {
-			
-		# }
+		available = {
+			has_war = no
+		}
 
 		complete_effect = {
 		
@@ -170,6 +187,274 @@ ATL_operation_eagle = {
 		remove_effect = {
 			declare_war_on = {
 				target = MWA
+				type = annex_everything
+			}
+		}
+	}
+	ATL_break_the_lakes = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+			GRL = {
+				exists = yes
+			}
+		}
+
+		war_with_on_remove = GRL
+
+		available = {
+			ATL = {
+				OR = {	
+					owns_state = 393
+					owns_state = 395
+					owns_state = 892
+					owns_state = 373
+					owns_state = 384
+					owns_state = 898
+					owns_state = 389
+				} 
+			}
+			has_war = no
+		}
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = GRL
+				type = annex_everything
+			}
+		}
+	}
+	ATL_comminute_covington = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+			MOT = {
+				exists = yes
+			}
+		}
+
+		war_with_on_remove = MOT
+
+		available = {
+			ATL = {
+				OR = {	
+					owns_state = 391
+					owns_state = 898
+					owns_state = 390
+					owns_state = 384
+					owns_state = 382
+					owns_state = 896
+					owns_state = 387
+				} 
+			}
+			has_war = no
+		}
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = MOT
+				type = annex_everything
+			}
+		}
+	}
+	ATL_crush_the_lincolnites = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+			LIN = {
+				exists = yes
+			}
+		}
+
+		war_with_on_remove = LIN
+
+		available = {
+			ATL = {
+				OR = {	
+					owns_state = 1016
+					owns_state = 388
+					owns_state = 1017
+					owns_state = 896
+					owns_state = 379
+					owns_state = 889
+					owns_state = 378
+					owns_state = 971
+					owns_state = 970
+				} 
+			}
+			has_war = no
+		}
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = LIN
+				type = annex_everything
+			}
+		}
+	}
+	ATL_smash_the_salt_lakes = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+			UTA = {
+				exists = yes
+			}
+		}
+
+		war_with_on_remove = UTA
+
+		available = {
+			ATL = {
+				OR = {	
+					owns_state = 895
+					owns_state = 897
+					owns_state = 889
+					owns_state = 890
+					owns_state = 387
+					owns_state = 1017
+					owns_state = 381
+					owns_state = 382
+				} 
+			}
+			has_war = no
+		}
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = UTA
+				type = annex_everything
+			}
+		}
+	}
+	ATL_assault_arizona = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+			ARI = {
+				exists = yes
+			}
+		}
+
+		war_with_on_remove = ARI
+
+		available = {
+			ATL = {
+				OR = {	
+					owns_state = 382
+					owns_state = 380
+					owns_state = 897
+					owns_state = 378
+				} 
+			}
+			has_war = no
+		}
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = ARI
+				type = annex_everything
+			}
+		}
+	}
+	ATL_contriturate_the_communists = {
+
+		icon = generic_form_nation
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+
+		visible = { 
+			has_country_flag = ATL_AR_reunified
+			tag = ATL
+			PCA = {
+				exists = yes
+			}
+		}
+
+		war_with_on_remove = PCA
+
+		available = {
+			ATL = {
+				OR = {	
+					owns_state = 377
+					owns_state = 895
+					owns_state = 380
+					owns_state = 379
+					owns_state = 890
+				} 
+			}
+			has_war = no
+		}
+
+		complete_effect = {
+		
+
+		}
+		days_remove = 21
+		remove_effect = {
+			declare_war_on = {
+				target = PCA
 				type = annex_everything
 			}
 		}
