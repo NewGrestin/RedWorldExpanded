@@ -326,3 +326,220 @@ country_event = {
 		name = chicago.18.o1
 	}
 }
+
+country_event = {
+	id = chicago.19 #Rahm Arms The Force
+	title = chicago.19.t
+	desc = chicago.19.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.19.o1
+		hidden_effect = {
+			country_event = {
+				id = chicago.20
+				days = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = chicago.20 #People Protest Rahm Arming The Force
+	title = chicago.20.t
+	desc = chicago.20.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.20.o1
+		hidden_effect = {
+			country_event = {
+				id = chicago.21
+				days = 2
+			}
+		}
+	}
+}
+country_event = {
+	id = chicago.21 #Rahm Sends In The Force
+	title = chicago.21.t
+	desc = chicago.21.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.21.o1
+		hidden_effect = {
+			country_event = {
+				id = chicago.22
+				days = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = chicago.22 #Battles On The Streets Of Chicago
+	title = chicago.22.t
+	desc = chicago.22.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.22.o1
+		if = {
+			limit = {
+				SOV = {
+					OR = {
+					has_country_flag = gorbachev_elected
+					has_country_flag = putin_elected
+					}
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = chicago.23
+					days = 2
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = {
+					id = chicago.25
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = chicago.23 #CPD Win
+	title = chicago.23.t
+	desc = chicago.23.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.23.o1
+		hidden_effect = {
+			country_event = {
+				id = chicago.24
+				days = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = chicago.24 #Rahm stays in power, liberalnero.png
+	title = chicago.24.t
+	desc = chicago.24.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.24.o1
+	}
+}
+country_event = {
+	id = chicago.25 #Gorbachev joins the protests
+	title = chicago.25.t
+	desc = chicago.25.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.25.o1
+		hidden_effect = {
+			country_event = {
+				id = chicago.26
+				days = 2
+			}
+		}
+	}
+}
+country_event = {
+	id = chicago.26 #Protests Grow
+	title = chicago.26.t
+	desc = chicago.26.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #it'll quieten down
+		name = chicago.26.o1
+		hidden_effect = {
+			country_event = {
+				id = chicago.27
+				days = 2
+			}
+		}
+	}
+	option = { #send in more police
+		name = chicago.26.o2
+		hidden_effect = {
+			country_event = {
+				id = chicago.23
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = chicago.27 #Chicago City Council Burned Down, Rahm Kicked Out Of Power
+	title = chicago.27.t
+	desc = chicago.27.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.27.o1
+		hidden_effect = {
+			country_event = {
+				id = chicago.28
+				days = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = chicago.28 #Protestors Ask Gorbachev To Lead Government
+	title = chicago.28.t
+	desc = chicago.28.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.28.o1
+		create_country_leader = {
+			name = "Mikhail Gorbachev"
+			ideology = revolutionary_socialist_ideology
+			picture = "Portrait_CGH_Mikhail_Gorbachev.dds"
+		}
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
+		load_focus_tree = chicago_gorby_tree
+		set_cosmetic_tag = CGH_gorby
+	}
+}

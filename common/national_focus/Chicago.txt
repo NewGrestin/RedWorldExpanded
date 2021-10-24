@@ -517,7 +517,7 @@ focus_tree = {
 		relative_position_id = CGH_rig_future_elections
 		completion_reward = {
 			country_event = {
-				id = chicago.5
+				id = chicago.19
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_weapons2
