@@ -1,30 +1,14 @@
-﻿capital = 608
+﻿capital = 286
 
-oob = "PRC_2000"
-
-#if = {
-#	limit = { has_dlc = "Man the Guns" }
-#		set_naval_oob = "PRC_2000_naval_mtg"
-#	else = {
-		set_naval_oob = "PRC_2000_naval_legacy"
-#	}
-#}
+oob = "CMB_2000"
 
 add_ideas = {
-	PRC_Maoist_Aftermath
-	PRC_PLA
-	PRC_Mediocre_Agricultural_Reform
+    idea_effects_of_the_khmer_rouge
 }
-
-PRC = {
-	give_guarantee = PRK
-}
-
-create_faction = Shanghai_Treaty
 
 set_research_slots = 4
 set_convoys = 500
-set_stability = 0.7
+set_stability = 0.6
 set_war_support = 0.1
 
 set_technology = {
@@ -38,23 +22,11 @@ set_technology = {
 	basic_light_tank = 1 
 	gw_artillery = 1 
 	tech_mountaineers = 1
-	early_light_cruiser = 1
 	early_fighter = 1 
 	early_bomber = 1 
-	early_submarine = 1
-    transport = 1 
-	paratroopers = 1 
-	marines = 1
-	early_destroyer = 1 
-	early_carrier = 1 
-	basic_heavy_tank = 1 
-	atomic_research = 1 
-	nuclear_reactor = 1 
-	nukes = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
 }
-
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
@@ -109,82 +81,82 @@ set_politics = {
 }
 
 set_popularities = {
-        fascist = 0
-		nationalist = 1
+        fascist = 12
+		nationalist = 0
 		monarchist = 0
-		national_bolshevik = 1
-		national_conservative = 1
+		national_bolshevik = 5
+		national_conservative = 8
 		centrist = 0
 		liberal = 0
-		new_democrat = 4
-		moderate_socialist = 2
-		revolutionary_socialist = 6
-		communist = 85
+		new_democrat = 10
+		moderate_socialist = 0
+		revolutionary_socialist = 10
+		communist = 55
 }
 
 create_country_leader = {
-	name = "Li Zhanshu"
-	desc = "POLITICS_LI_ZHANSHU_DESC"
-	picture = "Portrait_PRC_Li_Zhanshu.dds"
-	ideology = maoist
+	name = "Heng Samrin"
+	desc = "POLITICS_HENG_SAMRIN_DESC"
+	picture = "Portrait_CMB_Heng_Samrin.dds"
+	ideology = leninist
 }
 
 create_country_leader = {
-	name = "Li Hongzi"
-	picture = "Portrait_PRC_Li_Hongzi.dds"
+	name = "Norodom Ranariddh"
+	picture = "Portrait_CMB_Norodom_Ranariddh.dds"
 	ideology = fascist_ideology
 }
 
 create_country_leader = {
-	name = "Xi Jinping"
-	picture = "Portrait_PRC_Xi_Jinping.dds"
+	name = "Kong Korm"
+	picture = "Portrait_CMB_Kong_Korm.dds"
 	ideology = nationalist_ideology
 }
 
 create_country_leader = {
-	name = "Jin Youzhi"
-	picture = "Portrait_PRC_Jin_Youzhi.dds"
+	name = "Norodom Sihanouk"
+	picture = "Portrait_CMB_Norodom_Sihanouk.dds"
 	ideology = absolute_monarchist
 }
 
 create_country_leader = {
-	name = "Bo Xilai"
-	picture = "Portrait_PRC_Bo_Xilai.dds"
-	ideology = marxist_leninist_maoist
+	name = "Nuon Chea"
+	picture = "Portrait_CMB_Nuon_Chea.dds"
+	ideology = khmer_rouge_thought
 }
 
 create_country_leader = {
-	name = "Guo Wengui"
-	picture = "Portrait_PRC_Guo_Wengu.dds"
-	ideology = fiscal_conservative
+	name = "Kem Sokha"
+	picture = "Portrait_CMB_Kem_Sokha.dds"
+	ideology = reactionary
 }
 
 create_country_leader = {
-	name = "Xu Wenli"
-	picture = "Portrait_PRC_Xu_Wenli.dds"
-	ideology = centrist_ideology
+	name = "Sam Rainsy"
+	picture = "Portrait_CMB_Sam_Rainsy.dds"
+	ideology = centrist_populist
 }
 
 create_country_leader = {
-	name = "Chen Guangcheng"
-	picture = "Portrait_PRC_Chen_Guangcheng.dds"
+	name = "Tea Banh"
+	picture = "Portrait_CMB_Tea_Banh.dds"
 	ideology = social_liberal
 }
 
 create_country_leader = {
-	name = "Ai Weiwei"
-	picture = "Portrait_PRC_Ai_Weiwei.dds"
+	name = "Kem Ley"
+	picture = "Portrait_CMB_Kem_Ley.dds"
 	ideology = new_democrat_ideology
 }
 
 create_country_leader = {
-	name = "Guo Quan"
-	picture = "Portrait_PRC_Guo_Quan.dds"
+	name = "Hun Sen"
+	picture = "Portrait_CMB_Hun_Sen.dds"
 	ideology = democratic_socialist
 }
 
 create_country_leader = {
-	name = "Wan Exiang"
-	picture = "Portrait_PRC_Wan_Exiang.dds"
+	name = "Hor Namhong"
+	picture = "Portrait_CMB_Hor_Namhong.dds"
 	ideology = revolutionary_socialist_ideology
 }

@@ -538,6 +538,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_khmer_rouge_thought"
+		texturefile = "gfx/interface/ideologies/khmer_rouge_thought.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_stalinist"
 		texturefile = "gfx/interface/ideologies/stalinist.dds"
 	}

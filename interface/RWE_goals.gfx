@@ -20,6 +20,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/MOT_Denounce_Collectivism.dds"			
 	}
 	SpriteType = {
+		name = "GFX_goal_JAP_Nationalist_Education"
+		texturefile = "gfx/interface/goals/JAP_Nationalist_Education.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_JAP_Toshinomics"
 		texturefile = "gfx/interface/goals/JAP_Toshinomics.tga"			
 	}
@@ -32,12 +36,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/JAP_JSP.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_JAP_JCP"
+		texturefile = "gfx/interface/goals/JAP_JCP.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Kishi"
+		texturefile = "gfx/interface/goals/JAP_Kishi.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_JAP_Canada"
 		texturefile = "gfx/interface/goals/JAP_Canada.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_JAP_Abenomics"
 		texturefile = "gfx/interface/goals/JAP_Abenomics.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Taiwan"
+		texturefile = "gfx/interface/goals/JAP_Taiwan.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_JAP_Rice_Slash"

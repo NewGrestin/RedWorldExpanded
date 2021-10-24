@@ -1,0 +1,205 @@
+
+#Important to put HIGHEST first - BUREAUCRACY
+JAP_bureaucracy_level_up = {
+	custom_effect_tooltip = JAP_bureaucracy_up_tt
+	if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_6 }
+		add_stability = -0.1
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_5 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_5 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_6 
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_4 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_4 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_5 
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_3 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_3 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_2 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_2 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_1 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_1
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_2 
+		}
+	}
+}
+
+
+#Important to put LOWEST first
+JAP_bureaucracy_level_down = {
+custom_effect_tooltip = JAP_bureaucracy_down_tt
+	if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_1 }
+		add_stability = 0.05
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_2 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_2
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_1
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_3 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_3 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_2
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_4 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_4 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_3 
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_5 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_5 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_4 
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Tangled_in_Red_Tape_6 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Tangled_in_Red_Tape_6 
+			add_idea = RWE_JAP_Tangled_in_Red_Tape_5 
+		}
+	}
+}
+
+#Important to put HIGHEST first
+JAP_debt_level_up = {
+	custom_effect_tooltip = JAP_debt_up_tt
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_8 }
+		add_political_power = -100
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_7 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_7 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_8 
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_6 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_6 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_7 
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_5 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_5 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_6 
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_4 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_4 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_5 
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_3 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_3 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_2 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_2 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_1 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_1 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_2 
+		}
+	}
+}
+
+#Important to put LOWEST first
+JAP_debt_level_down = {
+custom_effect_tooltip = JAP_debt_down_tt
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_1 }
+		add_political_power = 100
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_2 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_2 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_1 
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_3 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_3 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_2 
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_4 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_4 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_3 
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_5 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_5 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_4 
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_6 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_6 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_5
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_7 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_7 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_6 
+		}
+	}
+	if = {
+		limit = { has_idea = RWE_JAP_Land_of_the_Rising_Debt_8 }
+		swap_ideas = {
+			remove_idea = RWE_JAP_Land_of_the_Rising_Debt_8 
+			add_idea = RWE_JAP_Land_of_the_Rising_Debt_7 
+		}
+	}
+}

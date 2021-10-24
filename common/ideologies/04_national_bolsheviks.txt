@@ -24,6 +24,9 @@ ideologies = {
 
 			kmt_funny = {
 			}
+
+			khmer_rouge_thought = {
+			}
 		}
 		
 		dynamic_faction_names = {

@@ -13,6 +13,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/OPEC.tga"			
 	}
 	SpriteType = {
+		name = "GFX_idea_JAP_Historical_Revisionism"
+		texturefile = "gfx/interface/ideas/JAP_Historical_Revisionism.tga"			
+	}
+	SpriteType = {
 		name = "GFX_idea_JAP_Lost_Decades"
 		texturefile = "gfx/interface/ideas/JAP_Lost_Decades.tga"			
 	}

@@ -14,7 +14,343 @@ focus_tree = {
 	shared_focus = JAP_Tamogamis_LDP
 	shared_focus = JAP_NLC_Together
 	shared_focus = JAP_JSP_rises_to_power
+	shared_focus = JAP_JCP_rises_to_power
+	shared_focus = JAP_After_Tamogami
 	default = no
+}
+
+shared_focus = {
+	id = JAP_After_Tamogami
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 7
+	y = 7
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Brother_of_Abe
+	icon = GFX_goal_JAP_Kishi
+	x = 8
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = JAP_After_Tamogami }
+
+	available = {
+	has_country_leader = { 
+	name = "Nobuo Kishi"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Our_Atomic_Japan
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 8
+	y = 10
+
+	cost = 5
+	prerequisite = { focus = JAP_Brother_of_Abe }
+
+	available = {
+	has_country_leader = { 
+	name = "Nobuo Kishi"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_The_Gunji_Otaku
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 10
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = JAP_After_Tamogami }
+
+	available = {
+	has_country_leader = { 
+	name = "Shiberu Ishiba"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Revitalize_Japanese_Arms_Industry
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 9
+	y = 9
+
+	cost = 10
+	prerequisite = { focus = JAP_Brother_of_Abe focus = JAP_The_Gunji_Otaku }
+
+	available = {
+	OR = {
+	has_country_leader = { 
+	name = "Nobuo Kishi"
+	ruling_only = yes
+	}
+	has_country_leader = { 
+	name = "Shiberu Ishiba"
+	ruling_only = yes
+	}
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+	add_war_support = 0.1
+	random_owned_state = { 
+	add_extra_state_shared_building_slots = 2
+	add_building_construction = {
+  	 type = arms_factory
+   	 level = 2
+   	 instant_build = yes
+	}
+	}
+	random_owned_state = { 
+	add_extra_state_shared_building_slots = 1
+	add_building_construction = {
+  	 type = arms_factory
+   	 level = 1
+   	 instant_build = yes
+	}
+	}
+	}
+}
+
+shared_focus = {
+	id = JAP_Introduce_the_JMF
+	icon = GFX_goal_Generic_Special_Forces_Recon
+	x = 10
+	y = 10
+
+	cost = 5
+	prerequisite = { focus = JAP_The_Gunji_Otaku }
+
+	available = {
+	has_country_leader = { 
+	name = "Shiberu Ishiba"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+	add_ideas = { RWE_JAP_JMF }
+	}
+}
+
+shared_focus = {
+	id = JAP_Preemptive_Strike
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 11
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = JAP_The_Gunji_Otaku }
+
+	available = {
+	has_country_leader = { 
+	name = "Shiberu Ishiba"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	NOT = { PRK = { is_in_faction = yes } PRK = { is_subject = yes } }
+	}
+
+
+	completion_reward = {
+	custom_effect_tooltip = JAP_KOREAN_CRISIS_TT
+	custom_effect_tooltip = GENERIC_IF
+	effect_tooltip = { 
+		add_war_support = 0.1
+		declare_war_on = {
+  		 target = PRK
+   		 type = topple_government
+		}
+	}
+	}
+	
+}
+
+shared_focus = {
+	id = JAP_Realization_of_Happy_Japan
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 6
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = JAP_After_Tamogami }
+
+	available = {
+	has_country_leader = { 
+	name = "Ryuho Okawa"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Combat_the_Demographic_Issue
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 6
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = JAP_Realization_of_Happy_Japan }
+
+	available = {
+	has_country_leader = { 
+	name = "Ryuho Okawa"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+	JAP_bureaucracy_level_up = yes
+	}
+}
+
+shared_focus = {
+	id = JAP_New_Japan_Policy
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 4
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = JAP_After_Tamogami }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Natalist_Agenda
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 5
+	y = 10
+
+	cost = 5
+	prerequisite = { focus = JAP_New_Japan_Policy }
+	prerequisite = { focus = JAP_Combat_the_Demographic_Issue }
+	available = {
+	has_country_leader = { 
+	name = "Ryuho Okawa"
+	ruling_only = yes
+	}
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Party_of_the_Japanese_Farmer
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 4
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = JAP_New_Japan_Policy }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Embrace_Dirigism 
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 2
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = JAP_New_Japan_Policy }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Streamline_the_Bureaucracy
+	icon = GFX_goal_JAP_Toshio_Gov
+	x = 2
+	y = 10
+
+	cost = 5
+	prerequisite = { focus = JAP_Embrace_Dirigism }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+	JAP_bureaucracy_level_down = yes
+	}
 }
 
 shared_focus = {
@@ -51,7 +387,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_bureaucracy_level_up = yes
 	}
 }
 
@@ -127,7 +463,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_up = yes
 	}
 }
 
@@ -204,7 +540,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+		JAP_debt_level_up = yes
 	}
 }
 
@@ -321,7 +657,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_down = yes
 	}
 }
 
@@ -341,7 +677,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_up = yes
 	}
 }
 
@@ -366,7 +702,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Revision_of_History
-	icon = GFX_goal_JAP_Toshinomics
+	icon = GFX_goal_JAP_Nationalist_Education
 	x = 11
 	y = 1
 	prerequisite = { focus = JAP_Tamogamis_LDP }
@@ -379,7 +715,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_ideas = { RWE_JAP_History_Revised }
 	}
 }
 
@@ -445,7 +781,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Party_of_Patriots 
-	icon = GFX_goal_JAP_Toshinomics
+	icon = GFX_goal_JAP_Rightful_Rule_Returns
 	x = 14
 	y = 4
 	prerequisite = { focus = JAP_Consolidate_the_Right }
@@ -619,7 +955,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Liberalism_for_the_21st_Century
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = focus_ideology_liberal
 	x = 18
 	y = 1
 	prerequisite = { focus = JAP_NLC_Together }
@@ -631,7 +967,8 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	swap_ideas = { remove_idea = RWE_JAP_Echoes_of_the_Lost_Decade add_idea = RWE_JAP_Echoes_of_the_Lost_Decade_NLC_1 }
+	add_popularity = { ideology = liberal popularity = 0.05 }
 	}
 }
 
@@ -649,7 +986,8 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_popularity = { ideology = centrist popularity = 0.05 }
+	country_event = { id = rw_jap.33 days = 0 }
 	}
 }
 
@@ -667,7 +1005,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_bureaucracy_level_down = yes
 	}
 }
 
@@ -685,7 +1023,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_down = yes
 	}
 }
 
@@ -709,11 +1047,11 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Rules_for_a_Free_Market
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_MOT_Free_Communities
 	x = 16
 	y = 4
 	prerequisite = { focus = JAP_Disability_Compensation_Act }
-	cost = 5
+	cost = 10
 
 	available = {
 
@@ -721,7 +1059,9 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	remove_ideas = { RWE_JAP_Echoes_of_the_Lost_Decade_NLC_1 }
+	add_timed_idea = { idea = RWE_JAP_Echoes_of_the_Lost_Decade_NLC_2 days = 750 }
+	add_popularity = { ideology = liberal popularity = -0.03 }
 	}
 }
 
@@ -740,7 +1080,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_down = yes
 	}
 }
 
@@ -758,7 +1098,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_bureaucracy_level_down = yes
 	}
 }
 
@@ -980,7 +1320,8 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_up = yes
+	JAP_bureaucracy_level_down = yes
 	}
 }
 
@@ -1018,7 +1359,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_bureaucracy_level_down = yes
 	}
 }
 
@@ -1075,7 +1416,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_up = yes
 	}
 }
 
@@ -1145,11 +1486,11 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Solving_the_Problems_of_the_LDP
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 35
+	x = 36
 	y = 1
 
 	cost = 5
-	prerequisite = { focus = JAP_JSP_rises_to_power }
+	prerequisite = { focus = JAP_JSP_rises_to_power focus = JAP_JCP_rises_to_power }
 
 	available = {
 
@@ -1164,7 +1505,7 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Limit_Nippon_Kaigi_Influence
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 36
+	x = 37
 	y = 2
 
 	cost = 5
@@ -1202,7 +1543,7 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Defang_the_Military
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 36
+	x = 37
 	y = 4
 
 	cost = 5
@@ -1214,13 +1555,13 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_down = yes
 	}
 }
 
 shared_focus = {
 	id = JAP_Limit_the_Bureaucracy
-	icon = GFX_goal_JAP_Toshio_Gov
+	icon = GFX_goal_Generic_Paper_Question
 	x = 37
 	y = 5
 
@@ -1232,7 +1573,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_bureaucracy_level_down = yes
 	}
 }
 
@@ -1251,7 +1592,7 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_down = yes
 	}
 }
 
@@ -1269,13 +1610,14 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	JAP_debt_level_up = yes
+	JAP_bureaucracy_level_up = yes
 	}
 }
 
 shared_focus = {
 	id = JAP_Stability_of_Asia
-	icon = GFX_goal_JAP_Toshio_Gov
+	icon = GFX_goal_JAP_Taiwan
 	x = 33
 	y = 5
 
@@ -1341,6 +1683,347 @@ shared_focus = {
 	cost = 5
 	prerequisite = { focus = JAP_Stability_of_Asia }
 	mutually_exclusive = { focus = JAP_Merge_with_the_Canadian_Pact }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_JCP_rises_to_power
+	icon = GFX_goal_JAP_JCP
+	x = 41
+	y = 0
+
+	cost = 5
+
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Legalize_Same_Sex_Marriage
+	icon = GFX_goal_MOT_Emphasize_Unity
+	x = 44
+	y = 1
+
+	cost = 5
+
+	prerequisite = { focus = JAP_JCP_rises_to_power }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Prepare_for_the_Transition
+	icon = GFX_PB_JAP_And_Dont_Deliver
+	x = 44
+	y = 2
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Legalize_Same_Sex_Marriage }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	JAP_debt_level_up = yes
+	JAP_bureaucracy_level_up = yes
+	}
+}
+
+shared_focus = {
+	id = JAP_Break_Industrial_Cartels
+	icon = GFX_goal_generic_destroy_capitalism
+	x = 42
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Prepare_for_the_Transition }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Universal_Basic_Income_Experiment
+	icon = GFX_goal_JAP_JSP
+	x = 42
+	y = 4
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Break_Industrial_Cartels }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	JAP_debt_level_up = yes
+	}
+}
+
+shared_focus = {
+	id = JAP_Promote_Union_Membership
+	icon = GFX_goal_GRL_Workers_Rights
+	x = 44
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Prepare_for_the_Transition }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Expand_Public_Housing
+	icon = GFX_goal_JAP_JSP
+	x = 44
+	y = 5
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Universal_Basic_Income_Experiment focus = JAP_Promote_Union_Membership }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Improve_Public_Transport
+	icon = GFX_goal_JAP_JSP
+	x = 42
+	y = 5
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Universal_Basic_Income_Experiment }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Lower_Regional_Inequality
+	icon = GFX_goal_JAP_JSP
+	x = 43
+	y = 6
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Improve_Public_Transport }
+	prerequisite = { focus = JAP_Expand_Public_Housing }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	JAP_debt_level_up = yes
+	}
+}
+
+shared_focus = {
+	id = JAP_Progressive_Taxation
+	icon = GFX_goal_JAP_JSP
+	x = 46
+	y = 3
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Prepare_for_the_Transition }
+	available = {
+
+	}
+
+
+	completion_reward = {
+	JAP_debt_level_down = yes
+	}
+}
+
+shared_focus = {
+	id = JAP_Financial_Transaction_Tax
+	icon = GFX_goal_JAP_JSP
+	x = 45
+	y = 6
+
+	cost = 5
+
+	prerequisite = { focus = JAP_Progressive_Taxation }
+	prerequisite = { focus = JAP_Promote_Union_Membership }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Leader_of_the_Third_World
+	icon = GFX_goal_JAP_JSP
+	x = 41
+	y = 1
+
+	cost = 5
+	mutually_exclusive = { focus = JAP_Become_Soviet_Friendly }
+	prerequisite = { focus = JAP_JCP_rises_to_power }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Become_Soviet_Friendly 
+	icon = GFX_goal_JAP_JSP
+	x = 39
+	y = 1
+
+	cost = 5
+	mutually_exclusive = { focus = JAP_Leader_of_the_Third_World}
+	prerequisite = { focus = JAP_JCP_rises_to_power }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Ally_of_the_Warsaw_Pact
+	icon = GFX_goal_JAP_JSP
+	x = 39
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = JAP_Become_Soviet_Friendly }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Move_against_Maoism
+	icon = GFX_goal_Generic_Maoism
+	x = 40
+	y = 3
+
+	cost = 5
+	prerequisite = { focus = JAP_Become_Soviet_Friendly focus = JAP_Leader_of_the_Third_World }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_The_Return_of_the_Kurill_Islands
+	icon = GFX_goal_JAP_JSP
+	x = 39
+	y = 4
+
+	cost = 5
+	prerequisite = { focus = JAP_Ally_of_the_Warsaw_Pact }
+	prerequisite = { focus = JAP_Move_against_Maoism }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Treaty_on_International_Sovereignty
+	icon = GFX_goal_JAP_JSP
+	x = 41
+	y = 2
+
+	cost = 5
+	prerequisite = { focus = JAP_Leader_of_the_Third_World }
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = JAP_Plight_of_the_Taiwanese
+	icon = GFX_goal_JAP_JSP
+	x = 40
+	y = 5
+
+	cost = 5
+	prerequisite = { focus = JAP_Move_against_Maoism }
 	available = {
 
 	}

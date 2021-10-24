@@ -49,5 +49,10 @@ opinion_modifiers = {
 		value = 100
 		trade = yes
 	}
+
+	tariffs = {
+		value = -15
+		trade = yes
+	}
 	
 }
