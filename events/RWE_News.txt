@@ -877,6 +877,32 @@ news_event = {	#JAP - POTO formed
 
 }
 
+news_event = {	#JAP - Senkaku Islands war
+	id = newsrw.51
+	title = newsrw.51.t
+	desc = newsrw.51.d
+	picture = jap_senkaku_islands
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.51.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.51.b
+		trigger = { tag = PRC }
+	}
+
+	option = {
+		name = newsrw.51.c
+		trigger = { NOT = { OR = { tag = JAP tag = PRC } } }
+	}
+
+}
+
 news_event = {	#SAU - Osama Bin Laden coups government
 	id = newsrw.60
 	title = newsrw.60.t

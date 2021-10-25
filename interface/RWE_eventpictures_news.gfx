@@ -71,6 +71,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "jap_senkaku_islands"
+		texturefile = "gfx/event_pictures/news_event/jap_senkaku_islands.tga"
+	}
+
+	spriteType = {
 		name = "jap_jcp"
 		texturefile = "gfx/event_pictures/news_event/jap_jcp.tga"
 	}

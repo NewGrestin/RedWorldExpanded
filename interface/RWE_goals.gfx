@@ -20,12 +20,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/MOT_Denounce_Collectivism.dds"			
 	}
 	SpriteType = {
+		name = "GFX_goal_JAP_Fourth_Arrow"
+		texturefile = "gfx/interface/goals/JAP_Fourth_Arrow.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_JAP_Nationalist_Education"
 		texturefile = "gfx/interface/goals/JAP_Nationalist_Education.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_JAP_Toshinomics"
 		texturefile = "gfx/interface/goals/JAP_Toshinomics.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Torch"
+		texturefile = "gfx/interface/goals/JAP_Torch.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_JAP_Nuclear"
@@ -58,6 +66,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_JAP_Rice_Slash"
 		texturefile = "gfx/interface/goals/JAP_Rice_Slash.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Regional_Cooperation"
+		texturefile = "gfx/interface/goals/JAP_Regional_Cooperation.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Generic_Shield"
+		texturefile = "gfx/interface/goals/JAP_Generic_Shield.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_JAP_Toshio_Gov"
@@ -227,6 +243,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_generic_Soviet_Funds"
 		texturefile = "gfx/interface/goals/generic_Soviet_Funds.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_China_War"
+		texturefile = "gfx/interface/goals/Generic_China_War.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_Korea_War"
+		texturefile = "gfx/interface/goals/Generic_Korea_War.tga"			
 	}
 	SpriteType = {
 		name = "GFX_goal_generic_Communist_Trial"

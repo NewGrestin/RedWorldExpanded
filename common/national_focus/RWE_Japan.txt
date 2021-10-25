@@ -177,7 +177,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Preemptive_Strike
-	icon = GFX_goal_JAP_Toshio_Gov
+	icon = GFX_goal_generic_Korea_War
 	x = 11
 	y = 9
 
@@ -363,7 +363,11 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -382,7 +386,11 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -401,18 +409,22 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
 	completion_reward = {
-
+	add_war_support = 0.05
 	}
 }
 
 shared_focus = {
 	id = JAP_Regional_Cooperation
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Regional_Cooperation
 	x = 4
 	y = 2
 	prerequisite = { focus = JAP_Military_Expansion }
@@ -420,7 +432,11 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -431,20 +447,25 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Counter_Chinese_Chauvinism
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_generic_China_War
 	x = 2
 	y = 3
 	prerequisite = { focus = JAP_Regional_Cooperation focus = JAP_Contest_Pacifist_Sentiment }
-	cost = 5
+	cost = 8
 
 
 	available = {
-
+	PRC = { exists = yes }
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
 	completion_reward = {
-
+	add_war_support = 0.05
 	}
 }
 
@@ -454,11 +475,15 @@ shared_focus = {
 	x = 0
 	y = 3
 	prerequisite = { focus = JAP_Contest_Pacifist_Sentiment }
-	cost = 5
+	cost = 8
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -469,21 +494,53 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Fortify_our_Position
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Generic_Shield
 	x = 2
 	y = 5
 	prerequisite = { focus = JAP_Counter_Chinese_Chauvinism }
 	prerequisite = { focus = JAP_Naval_Expansion }
-	cost = 5
+	cost = 2
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
+	divisions_in_state = {
+   	size > 2
+    	state = 876
+	}
 	}
 
 
 	completion_reward = {
-
+	876 = { 
+	add_building_construction = {
+   		 type = anti_air_building
+   		 level = 1
+   		 instant_build = yes
+		}
+	add_building_construction = {
+   		 type = coastal_bunker
+   		 level = 3
+   		 instant_build = yes
+   		 province = 13215
+		}
+	add_building_construction = {
+   		 type = dockyard
+   		 level = 1
+   		 instant_build = yes
+   		 province = 13215
+		}
+	}
+	country_event = { id = rw_jap.37 days = 0 }
+		PRC = { add_opinion_modifier = {
+   		 target = JAP
+   		 modifier = senkaku_islands_claim
+		} }
+	custom_effect_tooltip = JAP_SENKAKU_CLASH
 	}
 }
 
@@ -497,7 +554,15 @@ shared_focus = {
 
 
 	available = {
-
+	CHI = { exists = yes }
+	NOT = { has_war_with = CHI }
+	CHI = { is_subject = no }
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
+	NOT = { has_country_flag = CHI_TOOK_SENKAKU_ISLANDS }
 	}
 
 
@@ -508,15 +573,19 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Picking_up_the_Torch
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Torch
 	x = 4
 	y = 3
 	prerequisite = { focus = JAP_Regional_Cooperation }
-	cost = 5
+	cost = 8
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -531,11 +600,15 @@ shared_focus = {
 	x = 5
 	y = 4
 	prerequisite = { focus = JAP_Picking_up_the_Torch }
-	cost = 5
+	cost = 8
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -551,11 +624,15 @@ shared_focus = {
 	y = 5
 	prerequisite = { focus = JAP_Kickstart_our_Nuclear_Program }
 	prerequisite = { focus = JAP_Closer_Ties_to_Taiwan }
-	cost = 5
+	cost = 8
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -571,11 +648,15 @@ shared_focus = {
 	y = 6
 	prerequisite = { focus = JAP_Coalition_of_the_Brave }
 	prerequisite = { focus = JAP_Fortify_our_Position }
-	cost = 5
+	cost = 10
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -594,13 +675,17 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
 	completion_reward = {
-
-	}
+	add_timed_idea = { idea = RWE_JAP_Toshinomics days = 110 }
+	}	
 }
 
 shared_focus = {
@@ -613,7 +698,12 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
+	has_idea = RWE_JAP_Toshinomics 
 	}
 
 
@@ -632,7 +722,12 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
+	has_idea = RWE_JAP_Toshinomics 
 	}
 
 
@@ -652,12 +747,20 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
+	has_idea = RWE_JAP_Toshinomics 
 	}
 
 
 	completion_reward = {
 	JAP_debt_level_down = yes
+	remove_ideas = { RWE_JAP_Toshinomics }
+	add_timed_idea = { idea = RWE_JAP_Toshinomics_2 days = 190 }
+	add_popularity = { ideology = nationalist popularity = -0.03 }
 	}
 }
 
@@ -672,18 +775,25 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
+	has_idea = RWE_JAP_Toshinomics 
 	}
 
 
 	completion_reward = {
 	JAP_debt_level_up = yes
+	remove_ideas = { RWE_JAP_Toshinomics }
+	add_timed_idea = { idea = RWE_JAP_Toshinomics_1 days = 110 }
 	}
 }
 
 shared_focus = {
 	id = JAP_A_Fourth_Arrow
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Fourth_Arrow
 	x = 7
 	y = 4
 	prerequisite = { focus = JAP_Slash_Rice_Money focus = JAP_Excessive_Public_Investment_Scheme }
@@ -691,12 +801,27 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
+	OR = { 
+	has_idea = RWE_JAP_Toshinomics_1
+	has_idea = RWE_JAP_Toshinomics_2
+	}
 	}
 
 
 	completion_reward = {
-
+	if = { 
+	limit = { has_idea = RWE_JAP_Toshinomics_1 }
+	swap_ideas = { remove_idea = RWE_JAP_Toshinomics_1 add_idea = RWE_JAP_Toshinomics_3 }
+	}
+	else_if = { 
+	swap_ideas = { remove_idea = RWE_JAP_Toshinomics_2 add_idea = RWE_JAP_Toshinomics_3 }
+	}
+	add_popularity = { ideology = nationalist popularity = 0.05 }
 	}
 }
 
@@ -710,7 +835,11 @@ shared_focus = {
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
@@ -729,144 +858,12 @@ shared_focus = {
 
 
 	available = {
-
+	SOV = { exists = yes }
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
 	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_The_Liberal_Alliance
-	icon = GFX_goal_JAP_Toshinomics
-	x = 10
-	y = 4
-	prerequisite = { focus = JAP_Adress_Soviet_Imperialism }
-	prerequisite = { focus = JAP_Pull_towards_the_Centre }
-	mutually_exclusive = { focus = JAP_Komeito_as_Partner }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Komeito_as_Partner 
-	icon = GFX_goal_JAP_Toshinomics
-	x = 12
-	y = 4
-	prerequisite = { focus = JAP_Pull_towards_the_Centre focus = JAP_Consolidate_the_Right }
-	mutually_exclusive = { focus = JAP_The_Liberal_Alliance focus = JAP_Party_of_Patriots }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Party_of_Patriots 
-	icon = GFX_goal_JAP_Rightful_Rule_Returns
-	x = 14
-	y = 4
-	prerequisite = { focus = JAP_Consolidate_the_Right }
-	mutually_exclusive = { focus = JAP_Komeito_as_Partner }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Promise_Government_Transparency
-	icon = GFX_goal_JAP_Toshinomics
-	x = 11
-	y = 5
-	prerequisite = { focus = JAP_Komeito_as_Partner focus = JAP_The_Liberal_Alliance }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Wave_the_Kyokujitsu_Ki
-	icon = GFX_goal_JAP_Toshinomics
-	x = 14
-	y = 5
-	prerequisite = { focus = JAP_Party_of_Patriots }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Blind_Eye_to_the_Soka_Gakkai
-	icon = GFX_goal_JAP_Toshinomics
-	x = 12
-	y = 6
-	prerequisite = { focus = JAP_Komeito_as_Partner }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Embrace_the_Neoliberal_Approach
-	icon = GFX_goal_JAP_Toshinomics
-	x = 10
-	y = 6
-	prerequisite = { focus = JAP_The_Liberal_Alliance }
-	cost = 5
-
-
-	available = {
-
 	}
 
 
@@ -881,58 +878,24 @@ shared_focus = {
 	x = 13
 	y = 2
 	prerequisite = { focus = JAP_Revision_of_History }
-	cost = 5
+	cost = 2
 
 
 	available = {
-
+	has_government = nationalist
+	has_country_leader = { 
+	name = "Toshio Tamogami"
+	ruling_only = yes
+	}
 	}
 
 
 	completion_reward = {
-
+	country_event = { id = rw_jap.36 days = 0 }
+	add_popularity = { ideology = fascist popularity = 0.02 }
 	}
 }
 
-shared_focus = {
-	id = JAP_Pull_towards_the_Centre
-	icon = GFX_goal_JAP_Toshinomics
-	x = 12
-	y = 3
-	prerequisite = { focus = JAP_Our_Friends_in_Nippon_Kaigi }
-	mutually_exclusive = { focus = JAP_Consolidate_the_Right }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Consolidate_the_Right 
-	icon = GFX_goal_JAP_Toshinomics
-	x = 14
-	y = 3
-	prerequisite = { focus = JAP_Our_Friends_in_Nippon_Kaigi }
-	mutually_exclusive = { focus = JAP_Pull_towards_the_Centre }
-	cost = 5
-
-
-	available = {
-
-	}
-
-
-	completion_reward = {
-
-	}
-}
 
 shared_focus = {
 	id = JAP_NLC_Together
@@ -944,7 +907,10 @@ shared_focus = {
 
 
 	available = {
-
+	OR = {
+	has_government = liberal
+	has_government = centrist
+	}
 	}
 
 
@@ -968,7 +934,15 @@ shared_focus = {
 
 	completion_reward = {
 	swap_ideas = { remove_idea = RWE_JAP_Echoes_of_the_Lost_Decade add_idea = RWE_JAP_Echoes_of_the_Lost_Decade_NLC_1 }
+
+	if = { 
+		limit = { has_government = liberal }
 	add_popularity = { ideology = liberal popularity = 0.05 }
+	}
+	else_if = { 
+	add_popularity = { ideology = centrist popularity = 0.05 }
+	}
+
 	}
 }
 
@@ -986,7 +960,13 @@ shared_focus = {
 
 
 	completion_reward = {
+	if = { 
+		limit = { has_government = liberal }
+	add_popularity = { ideology = liberal popularity = 0.05 }
+	}
+	else_if = { 
 	add_popularity = { ideology = centrist popularity = 0.05 }
+	}
 	country_event = { id = rw_jap.33 days = 0 }
 	}
 }
@@ -1041,7 +1021,13 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	if = { 
+		limit = { has_government = liberal }
+	add_popularity = { ideology = liberal popularity = 0.02 }
+	}
+	else_if = { 
+	add_popularity = { ideology = centrist popularity = 0.02 }
+	}
 	}
 }
 
@@ -1061,7 +1047,13 @@ shared_focus = {
 	completion_reward = {
 	remove_ideas = { RWE_JAP_Echoes_of_the_Lost_Decade_NLC_1 }
 	add_timed_idea = { idea = RWE_JAP_Echoes_of_the_Lost_Decade_NLC_2 days = 750 }
-	add_popularity = { ideology = liberal popularity = -0.03 }
+	if = { 
+		limit = { has_government = liberal }
+	add_popularity = { ideology = liberal popularity = -0.05 }
+	}
+	else_if = { 
+	add_popularity = { ideology = centrist popularity = -0.05 }
+	}
 	}
 }
 

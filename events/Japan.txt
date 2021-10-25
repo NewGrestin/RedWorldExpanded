@@ -111,34 +111,6 @@ country_event = {
 	}
 }
 
-#Clashing around Senkaku Islands
-country_event = {
-	id = rw_jap.5
-	title = rw_jap.5.t
-	desc = rw_jap.5.d
-	picture = JAP_Islands
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = JAP
-		date > 2010.7.20
-	}
-	
-	option = {
-		name = rw_jap.5.a
-		add_popularity = { ideology = nationalist popularity = 0.03 }
-		add_war_support = 0.05
-		add_stability = -0.05
-	}
-
-	option = {
-		name = rw_jap.5.b
-		add_popularity = { ideology = nationalist popularity = -0.03 }
-		add_stability = 0.05	
-	}
-}
-
 #65th Anniversary of Nagasaki
 country_event = {
 	id = rw_jap.6
@@ -722,7 +694,6 @@ country_event = {
 	tag = JAP
 	OR = { 
 	has_government = moderate_socialist
-	has_government = liberal
 	has_government = communist
 	}
 	is_subject = no
@@ -942,7 +913,124 @@ country_event = {
 	option = { #reconciliate 
 		name = rw_jap.34.a
 		add_stability = 0.1
-		add_popularity = { ideology = liberal popularity = 0.1 }		
+	if = { 
+		limit = { has_government = liberal }
+	add_popularity = { ideology = liberal popularity = -0.1 }
+	}
+	else_if = { 
+	add_popularity = { ideology = centrist popularity = -0.1 }
+	}		
 	}
 
+}
+
+#Toshinomics fail
+country_event = {
+	id = rw_jap.35
+	title = rw_jap.35.t
+	desc = rw_jap.35.d
+	picture = generic_trade
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_completed_focus = Toshinomics
+	NOT = { has_idea = RWE_JAP_Toshinomics }
+	NOT = { has_idea = RWE_JAP_Toshinomics_1 }
+	NOT = { has_idea = RWE_JAP_Toshinomics_2 }
+	NOT = { has_idea = RWE_JAP_Toshinomics_3 }
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.35.a
+		add_popularity = { ideology = nationalist popularity = -0.1 }
+		add_stability = -0.1		
+	}
+
+}
+
+#Nippon Kaigi seeks to expand lobbying activities
+country_event = {
+	id = rw_jap.36
+	title = rw_jap.36.t
+	desc = rw_jap.36.d
+	picture = JAP_Party
+	
+	is_triggered_only = yes
+
+	option = { #reconciliate 
+		name = rw_jap.36.a
+		add_stability = -0.05
+		add_political_power = 75	
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.36.b
+		add_political_power = -25	
+	}
+
+}
+
+#Fortification of Senkaku Islands
+country_event = {
+	id = rw_jap.37
+	title = rw_jap.37.t
+	desc = rw_jap.37.d
+	picture = JAP_Islands
+	
+	is_triggered_only = yes
+
+	option = { #reconciliate 
+		name = rw_jap.37.a
+
+	}
+}
+
+#Clashing around Senkaku Islands - the short war
+country_event = {
+	id = rw_jap.38
+	title = rw_jap.38.t
+	desc = rw_jap.38.d
+	picture = JAP_Islands
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		has_completed_focus = JAP_Fortify_our_Position
+		controls_state = 876
+	}
+	
+	mean_time_to_happen = { 
+		days = 45
+	}
+
+	option = {
+		name = rw_jap.38.a
+
+	start_border_war = {
+	change_state_after_war = yes
+	attacker = {
+        state = 595
+        num_provinces = 1
+        on_win = japan_border_conflict.2
+        on_lose = japan_border_conflict.3
+        on_cancel = japan_border_conflict.4
+	}
+				
+	defender = {
+        state = 876
+        num_provinces = 1
+        on_win = japan_border_conflict.3
+        on_lose = japan_border_conflict.2
+        on_cancel = japan_border_conflict.4
+	}
+	}
+	news_event = { id = newsrw.51 days = 1 }
+	}
 }
