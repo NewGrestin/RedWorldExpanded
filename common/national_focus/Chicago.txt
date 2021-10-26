@@ -1080,6 +1080,10 @@ focus_tree = {
 		
 		relative_position_id = CGH_an_exile_in_the_windy_city
 		completion_reward = {
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.2
+			}
 		}
 	}
 	shared_focus = {
@@ -1094,6 +1098,10 @@ focus_tree = {
 		
 		relative_position_id = CGH_an_exile_in_the_windy_city
 		completion_reward = {
+			add_popularity = {
+				ideology = liberal
+				popularity = -0.2
+			}
 		}
 	}
 	shared_focus = {
@@ -1108,6 +1116,12 @@ focus_tree = {
 		
 		relative_position_id = CGH_reconstruction
 		completion_reward = {
+			395 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			}
 		}
 	}
 	shared_focus = {
@@ -1122,6 +1136,7 @@ focus_tree = {
 		
 		relative_position_id = CGH_openness
 		completion_reward = {
+			add_stability = 0.1
 		}
 	}
 	shared_focus = {
@@ -1136,6 +1151,7 @@ focus_tree = {
 		
 		relative_position_id = CGH_reconstruction
 		completion_reward = {
+			add_ideas = RWE_CGH_trade_unions_liberated
 		}
 	}
 	shared_focus = {
@@ -1150,6 +1166,7 @@ focus_tree = {
 		
 		relative_position_id = CGH_unite_the_ethnicities
 		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	shared_focus = {
@@ -1164,6 +1181,14 @@ focus_tree = {
 		
 		relative_position_id = CGH_openness
 		completion_reward = {
+			add_popularity = {
+				ideology = moderate_socialist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.05
+			}
 		}
 	}
 
@@ -1179,6 +1204,7 @@ focus_tree = {
 		
 		relative_position_id = CGH_renationalise_industry
 		completion_reward = {
+			add_ideas = RWE_CGH_service_industry_discouraged
 		}
 	}
 
@@ -1197,6 +1223,8 @@ focus_tree = {
 		
 		relative_position_id = CGH_socialist_education
 		completion_reward = {
+			add_war_support = 0.1
+			set_country_flag = CGH_glasnost
 		}
 	}
 
@@ -1215,17 +1243,28 @@ focus_tree = {
 		
 		relative_position_id = CGH_reducing_the_service_industry
 		completion_reward = {
+			395 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			set_country_flag = CGH_perestroika
 		}
 	}
 	shared_focus = {
 		id = CGH_the_front_against_the_stalinists
 		icon = shaking_hands_1
 		cost = 1
-
+		available = {
+			has_country_flag = CGH_perestroika
+			has_country_flag = CGH_glasnost
+		}
 		x = 7
 		y = 3
 		
 		completion_reward = {
+			create_faction = CGH_faction_gorby
 		}
 	}
 	shared_focus = {
@@ -1239,6 +1278,57 @@ focus_tree = {
 		y = 2
 		relative_position_id = CGH_the_front_against_the_stalinists
 		completion_reward = {
+			IF = {
+				limit = {
+					IND = {
+						NOT = {
+							has_government = fascist
+						}
+					}
+				}
+				IND = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+			}
+			MCH = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			OHI = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			NEA = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			NYC = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			MAS = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			WVM = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
 		}
 	}
 	shared_focus = {
@@ -1252,6 +1342,75 @@ focus_tree = {
 		y = 1
 		relative_position_id = CGH_courting_the_commonwealths_splinters
 		completion_reward = {
+			IF = {
+				limit = {
+					USA = {
+						owns_state = 1021
+					}
+				}
+				USA = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+			}
+			ELSE = {
+				FLO = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				ATL = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				TSC = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				LOU = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				CAR = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				TEN = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				VIR = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				OKL = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+				CLM = {
+					country_event = {
+						id = chicago.29
+						days = 1
+					}
+				}
+			}
 		}
 	}
 	shared_focus = {
@@ -1265,6 +1424,54 @@ focus_tree = {
 		y = 1
 		relative_position_id = CGH_courting_the_commonwealths_splinters
 		completion_reward = {
+			MWA = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			TEX = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			GRL = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			UTA = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			ARI = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			MOT = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			LIN = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
+			ILL = {
+				country_event = {
+					id = chicago.29
+					days = 1
+				}
+			}
 		}
 	}
 	shared_focus = {
@@ -1281,5 +1488,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = CGH_dealing_with_the_remnants
 		completion_reward = {
+			declare_war_on = {
+				target = PCA
+				type = puppet_wargoal_focus
+			}	
 		}
 	}

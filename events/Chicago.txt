@@ -543,3 +543,66 @@ country_event = {
 		set_cosmetic_tag = CGH_gorby
 	}
 }
+
+country_event = {
+	id = chicago.29 #Join the Anti-Soviet Pact
+	title = chicago.29.t
+	desc = chicago.29.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.29.o1
+		ai_chance = {
+			base = 7
+		}
+		CGH = {
+			country_event = {
+				id = chicago.30
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = chicago.29.o2
+		ai_chance = {
+			base = 3
+		}
+		country_event = {
+			id = chicago.31
+			days = 2
+		}
+	}
+}
+
+country_event = {
+	id = chicago.30 #country has chosen to join the anti-soviet pact
+	title = chicago.30.t
+	desc = chicago.30.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.30.o1
+		add_to_faction = ROOT
+	}
+}
+
+country_event = {
+	id = chicago.31 #country has chosen to join the anti-soviet pact
+	title = chicago.31.t
+	desc = chicago.31.d
+	picture = twin_towers_revsoc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chicago.31.o1
+		add_political_power = -50
+	}
+}

@@ -143,6 +143,32 @@ ideas = {
 				breakthrough_factor = 0.1
 			}
 		}
+		RWE_CGH_trade_unions_liberated = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		RWE_CGH_service_industry_discouraged = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
 	}
 }
 	
