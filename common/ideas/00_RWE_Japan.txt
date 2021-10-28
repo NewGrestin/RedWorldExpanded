@@ -6,6 +6,141 @@ ideas = {
 
 	country = {
 
+		RWE_JAP_Toshinomics = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Historical_Revisionism
+			
+			removal_cost = -1
+	
+			modifier = {
+			production_speed_buildings_factor = 0.05
+			line_change_production_efficiency_factor = 0.05	
+			}
+
+		}
+
+		RWE_JAP_Toshinomics_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Historical_Revisionism
+			
+			removal_cost = -1
+	
+			modifier = {
+			production_speed_buildings_factor = 0.15
+			line_change_production_efficiency_factor = 0.15
+			industrial_capacity_factory = 0.05
+			}
+
+		}
+
+		RWE_JAP_Toshinomics_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Historical_Revisionism
+			
+			removal_cost = -1
+	
+			modifier = {
+			production_speed_buildings_factor = 0.07
+			line_change_production_efficiency_factor = 0.07
+			stability_factor = -0.05
+			}
+
+		}
+
+		RWE_JAP_Toshinomics_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Historical_Revisionism
+			
+			removal_cost = -1
+	
+			modifier = {
+			production_speed_buildings_factor = 0.15
+			line_change_production_efficiency_factor = 0.15
+			industrial_capacity_factory = 0.1
+			production_speed_arms_factory_factor = 0.05
+			}
+
+		}
+
+		RWE_JAP_History_Revised = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Historical_Revisionism
+			
+			removal_cost = -1
+	
+			modifier = {
+				nationalist_drift = 0.02
+				war_support_factor = 0.05
+				stability_factor = -0.05
+				research_speed_factor = -0.04
+			}
+
+		}
+
+		RWE_JAP_JMF = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Ghosts
+			
+			removal_cost = -1
+	
+			modifier = {
+				special_forces_min = 3
+				special_forces_out_of_supply_factor = -0.25
+				special_forces_training_time_factor = -0.1
+				amphibious_invasion = 0.4
+				naval_invasion_capacity = 5
+			}
+
+		}
+
 		RWE_JAP_Sick_Democracy = {
 			
 			allowed = {
@@ -50,7 +185,52 @@ ideas = {
 
 		}
 
-		RWE_JAP_Tangled_in_Red_Tape = {
+		RWE_JAP_Echoes_of_the_Lost_Decade_NLC_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Lost_Decades
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.2
+			}
+
+		}
+
+		RWE_JAP_Echoes_of_the_Lost_Decade_NLC_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Lost_Decades
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.1
+			}
+
+		}
+
+		RWE_JAP_Tangled_in_Red_Tape_1 = {
 			
 			allowed = {
 				always = no
@@ -65,12 +245,134 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				political_power_factor = -0.25
+				political_power_factor = -0.05
 			}
 
 		}
 
-		RWE_JAP_Land_of_the_Rising_Debt = {
+		RWE_JAP_Tangled_in_Red_Tape_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Bureaucracy
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_factor = -0.1
+			}
+
+		}
+
+		RWE_JAP_Tangled_in_Red_Tape_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Bureaucracy
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_factor = -0.2
+			}
+
+		}
+
+		RWE_JAP_Tangled_in_Red_Tape_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Bureaucracy
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_factor = -0.3
+			}
+
+		}
+
+		RWE_JAP_Tangled_in_Red_Tape_5 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Bureaucracy
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_factor = -0.4
+			}
+
+		}
+
+		RWE_JAP_Tangled_in_Red_Tape_6 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Bureaucracy
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_factor = -0.5
+			}
+
+		}
+
+
+		RWE_JAP_Land_of_the_Rising_Debt_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.02
+				consumer_goods_factor = 0.02
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt_2 = {
 			
 			allowed = {
 				always = no
@@ -87,6 +389,132 @@ ideas = {
 			modifier = {
 				political_power_cost = 0.05
 				consumer_goods_factor = 0.05
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.07
+				consumer_goods_factor = 0.07
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.1
+				consumer_goods_factor = 0.1
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt_5 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.12
+				consumer_goods_factor = 0.12
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt_6 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.15
+				consumer_goods_factor = 0.15
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt_7 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.17
+				consumer_goods_factor = 0.17
+			}
+
+		}
+
+		RWE_JAP_Land_of_the_Rising_Debt_8 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Debt
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_cost = 0.2
+				consumer_goods_factor = 0.2
 			}
 
 		}

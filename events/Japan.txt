@@ -89,47 +89,25 @@ country_event = {
 	
 	trigger = {
 		tag = JAP
-		date > 2010.6.1
+		has_completed_focus = JAP_Revision_of_History
 	}
-	
+
+
+	mean_time_to_happen = { 
+		days = 55
+	}
+
 	option = {
 		name = rw_jap.4.a
 		add_popularity = { ideology = nationalist popularity = -0.01 }
 		add_stability = 0.03	
+		remove_ideas = { RWE_JAP_History_Revised }
 	}
 
 	option = {
 		name = rw_jap.4.b
 		add_popularity = { ideology = nationalist popularity = 0.02 }
 		add_stability = -0.05		
-	}
-}
-
-#Clashing around Senkaku Islands
-country_event = {
-	id = rw_jap.5
-	title = rw_jap.5.t
-	desc = rw_jap.5.d
-	picture = JAP_Islands
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = JAP
-		date > 2010.7.20
-	}
-	
-	option = {
-		name = rw_jap.5.a
-		add_popularity = { ideology = nationalist popularity = 0.03 }
-		add_war_support = 0.05
-		add_stability = -0.05
-	}
-
-	option = {
-		name = rw_jap.5.b
-		add_popularity = { ideology = nationalist popularity = -0.03 }
-		add_stability = 0.05	
 	}
 }
 
@@ -700,5 +678,359 @@ country_event = {
 				value = 200
 			}}
 		}
+	}
+}
+
+#LDP lost, shift to the far-right
+country_event = {
+	id = rw_jap.27
+	title = rw_jap.27.t
+	desc = rw_jap.27.d
+	picture = JAP_Far_Right
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	OR = { 
+	has_government = moderate_socialist
+	has_government = communist
+	}
+	is_subject = no
+	}
+
+	mean_time_to_happen = { 
+		days = 65
+	}
+
+	option = { #count me in 
+		name = rw_jap.27.a
+		add_popularity = { ideology = nationalist popularity = -0.1 }
+		add_popularity = { ideology = fascist popularity = 0.1 }
+		add_stability = -0.05
+		set_country_flag = JAP_LDP_FAR_RIGHT_SHIFT
+	}
+}
+
+#Communist Red Army backs down
+country_event = {
+	id = rw_jap.28
+	title = rw_jap.28.t
+	desc = rw_jap.28.d
+	picture = JAP_Red_Army
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_government = communist
+	is_subject = no
+	}
+
+	mean_time_to_happen = { 
+		days = 30
+	}
+
+	option = { #count me in 
+		name = rw_jap.28.a
+		add_stability = 0.03
+	}
+}
+
+#Kremlin congratulates us with our victory - JCP
+country_event = {
+	id = rw_jap.29
+	title = rw_jap.29.t
+	desc = rw_jap.29.d
+	picture = JAP_Red_Army
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_government = communist
+	is_subject = no
+	}
+
+	mean_time_to_happen = { 
+		days = 5
+	}
+
+	option = { #thanks
+		name = rw_jap.29.a
+		add_political_power = 75
+	}
+
+	option = { #actually, we aren't fond of you
+		name = rw_jap.29.b
+		add_war_support = 0.05
+		add_popularity = { ideology = communist popularity = 0.01 }
+	}
+}
+
+#Reapproachment with Korea
+country_event = {
+	id = rw_jap.30
+	title = rw_jap.30.t
+	desc = rw_jap.30.d
+	picture = JAP_Korea
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_government = communist
+	is_subject = no
+	NOT = { has_war_with = KOR }
+	}
+
+	mean_time_to_happen = { 
+		days = 90
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.30.a
+		add_political_power = -25
+		add_popularity = { ideology = communist popularity = -0.01 }
+		PRK = { add_opinion_modifier = {
+   		 target = JAP
+   		 modifier = recent_actions_positive
+		} }
+	}
+
+	option = { #nah, korea isn't really communist
+		name = rw_jap.30.b
+		add_popularity = { ideology = communist popularity = 0.02 }
+		PRK = { add_opinion_modifier = {
+   		 target = JAP
+   		 modifier = recent_actions_negative
+		} }	
+	}
+}
+
+#Clean Credit Rating
+country_event = {
+	id = rw_jap.31
+	title = rw_jap.31.t
+	desc = rw_jap.31.d
+	picture = generic_government_bond
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_government = liberal
+	has_war = no 
+	has_completed_focus = JAP_Lower_the_Spending_Deficit
+	has_completed_focus = JAP_Preserve_the_Housewife_Culture
+	}
+
+	mean_time_to_happen = { 
+		days = 160
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.31.a
+		add_political_power = 50
+		add_stability = 0.05
+		JAP_debt_level_down = yes
+	}
+
+}
+
+#Introduce Tariffs against Korean and Chinese products
+country_event = {
+	id = rw_jap.32
+	title = rw_jap.32.t
+	desc = rw_jap.32.d
+	picture = generic_trade
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_government = nationalist
+	has_war = no 
+	has_completed_focus = JAP_Picking_up_the_Torch
+	}
+
+	mean_time_to_happen = { 
+		days = 20
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.32.a
+		add_political_power = 25
+		add_war_support = 0.05
+		add_opinion_modifier = {
+   		target = PRK
+   		modifier = tariffs
+		}	
+		add_opinion_modifier = {
+   		target = PRC
+   		modifier = tariffs
+		}		
+	}
+
+}
+
+#The NLC-Komeito alliance
+country_event = {
+	id = rw_jap.33
+	title = rw_jap.33.t
+	desc = rw_jap.33.d
+	picture = generic_trade
+	
+	is_triggered_only = yes
+
+	option = { #reconciliate 
+		name = rw_jap.33.a
+		add_political_power = -50	
+		add_stability = 0.05	
+	}
+
+}
+
+#Japan has healt - NLC
+country_event = {
+	id = rw_jap.34
+	title = rw_jap.34.t
+	desc = rw_jap.34.d
+	picture = generic_trade
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_completed_focus = JAP_Rules_for_a_Free_Market
+	NOT = { has_idea = RWE_JAP_Echoes_of_the_Lost_Decade_NLC_2 }
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.34.a
+		add_stability = 0.1
+	if = { 
+		limit = { has_government = liberal }
+	add_popularity = { ideology = liberal popularity = -0.1 }
+	}
+	else_if = { 
+	add_popularity = { ideology = centrist popularity = -0.1 }
+	}		
+	}
+
+}
+
+#Toshinomics fail
+country_event = {
+	id = rw_jap.35
+	title = rw_jap.35.t
+	desc = rw_jap.35.d
+	picture = generic_trade
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	has_completed_focus = Toshinomics
+	NOT = { has_idea = RWE_JAP_Toshinomics }
+	NOT = { has_idea = RWE_JAP_Toshinomics_1 }
+	NOT = { has_idea = RWE_JAP_Toshinomics_2 }
+	NOT = { has_idea = RWE_JAP_Toshinomics_3 }
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.35.a
+		add_popularity = { ideology = nationalist popularity = -0.1 }
+		add_stability = -0.1		
+	}
+
+}
+
+#Nippon Kaigi seeks to expand lobbying activities
+country_event = {
+	id = rw_jap.36
+	title = rw_jap.36.t
+	desc = rw_jap.36.d
+	picture = JAP_Party
+	
+	is_triggered_only = yes
+
+	option = { #reconciliate 
+		name = rw_jap.36.a
+		add_stability = -0.05
+		add_political_power = 75	
+	}
+
+	option = { #reconciliate 
+		name = rw_jap.36.b
+		add_political_power = -25	
+	}
+
+}
+
+#Fortification of Senkaku Islands
+country_event = {
+	id = rw_jap.37
+	title = rw_jap.37.t
+	desc = rw_jap.37.d
+	picture = JAP_Islands
+	
+	is_triggered_only = yes
+
+	option = { #reconciliate 
+		name = rw_jap.37.a
+
+	}
+}
+
+#Clashing around Senkaku Islands - the short war
+country_event = {
+	id = rw_jap.38
+	title = rw_jap.38.t
+	desc = rw_jap.38.d
+	picture = JAP_Islands
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		has_completed_focus = JAP_Fortify_our_Position
+		controls_state = 876
+	}
+	
+	mean_time_to_happen = { 
+		days = 45
+	}
+
+	option = {
+		name = rw_jap.38.a
+
+	start_border_war = {
+	change_state_after_war = yes
+	attacker = {
+        state = 595
+        num_provinces = 1
+        on_win = japan_border_conflict.2
+        on_lose = japan_border_conflict.3
+        on_cancel = japan_border_conflict.4
+	}
+				
+	defender = {
+        state = 876
+        num_provinces = 1
+        on_win = japan_border_conflict.3
+        on_lose = japan_border_conflict.2
+        on_cancel = japan_border_conflict.4
+	}
+	}
+	news_event = { id = newsrw.51 days = 1 }
 	}
 }

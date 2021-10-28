@@ -45,7 +45,47 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_decision_category_RWE_Days_of_Rage"
-		texturefile = "gfx/interface/decisions/decision_category_RWE_Days_of_Rage.dds"
+		name = "GFX_decision_category_RWE_Formable_Nations_Picture"
+		texturefile = "gfx/interface/decisions/decision_category_RWE_Formable_Nations_Picture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_RWE_Formable_Nations"
+		texturefile = "gfx/interface/decisions/decision_category_RWE_Formable_Nations.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_benelux"
+		texturefile = "gfx/interface/decisions/decision_form_benelux.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_united_kingdom"
+		texturefile = "gfx/interface/decisions/decision_form_united_kingdom.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_napoleon"
+		texturefile = "gfx/interface/decisions/decision_form_napoleon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_europe"
+		texturefile = "gfx/interface/decisions/decision_form_europe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_debt"
+		texturefile = "gfx/interface/decisions/decision_form_debt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_rome"
+		texturefile = "gfx/interface/decisions/decision_form_rome.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_rome"
+		texturefile = "gfx/interface/decisions/decision_form_latin.dds"
 	}
 }

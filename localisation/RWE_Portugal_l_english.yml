@@ -1,0 +1,42 @@
+﻿l_english:
+
+##########################
+# LEADER DESCRIPTIONS
+##########################
+
+POR_OTELO_SARAIVA_DE_CARVALHO_DESC:0 "Otelo Saraiva de Carvalho was born in Portuguese Mozambique in 1936 and entered the Portuguese military in 1955. He fought in the brutal colonial wars in Angola and Mozambique, becoming disillusioned as many officers did with their low pay and their forced long services. Becoming interested in socialist literature in the early 1970s, Saraiva de Carvalho became part of the Armed Forces Movement, and was the central strategist behind the April 25th Carnation Revolution. After the revolution, Saraiva de Carvalho was at the forefront, being appointed by General Spínola to COPCON, the central command with authority over the mainland.\n\nIn the chaos of the revolution, Saraiva de Carvalho seized his chance in mid 1975, orchestrating a military coup against both the President and the Prime Minister. Appointing himself President, Saraiva de Carvalho began a long process of transforming the Portuguese state, attempting to create a direct democratic socialist system. Inviting several members of the Communist Party into his new party, the "Moviemiento 25 de Abril", he began to transform Portuguese society. The "European Castro" has remained in power for 35 years, despite a the complete falloff of Soviet support. However, with a popular and oppositional Communist Party and an increasingly brazen right-wing, it is unknown how long Saraiva de Carvalho can maintain his grip over the Socialist Republic."
+
+##########################
+# FOCUSES
+##########################
+
+
+
+##########################
+# IDEAS
+##########################
+
+POR_legacy_of_april:0 "Legacy Of April"
+POR_legacy_of_april_desc:0 "On April 25th 1974, a military coup overthrew the Estado Novo, the authoritarian regime that had been in control of the nation since 1933. The military coup was led by disgruntled army officers known as the Movimento das Forças Armadas, amny of whom who adopted leftist worldviews. The succeeding chaos from the Carnation Revolution led to the successful seizure of power by Otelo Saraivo de Carvalho. This series of events has been locked in Portuguese history as a place of pride, but many say the chaos of "25 de Abril" has never truly ended, as political opposition still rocks the decades-old socialist regime."
+POR_military_dominance:0 "Military Dominance"
+POR_military_dominance_desc:0 "Despite Saraivo de Carvalho's best efforts, the military of the Socialist Republic of Portugal is seen as the frontline of the revolutionary vanguard. Resources are pushed into the military, the socialist republic is run close to entirely by former military officers, and new troops are universally taught socialist thought. Order is usually kept by army intervention into the dysfunctional "Worker's Councils". Some argue that this is simply the old military dominated regime, but with a red sheen."
+POR_right_wing_terrorism:0 "Right-Wing Terrorism"
+POR_right_wing_terrorism_desc:0 "Ever since the establishment of the Socialist Republic in 1975, Portugal's bitter right-wing has taken up arms against the new system. From robberies and kidnappings to drive-by shootings and bombings, the various groups of nationalist, monarchist and generally reactionary terrorists have caused near complete military lockdown, especially in rural areas. This has also caused a significant lack of local agricultural production, causing an increased reliance on imports."
+
+##########################
+# EVENTS
+##########################
+
+
+##########################
+# TOOLTIPS
+##########################
+
+##########################
+# COSMETIC TAGS
+##########################
+
+##########################
+# LEADER TRAITS
+##########################
+the_european_castro:0 "The European Castro"

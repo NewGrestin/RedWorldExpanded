@@ -181,6 +181,22 @@ bookmarks = {
 				AST_2010_Election_Abbott
 			}			
 		}
+
+		"JAP"={
+			minor = yes
+			history = "JAP_RED_WORLD_DESC"
+			ideology = nationalist
+			ideas={
+			RWE_JAP_Sick_Democracy
+			RWE_JAP_Echoes_of_the_Lost_Decade 
+			RWE_JAP_Tangled_in_Red_Tape_3
+			}	
+        		focuses = {
+			JAP_Picking_up_the_Torch
+			JAP_Liberalism_for_the_21st_Century
+			JAP_Prepare_for_the_Transition
+			}			
+		}
 	
 
 

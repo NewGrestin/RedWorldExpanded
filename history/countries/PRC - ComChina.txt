@@ -11,7 +11,13 @@ oob = "PRC_2000"
 #}
 
 add_ideas = {
-	idea_prc_legacy_of_maoism
+	PRC_Maoist_Aftermath
+	PRC_PLA
+	PRC_Mediocre_Agricultural_Reform
+}
+
+PRC = {
+	give_guarantee = PRK
 }
 
 create_faction = Shanghai_Treaty

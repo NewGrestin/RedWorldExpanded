@@ -11,6 +11,16 @@ leader_traits = {
 		}
 	}
 
+	the_european_castro = {
+		random = no
+		army_morale_factor = 0.2
+		war_support_factor = 0.1
+		political_power_cost = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	supreme_admiral_of_these_great_lakes = {
 		random = no
 		political_power_cost = 0.05

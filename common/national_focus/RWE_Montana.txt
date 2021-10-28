@@ -2621,8 +2621,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MOT_Denounce_Technology
-		icon = GFX_goal_Generic_Work_In_Progress
+		id = MOT_Break_Down_Authority
+		icon = GFX_goal_MOT_Break_Down_Authority
 
 		available = { 
 			has_country_leader = {
@@ -2643,13 +2643,18 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
+			remove_ideas = RWE_MOT_Imperative_Heirs
 
+			add_popularity = {
+				ideology = fascist
+				popularity = -0.5
+			}
 		}
 	}
 
 	focus = {
-		id = MOT_Monke_Vanguard
-		icon = GFX_goal_Generic_Work_In_Progress
+		id = MOT_Free_Communities
+		icon = GFX_goal_MOT_Free_Communities
 
 		available = { 
 			has_country_leader = {
@@ -2675,8 +2680,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MOT_Pastoralism
-		icon = GFX_goal_Generic_Work_In_Progress
+		id = MOT_Emphasize_Unity
+		icon = GFX_goal_MOT_Emphasize_Unity
 
 		available = { 
 			has_country_leader = {
@@ -2702,8 +2707,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MOT_Modern_Tribalism
-		icon = GFX_goal_Generic_Work_In_Progress
+		id = MOT_Denounce_Collectivism
+		icon = GFX_goal_MOT_Denounce_Collectivism
 
 		available = { 
 			has_country_leader = {
@@ -2729,8 +2734,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MOT_Purge_Technocrats
-		icon = GFX_goal_Generic_Work_In_Progress
+		id = MOT_Commune_Constitution
+		icon = GFX_goal_MOT_Break_Down_Authority
 
 		available = { 
 			has_country_leader = {
@@ -2742,236 +2747,28 @@ focus_tree = {
 		}
 
 		prerequisite = {
-			focus = MOT_Denounce_Technology
-		}
-
-		prerequisite = {
-			focus = MOT_Monke_Vanguard
-		}
-
-		prerequisite = {
-			focus = MOT_Pastoralism
-		}
-
-		prerequisite = {
-			focus = MOT_Modern_Tribalism
-		}
-
-		x = 31
-		y = 2
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Pol_Pot
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Denounce_Technology
-		}
-
-		prerequisite = {
-			focus = MOT_Monke_Vanguard
-		}
-
-		prerequisite = {
-			focus = MOT_Pastoralism
-		}
-
-		prerequisite = {
-			focus = MOT_Modern_Tribalism
-		}
-
-		x = 33
-		y = 2
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Managed_Progress
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Denounce_Technology
-		}
-
-		prerequisite = {
-			focus = MOT_Monke_Vanguard
-		}
-
-		prerequisite = {
-			focus = MOT_Pastoralism
-		}
-
-		prerequisite = {
-			focus = MOT_Modern_Tribalism
-		}
-
-		x = 35
-		y = 2
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-
-	focus = {
-		id = MOT_Left_Ted
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Pol_Pot
+			focus = MOT_Break_Down_Authority
+			focus = MOT_Free_Communities
+			focus = MOT_Emphasize_Unity
+			focus = MOT_Denounce_Collectivism
 		}
 
 		mutually_exclusive = {
-			focus = MOT_Right_Ted
-			focus = MOT_Center_Ted
-		}
-
-		x = 31
-		y = 3
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Right_Ted
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Pol_Pot
-		}
-
-		mutually_exclusive = {
-			focus = MOT_Center_Ted
-			focus = MOT_Left_Ted
-		}
-
-		x = 35
-		y = 3
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Center_Ted
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Pol_Pot
-		}
-
-		mutually_exclusive = {
-			focus = MOT_Right_Ted
-			focus = MOT_Left_Ted
-		}
-
-		x = 33
-		y = 3
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Communalism
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Left_Ted
+			focus = MOT_Libertarian_Constitution
 		}
 
 		x = 30
-		y = 4
+		y = 2
 
 		cost = 5
 
 		completion_reward = {
-
 		}
 	}
 
 	focus = {
-		id = MOT_Practical_Education
-		icon = GFX_goal_Generic_Work_In_Progress
+		id = MOT_Libertarian_Constitution
+		icon = GFX_goal_MOT_Break_Down_Authority
 
 		available = { 
 			has_country_leader = {
@@ -2983,7 +2780,178 @@ focus_tree = {
 		}
 
 		prerequisite = {
-			focus = MOT_Center_Ted
+			focus = MOT_Break_Down_Authority
+			focus = MOT_Free_Communities
+			focus = MOT_Emphasize_Unity
+			focus = MOT_Denounce_Collectivism
+		}
+
+		mutually_exclusive = {
+			focus = MOT_Commune_Constitution
+		}
+
+		x = 32
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MOT_Community_Forces
+		icon = GFX_goal_MOT_Break_Down_Authority
+
+		available = { 
+			has_country_leader = {
+				name = "Ted Kaczynski"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Break_Down_Authority
+			focus = MOT_Free_Communities
+			focus = MOT_Emphasize_Unity
+			focus = MOT_Denounce_Collectivism
+		}
+
+		mutually_exclusive = {
+			focus = MOT_Commune_Militias
+		}
+
+		x = 34
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MOT_Commune_Militias
+		icon = GFX_goal_MOT_Break_Down_Authority
+
+		available = { 
+			has_country_leader = {
+				name = "Ted Kaczynski"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Break_Down_Authority
+			focus = MOT_Free_Communities
+			focus = MOT_Emphasize_Unity
+			focus = MOT_Denounce_Collectivism
+		}
+
+		mutually_exclusive = {
+			focus = MOT_Community_Forces
+		}
+
+		x = 36
+		y = 2
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MOT_Kaczynski_Leader
+		icon = GFX_goal_MOT_Break_Down_Authority
+
+		available = { 
+			has_country_leader = {
+				name = "Ted Kaczynski"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Commune_Constitution
+			focus = MOT_Libertarian_Constitution
+		}
+
+		prerequisite = {
+			focus = MOT_Community_Forces
+			focus = MOT_Commune_Militias
+		}
+
+		mutually_exclusive = {
+			focus = MOT_Zerzan_Leader
+		}
+
+		x = 32
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MOT_Zerzan_Leader
+		icon = GFX_goal_MOT_Break_Down_Authority
+
+		available = { 
+			has_country_leader = {
+				name = "Ted Kaczynski"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Commune_Constitution
+			focus = MOT_Libertarian_Constitution
+		}
+
+		prerequisite = {
+			focus = MOT_Community_Forces
+			focus = MOT_Commune_Militias
+		}
+
+		mutually_exclusive = {
+			focus = MOT_Kaczynski_Leader
+		}
+
+		x = 34
+		y = 3
+
+		cost = 5
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MOT_Night_Watchman
+		icon = GFX_goal_MOT_Break_Down_Authority
+
+		available = { 
+			has_country_leader = {
+				name = "Ted Kaczynski"
+				ruling_only = yes
+			}
+
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = MOT_Kaczynski_Leader
 		}
 
 		x = 32
@@ -2992,212 +2960,5 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-
 		}
 	}
-
-	focus = {
-		id = MOT_Welfare_Monke
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Center_Ted
-		}
-
-		x = 34
-		y = 4
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Right_Ted_De_Industrialization
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Right_Ted
-		}
-
-		x = 36
-		y = 4
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Destroy_America
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Right_Ted_De_Industrialization
-			focus = MOT_Practical_Education
-			focus = MOT_Welfare_Monke
-			focus = MOT_Communalism
-		}
-
-		x = 30
-		y = 5
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Liberate_the_Rockies
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Right_Ted_De_Industrialization
-			focus = MOT_Practical_Education
-			focus = MOT_Welfare_Monke
-			focus = MOT_Communalism
-		}
-
-		x = 32
-		y = 5
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Liberate_the_Plains
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Right_Ted_De_Industrialization
-			focus = MOT_Practical_Education
-			focus = MOT_Welfare_Monke
-			focus = MOT_Communalism
-		}
-
-		x = 34
-		y = 5
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Liberate_the_Plains
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Right_Ted_De_Industrialization
-			focus = MOT_Practical_Education
-			focus = MOT_Welfare_Monke
-			focus = MOT_Communalism
-		}
-
-		x = 36
-		y = 5
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = MOT_Mobilize_the_Nation
-		icon = GFX_goal_Generic_Work_In_Progress
-
-		available = { 
-			has_country_leader = {
-				name = "Ted Kaczynski"
-				ruling_only = yes
-			}
-
-			is_subject = no
-		}
-
-		prerequisite = {
-			focus = MOT_Right_Ted_De_Industrialization
-			focus = MOT_Practical_Education
-			focus = MOT_Welfare_Monke
-			focus = MOT_Communalism
-		}
-
-		x = 36
-		y = 5
-
-		cost = 5
-
-		completion_reward = {
-
-		}
-	}
-
-

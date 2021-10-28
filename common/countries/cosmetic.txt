@@ -552,3 +552,69 @@ ARG_patria_grande = {
 	color = rgb { 216 152 95 }
 	color_ui = rgb { 216 152 95 }
 }
+
+RWE_United_Benelux_FarRight = {
+	color = rgb { 128 77 48 }
+	color_ui = rgb { 128 77 48 }
+}
+
+RWE_United_Benelux_FarLeft = {
+	color = rgb { 128 48 48 }
+	color_ui = rgb { 128 48 48 }
+}
+
+RWE_United_Britain = {
+	color = rgb { 117 0 0 }
+	color_ui = rgb { 117 0 0 }
+}
+
+RWE_United_Britain_Phoenix = {
+	color = rgb { 43 50 43 }
+	color_ui = rgb { 43 50 43 }
+}
+
+RWE_Formed_Napoleonic_Empire = {
+	color = rgb { 30 41 99 }
+	color_ui = rgb { 43 50 43 }
+
+IRQ_Great_Arab = {
+	color = rgb { 133 93 66 }
+	color_ui = rgb { 133 93 66 }
+}
+IRQ_Great_Arab_Qatif = {
+	color = rgb { 133 93 66 }
+	color_ui = rgb { 133 93 66 }
+}
+IRQ_Great_Arab_Iran = {
+	color = rgb { 133 93 66 }
+	color_ui = rgb { 133 93 66 }
+}
+IRQ_Great_Arab_Turkey = {
+	color = rgb { 133 93 66 }
+	color_ui = rgb { 133 93 66 }
+}
+IRQ_Federation_State = {
+	color = rgb { 210 161 125 }
+	color_ui = rgb { 210 161 125 }
+}
+IRQ_Baathist_UAR = {
+	color = rgb { 5 99 52 }
+	color_ui = rgb { 5 99 52 }
+}
+IRQ_Caliphate = {
+	color = rgb { 38 41 40 }
+	color_ui = rgb { 38 41 40 }
+}
+IRQ_Babylon = {
+	color = rgb { 151 117 151 }
+	color_ui = rgb { 151 117 151 }
+}
+IRQ_League = {
+	color = rgb { 47 104 141 }
+	color_ui = rgb { 47 104 141 }
+}
+
+CGH_gorby = {
+	color = rgb { 127 0 0 }
+	color_ui = rgb { 127 0 0 }
+}

@@ -1,0 +1,73 @@
+##################
+# PORTUGAL IDEAS
+##################
+
+ideas = {
+	country = {
+		POR_legacy_of_april = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_POR_legacy_of_april
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = -0.1
+			}
+		}
+		POR_military_dominance = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_POR_Military_Dominance
+			
+			removal_cost = -1
+	
+			modifier = {
+				army_org_factor	 = 0.1
+				army_org_regain = 0.1
+				army_morale_factor = 0.05
+				dig_in_speed_factor	= 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		POR_right_wing_terrorism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_POR_Right_Wing_Terrorism
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				production_speed_industrial_complex_factor = -0.13
+				production_speed_arms_factory_factor = -0.13
+			}
+		}
+	}
+}
