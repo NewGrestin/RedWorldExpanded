@@ -1,0 +1,268 @@
+﻿add_namespace = arab_islamic_republic
+
+#
+# country_event = {
+# 	id = arg.1
+# 	title = arg.1.t
+# 	desc = arg.1.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.1.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.2
+# 	title = arg.2.t
+# 	desc = arg.2.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.2.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.3
+# 	title = arg.3.t
+# 	desc = arg.3.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.3.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.4
+# 	title = arg.4.t
+# 	desc = arg.4.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.4.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.5
+# 	title = arg.5.t
+# 	desc = arg.5.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.5.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.6
+# 	title = arg.6.t
+# 	desc = arg.6.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.6.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.7
+# 	title = arg.7.t
+# 	desc = arg.7.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.7.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.8
+# 	title = arg.8.t
+# 	desc = arg.8.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.8.o1
+# 	}
+# }
+
+# country_event = {
+# 	id = arg.9
+# 	title = arg.9.t
+# 	desc = arg.9.d
+# 	picture = picture
+	
+# 	fire_only_once = yes
+	
+# 	option = {
+# 		name = arg.9.o1
+# 	}
+# }
+
+country_event = {
+	id = arg.10 #starting 20 years of menemism event
+	title = arg.10.t
+	desc = arg.10.d
+	picture = ARG_twenty_years_of_menemism
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.10.o1
+	}
+}
+
+country_event = {
+	id = arg.11 #
+	title = arg.11.t
+	desc = arg.11.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.11.o1
+		country_event = {
+			id = arg.12
+			days = 2
+		}
+	}
+}
+
+country_event = {
+	id = arg.12 #
+	title = arg.12.t
+	desc = arg.12.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.12.o1
+		country_event = {
+			id = arg.13
+			days = 4
+		}
+	}
+}
+
+country_event = {
+	id = arg.13 #
+	title = arg.13.t
+	desc = arg.13.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.13.o1
+	}
+}
+
+country_event = {
+	id = arg.14 #reassuring our investors
+	title = arg.14.t
+	desc = arg.14.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.14.o1
+		278 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = arg.15 #the j-sat project
+	title = arg.15.t
+	desc = arg.15.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.15.o1
+		847 = {
+			add_building_construction = {
+				type = research_center
+				level = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = arg.16 #juca and co reject menem's invitation
+	title = arg.16.t
+	desc = arg.16.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.16.o1
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = arg.17 #satellite successfully launches!
+	title = arg.17.t
+	desc = arg.17.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.17.o1
+	}
+}
+
+country_event = {
+	id = arg.18 #menem falls down the stairs
+	title = arg.18.t
+	desc = arg.18.d
+	picture = picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arg.18.o1
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Miguel Ángel Pichetto"
+			ideology = revolutionary_peronism
+			picture = "Portrait_ARG_Miguel_Angel_Pichetto.dds"
+		}
+		# country_event = {
+		# 	id = arg.19
+		# 	days = 2
+		# }
+		unlock_national_focus = ARG_the_last_flight
+	}
+}

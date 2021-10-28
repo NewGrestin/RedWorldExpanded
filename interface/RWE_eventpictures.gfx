@@ -199,6 +199,10 @@ spriteTypes = {
 		name = "MAS_buddy_cianci"
 		texturefile = "gfx/event_pictures/report_event/MAS_buddy_cianci.dds"
 	}
+	spriteType = {
+		name = "ARG_twenty_years_of_menemism"
+		texturefile = "gfx/event_pictures/report_event/ARG_twenty_years_of_menemism.dds"
+	}
 	
 	spriteType = {
 		name = "FRA_Mainstream"

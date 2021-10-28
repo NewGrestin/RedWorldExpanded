@@ -89,6 +89,24 @@ ideas = {
 				planning_speed = -0.2
 			}
 		}
+		RWE_ARG_conicet_publicised = {	
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = GRL_Iowa_Republicanism
+			
+			removal_cost = -1
+	
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
 	}
 	second_in_command = {
 		argentina_miguel_pichetti = {

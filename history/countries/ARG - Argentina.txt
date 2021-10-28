@@ -2,6 +2,9 @@
 
 oob = "ARG_2000"
 
+1032 = {
+	set_demilitarized_zone = yes
+}
 load_focus_tree = ARG_Menem
 set_research_slots = 3
 set_convoys = 500
