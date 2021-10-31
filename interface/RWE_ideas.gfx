@@ -441,4 +441,16 @@ spriteTypes = {
 		name = "GFX_idea_RWE_POR_Right_Wing_Terrorism"
 		textureFile = "gfx/interface/ideas/RWE_POR_Right_Wing_Terrorism.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_last_bastion_of_european_democracy"
+		texturefile = "gfx/interface/ideas/last_bastion_of_european_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_the_tired_battlefield"
+		texturefile = "gfx/interface/ideas/the_tired_battlefield.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_the_party_of_government"
+		texturefile = "gfx/interface/ideas/The_Party_Of_Government.dds"
+	}
 }

@@ -1,0 +1,112 @@
+﻿l_english:
+###parties
+SCO_revolutionary_socialist_salmond_long:1 "The FREE Alliance - Socialist Scotland"
+SCO_revolutionary_socialist_salmond:1 "FREE Alliance"
+SCO_liberal_logan_long:1 "New Radicals"
+SCO_liberal_logan:1 "New Radicals"
+SCO_fascist_party:0 "Scottish National Party"
+SCO_nationalist_party:0 "Scottish National Party"
+SCO_monarchist_party:0 "House of Windsor"
+SCO_monarchist_party_long:0 "House of Windsor"
+SCO_national_bolshevik_party:0 "Scottish National Party"
+SCO_national_conservative_party:0 "New Tories"
+SCO_centrist_party:0 "Scottish National Party"
+SCO_liberal_party:0 "Scottish National Party"
+SCO_new_democrat_party:0 "Scottish National Party"
+SCO_moderate_socialist_party:0 "Scottish National Party"
+SCO_revolutionary_socialist_party:0 "Scottish National Party"
+SCO_communist_party:0 "Communist Party"
+SCO_communist_party_long:0 "Communist Party of Scotland"
+
+###cosmetictags
+
+###startfocuses
+
+
+###leaderdescs
+
+
+###tooltips
+
+
+###spirits
+
+
+###opinion modifiers
+
+
+###decision categories
+
+
+###events
+ SCO.1.t:0 "Salmond Attacks Sturgeon On Stage!"
+ SCO.1.d:0 "REPLACE_ME"
+ SCO.1.o1:0 "Is he planning something?"
+ SCO.2.t:0 "Logan Meets With Northern SNP Councillors."
+ SCO.2.d:0 "REPLACE_ME"
+ SCO.2.o1:0 "What is he up to?"
+ SCO.3.t:0 "Sturgeon Declares Left-Wing Economic Policy"
+ SCO.3.d:0 "REPLACE_ME"
+ SCO.3.o1:0 "This Should Stop The Party From Splintering"
+ SCO.4.t:0 "Logan Declares New Party"
+ SCO.4.d:0 "REPLACE_ME"
+ SCO.4.o1:0 "What?"
+ SCO.5.t:0 "Tommy Sheridan Declares "FREE Alliance""
+ SCO.5.d:0 "REPLACE_ME"
+ SCO.5.o1:0 "At least he's just a small timer."
+ SCO.6.t:0 "Salmond Defects To FREE Alliance"
+ SCO.6.d:0 "REPLACE_ME"
+ SCO.6.o1:0 "This Is Starting To Become A Crisis"
+ SCO.7.t:0 "Sturgeon Declares Snap Election"
+ SCO.7.d:0 "REPLACE_ME"
+ SCO.7.o1:0 "This Should Neutralise The Threat."
+ SCO.8.t:0 "Sturgeon Under Threat Of "Beheading""
+ SCO.8.d:0 "REPLACE_ME"
+ SCO.8.o1:0 "These splinters may pose more of a threat than we thought."
+ SCO.9.t:0 ""Moderate" SNP members defect to New Radicals"
+ SCO.9.d:0 "REPLACE_ME"
+ SCO.9.o1:0 "If Logan gets the moderates, we're screwed."
+ SCO.10.t:0 "Rig The Elections?"
+ SCO.10.d:0 "REPLACE_ME"
+ SCO.10.o1:0 "Rig the elections."
+ SCO.10.o2:0 "Don't rig the elections."
+ SCO.11.t:0 "Election Day"
+ SCO.11.d:0 "REPLACE_ME"
+ SCO.11.o1:0 "SNP Victory!"
+ SCO.11.o2:0 "The SNP win the day!"
+ SCO.11.o3:0 "A New Dawn For The SNP!"
+ SCO.12.t:0 "Election Day"
+ SCO.12.d:0 "REPLACE_ME"
+ SCO.12.o1:0 "The SNP Take The Majority!"
+ SCO.12.o2:0 "The FREE Alliance wins!"
+ SCO.12.o3:0 "The New Radicals take it!"
+ sturgeon.1.t:0 "REPLACE_ME"
+ sturgeon.1.d:0 "REPLACE_ME"
+ sturgeon.1.o1:0 "REPLACE_ME"
+ sturgeon.2.t:0 "REPLACE_ME"
+ sturgeon.2.d:0 "REPLACE_ME"
+ sturgeon.2.o1:0 "REPLACE_ME"
+ sturgeon.3.t:0 "REPLACE_ME"
+ sturgeon.3.d:0 "REPLACE_ME"
+ sturgeon.3.o1:0 "REPLACE_ME"
+
+###interregnum events
+
+
+#torysuccession
+
+
+###guiloc
+
+
+###guititles
+
+
+###scriptedloc
+
+
+###decisioncategories
+
+
+###ministers
+

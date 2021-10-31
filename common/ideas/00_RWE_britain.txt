@@ -1,0 +1,405 @@
+ideas = {
+	country = {
+		ENG_Last_Bastion_Of_European_Democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_Last_Bastion_Of_European_Democracy"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = last_bastion_of_european_democracy
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+			}
+		}
+		ENG_the_tired_battlefield = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_the_tired_battlefield"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = the_tired_battlefield
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1 
+			}
+		}
+		ENG_the_party_of_government = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_the_party_of_government"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_weekly = 0.01
+			}
+		}
+		ENG_positive_press = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_positive_press"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.5
+			}
+		}
+		ENG_defunded_nuclear = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_defunded_nuclear"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_nuclear_reactor_factor = -0.3
+				political_power_gain = 0.1
+			}
+		}
+		ENG_defunded_defence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_defunded_defence"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				political_power_gain = 0.05
+			}
+		}
+		ENG_nhs_funding = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_nhs_funding"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_hospital_factor = 0.1
+				political_power_gain = 0.05
+			}
+		}
+		ENG_green_reforms = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_green_reforms"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+				monthly_population = 0.1
+			}
+		}
+		ENG_union_reforms = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_union_reforms"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+		ENG_free_college = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_free_college"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.04
+			}
+		}
+		ENG_lords_abolished_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_lords_abolished_idea"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = -0.1
+			}
+		}
+	
+		ENG_lords_abolished_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_lords_abolished_idea"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = 0.1
+			}
+		}
+		ENG_northern_industry_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_northern_industry_idea"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		ENG_controlled_banking_sector_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_controlled_banking_sector_idea"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		ENG_communist_contracts_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_communist_contracts_idea"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = ENG_the_party_of_government
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+	second_in_command = {
+		eng_sic_alastair_campbell = {
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			available = {
+				has_country_flag = ENG_starting_ministers
+			}
+
+			picture = eng_sic_alastair_campbell
+
+			traits = { autocratic_charmer }
+		}
+	}
+
+	foreign_minister = {
+	    eng_fom_alan_johnson = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    has_country_flag = ENG_starting_ministers
+			}
+
+			picture = eng_fom_alan_johnson
+			
+			traits = { apologetic_clerk }			
+		}
+		eng_fom_chris_mullin = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    has_country_flag = ENG_starting_ministers
+			}
+
+			picture = eng_fom_chris_mullin
+			
+			traits = { biased_intellectual }			
+		}
+	}
+
+	industry_minister = {
+		eng_ind_ed_balls = {
+			allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    has_country_flag = ENG_starting_ministers
+			}
+
+			picture = eng_ind_ed_balls
+			
+			traits = { administrative_genius }	
+		}
+		eng_ind_john_mcdonnell = {
+			allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    has_country_flag = ENG_starting_ministers
+			}
+
+			picture = eng_ind_john_mcdonnell
+			
+			traits = { extreme_regulator }	
+		}
+	}
+
+	national_security_minister ={
+		eng_nsm_harriet_harman = {
+			allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    has_country_flag = ENG_starting_ministers
+			}
+
+			picture = eng_nsm_harriet_harman
+			
+			traits = { silent_lawyer }	
+		}
+		eng_nsm_cherie_booth = {
+			allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    has_country_flag = ENG_starting_ministers
+			}
+
+			picture = eng_nsm_cherie_booth
+			
+			traits = { silent_lawyer }	
+		}
+	}
+}

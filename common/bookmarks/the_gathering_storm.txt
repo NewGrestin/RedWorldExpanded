@@ -92,15 +92,14 @@ bookmarks = {
 			history = "ENG_RED_WORLD_DESC"
 			ideology = liberal
 			ideas = {
-			    idea_queen_elizabeth_ii
-				idea_bastion_of_european_democracy
-				idea_scottish_tensions
-				idea_prime_minister_owen
+			    ENG_Last_Bastion_Of_European_Democracy
+				ENG_the_party_of_government
+				ENG_the_tired_battlefield
 			}
 			focuses = {
-				ENG_the_phoenix_front_craze
-				ENG_storm_buckingham_palace
-				ENG_let_her_in
+				# ENG_the_phoenix_front_craze
+				# ENG_storm_buckingham_palace
+				# ENG_let_her_in
 			}
 		}
 		"---"={
