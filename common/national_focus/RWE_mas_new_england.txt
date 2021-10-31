@@ -893,3 +893,401 @@ shared_focus = {
 	completion_reward = {
 	}
 }
+
+shared_focus = {
+	id =  MAS_the_kennedy_family
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	x = 19
+	y = 0
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_robert_kennedy_jr
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_the_kennedy_family
+	}
+	mutually_exclusive = {
+		focus = MAS_joe_kennedy_iii
+	}
+	x = -3
+	y = 1
+	
+	relative_position_id = MAS_the_kennedy_family
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_joe_kennedy_iii
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_the_kennedy_family
+	}
+	mutually_exclusive = {
+		focus = MAS_robert_kennedy_jr
+	}
+	x = 3
+	y = 1
+	
+	relative_position_id = MAS_the_kennedy_family
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_enviromental_education
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_robert_kennedy_jr
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_robert_kennedy_jr
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_ban_vaccines
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_robert_kennedy_jr
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_robert_kennedy_jr
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_expand_the_massachusetts_machine
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_robert_kennedy_jr
+		focus = MAS_joe_kennedy_iii
+	}
+	x = 3
+	y = 1
+	
+	relative_position_id = MAS_robert_kennedy_jr
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_obliterate_opposition
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_joe_kennedy_iii
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_joe_kennedy_iii
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_a_compassionate_soul
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_joe_kennedy_iii
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_joe_kennedy_iii
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_tax_the_rich
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_robert_kennedy_jr
+	}
+	prerequisite = {
+		focus = MAS_ban_vaccines
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_ban_vaccines
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_ensure_irish_american_backing
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_expand_the_massachusetts_machine
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_expand_the_massachusetts_machine
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_incorporate_country_club_republicans
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_expand_the_massachusetts_machine
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_expand_the_massachusetts_machine
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_hunt_down_criminals
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_obliterate_opposition
+	}
+	prerequisite = {
+		focus = MAS_joe_kennedy_iii
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_obliterate_opposition
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_curb_overpopulation
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_enviromental_education
+	}
+	prerequisite = {
+		focus = MAS_tax_the_rich
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_tax_the_rich
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_investigate_the_kennedy_assassinations
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_ban_vaccines
+	}
+	x = 0
+	y = 2
+	
+	relative_position_id = MAS_ban_vaccines
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_ruthless_political_maneuvering
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_ensure_irish_american_backing
+	}
+	prerequisite = {
+		focus = MAS_incorporate_country_club_republicans
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_ensure_irish_american_backing
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_destroy_organised_socialists
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_obliterate_opposition
+	}
+	x = 0
+	y = 2
+	
+	relative_position_id = MAS_obliterate_opposition
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_help_the_poor
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_hunt_down_criminals
+	}
+	prerequisite = {
+		focus = MAS_a_compassionate_soul
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_hunt_down_criminals
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_encourage_the_democratic_process
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_curb_overpopulation
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_curb_overpopulation
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_integrate_new_hampshire_libertarians
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_investigate_the_kennedy_assassinations
+	}
+	prerequisite = {
+		focus = MAS_ruthless_political_maneuvering
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_investigate_the_kennedy_assassinations
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_fill_the_vermont_vacuum
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_destroy_organised_socialists
+	}
+	prerequisite = {
+		focus = MAS_ruthless_political_maneuvering
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_destroy_organised_socialists
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_old_liberal_unions
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_help_the_poor
+	}
+	x = -1
+	y = 1
+	
+	relative_position_id = MAS_help_the_poor
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_pay_the_damn_canadians
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_integrate_new_hampshire_libertarians
+		focus = MAS_fill_the_vermont_vacuum
+	}
+	prerequisite = {
+		focus = MAS_encourage_the_democratic_process
+		focus = MAS_old_liberal_unions
+	}
+	x = 1
+	y = 1
+	
+	relative_position_id = MAS_integrate_new_hampshire_libertarians
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id =  MAS_take_back_new_york
+	icon = GFX_goal_MAS_securing_new_england
+	cost = 5
+
+	prerequisite = {
+		focus = MAS_pay_the_damn_canadians
+		
+	}
+	x = 0
+	y = 1
+	
+	relative_position_id = MAS_pay_the_damn_canadians
+	completion_reward = {
+	}
+}
