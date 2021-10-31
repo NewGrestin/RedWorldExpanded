@@ -1,5 +1,97 @@
 RWE_Formable_Nations = {
 
+	RWE_Form_Greater_Cambodia = {
+
+		icon = form_khmer_empire
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			OR = {
+				original_tag = CMB
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 286
+			controls_state = 783
+			controls_state = 670
+			controls_state = 289
+			controls_state = 724
+			NOT = {
+				has_country_flag = RWE_Has_Formed_Greater_Cambodia
+				has_country_flag = RWE_Has_Formed_Endgame_Nation
+			}
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+			783 = { add_core_of = ROOT }
+			670 = { add_core_of = ROOT }
+			289 = { add_core_of = ROOT }
+			724 = { add_core_of = ROOT }
+
+
+			set_country_flag = RWE_Has_Formed_Greater_Cambodia
+
+			drop_cosmetic_tag = yes
+			set_cosmetic_tag = RWE_Greater_Cambodia
+		}
+	}
+
+	RWE_Unify_Indochina = {
+
+		icon = form_indochina
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			OR = {
+				original_tag = CMB
+				original_tag = VIN
+				original_tag = LAO
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 286
+			controls_state = 783
+			controls_state = 670
+			controls_state = 671
+			controls_state = 784
+			NOT = {
+				has_country_flag = RWE_Has_Formed_Indochina
+				has_country_flag = RWE_Has_Formed_Endgame_Nation
+			}
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+			286 = { add_core_of = ROOT }
+			783 = { add_core_of = ROOT }
+			670 = { add_core_of = ROOT }
+			671 = { add_core_of = ROOT }
+			784 = { add_core_of = ROOT }
+
+			set_country_flag = RWE_Has_Formed_Indochina
+
+			drop_cosmetic_tag = yes
+			set_cosmetic_tag = RWE_Indochina
+		}
+	}
+
 	RWE_Form_Benelux = {
 
 		icon = form_benelux

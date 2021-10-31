@@ -42,6 +42,8 @@ RWE_Formable_Nations_desc:0 "\n\n\n\n\n\nMany nations have irredentist ambitions
 RWE_Form_Benelux:0 "Unify the Low Countries"
 RWE_Form_Britain:0 "Restore the United Kingdom"
 RWE_Form_Napoleonic_Empire:0 "Restore the Napoleonic Legacy"
+RWE_Form_Greater_Cambodia:0 "Restore Greater Cambodia"
+RWE_Unify_Indochina:0 "Unite the Indochina Region"
 
 AmMexWar.1.t:0 "American Victory"
 AmMexWar.1.d:0 ""

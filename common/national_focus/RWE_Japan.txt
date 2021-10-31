@@ -455,7 +455,6 @@ shared_focus = {
 
 
 	available = {
-	PRC = { exists = yes }
 	has_government = nationalist
 	has_country_leader = { 
 	name = "Toshio Tamogami"
@@ -463,9 +462,20 @@ shared_focus = {
 	}
 	}
 
+	bypass = { 
+	PRC = { exists = no }
+	}
 
 	completion_reward = {
 	add_war_support = 0.05
+	random_owned_state = {
+	add_extra_state_shared_building_slots = 2
+	add_building_construction = {
+   		 type = dockyard
+   		 level = 2
+   		 instant_build = yes
+		}
+	}
 	}
 }
 
@@ -489,6 +499,7 @@ shared_focus = {
 
 	completion_reward = {
 	JAP_debt_level_up = yes
+	add_ideas = { RWE_JAP_Increased_Naval_Budget }
 	}
 }
 
@@ -529,7 +540,7 @@ shared_focus = {
    		 province = 13215
 		}
 	add_building_construction = {
-   		 type = dockyard
+   		 type = naval_base 
    		 level = 1
    		 instant_build = yes
    		 province = 13215
@@ -562,9 +573,14 @@ shared_focus = {
 	name = "Toshio Tamogami"
 	ruling_only = yes
 	}
-	NOT = { has_country_flag = CHI_TOOK_SENKAKU_ISLANDS }
+	has_completed_focus = JAP_Fortify_our_Position
 	}
 
+	bypass = {
+	CHI = { exists = no }
+	has_war_with = CHI 
+	CHI = { is_subject = yes }
+	}
 
 	completion_reward = {
 
@@ -588,9 +604,25 @@ shared_focus = {
 	}
 	}
 
-
+	
 	completion_reward = {
-
+	add_ideas = { RWE_JAP_Post_Reagan_Actor }
+	random_owned_state = {
+	add_extra_state_shared_building_slots = 2
+	add_building_construction = {
+   		 type = dockyard
+   		 level = 2
+   		 instant_build = yes
+		}
+	}
+	random_owned_state = {
+	add_extra_state_shared_building_slots = 1
+	add_building_construction = {
+   		 type = dockyard
+   		 level = 1
+   		 instant_build = yes
+		}
+	}
 	}
 }
 
@@ -656,6 +688,13 @@ shared_focus = {
 	has_country_leader = { 
 	name = "Toshio Tamogami"
 	ruling_only = yes
+	}
+	OR = { 
+	AND = { 
+	has_war_with = PRC
+	has_country_flag = JAP_LOST_SENKAKU
+	}
+	NOT = { has_war_with = PRC }
 	}
 	}
 

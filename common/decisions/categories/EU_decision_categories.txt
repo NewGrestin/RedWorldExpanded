@@ -1,0 +1,15 @@
+EU_Voting = {
+    icon = generic_communism
+
+	picture = GFX_decision_cat_EU_Voting_Picture
+	visible_when_empty = yes
+	allowed = { 
+		OR = { 
+		has_idea = idea_eu_member
+		tag = SOV
+		}
+	}
+
+	priority = 1000
+}
+

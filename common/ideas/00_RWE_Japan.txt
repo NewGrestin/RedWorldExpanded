@@ -6,6 +6,49 @@ ideas = {
 
 	country = {
 
+		RWE_JAP_Post_Reagan_Actor = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Historical_Revisionism
+			
+			removal_cost = -1
+	
+			modifier = {
+			political_power_factor = 0.15
+			guarantee_cost = -0.25
+			decryption_factor = 0.1
+			}
+
+		}
+
+		RWE_JAP_Increased_Naval_Budget = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = JAP_Historical_Revisionism
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_dockyard = 0.2
+			repair_speed_factor = 0.25
+			}
+
+		}
+
 		RWE_JAP_Toshinomics = {
 			
 			allowed = {

@@ -25,6 +25,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_decision_cat_EU_Voting_Picture"
+		texturefile = "gfx/interface/decisions/EU_voting_picture.tga"
+	}
+
+	spriteType = {
 		name = "GFX_decision_cat_MRT_Emergency"
 		texturefile = "gfx/interface/decisions/decision_cat_MRT_Emergency.dds"
 	}
@@ -72,6 +77,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_form_europe"
 		texturefile = "gfx/interface/decisions/decision_form_europe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_indochina"
+		texturefile = "gfx/interface/decisions/decision_form_indochina.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_form_khmer_empire"
+		texturefile = "gfx/interface/decisions/decision_form_khmer_empire.dds"
 	}
 
 	spriteType = {

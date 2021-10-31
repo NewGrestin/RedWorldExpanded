@@ -1,0 +1,226 @@
+﻿add_namespace = rw_eu
+add_namespace = rw_eu_news
+
+#The Soviets vetoed a proposal
+country_event = {
+	id = rw_eu.1
+	title = rw_eu.1.t
+	desc = rw_eu.1.d
+	picture = russia_man_crying
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_eu.1.a
+		clr_global_flag = SOV_VETOED_IT 
+	
+	}
+}
+
+#Shared Burden Proposal - Failed
+country_event = {
+	id = rw_eu.2
+	title = rw_eu.2.t
+	desc = rw_eu.2.d
+	picture = russia_man_crying
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_eu.2.a 
+		add_stability = -0.03
+		add_political_power = -25
+	}
+}
+
+#Shared Burden Proposal - Succes
+country_event = {
+	id = rw_eu.3
+	title = rw_eu.3.t
+	desc = rw_eu.3.d
+	picture = russia_man_crying
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_eu.3.a
+		add_stability = 0.05
+	}
+}
+
+#The European Union unifies through decision
+country_event = {
+	id = rw_eu.4
+	title = rw_eu.4.t
+	desc = rw_eu.4.d
+	picture = european_union_flag
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_eu.4.a
+		add_stability = 0.2
+		FRA = { 
+		set_cosmetic_tag = EUU 
+		remove_ideas = idea_eu_member
+
+		set_party_name = { 
+		ideology = nationalist
+		name = "Coalition of Nationalists"
+		long_name = "Coalition of Nationalists"
+		}
+		set_party_name = { 
+		ideology = fascist
+		name = "Pax Europa"
+		long_name = "Pax Europa"
+		}	
+		set_party_name = { 
+		ideology = national_bolshevik
+		name = "Communist Party - T"
+		long_name = "European Communist Party - Third Way"
+		}	
+		set_party_name = { 
+		ideology = communist
+		name = "Communist Party - O"
+		long_name = "European Communist Party - Orthodox"
+		}
+		set_party_name = { 
+		ideology = revolutionary_socialist
+		name = "Communist Party - T"
+		long_name = "European Communist Party - Trotskyists"
+		}
+		set_party_name = { 
+		ideology = moderate_socialist
+		name = "Communist Party - R"
+		long_name = "European Communist Party - Reformists"
+		}
+		set_party_name = { 
+		ideology = new_democrat
+		name = "Communist Party - L"
+		long_name = "European Communist Party - Liberal"
+		}
+		set_party_name = { 
+		ideology = liberal
+		name = "Renew Europe"
+		long_name = "Renew Europe"
+		}
+		set_party_name = { 
+		ideology = national_conservative
+		name = "European People's Party"
+		long_name = "European People's Party"
+		}
+		set_party_name = { 
+		ideology = centrist
+		name = "European People's Party"
+		long_name = "European People's Party"
+		}
+		set_party_name = { 
+		ideology = monarchist
+		name = "Royal Society"
+		long_name = "Royal Society of the European Continent"
+		}
+		}
+
+		every_country = { 
+		limit = { has_idea = idea_eu_member }
+		FRA = { 
+		annex_country = {
+    		target = PREV
+    		transfer_troops = yes
+			}
+		}
+		}
+		}
+
+
+
+
+	}
+}
+}
+
+#European Unification Proposal - Failed
+country_event = {
+	id = rw_eu.5
+	title = rw_eu.5.t
+	desc = rw_eu.5.d
+	picture = russia_man_crying
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_eu.5.a
+		add_stability = -0.1
+		add_political_power = -150
+	}
+}
+
+#European Sovereignty Proposal - Success
+country_event = {
+	id = rw_eu.6
+	title = rw_eu.6.t
+	desc = rw_eu.6.d
+	picture = russia_man_crying
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_eu.6.a
+		add_stability = 0.05
+		set_global_flag = SOV_VETO_ENDS
+	}
+}
+
+#European Sovereignty Proposal - Failed
+country_event = {
+	id = rw_eu.7
+	title = rw_eu.7.t
+	desc = rw_eu.7.d
+	picture = russia_man_crying
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rw_eu.7.a
+		add_stability = -0.05
+
+	}
+}
+
+#Denmark joins the EUSR
+country_event = {
+	id = rw_eu.8
+	title = rw_eu.8.t
+	desc = rw_eu.8.d
+	picture = russia_man_crying
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = rw_eu.8.a
+	DEN = { add_ideas = { idea_eu_member } }
+	DEN = { add_popularity = { ideology = communist popularity = 0.05 } }
+
+	custom_effect_tooltip = EU_ADD_5_SEATS_EP
+	custom_effect_tooltip = EU_REDISTRIBUTE_EP_SEATS
+
+	add_to_variable = { global.EU_Parliament_Seats = 5 }
+	set_variable = { global.EU_Total_Population = 0 }
+	every_country = { 
+		limit = { has_idea = idea_eu_member }
+	
+	add_to_variable = { global.EU_Total_Population = max_manpower_k }
+	}
+
+	every_country = { 
+		limit = { has_idea = idea_eu_member }
+	
+	set_variable = { EU_Seats_We_Own = 0 }
+	add_to_variable = { EU_Seats_We_Own = max_manpower_k }
+	divide_variable = { EU_Seats_We_Own = global.EU_Total_Population }
+	multiply_variable = { EU_Seats_We_Own = global.EU_Parliament_Seats }
+	round_variable = EU_Seats_We_Own 	
+	
+	news_event = { id = newsrw.63 days = 1 }
+	}
+}

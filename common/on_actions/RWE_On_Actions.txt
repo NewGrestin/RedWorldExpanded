@@ -1,6 +1,25 @@
 on_actions = {
    on_startup = { 
      effect = { 
+	set_variable = { global.EU_Parliament_Seats = 705 }
+	set_variable = { global.EU_Total_Population = 0 }
+
+	every_country = { 
+		limit = { has_idea = idea_eu_member }
+	
+	add_to_variable = { global.EU_Total_Population = max_manpower_k }
+	}
+
+	every_country = { 
+		limit = { has_idea = idea_eu_member }
+	
+	set_variable = { EU_Seats_We_Own = 0 }
+	add_to_variable = { EU_Seats_We_Own = max_manpower_k }
+	divide_variable = { EU_Seats_We_Own = global.EU_Total_Population }
+	multiply_variable = { EU_Seats_We_Own = global.EU_Parliament_Seats }
+	round_variable = EU_Seats_We_Own 
+	}
+
 	every_country = { 
 	set_variable = { OPEC_oil_production = 0.1 }
 	set_variable = { OPEC_unity = 0.05 }

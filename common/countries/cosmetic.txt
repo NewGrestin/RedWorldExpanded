@@ -576,6 +576,25 @@ RWE_United_Britain_Phoenix = {
 RWE_Formed_Napoleonic_Empire = {
 	color = rgb { 30 41 99 }
 	color_ui = rgb { 43 50 43 }
+}
+
+RWE_Greater_Cambodia = {
+	color = rgb { 59 108 145 }
+	color_ui = rgb { 59 108 145 }
+}
+RWE_Greater_Cambodia_FarRight = {
+	color = rgb { 0 112 11 }
+	color_ui = rgb { 0 112 11 }
+}
+RWE_Greater_Cambodia_FarLeft = {
+	color = rgb { 183 38 48 }
+	color_ui = rgb { 183 38 48 }
+}
+
+RWE_Indochina = {
+	color = rgb { 158 189 211 }
+	color_ui = rgb { 158 189 211 }
+}
 
 IRQ_Great_Arab = {
 	color = rgb { 133 93 66 }

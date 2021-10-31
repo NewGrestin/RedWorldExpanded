@@ -469,6 +469,8 @@ news_event = {	#WAF - Gaddafism expands
 	title = newsrw.26.t
 	desc = newsrw.26.d
 	picture = waf_gaddafism
+	is_triggered_only = yes
+	major = yes
 
 	option = {
 		name = newsrw.26.a
@@ -851,6 +853,27 @@ news_event = {	#JAP - JSP wins election
 
 }
 
+news_event = {	#JAP - LDP wins election
+	id = newsrw.49
+	title = newsrw.49.t
+	desc = newsrw.49.d
+	picture = jap_ldp
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.49.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.49.b
+		trigger = { NOT = { tag = JAP } } 
+	}
+
+}
+
 news_event = {	#JAP - POTO formed
 	id = newsrw.50
 	title = newsrw.50.t
@@ -898,6 +921,32 @@ news_event = {	#JAP - Senkaku Islands war
 
 	option = {
 		name = newsrw.51.c
+		trigger = { NOT = { OR = { tag = JAP tag = PRC } } }
+	}
+
+}
+
+news_event = {	#JAP - Senkaku Islands war
+	id = newsrw.52
+	title = newsrw.52.t
+	desc = newsrw.52.d
+	picture = jap_senkaku_war
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.52.a
+		trigger = { tag = JAP }
+	}
+
+	option = {
+		name = newsrw.52.b
+		trigger = { tag = PRC }
+	}
+
+	option = {
+		name = newsrw.52.c
 		trigger = { NOT = { OR = { tag = JAP tag = PRC } } }
 	}
 
@@ -962,6 +1011,27 @@ news_event = {	#OPEC embargoes American Republic
 	option = {
 		name = newsrw.62.b
 		trigger = { NOT = { tag = USA } } 
+	}
+
+}
+
+news_event = {	#Denmark joins the EUSR
+	id = newsrw.63
+	title = newsrw.63.t
+	desc = newsrw.63.d
+	picture = den_joins_eu
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.63.a
+		trigger = { tag = DEN }
+	}
+
+	option = {
+		name = newsrw.63.b
+		trigger = { NOT = { tag = DEN } } 
 	}
 
 }

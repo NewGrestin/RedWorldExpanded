@@ -1,0 +1,139 @@
+EU_Voting = {
+
+	EU_Immigration_Response_Policy = {
+		icon = generic_political_discourse
+		allowed = { has_idea = idea_eu_member }
+		priority = 5 
+		available = { has_global_flag = SOV_VETOED_IT }
+		activation = { ITA = { has_completed_focus = ITA_refugee_crisis } }
+		is_good = yes
+		selectable_mission = no 
+		days_mission_timeout = 100
+
+		timeout_effect = { 
+		if = {
+		limit = { check_variable = { global.EU_Yes > 466 } } 
+		country_event = { id = rw_eu.3 days = 1 }
+		}
+		else_if = { 
+		country_event = { id = rw_eu.2 days = 1 }
+		}
+		set_variable = { global.EU_Yes = 0 }
+		set_variable = { global.EU_No = 0 }
+		clr_country_flag = EU_VOTED 
+		}
+	}
+
+	EU_European_Unification_dec = {
+		icon = generic_political_discourse
+		allowed = { has_idea = idea_eu_member }
+		priority = 5 
+		available = { has_global_flag = SOV_VETOED_IT }
+		activation = { always = no }
+		is_good = yes
+		selectable_mission = no 
+		days_mission_timeout = 100
+
+		timeout_effect = { 
+		if = {
+		limit = { check_variable = { global.EU_Yes > 466 } } 
+		country_event = { id = rw_eu.4 days = 1 }
+		}
+		else_if = { 
+		country_event = { id = rw_eu.5 days = 1 }
+		}
+		set_variable = { global.EU_Yes = 0 }
+		set_variable = { global.EU_No = 0 }
+		clr_country_flag = EU_VOTED 
+		}
+	}
+
+	EU_Remove_Soviet_Veto_dec = {
+		icon = generic_political_discourse
+		allowed = { has_idea = idea_eu_member }
+		priority = 5 
+		available = { has_global_flag = SOV_VETOED_IT }
+		activation = { always = no }
+		is_good = yes
+		selectable_mission = no 
+		days_mission_timeout = 100
+
+		timeout_effect = { 
+		if = {
+		limit = { check_variable = { global.EU_Yes > 466 } } 
+		country_event = { id = rw_eu.6 days = 1 }
+		}
+		else_if = { 
+		country_event = { id = rw_eu.7 days = 1 }
+		}
+		set_variable = { global.EU_Yes = 0 }
+		set_variable = { global.EU_No = 0 }
+		clr_country_flag = EU_VOTED 
+		}
+	}
+
+	EU_Accept_Denmark_into_the_Union = {
+		icon = generic_political_discourse
+		allowed = { has_idea = idea_eu_member }
+		priority = 5 
+		available = { has_global_flag = SOV_VETOED_IT }
+		activation = { has_idea = idea_eu_member }
+		is_good = yes
+		selectable_mission = no 
+		days_mission_timeout = 100
+
+		timeout_effect = { 
+		if = {
+		limit = { check_variable = { global.EU_Yes > 352 } } 
+		country_event = { id = rw_eu.8 days = 1 }
+		}
+		else_if = { 
+		country_event = { id = rw_eu.9 days = 1 }
+		}
+		set_variable = { global.EU_Yes = 0 }
+		set_variable = { global.EU_No = 0 }
+		clr_country_flag = EU_VOTED 
+		}
+	}
+
+	EU_Vote_Yes = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 50
+		}
+		visible = { OR = { has_active_mission = EU_Accept_Denmark_into_the_Union has_active_mission = EU_Immigration_Response_Policy has_active_mission = EU_European_Unification_dec has_active_mission = EU_Remove_Soviet_Veto_dec } }
+		available = { NOT = { has_country_flag = EU_VOTED } }
+		priority = 3 
+		complete_effect = { set_country_flag = EU_VOTED add_to_variable = { global.EU_Yes = EU_Seats_We_Own } }
+	}
+
+	EU_Vote_No = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 50
+		}
+		visible = { OR = { has_active_mission = EU_Accept_Denmark_into_the_Union has_active_mission = EU_Immigration_Response_Policy has_active_mission = EU_European_Unification_dec has_active_mission = EU_Remove_Soviet_Veto_dec } }
+		available = { NOT = { has_country_flag = EU_VOTED } }
+		priority = 3 
+		complete_effect = { set_country_flag = EU_VOTED add_to_variable = { global.EU_No = EU_Seats_We_Own } }
+	}
+
+	EU_Soviet_Veto = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 10
+		}
+		cost = 25
+		visible = { NOT = { has_global_flag = SOV_VETO_ENDS } tag = SOV OR = { has_active_mission = EU_Immigration_Response_Policy } }
+		available = { NOT = { has_country_flag = SOV_ABSENT } }
+		priority = 3 
+		complete_effect = { 
+		set_global_flag = SOV_VETOED_IT 
+		set_variable = { global.EU_Yes = 0 }
+		every_country = { 
+		limit = { has_idea = idea_eu_member }
+		country_event = { id = rw_eu.1 days = 1 }
+		}	
+		}
+	}
+}

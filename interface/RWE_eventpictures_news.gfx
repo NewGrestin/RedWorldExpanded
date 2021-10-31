@@ -56,6 +56,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "den_joins_eu"
+		texturefile = "gfx/event_pictures/news_event/den_joins_eu.tga"
+	}
+
+	spriteType = {
 		name = "jap_poto"
 		texturefile = "gfx/event_pictures/news_event/jap_poto.tga"
 	}
@@ -73,6 +78,16 @@ spriteTypes = {
 	spriteType = {
 		name = "jap_senkaku_islands"
 		texturefile = "gfx/event_pictures/news_event/jap_senkaku_islands.tga"
+	}
+
+	spriteType = {
+		name = "jap_senkaku_war"
+		texturefile = "gfx/event_pictures/news_event/jap_senkaku_war.tga"
+	}
+
+	spriteType = {
+		name = "jap_ldp"
+		texturefile = "gfx/event_pictures/news_event/jap_ldp.tga"
 	}
 
 	spriteType = {

@@ -1,0 +1,61 @@
+﻿l_english:
+
+EU_Voting:0 "European Union of Socialist Republics"
+EU_Voting_desc:0 "\n\n\n\n\n\n\nThe 21st century has been challenging for the European Union of Socialist Republics. With economic stagnation, increasing polarisation and the politicisation of EU integration, the EUSR has been struggling to maintain its goal of an ever-closer union of European comrades. \n\nWith the turn of the '80s, the European Communities took a turn from its neoliberal path and became the institution it is today. With the dual leadership of the European parliament and the Commission, any law has to pass both institutions. In a sense, the European parliament works as the lower chamber, while the Commission functions as a senate. Yet, any law also has to pass the dreaded Soviet veto. If the USSR, who continues to have a special status inside the EUSR, dissaproves of any new law or direction, it will simply veto this law or direction. \n\n§YYou have two possible laws that differentiate on what amount of support it needs§!. §YLaws inside the EUSR jurisdiction §!(§Ymainly economic, agricultural or environmental§!)§Y will need a simple majority in the parliament§!. §YLaws that seek to expand the EUSR's jurisdiction will need a §R2/3rd majority§! §Yin parliament§!. §YBoth laws either need Soviet approval or absence to pass§!. \n\n§GEPMs in favour of proposal§!: [?global.EU_Yes] \n\n§REPMs opposed to proposal§!: [?global.EU_No]"
+
+EU_Immigration_Response_Policy:0 "Shared Burden Proposal"
+EU_Immigration_Response_Policy_desc:0 "A proposal by parliament to share the burden of the refugee crisis evenly among the European Union. The EUSR looks at both the population and the economic strength of its member states to evenly spread out the refugees coming from North Africa and the Middle East. \n\n§RThis policy is currently outside of EU jurisdiction and thus needs a 2/3rd majority§!."
+EU_European_Unification_dec:0 "European Unification Proposal"
+EU_European_Unification_dec_desc:0 "For far too long, the European continent has been the toy of foreign global powers. Since the end of WWII, Europe was carved up by the Americans and Soviets and, with the fall of America, the rest of Europe fell into the Soviet sphere of influence. Today, we put an end to this occupation with the unification of the European Union of Socialist Republics under one government. \n\n§RThis policy is currently outside of EU jurisdiction and thus needs a 2/3rd majority§!."
+EU_Remove_Soviet_Veto_dec:0 "European Sovereignty Proposal"
+EU_Remove_Soviet_Veto_dec_desc:0 "For far too long, the EUSR has been an institution under the thumb of the Soviet Union. Moscow has far too often intervened in European affairs and can no longer be trusted to have our interests at heart. With Moscow now absent for a moment and Europe more united than ever, the European Parliament can put an end to the Soviet veto. \n\n§RThis policy is currently outside of EU jurisdiction and thus needs a 2/3rd majority§!."
+EU_Accept_Denmark_into_the_Union:0 "Denmark's EUSR Application"
+EU_Accept_Denmark_into_the_Union_desc:0 "A neighbour of Germany, Denmark has been a strong economic and diplomatic partner of the European Union, often acting as a bridge between the EUSR and Scandinavia. Despite our ideological differences, Denmark has seen the economic success of the European Union and now seeks to join the Union. \n\n§YThis policy is currently part of EU jurisdiction and thus needs a simple majority§!."
+
+
+EU_Vote_Yes:0 "Vote §GYes§!"
+EU_Vote_No:0 "Vote §RNo§!"
+
+SOV_VETOED_IT:0 "§RThe Soviet Union has vetoed a proposal§!"
+EU_ADD_5_SEATS_EP:0 "Add §Y5 seats§! to the §REuropean Parliament§!."
+EU_REDISTRIBUTE_EP_SEATS:0 "\n§RCountry owned seats will be redistributed based on the new seat count and any demographic changes in EU member states§!."
+
+rw_eu.1.t:0 "Soviets Vetoed Proposal"
+rw_eu.1.d:0 "The proposal in the European parliament has been slammed down by the Soviet Union who, for whatever reason, did not agree with the intention or execution of the proposed policy. Whatever their reason may be, the proposal lays dead in the water."
+rw_eu.1.a:0 "Unfortunate..."
+rw_eu.2.t:0 "Shared Burden Policy fails"
+rw_eu.2.d:0 "Either due to a lack of support in parliament or a Soviet veto, the Shared Burden proposal has failed to be pushed through parliament. While the refugee crisis still destabilizes Europe, the nations of Europe were not able to come together and find a collective response and solution to the situation. While some nations take the majority of the refugee burden, others have started to close their borders to the roaming refugees, hoping to keep them out of the country. Whatever the situation now is in our country, the public is dissaproving of the inaction of the European Union."
+rw_eu.2.a:0 "What a shame..."
+rw_eu.3.t:0 "Shared Burden Policy adopted"
+rw_eu.3.d:0 "With the proposal adopted through a 2/3rd majority in the European parliament, the European Union has set up an elaborate plan to evenly redistribute refugees across the European continent. With this plan now adopted, the people of Europe gain a restored faith in the European Union and its ability to respond to the refugee crisis properly. With the situation now set in motion, the refugee crisis and its effects will be softened."
+rw_eu.3.a:0 "A grand display of workers solidarity!"
+rw_eu.4.t:0 "The Union, Realized"
+rw_eu.4.d:0 "After almost 60 years of European cooperation and solidarity, the grand decision was made today. In a rousing speech to the European parliament, European president Francois Hollande announced that the European project had reached a new height, never seen before in the history of the European continent. With this piece of legislation going around the parliament, the European Union of Socialist Republics unites the national governments into a single, European government. Along with other legal details and political bits, this is the founding treaty of the federation people have so long dreamed of. \n\nAs the treaty is ratified by parliament, thunderous applause fills the building. With this new treaty, a new age of European solidarity and leadership has started. Europe may finally take the lead in safeguarding and expanding global communism for the very first time."
+rw_eu.4.a:0 "The beginning of something amazing..."
+rw_eu.5.t:0 "End of the European Dream"
+rw_eu.5.d:0 "The results from the recent proposal for the unification of the EUSR has come back with grand dissapointment. The European parliament has rejected the call to unify Europe under one government to combat foreign influence and reassert our stance in the world. With this, the European dream is dead."
+rw_eu.5.a:0 "An end to a 60-year project"
+rw_eu.6.t:0 "Goodbye, Soviets!"
+rw_eu.6.d:0 "With the Soviet Union preoccupied with its own internal affairs and Europe seeking to distance itself from the chaos in Moscow, the European parliament has voted in favour of removing the Soviet veto from the EUSR, suspending the special status of the USSR and embracing a pan-European model of governance that excludes the Soviet Union and its power over the rest of the European Union's institutions."
+rw_eu.6.a:0 "A new era for Europe!"
+rw_eu.7.t:0 "The Soviets are here to Stay"
+rw_eu.7.d:0 "Despite the paralyzing nature of the Soviet veto, the chaos in Moscow following Yazov's death and a list of reasons for most Europeans to be reluctant of Soviet influence and meddling, the European parliament has not approved the removal of the Soviet veto. Perhaps some MEPs were threatened and blackmailed by the KGB, or perhaps bribes made it easier for some to vote against the initiative. Whatever their reasoning may be, the EU will remain at the behest of the Soviet Union and its interests."
+rw_eu.7.a:0 "Another blow to European sovereignty..."
+rw_eu.8.t:0 "Denmark joins the EU"
+rw_eu.8.d:0 "In a surprising twist of events, the European Parliament has voted in favour of allowing the Danish to join the EUSR. With a majority of MEPs voting in favour, the introduction process will start shortly."
+rw_eu.8.a:0 "A new member to the European family!"
+
+newsrw.63.t:0 "Denmark joins the European Union"
+newsrw.63.d:0 "After a long process of retooling the economy to fit with the rest of the EU, political reform and renewed budgetary decisions, Denmark has been able to apply for and join the European Union of Socialist Republics. Today, the European Parliament has approved the application of Denmark and set in motion slow joining process, during which the Danish border opens up to the rest of the EUSR and Danish officials are chosen to represent the Scandinavian nation in the European Union and its parliament. \n\nWhile Denmark has long gone down the path of alternative socialism, compared to the far more orthodox and Soviet-friendly European Union, the recent change in the EU's course regarding the Soviet Union gave Denmark the reason it needed to start the accession process to joining the international organisation. As conditions to join the EUSR are rather strict, Denmark was forced to retool its government budget to properly follow the EUSR's shared economic policy. Alongside budgetary reforms, changes were made to the Danish-German border, tariffs were removed and political reforms targetting corruption were implemented."
+newsrw.63.a:0 "A proud day for Danish-European cooperation!"
+newsrw.63.b:0 "The European family grows"
+
+
+
+
+
+
+
+
+
+
