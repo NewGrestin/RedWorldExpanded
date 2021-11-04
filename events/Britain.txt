@@ -1,0 +1,1362 @@
+add_namespace = ENG
+add_namespace = KEN
+add_namespace = BALLS
+add_namespace = MANDY
+add_namespace = INTER
+add_namespace = debug
+add_namespace = torysuccession
+add_namespace = KENTWO
+add_namespace = PRESIDENTIALELECTIONS
+#
+country_event = {
+	id = ENG.1
+	title = ENG.1.t
+	desc = ENG.1.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.1.o1
+		add_political_power = 20
+	}
+}
+country_event = {
+	id = ENG.2
+	title = ENG.2.t
+	desc = ENG.2.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.2.o1
+	}
+}
+country_event = {
+	id = ENG.3
+	title = ENG.3.t
+	desc = ENG.3.d
+	picture = EdBalls
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.3.o1
+		130 = {
+			add_building_construction = {
+				type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+		}
+	}
+}
+country_event = {
+	id = ENG.4
+	title = ENG.4.t
+	desc = ENG.4.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.4.o1
+	}
+}
+country_event = {
+	id = ENG.5
+	title = ENG.5.t
+	desc = ENG.5.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.5.o1
+	}
+}
+country_event = {
+	id = ENG.6
+	title = ENG.6.t
+	desc = ENG.6.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.6.o1
+	}
+}
+country_event = {
+	id = ENG.7
+	title = ENG.7.t
+	desc = ENG.7.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.7.o1
+		add_opinion_modifier = {
+    		target = IRE
+			modifier = an_unfortunate_history
+		}
+	}
+}
+country_event = {
+	id = ENG.8
+	title = ENG.8.t
+	desc = ENG.8.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.8.o1
+		country_event = {
+			id = ENG.9
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = ENG.9
+	title = ENG.9.t
+	desc = ENG.9.d
+	picture = KennedyResignation
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.9.o1
+		country_event = {
+			id = INTER.1
+			days = 10
+		}
+		load_focus_tree = uk_leadership_election
+	}
+}
+
+country_event = {
+	id = ENG.10
+	title = ENG.10.t
+	desc = ENG.10.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.10.o1
+		clr_country_flag = gorbdon_flag
+		set_country_flag = alexander_flag
+	}
+}
+
+country_event = {
+	id = ENG.11
+	title = ENG.11.t
+	desc = ENG.11.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ENG.11.o1
+		clr_country_flag = gorbdon_flag
+		clr_country_flag = alexander_flag
+		set_country_flag = sturgeon_flag
+	}
+}
+
+country_event = {
+	id = INTER.1 #Balls falls behind Livingstone
+	title = INTER.1.t
+	desc = INTER.1.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.1.o1
+		country_event = {
+			id = INTER.2
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = INTER.2 #Mandelson enters the race
+	title = INTER.2.t
+	desc = INTER.2.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.2.o1
+		country_event = {
+			id = INTER.3
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = INTER.3 #Balls doesn't leave the race
+	title = INTER.3.t
+	desc = INTER.3.d
+	picture = EdBalls
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.3.o1
+		country_event = {
+			id = INTER.4
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = INTER.4 #the game begins
+	title = INTER.4.t
+	desc = INTER.4.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #They Attack Mandelson By Bringing Down The Caledonian Mafia On His Campaign
+		name = INTER.4.o1
+		country_event = {
+			id = INTER.5
+			days = 3
+		}
+	}
+	option = { #They Attack Livingstone By Appealing To The Left In London
+		name = INTER.4.o2
+		country_event = {
+			id = INTER.5
+			days = 3
+		}
+	}
+}
+country_event = { #Mili-D Goes for lunch with Alexander, Mili-E goes to visit Brown
+	id = INTER.5
+	title = INTER.5.t
+	desc = INTER.5.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.5.o1 #FOLLOW ED
+		country_event = {
+			id = INTER.6
+			days = 3
+		}
+	}
+	option = {
+		name = INTER.5.o2 #FOLLOW DAVID
+		country_event = {
+			id = INTER.7
+			days = 3
+		}
+	}
+}
+
+country_event = { #The debate begins. Brown isn't convinced of Balls' merits, but Ed calls him a close friend and a good economist and that they might have a genuine shot. Brown counters with Balls' public floundering despite his record as an economist, to which Miliband responds...
+	id = INTER.6
+	title = INTER.6.t
+	desc = INTER.6.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.6.o1 #He's actively improving, Gordon!
+		ai_chance = { base = 8 }
+		country_event = {
+			id = INTER.8
+			days = 3
+		}
+	}
+	option = {
+		name = INTER.6.o2 #You don't need public skills to be a Prime Minister, Gordon!
+		ai_chance = { base = 2 }
+		country_event = {
+			id = INTER.9
+			days = 3
+		}
+	}
+}
+
+country_event = { #Brown shoots Mili-E down, and says he can't support the Balls campaign. His paranoia leads him to believe only Mandelson can beat the tories next election.
+	id = INTER.9
+	title = INTER.9.t
+	desc = INTER.9.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.9.o1 #Mandelson Wins
+		country_event = {
+			id = MANDY.1
+			days = 31
+		}
+	} 	
+}
+
+country_event = { #Brown thinks about it and pulls out what he was thinking about the entire time. Questions about investments in Scotland.
+	id = INTER.8
+	title = INTER.8.t
+	desc = INTER.8.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.8.o1 #Mili-E says he'll pressure Balls to make that decision.
+		ai_chance = { base = 25 }
+		country_event = {
+			id = INTER.10
+			days = 3
+		}
+	}
+	option = {
+		name = INTER.8.o2 #Mili-E waves it off.
+		ai_chance = { base = 75 }
+		country_event = {
+			id = INTER.11
+			days = 3
+		}
+	}
+}
+country_event = { #Brown shoots Mili-E down, and says he can't support the Balls campaign. His paranoia leads him to believe only Mandelson can beat the tories next election.
+	id = INTER.11
+	title = INTER.11.t
+	desc = INTER.11.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.11.o1 #Mandelson Wins
+		country_event = {
+			id = MANDY.1
+			days = 31
+		}
+	} 	
+}
+
+country_event = { #Brown shoots Mili-E down, and says he can't support the Balls campaign. His paranoia leads him to believe only Mandelson can beat the tories next election.
+	id = INTER.10
+	title = INTER.10.t
+	desc = INTER.10.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.10.o1 #Balls Wins
+		country_event = {
+			id = BALLS.1
+			days = 31
+		}
+	}
+}
+country_event = { #The restaurant they go to is boxed in by SNP people, leading Alexander and Mili-D to either sneak out the back, or leave by the front.
+	id = INTER.7
+	title = INTER.7.t
+	desc = INTER.7.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.7.o1 #THE FRONT
+			country_event = {
+			id = INTER.12
+			days = 3
+		}
+	}
+	option = {
+		name = INTER.7.o2 #THE BACK
+		country_event = {
+			id = INTER.13
+			days = 3
+		}
+	}
+}
+country_event = { #There's a crowd out the front, but unfortunately there's the minor problem that Mili-D and Dougie are dressed very formally while the SNP supporters are not. Blending into the crowd isn't an option. Mili-D thinks they should just hold the side, Alexander thinks they should fucking debate the SNP, unprepared, in the middle of an Edinburgh street, in front of supporters of the SNP. (Read: Alexander is wrong)  
+	id = INTER.12
+	title = INTER.12.t
+	desc = INTER.12.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.12.o1 #DEBATE STURGEON LIKE A MORON
+			country_event = {
+			id = INTER.14
+			days = 3
+		}
+	}
+	option = {
+		name = INTER.12.o2 #GO DOWN THE SIDE
+		country_event = {
+			id = INTER.15
+			days = 3
+		}
+	}
+}
+country_event = { #Alexander gets publicly humiliated in a debate about drugs and is repeatedly shouted over by the audience and it generally doesn't go very well. On stage, Sturgeon compliments the fact that Livingstone has said he'd work with the SNP if they ever got in power in Scotland. Mili-D facepalms.
+	id = INTER.14
+	title = INTER.14.t
+	desc = INTER.14.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.14.o1
+		country_event = {
+			id = INTER.16
+			days = 3
+		}
+	}
+}
+country_event = { #Cut to a week later. Ken! has suddenly gained a lot of support in Scotland after the video of Douglas fucking it went viral. The polls are in the toilet and Mandelson seems almost inactive. Balls has failed to prevent the democratic revolution.
+	id = INTER.16
+	title = INTER.16.t
+	desc = INTER.16.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.16.o1
+		country_event = {
+			id = KEN.1
+			days = 31
+		}
+	}
+}
+country_event = { #Mili-D and Alexander go down the side, and no one sees them. Alexander apologises for failing to plan well, and says he'll try to rally the Mafia to Balls' side. 
+	id = INTER.15
+	title = INTER.15.t
+	desc = INTER.15.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.15.o1
+		country_event = {
+			id = BALLS.1
+			days = 31
+		}
+	}
+}
+country_event = { #Douglas Alexander talks to them about why they don't support Labour. One of them brings up how they aren't at all radical and how only the SNP supports radical change in Scotland. Dougie must act!
+	id = INTER.13
+	title = INTER.13.t
+	desc = INTER.13.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.13.o1
+		country_event = {
+			id = INTER.17
+			days = 3
+		}
+	}
+}
+country_event = { #Smash cut to a month later as Douglas Alexander telling an SNP supporter that their ideals are useless have also gone viral. Ken is riding the wave of radical ideals in Scotland. The Caledonian Mafia can't stop it. Balls has failed.
+	id = INTER.17
+	title = INTER.17.t
+	desc = INTER.17.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.17.o1
+		country_event = {
+			id = INTER.18
+			days = 3
+		}
+	}
+}
+country_event = { #Going out the back, Mili-D notices some young stragglers with the SNP group. He suggests talking to them with Alexander, adding the possibility that it may drum up some minor support for the Labour group if they can get the kids to get the word out. After all, they're just kids, what could possibly go wrong?
+	id = INTER.18
+	title = INTER.18.t
+	desc = INTER.18.d
+	picture = owen_assassinated
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = INTER.18.o1
+		country_event = {
+			id = KEN.1
+			days = 31
+		}
+	}
+}
+#Ken Events
+country_event = {
+	id = KEN.1
+	title = KEN.1.t
+	desc = KEN.1.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.1.o1
+		complete_national_focus = ENG_red_kens_big_break
+		set_politics = {
+			ruling_party = moderate_socialist
+		}
+		create_country_leader = {
+			name = "Ed Balls"
+			desc = "POLITICS_ED_BALLS_DESC"
+			picture = "Portrait_ENG_Ed_Balls.dds"
+#			expire = "1965.1.1"
+			ideology = new_democrat_ideology
+#			traits = {
+#		
+#			}
+		}
+	}
+}
+country_event = {
+	id = KEN.2 #ken tries to rename the house of lords
+	title = KEN.2.t
+	desc = KEN.2.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.2.o1
+		#placeholder effect
+		set_country_flag = house_of_lords_renamed_Flag
+	}
+}
+country_event = {
+	id = KEN.3 #ken tries to abolish the house of lords
+	title = KEN.3.t
+	desc = KEN.3.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.3.o1
+		set_country_flag = house_of_lords_abolished_Flag
+	}
+}
+
+country_event = {
+	id = KEN.4 #john major shits on ken on the radio
+	title = KEN.4.t
+	desc = KEN.4.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.4.o1
+	}
+}
+
+country_event = {
+	id = KEN.5 #modern art funded, people are grumpy because it's not a fucking landscape painting of the rolling hills of pisslington-upon-dirf
+	title = KEN.5.t
+	desc = KEN.5.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.5.o1
+	}
+}
+country_event = {
+	id = KEN.6 
+	title = KEN.6.t
+	desc = KEN.6.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.6.o1
+	}
+}
+country_event = {
+	id = KEN.7 
+	title = KEN.7.t
+	desc = KEN.7.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.7.o1
+	}
+}
+country_event = {
+	id = KEN.8 
+	title = KEN.8.t
+	desc = KEN.8.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.8.o1
+		add_opinion_modifier = {
+			target = NEA
+			modifier = fawning_nonsense
+		}
+	}
+}
+country_event = {
+	id = KEN.9 
+	title = KEN.9.t
+	desc = KEN.9.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.9.o1
+		add_opinion_modifier = {
+			target = PAL
+			modifier = public_insult
+		}
+	}
+}
+country_event = {
+	id = KEN.10 
+	title = KEN.10.t
+	desc = KEN.10.d
+	picture = Kenisback
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KEN.10.o1
+	}
+}
+#Balls Events
+country_event = {
+	id = BALLS.1
+	title = BALLS.1.t
+	desc = BALLS.1.d
+	picture = Ballsishere
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = BALLS.1.o1
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Ed Balls"
+			desc = "POLITICS_ED_BALLS_DESC"
+			picture = "Portrait_ENG_Ed_Balls.dds"
+#			expire = "1965.1.1"
+			ideology = new_democrat_ideology
+#			traits = {
+#		
+#			}
+		}
+	}
+}
+#Mandelson Events
+country_event = {
+	id = MANDY.1
+	title = MANDY.1.t
+	desc = MANDY.1.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = MANDY.1.o1
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Ed Balls"
+			desc = "POLITICS_ED_BALLS_DESC"
+			picture = "Portrait_ENG_Ed_Balls.dds"
+#			expire = "1965.1.1"
+			ideology = new_democrat_ideology
+#			traits = {
+#		
+#			}
+		}
+		set_politics = {
+			ruling_party = liberal
+		}
+		set_party_name = {
+			ideology = liberal
+			name = "Labour Party (Hard Right)"
+		}
+		create_country_leader = {
+			name = "Peter Mandelson"
+			desc = "POLITICS_PETER_MANDELSON_DESC"
+			picture = "Portrait_ENG_Peter_Mandelson.dds"
+#			expire = "1965.1.1"
+			ideology = social_liberal
+#			traits = {
+#		
+#			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = MANDY.2
+				days = 31
+			}
+		}
+	}
+}
+country_event = {
+	id = MANDY.2 #hello there, dataminers! here to see the secret path instead of playing the game, are you?
+	title = MANDY.2.t
+	desc = MANDY.2.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = MANDY.2.o1
+		load_focus_tree = uk_true_mandeltree
+		set_politics = {
+			ruling_party = communist
+		}
+		set_party_name = {
+			ideology = communist
+			name = "New Labour Party"
+		}
+		create_country_leader = {
+			name = "Peter Mandelson"
+			desc = "POLITICS_PETER_MANDELSON_DESC_2"
+			picture = "Portrait_ENG_Peter_Mandelson_Alternate.dds"
+#			expire = "1965.1.1"
+			ideology = leninist
+#			traits = {
+#		
+#			}
+		}
+	}
+}
+
+###torysuccession
+country_event = {
+	id = debug.1
+	title = debug.1.t
+	desc = debug.1.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = debug.1.o1
+		load_focus_tree = uk_torysuccession
+		set_politics = {
+			ruling_party = centrist
+		}
+		create_country_leader = {
+			name = "David Cameron"
+			desc = "POLITICS_DAVID_CAMERON_DESC"
+			picture = "Portrait_ENG_David_Cameron.dds"
+#			expire = "1965.1.1"
+			ideology = centrist_ideology
+#			traits = {
+#		
+#			}
+		add_popularity = {
+    		ideology = centrist
+    		popularity = 0.2
+		}
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.1 #ruth is elected
+	title = torysuccession.1.t
+	desc = torysuccession.1.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.1.o1
+		clear_variable = i_like_dinosaurs
+		clear_variable = bee_movie
+		load_focus_tree = uk_ruth
+		set_politics = {
+			ruling_party = centrist
+		}
+		create_country_leader = {
+			name = "Ruth Davidson"
+			desc = "POLITICS_RUTH_DAVIDSON_DESC"
+			picture = "Portrait_ENG_Ruth_Davidson.dds"
+#			expire = "1965.1.1"
+			ideology = centrist_ideology
+#			traits = {
+#		
+#			}
+		}
+		add_popularity = {
+    		ideology = centrist
+    		popularity = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.2 #nige is elected
+	title = torysuccession.2.t
+	desc = torysuccession.2.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.2.o1
+		clear_variable = i_like_dinosaurs
+		clear_variable = bee_movie
+		load_focus_tree = uk_nige
+		set_politics = {
+			ruling_party = national_conservative
+		}
+		add_popularity = {
+    		ideology = national_conservative
+    		popularity = 0.3
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.3 #letwin has a discussion with cameron about the leadership race
+	title = torysuccession.3.t
+	desc = torysuccession.3.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.3.o1
+		country_event = {
+			id = torysuccession.4
+			days = 3
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.4 #nige talks to boris about supporting him
+	title = torysuccession.4.t
+	desc = torysuccession.4.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.4.o1
+	}
+}
+
+country_event = {
+	id = torysuccession.5 #a ton of moderates run for the leadership
+	title = torysuccession.5.t
+	desc = torysuccession.5.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.5.o1
+		country_event = {
+			id = torysuccession.6
+			days = 3
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.6 #nige begins to outpace them in polls
+	title = torysuccession.6.t
+	desc = torysuccession.6.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.6.o1
+	}
+}
+
+country_event = {
+	id = torysuccession.7 #The Moderates make an extremely risky deal by drawing lots between Cameron and Davidson to see who drops out. Davidson wins.
+	title = torysuccession.7.t
+	desc = torysuccession.7.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.7.o1
+		country_event = {
+			id = torysuccession.8
+			days = 3
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.8 #Boris and Nige have a quick laugh about how they picked someone so fresh.
+	title = torysuccession.8.t
+	desc = torysuccession.8.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.8.o1
+		set_variable = {
+			var = i_like_dinosaurs
+			value = 1
+		}
+		set_variable = {
+			var = bee_movie
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.9 #Boris Talks To Clarke
+	title = torysuccession.9.t
+	desc = torysuccession.9.d
+	picture = ClarkePhoto
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.9.o1
+		country_event = {
+			id = torysuccession.10
+			days = 3
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.10 #Ruth Talks To Clarke
+	title = torysuccession.10.t
+	desc = torysuccession.10.d
+	picture = ClarkePhoto2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.10.o1
+		add_to_variable = {
+			var = i_like_dinosaurs
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.11 #Boris Talks To The 1922 Committee
+	title = torysuccession.11.t
+	desc = torysuccession.11.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.11.o1
+		country_event = {
+			id = torysuccession.12
+			days = 3
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.12 #Ruth Talks To The 1922 Committee
+	title = torysuccession.12.t
+	desc = torysuccession.12.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.12.o1
+		add_to_variable = {
+			var = i_like_dinosaurs
+			value = 1
+		}
+	}
+	option = {
+		name = torysuccession.12.o2
+		add_to_variable = {
+			var = bee_movie
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.13 #Boris has lunch with Major
+	title = torysuccession.13.t
+	desc = torysuccession.13.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.13.o1
+		add_to_variable = {
+			var = bee_movie
+			value = 1
+		}
+	}
+	option = {
+		name = torysuccession.13.o2
+		add_to_variable = {
+			var = i_like_dinosaurs
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = torysuccession.14 #and the winner is...
+	title = torysuccession.14.t
+	desc = torysuccession.14.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = torysuccession.14.o1
+		if = {
+            limit = {
+                check_variable = {
+                	i_like_dinosaurs > bee_movie
+                }
+            }
+            country_event = { id = torysuccession.1 }
+        }
+        if = {
+            limit = {
+                check_variable = {
+                    i_like_dinosaurs < bee_movie
+                }
+            }
+            country_event = { id = torysuccession.2 }
+        }
+	}
+}
+###interkengum
+country_event = {
+	id = KENTWO.1 
+	title = KENTWO.1.t
+	desc = KENTWO.1.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KENTWO.1.o1
+		country_event = {
+			id = KENTWO.2
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = KENTWO.2 
+	title = KENTWO.2.t
+	desc = KENTWO.2.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KENTWO.2.o1
+		country_event = {
+			id = KENTWO.3
+			days = 3
+		}
+	}
+	option = {
+		name = KENTWO.2.o2
+		country_event = {
+			id = KENTWO.4
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = KENTWO.3 #glasman's Back, Alright!
+	title = KENTWO.3.t
+	desc = KENTWO.3.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KENTWO.3.o1
+		set_politics = {
+			ruling_party = national_bolshevik
+		}
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = 0.2
+		}
+		create_country_leader = {
+			name = "Maurice Glasman"
+			desc = "POLITICS_MAURICE_GLASMAN_DESC"
+			picture = "Portrait_ENG_Maurice_Glasman.dds"
+#			expire = "1965.1.1"
+			ideology = national_bolshevik_ideology
+#			traits = {
+#		
+#			}
+		}
+		set_cosmetic_tag = ENG_glasman
+	}
+}
+
+country_event = {
+	id = PRESIDENTIALELECTIONS.1 #owen steps up as interim president until the election
+	title = PRESIDENTIALELECTIONS.1.t
+	desc = PRESIDENTIALELECTIONS.1.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = PRESIDENTIALELECTIONS.1.o1
+		clr_country_flag = queen_flag
+		set_country_flag = president_flag
+		set_country_flag = owen_president_flag
+		country_event = {
+			id = PRESIDENTIALELECTIONS.2
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = PRESIDENTIALELECTIONS.2 #labour primaries
+	title = PRESIDENTIALELECTIONS.2.t
+	desc = PRESIDENTIALELECTIONS.2.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = PRESIDENTIALELECTIONS.2.o1
+		set_country_flag = eng_khan_flag
+		country_event ={
+			id = PRESIDENTIALELECTIONS.3
+			days = 3
+		}
+	}
+	option = {
+		name = PRESIDENTIALELECTIONS.2.o2
+		set_country_flag = eng_kinnock_flag
+		country_event ={
+			id = PRESIDENTIALELECTIONS.3
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = PRESIDENTIALELECTIONS.3 #tory primaries
+	title = PRESIDENTIALELECTIONS.3.t
+	desc = PRESIDENTIALELECTIONS.3.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = PRESIDENTIALELECTIONS.3.o1
+		set_country_flag = eng_may_flag
+		country_event ={
+			id = PRESIDENTIALELECTIONS.4
+			days = 3
+		}
+	}
+	option = {
+		name = PRESIDENTIALELECTIONS.3.o2
+		set_country_flag = eng_clarkson_flag
+		country_event ={
+			id = PRESIDENTIALELECTIONS.4
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = PRESIDENTIALELECTIONS.4 #liberal primaries
+	title = PRESIDENTIALELECTIONS.4.t
+	desc = PRESIDENTIALELECTIONS.4.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = PRESIDENTIALELECTIONS.4.o1
+		set_country_flag = eng_ashdown_flag
+		country_event ={
+			id = PRESIDENTIALELECTIONS.5
+			days = 3
+		}
+	}
+	option = {
+		name = PRESIDENTIALELECTIONS.4.o2
+		set_country_flag = eng_swinson_flag
+		country_event ={
+			id = PRESIDENTIALELECTIONS.5
+			days = 3
+		}
+	}
+}
+country_event = {
+	id = PRESIDENTIALELECTIONS.5 #presidential election
+	title = PRESIDENTIALELECTIONS.5.t
+	desc = PRESIDENTIALELECTIONS.5.d
+	picture = MandyPic
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = PRESIDENTIALELECTIONS.5.o1
+		IF = {
+			limit = {
+				has_country_flag = eng_may_flag
+			}
+			set_country_flag = may_president_flag
+			clr_country_flag = owen_president_flag
+		}
+		ELSE_IF = {
+			limit = {
+				has_country_flag = eng_clarkson_flag
+			}
+			set_country_flag = clarkson_president_flag
+			clr_country_flag = owen_president_flag		
+		}
+	}
+	option = {
+		name = PRESIDENTIALELECTIONS.5.o2
+		IF = {
+			limit = {
+				has_country_flag = eng_khan_flag
+			}
+			set_country_flag = khan_president_flag
+			clr_country_flag = owen_president_flag
+		}
+		ELSE_IF = {
+			limit = {
+				has_country_flag = eng_kinnock_flag
+			}
+			set_country_flag = kinnock_president_flag
+			clr_country_flag = owen_president_flag
+		}
+	}
+	option = {
+		name = PRESIDENTIALELECTIONS.5.o3
+		IF = {
+			limit = {
+				has_country_flag = eng_ashdown_flag
+			}
+			set_country_flag = ashdown_president_flag
+			clr_country_flag = owen_president_flag
+		}
+		ELSE_IF = {
+			limit = {
+				has_country_flag = eng_swinson_flag
+			}
+			set_country_flag = swinson_president_flag
+			clr_country_flag = owen_president_flag
+		}
+	}
+}

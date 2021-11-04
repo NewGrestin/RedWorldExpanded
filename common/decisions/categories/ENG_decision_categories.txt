@@ -1,0 +1,10 @@
+ENG_gorbdon= {
+    icon = usa_congress
+    allowed = {
+        original_tag = ENG
+    }
+
+    scripted_gui = ENG_devolved_leaders_gui
+
+    priority = 93
+}

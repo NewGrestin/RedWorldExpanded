@@ -1,0 +1,27 @@
+defined_text = {
+    name = MajorDesc
+    trigger = {
+        always = yes
+    }
+    text = {
+        localization_key = ENG_Major_Desc
+    }
+}
+defined_text = {
+    name = GorbdonDesc
+    trigger = {
+        always = yes
+    }
+    text = {
+        localization_key = ENG_Gorbdon_Desc
+    }
+}
+defined_text = {
+    name = AlexanderDesc
+    trigger = {
+        always = yes
+    }
+    text = {
+        localization_key = ENG_Alexander_Desc
+    }
+}

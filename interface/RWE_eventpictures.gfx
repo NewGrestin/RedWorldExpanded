@@ -1,5 +1,32 @@
 spriteTypes = {
-
+	spriteType = {
+		name = "EdBalls"
+		texturefile = "gfx/event_pictures/report_event/ed_balls.dds"
+	}
+	spriteType = {
+		name = "Kenisback"
+		texturefile = "gfx/event_pictures/report_event/ken_photo.dds"
+	}
+	spriteType = {
+		name = "Ballsishere"
+		texturefile = "gfx/event_pictures/report_event/balls_is_here.dds"
+	}
+	spriteType = {
+		name = "MandyPic"
+		texturefile = "gfx/event_pictures/report_event/mandy_photo.dds"
+	}
+	spriteType = {
+		name = "KennedyResignation"
+		texturefile = "gfx/event_pictures/report_event/kennedy_photo.dds"
+	}
+	spriteType = {
+		name = "ClarkePhoto"
+		texturefile = "gfx/event_pictures/report_event/clarke_photo.dds"
+	}
+	spriteType = {
+		name = "ClarkePhoto2"
+		texturefile = "gfx/event_pictures/report_event/clarke_photo_2.dds"
+	}
 	spriteType = {
 		name = "generic_government_bond"
 		texturefile = "gfx/event_pictures/report_event/generic_government_bond.tga"

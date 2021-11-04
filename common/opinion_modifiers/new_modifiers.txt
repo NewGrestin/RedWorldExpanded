@@ -1,0 +1,29 @@
+opinion_modifiers = {
+	a_lovely_party = {
+		value = 5
+	}
+	DIPLOMACY = {
+		value = 15
+	}
+	an_unfortunate_history = {
+		value = -10`
+	}
+	trade_good = {
+		value = 10
+	}
+	oil_deals = {
+		value = 20
+	}
+	public_insult = {
+		value = -10
+	}
+	fawning_nonsense = {
+		value = 5
+	}
+	auth_sturgeon_english = {
+		value = -20
+	}
+	auth_sturgeon_scottish = {
+		value = -20
+	}
+}

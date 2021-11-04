@@ -1,0 +1,18 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_britain_fom_alan_johnson"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_fom_alan_johnson.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_britain_ind_ed_balls"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_ind_ed_balls.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_britain_nsm_harriet_harman"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_nsm_harriet_harman.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_britain_sic_alastair_campbell"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_sic_alastair_campbell.dds"			
+	}
+}

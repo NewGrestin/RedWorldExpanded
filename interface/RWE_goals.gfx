@@ -1,5 +1,87 @@
 spriteTypes = {	
 	SpriteType = {
+		name = "GFX_our_last_full_year"
+		texturefile = "gfx/interface/goals/britain2/our_last_full_year.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_balls_to_the_wall"
+		texturefile = "gfx/interface/goals/britain2/balls_to_the_wall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_alcoholism_what_alcoholism"
+		texturefile = "gfx/interface/goals/britain2/alcoholism_what_alcoholism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_alternative_vote"
+		texturefile = "gfx/interface/goals/grestin/Focus_Election_Demographics.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mixed_member_proportional"
+		texturefile = "gfx/interface/goals/grestin/Focus_Generic_Democratic_Election.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_what_we_promised"
+		texturefile = "gfx/interface/goals/grestin/PB_ENG_Party_of_Haig.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_the_parliamentary_vote"
+		texturefile = "gfx/interface/goals/grestin/Focus_Parliament_Constitution.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_no_matter_our_fate"
+		texturefile = "gfx/interface/goals/grestin/Generic_Social_Democracy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_THIS_IS_OUR_MANDATE"
+		texturefile = "gfx/interface/goals/grestin/Focus_Generic_Molotov.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_be_careful"
+		texturefile = "gfx/interface/goals/grestin/Focus_Generic_Accept_Treaty.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_at_last_electoral_reform"
+		texturefile = "gfx/interface/goals/grestin/Focus_ENG_London_Calling.dds"
+	}
+	SpriteType = {
+		name = "GFX_blue_wave"
+		texturefile = "gfx/interface/goals/britain2/blue_wave.dds"
+	}
+	SpriteType = {
+		name = "GFX_bit_of_an_issue"
+		texturefile = "gfx/interface/goals/britain2/bit_of_an_issue.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_committee"
+		texturefile = "gfx/interface/goals/britain2/the_committee.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_stalwart"
+		texturefile = "gfx/interface/goals/britain2/the_stalwart.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_local_leader"
+		texturefile = "gfx/interface/goals/britain2/the_local_leader.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_beginning"
+		texturefile = "gfx/interface/goals/grestin/Liberal_Conservatism.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_thinning_of_the_ranks"
+		texturefile = "gfx/interface/goals/grestin/PB_ENG_Haig_Initial.dds"
+	}
+	SpriteType = {
 		name = "GFX_goal_MOT_Denounce_Technology"
 		texturefile = "gfx/interface/goals/MOT_Denounce_Technology.dds"			
 	}
