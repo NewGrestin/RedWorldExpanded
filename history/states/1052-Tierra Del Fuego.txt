@@ -1,0 +1,21 @@
+state={
+	id=1052
+	name="STATE_1052"
+	
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	
+	provinces={
+		11009
+	}
+	manpower=127205
+	buildings_max_level_factor=1.000
+	
+	state_category = enclave
+}

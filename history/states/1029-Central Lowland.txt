@@ -1,0 +1,19 @@
+state={
+	id=1029
+	name="STATE_1029"
+	resources={
+		steel=12.000
+	}
+	provinces={
+		1560 1760 10341 10526 
+	}
+	history = { 
+		owner = GRL
+		add_core_of = GRL
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+}

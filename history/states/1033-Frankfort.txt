@@ -1,0 +1,16 @@
+state={
+	id=1033
+	name="STATE_1033"
+	history = { 
+		owner = GRL
+		add_core_of = GRL
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		7420 9747 11714 
+	}
+	manpower=1700
+	buildings_max_level_factor=1.000
+}
