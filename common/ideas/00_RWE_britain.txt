@@ -308,7 +308,7 @@ ideas = {
 				has_country_flag = ENG_starting_ministers
 			}
 
-			picture = britain_sic_alastair_campbell
+			picture = eng_sic_alastair_campbell
 
 			traits = { autocratic_charmer }
 		}
@@ -325,7 +325,7 @@ ideas = {
 			    has_country_flag = ENG_starting_ministers
 			}
 
-			picture = britain_fom_alan_johnson
+			picture = eng_fom_alan_johnson
 			
 			traits = { apologetic_clerk }			
 		}
@@ -355,7 +355,7 @@ ideas = {
 			    has_country_flag = ENG_starting_ministers
 			}
 
-			picture = britain_ind_ed_balls
+			picture = eng_ind_ed_balls
 			
 			traits = { administrative_genius }	
 		}
@@ -384,7 +384,7 @@ ideas = {
 			    has_country_flag = ENG_starting_ministers
 			}
 
-			picture = britain_nsm_harriet_harman
+			picture = eng_nsm_harriet_harman
 			
 			traits = { silent_lawyer }	
 		}

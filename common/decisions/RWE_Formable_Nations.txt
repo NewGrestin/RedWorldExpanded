@@ -146,6 +146,93 @@ RWE_Formable_Nations = {
 		}
 	}
 
+	RWE_Form_Britain = {
+
+		icon = form_united_kingdom
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			OR = {
+				original_tag = ENG
+				original_tag = WAL
+				original_tag = SCO
+				original_tag = IRE
+				original_tag = ULS
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 123
+			controls_state = 129
+			controls_state = 126
+			controls_state = 125
+			controls_state = 129
+			controls_state = 128
+			controls_state = 122
+			controls_state = 132
+			controls_state = 130
+			controls_state = 131
+			controls_state = 121
+			controls_state = 133
+			controls_state = 120
+			controls_state = 119
+			controls_state = 118
+			controls_state = 135
+			controls_state = 134
+
+			NOT = {
+				has_country_flag = RWE_Has_Formed_Britain
+				has_country_flag = RWE_Has_Formed_Endgame_Nation
+			}
+		}
+
+		days_re_enable = 1
+
+		complete_effect = {
+			123  = { add_core_of = ROOT }
+			129 = { add_core_of = ROOT }
+			126 = { add_core_of = ROOT }
+			125 = { add_core_of = ROOT }
+			129 = { add_core_of = ROOT }
+			128 = { add_core_of = ROOT }
+			122 = { add_core_of = ROOT }
+			132 = { add_core_of = ROOT }
+			130 = { add_core_of = ROOT }
+			131 = { add_core_of = ROOT }
+			121 = { add_core_of = ROOT }
+			133 = { add_core_of = ROOT }
+			120 = { add_core_of = ROOT }
+			119 = { add_core_of = ROOT }
+			118 = { add_core_of = ROOT }
+			135 = { add_core_of = ROOT }
+			134 = { add_core_of = ROOT }
+
+			set_country_flag = RWE_Has_Formed_Britain
+
+			drop_cosmetic_tag = yes
+
+			if = {
+				limit = {
+					has_country_leader = {
+						name = "Theresa Brasier"
+						ruling_only = yes
+					}					
+				}
+				set_cosmetic_tag = RWE_United_Britain_Phoenix
+
+				else = {
+					set_cosmetic_tag = RWE_United_Britain
+				}
+			}
+		}
+	}
+
 	RWE_Form_Napoleonic_Empire = {
 
 		icon = form_napoleon
@@ -228,4 +315,3 @@ RWE_Formable_Nations = {
 			set_cosmetic_tag = RWE_Formed_Napoleonic_Empire
 		}
 	}
-}
