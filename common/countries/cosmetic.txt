@@ -637,3 +637,107 @@ CGH_gorby = {
 	color = rgb { 127 0 0 }
 	color_ui = rgb { 127 0 0 }
 }
+USS = {
+    color = rgb { 58 168 202 }
+    color_ui = rgb { 58 168 202 }
+}
+
+EGY_Caliphate = {
+    color = rgb { 30 30 30 }
+    color_ui = rgb { 58 168 202 }
+}
+
+EUU = {
+    color = rgb { 226 0 0 }
+    color_ui = rgb { 226 0 0 }
+}
+
+ITA_Roman = {
+    color = rgb { 149 56 56 }
+    color_ui = rgb { 149 56 56 }
+}
+
+ITA_Papal = {
+    color = rgb { 255 245 91 }
+    color_ui = rgb { 255 245 91 }
+}
+
+AMC_Habsburg = {
+    color = rgb { 255 252 252 }
+    color_ui = rgb { 255 245 91 }
+}
+
+AMC_NewFrance = {
+    color = rgb { 203 242 247 }
+    color_ui = rgb { 255 245 91 }
+}
+
+NEA_Appalachia = {
+    color = rgb { 133 157 168 }
+    color_ui = rgb { 115 115 115 }
+}
+
+USA_military_command = {
+    color = rgb { 133 157 168 }
+    color_ui = rgb { 115 115 115 }
+}
+
+YEM_saudi = {
+    color = rgb { 85 137 67 }
+    color_ui = rgb { 85 137 67 }
+}
+
+FSS = {
+    color = rgb { 102 51 0 }
+    color_ui = rgb { 255 245 91 }
+}
+
+SGL = {
+    color = rgb { 143 111 109 }
+    color_ui = rgb { 115 115 115 }
+}
+
+SGL_Commonwealth = {
+    color = rgb { 143 111 109 }
+    color_ui = rgb { 115 115 115 }
+}
+
+SGL_NewEngland = {
+    color = rgb { 143 111 109 }
+    color_ui = rgb { 115 115 115 }
+}
+
+FSS_CCR = {
+    color = rgb { 102 51 0 }
+    color_ui = rgb { 255 245 91 }
+}
+
+MWA_clark = {
+    color = rgb { 128 135 156 }
+    color_ui = rgb { 128 135 156 }
+}
+
+MWA_new = {
+    color = rgb { 87 123 181 }
+    color_ui = rgb { 87 123 181 }
+}
+
+NTI = {
+    color = rgb { 106 138 114 }
+    color_ui = rgb { 98 128 106 }
+}
+
+ENG_Phoenix = {
+	color = rgb { 128 24 0 }
+	color_ui = rgb { 115 22 0 }
+}
+
+PCA_GoldenGate = {
+	color = rgb { 250 167 108 }
+	color_ui = rgb { 247 137 64 }
+}
+
+PCA_democracy_cosmetic = {
+	color = rgb { 250 167 108 }
+	color_ui = rgb { 247 137 64 }
+}
