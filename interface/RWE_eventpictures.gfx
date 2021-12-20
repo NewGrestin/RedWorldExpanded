@@ -21,6 +21,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "JAP_Komeito"
+		texturefile = "gfx/event_pictures/report_event/JAP_Komeito.tga"
+	}
+
+	spriteType = {
 		name = "JAP_Emperor"
 		texturefile = "gfx/event_pictures/report_event/JAP_Emperor.tga"
 	}

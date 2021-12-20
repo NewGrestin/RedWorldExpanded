@@ -1,0 +1,39 @@
+﻿l_english:
+
+  ##########################
+  # IDEAS
+  ##########################
+  USA_Legitimacy:0 "Legitimacy of the New Government"
+
+  ##########################
+  # EVENTS
+  ##########################
+  american_unification.50.t:0 "Heir of Reagan's America?"
+  american_unification.50.d:0 "Under our new government, the United States has been reborn. While it may look rather different from the USA of the Cold War, with the disastrous economic policies and foreign defeats, our government still claims to be a direct successor of the old United States government. Despite our differences, we continue to recognize the \"American-ness\" of our regime, both domestically and internationally. \n\nDespite this, we continue to face tremendous opposition, both domestically and internationally, regarding our claims of succession. Domestically, groups and organisations continue to harass our new state, either motivated by ideological opposition, strong regional identity or simple pursuits of banditry. Internal reconstruction is needed to restore the people's faith in America. Internationally, we face the global order constructed by the Soviet Union and its fundamental opposition to America. Besides the USSR, regional powers like Canada, Brazil, Europe and Japan all seem to struggle with their relationship to the new US government: is it wise to befriend the new government or should they be careful in approaching us? Time will tell how this will play out."
+  american_unification.50.a:0 "Let's rebuild this home of the brave..." 
+  american_unification.51.t:0 "The House of Mr. President"
+  american_unification.51.d:0 "
+  american_unification.51.a:0 "Turn it into a museum"
+  american_unification.51.b:0 "Restore its original purpose"
+
+
+  ##########################
+  # DECISIONS
+  ##########################
+  RWE_Unifier:0 "The New American Vision"
+  RWE_Unifier_desc:0 "\n\n\n\n\n\n\nballs"
+  USA_Status_of_the_White_House:0 "Future of the White House" 
+  USA_Status_of_the_White_House_desc:0 "The White House represent many things to many people. A visible link to the old Reaganite America, to some the buildings represents hope and democracy. Others, however, see it as a symbol of presidentialist tyranny, the sins of our founding fathers. A few would even go so far as seeing it as a representation of the old, fallen America and thus not something that needs to be maintained as a national symbol. We will need to make a decision regarding this house of the presidents of old America."
+
+  ##########################
+  # TT
+  ##########################
+  USA_POST_UNI_MODIFIERS:0 "§YBased on what type of regime has united the old United States, different modifiers will be added to the unifier.§!"
+
+  USA_DECISION_FASCIST:0 "§YThis decision is visible because our government is far-right§!"
+  USA_DECISION_NATIONALIST:0 "§YThis decision is visible because our government is nationalist§!"
+  USA_DECISION_MONARCHIST:0 "§YThis decision is visible because our government is monarchist§!"
+  USA_DECISION_DEMOCRATIC:0 "§YThis decision is visible because our government is democratic§!"
+  USA_DECISION_MODERATE_LEFT:0 "§YThis decision is visible because our government is moderately left§!"
+  USA_DECISION_RADICAL_LEFT:0 "§YThis decision is visible because our government is revolutionary socialist§!"
+  USA_DECISION_COMMUNIST:0 "§YThis decision is visible because our government is communist§!"

@@ -68,3 +68,185 @@ JAP_Election_Campaign = {
 		days_remove = 30
 	}
 }
+
+
+JAP_New_Liberal_Club = {
+
+	JAP_Against_NLC_Factionalism = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 45
+		}
+		fire_only_once = no
+		cost = 50
+		available = {
+		
+		}
+		modifier = {
+		political_power_factor = 0.15
+		}
+          days_remove = 75
+          remove_effect = {
+  
+          }
+	}
+}
+
+JAP_Japan_Socialist_Party = {
+
+	JAP_JSP_Poopy = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 45
+		}
+		fire_only_once = no
+		cost = 50
+		available = {
+		
+		}
+		modifier = {
+		political_power_factor = 0.15
+		}
+          days_remove = 75
+          remove_effect = {
+  
+          }
+	}
+}
+
+JAP_Japan_Communist_Party = {
+
+	JAP_JCP_Poopy = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 45
+		}
+		fire_only_once = no
+		cost = 50
+		available = {
+		
+		}
+		modifier = {
+		political_power_factor = 0.15
+		}
+          days_remove = 75
+          remove_effect = {
+  
+          }
+	}
+}
+
+JAP_Liberal_Democratic_Party = {
+
+	JAP_Relationship_with_Komeito = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 45
+		}
+		fire_only_once = no
+		cost = 50
+		available = {
+		
+		}
+		modifier = {
+		national_conservative_drift = 0.03
+		stability_weekly = 0.01
+		}
+          days_remove = 30
+          remove_effect = {
+               add_to_variable = { JAP_KOM_LDP_relationship = 1 }
+          }
+	}
+
+	JAP_Approach_the_NLC = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 45
+		}
+		fire_only_once = no
+		cost = 50
+		available = {
+		
+		}
+		modifier = {
+		liberal_drift = 0.03
+		}
+          days_remove = 30
+          remove_effect = {
+               add_to_variable = { JAP_NLC_LDP_relationship = 1 }
+          }
+	}
+
+	JAP_Use_the_Nettouyoku = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 45
+		}
+		fire_only_once = no
+		cost = 10
+		available = {
+		
+		}
+		modifier = {
+		fascist_drift = 0.04
+		nationalist_drift = 0.01
+		stability_weekly = -0.01
+		}
+          days_remove = 30
+
+	}
+
+	JAP_The_Special_Relationship = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 45
+		}
+		fire_only_once = yes
+		cost = 100
+		available = {
+		check_variable = { JAP_KOM_LDP_relationship > 2 }
+		}
+		complete_effect = { 
+		add_popularity = { ideology = nationalist popularity = 0.03 }
+		add_popularity = { ideology = national_conservative popularity = 0.01 }
+		custom_effect_tooltip = JAP_KOMEITO_SUPPORTS_LDP
+		set_country_flag = JAP_KOMEITO_RELATION
+		set_variable = { JAP_Komeito_Support = 4 }
+		clamp_variable = { 
+		var = JAP_Komeito_Support 
+		min = 0
+		max = 10
+		}
+		}
+	}
+
+	JAP_Komeito_Coalition_Mission = {
+		icon = generic_political_discourse
+		allowed = { tag = JAP }
+		available = { always = no }
+		activation = { always = no }
+		is_good = yes
+		selectable_mission = no 
+		days_mission_timeout = 100
+		timeout_effect = { 
+		activate_mission = JAP_Komeito_Coalition_Mission 
+		random_list = { 
+		15 = { }
+		55 = { 
+		custom_effect_tooltip = JAP_KOMEITO_RANDOM_EVENT
+		hidden_effect = {
+		random_list = { 
+		25 = { country_event = { id = rw_jap.43 days = 0 } }
+		25 = { country_event = { id = rw_jap.44 days = 0 } }
+		25 = { country_event = { id = rw_jap.45 days = 0 } }
+		25 = { country_event = { id = rw_jap.46 days = 0 } }
+		}
+		}
+		}
+		25 = { add_political_power = 15 }
+		5 = { add_political_power = -20 }
+		}
+		}
+	}
+
+}

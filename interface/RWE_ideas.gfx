@@ -3,11 +3,22 @@ spriteTypes = {
 		name = "GFX_LIN_Nazbol_Pic"
 		texturefile = "gfx/interface/LIN_Nazbol_Pic.tga"			
 	}
-	SpriteType = {
+	SpriteTGFX_idea_ype = {
 		name = "GFX_LIN_Nazbol_Icon"
 		texturefile = "gfx/interface/LIN_Nazbol_Icon.tga"			
 	}
-
+	SpriteType = {
+		name = "GFX_idea_USA_fighting_for_america"
+		texturefile = "gfx/interface/ideas/USA_fighting_for_america.dds"			
+	}
+	SpriteType = {
+		name = "GFX_idea_POL_Comrade_General"
+		texturefile = "gfx/interface/ideas/POL_Comrade_General.tga"			
+	}
+	SpriteType = {
+		name = "GFX_idea_POL_Mismanagement_Economy"
+		texturefile = "gfx/interface/ideas/POL_Mismanagement_Economy.tga"			
+	}
 	SpriteType = {
 		name = "GFX_idea_OPEC"
 		texturefile = "gfx/interface/ideas/OPEC.tga"			

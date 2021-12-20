@@ -1,0 +1,17 @@
+RWE_Unifier = {
+
+	USA_Status_of_the_White_House = {
+		icon = generic_political_discourse
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 25
+		available = {
+		
+		}
+		complete_effect = { country_event = { id = american_unification.51 days = 0 } }
+	}
+}
+
+

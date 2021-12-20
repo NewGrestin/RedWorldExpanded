@@ -15,6 +15,11 @@
   JAP_SENKAKU_CLASH:0 "§RThis action may provoke significant action from the Chinese mainland government§!."
   CHI_TOOK_SENKAKU_ISLANDS:0 "§YTaiwan§! §Rhas took the§! §YSenkaku Islands§!."
   JAP_LOST_SENKAKU:0 "§YThe People's Republic of China§! §Rhas took the§! §YSenkaku Islands§!."
+  JAP_KOMEITO_SUPPORTS_LDP:0 "If they accept, §CKomeito§! will support us in the next election. National conservative popularity is counted with the nationalist and fascist popularity of the LDP."
+  JAP_KOMEITO_LOSE_SUPPORT:0 "This action will §Rhurt§! £decrease_texticon our relationship with §CKomeito§!!" 
+  JAP_KOMEITO_GAIN_SUPPORT:0 "This action will §GImprove§! £increase_texticon our relationship with §CKomeito§!!" 
+  JAP_KOMEITO_RANDOM_EVENT:0 "a §Yrandom event§! involving §CKomeito§! happening."
+
   ##########################
   # DECISIONS
   ##########################
@@ -27,11 +32,30 @@
   JAP_Support_the_JSP:0 "Support the JSP"
   JAP_Support_the_LDP:0 "Support the LDP"
 
-  ##########################
-  # PARTIES
-  ##########################
+  JAP_Liberal_Democratic_Party:0 "Liberal Democratic Party"
+  JAP_Liberal_Democratic_Party_desc:0 "\n\n\n\n\n\n\nThe §GLiberal Democratic Party§! is a party that has lost its purpose in the Japanese system. Once the dominant force of Japanese politics and a contender to play a big part in the slow build up to a Japanese two-party system, the LDP was thrown into a chaotic and unstable political scene after the Lockheed scandal and the establishment of the NLC, which pushed the LDP into the more nationalistic fringes of Japanese society. \n\nSince then, the moderate image of the party has started to tear and the party now fills the niche of a national conservative party with explicit anti-communist ideas. The party pits Japan against the global order that was established with the fall of the USA and sees Japan as the logical successor of the USA as democratic world leader. Yet, can the LDP solve its own internal problems before it focusses on the external threats and is the party able to properly handle its new place in Japanese politics?\n"
+  JAP_Relationship_with_Komeito:0 "Strengthen the Komeito Relationship"
+  JAP_Relationship_with_Komeito_desc:0 "Komeito, also known as the Clean Government Party, has been a partner for the LDP since the '90s. A conservative party born out of a mainstream buddhist movement, the party embraces buddhist values that synergizes with our traditional, Japanese values. As fellow conservatives, we can help eachother out. \n\nFinishing this decision §Y3 times§! opens up §Gnew, important decisions§! regarding the LDP and Komeito."
+  JAP_The_Special_Relationship:0 "Formalizing our §CSpecial§! §GRelationship§!"
+  JAP_The_Special_Relationship_desc:0 "Komeito and the LDP are close partners through and through. While we differ on some issues, such as the ambitions of Japan in the current world and the social security system, we both share many views on how Japanese society should hold itself. \n\nThe close relationship we have build up with Komeito allows us thus to formalize a special relationship with Komeito. If we can convince them of it, not only would that build up our popularity, but it would also perhaps guarantee Komeito's support in the next election."
+  JAP_Use_the_Nettouyoku:0 "Use the Netto-uyoku"
+  JAP_Use_the_Nettouyoku_desc:0 "Described by English media as the Japanese equivelant of \"alt-right trolls\", Netto-uyoku are ultranationalist citizens of online spaces, espousing their radical views to the masses that listen. Extremely useful in gaining young, impressionable voters, the Netto-uyoku are an asset we are able to use and should if we need an election to be won."
+  JAP_Approach_the_NLC:0 "Approach the NLC"
+  JAP_Approach_the_NLC_desc:0 "The New Liberal Club was born out of the Lockheed Scandal that tore the LDP apart in the '70s. Basing its ideology on the moderate center of the old LDP and a staunch anti-corruption platform, the NLC has been rather important in the recent decades of Japanese politics. Perhaps, we should approach our old pals and rethink the position of the LDP in Japanese politics. \n\nFinishing this decision §Y5 times§! opens up §Gnew, important decisions§! regarding the LDP and NLC."
+  JAP_Komeito_Coalition_Mission:0 "Komeito Relationship Changes"
+  JAP_Komeito_Coalition_Mission_desc:0 "With the Komeito now on our side, the LDP has to take their view on issues into account. Komeito will approach us once every 100 days and give us the chance to improve the personal relationship we've build up with the party. If we, however, deny their wishes too often, they will leave the coalition, ending any positive effect we may have gotten from it."
 
-  ##########################
+  JAP_New_Liberal_Club:0 "New Liberal Club"
+  JAP_New_Liberal_Club_desc:0 "\n\n\n\n\n\n\nThe §ONew Liberal Club§! is a party."
+
+  JAP_Japan_Socialist_Party:0 "Japan Socialist Party"
+  JAP_Japan_Socialist_Party_desc:0 "\n\n\n\n\n\n\nThe §BJapan Socialist Party§! is a party."
+ 
+  JAP_Japan_Communist_Party:0 "Japanese Communist Party"
+  JAP_Japan_Communist_Party_desc:0 "\n\n\n\n\n\n\nThe §RJapan Communist Party§! is a party."
+ 
+
+ ##########################
   # IDEAS
   ##########################
 
@@ -131,12 +155,21 @@
   JAP_A_Fourth_Arrow_desc:0 "Abenomics has proven to be a strong recipe for going against the economic stagnation Japan has been experiencing. Yet the three arrows simply do not cut it. A fourth arrow is needed in these changing times, one that symbolizes the start of a new military-industrial complex able to grant both Japan and its allies the military might it needs against Soviet imperialism."
   JAP_Fukoku_Kyohei:0 "Fukoku Kyohei"
   JAP_Fukoku_Kyohei_desc:0 "Fukoku Kyohei (Japanese for \"Enrich the Country, Strenghten the Armed Forces\") originates from the Sengoku Jidai period of Japanese history. Yet, since then, the slogan has taken a new meaning. It symbolizes the important dynamic between private and public enterprise, known as Japan inc., that allows for industrial and economic growth."
-  JAP_Revision_of_History:0 "Revision of History"
-  JAP_Revision_of_History_desc:0 "Under the pressure of foreign imperialists, Japan has had to be ashamed of its history. From supposed \"war crimes\" to the comfort women of Taiwan and Korea, our modern history has few things to be proud of. We can no longer accept these events as supposed facts and revise history to fit better with the Japanese perspective."
-  JAP_Adress_Soviet_Imperialism:0 "Adress Soviet Imperialism"
-  JAP_Adress_Soviet_Imperialism_desc:0 "The expansion of communism in this day and age is the product of the extensive network of the Soviet Union. Funding revolutionary terrorists to invading countries, the Soviet Union has become the very thing it swore to never be: an imperialist. With the US out of the picture, we didn't gain a liberator of the proletariat, but just a red imperialist instead of the blue one."
-  JAP_Our_Friends_in_Nippon_Kaigi:0 "The Nippon Kaigi Connection"
-  JAP_Our_Friends_in_Nippon_Kaigi_desc:0 "Nippon Kaigi is one of the strongest lobbying organisations in Japanese politics. Filled with politicians, generals and businessmen, Nippon Kaigi's sole goal is the expansion of Japanese nationalism in our society. A shield against the wave of anti-nationalist propaganda from Moscow, Nippon Kaigi is a connection we should cherish."
+  JAP_Factory_of_East_Asia:0 "Factory of Asia"
+  JAP_Expand_our_Industrial_Muscle:0 "Flex the Industrial Muscle"
+  JAP_Contracts_with_Mitsubishi:0 "Contracts with Mitsubishi"
+  JAP_Militarize_New_Technologies:0 "Kickstart the ACIES"
+  JAP_Militarize_New_Technologies_desc:0 "As part of Japan's renewed industrial expansion and innovation, military innovation is one of the big challenges the JNDF faces. The LDP has made itself strong for a more innovative army of the future before the turn of the decade, yet changes have yet to be made. We can perhaps now start with updating our army before we are too late."
+  JAP_Next_Gen_Equipment:0 "Next-Gen Equipment"
+  JAP_Next_Gen_Equipment_desc:0 "The equipment used by the JNDF is slightly outdated, still stuck in the '80s with the fall of our biggest armaments exporter. For the next century, the JNDF needs bold takes on old stories. The next generation of warfare may safe Japan and its people the trouble of contemporary warfare."
+  JAP_Domestic_Aircraft_Production:0 "An Alternative Mitsubishi F-2"
+  JAP_Domestic_Aircraft_Production_desc:0 "Since the '90s, the Mitsubishi F-2 has fulfilled its job as a multirole fighter produced domestically for the Japanese aiforce. Yet, when we see the steps taken by many of our ambitious enemies, such as the Chinese, we have to ask ourselves if the F-2 is truly up to scratch for the next war. Perhaps, an alternative can be made to this old fighter?" 
+  JAP_Subsidize_High_Tech_Industries:0 "\"New Age Ideas\" Plan"
+  JAP_Subsidize_High_Tech_Industries_desc:0 "The LDP (and by extension Japan) has always fought on the forefront for its innovative industries. Japan has become the nation of big changes and bigger innovations. We can support these big changes with the financial incentives needed for these by subsidizing upcoming industries across the nation."
+  JAP_Private_Robotics:0 "Market of Ideas"
+  JAP_Private_Robotics_desc:0 "A big part of innovation is exchange. Researchers inspire eachother and this is no different in a free market economy. If we push for faster and more international exchanging of ideas, we can give the Japanese market a boost in terms of its innovation. Let the world come to Japan, so Japan can learn from the world."
+  JAP_Modernize_the_Assembly_Line:0 "The Modern Asian Assembly Line"
+  JAP_Modernize_the_Assembly_Line_desc:0 "We once were the nightmare of many Western industrialists, seeing how fast and efficiently the Japanese industry grew. Today, our assembly lines are in danger of being outsourced to Vietnam, India and Africa. We have to take quick action and utilize our technological edge in sustaining our name in production."
 
   JAP_NLC_Together:0 "\"Renew Japanese Democracy\"" 
   JAP_NLC_Together_desc:0 "After a long campaign, the NLC has found itself as the victor in the race for the Diet. With the party now having a majority, change can be made to the systems that led to Japan's stagnation. Decades of LDP rule can now be undone, for their policies failed Japan and brought us where we are today."
@@ -356,6 +389,25 @@
   rw_jap.41.t:0 "LDP loses to the Center"
   rw_jap.41.d:0 "As the results of the parliamentary election are becoming more and more clear with studies upon studies regarding the voter composition, party reputations and other variables, the LDP has taken major ideological hits. While the party shifted towards the right in their electoral campaign this year, they were simply unable to fill the void left by the moderate LDP voters with the radical right-wing votes. With moderates having left the party in droves, the center has grown exponentially, while the LDP has shrivelled into a small, right-wing force. With the electoral strategy beyond repair, the LDP's far-right has lost major influence in the party through surgical removals by senior politicians. Perhaps the liberal victory has given the LDP the incentive it needed since the collapse of the '55 system to become a proper, right-wing nationalist party: one that can actually challenge the government and find a proper place in the opposition as a populist, albeit rational force against the establishment."
   rw_jap.41.a:0 "From establishment to anti-establishment?"
+  rw_jap.42.t:0 "Start of the Special Relation"
+  rw_jap.42.d:0 "With the recent decision of the LDP to form a coalition between the LDP and Komeito, our special relationship has truly started. Komeito will support us in the next election and perhaps keep our government from falling, but on the condition that we will listen to them. \n\nIf we reject Komeito's requests too often or antagonize them in any way, shape or form, we may lose their support and will not be able to repair it."
+  rw_jap.42.a:0 "The LDP has found a great partner with Komeito!"
+  rw_jap.43.t:0 "Komeito pushes New Law"
+  rw_jap.43.d:0 "In their never-ending fight for transparency and cutting down the bureaucracy, Komeito has come to the LDP with the question to support their next initiative. This new piece of legislation is seeking to tackle the issues of the system by cutting down pieces of the ministries and redistributing power and competences around the system. Their proposal will need quite some effort from the LDP to support, but would improve the current relationship between the LDP and Komeito."
+  rw_jap.43.a:0 "They can count on our support!"
+  rw_jap.43.b:0 "We can't support this, I am afraid..."
+  rw_jap.44.t:0 "Komeito buds heads with LDP fringe"
+  rw_jap.44.d:0 "In a rather unfortunate twist of events, the LDP's far-right fringe has, once again, tried to gain publicity by screaming nonsense in the public sphere. Yet, while most of the LDP membership is okay with letting them rant and rave, Komeito has shown far less restraint with our ultranationalist fringe. With the current situation turning to public debate, Komeito has come to the party that it demands the leadership to take proper action to keep our fringe in line, before it damages the LDP's and Komeito's public image. While it's not normal for a coalition partner to demand a senior member of the coalition to do anything, Komeito has been rather persistent in us keeping our fringe in check, for the party does not share much of its views with our ultranationalist electorate."
+  rw_jap.44.a:0 "We will publicly apologize for their words and actions"
+  rw_jap.44.b:0 "Komeito can't push the LDP around, we will handle it ourselves"
+  rw_jap.45.t:0 "The LDP Alone or a Shared Victory?"
+  rw_jap.45.d:0 "We have recently pushed a rather popular bill through the National Diet with the support of Komeito. While the LDP has plans to publicly celebrate the adoption of this new, fresh bill, we haven't discussed how we should include the effort made by Komeito to allow this bill to pass. Through compromise and some advise, Komeito has been an asset to helping to get the bill through and it would secure our ties with the party in our special relationship if we celebrated their part in the bill too. Yet, others point that this should be a special moment for the LDP alone, as we had promised the bill in our campaign last election."
+  rw_jap.45.a:0 "This was a joint-effort, so we celebrate it as that!"
+  rw_jap.45.b:0 "The LDP was responsible for the bill, so we reap what we sowed alone"
+  rw_jap.46.t:0 "Bad Publicity for Komeito"
+  rw_jap.46.d:0 "The media has gotten their hands on a juicy piece of gossip this week regarding Komeito. While the details aren't clear to us (probably some local politician that had sticky hands or a connection with the Sokka Gai movement), it has had a serious impact on Komeito's popularity. It may be in our interest to help the party out if we want them to be a serious partner in the next election. However, others seem to think that this is completely Komeito's responsibility and that the party should thus accept the blame it has gotten."
+  rw_jap.46.a:0 "Komeito does little wrong, we can help them this time!"
+  rw_jap.46.b:0 "We aren't going to stick our necks out for Komeito, come on!"
 
   newsrw.35.t:0 "Anthrax Epidemic hits Japan"
   newsrw.35.d:0 "News from Japan has shocked the world and has forced governments across the globe to swiftly react with precautionary measures, as an anthrax epidemic has hit the heart of Japan, Tokyo. Already, 15.200 cases have been reported across the metropolitan area, with another few thousand expected to follow in the coming week. The city council of Tokyo has already responded with a temporary lockdown of the city and affected areas, with hospitals running overtime to combat the infection. \n\nThe cause of the incident is hotly contested at this point in time, with many suspecting it to be a bioterrorist attack against the Japanese state. However, evidence remains scarce currently, with the priority of the government being the finding, containing and treating of the affected. While anthrax isn't as infective as many other infections, people are still advised to not share a space with infected patients."

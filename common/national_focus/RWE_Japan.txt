@@ -233,7 +233,7 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Combat_the_Demographic_Issue
-	icon = GFX_goal_JAP_Toshio_Gov
+	icon = GFX_goal_generic_Child_Care
 	x = 6
 	y = 9
 
@@ -350,6 +350,12 @@ shared_focus = {
 
 	completion_reward = {
 	JAP_bureaucracy_level_down = yes
+	
+	if = { 
+	limit = { has_country_flag = JAP_KOMEITO_RELATION }
+	custom_effect_tooltip = JAP_KOMEITO_GAIN_SUPPORT
+	add_to_variable = { JAP_Komeito_Support = 1 }
+	}
 	}
 }
 
@@ -387,10 +393,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 
@@ -410,10 +412,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 
@@ -433,10 +431,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 
@@ -456,10 +450,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 	bypass = { 
@@ -490,10 +480,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 
@@ -515,10 +501,7 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
+	owns_state = 876
 	divisions_in_state = {
    	size > 2
     	state = 876
@@ -569,10 +552,6 @@ shared_focus = {
 	NOT = { has_war_with = CHI }
 	CHI = { is_subject = no }
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	has_completed_focus = JAP_Fortify_our_Position
 	}
 
@@ -598,10 +577,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 	
@@ -637,15 +612,16 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 
 	completion_reward = {
 		JAP_debt_level_up = yes
+		if = { 
+		limit = { has_country_flag = JAP_KOMEITO_RELATION }
+		custom_effect_tooltip = JAP_KOMEITO_LOSE_SUPPORT
+		subtract_from_variable = { JAP_Komeito_Support = 1 }
+		}
 	}
 }
 
@@ -661,10 +637,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	}
 
 
@@ -685,10 +657,6 @@ shared_focus = {
 
 	available = {
 	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
 	OR = { 
 	AND = { 
 	has_war_with = PRC
@@ -703,6 +671,181 @@ shared_focus = {
 
 	}
 }
+
+shared_focus = {
+	id = JAP_Factory_of_East_Asia
+	icon = GFX_goal_JAP_Toshinomics
+	x = 11
+	y = 1
+	prerequisite = { focus = JAP_Tamogamis_LDP }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Subsidize_High_Tech_Industries
+	icon = GFX_goal_JAP_Toshinomics
+	x = 10
+	y = 2
+	prerequisite = { focus = JAP_Factory_of_East_Asia focus = JAP_Toshinomics }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Expand_our_Industrial_Muscle
+	icon = GFX_goal_JAP_Toshinomics
+	x = 13
+	y = 2
+	prerequisite = { focus = JAP_Factory_of_East_Asia }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Militarize_New_Technologies
+	icon = GFX_goal_JAP_Toshinomics
+	x = 12
+	y = 3
+	prerequisite = { focus = JAP_Subsidize_High_Tech_Industries }
+	prerequisite = { focus = JAP_Expand_our_Industrial_Muscle }
+	mutually_exclusive = { focus = JAP_Private_Robotics }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Private_Robotics 
+	icon = GFX_goal_Focus_Examine_Foreign_Science
+	x = 10
+	y = 3
+	prerequisite = { focus = JAP_Subsidize_High_Tech_Industries }
+	mutually_exclusive = { focus = JAP_Militarize_New_Technologies }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Modernize_the_Assembly_Line
+	icon = GFX_goal_JAP_Assembly_Line
+	x = 10
+	y = 4
+	prerequisite = { focus = JAP_Private_Robotics }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Contracts_with_Mitsubishi
+	icon = GFX_goal_JAP_Mitsubishi
+	x = 14
+	y = 3
+	prerequisite = { focus = JAP_Expand_our_Industrial_Muscle }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Next_Gen_Equipment
+	icon = GFX_goal_JAP_Toshinomics
+	x = 12
+	y = 4
+	prerequisite = { focus = JAP_Militarize_New_Technologies }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = JAP_Domestic_Aircraft_Production
+	icon = GFX_goal_JAP_Mitsubishi_Plane
+	x = 13
+	y = 5
+	prerequisite = { focus = JAP_Contracts_with_Mitsubishi focus = JAP_Militarize_New_Technologies }
+	cost = 5
+
+
+	available = {
+	has_government = nationalist
+	}
+
+
+	completion_reward = {
+
+	}	
+}
+
 
 shared_focus = {
 	id = JAP_Toshinomics
@@ -729,10 +872,10 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Fukoku_Kyohei
-	icon = GFX_goal_WAF_An_arab_among_africans
+	icon = GFX_goal_JAP_Nationalist_Education
 	x = 6
 	y = 2
-	prerequisite = { focus = JAP_Toshinomics focus = JAP_Military_Expansion }
+	prerequisite = { focus = JAP_Toshinomics }
 	cost = 5
 
 
@@ -864,76 +1007,6 @@ shared_focus = {
 	}
 }
 
-shared_focus = {
-	id = JAP_Revision_of_History
-	icon = GFX_goal_JAP_Nationalist_Education
-	x = 11
-	y = 1
-	prerequisite = { focus = JAP_Tamogamis_LDP }
-	cost = 5
-
-
-	available = {
-	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
-	}
-
-
-	completion_reward = {
-	add_ideas = { RWE_JAP_History_Revised }
-	}
-}
-
-shared_focus = {
-	id = JAP_Adress_Soviet_Imperialism
-	icon = GFX_goal_WAF_Soviet_Imperialism
-	x = 10
-	y = 2
-	prerequisite = { focus = JAP_Revision_of_History }
-	cost = 5
-
-
-	available = {
-	SOV = { exists = yes }
-	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
-	}
-
-
-	completion_reward = {
-
-	}
-}
-
-shared_focus = {
-	id = JAP_Our_Friends_in_Nippon_Kaigi
-	icon = GFX_goal_JAP_Nippon_Kaigi
-	x = 13
-	y = 2
-	prerequisite = { focus = JAP_Revision_of_History }
-	cost = 2
-
-
-	available = {
-	has_government = nationalist
-	has_country_leader = { 
-	name = "Toshio Tamogami"
-	ruling_only = yes
-	}
-	}
-
-
-	completion_reward = {
-	country_event = { id = rw_jap.36 days = 0 }
-	add_popularity = { ideology = fascist popularity = 0.02 }
-	}
-}
 
 
 shared_focus = {

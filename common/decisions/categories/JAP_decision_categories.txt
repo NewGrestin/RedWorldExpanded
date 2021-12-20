@@ -5,6 +5,79 @@ JAP_Election_Campaign = {
 
 	visible = { 
 	has_country_flag = RW_JAP_CAMPAIGN
+	tag = JAP
+	}
+
+	priority = 250
+}
+
+JAP_Liberal_Democratic_Party = {
+   	icon = GFX_decision_category_Jap_LDP
+
+	picture = GFX_decision_cat_JAP_LDP
+
+	visible_when_empty = yes
+
+	visible = { 
+	OR = { 
+	has_government = nationalist
+	has_government = fascist
+	}
+	tag = JAP
+	}
+
+	priority = 250
+}
+
+JAP_New_Liberal_Club = {
+    icon = GFX_decision_category_Jap_NLC
+
+	picture = GFX_decision_cat_JAP_NLC
+
+	visible_when_empty = yes
+
+	visible = { 
+	OR = { 
+	has_government = nationalist
+	has_government = fascist
+	}
+	tag = JAP
+	}
+
+	priority = 250
+}
+
+JAP_Japan_Socialist_Party = {
+    icon = GFX_decision_category_Jap_JSP
+
+	picture = GFX_decision_cat_JAP_JSP
+
+	visible_when_empty = yes
+
+	visible = { 
+	OR = { 
+	has_government = nationalist
+	has_government = fascist
+	}
+	tag = JAP
+	}
+
+	priority = 250
+}
+
+JAP_Japan_Communist_Party = {
+    icon = GFX_decision_category_Jap_JCP
+
+	picture = GFX_decision_cat_JAP_JCP
+
+	visible_when_empty = yes
+
+	visible = { 
+	OR = { 
+	has_government = nationalist
+	has_government = fascist
+	}
+	tag = JAP
 	}
 
 	priority = 250

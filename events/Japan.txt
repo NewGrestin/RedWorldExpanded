@@ -1131,3 +1131,125 @@ country_event = {
 		add_stability = -0.03
 	}
 }
+
+#Komeito coalition - mission start
+country_event = {
+	id = rw_jap.42
+	title = rw_jap.42.t
+	desc = rw_jap.42.d
+	picture = JAP_Komeito
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	tag = JAP
+	OR = { 
+	has_government = nationalist
+	has_government = fascist
+	}
+	has_country_flag = JAP_KOMEITO_RELATION
+	}
+
+	mean_time_to_happen = { 
+		days = 5
+	}
+
+	option = { #count me in 
+		name = rw_jap.42.a
+		activate_mission = JAP_Komeito_Coalition_Mission 
+	}
+}
+
+#Komeito seeks to push legislation - mission things
+country_event = {
+	id = rw_jap.43
+	title = rw_jap.43.t
+	desc = rw_jap.43.d
+	picture = JAP_Komeito
+	
+	is_triggered_only = yes
+
+	option = { #count on the LDP
+		name = rw_jap.43.a
+	add_political_power = -50
+	custom_effect_tooltip = JAP_KOMEITO_GAIN_SUPPORT
+	add_to_variable = { JAP_Komeito_Support = 1 }		
+	}
+
+	option = { #we can't support this
+		name = rw_jap.43.b
+	custom_effect_tooltip = JAP_KOMEITO_LOSE_SUPPORT
+	subtract_from_variable = { JAP_Komeito_Support = 1 }
+	}
+}
+
+#Komeito pushes LDP to action
+country_event = {
+	id = rw_jap.44
+	title = rw_jap.44.t
+	desc = rw_jap.44.d
+	picture = JAP_Komeito
+	
+	is_triggered_only = yes
+
+	option = { #count on the LDP
+		name = rw_jap.44.a
+	add_political_power = -25
+	add_popularity = { ideology = fascist popularity = -0.01 }	
+	}
+
+	option = { #we can't support this
+		name = rw_jap.44.b
+	custom_effect_tooltip = JAP_KOMEITO_LOSE_SUPPORT
+	subtract_from_variable = { JAP_Komeito_Support = 1 }
+	}
+}
+
+#Publicly celebrate a joint-bill?
+country_event = {
+	id = rw_jap.45
+	title = rw_jap.45.t
+	desc = rw_jap.45.d
+	picture = JAP_Komeito
+	
+	is_triggered_only = yes
+
+	option = { #count on the LDP
+		name = rw_jap.45.a
+	custom_effect_tooltip = JAP_KOMEITO_GAIN_SUPPORT
+	add_to_variable = { JAP_Komeito_Support = 1 }	
+	add_popularity = { ideology = national_conservative popularity = 0.01 }
+	add_popularity = { ideology = nationalist popularity = 0.01 }
+	}
+
+	option = { #we can't support this
+		name = rw_jap.45.b
+	add_popularity = { ideology = nationalist popularity = 0.03 }
+	}
+}
+
+#Komeito got bad publicity
+country_event = {
+	id = rw_jap.46
+	title = rw_jap.46.t
+	desc = rw_jap.46.d
+	picture = JAP_Komeito
+	
+	is_triggered_only = yes
+
+	option = { #count on the LDP
+		name = rw_jap.46.a
+	add_popularity = { ideology = national_conservative popularity = -0.01 }
+	add_popularity = { ideology = nationalist popularity = -0.01 }
+	add_political_power = -25
+	custom_effect_tooltip = JAP_KOMEITO_GAIN_SUPPORT
+	add_to_variable = { JAP_Komeito_Support = 1 }	
+	}
+
+	option = { #we can't support this
+		name = rw_jap.46.b
+	add_popularity = { ideology = national_conservative popularity = -0.05 }
+	custom_effect_tooltip = JAP_KOMEITO_LOSE_SUPPORT
+	subtract_from_variable = { JAP_Komeito_Support = 1 }	
+	}
+}

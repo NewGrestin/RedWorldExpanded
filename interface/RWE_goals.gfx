@@ -48,6 +48,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/JAP_JCP.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_JAP_Assembly_Line"
+		texturefile = "gfx/interface/goals/JAP_Assembly_Line.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Mitsubishi"
+		texturefile = "gfx/interface/goals/JAP_Mitsubishi.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_Mitsubishi_Plane"
+		texturefile = "gfx/interface/goals/JAP_Mitsubishi_Plane.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_JAP_Kishi"
 		texturefile = "gfx/interface/goals/JAP_Kishi.tga"			
 	}

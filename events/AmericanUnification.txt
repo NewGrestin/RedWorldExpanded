@@ -1014,3 +1014,41 @@ country_event = {
         set_country_flag = east_texas_question_resolved
     }
 }
+
+country_event = {
+    id = american_unification.50
+    title = american_unification.50.t
+    desc = american_unification.50.d
+    picture = texas_state
+    
+    is_triggered_only = yes
+    
+    option = { 
+        name = american_unification.50.a
+	add_dynamic_modifier = { modifier = USA_Legitimacy }
+	set_variable = { legitimacy = -0.5 }
+	custom_effect_tooltip = USA_POST_UNI_MODIFIERS
+ 
+    }
+}
+
+#Fate of the White House
+country_event = {
+    id = american_unification.51
+    title = american_unification.51.t
+    desc = american_unification.51.d
+    picture = white_house_protests
+    
+    is_triggered_only = yes
+  
+    option = { #B - Restore it as the president's house
+        name = american_unification.51.b
+	add_to_variable = { legitimacy = 0.1 }
+    }
+
+    option = { #A - Turn it into a museum
+        name = american_unification.51.a
+	add_stability = 0.02
+	add_to_variable = { legitimacy = 0.05 }
+    }
+}

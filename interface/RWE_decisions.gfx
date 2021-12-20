@@ -15,8 +15,33 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_decision_cat_American_Unification"
+		texturefile = "gfx/interface/decisions/decision_cat_American_Unification.dds"
+	}
+
+	spriteType = {
 		name = "GFX_decision_category_Mex_America_War"
 		texturefile = "gfx/interface/decisions/decision_category_Mex_America_War.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_Jap_LDP"
+		texturefile = "gfx/interface/decisions/decision_category_Jap_LDP.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_Jap_JSP"
+		texturefile = "gfx/interface/decisions/decision_category_Jap_JSP.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_Jap_NLC"
+		texturefile = "gfx/interface/decisions/decision_category_Jap_NLC.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_Jap_JCP"
+		texturefile = "gfx/interface/decisions/decision_category_Jap_JCP.dds"
 	}
 
 	spriteType = {
@@ -37,6 +62,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_cat_JAP_Election"
 		texturefile = "gfx/interface/decisions/JAP_election_picture.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_JAP_LDP"
+		texturefile = "gfx/interface/decisions/JAP_LDP.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_JAP_NLC"
+		texturefile = "gfx/interface/decisions/JAP_NLC.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_JAP_JCP"
+		texturefile = "gfx/interface/decisions/JAP_JCP.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_JAP_JSP"
+		texturefile = "gfx/interface/decisions/JAP_JSP.tga"
 	}
 
 	spriteType = {

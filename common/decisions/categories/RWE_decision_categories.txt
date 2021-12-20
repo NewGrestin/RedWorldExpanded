@@ -10,6 +10,18 @@ RWE_Disunifier = {
 	priority = 250
 }
 
+RWE_Unifier = {
+	icon = RWE_Formable_Nations
+
+	picture = GFX_decision_cat_American_Unification
+
+	allowed = { 
+		always = yes
+	}
+
+	priority = 250
+}
+
 RWE_Formable_Nations = {
     icon = RWE_Formable_Nations
 

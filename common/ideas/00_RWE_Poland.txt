@@ -1,0 +1,51 @@
+##################
+# POLISH IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		RWE_POL_Comrade_Soldier = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = POL_Comrade_General
+			
+			removal_cost = -1
+	
+			modifier = {
+				drift_defence_factor = 0.5
+				stability_factor = -0.02
+				political_power_cost = 0.05
+			}
+		}
+
+		RWE_POL_Mismanagement_Economy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = POL_Mismanagement_Economy
+			
+			removal_cost = -1
+	
+			modifier = {
+				global_building_slots_factor = -0.2
+				industrial_capacity_factory = -0.2
+				production_speed_buildings_factor = -0.2
+				line_change_production_efficiency_factor = -0.25
+				research_speed_factor = -0.07
+			}
+		}

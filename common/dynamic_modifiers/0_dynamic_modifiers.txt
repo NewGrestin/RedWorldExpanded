@@ -68,3 +68,12 @@ OPEC = {
 	stability_factor = OPEC_unity
 
 }
+
+USA_Legitimacy = {
+	enable = { always = yes }
+	icon = GFX_idea_USA_fighting_for_america
+
+	political_power_factor = legitimacy
+	stability_factor = legitimacy
+	war_support_factor = legitimacy
+}
