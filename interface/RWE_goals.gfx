@@ -25,7 +25,55 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_JAP_Nationalist_Education"
-		texturefile = "gfx/interface/goals/JAP_Nationalist_Education.tga"			
+		texturefile = "gfx/interface/goals/JAP_Nationalist_Education.tga"	
+	}
+	SpriteType = {	
+		name = "GFX_goal_IRQ_Continue_Faith_Campaign"
+		texturefile = "gfx/interface/goals/IRQ_Continue_Faith_Campaign.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_End_Faith_Campaign"
+		texturefile = "gfx/interface/goals/IRQ_End_Faith_Campaign.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Revive_NPF"
+		texturefile = "gfx/interface/goals/IRQ_Revive_NPF.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Purge_ICP"
+		texturefile = "gfx/interface/goals/IRQ_Purge_ICP.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Reaffirm_Soviet_Relations"
+		texturefile = "gfx/interface/goals/IRQ_Reaffirm_Soviet_Relations.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_New_Five_Year_Plan"
+		texturefile = "gfx/interface/goals/IRQ_New_Five_Year_Plan.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Kurdish_Terror"
+		texturefile = "gfx/interface/goals/IRQ_Kurdish_Terror.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Arab_Spring"
+		texturefile = "gfx/interface/goals/IRQ_Arab_Spring.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Baath_Izzat_Remains"
+		texturefile = "gfx/interface/goals/IRQ_Baath_Izzat_Remains.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Baath_Salem_Leader"
+		texturefile = "gfx/interface/goals/IRQ_Baath_Salem_Leader.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Baath_Assad_Leader"
+		texturefile = "gfx/interface/goals/IRQ_Baath_Assad_Leader.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_IRQ_Baath_Politics"
+		texturefile = "gfx/interface/goals/IRQ_Baath_Politics.dds"			
 	}
 	SpriteType = {
 		name = "GFX_goal_JAP_Toshinomics"
@@ -728,6 +776,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_MOT_American_Unity"
 		texturefile = "gfx/interface/goals/MOT_American_Unity.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Lincoln_Campaign"
+		texturefile = "gfx/interface/goals/MOT_Lincoln_Campaign.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Lincoln_Campaign_Success"
+		texturefile = "gfx/interface/goals/MOT_Lincoln_Campaign_Success.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MOT_Republic_Constitution"
+		texturefile = "gfx/interface/goals/MOT_Republic_Constitution.dds"			
 	}
 
 	SpriteType = {

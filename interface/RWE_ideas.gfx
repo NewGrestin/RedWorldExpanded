@@ -441,6 +441,18 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/PRC_Strong_Agricultural_Reform.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_RWE_DOR_Democratic_Orientation"
+		textureFile = "gfx/interface/ideas/RWE_DOR_Democratic_Orientation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_DOR_Militant_Democratic_Orientation"
+		textureFile = "gfx/interface/ideas/RWE_DOR_Militant_Democratic_Orientation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_DOR_Islamist_Orientation"
+		textureFile = "gfx/interface/ideas/RWE_DOR_Islamist_Orientation.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_RWE_POR_legacy_of_april"
 		textureFile = "gfx/interface/ideas/RWE_POR_legacy_of_april.dds"
 	}

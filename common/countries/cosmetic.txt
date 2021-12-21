@@ -632,7 +632,6 @@ IRQ_League = {
 	color = rgb { 47 104 141 }
 	color_ui = rgb { 47 104 141 }
 }
-
 CGH_gorby = {
 	color = rgb { 127 0 0 }
 	color_ui = rgb { 127 0 0 }
@@ -740,4 +739,53 @@ PCA_GoldenGate = {
 PCA_democracy_cosmetic = {
 	color = rgb { 250 167 108 }
 	color_ui = rgb { 247 137 64 }
+}
+
+YUG_Federalized = {
+	color = rgb { 117 118 158 }
+	color_ui = rgb { 117 118 158 }
+}
+YUG_Kingdom = {
+	color = rgb { 86 86 145 }
+	color_ui = rgb { 86 86 145 }
+}
+CRO_Banate = {
+	color = rgb { 86 86 145 }
+	color_ui = rgb { 86 86 145 }
+}
+YUG_Decentralized = {
+	color = rgb { 117 118 158 }
+	color_ui = rgb { 117 118 158 }
+}
+CRO_Decentralized = {
+	color = rgb { 117 118 158 }
+	color_ui = rgb { 117 118 158 }
+}
+SLV_Decentralized = {
+	color = rgb { 117 118 158 }
+	color_ui = rgb { 117 118 158 }
+}
+BOS_Decentralized = {
+	color = rgb { 117 118 158 }
+	color_ui = rgb { 117 118 158 }
+}
+MNT_Decentralized = {
+	color = rgb { 117 118 158 }
+	color_ui = rgb { 117 118 158 }
+}
+MAC_Decentralized = {
+	color = rgb { 117 118 158 }
+	color_ui = rgb { 117 118 158 }
+}
+YUG_Warsaw_Occupation = {
+	color = rgb { 163 70 67 }
+	color_ui = rgb { 163 70 67 }
+}
+SER_Greater_Serbia = {
+	color = rgb { 125 80 46 }
+	color_ui = rgb { 125 80 46 }
+}
+YUG_Military_Junta = {
+	color = rgb { 34 71 102 }
+	color_ui = rgb { 34 71 102 }
 }
