@@ -3,7 +3,10 @@ ideologies = {
 	communist = {
 		
 		types = {
-		
+
+			fortuynism = {
+			}
+
 			marxist = {
 			}
 			
@@ -20,9 +23,6 @@ ideologies = {
 			}
 			
 			juche = {
-			}
-
-			fortuynism = {
 			}
 
 			goulash_communist = {
@@ -50,6 +50,9 @@ ideologies = {
 			}
 			
 			b_o_r_communist = {
+			}
+
+			new_synthesis = {
 			}
 		}
 		

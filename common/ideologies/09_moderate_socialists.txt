@@ -16,6 +16,18 @@ ideologies = {
 			peoples_socialist_democracy = {
 			}
 
+			austro_marxist = {
+			}
+
+			eco_socialist = {
+			}
+
+			melanesian_socialist = {
+			}
+
+			arab_socialist = {
+			}
+
 			kmt_l = {
 			}
 			

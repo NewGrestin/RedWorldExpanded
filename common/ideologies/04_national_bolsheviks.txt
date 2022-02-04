@@ -22,6 +22,33 @@ ideologies = {
 			revolutionary_nazi = {
 			}
 
+			larouche = {
+			}
+
+			moldovenist = {
+			}
+
+			socialist_nationalist = {
+			}
+
+			gonzalo_thought = {
+			}
+
+			khmer_rouge = {
+			}
+
+			revolutionary_junta = {
+			}
+
+			islamic_bolshevik = {
+			}
+
+			duginism = {
+			}
+
+			neo_bolshevik = {
+			}
+
 			kmt_funny = {
 			}
 

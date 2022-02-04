@@ -1,0 +1,326 @@
+add_namespace = alaska
+country_event = {
+	id = alaska.1 #stevens meets with manning
+	title = alaska.1.t
+	desc = alaska.1.d
+	picture = ATL_milley_resigns
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.1.o1 #yes
+		add_opinion_modifier = {
+			target = CAN
+			modifier = declaration_of_friendship
+		}
+		CAN = {
+			add_opinion_modifier = {
+				target = ALA
+				modifier = declaration_of_friendship
+			}
+		}
+	}
+}
+country_event = {
+	id = alaska.2 #representative dan sullivan hit by car
+	title = alaska.2.t
+	desc = alaska.2.d
+	picture = ALA_dan_sullivan
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.2.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.3
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.3 #envelopes found on dead representative
+	title = alaska.3.t
+	desc = alaska.3.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.3.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.4
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.4 #Mike Gravel reads envelopes on senate floor
+	title = alaska.4.t
+	desc = alaska.4.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.4.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.5
+				days = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.5 #Outrage Spreads At Orecorp Involvement
+	title = alaska.5.t
+	desc = alaska.5.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.5.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.6
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.6 #Ted Stevens pressured to resign
+	title = alaska.6.t
+	desc = alaska.6.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.6.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.7
+				days = 14
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.7 #Ted Stevens fucking dies
+	title = alaska.7.t
+	desc = alaska.7.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.7.o1 #yes
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Dan Sullivan"
+			picture = "Portrait_ALA_Dan_Sullivan.dds"
+			ideology = fiscal_conservative
+		}
+		hidden_effect = {
+			country_event = {
+				id = alaska.8
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.8 #Vice President Dan Sullivan sworn in
+	title = alaska.8.t
+	desc = alaska.8.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.7.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.9
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.9 #Shock Decapitation In Republican Primary
+	title = alaska.9.t
+	desc = alaska.9.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.9.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.10
+				days = 17
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.10 #Democratic Presidential Primary ends with Udall victory
+	title = alaska.10.t
+	desc = alaska.10.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.10.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.11
+				days = 13
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.11 #Republican Coalition Splits
+	title = alaska.11.t
+	desc = alaska.11.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.11.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.12
+				days = 15
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.12 #Palin Launches Campaign In Juneau
+	title = alaska.12.t
+	desc = alaska.12.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.12.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.13
+				days = 9
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.13 #Gravel Accepts Green and Libertarian Offers For Presidential Run
+	title = alaska.13.t
+	desc = alaska.13.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.13.o1 #yes
+		hidden_effect = {
+			country_event = {
+				id = alaska.14
+				days = 11
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alaska.14 #Election Day!
+	title = alaska.14.t
+	desc = alaska.14.d
+	picture = ALA_mike_gravel
+
+	is_triggered_only = yes
+
+	option = {
+		name = alaska.14.o1 #Constitutional Republicans!
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Joe Miller"
+			picture = "Portrait_ALA_Joe_Miller.dds"
+			ideology = reactionary
+		}
+	}
+	option = {
+		name = alaska.14.o2 #Independent-Democrats!
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = liberal
+		}
+		create_country_leader = {
+			name = "Joe Miller"
+			picture = "Portrait_ALA_Joe_Miller.dds"
+			ideology = reactionary
+		}
+		create_country_leader = {
+			name = "Mark Udall"
+			picture = "Portrait_ALA_Mark_Udall.dds"
+			ideology = old_american_democrats
+		}
+	}
+	option = {
+		name = alaska.14.o3 #The Alaskan Independence Party!
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = nationalist
+		}
+		create_country_leader = {
+			name = "Joe Miller"
+			picture = "Portrait_ALA_Joe_Miller.dds"
+			ideology = reactionary
+		}
+		create_country_leader = {
+			name = "Sarah Palin"
+			picture = "Portrait_ALA_Sarah_Palin.dds"
+			ideology = nationalist_ideology
+		}
+	}
+	option = {
+		name = alaska.14.o3 #Green-Libertarians!
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = new_democrat
+		}
+		create_country_leader = {
+			name = "Joe Miller"
+			picture = "Portrait_ALA_Joe_Miller.dds"
+			ideology = reactionary
+		}
+		create_country_leader = {
+			name = "Mike Gravel"
+			picture = "Portrait_ALA_Mike_Gravel.dds"
+			ideology = ecopolitician
+		}
+	}
+}

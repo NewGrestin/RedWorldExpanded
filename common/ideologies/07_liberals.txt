@@ -12,6 +12,12 @@ ideologies = {
 			
 			old_american_democrats = {
 			}
+
+			owenist = {
+			}
+
+			islamic_liberal = {
+			}
 			
 			
 		}

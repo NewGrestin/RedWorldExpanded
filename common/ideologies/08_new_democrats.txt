@@ -13,6 +13,15 @@ ideologies = {
 			nehruvian_socialism = {
 			}
 			
+			ecopolitician = {
+			}
+
+			nordic_model = {
+			}
+
+			labour_revisionist = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {

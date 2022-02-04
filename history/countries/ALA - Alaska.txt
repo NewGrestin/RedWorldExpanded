@@ -2,6 +2,8 @@
 
 oob = "ALA_2000"
 
+complete_national_focus = ALA_the_old_man_on_the_frontier
+
 set_research_slots = 2
 set_convoys = 500
 set_stability = 0.7
@@ -132,9 +134,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dan Sullivan"
-	picture = "Portrait_ALA_Dan_Sullivan.dds"
-	ideology = reactionary
+	name = "Ted Stevens"
+	picture = "Portrait_ALA_Ted_Stevens.dds"
+	ideology = fiscal_conservative
 }
 
 create_country_leader = {

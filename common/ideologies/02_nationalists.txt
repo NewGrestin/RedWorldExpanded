@@ -30,6 +30,15 @@ ideologies = {
 			
 			dominionist = {
 			}
+			
+			national_liberal = {
+			}
+
+			military_junta = {
+			}
+
+			islamic_nationalist = {
+			}
 
 			kmt_chiang = {
 			}

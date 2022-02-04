@@ -593,7 +593,7 @@ country_event = { #Super Event Test
 
 		NYS = {
 			transfer_state = 358
-			transfer_state = 1029
+			transfer_state = 1035
 
 			358 = {
 				add_core_of = NYS
@@ -703,7 +703,7 @@ country_event = { #American Republic Collapse Test
 			remove_state_core = 368
 			remove_state_core = 369
 			remove_state_core = 362
-			remove_state_core = 1021
+			remove_state_core = 1027
 			remove_state_core = 365
 		}
 
@@ -779,8 +779,8 @@ country_event = { #American Republic Collapse Test
 		}
 
 		NAF = {
-			transfer_state = 1021
-			add_state_core = 1021
+			transfer_state = 1027
+			add_state_core = 1027
 		}
 
 		ATL = {
@@ -1004,7 +1004,7 @@ country_event = { #American Republic Collapse Test
 			add_core_of = NYC
 		}
 		NYC = {
-			transfer_state = 1029
+			transfer_state = 1035
 		}
 		357 = {
 			add_core_of = MAS

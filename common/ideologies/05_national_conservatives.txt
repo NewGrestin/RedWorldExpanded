@@ -24,6 +24,9 @@ ideologies = {
 
 			islamic_democrat = {
 			}
+			
+			progressive_conservative = {
+			}
 
 			kmt_center = {
 			}		

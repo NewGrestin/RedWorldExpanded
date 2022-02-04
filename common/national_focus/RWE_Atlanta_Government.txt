@@ -474,8 +474,21 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ATL_georgias_new_dawn
-		completion_reward = { 
-			
+		completion_reward = {
+			set_party_name = {
+				ideology = liberal
+				long_name = "Democratic Party of Georgia"
+				name = "Democrats"
+			}
+			set_party_name = {
+				ideology = national_conservative
+				long_name = "Old Republican Party of Georgia"
+				name = "Republicans"
+			}
+			country_event = {
+				id = georgia.1
+				days = 2
+			}
 		}
 	}
 
@@ -490,14 +503,15 @@ focus_tree = {
 		y = 1
 		relative_position_id = ATL_georgias_new_dawn
 		completion_reward = { 
-			
+			add_stability = 0.5
+			add_political_power = 50
 		}
 	}
 
 	shared_focus = {
 		id = ATL_enshrining_the_constitution
 		icon = lucrative_investment
-		cost = 3
+		cost = 5
 		prerequisite = {
 			focus = ATL_establishing_a_two_party_system
 		}
@@ -508,13 +522,18 @@ focus_tree = {
 		y = 1
 		relative_position_id = ATL_establishing_a_two_party_system
 		completion_reward = { 
-			
+			country_event = {
+				id = georgia.7
+			}
 		}
 	}
 	shared_focus = {
 		id = ATL_carter_and_abrams_democrats
 		icon = lucrative_investment
 		cost = 3
+		available = {
+			has_country_flag = cant_take_this
+		}
 		prerequisite = {
 			focus = ATL_enshrining_the_constitution
 		}
@@ -530,6 +549,9 @@ focus_tree = {
 		id = ATL_barrs_libertarian_republicans
 		icon = lucrative_investment
 		cost = 3
+		available = {
+			has_country_flag = cant_take_this
+		}
 		prerequisite = {
 			focus = ATL_enshrining_the_constitution
 		}

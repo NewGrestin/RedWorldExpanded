@@ -54,6 +54,18 @@ ideologies = {
 
 			left_maoist = {
 			}
+
+			orthodox_leninist = {
+			}
+
+			left_communist = {
+			}
+
+			ujamaa = {
+			}
+
+			socialist_junta = {
+			}
 		}
 		
 		dynamic_faction_names = {

@@ -334,4 +334,16 @@ spriteTypes = {
 		name = "OKL_Election"
 		texturefile = "gfx/event_pictures/report_event/OKL_Election.tga"
 	}
+	spriteType = {
+		name = "ALA_manning_stevens_meeting"
+		texturefile = "gfx/event_pictures/report_event/ALA_manning_stevens_meeting.dds"
+	}
+	spriteType = {
+		name = "ALA_dan_sullivan"
+		texturefile = "gfx/event_pictures/report_event/ALA_dan_sullivan.dds"
+	}
+	spriteType = {
+		name = "ALA_mike_gravel"
+		texturefile = "gfx/event_pictures/report_event/ALA_mike_gravel.dds"
+	}
 }

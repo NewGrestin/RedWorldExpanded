@@ -6,6 +6,15 @@ ideologies = {
 		
 			absolute_monarchist = {
 			}
+
+			dynastic_monarchist = {
+			}
+
+			elective_monarchist = {
+			}
+
+			regency_monarchist = {
+			}
 			
 		}
 		

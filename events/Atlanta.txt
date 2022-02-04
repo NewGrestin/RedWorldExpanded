@@ -1,5 +1,5 @@
 add_namespace = atlanta
-
+add_namespace = georgia
 country_event = {
 	id = atlanta.1 #milley steps down
 	title = atlanta.1.t
@@ -227,7 +227,7 @@ country_event = {
 		}
 	}
 	option = { #no
-		name = atlanta.11.o1
+		name = atlanta.11.o2
 		ATL = {
 			country_event = {
 				id = atlanta.13
@@ -267,5 +267,170 @@ country_event = {
 	option = { #YOU SHALL RUE THE DAY CANADA
 		name = atlanta.13.o1
 		set_country_flag = ATL_betrayed_by_canada
+	}
+}
+
+country_event = {
+	id = georgia.1 #republican party formed
+	title = georgia.1.t
+	desc = georgia.1.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = georgia.1.o1
+		country_event = {
+			id = georgia.2
+			days = 4
+		}
+	}
+}
+
+country_event = {
+	id = georgia.2 #democratic party formed
+	title = georgia.2.t
+	desc = georgia.2.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = georgia.2.o1
+		country_event = {
+			id = georgia.3
+			days = 7
+		}
+	}
+}
+
+country_event = {
+	id = georgia.3 #republican primary candidates finalised
+	title = georgia.3.t
+	desc = georgia.3.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = georgia.3.o1
+		country_event = {
+			id = georgia.4
+			days = 6
+		}
+	}
+}
+
+country_event = {
+	id = georgia.4 #abrams asks for carter's blessing in presidential election
+	title = georgia.4.t
+	desc = georgia.4.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #yes
+		name = georgia.4.o1
+		set_country_flag = ATL_abrams_democrat
+		country_event = {
+			id = georgia.5
+			days = 3
+		}
+	}
+
+	option = { #no
+		name = georgia.4.o2
+		set_country_flag = ATL_carter_democrat
+		country_event = {
+			id = georgia.5
+			days = 3
+		}
+	}
+}
+
+country_event = {
+	id = georgia.5 #Barr wins Republican Primary in Upset
+	title = georgia.5.t
+	desc = georgia.5.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = georgia.5.o1
+		create_country_leader = {
+			name = "Bob Barr"
+			ideology = fiscal_conservative
+			picture = "Portrait_ATL_Bob_Barr.dds"
+		}
+		country_event = {
+			id = georgia.6
+			days = 2
+		}
+	}
+}
+
+country_event = {
+	id = georgia.6 #Republicans renamed Libertarian-Republicans
+	title = georgia.6.t
+	desc = georgia.6.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = georgia.6.o1
+		set_party_name = {
+			ideology = national_conservative
+			name = "Libertarian-Republicans"
+			long_name = "Libertarian-Republican Party of Georgia"
+		}
+	}
+}
+
+country_event = {
+	id = georgia.7 #constitution enshrined, election set for a month
+	title = georgia.7.t
+	desc = georgia.7.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = georgia.7.o1
+		country_event = {
+			id = georgia.8
+			days = 31
+		}
+	}
+}
+
+country_event = {
+	id = georgia.8 #election
+	title = georgia.8.t
+	desc = georgia.8.d
+	picture = ATL_carter_calls_off_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #libertarian-republicans!
+		name = georgia.8.o1
+		set_politics = {
+			ruling_party = national_conservative
+		}
+		set_country_flag = ATL_georgia_barr_elected
+		complete_national_focus = ATL_barrs_libertarian_republicans
+	}
+	option = { #democrats!
+		name = georgia.8.o1
+		complete_national_focus = ATL_carter_and_abrams_democrats
 	}
 }

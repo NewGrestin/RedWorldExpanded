@@ -1,0 +1,155 @@
+focus_tree = {
+	id = alaska_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = ALA
+			}
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2200 }
+	shared_focus = ALA_the_old_man_on_the_frontier
+	default = no
+}
+
+	shared_focus = {
+		id = ALA_the_old_man_on_the_frontier
+		icon = lucrative_investment
+
+		x = 7
+		y = 0
+
+		cost = 1
+
+
+		completion_reward = {
+		} 	
+	}
+
+	shared_focus = {
+		id = ALA_expand_ted_stevens_airport
+		icon = lucrative_investment
+
+		x = -1
+		y = 1
+
+		cost = 3
+
+		prerequisite = {
+			focus = ALA_the_old_man_on_the_frontier
+		}
+
+		relative_position_id = ALA_the_old_man_on_the_frontier
+		completion_reward = {
+			463 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+				}
+			}
+		} 	
+	}
+
+	shared_focus = {
+		id = ALA_endorse_the_highway
+		icon = lucrative_investment
+
+		x = 1
+		y = 1
+
+		cost = 3
+
+		prerequisite = {
+			focus = ALA_the_old_man_on_the_frontier
+		}
+
+		relative_position_id = ALA_the_old_man_on_the_frontier
+		completion_reward = {
+			1013 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+				}
+			}
+		} 	
+	}
+
+	shared_focus = {
+		id = ALA_seward_port_projects
+		icon = lucrative_investment
+
+		x = 0
+		y = 1
+
+		cost = 3
+
+		prerequisite = {
+			focus = ALA_expand_ted_stevens_airport
+		}
+
+		relative_position_id = ALA_expand_ted_stevens_airport
+		completion_reward = {
+			493 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 4833
+				}
+			}
+		} 	
+	}
+
+	shared_focus = {
+		id = ALA_two_countries_for_old_men
+		icon = lucrative_investment
+
+		x = 0
+		y = 1
+
+		cost = 3
+
+		prerequisite = {
+			focus = ALA_endorse_the_highway
+		}
+
+		relative_position_id = ALA_endorse_the_highway
+		completion_reward = {
+			country_event = {
+				id = alaska.1
+			}
+		} 	
+	}
+
+	shared_focus = {
+		id = ALA_last_line_of_defence
+		icon = lucrative_investment
+
+		x = 1
+		y = 1
+
+		cost = 3
+
+		prerequisite = {
+			focus = ALA_seward_port_projects
+			
+		}
+		prerequisite = {
+			focus = ALA_two_countries_for_old_men
+			
+		}
+		relative_position_id = ALA_seward_port_projects
+		completion_reward = {
+			add_ideas = RWE_ALA_defence_prioritisation
+			hidden_effect = {
+				country_event = {
+					id = alaska.2
+					days = 4
+				}
+			}
+		}
+	}
+
+	

@@ -10,6 +10,9 @@ ideologies = {
 			nation_of_islam_thought = {	
 			}
 		
+			national_socialist = {	
+			}
+			
 			fascist_ideology = {	
 			}
 			
@@ -29,6 +32,33 @@ ideologies = {
 			}
 			
 			jihadist = {				
+			}
+			
+			corporate = {				
+			}
+			
+			metaxist = {				
+			}
+			
+			social_nationalist = {				
+			}
+			
+            afrikaner_nationalist = {
+			}
+			
+            buddhist_nationalist = {
+			}
+			
+		    clerical_fascist = {
+			}
+
+			military_dictatorship = {
+			}
+
+			hutu_power = {
+			}
+
+			shiv_sena = {
 			}
 
 			kmt_fr = {				
