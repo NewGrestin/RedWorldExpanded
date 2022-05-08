@@ -118,7 +118,7 @@ create_country_leader = {
 	name = "Harold Covington"
 	picture = "Portrait_MOT_Harold_Covington.dds"
 	desc = "POLITICS_HAROLD_COVINGTON_DESC"
-	ideology = fascist_ideology
+	ideology = white_nationalism
 }
 
 create_country_leader = {

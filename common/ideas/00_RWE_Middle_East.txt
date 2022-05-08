@@ -99,5 +99,173 @@ ideas = {
 				weekly_manpower = -250 
 			}
 		}
+
+		RWE_DOR_Democratic_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Democratic_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				national_conservative_drift = 0.03
+				centrist_drift = 0.03
+				liberal_drift = 0.03
+				new_democrat_drift = 0.03
+			}
+		}
+
+		RWE_DOR_Militant_Democratic_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Militant_Democratic_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				national_conservative_drift = 0.05
+				centrist_drift = 0.05
+				liberal_drift = 0.05
+				new_democrat_drift = 0.05
+			}
+		}
+
+		RWE_DOR_Islamist_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Islamist_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				fascist_drift = 0.03
+			}
+		}
+
+		RWE_DOR_Militant_Islamist_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Militant_Islamist_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				fascist_drift = 0.05
+			}
+		}
+
+		RWE_DOR_Communist_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Communist_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				communist_drift = 0.03
+				revolutionary_socialist_drift = 0.03
+			}
+		}
+
+		RWE_DOR_Militant_Communist_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Militant_Communist_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				communist_drift = 0.05
+				revolutionary_socialist_drift = 0.05
+			}
+		}
+
+		RWE_DOR_Baathist_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Baathist_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.1
+				national_bolshevik_drift = 0.03
+			}
+		}
+
+		RWE_DOR_Militant_Baathist_Orientation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_DOR_Militant_Baathist_Orientation
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.15
+				national_bolshevik_drift = 0.05
+			}
+		}
 	}
 }

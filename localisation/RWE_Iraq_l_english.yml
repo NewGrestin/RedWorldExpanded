@@ -128,16 +128,27 @@
   IRQ_Kill_Uday:0 "Ensure Uday Disappears"
   IRQ_Free_Elections:0 "Organize Free Elections"
 
-  IRQ_Communists_Elected:0 "Revolution by Ballot"
-  IRQ_Worker_Councils:0 "Organize Worker's Councils"
-  IRQ_Ethnic_Solidarity:0 "Emphasize Ethnic Solidarity"
-  IRQ_Grant_Womens_Rights:0 "Introduce Women's Rights"
+  IRQ_Monarchy_Referendum:0 "Referndum on the Monarchy"
+  IRQ_Fate_of_Kuwait:0 "Our Future in Kuwait"
+
+  IRQ_Communists_Elected:0 "Revolution through Evolution"
+  IRQ_Anti_Soviet_Policy:0 "Renounce the Moscow Consensus"
+  IRQ_Pro_Soviet_Policy:0 "Embrace the Reformist Bent"
+  IRQ_War_on_Sectarianism:0 "The War on Sectarianism"
 
   IRQ_SuccDems_Elected:0 "An Iraq for the People"
+  IRQ_Reform_Kurdistan:0 "Reform the Kurdish Administration"
+  IRQ_Expand_Welfare:0 "Promote the Zakat Model"
 
-  IRQ_Progressives_Elected:0 "A Progressive Mandate"
+  IRQ_Progressives_Elected:0 "Unity in Islam and Progress"
+  IRQ_Decentralization:0 "Decentralize Administrative Powers"
+  IRQ_Federalization:0 "A Federal Model"
+  IRQ_Reconcile_Saddam:0 "Reconcile with the Loyalists"
 
-  IRQ_Conservatives_Elected:0 "Steady as She Goes"
+  IRQ_Nationalists_Elected:0 "The More Things Change..."
+  IRQ_Saddam_Legacy:0 "Pardon Hussein Loyalists"
+  IRQ_Undermine_Politics:0 "Undermine the Committee"
+
 
   IRQ_Islamist_Revolution:0 "The Light of Allah Touches the Euphrates"
  

@@ -1002,7 +1002,6 @@ focus_tree = {
 		}
 	}
 
-
 	focus = {
 		id = GNS_Elections
 		icon = GFX_goal_Generic_Democracy
@@ -1054,5 +1053,138 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = RWE_LBA_Civil_War_Insurgency3
 
+		}
+	}
+
+	focus = {
+		id = GNS_Elections_Zeidan
+		icon = focus_ideology_new_democrat
+		x = 13
+		y = 5
+
+		cost = 8
+
+		prerequisite = {
+			focus = GNS_Elections
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GNS_Elections_Magariaf
+		icon = focus_ideology_liberal
+		x = 17
+		y = 5
+
+		cost = 8
+
+		prerequisite = {
+			focus = GNS_Elections
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GNS_Elections_Sallabi
+		icon = focus_ideology_national_conservative
+		x = 21
+		y = 5
+
+		cost = 8
+
+		prerequisite = {
+			focus = GNS_Elections
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GNS_NewDem_Healthcare_Reform
+		icon = increase_healthcare_coverage
+		x = 11
+		y = 6
+
+		cost = 8
+
+		prerequisite = {
+			focus = GNS_Elections_Zeidan
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GNS_NewDem_Overhaul_Administration
+		icon = GFX_goal_unknown
+		x = 13
+		y = 6
+
+		cost = 8
+
+		prerequisite = {
+			focus = GNS_Elections_Zeidan
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GNS_NewDem_Education_Reform
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+
+		cost = 8
+
+		prerequisite = {
+			focus = GNS_Elections_Zeidan
+			focus = GNS_Elections_Magariaf
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
 		}
 	}

@@ -16,9 +16,20 @@ country_event = { #Super Event Test
 			factor = 100
 		}
 
-        set_global_flag = Super_Event_Visible
-		set_global_flag = Super_Event_Frame_Visible
-        set_global_flag = GLOBAL_American_Reunification_Red_Guards_VISIBLE
+		SER = {
+			set_cosmetic_tag = SER_Greater_Serbia
+
+			transfer_state = 108
+			transfer_state = 1008
+		}
+
+		YUG = {
+			set_cosmetic_tag = YUG_Military_Junta
+		}
+
+		KOS = {
+			set_cosmetic_tag = KOS_Liberation_Army
+		}
     }
 }
 

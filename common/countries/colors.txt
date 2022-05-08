@@ -947,8 +947,8 @@ PDY = {
 }
 
 YUG = {
-	color = rgb { 59 42 169 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
 }
 
 ZAM = {
@@ -1414,28 +1414,28 @@ AUS = {
 }
 
 CRO = {
-	color = rgb { 223 68 197 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 112 62 70 }
+	color_ui = rgb { 112 62 70 }
 }
 
 SER = {
-	color = rgb { 99 68 223 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 75 92 141 }
+	color_ui = rgb { 75 92 141 }
 }
 
 MNT = {
-	color = rgb { 187 174 236 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 141 131 178 }
+	color_ui = rgb { 141 131 178 }
 }
 
 BOS = {
-	color = rgb { 139 201 137 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 55 113 54 }
+	color_ui = rgb { 55 113 54 }
 }
 
 SLV = {
-	color = rgb { 167 137 201 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 69 110 109 }
+	color_ui = rgb { 69 110 109 }
 }
 
 MAC = {

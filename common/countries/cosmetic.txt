@@ -789,3 +789,12 @@ YUG_Military_Junta = {
 	color = rgb { 34 71 102 }
 	color_ui = rgb { 34 71 102 }
 }
+MOT_Northwest_Federation = {
+	color = rgb { 34 71 102 }
+	color_ui = rgb { 34 71 102 }
+}
+MOT_Northwest_Aryan = {
+	color = rgb { 234 221 250 }
+	color_ui = rgb { 234 221 250 }
+}
+

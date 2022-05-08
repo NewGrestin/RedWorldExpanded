@@ -57,7 +57,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Continue_Faith_Campaign
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_Continue_Faith_Campaign
 		x = 3
 		y = 2
 
@@ -85,7 +85,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_End_Faith_Campaign
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_End_Faith_Campaign
 		x = 5
 		y = 2
 
@@ -113,7 +113,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Revive_NPF
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_Revive_NPF
 		x = 7
 		y = 2
 
@@ -141,7 +141,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Purge_ICP
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_Purge_ICP
 		x = 9
 		y = 2
 
@@ -169,7 +169,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Reaffirm_Soviet_Relations
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_Reaffirm_Soviet_Relations
 		x = 4
 		y = 3
 
@@ -199,7 +199,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_New_Five_Year_Plan
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_New_Five_Year_Plan
 		x = 6
 		y = 3
 
@@ -229,7 +229,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Kurdish_Terror
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_Kurdish_Terror
 		x = 8
 		y = 3
 
@@ -259,7 +259,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Arab_Spring
-		icon = GFX_goal_Generic_Work_In_Progress
+		icon = GFX_goal_IRQ_Arab_Spring
 		x = 6
 		y = 4
 
@@ -1896,7 +1896,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Baath_Politics
-		icon = focus_baath_victory
+		icon = GFX_goal_IRQ_Baath_Politics
 		x = 17
 		y = 5
 
@@ -1971,7 +1971,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Baath_Izzat_Remains
-		icon = focus_baath_victory
+		icon = GFX_goal_IRQ_Baath_Izzat_Remains
 		x = 15
 		y = 6
 
@@ -1996,7 +1996,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Baath_Salem_Leader
-		icon = focus_baath_victory
+		icon = GFX_goal_IRQ_Baath_Salem_Leader
 		x = 17
 		y = 6
 
@@ -2021,7 +2021,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Baath_Assad_Leader
-		icon = focus_baath_victory
+		icon = GFX_goal_IRQ_Baath_Assad_Leader
 		x = 19
 		y = 6
 
@@ -2864,8 +2864,8 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Popular_Revolution
-		icon = focus_syria_local_elections
-		x = 39
+		icon = GFX_goal_IRQ_Popular_Revolution
+		x = 40
 		y = 0
 
 		cost = 3
@@ -2886,7 +2886,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_Truth_and_Reconciliation
 		icon = ethiopia_allow_autonomy
-		x = 39
+		x = 40
 		y = 1
 
 		prerequisite = {
@@ -2909,8 +2909,8 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Saddam_Trial
-		icon = arrest_derg_members
-		x = 36
+		icon = GFX_goal_IRQ_Saddam_Trial
+		x = 37
 		y = 2
 
 		prerequisite = {
@@ -2933,8 +2933,8 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Purge_Military
-		icon = arrest_derg_members
-		x = 38
+		icon = GFX_goal_IRQ_Purge_Military
+		x = 39
 		y = 2
 
 		prerequisite = {
@@ -2961,8 +2961,8 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Dont_Purge_Military
-		icon = arrest_derg_members
-		x = 40
+		icon = GFX_goal_IRQ_Dont_Purge_Military
+		x = 41
 		y = 2
 
 		prerequisite = {
@@ -2989,8 +2989,8 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Kill_Uday
-		icon = arrest_derg_members
-		x = 42
+		icon = GFX_goal_IRQ_Kill_Uday
+		x = 43
 		y = 2
 
 		prerequisite = {
@@ -3014,7 +3014,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_Free_Elections
 		icon = laws
-		x = 39
+		x = 40
 		y = 3
 
 		prerequisite = {
@@ -3045,8 +3045,56 @@ focus_tree = {
 	}
 
 	focus = {
+		id = IRQ_Monarchy_Referendum
+		icon = GFX_goal_IRQ_Monarchy_Referendum
+		x = 39
+		y = 4
+
+		prerequisite = {
+			focus = IRQ_Free_Elections
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Fate_of_Kuwait
+		icon = GFX_goal_IRQ_Fate_of_Kuwait
+		x = 41
+		y = 4
+
+		prerequisite = {
+			focus = IRQ_Free_Elections
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
 		id = IRQ_Communists_Elected
-		icon = focus_ideology_communist
+		icon = GFX_goal_IRQ_Communists_Elected
 		x = 33
 		y = 4
 
@@ -3070,7 +3118,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_SuccDems_Elected
-		icon = focus_ideology_new_democrat
+		icon = GFX_goal_IRQ_SuccDems_Elected
 		x = 37
 		y = 4
 
@@ -3094,8 +3142,8 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_Progressives_Elected
-		icon = focus_ideology_liberal
-		x = 41
+		icon = GFX_goal_IRQ_Progressives_Elected
+		x = 43
 		y = 4
 
 		prerequisite = {
@@ -3117,9 +3165,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = IRQ_Conservatives_Elected
-		icon = focus_ideology_national_conservative
-		x = 45
+		id = IRQ_Nationalists_Elected
+		icon = GFX_goal_IRQ_Nationalists_Elected
+		x = 47
 		y = 4
 
 		prerequisite = {
@@ -3141,8 +3189,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = IRQ_Worker_Councils
-		icon = communists_marching
+		id = IRQ_Anti_Soviet_Policy
+		icon = focus_syria_socialist_support
 		x = 31
 		y = 5
 
@@ -3150,6 +3198,10 @@ focus_tree = {
 			focus = IRQ_Communists_Elected
 		}
 
+		mutually_exclusive = {
+			focus = IRQ_Pro_Soviet_Policy
+		}
+
 		cost = 8
 		
 		cancel_if_invalid = yes
@@ -3165,8 +3217,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = IRQ_Ethnic_Solidarity
-		icon = communists_marching
+		id = IRQ_Pro_Soviet_Policy
+		icon = ussr
 		x = 33
 		y = 5
 
@@ -3174,6 +3226,10 @@ focus_tree = {
 			focus = IRQ_Communists_Elected
 		}
 
+		mutually_exclusive = {
+			focus = IRQ_Anti_Soviet_Policy
+		}
+
 		cost = 8
 		
 		cancel_if_invalid = yes
@@ -3189,8 +3245,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = IRQ_Grant_Womens_Rights
-		icon = communists_marching
+		id = IRQ_War_on_Sectarianism
+		icon = GFX_goal_IRQ_War_on_Sectarianism
 		x = 35
 		y = 5
 
@@ -3213,19 +3269,166 @@ focus_tree = {
 		}
 	}
 
-
 	focus = {
-		id = IRQ_Islamist_Revolution
-		icon = focus_rise_of_the_caliphate
-		x = 48
-		y = 0
+		id = IRQ_Reform_Kurdistan
+		icon = GFX_goal_IRQ_Reform_Kurdistan
+		x = 37
+		y = 5
 
-		cost = 3
+		prerequisite = {
+			focus = IRQ_SuccDems_Elected
+		}
+
+		cost = 8
 		
 		cancel_if_invalid = yes
 
 		available = {	
-			has_government = fascist
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Expand_Welfare
+		icon = GFX_goal_IRQ_Expand_Welfare
+		x = 39
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_SuccDems_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Decentralization
+		icon = focus_syria_local_elections
+		x = 41
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Progressives_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Federalization
+		icon = GFX_Focus_PB_Democratic_Government
+		x = 43
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Progressives_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Reconcile_Saddam
+		icon = GFX_goal_IRQ_Reconcile_Saddam
+		x = 45
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Progressives_Elected
+			focus = IRQ_Nationalists_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Saddam_Legacy
+		icon = focus_baath_victory
+		x = 47
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Nationalists_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
+			is_subject = no
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = IRQ_Undermine_Politics
+		icon = GFX_goal_Generic_Espionage04
+		x = 49
+		y = 5
+
+		prerequisite = {
+			focus = IRQ_Nationalists_Elected
+		}
+
+		cost = 8
+		
+		cancel_if_invalid = yes
+
+		available = {	
 			is_subject = no
 			is_puppet = no
 		}

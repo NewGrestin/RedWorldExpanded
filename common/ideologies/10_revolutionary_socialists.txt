@@ -98,6 +98,8 @@ ideologies = {
 			navy_intel_to_others = 10.0
 			airforce_intel_to_others = 10.0
 		}
+
+		ai_neutral = yes
 		
 	}
 

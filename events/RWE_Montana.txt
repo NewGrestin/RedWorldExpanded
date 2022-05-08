@@ -1,0 +1,1084 @@
+﻿add_namespace = RWE_Montana
+
+country_event = {		#Initial Montana Event
+	id = RWE_Montana.1
+	title = RWE_Montana.1.t
+	desc = RWE_Montana.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = {
+		name = RWE_Montana.1.a
+	}
+}
+
+country_event = {		#Victory over the Spencerites
+	id = RWE_Montana.2
+	title = RWE_Montana.2.t
+	desc = RWE_Montana.2.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	option = {
+		name = RWE_Montana.2.a
+
+		set_cosmetic_tag = MOT_Northwest_United
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.3
+				days = 3
+			}		 
+		}
+
+		if = {
+			limit = {
+				LIN = {
+					is_puppet_of = MOT
+				}
+			}
+			MOT = {
+				annex_country = {
+					target = LIN
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {		#Spencer caught and executed
+	id = RWE_Montana.3
+	title = RWE_Montana.3.t
+	desc = RWE_Montana.3.d
+	picture = MOT_Spencer_Yeeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = RWE_Montana.3.a
+
+		add_political_power = 150
+
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = -1.0
+		}
+	}
+}
+
+country_event = {		#New Capital
+	id = RWE_Montana.4
+	title = RWE_Montana.4.t
+	desc = RWE_Montana.4.d
+	picture = portland_election
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Maintain the Old Capital
+		name = RWE_Montana.4.a
+
+		add_political_power = 50
+	}
+
+	option = { #Move the Capital to Idaho - REALLY GOOD IDEA
+		name = RWE_Montana.4.b
+
+		add_political_power = 25
+
+		set_capital = 387
+
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = 0.03
+		}
+
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.15
+				days = 7
+			}		 
+		}
+	}
+}
+
+country_event = {		#Constitutional Convention
+	id = RWE_Montana.5
+	title = RWE_Montana.5.t
+	desc = RWE_Montana.5.d
+	picture = texan_senate
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Focus on Expanding Executive Power
+		name = RWE_Montana.5.a
+
+		add_political_power = 150
+
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.1
+		}
+
+		add_ideas = RWE_MOT_Strong_Executive_Constitution
+	}
+
+	option = { #Focus on Devolving Executive Power
+		name = RWE_Montana.5.b
+
+		add_political_power = 100
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.1
+		}
+
+		add_ideas = RWE_MOT_Weak_Executive_Constitution
+	}
+}
+
+country_event = {		#Status of Militias
+	id = RWE_Montana.6
+	title = RWE_Montana.6.t
+	desc = RWE_Montana.6.d
+	picture = workers_brigades
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Focus on curtailing Militias for a formal army
+		name = RWE_Montana.6.a
+
+		add_political_power = -150
+
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.1
+		}
+
+		remove_ideas = RWE_MOT_Militia_Army
+
+		add_timed_idea = {
+			idea = RWE_MOT_Army_Reform_Timeout
+			days = 60
+		}
+	}
+
+	option = { #Maintain the militia model
+		name = RWE_Montana.6.b
+
+		add_political_power = 50
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.1
+		}
+	}
+}
+
+country_event = {		#Covington Purges
+	id = RWE_Montana.7
+	title = RWE_Montana.7.t
+	desc = RWE_Montana.7.d
+	picture = MOT_Militias2
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.7.a
+
+		add_political_power = -50
+
+		add_manpower = -1500
+
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.1
+		}
+	}
+}
+
+country_event = {		#Northwest Bantustans
+	id = RWE_Montana.8
+	title = RWE_Montana.8.t
+	desc = RWE_Montana.8.d
+	picture = british_concentration_camps
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.8.a
+
+		add_political_power = -50
+
+		add_manpower = -1500
+	}
+}
+
+country_event = {		#Montana Diplomatic Corps
+	id = RWE_Montana.9
+	title = RWE_Montana.9.t
+	desc = RWE_Montana.9.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.9.a
+
+		add_political_power = 50
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed
+	id = RWE_Montana.10
+	title = RWE_Montana.10.t
+	desc = RWE_Montana.10.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.10.a
+
+		CAN = {
+			country_event = {
+				id = RWE_Montana.11
+			}			
+		}
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed - Canadian Response
+	id = RWE_Montana.11
+	title = RWE_Montana.11.t
+	desc = RWE_Montana.11.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Agree
+		name = RWE_Montana.11.a
+
+		ai_chance = {
+			factor = 50
+		}
+
+		give_military_access = MOT
+
+		MOT = {
+			country_event = {
+				id = RWE_Montana.12
+			}			
+		}
+	}
+
+	option = { #Refuse
+		name = RWE_Montana.11.b
+
+		ai_chance = {
+			factor = 50
+		}
+
+		MOT = {
+			country_event = {
+				id = RWE_Montana.13
+			}			
+		}
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed - Canada Agrees
+	id = RWE_Montana.12
+	title = RWE_Montana.12.t
+	desc = RWE_Montana.12.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.12.a
+	}
+}
+
+country_event = {		#Northwest-Canadian Border Treaty Proposed - Canada Refuses
+	id = RWE_Montana.13
+	title = RWE_Montana.13.t
+	desc = RWE_Montana.13.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.13.a
+	}
+}
+
+country_event = {		#Cascadia - Support from Montana
+	id = RWE_Montana.14
+	title = RWE_Montana.14.t
+	desc = RWE_Montana.14.d
+	picture = cascadian_rebels_forest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.14.a
+	}
+}
+
+
+country_event = {		#New Capital - Covington Assassinated
+	id = RWE_Montana.15
+	title = RWE_Montana.15.t
+	desc = RWE_Montana.15.d
+	picture = conflict_in_the_north
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.15.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Northwest Territorial Emergency Council"
+			picture = "Portrait_MOT_Council.dds"
+			desc = "NO_DESC"
+			ideology = fascist_ideology
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.16
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#New Capital - Covington Assassinated - Garrison Mobilizes
+	id = RWE_Montana.16
+	title = RWE_Montana.16.t
+	desc = RWE_Montana.16.d
+	picture = india_dem_pol_anti_insurgency
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.16.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+
+		389 = {
+			set_demilitarized_zone = yes
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.17
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#New Capital - Covington Assassinated - McVeigh Mobilizes
+	id = RWE_Montana.17
+	title = RWE_Montana.17.t
+	desc = RWE_Montana.17.d
+	picture = india_dem_for_kashmir_revolt
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.17.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+
+		381 = {
+			set_demilitarized_zone = yes
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.18
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Purists
+	id = RWE_Montana.18
+	title = RWE_Montana.18.t
+	desc = RWE_Montana.18.d
+	picture = norwegian_monarchist_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Align with Weaver
+		name = RWE_Montana.18.a
+
+		add_political_power = -150
+
+		add_stability = -0.2
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.37
+				days = 2
+			}
+		}
+	}
+
+	option = { #Align with Garrison
+		name = RWE_Montana.18.b
+
+		add_political_power = -50
+
+		add_stability = -0.1
+	}
+
+	option = { #Align with Nobody
+		name = RWE_Montana.18.c
+
+		add_political_power = -200
+
+		add_stability = -0.1
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.19
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Purists - McVeigh Overthrows the Council
+	id = RWE_Montana.19
+	title = RWE_Montana.19.t
+	desc = RWE_Montana.19.d
+	picture = norwegian_monarchist_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.19.a
+
+		add_political_power = -200
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Timothy McVeigh"
+			picture = "Portrait_MOT_Timothy_McVeigh.dds"
+			desc = "NO_DESC"
+			ideology = wlp_thought
+		}
+
+		set_party_name = { 
+			ideology = fascist 
+			long_name = "New American National Purification Committee" 
+			name = "National Purists" 
+		}
+
+		drop_cosmetic_tag = yes
+
+		set_cosmetic_tag = MOT_Purification
+	}
+}
+
+country_event = {		#Garrison in Power - McVeigh gets purged
+	id = RWE_Montana.30
+	title = RWE_Montana.30.t
+	desc = RWE_Montana.30.d
+	picture = american_funded_rebels
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.30.a
+
+		add_political_power = 150
+		
+		381 = { set_demilitarized_zone = no }
+
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.25
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Covington Race Purity Laws relaxed
+	id = RWE_Montana.31
+	title = RWE_Montana.31.t
+	desc = RWE_Montana.31.d
+	picture = pius_youth
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.31.a
+
+		add_political_power = 15
+	}
+}
+
+country_event = {		#Garrison in Power - Montana Dollar Introduced
+	id = RWE_Montana.32
+	title = RWE_Montana.32.t
+	desc = RWE_Montana.32.d
+	picture = commonwealth_economy_collapses
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.32.a
+
+		add_political_power = 15
+	}
+}
+
+country_event = {		#Garrison in Power - Garrison Coup Fails, Hilarity Ensues
+	id = RWE_Montana.33
+	title = RWE_Montana.33.t
+	desc = RWE_Montana.33.d
+	picture = american_military_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.33.a
+
+		add_political_power = -150
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.34
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Garrison Coup Fails - Militias overthrow Garrison
+	id = RWE_Montana.34
+	title = RWE_Montana.34.t
+	desc = RWE_Montana.34.d
+	picture = rub_ethnic_violence2
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.34.a
+
+		add_political_power = -150
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Total Anarchy"
+			picture = "Portrait_MOT_Anarchy.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		add_ideas = RWE_MOT_Garrison_Anarchy
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.35
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Militia Civil War
+	id = RWE_Montana.35
+	title = RWE_Montana.35.t
+	desc = RWE_Montana.35.d
+	picture = rub_street_fighting
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.35.a
+
+		add_political_power = -150
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Total Anarchy"
+			picture = "Portrait_MOT_Anarchy.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		add_ideas = RWE_MOT_Garrison_Anarchy
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.35
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = {		#Garrison in Power - Militia Civil War - Outcome
+	id = RWE_Montana.36
+	title = RWE_Montana.36.t
+	desc = RWE_Montana.36.d
+	picture = rub_street_fighting
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Biafra
+		name = RWE_Montana.36.a
+
+		ai_chance = {
+			factor = 25
+		}
+
+		add_political_power = 50
+
+		kill_country_leader = yes
+
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
+
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.35
+		}
+
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = MOT_PostGarrison
+
+		remove_ideas = RWE_MOT_Garrison_Anarchy
+	}
+
+	option = { #Cascadians
+		name = RWE_Montana.36.b
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = -50
+
+		kill_country_leader = yes
+
+		set_party_name = { 
+			ideology = nationalist 
+			long_name = "Military Administration for the Restoration of the Cascadian Republic" 
+			name = "Cascadian Exiles" 
+		}
+
+		create_country_leader = {
+			name = "Carter Ham"
+			picture = "Portrait_MOT_Ham.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = MOT_Cascadian_Exiles
+
+		remove_ideas = RWE_MOT_Garrison_Anarchy
+	}
+
+	option = { #Americaboos
+		name = RWE_Montana.36.c
+
+		ai_chance = {
+			factor = 65
+		}
+
+		add_political_power = -100
+
+		kill_country_leader = yes
+
+		set_party_name = { 
+			ideology = nationalist 
+			long_name = "Forces for the Restoration of American Dignity" 
+			name = "New Minutemen" 
+		}
+
+		create_country_leader = {
+			name = "Erik Prince"
+			picture = "Portrait_MOT_Ham.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = MOT_American_Autonomy
+
+		remove_ideas = RWE_MOT_Garrison_Anarchy
+	}
+}
+
+country_event = {		#Covington Assassinated - Council Seeks Allies to stop the Purists - Weaver seizes control
+	id = RWE_Montana.37
+	title = RWE_Montana.37.t
+	desc = RWE_Montana.37.d
+	picture = pence_forces_seize_remaining_areas
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.37.a
+
+		ai_chance = {
+			factor = 50
+		}
+
+		set_politics = {
+			ruling_party = nationalist
+		}
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.35
+		}
+
+		add_political_power = 50
+
+		create_country_leader = {
+			name = "Randy Weaver"
+			picture = "Portrait_MOT_Randy_Weaver.dds"
+			desc = "NO_DESC"
+			ideology = nationalist_ideology
+		}
+
+		set_party_name = { 
+			ideology = fascist 
+			long_name = "Council for Resurrection of American Liberty - Extremist Faction" 
+			name = "Liberty Council - Extremists" 
+		}
+
+		set_party_name = { 
+			ideology = nationalist 
+			long_name = "Council for Resurrection of American Liberty" 
+			name = "Liberty Council" 
+		}
+
+		set_party_name = { 
+			ideology = national_conservative 
+			long_name = "Council for Resurrection of American Liberty - Moderate Faction" 
+			name = "Liberty Council - Moderates" 
+		}
+
+		drop_cosmetic_tag = yes
+
+		set_cosmetic_tag = MOT_Free_Territory
+	}
+
+	option = { 
+		name = RWE_Montana.37.b
+
+		ai_chance = {
+			factor = 40
+		}
+		
+		389 = { set_demilitarized_zone = no }
+
+		set_politics = {
+			ruling_party = nationalist
+		}
+
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.35
+		}
+	}
+
+	option = { 
+		name = RWE_Montana.37.c
+
+		ai_chance = {
+			factor = 10
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = RWE_Montana.19
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { #Weaver gets Teddy and Vicky shot
+	id = RWE_Montana.38
+	title = RWE_Montana.38.t
+	desc = RWE_Montana.38.d
+	picture = MOT_purge_disloyal_radicals
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.38.a
+		add_manpower = -122
+		add_stability = 0.05
+		389 = { set_demilitarized_zone = no }
+		381 = { set_demilitarized_zone = no }
+	}
+}
+
+country_event = { #Christ, Washington and Browning
+	id = RWE_Montana.39	
+	title = RWE_Montana.39.t
+	desc = RWE_Montana.39.d
+	picture = MOT_CWB
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.39.a
+		add_political_power = 5
+		add_stability = 0.025
+		add_manpower = 1911
+	}
+}
+
+country_event = { #Anti-Communism
+	id = RWE_Montana.40
+	title = RWE_Montana.40.t
+	desc = RWE_Montana.40.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.40.a
+		add_war_support = 0.05
+		add_manpower = 2500
+	}
+}
+
+country_event = { #Anti-Communist Pact
+	id = RWE_Montana.41
+	title = RWE_Montana.41.t
+	desc = RWE_Montana.41.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.41.a
+		create_faction = anticommunist_pact
+		MOT = {
+			remove_ideas = idea_america_neutrality_statelet
+			}
+		UTA = {
+			country_event = { id = utah.1 }
+		}
+
+		ARI = {
+			country_event = { id = arizona.1 }
+		}
+
+	}
+}
+
+country_event = { #Utah accepts
+	id = RWE_Montana.42
+	title = RWE_Montana.42.t
+	desc = RWE_Montana.42.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.42.a
+	}
+}
+
+country_event = { #Utah rejects
+	id = RWE_Montana.43
+	title = RWE_Montana.43.t
+	desc = RWE_Montana.43.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.43.a
+	}
+}
+
+country_event = { #Arizona accepts
+	id = RWE_Montana.44
+	title = RWE_Montana.44.t
+	desc = RWE_Montana.44.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.44.a
+	}
+}
+
+country_event = { #Arizona rejects
+	id = RWE_Montana.45
+	title = RWE_Montana.45.t
+	desc = RWE_Montana.45.d
+	picture = MOT_antipca_training 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.45.a
+	}
+}
+
+country_event = { #Jesus
+	id = RWE_Montana.46
+	title = RWE_Montana.46.t
+	desc = RWE_Montana.46.d
+	picture = MOT_jesus  
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.46.a
+	}
+}
+
+country_event = { #Ben Garrison must die
+	id = RWE_Montana.47
+	title = RWE_Montana.47.t
+	desc = RWE_Montana.47.d
+	picture = MOT_must_kill_garrison  
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.47.a
+		add_manpower = -1
+	}
+}
+
+country_event = { #Covington Successors Test
+	id = RWE_Montana.48
+	title = RWE_Montana.48.t
+	desc = RWE_Montana.48.d
+	picture = MOT_must_kill_garrison  
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { 
+		name = RWE_Montana.48.a
+
+		set_cosmetic_tag = MOT_Northwest_Federation
+
+		create_country_leader = {
+	        name = "John Trochmann"
+	        picture = "Portrait_John_Trochmann.dds"
+	        ideology = fascist_ideology
+        }
+	}
+
+	option = { 
+		name = RWE_Montana.48.a
+
+		set_cosmetic_tag = MOT_Northwest_Aryan
+
+		create_country_leader = {
+	        name = "Louis Beam"
+	        picture = "Portrait_Louis_Beam.dds"
+	        ideology = fascist_ideology
+        }
+	}
+}

@@ -1,0 +1,74 @@
+add_namespace = nevada
+
+#Nevada secures independence
+country_event = {		
+	id = nevada.1
+	title = nevada.1.t
+	desc = nevada.1.d
+	picture = MOT_Militias
+
+	is_triggered_only = yes
+
+	option = { #Gleaming Reward Path
+		name = nevada.1.a
+		ai_chance = {
+			factor = 60
+		}
+
+		NVG = {
+			transfer_state = 897
+
+			transfer_state = 889
+
+			897 = {
+				add_core_of = NVG
+			}
+
+			889 = {
+				add_core_of = NVG
+			}
+		}
+	}
+
+	option = { #Demolition Path
+		name = nevada.1.b
+		ai_chance = {
+			factor = 60
+		}
+
+		NVG = {
+			transfer_state = 897
+
+			transfer_state = 889
+
+			897 = {
+				add_core_of = NVG
+			}
+
+			889 = {
+				add_core_of = NVG
+			}
+		}
+	}
+
+	option = { #Let it Rot Path
+		name = nevada.1.a
+		ai_chance = {
+			factor = 60
+		}
+
+		NVG = {
+			transfer_state = 897
+
+			transfer_state = 889
+
+			897 = {
+				add_core_of = NVG
+			}
+
+			889 = {
+				add_core_of = NVG
+			}
+		}
+	}
+}

@@ -155,15 +155,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Amie Harper"
+	name = "David North"
 	picture = "Portrait_UTA_Amie_Harper.dds"
 	ideology = revolutionary_socialist_ideology
 }
 
 create_country_leader = {
-	name = "Larry Holmes"
-	picture = "Portrait_UTA_Larry_Holmes.dds"
-	ideology = marxist
+	name = "David North"
+	picture = "Portrait_UTA_Amie_Harper.dds"
+	ideology = revolutionary_socialist_ideology
+}
+
+create_country_leader = {
+	name = "Julie Balten"
+	picture = "Portrait_Julie_Balten.dds"
+	ideology = american_communist
 }
 
 create_field_marshal = {

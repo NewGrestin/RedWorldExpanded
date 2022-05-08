@@ -7,10 +7,6 @@ set_convoys = 500
 set_stability = 0.7
 set_war_support = 0.4
 
-add_ideas = {
-	RWE_America_Shattered_Ambition
-}
-
 set_technology = {
 	support_weapons = 1
 	infantry_weapons = 1
@@ -94,7 +90,50 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "William Daniel Johnson"
+	picture = "Portrait_NVG_Joseph_Lombardo.dds"
+	ideology = national_socialist
+}
+
+create_country_leader = {
+	name = "William Daniel Johnson"
+	picture = "Portrait_NVG_Joseph_Lombardo.dds"
+	ideology = revolutionary_nazi
+}
+
+create_country_leader = {
+	name = "Nevada Royal Council"
+	picture = "Portrait_NVG_Joseph_Lombardo.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
 	name = "Joseph Lombardo"
 	picture = "Portrait_NVG_Joseph_Lombardo.dds"
-	ideology = nationalist_ideology
+	ideology = american_nationalist
 }
+
+create_country_leader = {
+	name = "Dean Heller"
+	picture = "Portrait_NVG_Joseph_Lombardo.dds"
+	ideology = american_conservative
+}
+
+create_country_leader = {
+	name = "Rocky Anderson"
+	picture = "Portrait_NVG_Joseph_Lombardo.dds"
+	ideology = old_american_democrats
+}
+
+create_country_leader = {
+	name = "Hunter S. Thompson"
+	picture = "Portrait_NVG_Joseph_Lombardo.dds"
+	ideology = new_democrat_ideology
+}
+
+create_country_leader = {
+	name = "Roseanne Barr"
+	picture = "Portrait_NVG_Joseph_Lombardo.dds"
+	ideology = democratic_socialist
+}
+

@@ -38,6 +38,15 @@
   GNS_Elections:0 "Begin Free Elections"
   GNS_Tackle_Insurgency3:0 "A Libya Safe for Democracy"
 
+  GNS_Elections_Magariaf:0 "A Free Libya"
+  GNS_Elections_Zeidan:0 "A Fair Libya"
+  GNS_NewDem_Healthcare_Reform:0 "Increase Healthcare Spending"
+  GNS_NewDem_Overhaul_Administration:0 "Overhaul Civil Administrations"
+  GNS_NewDem_Education_Reform:0 "Tackle the Literacy Issue"
+  GNS_Elections_Sallabi:0 "A United Libya"
+
+
+
   ##########################
   # IDEAS
   ##########################

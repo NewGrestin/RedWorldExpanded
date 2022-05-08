@@ -1196,3 +1196,129 @@ news_event = {	#The Fall of Sydney (PRC)
 	}
 
 }
+
+news_event = {	#Texas - Rick Perry Re-elected
+	id = newsrw.500
+	title = newsrw.500.t
+	desc = newsrw.500.d
+	picture = TEX_Rick_Perry_Reelected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.500.a
+	}
+}
+
+news_event = {	#Texas - Oliver North Elected
+	id = newsrw.501
+	title = newsrw.501.t
+	desc = newsrw.501.d
+	picture = TEX_Oliver_North_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.501.a
+	}
+}
+
+news_event = {	#Texas - George Foreman Elected
+	id = newsrw.502
+	title = newsrw.502.t
+	desc = newsrw.502.d
+	picture = TEX_George_Foreman_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.502.a
+	}
+}
+
+news_event = {	#Texas - George Bush Elected
+	id = newsrw.503
+	title = newsrw.503.t
+	desc = newsrw.503.d
+	picture = TEX_George_Bush_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.503.a
+	}
+}
+
+news_event = {	#Texas - Ron Paul Elected
+	id = newsrw.504
+	title = newsrw.504.t
+	desc = newsrw.504.d
+	picture = TEX_Ron_Paul_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.504.a
+	}
+}
+
+news_event = {	#Texas - Ross Perot Elected
+	id = newsrw.505
+	title = newsrw.505.t
+	desc = newsrw.505.d
+	picture = TEX_Perot_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.505.a
+	}
+}
+
+news_event = {	#Texas - Lynda Johnson Elected
+	id = newsrw.506
+	title = newsrw.506.t
+	desc = newsrw.506.d
+	picture = TEX_Lynda_Johnson_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.506.a
+	}
+}
+
+news_event = {	#Texas - Lynda Johnson Elected
+	id = newsrw.507
+	title = newsrw.507.t
+	desc = newsrw.507.d
+	picture = TEX_Wendy_Davis_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.507.a
+	}
+}
+
+news_event = {	#Texas - Woody Harrelson Elected
+	id = newsrw.508
+	title = newsrw.508.t
+	desc = newsrw.508.d
+	picture = TEX_Woody_Harrelson_Elected
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = newsrw.508.a
+	}
+}

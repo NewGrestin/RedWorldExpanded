@@ -17,6 +17,14 @@
 
   OPEC:0 "Organization of the Petroleum Exporting Countries (OPEC)"
 
+  RWE_DOR_Democratic_Orientation:0 "Days of Rage - §CDemocratic Orientation§!"
+  RWE_DOR_Militant_Democratic_Orientation:0 "Days of Rage - §RMilitant§! §CDemocratic Orientation§!"
+  RWE_DOR_Islamist_Orientation:0 "Days of Rage - §GIslamist Orientation§!"
+  RWE_DOR_Militant_Islamist_Orientation:0 "Days of Rage - §RMilitant§! §GIslamist Orientation§!"
+  RWE_DOR_Communist_Orientation:0 "Days of Rage - §RRadical Left Orientation§!"
+  RWE_DOR_Militant_Communist_Orientation:0 "Days of Rage - §RMilitant Radical Left Orientation§!"
+  RWE_DOR_Baathist_Orientation:0 "Days of Rage - §OBa'athist Orientation§!"
+
   ##########################
   # EVENTS
   ##########################

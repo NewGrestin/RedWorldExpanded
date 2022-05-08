@@ -63,6 +63,12 @@ ideologies = {
 
 			kmt_fr = {				
 			}
+
+			white_nationalism = {				
+			}
+
+			wlp_thought = {				
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -96,6 +102,7 @@ ideologies = {
 			airforce_intel_to_others = 10.0
 		}
 		
+		ai_neutral = yes
 	}
 
 }

@@ -848,6 +848,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_white_nationalism"
+		texturefile = "gfx/interface/ideologies/white_nationalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_wlp_thought"
+		texturefile = "gfx/interface/ideologies/wlp_thought.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
 		legacy_lazy_load = no
