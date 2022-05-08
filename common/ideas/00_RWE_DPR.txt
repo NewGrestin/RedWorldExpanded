@@ -1,0 +1,71 @@
+##################
+# DPRK ideas
+##################
+
+ideas = {
+
+	country = {
+
+		PRK_ils_fading_health = { 
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_ils_fading_health
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = -0.50
+				stability_factor = -0.05
+			}
+		}
+		
+		PRK_developing_industry_1 = { 
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_agriculture_to_industry   
+			
+			removal_cost = -1
+	
+			modifier = {
+				consumer_goods_factor = 0.1
+				monthly_population = 0.05
+				production_speed_industrial_complex_factor = -0.025
+			}
+		}
+		
+		PRK_bloated_army = { 
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = RWE_KPA 
+			
+			removal_cost = -1
+	
+			modifier = {
+			consumer_goods_factor = 0.075
+			army_morale_factor = 0.025
+			production_speed_arms_factory_factor = 0.05 	 
+			}
+		}
+	}
+}

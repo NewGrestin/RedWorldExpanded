@@ -1,0 +1,45 @@
+﻿l_english: 
+
+  ########################## 
+  # COUNTRIES
+  ##########################
+
+  ##########################
+  # FOCUSES
+  ##########################
+
+  ##########################
+  # PARTIES
+  ##########################
+
+  ##########################
+  # IDEAS
+  ##########################
+  PRK_ils_fading_health:0 "Il's Fading Health"       
+  PRK_ils_fading_health_desc:0 "The dear leader has not fared well in the passing years. With constant health scares and his age, it is more than clear to his family, the party and the highest generals that Il's Illness, of his heart, will take him much sooner than previously thought. Korea and its future seems to be heading to a time of great uncertainty as many high up in the state may see Il's passing as a time of §Ropportunity§! rather than §5mourning§!. "    
+  PRK_developing_industry_1:0 "Developing Industry"       
+  PRK_developing_industry_1_desc:0 "Industry across the Korean Peninsula has always been sparse, always an agricultrial nation even under the thumb of the Japanese. With the Korean war ending in the early 50's, Il took the newly united nation in the direction of industrialization like many revolutionaries before him. However, the process has taken a strain on the existing economy as we drift further and further away from the agricultrial centred economy." 
+  PRK_bloated_army:0 "Bloated Army"       
+  PRK_bloated_army_desc:0 "Although not in any immedient danger, the government still justifies mass funding of the Korean People's Army along with maintaing manditory conscription."
+  
+  
+  ##########################
+  # EVENTS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+  ##########################
+  # LEADERS
+  ##########################
+  master_of_the_korean_peoples:0 "Master of The Korean People's"             
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # COSMETIC TAGS
+  ##########################

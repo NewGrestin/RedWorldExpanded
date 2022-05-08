@@ -1,0 +1,27 @@
+add_namespace = korea
+#Kim jong il dies
+country_event = { 
+	id = korea.1
+	title = korea.1.t
+	desc = korea.1.d
+	picture = kim_jong_il_dies
+	is_triggered_only = yes
+	option = {
+		#
+		name = korea.1.o1
+		PRK_kim_jongnam = { 
+			promote_character = juche
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					exists = yes
+				}
+				news_event = {
+					hours = 4
+					id = news.308
+				}
+			}
+		}
+	}
+}

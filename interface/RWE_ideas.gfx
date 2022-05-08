@@ -476,4 +476,16 @@ spriteTypes = {
 		name = "GFX_idea_ENG_the_party_of_government"
 		texturefile = "gfx/interface/ideas/The_Party_Of_Government.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_RWE_ils_fading_health"   
+		texturefile = "gfx/interface/ideas/RWE_ils_fading_health.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_agriculture_to_industry"   
+		texturefile = "gfx/interface/ideas/RWE_agriculture_to_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RWE_KPA"    
+		texturefile = "gfx/interface/ideas/RWE_KPA.png"
+	}
 }
