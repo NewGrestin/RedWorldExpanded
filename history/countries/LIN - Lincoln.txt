@@ -8,10 +8,10 @@ set_stability = 0.7
 set_war_support = 0.4
 
 add_ideas = {
-	idea_america_neutrality_statelet
-	partial_economic_mobilisation
 	RWE_LIN_Fractured_Right_Wing 
 	RWE_LIN_Ideological_Enigma 
+	idea_america_neutrality_statelet
+	partial_economic_mobilisation
 }
 
 set_technology = {

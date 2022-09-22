@@ -98,6 +98,13 @@
   WAF_Unite_with_Chad:0 "Unite with Chad"
   WAF_Against_Egypt:0 "Stop the Nasserists"
  
+  WAF_The_African_Jamahiriya_Secured:0 "State of the African Masses"
+  WAF_Criminalize_Birth_Control:0 "Criminalize Birth Control"
+  WAF_Tutelage_of_the_People:0 "The Temporary Party"
+  WAF_Break_Colonial_Chains:0 "Against Soviet-Anglo Colonialism"
+  WAF_Third_World_Union:0 "Leviathan of the Third World"
+  WAF_Utopia_Realized:0 "Utopia, Realized"
+ 
   ##########################
   # PARTIES
   ##########################
@@ -317,6 +324,10 @@
   WAF_TIT:0 "West African Jamahiriya"
   WAF_TIT_DEF:0 "The Great Sociallist People's West African Jamahiriya"
   WAF_TIT_ADJ:0 "West African"
+
+  WAF_KING:0 "Songhai Empire"
+  WAF_KING_DEF:0 "The Empire of Songhai"
+  WAF_KING_ADJ:0 "Sahelian"
 
   KEN_EAF:0 "East African Federation"
   KEN_EAF_DEF:0 "The East African Federation"

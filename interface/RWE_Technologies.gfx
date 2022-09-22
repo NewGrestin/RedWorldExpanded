@@ -6,6 +6,75 @@ spriteTypes = {
 		name = "GFX_IRQ_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/IRQ_infantry_equipment_0.dds"
 	}
-	
-	
+
+	SpriteType = {
+		name = "GFX_conventional_ballistic_missile_1_medium"
+		texturefile = "gfx/interface/technologies/conventional_ballistic_missile_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_conventional_ballistic_missile_1_equipment"
+		texturefile = "gfx/interface/technologies/conventional_ballistic_missile_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_conventional_ballistic_missile_2_medium"
+		texturefile = "gfx/interface/technologies/conventional_ballistic_missile_0.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_conventional_ballistic_missile_2_equipment"
+		texturefile = "gfx/interface/technologies/conventional_ballistic_missile_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_conventional_ballistic_missile_3_medium"
+		texturefile = "gfx/interface/technologies/conventional_ballistic_missile_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_conventional_ballistic_missile_3_equipment"
+		texturefile = "gfx/interface/technologies/conventional_ballistic_missile_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_irbm_1_medium"
+		texturefile = "gfx/interface/technologies/irbm_0.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_irbm_1_equipment"
+		texturefile = "gfx/interface/technologies/irbm_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_icbm_1_medium"
+		texturefile = "gfx/interface/technologies/icbm_0.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_icbm_1_equipment"
+		texturefile = "gfx/interface/technologies/icbm_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_active_radar_homing_medium"
+		texturefile = "gfx/interface/technologies/active_radar_homing.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_improved_INS_medium"
+		texturefile = "gfx/interface/technologies/INS.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_simple_ballistic_rocketry_medium"
+		texturefile = "gfx/interface/technologies/simple_ballistic_rocketry.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_EMI_ship_launched_rocket_battery"
+		texturefile = "gfx/interface/technologies/ship_launched_missile_battery_module.dds"
+	}	
+
 }

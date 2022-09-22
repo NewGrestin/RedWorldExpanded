@@ -489,3 +489,60 @@
   USA_JAP:0 "Reorganized National Government of America"
   USA_JAP_DEF:0 "The Reorganized National Government of America"
   USA_JAP_ADJ:0 "American" 
+
+  simple_ballistic_rocketry_desc:0 "While the art of rocketry isn't new, modern ballistic missiles demand far more understanding of the craft than the old models. New techniques have made old missiles obsolete, but the newest technology can make missiles a deadly part of any arsenal."
+
+  category_missile:0 "All Missiles"
+  category_short_missile:0 "All Short Missiles" 
+
+
+
+  simple_ballistic_rocketry:0 "Simple Ballistic Rocketry"
+  simple_ballistic_rocketry_desc:0 "Rocket science doesn't have to be rocket science! One can design a rocket with only the simple understanding of how gravity works and being able to manipulate that to such an extent for it to allow a quick object to penetrate the atmosphere, only for it to be dragged back to earth and explode on impact. If you can understand that principle, you can understand a rocket."  
+
+  active_radar_homing:0 "Active Radar Homing"
+  active_radar_homing_desc:0 "Active Radar Homing (ARH) is a missile guidance system using a radio transceiver that allows the missile to track radio waves. Generally, these missiles are used for SEAD missions with the purpose of disabling enemy anti-air capability."
+  improved_INS:0 "Modern INS Technology"
+  improved_INS_desc:0 "Inertial Navigation Systems (INS) are the mechanics that keep a missile locked onto target. Through complex math and the missile's accompanying technology, the INS holds the missile stable and its more modern variants are even able to compensate for common errors made during the flight of the rocket."
+
+  conventional_ballistic_missile_1:0 "Conventional Ballistic Missile 2012"
+  conventional_ballistic_missile_2:0 "Conventional Ballistic Missile 2013"
+  conventional_ballistic_missile_3:0 "Conventional Ballistic Missile 2015"
+  irbm_1:0 "Intermediate-Range Ballistic Missile 2013"
+  icbm_1:0 "Intercontinental Ballistic Missile 2013" 
+  ship_launched_ballistic_missile_1:0 "Ship-Launched Ballistic Missile 2012"
+  naval_missile_equipment_desc:0 "Utilizing a ship or submarine as platform to be launched from, the ship-launced ballistic missile is a menace for any modern navy. Replacing the cannons of old, missiles are the future of modern naval warfare and allow greater distance between us and any less advanced enemy."
+  ship_launched_ballistic_missile_2:0 "Ship-Launched Ballistic Missile 2012"
+
+  conventional_ballistic_missile_1_equipment:0 "Conventional Ballistic Missile I"
+  conventional_ballistic_missile_1_equipment_desc:0 "Utilizing a basic understanding of ballistics, the conventional ballistic missile is generally a small-ranged missile with a conventional warhead, designed to target local targets of strategic importance, such as airports or infrastructure. It is relatively cheap and not too complex, allowing a certain versatility." 
+  conventional_ballistic_missile_2_equipment:0 "Conventional Ballistic Missile II"
+  conventional_ballistic_missile_2_equipment_desc:0 "Utilizing a basic understanding of ballistics, the conventional ballistic missile is generally a small-ranged missile with a conventional warhead, designed to target local targets of strategic importance, such as airports or infrastructure. It is relatively cheap and not too complex, allowing a certain versatility." 
+  conventional_ballistic_missile_3_equipment:0 "Conventional Ballistic Missile III"
+  conventional_ballistic_missile_3_equipment_desc:0 "Utilizing a basic understanding of ballistics, the conventional ballistic missile is generally a small-ranged missile with a conventional warhead, designed to target local targets of strategic importance, such as airports or infrastructure. It is relatively cheap and not too complex, allowing a certain versatility." 
+  SOV_conventional_ballistic_missile_1_equipment:0 "R-2"
+  SOV_conventional_ballistic_missile_1_equipment_short:0 "R-2" 
+  SOV_conventional_ballistic_missile_2_equipment:0 "OTR-21 Tochka"
+  SOV_conventional_ballistic_missile_2_equipment_short:0 "Tochka Missile" 
+  SOV_conventional_ballistic_missile_3_equipment:0 "9K720 Iskander"
+  SOV_conventional_ballistic_missile_3_equipment_short:0 "Iskander"
+
+  irbm_1_equipment:0 "Intermediate-Range Ballistic Missile I"
+  irbm_1_equipment_desc:0 "A weird class of missiles that share the awkward space of ICBMs and short-range missiles, IRBMs are missiles with an extended range, able to target targets in larger operational regions. It is unclear which missiles belong to this group and which don't, but they remain a good option for those who want more punch than a short-range missile, but can't afford ICBM technology."  
+  SOV_irbm_1_equipment:0 "RSD-10 Pioneer"
+  SOV_irbm_1_equipment_short:0 "Pioneer Missile" 
+
+  icbm_1_equipment:0 "Intercontinental Ballistic Missile I"
+  icbm_1_equipment_desc:0 "ICBM goes brrr"
+  SOV_icbm_1_equipment:0 "MR-UR-100 Sotka"
+  SOV_icbm_1_equipment_short:0 "Sotka" 
+
+  ship_launched_ballistic_missile_1_equipment:0 "Ship-Launched Ballistic Missile I"
+  ship_launched_ballistic_missile_2_equipment:0 "Ship-Launched Ballistic Missile II"
+  SOV_ship_launched_ballistic_missile_1_equipment:0 "3M-54 Kalibr"
+  SOV_ship_launched_ballistic_missile_1_equipment_short:0 "Kalibr Missile"
+  SOV_ship_launched_ballistic_missile_2_equipment:0 "3M-54E Klub"
+  SOV_ship_launched_ballistic_missile_2_equipment_short:0 "Klub Missile" 
+
+  ship_launched_rocket_battery:0 "Ship-Launched Rocket Battery" 
+  ship_launched_rocket_battery_desc:0 "A module allowing even the lightest ships to pack a deadly punch. Through the use of a rocket barrage, smaller ships can overwhelm the air defenses of larger ships and punch through their hull with deadly precision."  

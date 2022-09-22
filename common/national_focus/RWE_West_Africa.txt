@@ -1648,3 +1648,118 @@ shared_focus = {
 	}
 	}
 }
+
+shared_focus = {
+	id = WAF_The_African_Jamahiriya_Secured
+	icon = GFX_goal_WAF_Gadaffi
+	x = 29
+	y = 6
+
+	cost = 5
+	prerequisite = { focus = WAF_Allow_Corruption focus = WAF_Smoking_with_Warlords }
+	prerequisite = { focus = WAF_Rig_Them focus = WAF_Cover_Up_the_Bad_Stuff }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Criminalize_Birth_Control
+	icon = GFX_goal_Generic_Population_Question
+	x = 28
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_The_African_Jamahiriya_Secured }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Third_World_Union
+	icon = GFX_goal_LBA_Maintain_Pan_Africanism
+	x = 30
+	y = 7
+
+	cost = 5
+	prerequisite = { focus = WAF_The_African_Jamahiriya_Secured }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Tutelage_of_the_People
+	icon = GFX_goal_LBA_Mandatory_Green_Books
+	x = 27
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Criminalize_Birth_Control }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Break_Colonial_Chains
+	icon = GFX_goal_Generic_Colonial_Hunter
+	x = 28
+	y = 9
+
+	cost = 5
+	prerequisite = { focus = WAF_Criminalize_Birth_Control }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = WAF_Utopia_Realized
+	icon = GFX_goal_LBA_Pan_Arabist_Expansion
+	x = 30
+	y = 8
+
+	cost = 5
+	prerequisite = { focus = WAF_Third_World_Union }
+
+	available = {
+
+	}
+
+
+	completion_reward = {
+
+	}
+}

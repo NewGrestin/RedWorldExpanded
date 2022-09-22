@@ -6,6 +6,8 @@
   FRN:0 "French State"
   FRN_CORSICA:0 "Corsica"
 
+  minor_diplomatic_ties:0 "Minor Diplomatic Ties" 
+
   ##########################
   # FOCUSES
   ##########################

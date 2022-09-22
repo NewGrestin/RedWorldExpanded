@@ -37,6 +37,8 @@
  ### SUBIDEOLOGIES ###
 
  # FASCISM #
+ military_dictatorship:0 "Military Dictatorship"
+ military_dictatorship_desc:0 "-" 
  national_socialist:0 "National Socialism"
  national_socialist_desc:0 "National Socialism is the ideology and practice characterised as a form of fascism that incorporates scientific racism and antisemitism. It subscribes to theories of racial heirarchy, supposedly aiming to overcome social divisions and create a society unified on the basis of racial purity."
  fascist_ideology:0 "Fascism"
@@ -93,11 +95,17 @@
  dominionist_desc:0 "Dominion theology is a theocratic ideology whose goal is the foundation of a nation by and for Christians governed by Biblical law. Named after the Bible verse Genesis 1:28, dominionism holds that Christians are called by God to exercise control over every aspect of society. Dominionists trace their origins to certain strains of American Christian theology that gained ground in the waning years of the old United States."
  kmt_chiang:0 "Kuomintang Chiangist"
  kmt_chiang_desc:0 "The Kuomintang, or Chinese Nationalist Party, was at one point the sole governing authority over the Chinese state until the defeat of the Nationalist government in the Chinese Civil War. While technically a united, vanguard-esque political faction, the KMT is internally divided into a myriad of sub-groups.\n\nThe Chiangist faction is largely an offshoot of the ultra-rightists, arguing against their more extreme tendencies. As their name implies, the Chiangists lay claim to the political legacy of Chiang kai-shek, the late military dictator of the Republic of China. Straying away from the ultra-right, the Chiangists argue in favor of maintaining the spirit of the party and its' original aims. The Chiangist faction seeks to maintain political tutledge and the importance of guiding the Chinese people towards democracy through a vanguard party. This stance has been regarded as revisionist by the ultra-right, while the left KMT claims it to be whitewashing of Chiang's authoritarian tendencies."
+ islamic_nationalist:0 "Islamic Nationalist"
+ islamic_nationalist_desc:0 "-"
+ military_junta:0 "Military Junta"
+ military_junta_desc:0 "-" 
 
  # MONARCHISM #
  absolute_monarchist:0 "Absolute Monarchism"
  absolute_monarchist_desc:0 "Absolute monarchy is a form of monarchy in which one ruler has supreme authority that is not restricted by any written laws, legislature or customs."
- 
+ elective_monarchist:0 "Elective Monarchist"
+ elective_monarchist_desc:0 "-"
+
  # NATIONAL BOLSHEVISM #
  national_bolshevik_ideology:0 "National Bolshevism"
  national_bolshevik_ideology_desc:0 "National Bolshevism combines elements of radical nationalism and bolshevism. It is often anti-capitalist intone and sympathetic towards certain forms of socialism."
@@ -135,6 +143,8 @@
  islamic_democrat_desc:0 "Islamic Democracy is a diverse set of political beliefs that seeks to apply Islamic principles to public policy within a democratic framework. This can range from implementing Islamic doctrine in a secular state to the full imposition of Sharia Law under a democratic government."
  kmt_center:0 "Kuomintang Center"
  kmt_center_desc:0 "The Kuomintang, or Chinese Nationalist Party, was at one point the sole governing authority over the Chinese state until the defeat of the Nationalist government in the Chinese Civil War. While technically a united, vanguard-esque political faction, the KMT is internally divided into a myriad of sub-groups.\n\nThe Centrist, or Reformist, faction of the Kuomintang was formed largely out of internal opposition to the White Terror. This opposition was aimed squarely at Chiang, who the Reformists argued had perverted the principles of Sun Yat-sen for his own gain. It was argued that the period of political tutledge had ended with the defeat of the Nationalists and that the path forward was democratization. While suppressed under Chiang and the ultra-rightist dictatorship, the Centrists of the KMT form the backbone of the push for reform."
+ progressive_conservative:0 "Progressive Conservatism"
+ progressive_conservative_desc:0 "-" 
 
  # CENTRISM #
  right_libertarian:0 "Right-Wing Libertarianism"
@@ -171,7 +181,7 @@
  progressive_desc:0 "Progressivism is a philosophy based on the idea of progress, which asserts that advancements in science, technology, economic development and social organisation are vital to the human condition."
  european_moderate_socialist:0 "European Moderate Socialism"
  european_moderate_socialist_desc:0 "European moderate socialism is an ideology in opposition to the Soviet order and pre-Cold War ideologies. It aims to create a new socialist order within Europe."
- peoples_socialist_democracy:0 "People’s Socialist Democracy"
+ peoples_socialist_democracy:0 "People's Socialist Democracy"
  peoples_socialist_democracy_desc:0 "People’s Socialist Democracy is a recent development of Marxism-Leninism which holds that the pathway to socialism can be achieved within the framework of a multi-class, multiparty democracy. Advocates of a people’s democracy seek to build socialism through consensus and firmly reject the concept of a ‘dictatorship of the proletariat’."
  kmt_l:0 "Kuomintang Left"
  kmt_l_desc:0 "The Kuomintang, or Chinese Nationalist Party, was at one point the sole governing authority over the Chinese state until the defeat of the Nationalist government in the Chinese Civil War. While technically a united, vanguard-esque political faction, the KMT is internally divided into a myriad of sub-groups.\n\nThe Left wing of the Kuomintang was historically suppressed following the First White Terror, a critical moment in the leadup to the Chinese Civil War. In modernity, the Left faction of the Kuomintang remains suppressed, albeit still extremely popular across the political underground. The KMT Left argues, naturally, for a left wing interpretation of the Three Principles of the People. Elements of Georgism, an economic doctrine emphasizing land tax, have also been revived as key elements of their identity. Critically, the KMT Left and Center have become strange bedfellows in the Taiwanese government, both seeking to bring down the decades old dictatorship and finally achieve the dream of Chinese democracy."
@@ -211,6 +221,8 @@
  african_socialist_desc:0 "Rooted in the ideals of early independence leaders such as Thomas Sankara and Kwame Nkrumah, African Socialism posits that socialism, as opposed to capitalism, is endemic to Africa and can be found in the traditions and cultures of the many peoples that inhabit the continent. It is distinct from European socialism primarily though its exclusion of class struggle."
  left_maoist:0 "Left Maoism"
  left_maoist_desc:0 "Left Maoism is a term denoting various tendencies within Maoism that emerged following the Sino-Soviet Split in 1977. Mostly present outside of China, Left Maoists take inspiration from the policies of paramount leader Jiang Qing, such as her hardline anti-Soviet stance, and combine elements of traditional Maoism with local ideas such as populism or even direct democracy."
+ orthodox_leninist:0 "Orthodox Leninist"
+ orthodox_leninist_desc:0 "-"
 
  # COMMUNISM #
  marxist:0 "Marxism"

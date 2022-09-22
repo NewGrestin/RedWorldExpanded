@@ -194,7 +194,7 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_LIN_Leadership
 		available = { MOT = { exists = no } has_country_flag = LIN_CIVIL_WAR_SPENCER_WIN }
 		mutually_exclusive = { focus = LIN_End_to_Revolution }
-		x = 15
+		x = 18
 		y = 0
 
 		cost = 2
@@ -226,8 +226,8 @@ add_equipment_to_stockpile = {
 	focus = {
 		id = LIN_Core_Montana
 		icon = GFX_goal_MOT_American_Unity
-		prerequisite = { focus = LIN_Cement_the_Leadership_Principle focus = LIN_End_to_Revolution }
-		x = 19
+		prerequisite = { focus = LIN_Cement_the_Leadership_Principle }
+		x = 21
 		y = 1
 
 		cost = 10
@@ -340,7 +340,7 @@ add_equipment_to_stockpile = {
 		prerequisite = { focus = LIN_The_Visionary_Marx }
 		prerequisite = { focus = LIN_The_Messiah_Mussolini }
 		available = { }
-		x = 11
+		x = 10
 		y = 4
 
 		cost = 5
@@ -356,7 +356,7 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_Focus_FRA_Anti_Semetism
 		prerequisite = { focus = LIN_Crush_the_Peoples_Opium }
 		available = { }
-		x = 12
+		x = 11
 		y = 5
 
 		cost = 5
@@ -374,7 +374,7 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_LIN_Mary
 		prerequisite = { focus = LIN_Crush_the_Peoples_Opium }
 		available = { }
-		x = 10
+		x = 9
 		y = 5
 
 		cost = 5
@@ -390,6 +390,26 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_Focus_Generic_Press_Censorship
 		prerequisite = { focus = LIN_No_References_to_God }
 		prerequisite = { focus = LIN_Persecute_All_Faiths }
+		mutually_exclusive = { focus = LIN_Advocate_for_Christian_Identity }
+		available = { }
+		x = 9
+		y = 6
+
+		cost = 5
+
+
+		completion_reward = {
+		hidden_effect = { country_event = { id = lincoln.8 days = 0 } }
+		swap_ideas = { remove_idea = RWE_LIN_Religious_Crackdown_1 add_idea = RWE_LIN_Religious_Crackdown_2 }
+		}
+	}
+
+	focus = {
+		id = LIN_Advocate_for_Christian_Identity
+		icon = GFX_goal_Focus_Generic_Press_Censorship
+		prerequisite = { focus = LIN_No_References_to_God }
+		prerequisite = { focus = LIN_Persecute_All_Faiths }
+		mutually_exclusive = { focus = LIN_Ban_Holy_Scriptures }
 		available = { }
 		x = 11
 		y = 6
@@ -409,7 +429,7 @@ add_equipment_to_stockpile = {
 		prerequisite = { focus = LIN_The_Visionary_Marx focus = LIN_The_Messiah_Mussolini }
 		prerequisite = { focus = LIN_Ban_Anti_Revolutionary_Literature }
 		available = { has_idea = RWE_LIN_Ideological_Enigma_2 }
-		x = 14
+		x = 13
 		y = 4
 
 		cost = 5
@@ -467,7 +487,7 @@ add_equipment_to_stockpile = {
 		prerequisite = { focus = LIN_Party_for_the_All_American_Worker }
 		prerequisite = { focus = LIN_Ban_Anti_Revolutionary_Literature }
 		available = { }
-		x = 16
+		x = 15
 		y = 4
 
 		cost = 5
@@ -483,7 +503,7 @@ add_equipment_to_stockpile = {
 		icon = GFX_Focus_Bloody_Purge
 		prerequisite = { focus = LIN_Vanguard_of_the_American_Revolution }
 		available = { }
-		x = 17
+		x = 16
 		y = 5
 
 		cost = 5
@@ -499,7 +519,7 @@ add_equipment_to_stockpile = {
 		icon = GFX_goal_LIN_Rushmore
 		prerequisite = { focus = LIN_Vanguard_of_the_American_Revolution }
 		available = { }
-		x = 16
+		x = 15
 		y = 6
 
 		cost = 2
@@ -517,7 +537,7 @@ add_stability = -0.05
 		icon = GFX_goal_LIN_Lincoln
 		prerequisite = { focus = LIN_Enshrine_the_Words }
 		available = { }
-		x = 14
+		x = 13
 		y = 5
 
 		cost = 5
@@ -534,7 +554,7 @@ add_stability = -0.05
 		icon = GFX_goal_LIN_Nazbol
 		prerequisite = { focus = LIN_The_Father_Lincoln }
 		available = { }
-		x = 14
+		x = 13
 		y = 6
 
 		cost = 5
@@ -548,940 +568,143 @@ add_stability = -0.05
 	}
 
 	focus = {
-		id = LIN_End_to_Revolution
-		icon = GFX_goal_Generic_Propaganda_Axis
-		available = { MOT = { exists = no } has_country_flag = LIN_CIVIL_WAR_MILITIA_WIN }
-		mutually_exclusive = { focus = LIN_Cement_the_Leadership_Principle }
-		x = 28
-		y = 0
-
-		cost = 5
-
-
-		completion_reward = {
-		add_popularity = { ideology = national_bolshevik popularity = -0.2 }
-		remove_ideas = { RWE_LIN_Ideological_Enigma }
-		}
-	}
-
-	focus = {
-		id = LIN_The_Soul_of_Wotansvolk
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_End_to_Revolution }
-		mutually_exclusive = { focus = LIN_Militias_Hold_On focus = LIN_The_New_Age_Shaman focus = LIN_New_Moon_of_May }
-		x = 22
-		y = 1
-
-		cost = 5
-
-
-		completion_reward = {
-		create_country_leader = {
-		name = "David Lane"
-		picture = "gfx/leaders/LIN/RW_Wotan_Guy.tga"
-		ideology = fascist_ideology 
-		}
-		set_party_name = { ideology = fascist long_name = "New Folk Party" name = "NFP" }
-		set_politics = { ruling_party = fascist }
-		add_popularity = { ideology = fascist popularity = 0.2 }
-		set_cosmetic_tag = LIN_WOTANSVOLK_COSMETIC
-		}
-	}
-
-	focus = {
-		id = LIN_Freedom_of_Paganist_Thought
-		icon = GFX_goal_LIN_Pagan
-		prerequisite = { focus = LIN_Seize_Church_Property }
-		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk }
-		x = 22
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-		add_popularity = { ideology = fascist popularity = 0.1 }
-		add_war_support = 0.1
-		}
-	}
-
-	focus = {
-		id = LIN_The_Folk_Consciousness
-		icon = GFX_goal_LIN_Folk
-		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk }
+		id = LIN_Perfecting_the_Union
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Core_Montana }
 		x = 20
 		y = 2
 
-		cost = 5
+		cost = 10
 
 
 		completion_reward = {
-		add_ideas = { RWE_LIN_Folk_Consciousness }
+
 		}
 	}
 
 	focus = {
-		id = LIN_War_against_Americanism
-		icon = GFX_goal_LIN_War_against_America
-		prerequisite = { focus = LIN_The_Folk_Consciousness }
-		prerequisite = { focus = LIN_Freedom_of_Paganist_Thought }
+		id = LIN_Institutionalize_the_Party
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Perfecting_the_Union }
+		mutually_exclusive = { focus = LIN_Torches_of_the_Revolution }
+		x = 19 
+		y = 3
+
+		cost = 10
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Torches_of_the_Revolution 
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Perfecting_the_Union }
+		mutually_exclusive = { focus = LIN_Institutionalize_the_Party }
+		x = 21
+		y = 3
+
+		cost = 10
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Ethnic_Heroes_of_the_Union
+		icon = GFX_goal_GRL_Workers_Rights
+		prerequisite = { focus = LIN_Party_for_the_All_American_Worker }
+		prerequisite = { focus = LIN_Institutionalize_the_Party focus = LIN_Torches_of_the_Revolution }
+		x = 18
+		y = 4
+
+		cost = 10
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Wives_of_a_New_America
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Ethnic_Heroes_of_the_Union }
+		x = 18
+		y = 6
+
+		cost = 10
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Copying_the_Stasi
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Core_Montana }
+		x = 23
+		y = 2
+
+		cost = 10
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_Civilian_Security_Organisation
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Copying_the_Stasi }
+		x = 23
+		y = 3
+
+		cost = 10
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = LIN_War_Bolshevism
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Institutionalize_the_Party focus = LIN_Torches_of_the_Revolution }
+		prerequisite = { focus = LIN_Civilian_Security_Organisation }
+		mutually_exclusive = { focus = LIN_The_White_Farmer_Ideal }
 		x = 21
 		y = 4
 
-		cost = 5
+		cost = 10
 
 
 		completion_reward = {
-		add_popularity = { ideology = nationalist popularity = -0.1 }
-		add_popularity = { ideology = liberal popularity = -0.2 }
-		add_political_power = 50
+
 		}
 	}
 
 	focus = {
-		id = LIN_Embrace_Prison_Paramilitaries
-		icon = GFX_goal_LIN_Prison
-		prerequisite = { focus = LIN_The_Folk_Consciousness }
-		x = 19
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-		add_ideas = { RWE_LIN_Prison_Paramilitaries }
-		add_popularity = { ideology = fascist popularity = -0.05 }
-		}
-	}
-
-	focus = {
-		id = LIN_Criminal_Paganism
-		icon = GFX_goal_LIN_Violence
-		prerequisite = { focus = LIN_Embrace_Prison_Paramilitaries }
-		x = 19
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-		swap_ideas = { remove_idea = RWE_LIN_Folk_Consciousness add_idea = RWE_LIN_Folk_Consciousness_1 }
-		add_popularity = { ideology = fascist popularity = -0.05 }
-		}
-	}
-
-	focus = {
-		id = LIN_Subvert_Spencers_Revolution
-		icon = GFX_goal_LIN_Subvert
-		prerequisite = { focus = LIN_Criminal_Paganism }
-		prerequisite = { focus = LIN_War_against_Americanism }
-		x = 20
-		y = 5
-
-		cost = 5
-
-
-		completion_reward = {
-		custom_effect_tooltip = LIN_WAR_DECISIONS
-		set_country_flag = LIN_WAR
-		add_popularity = { ideology = national_bolshevik popularity = -0.5 }
-		add_war_support = 0.05
-		}
-	}
-
-	focus = {
-		id = LIN_The_New_Age_Shaman 
-		icon = GFX_goal_LIN_Shaman
-		prerequisite = { focus = LIN_End_to_Revolution }
-		mutually_exclusive = { focus = LIN_Militias_Hold_On focus = LIN_The_Soul_of_Wotansvolk focus = LIN_New_Moon_of_May }
+		id = LIN_The_White_Farmer_Ideal 
+		icon = GFX_goal_MOT_American_Unity
+		prerequisite = { focus = LIN_Institutionalize_the_Party focus = LIN_Torches_of_the_Revolution }
+		prerequisite = { focus = LIN_Civilian_Security_Organisation }
+		mutually_exclusive = { focus = LIN_War_Bolshevism }
 		x = 24
-		y = 1
-		available = { has_country_flag = LIN_SHAMAN_POWER }
-		cost = 5
-
-
-		completion_reward = {
-		create_country_leader = {
-		name = "The Awakened Shaman"
-		picture = "gfx/leaders/LIN/Qanon_Shaman.tga"
-		ideology = ultranationalist 
-		}
-		set_party_name = { ideology = nationalist long_name = "Society for Awakened Americans" name = "The Society" }
-		set_politics = { ruling_party = nationalist }
-		add_popularity = { ideology = nationalist popularity = 0.3 }
-		}
-	}
-
-	focus = {
-		id = LIN_Seize_Church_Property
-		icon = GFX_goal_Generic_Seize_Church
-		prerequisite = { focus = LIN_The_Soul_of_Wotansvolk focus = LIN_The_New_Age_Shaman }
-		x = 23
-		y = 2
-
-		cost = 5
-
-
-		completion_reward = {
-		add_timed_idea = { idea = RWE_LIN_Seized_Church_Property days = 160 }
-		add_popularity = { ideology = national_conservative popularity = -0.2 }
-		add_stability = -0.1
-		}
-	}
-
-	focus = {
-		id = LIN_Broadcast_Woke_Teachings
-		icon = GFX_goal_LIN_Broadcast
-		prerequisite = { focus = LIN_The_New_Age_Shaman }
-		prerequisite = { focus = LIN_Seize_Church_Property }
-		x = 24
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-		add_war_support = 0.05
-		add_popularity = { ideology = nationalist popularity = 0.15 }
-		country_event = { id = lincoln.15 days = 1 }
-		}
-	}
-
-	focus = {
-		id = LIN_Against_the_Bilderberg_Clique
-		icon = GFX_goal_LIN_Globalism
-		prerequisite = { focus = LIN_The_New_Age_Shaman }
-		x = 25
-		y = 2
-
-		cost = 5
-
-
-		completion_reward = {
-		add_ideas = { RWE_LIN_Culture_of_Conspiracy }
-		add_popularity = { ideology = liberal popularity = -0.2 }
-		add_popularity = { ideology = centrist popularity = -0.1 }
-		add_war_support = 0.05
-		}
-	}
-
-	focus = {
-		id = LIN_Silencing_Freemasons
-		icon = GFX_goal_LIN_Freemasons
-		prerequisite = { focus = LIN_Against_the_Bilderberg_Clique }
-		prerequisite = { focus = LIN_Broadcast_Woke_Teachings }
-		x = 25
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-		swap_ideas = { remove_idea = RWE_LIN_Culture_of_Conspiracy add_idea = RWE_LIN_Culture_of_Conspiracy_1 }
-		add_popularity = { ideology = moderate_socialist popularity = -0.1 }
-		add_popularity = { ideology = new_democrat popularity = -0.05 }
-		}
-	}
-
-	focus = {
-		id = LIN_Demolish_the_Ley_Lines
-		icon = GFX_goal_LIN_Lines
-		prerequisite = { focus = LIN_Broadcast_Woke_Teachings }
-		x = 23
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-		add_stability = 0.1
-		add_popularity = { ideology = nationalist popularity = 0.1 }
-		}
-	}
-
-	focus = {
-		id = LIN_Crusade_against_Deep_Stateism
-		icon = GFX_goal_LIN_Deep_State
-		prerequisite = { focus = LIN_Demolish_the_Ley_Lines }
-		prerequisite = { focus = LIN_Silencing_Freemasons }
-		x = 24
-		y = 5
-
-		cost = 5
-
-
-		completion_reward = {
-		custom_effect_tooltip = LIN_WAR_DECISIONS
-		set_country_flag = LIN_WAR
-		swap_ideas = { remove_idea = RWE_LIN_Culture_of_Conspiracy_1 add_idea = RWE_LIN_Culture_of_Conspiracy_2 }
-		country_event = { id = lincoln.14 days = 1 }
-		}
-	}
-
-	focus = {
-		id = LIN_New_Moon_of_May
-		icon = GFX_goal_LIN_New_Moon
-		prerequisite = { focus = LIN_End_to_Revolution }
-		mutually_exclusive = { focus = LIN_Militias_Hold_On focus = The_Soul_of_Wotansvolk focus = LIN_The_New_Age_Shaman }
-		x = 28
-		y = 1
-
-		cost = 5
-
-
-		completion_reward = {
-		create_country_leader = {
-		name = "Augustus Sol Invictus"
-		picture = "gfx/leaders/LIN/RW_Augustus_Sol_Invictus.tga"
-		ideology = fascist_ideology 
-		traits = { mad_dog }
-		}
-		set_party_name = { ideology = fascist long_name = "Roman-Libertarian Front" name = "R-LF" }
-		set_politics = { ruling_party = fascist }
-		add_popularity = { ideology = fascist popularity = 0.1 }
-		set_cosmetic_tag = LIN_FREE_ROME
-		}
-	}
-
-	focus = {
-		id = LIN_Roots_in_Libertarianism
-		icon = GFX_goal_LIN_Libertarianism
-		prerequisite = { focus = LIN_New_Moon_of_May }
-		mutually_exclusive = { focus = LIN_The_New_Age_Shaman focus = LIN_The_Soul_of_Wotansvolk }
-		x = 27
-		y = 2
-
-		cost = 5
-
-
-		completion_reward = {
-		add_stability = 0.05
-		add_political_power = 25
-		add_war_support = -0.05
-		}
-	}
-
-	focus = {
-		id = LIN_Romanize_the_Revolution
-		icon = GFX_goal_LIN_Romanized_Revolution
-		prerequisite = { focus = LIN_New_Moon_of_May }
-		x = 30
-		y = 2
-
-		cost = 5
-
-
-		completion_reward = {
-		add_ideas = { RWE_LIN_Latin_Libertarianism }
-		}
-	}
-
-	focus = {
-		id = LIN_Free_the_Substances_Market
-		icon = GFX_goal_LIN_Substances
-		prerequisite = { focus = LIN_Roots_in_Libertarianism }
-		x = 27
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-		add_ideas = { RWE_LIN_Free_to_be_High }
-		country_event = { id = lincoln.17 days = 0 }
-		}
-	}
-
-	focus = {
-		id = LIN_Culture_of_Nature
-		icon = GFX_goal_LIN_Nature_Culture
-		prerequisite = { focus = LIN_Romanize_the_Revolution }
-		x = 29
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Decentralized_Imperialism
-		icon = GFX_goal_LIN_Decentralization
-		prerequisite = { focus = LIN_Romanize_the_Revolution }
-		x = 31
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-		swap_ideas = { remove_idea = RWE_LIN_Latin_Libertarianism add_idea = RWE_LIN_Latin_Libertarianism_1 }
-		}
-	}
-
-	focus = {
-		id = LIN_Emulate_the_Roman_Republic
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Decentralized_Imperialism }
-		x = 31
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Green_Free_Market
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Embrace_the_Wilderness }
-		x = 28
-		y = 5
-
-		cost = 5
-
-
-		completion_reward = {
-		add_ideas = free_trade
-		}
-	}
-
-	focus = {
-		id = LIN_Embrace_the_Wilderness
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Culture_of_Nature }
-		prerequisite = { focus = LIN_Free_the_Substances_Market }
-		x = 28
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Unleash_the_Great_War
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Emulate_the_Roman_Republic }
-		prerequisite = { focus = LIN_Culture_of_Nature }
-		x = 30
-		y = 5
-
-		cost = 5
-
-
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = LIN_Proclaim_the_Roman_Republic
-		icon = GFX_goal_Generic_Propaganda_Axis
-		prerequisite = { focus = LIN_Green_Free_Market }
-		prerequisite = { focus = LIN_Unleash_the_Great_War }
-		x = 29
-		y = 6
-
-		cost = 5
-
-
-		completion_reward = {
-		swap_ideas = { remove_idea = RWE_LIN_Latin_Libertarianism_1 add_idea = RWE_LIN_Latin_Libertarianism_2 }
-
-		}
-	}
-
-	focus = {
-		id = LIN_Militias_Hold_On
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_End_to_Revolution }
-		mutually_exclusive = { focus = LIN_The_New_Age_Shaman focus = LIN_New_Moon_of_May }
-		x = 34
-		y = 1
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Remember_Covington
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_Militias_Hold_On }
-		mutually_exclusive = { focus = LIN_Stratocratic_Democracy }
-		x = 33
-		y = 2
-
-		cost = 5
-
-
-		completion_reward = {
-		add_stability = 0.05
-		add_popularity = { ideology = fascist popularity = 0.2 }
-		set_politics = { ruling_party = fascist }
-		set_party_name = { ideology = fascist long_name = "Covington Loyalists" name = "Covington Loyalists" }
-		}
-	}
-
-	focus = {
-		id = LIN_White_Mans_Democracy
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_Remember_Covington }
-		x = 33
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-		remove_country_leader_trait = no_government 
-		add_popularity = { ideology = fascist popularity = 0.05 }
-		add_political_power = 150
-		}
-	}
-
-	focus = {
-		id = LIN_Reject_Unification_Sentimentalism
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_Remember_Covington }
-		x = 34
-		y = 4
-
-		cost = 5
-
-
-		completion_reward = {
-		add_ideas = { RWE_LIN_Reject_Unification_Sentiment }
-		}
-	}
-
-	focus = {
-		id = LIN_American_Style_Apartheid
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_Reject_Unification_Sentimentalism }
-		x = 34
-		y = 5
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Isolated_and_Proud
-		icon = GFX_goal_Generic_Barbed_Wire
-		prerequisite = { focus = LIN_American_Style_Apartheid }
-		x = 33
-		y = 6
-
-		cost = 5
-
-
-		completion_reward = {
-		add_popularity = { ideology = fascist popularity = 0.1 }
-		swap_ideas = { remove_idea = RWE_LIN_Reject_Unification_Sentiment add_idea = RWE_LIN_Reject_Unification_Sentiment_1 }
-		}
-	}
-
-	focus = {
-		id = LIN_Another_South_Africa
-		icon = GFX_goal_MOT_Preserve_Covington
-		prerequisite = { focus = LIN_American_Style_Apartheid }
-		x = 35
-		y = 6
-
-		cost = 5
-
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = LIN_Drug_Fueled_Economy
-		icon = GFX_goal_LIN_Substances
-		prerequisite = { focus = LIN_Remember_Covington focus = LIN_Stratocratic_Democracy }
-		x = 35
-		y = 3
-
-		cost = 5
-
-
-		completion_reward = {
-		add_ideas = { RWE_LIN_Black_Market_Economics }
-		}
-	}
-
-	focus = {
-		id = LIN_Stratocratic_Democracy 
-		icon = GFX_goal_LIN_Underground_Ties
-		prerequisite = { focus = LIN_Militias_Hold_On }
-		mutually_exclusive = { focus = LIN_Remember_Covington }
-		x = 36
-		y = 2
-
-		cost = 5
-
-
-		completion_reward = {
-		create_country_leader = {
-		name = "Gary Raney"
-		picture = "gfx/leaders/LIN/RW_Gary_Raney.tga"
-		ideology = nationalist_ideology 
-		}
-		set_party_name = { ideology = nationalist long_name = "Lincoln Junta" name = "Lincoln Junta" }
-		set_politics = { ruling_party = nationalist }
-		add_popularity = { ideology = nationalist popularity = 0.2 }
-		add_stability = -0.1
-		country_event = { id = lincoln.22 days = 0 }
-		}
-	}
-
-	focus = {
-		id = LIN_Government_of_Generals
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_Stratocratic_Democracy }
-		x = 36
 		y = 4
 
 		cost = 10
 
 
 		completion_reward = {
-		add_ideas = { RWE_LIN_Stratocracy }
-		country_event = { id = lincoln.23 days = 0 }
-		}
-	}
 
-	focus = {
-		id = LIN_Warlords_of_the_Continent
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_Stratocratic_Democracy }
-		x = 37
-		y = 3
-
-		cost = 10
-
-
-		completion_reward = {
-		add_country_leader_trait = warlord_of_the_west
-		add_war_support = 0.2
-		country_event = { id = lincoln.24 days = 0 }
-		}
-	}
-
-	focus = {
-		id = LIN_Might_Makes_Right
-		icon = GFX_goal_LIN_Wotansvolk
-		prerequisite = { focus = LIN_Warlords_of_the_Continent }
-		prerequisite = { focus = LIN_Government_of_Generals }
-		x = 37
-		y = 5
-
-		cost = 5
-		available = { has_country_flag = RANEY_WENT_INSANE }
-
-		completion_reward = {
-		custom_effect_tooltip = LIN_MARCH_ON_THE_CAPITOL
-		set_cosmetic_tag = LIN_RANEY
-		add_ideas = { RWE_LIN_Inspired_by_Chiang }
-		hidden_effect = { 
-		if = { 
-		limit = { MOT = { exists = yes } }
-		declare_war_on = {
-    		target = MOT
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { UTA = { exists = yes } }
-		declare_war_on = {
-    		target = UTA
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { TEX = { exists = yes } }
-		declare_war_on = {
-    		target = TEX
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { PCA = { exists = yes } }
-		declare_war_on = {
-    		target = PCA
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { ARI = { exists = yes } }
-		declare_war_on = {
-    		target = ARI
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { MWA = { exists = yes } }
-		declare_war_on = {
-    		target = MWA 
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { USA = { exists = yes } }
-		declare_war_on = {
-    		target = USA
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { ILL = { exists = yes } }
-		declare_war_on = {
-    		target = ILL
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { GRL = { exists = yes } }
-		declare_war_on = {
-    		target = GRL
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { NEA = { exists = yes } }
-		declare_war_on = {
-    		target = NEA
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { APP = { exists = yes } }
-		declare_war_on = {
-    		target = APP
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { ARK = { exists = yes } }
-		declare_war_on = {
-    		target = ARK
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { ATM = { exists = yes } }
-		declare_war_on = {
-    		target = ATM
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { BSA = { exists = yes } }
-		declare_war_on = {
-    		target = BSA
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { BSM = { exists = yes } }
-		declare_war_on = {
-    		target = BSM
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { CAR = { exists = yes } }
-		declare_war_on = {
-    		target = CAR
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { CHC= { exists = yes } }
-		declare_war_on = {
-    		target = CHC
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { CLM = { exists = yes } }
-		declare_war_on = {
-    		target = CLM
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { FLO = { exists = yes } }
-		declare_war_on = {
-    		target = FLO
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { IND = { exists = yes } }
-		declare_war_on = {
-    		target = IND
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { KKK = { exists = yes } }
-		declare_war_on = {
-    		target = KKK
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { LCN = { exists = yes } }
-		declare_war_on = {
-    		target = LCN
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { LOU = { exists = yes } }
-		declare_war_on = {
-    		target = LOU
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { NAF = { exists = yes } }
-		declare_war_on = {
-    		target = NAF
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { NGE = { exists = yes } }
-		declare_war_on = {
-    		target = NGE
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { NVG = { exists = yes } }
-		declare_war_on = {
-    		target = NVG 
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { NYS = { exists = yes } }
-		declare_war_on = {
-    		target = NYS
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { OKL = { exists = yes } }
-		declare_war_on = {
-    		target = OKL
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { PCA = { exists = yes } }
-		declare_war_on = {
-    		target = PCA
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { RSP = { exists = yes } }
-		declare_war_on = {
-    		target = RSP
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { SPC = { exists = yes } }
-		declare_war_on = {
-    		target = SPC
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { TEN = { exists = yes } }
-		declare_war_on = {
-    		target = TEN
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { TSC = { exists = yes } }
-		declare_war_on = {
-    		target = TSC
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { VER = { exists = yes } }
-		declare_war_on = {
-    		target = VER
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { VIR = { exists = yes } }
-		declare_war_on = {
-    		target = VIR
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { AMC = { exists = yes } }
-		declare_war_on = {
-    		target = AMC
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { AMS = { exists = yes } }
-		declare_war_on = {
-    		target = AMS 
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { GAU = { exists = yes } }
-		declare_war_on = {
-    		target = GAU
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { LAK = { exists = yes } }
-		declare_war_on = {
-    		target = LAK
-    		type = annex_everything
-		}
-		}
-		if = { 
-		limit = { CSD = { exists = yes } }
-		declare_war_on = {
-    		target = CSD
-    		type = annex_everything
-		}
-		}
-		}
 		}
 	}

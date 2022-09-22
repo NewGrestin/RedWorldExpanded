@@ -22,8 +22,8 @@ focus_tree = {
 shared_focus = {
 	id = JAP_After_Tamogami
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 7
-	y = 7
+	x = -5
+	y = 0
 
 	cost = 5
 
@@ -41,8 +41,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Brother_of_Abe
 	icon = GFX_goal_JAP_Kishi
-	x = 8
-	y = 8
+	x = -4
+	y = 1
 
 	cost = 5
 	prerequisite = { focus = JAP_After_Tamogami }
@@ -63,9 +63,9 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Our_Atomic_Japan
-	icon = GFX_goal_JAP_Toshio_Gov
-	x = 8
-	y = 10
+	icon = GFX_push_for_nuclear_power
+	x = -4
+	y = 3
 
 	cost = 5
 	prerequisite = { focus = JAP_Brother_of_Abe }
@@ -87,8 +87,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_The_Gunji_Otaku
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 10
-	y = 8
+	x = -2
+	y = 1
 
 	cost = 5
 	prerequisite = { focus = JAP_After_Tamogami }
@@ -109,9 +109,9 @@ shared_focus = {
 
 shared_focus = {
 	id = JAP_Revitalize_Japanese_Arms_Industry
-	icon = GFX_goal_JAP_Toshio_Gov
-	x = 9
-	y = 9
+	icon = GFX_mass_fund_the_army
+	x = -3
+	y = 2
 
 	cost = 10
 	prerequisite = { focus = JAP_Brother_of_Abe focus = JAP_The_Gunji_Otaku }
@@ -155,8 +155,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Introduce_the_JMF
 	icon = GFX_goal_Generic_Special_Forces_Recon
-	x = 10
-	y = 10
+	x = -2
+	y = 3
 
 	cost = 5
 	prerequisite = { focus = JAP_The_Gunji_Otaku }
@@ -178,8 +178,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Preemptive_Strike
 	icon = GFX_goal_generic_Korea_War
-	x = 11
-	y = 9
+	x = -1
+	y = 2
 
 	cost = 5
 	prerequisite = { focus = JAP_The_Gunji_Otaku }
@@ -211,8 +211,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Realization_of_Happy_Japan
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 6
-	y = 8
+	x = -6
+	y = 1
 
 	cost = 5
 	prerequisite = { focus = JAP_After_Tamogami }
@@ -234,8 +234,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Combat_the_Demographic_Issue
 	icon = GFX_goal_generic_Child_Care
-	x = 6
-	y = 9
+	x = -6
+	y = 2
 
 	cost = 5
 	prerequisite = { focus = JAP_Realization_of_Happy_Japan }
@@ -257,8 +257,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_New_Japan_Policy
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 4
-	y = 8
+	x = -8
+	y = 1
 
 	cost = 5
 	prerequisite = { focus = JAP_After_Tamogami }
@@ -276,8 +276,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Natalist_Agenda
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 5
-	y = 10
+	x = -7
+	y = 3
 
 	cost = 5
 	prerequisite = { focus = JAP_New_Japan_Policy }
@@ -299,8 +299,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Party_of_the_Japanese_Farmer
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 4
-	y = 9
+	x = -8
+	y = 2
 
 	cost = 5
 	prerequisite = { focus = JAP_New_Japan_Policy }
@@ -318,8 +318,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Embrace_Dirigism 
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 2
-	y = 9
+	x = -10
+	y = 2
 
 	cost = 5
 	prerequisite = { focus = JAP_New_Japan_Policy }
@@ -337,8 +337,8 @@ shared_focus = {
 shared_focus = {
 	id = JAP_Streamline_the_Bureaucracy
 	icon = GFX_goal_JAP_Toshio_Gov
-	x = 2
-	y = 10
+	x = -10
+	y = 3
 
 	cost = 5
 	prerequisite = { focus = JAP_Embrace_Dirigism }
@@ -387,7 +387,7 @@ shared_focus = {
 	icon = GFX_goal_WAF_An_arab_among_africans
 	x = 3
 	y = 1
-	prerequisite = { focus = JAP_Tamogamis_LDP }
+	prerequisite = { focus = JAP_Tamogamis_LDP focus = JAP_After_Tamogami }
 	cost = 5
 
 
@@ -397,7 +397,7 @@ shared_focus = {
 
 
 	completion_reward = {
-	JAP_bureaucracy_level_up = yes
+
 	}
 }
 
@@ -435,6 +435,21 @@ shared_focus = {
 
 
 	completion_reward = {
+	every_country = { 
+	limit = { 
+	OR = {
+	original_tag = VIN
+	original_tag = PHI
+	original_tag = SIA
+	original_tag = MAY
+	original_tag = SIG
+	}
+	}
+	reverse_add_opinion_modifier = {
+    	target = JAP
+    	modifier = minor_diplomatic_ties 
+	}
+	}
 
 	}
 }
@@ -890,7 +905,10 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	modify_timed_idea = {
+    	idea = RWE_JAP_Toshinomics 
+    	days = 90
+	}
 	}
 }
 
@@ -914,7 +932,12 @@ shared_focus = {
 
 
 	completion_reward = {
-
+	add_popularity = { ideology = nationalist popularity = 0.05 }
+	add_stability = 0.05
+	modify_timed_idea = {
+    	idea = RWE_JAP_Toshinomics 
+    	days = 90
+	}
 	}
 }
 

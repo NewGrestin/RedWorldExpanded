@@ -185,6 +185,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/WAF_against_panarabism.tga"			
 	}
 	SpriteType = {
+		name = "GFX_goal_WAF_Gadaffi"
+		texturefile = "gfx/interface/goals/WAF_Gadaffi.tga"			
+	}
+	SpriteType = {
 		name = "GFX_goal_GRL_University_Marxism"
 		texturefile = "gfx/interface/goals/GRL_University_Marxism.tga"			
 	}
