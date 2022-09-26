@@ -1688,7 +1688,7 @@ technologies = {
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 27 y = 2 }
+			position = { x = 27 y = 2.5 }
 		}
 	
 		ai_will_do = {
@@ -1745,6 +1745,10 @@ technologies = {
 	}
 
 	improved_INS = {
+
+		category_missile = {
+		air_agility = 0.05
+		}
 	
 		research_cost = 1.0
 		start_year =  2010
@@ -1774,7 +1778,7 @@ technologies = {
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 23 y = 6 }
+			position = { x = 23 y = 6.5 }
 		}
 
 		dependencies = {
@@ -1810,7 +1814,7 @@ technologies = {
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 28 y = 6 }
+			position = { x = 28 y = 6.5 }
 		}
 	
 		ai_will_do = {
@@ -1853,7 +1857,27 @@ technologies = {
 		ai_research_weights = { offensive = 1 }
 		
 		research_cost = 0.5
-		start_year =  2013
+		start_year =  2014
+	
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+
+	ship_launched_ballistic_missile_3 = {
+
+		enable_equipments = {
+			ship_launched_ballistic_missile_3_equipment 
+		}
+
+		ai_research_weights = { offensive = 1 }
+		
+		research_cost = 0.5
+		start_year =  2016
 	
 		ai_will_do = {
 			factor = 1
@@ -1880,11 +1904,11 @@ technologies = {
 		ai_research_weights = { offensive = 1 }
 		
 		research_cost = 0.8
-		start_year =  2013
+		start_year =  2014
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 28 y = 8 }
+			position = { x = 28 y = 8.5 }
 		}
 	
 		ai_will_do = {
@@ -1912,11 +1936,11 @@ technologies = {
 		ai_research_weights = { offensive = 1 }
 		
 		research_cost = 0.8
-		start_year =  2015
+		start_year =  2016
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 28 y = 10 }
+			position = { x = 28 y = 10.5 }
 		}
 	
 		ai_will_do = {
@@ -1942,11 +1966,11 @@ technologies = {
 		ai_research_weights = { offensive = 1 }
 		
 		research_cost = 1.0
-		start_year =  2013
+		start_year =  2014
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 25 y = 8 }
+			position = { x = 25 y = 8.5 }
 		}
 	
 		ai_will_do = {
@@ -1969,16 +1993,68 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = rocket_engines 
+			leads_to_tech = icbm_2 
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1.5
-		start_year =  2013
+		start_year =  2014
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 22 y = 8 }
+			position = { x = 22 y = 8.5 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+
+	icbm_2 = {
+		
+		enable_equipments = {
+			icbm_2_equipment 
+		}
+
+		path = {
+			leads_to_tech = icbm_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year =  2014
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 22 y = 12.5 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+
+
+	icbm_3 = {
+		
+		enable_equipments = {
+			icbm_3_equipment 
+		}
+
+		research_cost = 1.5
+		start_year =  2014
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 22 y = 16.5 }
 		}
 	
 		ai_will_do = {

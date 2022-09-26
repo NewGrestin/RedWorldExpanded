@@ -81,6 +81,10 @@ equipments = {
 		naval_strike_attack = 1.5
 		naval_strike_targetting = 0.6
 
+		carrier_size = 0.01
+		default_carrier_composition_weight = 0.1
+		carrier_capable = yes 
+
 		#Space taken in convoy
 		lend_lease_cost = 1.5
 		
@@ -102,6 +106,8 @@ equipments = {
 
 		reliability = 0.6
 
+		air_defence = 2
+
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 15
 		naval_strike_targetting = 8.5
@@ -109,6 +115,10 @@ equipments = {
 		air_range = 350
 		maximum_speed = 2000
 		air_agility = 5
+
+		carrier_size = 0.01
+		default_carrier_composition_weight = 0.1
+		carrier_capable = yes 
 		
 		build_cost_ic = 10
 
@@ -119,13 +129,15 @@ equipments = {
 	}
 
 	ship_launched_ballistic_missile_2_equipment = {
-		year = 2013
+		year = 2014
 
 		archetype = naval_missile_equipment
 		is_buildable = yes
 		can_license = yes
 
 		reliability = 0.7
+
+		air_defence = 3
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 25
@@ -134,11 +146,46 @@ equipments = {
 		air_range = 550
 		maximum_speed = 2500
 		air_agility = 7
+
+		carrier_size = 0.01
+		default_carrier_composition_weight = 0.1
+		carrier_capable = yes 
 		
 		build_cost_ic = 12
 
 		resources = {
 			aluminium = 1
+			tungsten = 1
+		}
+	}
+
+	ship_launched_ballistic_missile_3_equipment = {
+		year = 2016
+
+		archetype = naval_missile_equipment
+		is_buildable = yes
+		can_license = yes
+
+		reliability = 0.7
+
+		air_defence = 4
+
+		# Air vs Navy - high damage / low hit chance / hard to hurt
+		naval_strike_attack = 40
+		naval_strike_targetting = 12
+		
+		air_range = 575
+		maximum_speed = 2600
+		air_agility = 7
+
+		carrier_size = 0.01
+		default_carrier_composition_weight = 0.1
+		carrier_capable = yes 
+		
+		build_cost_ic = 15
+
+		resources = {
+			aluminium = 2
 			tungsten = 1
 		}
 	}
@@ -151,6 +198,8 @@ equipments = {
 		can_license = yes
 
 		reliability = 0.9
+
+		air_defence = 5
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 1
@@ -170,12 +219,14 @@ equipments = {
 	}
 		
 	conventional_ballistic_missile_2_equipment = {
-		year = 2013
+		year = 2014
 
 		archetype = short_missile_equipment 
 		parent = conventional_ballistic_missile_1_equipment 
 
 		reliability = 0.9
+
+		air_defence = 7
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 1.5
@@ -195,12 +246,14 @@ equipments = {
 	}
 		
 	conventional_ballistic_missile_3_equipment = {
-		year = 2015
+		year = 2016
 
 		archetype = short_missile_equipment 
 		parent = conventional_ballistic_missile_2_equipment 
 
 		reliability = 0.9
+
+		air_defence = 10
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 1.75
@@ -214,17 +267,19 @@ equipments = {
 		build_cost_ic = 22
 
 		resources = {
-			aluminium = 1
+			aluminium = 2
 			tungsten = 1
 		}
 	}
 
 	irbm_1_equipment = {
-		year = 2012
+		year = 2014
 
 		archetype = guided_missile_equipment
 
 		reliability = 0.9
+
+		air_defence = 10
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 0
@@ -238,13 +293,13 @@ equipments = {
 		build_cost_ic = 50
 
 		resources = {
-			aluminium = 1
+			aluminium = 2
 			tungsten = 1
 		}
 	}
 	
 	icbm_1_equipment = {
-		year = 2012
+		year = 2014
 
 		archetype = guided_missile_equipment
 				
@@ -263,7 +318,56 @@ equipments = {
 
 		resources = {
 			aluminium = 2
-			tungsten = 2
+			tungsten = 1
+			
+		}
+	}
+	
+	icbm_2_equipment = {
+		year = 2018
+
+		archetype = guided_missile_equipment
+				
+		reliability = 0.95
+
+		# Air vs Navy - high damage / low hit chance / hard to hurt
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
+		
+		air_range = 17000
+		maximum_speed = 3800
+		air_agility = 40
+		air_bombing = 2500
+		
+		build_cost_ic = 150
+
+		resources = {
+			aluminium = 2
+			tungsten = 1	
+		}
+	}
+	
+	icbm_3_equipment = {
+		year = 2022
+
+		archetype = guided_missile_equipment
+				
+		reliability = 0.95
+
+		# Air vs Navy - high damage / low hit chance / hard to hurt
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
+		
+		air_range = 18000
+		maximum_speed = 4800
+		air_agility = 60
+		air_bombing = 3500
+		
+		build_cost_ic = 170
+
+		resources = {
+			aluminium = 3
+			tungsten = 2	
 		}
 	}
 }

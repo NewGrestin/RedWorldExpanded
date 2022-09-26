@@ -2120,6 +2120,22 @@ guiTypes = {
 				
 			}
 
+			containerWindowType = {
+				name = "techtree_stripes_2"
+				position = { x= 2000 y= -30 }
+				size = {
+					width = 1200 height = 1300
+					min = { width=100%% height=100%% }
+				}
+				clipping = no
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripes"
+				}			
+				
+			}
+
 			instantTextBoxType = {
 				name = "airtech_year2"
 				position = { x = 30 y = 160 }
@@ -2320,6 +2336,59 @@ guiTypes = {
 					format = right
 					Orientation = "UPPER_LEFT"
 				}
+
+				instantTextBoxType = {
+					name = "airtech_year11"
+					position = { x = 220 y = 715 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2016"
+					maxWidth = 170
+					maxHeight = 32
+					format = right
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "airtech_year12"
+					position = { x = 220 y = 850 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2018"
+					maxWidth = 170
+					maxHeight = 32
+					format = right
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "airtech_year13"
+					position = { x = 220 y = 985 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2020"
+					maxWidth = 170
+					maxHeight = 32
+					format = right
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "airtech_year14"
+					position = { x = 220 y = 1125 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2022"
+					maxWidth = 170
+					maxHeight = 32
+					format = right
+					Orientation = "UPPER_LEFT"
+				}
+
 			}
 
 				
@@ -2488,17 +2557,17 @@ guiTypes = {
 				format = "UP"
 			}
 
-			#containerWindowType = {
-			#	name = "tiled_research_bg1"
-			#	position = { x = 2100 y = 125 }
-			#	size = { width = 715 height = 550 }
-			#	clipping = no
+			containerWindowType = {
+				name = "tiled_research_bg1"
+				position = { x = 2000 y = 25 }
+				size = { width = 815 height = 1225 }
+				clipping = no
 	
-			#	background = {
-			#		name = "Background"
-			#		quadTextureSprite ="GFX_tiled_research_bg"
-			#	}			
-			#}
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}			
+			}
 		}
 
 		containerWindowType = {
